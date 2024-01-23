@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule176({ navigation }) {
   return (
@@ -11,8 +12,9 @@ export default function Rule176({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT U - Review Officials Duties and Procedures for the ELC Systems</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT T - Review Officials Duties and Procedures for the ELC Systems</Text>{'\n\n'}
 
             {'\n\n'}• The ELC Review Official (RO) shall be designated by the governing body responsible for the Tournament
             {'\n\n'}• Attend all mandatory official’s meetings and requested training
@@ -60,6 +62,7 @@ export default function Rule176({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule175', next: 'Rule177', nav: navigation }} />

@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule181({ navigation }) {
   return (
@@ -10,8 +11,9 @@ export default function Rule181({ navigation }) {
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT X - Writing Table For Umpire Chairs</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT W - Writing Table For Umpire Chairs</Text>{'\n\n'}
             {'\n\n'}
             In an effort to provide a comfortable platform for the Chair Umpires to place their
             hardware such as tablet, walkie-talkie, net device handset, it is requested that all
@@ -39,6 +41,7 @@ export default function Rule181({ navigation }) {
             product could also be used in countries using the metric standard.
             {'\n\n'}
           </Text>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule181_1.png'}}/>
           <Text>{'\n\n'}</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule181_2.png'}}/>

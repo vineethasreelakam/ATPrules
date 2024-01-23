@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 export default function Rule130({ navigation }) {
   return (
@@ -11,6 +12,7 @@ export default function Rule130({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>9.06 Retiring from the Professional Tennis Circuit</Text>{'\n\n'}
             Any player wishing to officially retire from the professional tennis circuit must submit a
@@ -20,6 +22,7 @@ export default function Rule130({ navigation }) {
             Anti-Doping Program regarding reinstatement protocol
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule129', next: 'Rule131', nav: navigation }} />

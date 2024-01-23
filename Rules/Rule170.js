@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 export default function Rule170({ navigation }) {
   return (
     <>
@@ -11,6 +11,7 @@ export default function Rule170({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>EXHIBIT O - Consent and Agreement Form
             </Text>{'\n\n'}
@@ -22,7 +23,7 @@ export default function Rule170({ navigation }) {
 
             I, the undersigned player, acknowledge, consent and agree as follows:
             {'\n\n'}1. I will comply with and be bound by all of the provisions of the 2023 ATP OFFICIAL
-            RULEBOOK and the ATP Tour, Inc.’s (“ATP”) By-Laws (the “ATP Rules”), including,
+            RULEBOOK, ATP Tour, Inc.’s (“ATP”) By-Lawss, resolutions and regulations  (the “ATP Rules”), including,
             but not limited to, all amendments to the ATP Rules. I have received and had an opportunity to review the ATP Rules and any and all Covid-19 policies and protocols, as
             amended from time to time.
             {'\n\n'}
@@ -49,7 +50,8 @@ export default function Rule170({ navigation }) {
             and enforce the TACP and to the jurisdiction and authority of the ITIA, Anti-Corruption Hearing Officer (“AHO”) and the Court of Arbitration for Sport (“CAS”), as applicable, to determine any charges brought under the TACP. I acknowledge that the
             TACP contains an agreement to arbitrate disputes in accordance with the process
             described in the TACP and I am bound by the TACP until the earlier of (i) the date of
-            my valid retirement in accordance with the requirements of the TADP, or (ii) two years
+            my valid retirement in accordance with the requirements of the Tennis Anti-Doping Programme
+            (the “TADP”), a copy of which is available online at https://www.itia.tennis/tadp/rules/, or (ii) two years
             after the last Event (as defined in the TACP) in which I enter or participate, unless,
             at either such time, (a) I am subject to a period of ineligibility under either the TACP
             or TADP (in which case I will cease to be bound by the TADP upon the conclusion of
@@ -58,9 +60,8 @@ export default function Rule170({ navigation }) {
             when such investigation is closed, or after 10 years, whichever is earlier). Nothing in
             this paragraph 2 shall modify or limit the full text of the TACP.
             {'\n\n'}
-            3. The ITIA may conduct anti-doping testing at ATP sanctioned events under the Tennis
-            Anti-Doping Programme (the “TADP”), a copy of which is available online at https://
-            www.itia.tennis/tadp/rules/. ATP will honor and enforce any penalties or sanctions
+            3. The ITIA may conduct anti-doping testing at ATP sanctioned events under the “TADP”. 
+            ATP will honor and enforce any penalties or sanctions
             against me resulting from the TADP. The TADP shall apply to and be binding upon me
             and shall govern participation in the events specified at Article B of the TADP, which
             includes all ATP-sanctioned events (including Challenger events). I hereby submit to
@@ -81,7 +82,7 @@ export default function Rule170({ navigation }) {
             communicated to me.
             {'\n\n'}
             5. Any dispute between or among the ATP and me arising out of the application of any
-            provision of the 2023 ATP Official Rulebook which is not finally resolved by applicable provisions of such Rulebook shall be submitted exclusively to CAS for final and
+            provision of the 2024 ATP Official Rulebook which is not finally resolved by applicable provisions of such Rulebook shall be submitted exclusively to CAS for final and
             binding arbitration in accordance with CAS’s Code of Sports-Related Arbitration. The
             decision of CAS in that arbitration shall be final, non-reviewable and enforceable. No
             claim, arbitration, lawsuit or litigation concerning the dispute shall be brought in any
@@ -90,7 +91,7 @@ export default function Rule170({ navigation }) {
             provision of this clause is determined invalid or unenforceable, the remaining provisions shall not be affected. This clause shall not fail because any part of the rule is
             held invalid.
             {'\n\n'}
-            6. I acknowledge the Notices of Privacy Practice is set forth in the ATP Rule Book and
+            6. I acknowledge the Notices of Privacy Practices and Consent is set forth in the ATP Rulebook and
             is available online at https://www.atppz.com. I understand that the GDPR (General
             Data Protection Regulation) Privacy Notice is available at this same site under PlayerZone Terms & Conditions. I also acknowledge that I have reviewed these notices
             and agree to the terms and conditions contained therein.
@@ -130,6 +131,7 @@ export default function Rule170({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule169', next: 'Rule171', nav: navigation }} />

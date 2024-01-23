@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 export default function Rule129({ navigation }) {
   return (
     <>
@@ -11,8 +11,9 @@ export default function Rule129({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>9.05 2023 Pepperstone ATP Doubles Team Rankings</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>9.05 2024 Pepperstone ATP Doubles Team Rankings</Text>{'\n\n'}
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>A. </Text>
             Each team is ranked according to its total points from its best 19 results from all eligible tournaments (Grand Slam, ATP Tour, including the Nitto ATP Finals, ATP Challenger Tour, ITF Men’s WTT) played in the calendar year.
@@ -27,10 +28,11 @@ export default function Rule129({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>D.Points. </Text>
             The provisions set forth under 7.08 E., including a), b) and c), apply as well
-            when calculating the 2023 Pepperstone ATP Doubles Team Rankings.
+            when calculating the 2024 Pepperstone ATP Doubles Team Rankings.
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule128', next: 'Rule130', nav: navigation }} />

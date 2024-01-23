@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 
 export default function Rule103({ navigation }) {
@@ -12,6 +13,7 @@ export default function Rule103({ navigation }) {
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                   <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>7.13 Selection of Entries</Text>
                         {'\n\n'}
@@ -318,6 +320,7 @@ export default function Rule103({ navigation }) {
                         offer compensation in exchange for the awarding of a wild card.
                         {'\n\n'}
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule102', next: 'Rule104', nav: navigation }} />

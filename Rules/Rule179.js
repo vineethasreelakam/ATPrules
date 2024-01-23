@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule179({ navigation }) {
   return (
@@ -10,8 +11,9 @@ export default function Rule179({ navigation }) {
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT V - Anti-Doping Testing Facilities Guidelines</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT U - Anti-Doping Testing Facilities Guidelines</Text>{'\n\n'}
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>Doping Control Station
             </Text>
@@ -52,13 +54,14 @@ export default function Rule179({ navigation }) {
             Items to be supplied in the Doping Control Station (for all draw sizes):
             {'\n\n'}
           </Text>
-
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule179_1.png'}}/>
-
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             A suggested layout for a doping control station is shown in the following diagram:
             {'\n\n'}
           </Text>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule179_2.png'}}/>
           <Text>{'\n\n'}</Text>
         </ScrollView>

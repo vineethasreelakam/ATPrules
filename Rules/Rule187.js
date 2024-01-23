@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule187({ navigation }) {
   return (
@@ -10,8 +11,9 @@ export default function Rule187({ navigation }) {
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT AD - ATP Fantasy Sport and Betting Sponsorship</Text>
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT AB - ATP Fantasy Sport and Betting Sponsorship</Text>
            
            
             {'\n\n'}
@@ -173,7 +175,7 @@ export default function Rule187({ navigation }) {
 
             {'\n\n'}
           </Text>
-
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule187.png'}}/>
           <Text>{'\n\n'}</Text>
         </ScrollView>

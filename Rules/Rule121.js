@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 export default function Rule121({ navigation }) {
   return (
@@ -11,6 +12,7 @@ export default function Rule121({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>VIII. THE CODE</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>8.05 Player Major Offenses/Procedures</Text>{'\n\n'}
 
@@ -73,7 +75,7 @@ export default function Rule121({ navigation }) {
             {'\n\n'}
             d) A player, or related person, charged with a violation of a criminal or civil law
             of any jurisdiction may be deemed by virtue of such charge to have engaged
-            in conduct contrary to the integrity of the Game of Tennis and the ATP Fines
+            in conduct contrary to the integrity of the Game of Tennis and the ATP Members Fines
             Committee may provisionally suspend such player, or related person, from
             further participation in ATP tournaments pending a final determination of the
             criminal or civil proceeding.
@@ -104,9 +106,9 @@ export default function Rule121({ navigation }) {
             The maximum fine will increase by one hundred percent (100%) for each
             consecutive violation during the same calendar year.
             {'\n\n'}
-            c) If the ATP Fines Committee believes that a player may be violating this section, then upon demand, the player or his agent, must furnish or provide access to the ATP Fines Committee copies of all records relating to their participation in or, in the absence of such records, an affidavit setting forth the
+            c) If the ATP Members Fines Committee believes that a player may be violating this section, then upon demand, the player or his agent, must furnish or provide access to the ATP Members Fines Committee copies of all records relating to their participation in or, in the absence of such records, an affidavit setting forth the
             facts with respect to any transaction in question. In the event a player fails to
-            provide the records or affidavit, the ATP Fines Committee may suspend him
+            provide the records or affidavit, the ATP Members Fines Committee may suspend him
             from participation in ATP Tour and ATP Challenger Tour tournaments pending
             compliance with such demand.
 
@@ -116,15 +118,15 @@ export default function Rule121({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>1) Determination and Penalty</Text>
             {'\n\n'}
-            The ATP Fines Committee shall conduct such investigation of an alleged player
-            major offense as they, in their sole discretion, determine is appropriate and necessary. Upon completion of their investigation, the ATP Fines Committee shall determine whether a player major offense has occurred and, if so, shall fix a penalty
+            The ATP Members Fines Committee shall conduct such investigation of an alleged player
+            major offense as they, in their sole discretion, determine is appropriate and necessary. Upon completion of their investigation, the ATP Members Fines Committee shall determine whether a player major offense has occurred and, if so, shall fix a penalty
             to be imposed. A copy of the decision setting forth such penalty shall be promptly
             delivered to the player.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>2) Payment of Fines</Text>
             {'\n\n'}
             The player shall pay all fines levied for player major offenses to ATP by delivery
-            to the ATP Fines Committee within twenty-one (21) days after receiving written
+            to the ATP Members Fines Committee within twenty-one (21) days after receiving written
             notice.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>3) Appeal</Text>
@@ -139,24 +141,24 @@ export default function Rule121({ navigation }) {
             The ATP Senior Vice President - Rules & Competition or his designee shall conduct the hearing on appeal in accordance with the following:
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>a) Burden of Proof. </Text>
-            The ATP Fines Committee has the responsibility to prove
+            The ATP Members  Fines Committee has the responsibility to prove
             the violation by a preponderance of the evidence.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>b) Rules. </Text>
             The ATP Senior Vice President - Rules & Competition or his designee
             must conduct the hearing in a fair and orderly manner with opportunity for
             each side to present its evidence as to the facts involved, and the player and
-            his representative, if any, and the ATP Fines Committee are bound to cooperate fully to this end.
+            his representative, if any, and the ATP Members Fines Committee are bound to cooperate fully to this end.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>c) Statement of Position. </Text>
-            The ATP Senior Vice President - Rules & Competition or his designee may request the ATP Fines Committee and the player
+            The ATP Senior Vice President - Rules & Competition or his designee may request the ATP Members Fines Committee and the player
             to state in writing their respective positions on the facts, the provision(s) of
             the Code allegedly violated and the penalty specified and file the same with
             the ATP Senior Vice President - Rules & Competition or his designee at least
             three (3) days prior to the hearing, with a copy to each other.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>d) Presentation. </Text>
-            The ATP Fines Committee and the player may present evidence personally or through counsel. Each party shall have the right to
+            The ATP Members Fines Committee and the player may present evidence personally or through counsel. Each party shall have the right to
             present and to cross-examine witnesses, and to offer documentary evidence
             and testimony by affidavit or deposition. Except for purposes of rebuttal,
             documentary evidence and affidavits shall not be admissible unless a copy
@@ -199,7 +201,7 @@ export default function Rule121({ navigation }) {
             the interpreter, legal advisor and any adverse witness required upon objection
             to testify concerning facts originally presented by way of affidavit. If the costs are
             taxed against a player, then they must be paid by the player to ATP by delivery to
-            the ATP Fines Committee within (10) days after receipt of the decision of the ATP
+            the ATP Members Fines Committee within (10) days after receipt of the decision of the ATP
             Senior Vice President - Rules & Competition or his designee.
 
 
@@ -231,6 +233,7 @@ export default function Rule121({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule120', next: 'Rule122', nav: navigation }} />

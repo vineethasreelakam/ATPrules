@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule178({ navigation }) {
   return (
@@ -11,8 +12,9 @@ export default function Rule178({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT U.2 - Live Electronic Line Calling System (LIVE ELC)</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT T.2 - Live Electronic Line Calling System (LIVE ELC)</Text>{'\n\n'}
             A line calling system making automated line calls with no Line Umpires on-court.
 
             <Text style={RuleStyles.SubHeading2}>LIVE ELC Review Official Procedures and Protocols
@@ -159,6 +161,7 @@ export default function Rule178({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule177', next: 'Rule179', nav: navigation }} />

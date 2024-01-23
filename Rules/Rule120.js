@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 export default function Rule120({ navigation }) {
   return (
@@ -11,6 +12,7 @@ export default function Rule120({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>VIII. THE CODE</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+         <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>8.04 Player Code of Conduct (“Code”)</Text>{'\n\n'}
 
@@ -42,7 +44,9 @@ export default function Rule120({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule120_1.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
 
 
@@ -54,7 +58,9 @@ export default function Rule120({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule120_2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             {'\n\n'}
             *For purposes of determining 2nd, 3rd and Subsequent Offenses, only Late
@@ -391,7 +397,7 @@ export default function Rule120({ navigation }) {
 
             The player may appeal the fine and ranking penalty to the Appeals Tribunal
             as specified below under “Review of Penalties for Entry and Commitment
-            Offenses”. See also ATP Tour 500 - Ranking Penalty, page 240.
+            Offenses”. See also ATP Tour 500 - Ranking Penalty, page 250.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>e) Replacement Event. </Text>
             {'\n\n'}
@@ -400,7 +406,7 @@ export default function Rule120({ navigation }) {
             zero (0) point by playing an additional ATP Tour 500 event in that same calendar year for a total of four (4) played. The replacement tournament must be
             after the 500 withdrawal that has resulted in a ranking penalty. Only one (1)
             additional ATP Tour 500 event per year may be used to replace an ATP Tour
-            500 ranking penalty. See also ATP Tour 500 - Ranking Penalty, page 240.
+            500 ranking penalty. See also ATP Tour 500 - Ranking Penalty, page 250.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>3) ATP Tour Masters 1000</Text>
             {'\n\n'}
@@ -506,6 +512,8 @@ export default function Rule120({ navigation }) {
             Doctor.
 
             </Text>
+            </ZoomText>
+            <ZoomText>
             <Text style={RuleStyles.Description}>
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>J. Review of Penalties for Entry and Commitment Offenses</Text>
@@ -688,14 +696,12 @@ export default function Rule120({ navigation }) {
             Players are permitted to use drink containers oncourt if they are of reasonable size and they contain no logo or writing
             of the drink manufacturer. ATP has designated three (3) beverage
             categories of drinks for purposes of this rule: bottled water, electrolyte
-            or other drinks. The Supervisor may approve for use on-court a reasonably sized drink container that has a logo or writing, not to exceed
+            or other drinks (soft drinks, energy drinks and any other drink with the exception of alcoholic drinks and tea / cofee). The Supervisor may approve for use on-court a reasonably sized drink container that has a logo or writing, not to exceed
             four (4) square inches (26 sq. cm.) if:
             {'\n\n'}
-            · The center court drink sponsor is the same as the player’s drink
-            container manufacturer, or;
+            · The advertised on-court drink sponsor is the same as the player’s drink container manufacturer, or;
             {'\n\n'}
-            · The advertised center court drink sponsor(s) is not in the same
-            beverage category as the player’s drink container.
+            · The advertised on-court drink sponsor(s) is not in the same beverage category as the player’s drink container.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>3. Hat or Headband. </Text>
             One (1) standard logo of a clothing manufacturer
@@ -916,6 +922,8 @@ export default function Rule120({ navigation }) {
             <Text style={RuleStyles.SubHeading3}>ii) Tennis Equipment Manufacturer’s logo. </Text>
 
             </Text>
+            </ZoomText>
+            <ZoomText>
             <Text style={RuleStyles.Description}>
             Violation of the provisions with
             respect to standard logos of manufacturers shall result in a fine up to:
@@ -1040,11 +1048,11 @@ export default function Rule120({ navigation }) {
             Masters 1000 tournaments for each violation. The maximum fine will increase by one hundred percent (100%) for each consecutive violation
             during the same calendar year. In addition, if such violation occurs during
             a match, the player shall be penalized in accordance with the Point Penalty Schedule. In circumstances that are flagrant and particularly injurious to the success of a tournament, or are singularly egregious, the ATP
-            Supervisor may refer the matter to the ATP Fines Committee who shall
+            Supervisor may refer the matter to the ATP Members Fines Committee who shall
             conduct an investigation to determine whether the player Major Offense
             of Aggravated Behavior or Conduct Contrary to the Integrity of the Game
             has occurred. Prize money earned at that event shall be held by ATP until
-            the ATP Fines Committee has concluded their investigation and made a
+            the ATP Members Fines Committee has concluded their investigation and made a
             determination.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}> d) Verbal Abuse</Text>
@@ -1059,11 +1067,11 @@ export default function Rule120({ navigation }) {
             Masters 1000 tournaments for each violation. The maximum fine will increase by one hundred percent (100%) for each consecutive violation
             during the same calendar year. In addition, if such violation occurs during
             a match, the player shall be penalized in accordance with the Point Penalty Schedule. In circumstances that are flagrant and particularly injurious to the success of a tournament, or are singularly egregious, the ATP
-            Supervisor may refer the matter to the ATP Fines Committee who shall
+            Supervisor may refer the matter to the ATP Members Fines Committee who shall
             conduct an investigation to determine whether the player Major Offense
             of Aggravated Behavior or Conduct Contrary to the Integrity of the Game
             has occurred. Prize money earned at that event shall be held by ATP until
-            the ATP Fines Committee has concluded their investigation and made a
+            the ATP Members Fines Committee has concluded their investigation and made a
             determination.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>e) Audible Obscenity</Text>
@@ -1114,11 +1122,11 @@ export default function Rule120({ navigation }) {
             Masters 1000 tournaments for each violation. The maximum fine will increase by one hundred percent (100%) for each consecutive violation
             during the same calendar year. In addition, if such violation occurs during
             a match, the player shall be penalized in accordance with the Point Penalty Schedule. In circumstances that are flagrant and particularly injurious to the success of a tournament, or are singularly egregious, the ATP
-            Supervisor may refer the matter to the ATP Fines Committee who shall
+            Supervisor may refer the matter to the ATP Members Fines Committee who shall
             conduct an investigation to determine whether the player Major Offense
             of Aggravated Behavior or Conduct Contrary to the Integrity of the Game
             has occurred. Prize money earned at that event shall be held by ATP until
-            the ATP Fines Committee has concluded their investigation and made a
+            the ATP Members Fines Committee has concluded their investigation and made a
             determination.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>h) Best Efforts</Text>
@@ -1134,11 +1142,11 @@ export default function Rule120({ navigation }) {
             {'\n\n'}
             ii) For purposes of this rule, the Supervisor and/or the Chair Umpire shall
             have the authority to penalize a player in accordance with the Point Penalty Schedule. In circumstances that are flagrant and particularly injurious to the success of a tournament, or are singularly egregious, the ATP
-            Supervisor may refer the matter to the ATP Fines Committee who shall
+            Supervisor may refer the matter to the ATP Members Fines Committee who shall
             conduct an investigation to determine whether the player Major Offense
             of Aggravated Behavior or Conduct Contrary to the Integrity of the Game
             has occurred. Prize money earned at that event shall be held by ATP until
-            the ATP Fines Committee has concluded their investigation and made a
+            the ATP Members Fines Committee has concluded their investigation and made a
             determination.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>i) Leaving the Court</Text>
@@ -1207,7 +1215,7 @@ export default function Rule120({ navigation }) {
             comply with such order, may declare an immediate default of such player.
             {'\n\n'}
             *Coaching is allowed at ATP Tour and Challenger Tour tournaments through the
-            end of 2023 on a trial basis with the following conditions:
+            end of 2024 on a trial basis with the following conditions:
             {'\n\n'}
             ● The coach must sit in the tournament’s designated coaches’ seats
             {'\n\n'}● Verbal coaching is permitted only when the player is at the same end of
@@ -1217,8 +1225,8 @@ export default function Rule120({ navigation }) {
             {'\n\n'}● Coaching (verbal and non-verbal) is allowed only if it does not interrupt
             play or create any hindrance to the opponent
             {'\n\n'}● Players may approach their coach or engage in conversation with their
-            coach ONLY during the opposing player’s Medical Timeout or a Toilet
-            Break/Change of Attire Break
+            coach during an opposing player’s Medical Timeout or a Toilet
+            Break/Change of Attire Break or another break approved by the Chair Umpire during which the players remain on court
             {'\n\n'}● Coaches may not speak to their player, when the player leaves the court
             for any reason
             {'\n\n'}● Penalties and fines to apply for abuse or misuse of the coaching conditions
@@ -1334,7 +1342,9 @@ export default function Rule120({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule120_3.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             {'\n\n'}
 
@@ -1481,10 +1491,9 @@ export default function Rule120({ navigation }) {
             b) ATP Challenger Tour Tournament Qualifying Competition. A maximum of
             $100 for each violation.
             {'\n\n'}
-            2) The ATP Fines Committee shall have the authority to investigate statements or
+            2) The ATP Members Fines Committee shall have the authority to investigate statements or
             actions made by a player that are not heard or seen by on-court officials by reviewing tapes of televised matches. After reviewing all facts and circumstances,
-            the ATP Fines Committee may determine that a violation of the Code has oc-
-            curred and shall specify the fine and/or other punishment. The player shall be
+            the ATP Members Fines Committee may determine that a violation of the Code has occurred and shall specify the fine and/or other punishment. The player shall be
             given written notice of the violation and fine. The player shall have the right to appeal such determination to the ATP Senior Vice President - Rules & Competition,
             consistent with the procedures outlined in the Code.
 
@@ -1506,14 +1515,14 @@ export default function Rule120({ navigation }) {
             <Text style={RuleStyles.SubHeading2}>O.Procedures for Appeal</Text>
             {'\n\n'}
             1) Except for appeals of violations of the Stars Program, any player in violation of a
-            player on-site offense may, after paying all fines, appeal to the ATP Fines Committee for review of a determination of guilt and the penalty assessed.
+            player on-site offense may, after paying all fines, appeal to the ATP Members Fines Committee for review of a determination of guilt and the penalty assessed.
             {'\n\n'}
             2) Any player found to have committed a player on-site offense may appeal such
-            decision in writing to the ATP Fines Committee. Such appeal shall be lodged
-            within ten (10) days of the on-site offense. The ATP Fines Committee shall review
+            decision in writing to the ATP Members Fines Committee. Such appeal shall be lodged
+            within ten (10) days of the on-site offense. The ATP Members Fines Committee shall review
             the Appeal within twenty-one (21) days and, if necessary, designate a date, time
-            and place for a hearing. At the hearing, the player shall present to the ATP Fines
-            Committee his respective positions on the facts. The ATP Fines Committee may
+            and place for a hearing. At the hearing, the player shall present to the ATP Members Fines
+            Committee his respective positions on the facts. The ATP Members Fines Committee may
             affirm, reverse or modify the penalty initially imposed by the Supervisor.
 
 
@@ -1559,7 +1568,7 @@ export default function Rule120({ navigation }) {
             Rules & Competition should be addressed as follows, unless notice of change is
             subsequently published.
 
-            {'\n\t'}ATP Fines Committee or SVP - Rules & Competition
+            {'\n\t'}ATP Members Fines Committee or SVP - Rules & Competition
             {'\n\t'}ATP Americas
             {'\n\t'}201 ATP Blvd
             {'\n\t'}Ponte Vedra Beach, FL 32082, USA
@@ -1573,6 +1582,7 @@ export default function Rule120({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule119', next: 'Rule121', nav: navigation }} />

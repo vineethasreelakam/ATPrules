@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule177({ navigation }) {
   return (
@@ -10,9 +11,9 @@ export default function Rule177({ navigation }) {
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
-
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT U.1 - Review Electronic Line Calling System (Review ELC)</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT T.1 - Review Electronic Line Calling System (Review ELC)</Text>{'\n\n'}
             A Line calling system with a challenge process (Line Umpires on-court)
 
 
@@ -378,6 +379,7 @@ export default function Rule177({ navigation }) {
             </Text>
             {'\n\n'}
           </Text>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule177.png'}}/>
           <Text>{'\n\n'}</Text>
         </ScrollView>

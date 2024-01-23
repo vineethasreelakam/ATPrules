@@ -171,7 +171,7 @@ import Rule169 from '../Rules/Rule169.js';
 import Rule170 from '../Rules/Rule170.js'; 
 import Rule171 from '../Rules/Rule171.js'; 
 import Rule172 from '../Rules/Rule172.js'; 
-import Rule173 from '../Rules/Rule173.js'; 
+// import Rule173 from '../Rules/Rule173.js'; 
 import Rule174 from '../Rules/Rule174.js'; 
 import Rule175 from '../Rules/Rule175.js'; 
 import Rule176 from '../Rules/Rule176.js'; 
@@ -181,7 +181,7 @@ import Rule179 from '../Rules/Rule179.js';
 import Rule180 from '../Rules/Rule180.js'; 
 import Rule181 from '../Rules/Rule181.js'; 
 import Rule182 from '../Rules/Rule182.js'; 
-import Rule183 from '../Rules/Rule183.js'; 
+// import Rule183 from '../Rules/Rule183.js'; 
 import Rule184 from '../Rules/Rule184.js'; 
 import Rule185 from '../Rules/Rule185.js'; 
 import Rule186 from '../Rules/Rule186.js'; 
@@ -6559,7 +6559,7 @@ export const AllPageIndexList = [
 	"                        performance of their duties." +
 	"                        {'\\n\\n'}" +
 	"                       3) Specifications. Requirements / recommendations for the media work room can" +
-	"                        be found in “Exhibit S - Media Facilities Guidelines”." +
+	"                        be found in “Exhibit R - Media Facilities Guidelines”." +
 	"                        {'\\n\\n'}" +
 	"                        C. Player Interview Rooms" +
 	"                        {'\\n\\n'}" +
@@ -6595,7 +6595,7 @@ export const AllPageIndexList = [
 	"                        Tournaments are recommended to use web filtering technology to restrict access to" +
 	"                        internet gambling sites in all areas where tournament provided access is provided." +
 	"                        {'\\n\\n'}" +
-	"                        See “EXHIBIT S” for full Media Facilities Guidelines." +
+	"                        See “EXHIBIT R” for full Media Facilities Guidelines." +
 	"                        {'\\n\\n'}" +
 	"                       E. TV Studios. ATP Tour Masters 1000 tournament shall provide the following number" +
 	"                        of TV studios: (i) 96-draw – 3, and (ii) 56-draw and 48-draw: 2." +
@@ -6606,7 +6606,7 @@ export const AllPageIndexList = [
 	"                        The use of an approved electronic system for reviewing line calls and/or overrules is" +
 	"                        authorized for use at ATP events." +
 	"                        {'\\n\\n'}" +
-	"                        See “Exhibit T - Electronic Line Calling Facilities Guidelines” and “Exhibit U - ELC" +
+	"                        See “Exhibit S - Electronic Line Calling Facilities Guidelines” and “Exhibit U - ELC" +
 	"                        Review Official Protocol” for full Electronic Line Calling Facilities Guidelines and Protocol." },
     { id: 90, indexId: '', name: 'VII. THE COMPETITION', pageName: 'Rule90' , comp:Rule90 , searchindex:'' },
     { id: 91, indexId: '', name: '7.01 ATP Fees', pageName: 'Rule91' , comp:Rule91 , searchindex:"VII. THE COMPETITION" +
@@ -11413,13 +11413,15 @@ export const AllPageIndexList = [
 	"          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule118_2.png'}}/>" +
 	"          " +
 	"            {'\\n\\n'}" +
-	"            *Specific amounts are on a per violation basis and should depend and may vary on" +
+	"            *Tour Tournament Standards Violation Fines Table under review."+
+	"            {'\\n\\n'}" +
+	"            **Specific amounts are on a per violation basis and should depend and may vary on" +
 	"            the severity of the violation and issue(s) presented. This maximum fine amount will" +
 	"            increase by one-hundred percent (100%) for each consecutive year violation of the" +
 	"            same standard by a tournament." +
 	"" +
 	"            {'\\n\\n'}" +
-	"            ** Change in category and/or membership status is subject to a decision by the ATP" +
+	"            ***Change in category and/or membership status is subject to a decision by the ATP" +
 	"            Board." +
 	"" +
 	"            {'\\n\\n'}" +
@@ -11490,10 +11492,12 @@ export const AllPageIndexList = [
 	"" +
 	"            The SVP – Rules & Competition shall make a reasonable investigation to determine" +
 	"            the facts regarding all tournament on-site offenses. Upon determining that a violation" +
-	"            has occurred, the SVP – Rules & Competition shall specify the fine and/or other" +
-	"            punishment in written notice to the tournament. The tournament shall have the right" +
-	"            to appeal such determination to the ATP Standards Committee, consistent with the" +
-	"            procedures outlined in the Code." +
+	"            has occurred, the SVP – Rules & Competition shall specify the fine up to $10,000" +
+	"            and/or other punishment in written notice to the tournament. The ATP Members Fines" +
+	"            Committee will make determination for fines over $10,000 and/or other punishment in" +
+	"            written notice to the tournament.The tournament shall have the right to appeal such" +
+	"            determination to the ATP Members Fine Committee for violations up to $10,000 or to" +
+	"            the ATP Standards Commitee for violations over $10,000, consistent with the procedures outlined in the Code." +
 	"" +
 	"" +
 	"            {'\\n\\n'}" +
@@ -11518,8 +11522,9 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"" +
 	"            1) Any tournament in violation of a tournament on-site offense may, after paying all" +
-	"            fines, appeal to the ATP Standards Committee for review of a determination of" +
-	"            guilt and the penalty assessed." +
+	"            fines, appeal to the ATP Members Fine Committee for violations up to $10,000" +
+	"            or to the ATP Standards Commitee for violations over $10,000 for review of a" +
+	"            determination of guilt and the penalty assessed." +
 	"            {'\\n\\n'}" +
 	"            2) Such appeal shall be in accordance with the procedure specified in Section 8.03" +
 	"            F. 4." },
@@ -11620,65 +11625,72 @@ export const AllPageIndexList = [
 	"            F. Investigation, Determination, Imposition and Review" +
 	"            {'\\n\\n'}" +
 	"            " +
-	"            1) The Senior Vice President - Rules & Competition shall investigate all facts concerning any alleged tournament violation of an ATP rule or regulation and shall" +
-	"            provide written notice of such investigation to the tournament involved. The tournament shall be given at least five (5) days (excluding weekends) to provide to" +
-	"            the Senior Vice President - Rules & Competition, directly or through counsel," +
-	"            such evidence as the tournament deems to be relevant to the investigation. The" +
-	"            Senior Vice President - Rules & Competition shall conduct the investigation in" +
-	"            consultation with the applicable ATP Regional EVP or SVP." +
+	"            1) The Senior Vice President - Rules & Competition/ATP Members Fines Committee, as applicable, shall investigate all facts concerning any alleged tournament" +
+	"            violation of an ATP rule or regulation and shall provide written notice of such" +
+	"            investigation to the tournament involved. The tournament shall be given at least" +
+	"            five (5) days (excluding weekends) to provide to the Senior Vice President - Rules" +
+	"            & Competition/ATP Members Fine Committee, directly or through counsel, such" +
+	"            evidence as the tournament deems to be relevant to the investigation. The Senior Vice President - Rules & Competition/ATP Members Fine Committee shall" +
+	"            conduct the investigation in consultation with the applicable ATP Regional EVP or SVP." +
 	"            {'\\n\\n'}" +
-	"            2) Upon the completion of his investigation, the Senior Vice President – Rules &" +
-	"            Competition shall determine the innocence or guilt of the tournament involved" +
-	"            and, in the latter case, shall state in writing the facts as found by him, his conclusions and the penalty to be imposed on the tournament. A copy of the decision of" +
-	"            the Senior Vice President - Rules & Competition shall be promptly delivered to the" +
+	"            2) Upon the completion of the investigation, the Senior Vice President - Rules &" +
+	"            Competition/ATP Members Fine Committee, as applicable, shall determine the" +
+	"            innocence or guilt of the tournament involved and, in the latter case, shall state in" +
+	"            writing the facts as found by him, his conclusions and the penalty to be imposed" +
+	"            on the tournament. A copy of the decision of the Senior Vice President - Rules" +
+	"            & Competition/ATP Members Fine Committee shall be promptly delivered to the" +
 	"            tournament with copies to the ATP CEO, or in the case of Standards Violations," +
-	"            the ATP Standards Committee and the applicable ATP Regional EVP or SVP." +
-	"            " +
+	"            the ATP Members Fine Committee up to $10,000 or the ATP Standards Committee for fines over $10,000 and the applicable ATP Regional EVP or SVP." +           
 	"            {'\\n\\n'}" +
 	"            3) All fines shall be paid by the tournament by delivery to the Senior Vice President" +
 	"            - Rules & Competition within twenty-one (21) days after receipt of written notice." +
 	"            {'\\n\\n'}" +
 	"            4) Any tournament found to have violated an ATP rule, regulation or condition of" +
-	"            approval that results in a fine, may, after paying all fines, petition the ATP CEO for" +
-	"            discretionary review, or in the case of Standards Violations, the ATP Standards" +
-	"            Committee. This petition shall be in writing and must be filed with the ATP CEO," +
-	"            Senior Vice President - Rules & Competition, or the ATP Standards Committee" +
-	"            (as applicable) within twenty-one (21) days after notice of the determination and" +
-	"            penalty is received by the tournament. (The Senior Vice President - Rules &" +
-	"            Competition shall forward the review petition promptly to the ATP CEO or ATP" +
-	"            Standards Committee (as applicable)). Such petition shall state in detail the basis" +
-	"            for the appeal. Within twenty-one (21) days after receipt of the petition, the ATP" +
-	"            CEO or his designee, or in the case of Standards Violations, the ATP Standards" +
-	"            Committee shall determine whether the appeal should proceed to a hearing or" +
-	"            if a determination based upon the facts as presented is appropriate. If the ATP" +
-	"            CEO or his designee, or in the case of Standards Violations, the ATP Standards" +
-	"            Committee determines that the appeal should not proceed to a hearing, then the" +
-	"            decision, upon notice to the tournament, becomes final. This decision may affirm," +
-	"            reverse or modify the decision of the Senior Vice President - Rules and Competition. If the ATP CEO or his designee, or in the case of Standards Violations," +
-	"            the ATP Standards Committee determines that the appeal should proceed to a" +
-	"            hearing, he shall designate a date; time and place for the hearing of the appeal," +
-	"            and the ATP CEO or his designee, or in the case of Standards Violations, the ATP" +
-	"            Standards Committee shall notify the tournament and the Senior Vice President" +
-	"            - Rules & Competition. At the hearing, the tournament and the Senior Vice President - Rules & Competition shall present to the ATP CEO or his designee, or in" +
-	"            the case of Standards Violations, the ATP Standards Committee, their respective" +
-	"            positions on the facts. On the appeal, the ATP CEO or his designee, or in the" +
-	"            case of Standards Violations, the ATP Standards Committee may affirm, reverse" +
-	"            or modify the decision of the Senior Vice President - Rules & Competition. If the" +
-	"            appeal is decided against the tournament, then the ATP CEO or his designee, or" +
-	"            in the case of Standards Violations, the ATP Standards Committee shall charge" +
-	"            to the tournament the reasonable costs of the appeal, which shall include, but not" +
-	"            be limited to, the reasonable travel and living expenses incurred by all witnesses.." +
+	"            approval that results in a fine, may, after paying all fines, petition the ATP CEO" +
+	"            for discretionary review, or in the case of Standards Violations, the ATP Members" +
+	"            Fines Committee for fines up to $10,000 or the ATP Standards Committee for" +
+	"            fines over $10,000. This petition shall be in writing and must be filed with the" +
+	"            ATP CEO, Senior Vice President - Rules & Competition, or the ATP Members" +
+	"            Fine Committee/ATP Standards Committee (as applicable) within twenty-one (21)" +
+	"            days after notice of the determination and penalty is received by the tournament." +
+	"            (The Senior Vice President - Rules & Competition/ATP Members Fines Committee, where applicable, shall forward the review petition promptly to the ATP CEO" +
+	"            or ATP Members FInes Commiteee/ATP Standards Committee (as applicable))." +
+	"            Such petition shall state in detail the basis for the appeal. Within twenty-one (21)" +
+	"            days after receipt of the petition, the ATP CEO or his designee, or in the case of" +
+	"            Standards Violations, the ATP Members Fines Commiteee/ATP Standards Committee (as applicable) shall determine whether the appeal should proceed to a" +
+	"            hearing or if a determination based upon the facts as presented is appropriate." +
+	"            If the ATP CEO or his designee, or in the case of Standards Violations, the ATP" +
+	"            Members Fines Commitee/ATP Standards Committee (as applicable) determines" +
+	"            that the appeal should not proceed to a hearing, then the decision, upon notice" +
+	"            to the tournament, becomes final. This decision may affirm, reverse or modify" +
+	"            the decision of the Senior Vice President - Rules and Competition/ATP Members" +
+	"            Fines Committee. If the ATP CEO or his designee, or in the case of Standards" +
+	"            Violations, the ATP Members Fines Committee/ATP Standards Committee (as" +
+	"            applicable) determines that the appeal should proceed to a hearing, he shall designate a date; time and place for the hearing of the appeal, and the ATP CEO" +
+	"            or his designee, or in the case of Standards Violations, the ATP Members Fines" +
+	"            Committee/ATP Standards Committee (as applicable) shall notify the tournament" +
+	"            and the Senior Vice President - Rules & Competition/ATP Members Fines Committee. At the hearing, the tournament and the Senior Vice President - Rules" +
+	"            & Competition/ATP Members Fines Commitee shall present to the ATP CEO or" +
+	"            his designee, or in the case of Standards Violations, the ATP Members Fines" +
+	"            Committee/ATP Standards Committee (as applicable), their respective positions" +
+	"            on the facts. On the appeal, the ATP CEO or his designee, or in the case of Standards Violations, the ATP Members Fines Committee/ATP Standards Committee (as applicable) may affirm, reverse or modify the decision of the Senior Vice" +
+	"            President - Rules & Competition/ATP Members Fines Committee. If the appeal" +
+	"            is decided against the tournament, then the ATP CEO or his designee, or in the" +
+	"            case of Standards Violations, the ATP Members Fines Committee/ATP Standards" +
+	"            Committee (as applicable) shall charge to the tournament the reasonable costs" +
+	"            of the appeal, which shall include, but not be limited to, the reasonable travel and" +
+	"            living expenses incurred by all witnesses." +
 	"            {'\\n\\n'}" +
 	"            5) If the penalty imposed on the tournament includes a recommendation for loss" +
-	"            or change in tournament membership status, that recommendation shall be reviewed by the ATP Board, which may implement, modify or reject the recommendation of the Senior Vice President - Rules & Competition or ATP Standards" +
+	"            or change in tournament membership status, that recommendation shall be reviewed by the ATP Board, which may implement, modify or reject the recommendation of the Senior Vice President - Rules & Competition/ATP Members Fines Committee or ATP Standards" +
 	"            Committee. The imposition of any non-fine penalty by the ATP Board shall be" +
 	"            made in accordance with the By-laws." +
 	"            {'\\n\\n'}" +
 	"            6) Service of any document on a tournament as is required by this section shall be" +
 	"            deemed completed if mailed to the Tournament Director at the address indicated in the tournament application or as subsequently revised by the tournament" +
 	"            member. Any written communication to be sent to the ATP CEO or Senior Vice" +
-	"            President - Rules & Competition, or in the case of Standards Violations, the ATP" +
-	"            Standards Committee should be addressed as follows, unless notice of change is" +
+	"            President - Rules & Competition, or in the case of Standards Violations, the ATP Members Fines Committee/ATP " +
+	"            Standards Committee (as applicable) should be addressed as follows, unless notice of change is" +
 	"            subsequently published." +
 	"            {'\\n\\n'}" +
 	"            {'\\n\\n'}ATP CEO " +
@@ -11690,7 +11702,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            OR " +
 	"            {'\\n\\n'}" +
-	"            {'\\n\\n'}SVP - Rules & Competition or ATP Standards Committee" +
+	"            {'\\n\\n'}SVP - Rules & Competition or ATP Fines/Standards Committees" +
 	"            {'\\n\\n'}ATP" +
 	"            {'\\n\\n'}201 ATP Tour Blvd." +
 	"            {'\\n\\n'}Ponte Vedra Beach, FL 32082, USA" +
@@ -12082,7 +12094,7 @@ export const AllPageIndexList = [
 	"" +
 	"            The player may appeal the fine and ranking penalty to the Appeals Tribunal" +
 	"            as specified below under “Review of Penalties for Entry and Commitment" +
-	"            Offenses”. See also ATP Tour 500 - Ranking Penalty, page 240." +
+	"            Offenses”. See also ATP Tour 500 - Ranking Penalty, page 250." +
 	"            {'\\n\\n'}" +
 	"            e) Replacement Event. " +
 	"            {'\\n\\n'}" +
@@ -12091,7 +12103,7 @@ export const AllPageIndexList = [
 	"            zero (0) point by playing an additional ATP Tour 500 event in that same calendar year for a total of four (4) played. The replacement tournament must be" +
 	"            after the 500 withdrawal that has resulted in a ranking penalty. Only one (1)" +
 	"            additional ATP Tour 500 event per year may be used to replace an ATP Tour" +
-	"            500 ranking penalty. See also ATP Tour 500 - Ranking Penalty, page 240." +
+	"            500 ranking penalty. See also ATP Tour 500 - Ranking Penalty, page 250." +
 	"            {'\\n\\n'}" +
 	"            3) ATP Tour Masters 1000" +
 	"            {'\\n\\n'}" +
@@ -12379,14 +12391,12 @@ export const AllPageIndexList = [
 	"            Players are permitted to use drink containers oncourt if they are of reasonable size and they contain no logo or writing" +
 	"            of the drink manufacturer. ATP has designated three (3) beverage" +
 	"            categories of drinks for purposes of this rule: bottled water, electrolyte" +
-	"            or other drinks. The Supervisor may approve for use on-court a reasonably sized drink container that has a logo or writing, not to exceed" +
+	"            or other drinks (soft drinks, energy drinks and any other drink with the exception of alcoholic drinks and tea / cofee). The Supervisor may approve for use on-court a reasonably sized drink container that has a logo or writing, not to exceed" +
 	"            four (4) square inches (26 sq. cm.) if:" +
 	"            {'\\n\\n'}" +
-	"            · The center court drink sponsor is the same as the player’s drink" +
-	"            container manufacturer, or;" +
+	"            · The advertised on-court drink sponsor is the same as the player’s drink container manufacturer, or;" +
 	"            {'\\n\\n'}" +
-	"            · The advertised center court drink sponsor(s) is not in the same" +
-	"            beverage category as the player’s drink container." +
+	"            · The advertised on-court drink sponsor(s) is not in the same beverage category as the player’s drink container." +
 	"            {'\\n\\n'}" +
 	"            3. Hat or Headband. " +
 	"            One (1) standard logo of a clothing manufacturer" +
@@ -12731,11 +12741,11 @@ export const AllPageIndexList = [
 	"            Masters 1000 tournaments for each violation. The maximum fine will increase by one hundred percent (100%) for each consecutive violation" +
 	"            during the same calendar year. In addition, if such violation occurs during" +
 	"            a match, the player shall be penalized in accordance with the Point Penalty Schedule. In circumstances that are flagrant and particularly injurious to the success of a tournament, or are singularly egregious, the ATP" +
-	"            Supervisor may refer the matter to the ATP Fines Committee who shall" +
+	"            Supervisor may refer the matter to the ATP Members Fines Committee who shall" +
 	"            conduct an investigation to determine whether the player Major Offense" +
 	"            of Aggravated Behavior or Conduct Contrary to the Integrity of the Game" +
 	"            has occurred. Prize money earned at that event shall be held by ATP until" +
-	"            the ATP Fines Committee has concluded their investigation and made a" +
+	"            the ATP Members Fines Committee has concluded their investigation and made a" +
 	"            determination." +
 	"            {'\\n\\n'}" +
 	"             d) Verbal Abuse" +
@@ -12750,11 +12760,11 @@ export const AllPageIndexList = [
 	"            Masters 1000 tournaments for each violation. The maximum fine will increase by one hundred percent (100%) for each consecutive violation" +
 	"            during the same calendar year. In addition, if such violation occurs during" +
 	"            a match, the player shall be penalized in accordance with the Point Penalty Schedule. In circumstances that are flagrant and particularly injurious to the success of a tournament, or are singularly egregious, the ATP" +
-	"            Supervisor may refer the matter to the ATP Fines Committee who shall" +
+	"            Supervisor may refer the matter to the ATP Members Fines Committee who shall" +
 	"            conduct an investigation to determine whether the player Major Offense" +
 	"            of Aggravated Behavior or Conduct Contrary to the Integrity of the Game" +
 	"            has occurred. Prize money earned at that event shall be held by ATP until" +
-	"            the ATP Fines Committee has concluded their investigation and made a" +
+	"            the ATP Members Fines Committee has concluded their investigation and made a" +
 	"            determination." +
 	"            {'\\n\\n'}" +
 	"            e) Audible Obscenity" +
@@ -12805,11 +12815,11 @@ export const AllPageIndexList = [
 	"            Masters 1000 tournaments for each violation. The maximum fine will increase by one hundred percent (100%) for each consecutive violation" +
 	"            during the same calendar year. In addition, if such violation occurs during" +
 	"            a match, the player shall be penalized in accordance with the Point Penalty Schedule. In circumstances that are flagrant and particularly injurious to the success of a tournament, or are singularly egregious, the ATP" +
-	"            Supervisor may refer the matter to the ATP Fines Committee who shall" +
+	"            Supervisor may refer the matter to the ATP Members Fines Committee who shall" +
 	"            conduct an investigation to determine whether the player Major Offense" +
 	"            of Aggravated Behavior or Conduct Contrary to the Integrity of the Game" +
 	"            has occurred. Prize money earned at that event shall be held by ATP until" +
-	"            the ATP Fines Committee has concluded their investigation and made a" +
+	"            the ATP Members Fines Committee has concluded their investigation and made a" +
 	"            determination." +
 	"            {'\\n\\n'}" +
 	"            h) Best Efforts" +
@@ -12825,11 +12835,11 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            ii) For purposes of this rule, the Supervisor and/or the Chair Umpire shall" +
 	"            have the authority to penalize a player in accordance with the Point Penalty Schedule. In circumstances that are flagrant and particularly injurious to the success of a tournament, or are singularly egregious, the ATP" +
-	"            Supervisor may refer the matter to the ATP Fines Committee who shall" +
+	"            Supervisor may refer the matter to the ATP Members Fines Committee who shall" +
 	"            conduct an investigation to determine whether the player Major Offense" +
 	"            of Aggravated Behavior or Conduct Contrary to the Integrity of the Game" +
 	"            has occurred. Prize money earned at that event shall be held by ATP until" +
-	"            the ATP Fines Committee has concluded their investigation and made a" +
+	"            the ATP Members Fines Committee has concluded their investigation and made a" +
 	"            determination." +
 	"            {'\\n\\n'}" +
 	"            i) Leaving the Court" +
@@ -12898,7 +12908,7 @@ export const AllPageIndexList = [
 	"            comply with such order, may declare an immediate default of such player." +
 	"            {'\\n\\n'}" +
 	"            *Coaching is allowed at ATP Tour and Challenger Tour tournaments through the" +
-	"            end of 2023 on a trial basis with the following conditions:" +
+	"            end of 2024 on a trial basis with the following conditions:" +
 	"            {'\\n\\n'}" +
 	"            ● The coach must sit in the tournament’s designated coaches’ seats" +
 	"            {'\\n\\n'}● Verbal coaching is permitted only when the player is at the same end of" +
@@ -12908,8 +12918,8 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}● Coaching (verbal and non-verbal) is allowed only if it does not interrupt" +
 	"            play or create any hindrance to the opponent" +
 	"            {'\\n\\n'}● Players may approach their coach or engage in conversation with their" +
-	"            coach ONLY during the opposing player’s Medical Timeout or a Toilet" +
-	"            Break/Change of Attire Break" +
+	"            coach during an opposing player’s Medical Timeout or a Toilet" +
+	"            Break/Change of Attire Break or another break approved by the Chair Umpire during which the players remain on court" +
 	"            {'\\n\\n'}● Coaches may not speak to their player, when the player leaves the court" +
 	"            for any reason" +
 	"            {'\\n\\n'}● Penalties and fines to apply for abuse or misuse of the coaching conditions" +
@@ -13172,10 +13182,10 @@ export const AllPageIndexList = [
 	"            b) ATP Challenger Tour Tournament Qualifying Competition. A maximum of" +
 	"            $100 for each violation." +
 	"            {'\\n\\n'}" +
-	"            2) The ATP Fines Committee shall have the authority to investigate statements or" +
+	"            2) The ATP Members Fines Committee shall have the authority to investigate statements or" +
 	"            actions made by a player that are not heard or seen by on-court officials by reviewing tapes of televised matches. After reviewing all facts and circumstances," +
-	"            the ATP Fines Committee may determine that a violation of the Code has oc-" +
-	"            curred and shall specify the fine and/or other punishment. The player shall be" +
+	"            the ATP Members Fines Committee may determine that a violation of the Code has occurred" +
+	"            and shall specify the fine and/or other punishment. The player shall be" +
 	"            given written notice of the violation and fine. The player shall have the right to appeal such determination to the ATP Senior Vice President - Rules & Competition," +
 	"            consistent with the procedures outlined in the Code." +
 	"" +
@@ -13197,14 +13207,14 @@ export const AllPageIndexList = [
 	"            O.Procedures for Appeal" +
 	"            {'\\n\\n'}" +
 	"            1) Except for appeals of violations of the Stars Program, any player in violation of a" +
-	"            player on-site offense may, after paying all fines, appeal to the ATP Fines Committee for review of a determination of guilt and the penalty assessed." +
+	"            player on-site offense may, after paying all fines, appeal to the ATP Members Fines Committee for review of a determination of guilt and the penalty assessed." +
 	"            {'\\n\\n'}" +
 	"            2) Any player found to have committed a player on-site offense may appeal such" +
-	"            decision in writing to the ATP Fines Committee. Such appeal shall be lodged" +
-	"            within ten (10) days of the on-site offense. The ATP Fines Committee shall review" +
+	"            decision in writing to the ATP Members Fines Committee. Such appeal shall be lodged" +
+	"            within ten (10) days of the on-site offense. The ATP Members Fines Committee shall review" +
 	"            the Appeal within twenty-one (21) days and, if necessary, designate a date, time" +
-	"            and place for a hearing. At the hearing, the player shall present to the ATP Fines" +
-	"            Committee his respective positions on the facts. The ATP Fines Committee may" +
+	"            and place for a hearing. At the hearing, the player shall present to the ATP Members Fines" +
+	"            Committee his respective positions on the facts. The ATP Members Fines Committee may" +
 	"            affirm, reverse or modify the penalty initially imposed by the Supervisor." +
 	"" +
 	"" +
@@ -13250,7 +13260,7 @@ export const AllPageIndexList = [
 	"            Rules & Competition should be addressed as follows, unless notice of change is" +
 	"            subsequently published." +
 	"" +
-	"            {'\\n\\t'}ATP Fines Committee or SVP - Rules & Competition" +
+	"            {'\\n\\t'}ATP Members Fines Committee or SVP - Rules & Competition" +
 	"            {'\\n\\t'}ATP Americas" +
 	"            {'\\n\\t'}201 ATP Blvd" +
 	"            {'\\n\\t'}Ponte Vedra Beach, FL 32082, USA" +
@@ -13324,7 +13334,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            d) A player, or related person, charged with a violation of a criminal or civil law" +
 	"            of any jurisdiction may be deemed by virtue of such charge to have engaged" +
-	"            in conduct contrary to the integrity of the Game of Tennis and the ATP Fines" +
+	"            in conduct contrary to the integrity of the Game of Tennis and the ATP Members Fines" +
 	"            Committee may provisionally suspend such player, or related person, from" +
 	"            further participation in ATP tournaments pending a final determination of the" +
 	"            criminal or civil proceeding." +
@@ -13355,9 +13365,9 @@ export const AllPageIndexList = [
 	"            The maximum fine will increase by one hundred percent (100%) for each" +
 	"            consecutive violation during the same calendar year." +
 	"            {'\\n\\n'}" +
-	"            c) If the ATP Fines Committee believes that a player may be violating this section, then upon demand, the player or his agent, must furnish or provide access to the ATP Fines Committee copies of all records relating to their participation in or, in the absence of such records, an affidavit setting forth the" +
+	"            c) If the ATP Members Fines Committee believes that a player may be violating this section, then upon demand, the player or his agent, must furnish or provide access to the ATP Members Fines Committee copies of all records relating to their participation in or, in the absence of such records, an affidavit setting forth the" +
 	"            facts with respect to any transaction in question. In the event a player fails to" +
-	"            provide the records or affidavit, the ATP Fines Committee may suspend him" +
+	"            provide the records or affidavit, the ATP Members Fines Committee may suspend him" +
 	"            from participation in ATP Tour and ATP Challenger Tour tournaments pending" +
 	"            compliance with such demand." +
 	"" +
@@ -13367,15 +13377,15 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            1) Determination and Penalty" +
 	"            {'\\n\\n'}" +
-	"            The ATP Fines Committee shall conduct such investigation of an alleged player" +
-	"            major offense as they, in their sole discretion, determine is appropriate and necessary. Upon completion of their investigation, the ATP Fines Committee shall determine whether a player major offense has occurred and, if so, shall fix a penalty" +
+	"            The ATP Members Fines Committee shall conduct such investigation of an alleged player" +
+	"            major offense as they, in their sole discretion, determine is appropriate and necessary. Upon completion of their investigation, the ATP Members Fines Committee shall determine whether a player major offense has occurred and, if so, shall fix a penalty" +
 	"            to be imposed. A copy of the decision setting forth such penalty shall be promptly" +
 	"            delivered to the player." +
 	"            {'\\n\\n'}" +
 	"            2) Payment of Fines" +
 	"            {'\\n\\n'}" +
 	"            The player shall pay all fines levied for player major offenses to ATP by delivery" +
-	"            to the ATP Fines Committee within twenty-one (21) days after receiving written" +
+	"            to the ATP Members Fines Committee within twenty-one (21) days after receiving written" +
 	"            notice." +
 	"            {'\\n\\n'}" +
 	"            3) Appeal" +
@@ -13390,24 +13400,24 @@ export const AllPageIndexList = [
 	"            The ATP Senior Vice President - Rules & Competition or his designee shall conduct the hearing on appeal in accordance with the following:" +
 	"            {'\\n\\n'}" +
 	"            a) Burden of Proof. " +
-	"            The ATP Fines Committee has the responsibility to prove" +
+	"            The ATP Members Fines Committee has the responsibility to prove" +
 	"            the violation by a preponderance of the evidence." +
 	"            {'\\n\\n'}" +
 	"            b) Rules. " +
 	"            The ATP Senior Vice President - Rules & Competition or his designee" +
 	"            must conduct the hearing in a fair and orderly manner with opportunity for" +
 	"            each side to present its evidence as to the facts involved, and the player and" +
-	"            his representative, if any, and the ATP Fines Committee are bound to cooperate fully to this end." +
+	"            his representative, if any, and the ATP Members Fines Committee are bound to cooperate fully to this end." +
 	"            {'\\n\\n'}" +
 	"            c) Statement of Position. " +
-	"            The ATP Senior Vice President - Rules & Competition or his designee may request the ATP Fines Committee and the player" +
+	"            The ATP Senior Vice President - Rules & Competition or his designee may request the ATP Members Fines Committee and the player" +
 	"            to state in writing their respective positions on the facts, the provision(s) of" +
 	"            the Code allegedly violated and the penalty specified and file the same with" +
 	"            the ATP Senior Vice President - Rules & Competition or his designee at least" +
 	"            three (3) days prior to the hearing, with a copy to each other." +
 	"            {'\\n\\n'}" +
 	"            d) Presentation. " +
-	"            The ATP Fines Committee and the player may present evidence personally or through counsel. Each party shall have the right to" +
+	"            The ATP Members Fines Committee and the player may present evidence personally or through counsel. Each party shall have the right to" +
 	"            present and to cross-examine witnesses, and to offer documentary evidence" +
 	"            and testimony by affidavit or deposition. Except for purposes of rebuttal," +
 	"            documentary evidence and affidavits shall not be admissible unless a copy" +
@@ -13450,7 +13460,7 @@ export const AllPageIndexList = [
 	"            the interpreter, legal advisor and any adverse witness required upon objection" +
 	"            to testify concerning facts originally presented by way of affidavit. If the costs are" +
 	"            taxed against a player, then they must be paid by the player to ATP by delivery to" +
-	"            the ATP Fines Committee within (10) days after receipt of the decision of the ATP" +
+	"            the ATP Members Fines Committee within (10) days after receipt of the decision of the ATP" +
 	"            Senior Vice President - Rules & Competition or his designee." +
 	"" +
 	"" +
@@ -13506,7 +13516,7 @@ export const AllPageIndexList = [
 	"          " +
 	"            9.01 Definitions{'\\n\\n'}" +
 	"" +
-	"            A.The 2023 Pepperstone ATP Doubles Team Rankings is the mathematical method of" +
+	"            A.The 2024 Pepperstone ATP Doubles Team Rankings is the mathematical method of" +
 	"            ranking men’s doubles pairs on a calendar-year basis." +
 	"            {'\\n\\n'}" +
 	"            B.The Pepperstone ATP Rankings and the Pepperstone ATP Doubles Rankings are" +
@@ -13629,6 +13639,20 @@ export const AllPageIndexList = [
 	"            Note 2: " +
 	"            (Applicable for 9.03 A. B. C.). Players returning to competition with an Entry" +
 	"            Protection Ranking may replace ranking penalties assessed during the period of injury with results obtained at tournaments following their return to competition." +
+	"            {'\\n\\n'}" +
+	"            Note 3: " +
+	"            (Applicable for 9.03 A. and B.) Players who are out of competition for three or" +
+	"            more consecutive months (13-weeks minimum) can replace zero-pointers as follows:"+
+	"            {'\\n\\n'}" +
+	"            Player can drop zero-point ranking penalties (only from mandatory Masters 1000"+
+	"	         events) when he competes in his next ATP 250/500 event played. When he drops the"+
+	"	         first received zero-point ranking penalty, his next best ‘non-countable’ will count in his"+
+	"	         breakdown. "+
+	" 	         {'\\n\\n'}" +
+	"            *Missed mandatory events include Grand Slams. However, players can only replace"+
+	"            0-pointers from Masters 1000."+ 
+	" 	         {'\\n\\n'}" +
+	"            *Players must submit application to Medical Committee to be eligible to replace zero-pointers."+  
 	"            " +
 	"            {'\\n\\n'}" +
 	"            D. " +
@@ -13806,12 +13830,21 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            ** For details, see Section 4.03 G." +
 	"            {'\\n\\n'}" +
+	"" +
+	"            " +
+	"            <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule127_2.png'}}/>" +
+	"            " +
+	"            {'\\n\\n'}" +
+	"            * Nitto ATP Finals 1,500 for undefeated Champion (200 for each round robin match" +
+	"            win, plus 400 for a semi-final win, plus 500 for the final win)" +
+	"            {'\\n\\n'}" +
+	"            ** For details, see Section 4.03 G." +
+	"            {'\\n\\n'}" +
 	"            *** The doubles qualifying team shall receive 45 ranking points. The team losing in" +
 	"            the final round of qualifying shall receive 25 ranking points." +
+	"            {'\\n\\n'}" +
 	"            Teams receiving a first round Bye and subsequently losing in the final round receive no points." +
 	"            {'\\n\\n'}" +
-	"            ****Pepperstone ATP Doubles Rankings points will be awarded in ITF M 25/25+H" +
-	"            and ITF 15/15+H tournaments beginning with the quarter-final round." +
 	"" },
     { id: 128, indexId: '', name: '9.04 Pepperstone ATP Doubles Rankings', pageName: 'Rule128' , comp:Rule128 , searchindex:"IX. Pepperstone ATP RANKINGS" +
 	"          " +
@@ -13971,10 +14004,10 @@ export const AllPageIndexList = [
 	"            in a short time period the tournament Doctor should examine the" +
 	"            player on the day of the match to determine his status and if he" +
 	"            feels the player is fit for competition." },
-    { id: 129, indexId: '', name: '9.05 2023 Pepperstone ATP Doubles Team Rankings', pageName: 'Rule129' , comp:Rule129 , searchindex:"IX. Pepperstone ATP RANKINGS" +
+    { id: 129, indexId: '', name: '9.05 2024 Pepperstone ATP Doubles Team Rankings', pageName: 'Rule129' , comp:Rule129 , searchindex:"IX. Pepperstone ATP RANKINGS" +
 	"          " +
 	"          " +
-	"            9.05 2023 Pepperstone ATP Doubles Team Rankings{'\\n\\n'}" +
+	"            9.05 2024 Pepperstone ATP Doubles Team Rankings{'\\n\\n'}" +
 	"            {'\\n\\n'}" +
 	"            <Text style={RuleStyles.SubHeading3}>A. " +
 	"            Each team is ranked according to its total points from its best 19 results from all eligible tournaments (Grand Slam, ATP Tour, including the Nitto ATP Finals, ATP Challenger Tour, ITF Men’s WTT) played in the calendar year." +
@@ -13989,7 +14022,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            <Text style={RuleStyles.SubHeading3}>D.Points. " +
 	"            The provisions set forth under 7.08 E., including a), b) and c), apply as well" +
-	"            when calculating the 2023 Pepperstone ATP Doubles Team Rankings." },
+	"            when calculating the 2024 Pepperstone ATP Doubles Team Rankings." },
     { id: 130, indexId: '', name: '9.06 Retiring from the Professional Tennis Circuit', pageName: 'Rule130' , comp:Rule130 , searchindex:"IX. Pepperstone ATP RANKINGS" +
 	"          " +
 	"          " +
@@ -17103,11 +17136,13 @@ export const AllPageIndexList = [
 	"            INCLUDING THE TENNIS ANTI-CORRUPTION PROGRAM & TENNIS ANTI-DOPING PROGRAMME" +
 	"            {'\\n\\n'}" +
 	"" +
+	"" +
 	"            I, the undersigned player, acknowledge, consent and agree as follows:" +
-	"            {'\\n\\n'}1. I will comply with and be bound by all of the provisions of the 2023 ATP OFFICIAL" +
-	"            RULEBOOK and the ATP Tour, Inc.’s (“ATP”) By-Laws (the “ATP Rules”), including," +
-	"            but not limited to, all amendments to the ATP Rules. I have received and had an opportunity to review the ATP Rules and any and all Covid-19 policies and protocols, as" +
-	"            amended from time to time." +
+	"            {'\\n\\n'}"+
+	"            1.I will comply with and be bound by all of the provisions of the 2024 ATP OFFICIAL "+
+	"            RULEBOOK, ATP Tour, Inc.’s (“ATP”) By-Laws, resolutions and regulations (the “ATP "+
+	"            Rules"+"), including, but not limited to, all amendments to the ATP Rules. I have received and had an opportunity to review the ATP Rules and any and all Covid-19 "+
+	"            policies and protocols, as amended from time to time" +
 	"            {'\\n\\n'}" +
 	"            2. I am bound by and will comply with the Tennis Anti-Corruption Program (the “TACP”)," +
 	"            a copy of which can be found at the following website: https://www.itia.tennis/tacp/" +
@@ -17132,7 +17167,8 @@ export const AllPageIndexList = [
 	"            and enforce the TACP and to the jurisdiction and authority of the ITIA, Anti-Corruption Hearing Officer (“AHO”) and the Court of Arbitration for Sport (“CAS”), as applicable, to determine any charges brought under the TACP. I acknowledge that the" +
 	"            TACP contains an agreement to arbitrate disputes in accordance with the process" +
 	"            described in the TACP and I am bound by the TACP until the earlier of (i) the date of" +
-	"            my valid retirement in accordance with the requirements of the TADP, or (ii) two years" +
+	"            my valid retirement in accordance with the requirements of the Tennis Anti-Doping Programme"+
+	"            (the “TADP”), a copy of which is available online at https://www.itia.tennis/tadp/rules/, or (ii) two years" +
 	"            after the last Event (as defined in the TACP) in which I enter or participate, unless," +
 	"            at either such time, (a) I am subject to a period of ineligibility under either the TACP" +
 	"            or TADP (in which case I will cease to be bound by the TADP upon the conclusion of" +
@@ -17141,9 +17177,8 @@ export const AllPageIndexList = [
 	"            when such investigation is closed, or after 10 years, whichever is earlier). Nothing in" +
 	"            this paragraph 2 shall modify or limit the full text of the TACP." +
 	"            {'\\n\\n'}" +
-	"            3. The ITIA may conduct anti-doping testing at ATP sanctioned events under the Tennis" +
-	"            Anti-Doping Programme (the “TADP”), a copy of which is available online at https://" +
-	"            www.itia.tennis/tadp/rules/. ATP will honor and enforce any penalties or sanctions" +
+	"            3. The ITIA may conduct anti-doping testing at ATP sanctioned events under the “TADP”. "+
+	"            ATP will honor and enforce any penalties or sanctions" +
 	"            against me resulting from the TADP. The TADP shall apply to and be binding upon me" +
 	"            and shall govern participation in the events specified at Article B of the TADP, which" +
 	"            includes all ATP-sanctioned events (including Challenger events). I hereby submit to" +
@@ -17164,7 +17199,7 @@ export const AllPageIndexList = [
 	"            communicated to me." +
 	"            {'\\n\\n'}" +
 	"            5. Any dispute between or among the ATP and me arising out of the application of any" +
-	"            provision of the 2023 ATP Official Rulebook which is not finally resolved by applicable provisions of such Rulebook shall be submitted exclusively to CAS for final and" +
+	"            provision of the 2024 ATP Official Rulebook which is not finally resolved by applicable provisions of such Rulebook shall be submitted exclusively to CAS for final and" +
 	"            binding arbitration in accordance with CAS’s Code of Sports-Related Arbitration. The" +
 	"            decision of CAS in that arbitration shall be final, non-reviewable and enforceable. No" +
 	"            claim, arbitration, lawsuit or litigation concerning the dispute shall be brought in any" +
@@ -17173,12 +17208,12 @@ export const AllPageIndexList = [
 	"            provision of this clause is determined invalid or unenforceable, the remaining provisions shall not be affected. This clause shall not fail because any part of the rule is" +
 	"            held invalid." +
 	"            {'\\n\\n'}" +
-	"            6. I acknowledge the Notices of Privacy Practice is set forth in the ATP Rule Book and" +
+	"            6. I acknowledge the Notices of Privacy Practices and Consent is set forth in the ATP Rulebook and" +
 	"            is available online at https://www.atppz.com. I understand that the GDPR (General" +
 	"            Data Protection Regulation) Privacy Notice is available at this same site under PlayerZone Terms & Conditions. I also acknowledge that I have reviewed these notices" +
 	"            and agree to the terms and conditions contained therein." +
 	"            {'\\n\\n'}" +
-	"            7. For ATP Division I and Division II player members: I acknowledge that at least every" +
+	"            7. For Members who are competing on the ATP Tour or ATP Challenger Tour: I acknowledge that at least every" +
 	"            two years a completed Competition Clearance form signed by a physician licensed to" +
 	"            practice medicine in the jurisdiction where such physician practices medicine, must" +
 	"            be submitted before players are permitted to participate in ATP activities. I also acknowledge that should my physician not deem me fit to participate, and I choose to" +
@@ -17209,7 +17244,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n\\n'}" +
 	"            ____________________{'\\n\\n'}" +
 	"            Player’s Nationality" },
-    { id: 171, indexId: '', name: 'EXHIBIT P - Privacy Notice (“HIPPA”)', pageName: 'Rule171' , comp:Rule171, searchindex:"X. EXHIBITS" +
+    { id: 171, indexId: '', name: 'EXHIBIT P - Privacy Notice (“HIPAA”)', pageName: 'Rule171' , comp:Rule171, searchindex:"X. EXHIBITS" +
 	"         " +
 	"          " +
 	"            EXHIBIT P - Privacy Notice (“HIPPA”){'\\n\\n'}" +
@@ -17402,8 +17437,6 @@ export const AllPageIndexList = [
 	"            list of recommended food groups:" +
 	"            {'\\n\\n'}" +
 	"            1) Carbohydrates " +
-	"            " +
-	"            (60% of total calorie intake)" +
 	"            {'\\n\\n'}a) Breads and Starches" +
 	"            Assorted multi-grain breads and rolls, bagels, crackers, low-sugar cereals," +
 	"            pasta (with all sauces on the side), baked (white and sweet) potatoes (with" +
@@ -17415,8 +17448,6 @@ export const AllPageIndexList = [
 	"            dressings on the side." +
 	"            {'\\n\\n'}" +
 	"            2) Proteins " +
-	"            " +
-	"            (15% of total calorie intake)" +
 	"            {'\\n\\n'}Chicken (white meat), turkey (white meat), fish (assorted variety), soft low-fat" +
 	"            cheeses, low fat cottage cheese, low fat yogurt, hard-boiled eggs, tofu, nonfat milk. Additional recommendations are soy milk and assorted nuts." +
 	"            {'\\n\\n'}" +
@@ -17440,186 +17471,186 @@ export const AllPageIndexList = [
 	"            available (e.g., cold cereals, bagels and breads, yogurt, fruit)." +
 	"            {'\\n\\n'}4) Suggested lunch and dinner menus should include Carbohydrates (bread/pasta/" +
 	"            potatoes/rice) and at least two (2) protein selections (one [1] chicken and the" +
-	"            other fish, meat, turkey or tofu)." +
+	"            other fish, meat, turkey, tofu or other vegetarian protein option)." +
 	"            {'\\n\\n'}5) Practice hours and match schedule will determine when meals and/or snacks are" +
 	"            served. Allow for during playing hours, and up until the last match has gone on" +
 	"            court." +
-	"            {'\\n\\n'}6) Each tournament may contact the ATP Sport Medicine Department for menu recommendations and/or review." },
-    { id: 173, indexId: '', name: 'EXHIBIT R - Player Medical Facility Guidelines', pageName: 'Rule173' , comp:Rule173, searchindex:"X. EXHIBITS" +
-	"" +
+	"            {'\\n\\n'}6) Each tournament may contact the ATP Medical Services Department for menu recommendations and/or review." },
+    // { id: 173, indexId: '', name: 'EXHIBIT R - Player Medical Facility Guidelines', pageName: 'Rule173' , comp:Rule173, searchindex:"X. EXHIBITS" +
+	// "" +
+	// "          " +
+	// "            EXHIBIT R - Player Medical Facility Guidelines" +
+	// "            {'\\n\\n'}" +
+	// "" +
+	// "            ATP Medical Services" +
+	// "            {'\\n\\n'}" +
+	// "" +
+	// "            TREATMENT ROOM REQUIREMENTS" +
+	// "            {'\\n\\n'}" +
+	// "            The tournament will provide a secure, private medical and physiotherapy treatment area. The area" +
+	// "            should be easily accessible to the locker room and match courts. The physiotherapy treatment room" +
+	// "            should have temperature controls and good ventilation along with a sink (preferably with a central tap" +
+	// "            that can be turned off without hands)." +
+	// "            {'\\n\\n'}" +
+	// "          " +
+	// "          " +
+	// "          " +
+	// "            {'\\n\\n'}" +
+	// "" +
+	// "            Room size" +
+	// "            " +
+	// "            {'\\n\\n'}Draw size 32 = 50 square meters (approx. 540 square feet)" +
+	// "            {'\\n\\n'}Draw size 48 = 60 square meters (approx. 645 square feet)" +
+	// "            {'\\n\\n'}Draw size 56-64 = 70 square meters (approx. 750 square feet)" +
+	// "            {'\\n\\n'}Draw size 96-128 = 100 square meters (approx. 1075 square feet)" +
+	// "            {'\\n\\n'}The layout design of the training room should enable each treatment table to have a minimum area of 1" +
+	// "            meter treatment area around at least three sides of all tables." +
+	// "            {'\\n\\n'}The treatment area is to be used by the ATP physiotherapists and a separate area for physician" +
+	// "            examinations is to be provided." +
+	// "            {'\\n\\n'}If there are two training rooms being used on site, then both training rooms must have the above spacial" +
+	// "            requirements and set up." +
+	// "" +
+	// "" +
+	// "            {'\\n\\n'}" +
+	// "            Treatment Room - Equipment" +
+	// "            {'\\n\\n'}" +
+	// "            One padded adjustable treatment table (electric and hydraulic) with face cut-out in good repair and" +
+	// "            sanitary condition for each ATP Physio. Additional high low table or tables will be provided for private" +
+	// "            physios." +
+	// "            {'\\n\\n'}So this means, at each 250 level tournament there will be 3 adjustable treatment tables (2 high low" +
+	// "            tables with face cut-outs for the 2 ATP Physios, and 1 high low table for private physios. At 500 level" +
+	// "            tournaments there will be 4 adjustable treatment tables, and at 1000 level tournaments there will be" +
+	// "            at least 6 adjustable treatment tables. Examples of high low tables with face cut-outs are shown in" +
+	// "            the photos below." +
+	// "            {'\\n\\n'}" +
+	// "          " +
+	// "          " +
+	// "          " +
+	// "            {'\\n\\n'}" +
+	// "            A desk, table or a counter top will be supplied with enough surface area for medical supplies and" +
+	// "            computer workstation area, examples below." +
+	// "            {'\\n\\n'}" +
+	// "          " +
+	// "          " +
+	// "          " +
+	// "            {'\\n\\n'}" +
+	// "            One desk chair and treatment rolling stool for each ATP physiotherapist working the event. (ie at 250’s" +
+	// "            2 ATP physios, 500’s, 3 ATP Physios and 1000 level events 4-5 physios)" +
+	// "            {'\\n\\n'}" +
+	// "          " +
+	// "          " +
+	// "          " +
+	// "            {'\\n\\n'}" +
+	// "            A lockable cupboard large enough for medical supplies and court call bags – minimum of 3 shelves for a" +
+	// "            250 event, 4 shelves for a 500 event and 5 shelves for a 1000 event." +
+	// "            {'\\n\\n'}" +
+	// "          " +
+	// "          " +
+	// "          " +
+	// "            {'\\n\\n'}" +
+	// "            A refrigerator or cooler for ice and player drinks. Ice needs to be stocked regularly and in crushed /" +
+	// "            shaved or small cube variety." +
+	// "            {'\\n\\n'}" +
+	// "          " +
+	// "          " +
+	// "          " +
+	// "            {'\\n\\n'}" +
+	// "            Several Automated External Defibrillators (AED’s) must be available on-site with one located in the" +
+	// "            physician office. Additional AED’s must be located throughout the tournament facilities such that an" +
+	// "            AED is within 3 min of every court on-site" +
+	// "" +
+	// "" +
+	// "            {'\\n\\n'}" +
+	// "            Physician Office" +
+	// "            {'\\n\\n'}" +
+	// "            The tournament will provide desk, chair, treatment table and lockable cabinets, similar to pictures" +
+	// "            above. The room must be private and separated from other areas of the treatment room to allow for" +
+	// "            private medical evaluations and consultations." +
+	// "" +
+	// "            {'\\n\\n'}" +
+	// "            Telecommunications/computer supplies" +
+	// "            {'\\n\\n'}" +
+	// "            The tournament will provide a telephone/fax machine in the doctor’s room and each physiotherapy" +
+	// "            treatment area. The tournament will be responsible for cost of installation and cost for the phone line." +
+	// "            {'\\n\\n'}" +
+	// "            The treatment room will be equipped with a high-speed high-speed or wireless internet connection," +
+	// "            with 0.6 megabit per second for uploads and 5 megabits per second for downloads at a minimum, for" +
+	// "            each ATP physiotherapist to enable use of the online medical records. This can be individual DSL/ADSL" +
+	// "            cable connections, a single ADSL line with a router and cabling to provide individual connections or a" +
+	// "            WIFI router providing adequate internet connection service to the group. This is to be provided in" +
+	// "            each training room. The tournament will be responsible for the cost of installation of the Internet" +
+	// "            connection." +
+	// "            {'\\n\\n'}" +
+	// "            The tournament will provide a printer and copier for the ATP physio to use during the tournament for" +
+	// "            medical documents." +
+	// "            {'\\n\\n'}" +
+	// "            Adequate power outlets or power boards to be supplied for operation of computers, phones, routers," +
+	// "            hi-lo treatment tables, refrigerators, TV’s, etc" +
+	// "            {'\\n\\n'}" +
+	// "" +
+	// "" +
+	// "            Linen" +
+	// "            {'\\n\\n'}" +
+	// "            The tournament will supply adequate towels of minimum size 60cm x 120cm (larger towels are better" +
+	// "            for players to lay on the treatment table with. For example 2 quantity 60 x 120 towels would be needed" +
+	// "            under a player as compared to only 1, 80 x 180cm sized towel). During the busy days of the tournament" +
+	// "            (qualifying Saturday to main draw Thursday) it would be usual for each physio working the event to use" +
+	// "            50 towels per day." +
+	// "" +
+	// "" +
+	// "            {'\\n\\n'}" +
+	// "            Sanitation Requirements" +
+	// "            {'\\n\\n'}" +
+	// "            The tournament will provide a dispensed liquid soap with paper towels in the training room for hand" +
+	// "            washing. The tournament will provide covered waste bins with pedal-control– to decrease infected" +
+	// "            waste. The training room, doctor’s office and massage therapy rooms will be cleaned twice a day. This" +
+	// "            will consist of cleaning tables, chairs, equipment, and floors. Anti- bacterial wipes or spray is to be" +
+	// "            supplied for cleaning of treatment tables between treatments." +
+	// "            {'\\n\\n'}" +
+	// "          " +
+	// "          " +
+	// "          " +
+	// "            {'\\n\\n'}" +
+	// "" +
+	// "" +
+	// "" +
+	// "            Additional Items" +
+	// "            {'\\n\\n'}" +
+	// "            Ice:" +
+	// "            " +
+	// "            It is expected that at least 2 bags of ice will be used for a 32 draw size per day, 3 bags for a 48 draw" +
+	// "            and 4 bags for a 64 draw and 5 bags for a 96 draw. This does NOT include ice for making ice towels (an" +
+	// "            additional supply will be required for that). Ice bags also need to be supplied by the tournament." +
+	// "            Durable plastic bags that do not leak are needed to assist with ice application for the players." +
+	// "            {'\\n\\n'}" +
+	// "            Water:" +
+	// "            " +
+	// "            Bottled still water and electrolyte drinks to be supplied for players to rehydrate while in the" +
+	// "            treatment room. All drinks must be WADA compatible and consistent with ATP requirements" +
+	// "            {'\\n\\n'}" +
+	// "            Television:" +
+	// "            " +
+	// "            At least one television should be supplied with access to live scoring. An additional TV with" +
+	// "            court view is ideal so that players can watch current matches." +
+	// "            {'\\n\\n'}" +
+	// "            Massage Therapist" +
+	// "            " +
+	// "            Each massage therapist will require a separate massage table. They will also have a separate supply of" +
+	// "            towels (minimum 30 per day) and 30 sheets per day." +
+	// "            {'\\n\\n'}" +
+	// "            The massage therapist will have close access to proper hand washing and toilet facilities. They will" +
+	// "            have lockable cupboard, waste bins, chairs for players, and one rolling stool per massage therapist." +
+	// "" +
+	// "" +
+	// "            {'\\n\\n'}" +
+	// "            Timing Required for Preparation of Treatment Room Facility and Equipment" +
+	// "            {'\\n\\n'}" +
+	// "            All of these requirements must be ready to operate by 8:00 am tournament local time the day of" +
+	// "            Qualifying Sign-In (i.e. The day before Qualifying matches begin)." },
+    { id: 174, indexId: '', name: 'EXHIBIT R - Media Facilities Guidelines', pageName: 'Rule174' , comp:Rule174, searchindex:"X. EXHIBITS" +
 	"          " +
-	"            EXHIBIT R - Player Medical Facility Guidelines" +
-	"            {'\\n\\n'}" +
-	"" +
-	"            ATP Medical Services" +
-	"            {'\\n\\n'}" +
-	"" +
-	"            TREATMENT ROOM REQUIREMENTS" +
-	"            {'\\n\\n'}" +
-	"            The tournament will provide a secure, private medical and physiotherapy treatment area. The area" +
-	"            should be easily accessible to the locker room and match courts. The physiotherapy treatment room" +
-	"            should have temperature controls and good ventilation along with a sink (preferably with a central tap" +
-	"            that can be turned off without hands)." +
-	"            {'\\n\\n'}" +
 	"          " +
-	"          " +
-	"          " +
-	"            {'\\n\\n'}" +
-	"" +
-	"            Room size" +
-	"            " +
-	"            {'\\n\\n'}Draw size 32 = 50 square meters (approx. 540 square feet)" +
-	"            {'\\n\\n'}Draw size 48 = 60 square meters (approx. 645 square feet)" +
-	"            {'\\n\\n'}Draw size 56-64 = 70 square meters (approx. 750 square feet)" +
-	"            {'\\n\\n'}Draw size 96-128 = 100 square meters (approx. 1075 square feet)" +
-	"            {'\\n\\n'}The layout design of the training room should enable each treatment table to have a minimum area of 1" +
-	"            meter treatment area around at least three sides of all tables." +
-	"            {'\\n\\n'}The treatment area is to be used by the ATP physiotherapists and a separate area for physician" +
-	"            examinations is to be provided." +
-	"            {'\\n\\n'}If there are two training rooms being used on site, then both training rooms must have the above spacial" +
-	"            requirements and set up." +
-	"" +
-	"" +
-	"            {'\\n\\n'}" +
-	"            Treatment Room - Equipment" +
-	"            {'\\n\\n'}" +
-	"            One padded adjustable treatment table (electric and hydraulic) with face cut-out in good repair and" +
-	"            sanitary condition for each ATP Physio. Additional high low table or tables will be provided for private" +
-	"            physios." +
-	"            {'\\n\\n'}So this means, at each 250 level tournament there will be 3 adjustable treatment tables (2 high low" +
-	"            tables with face cut-outs for the 2 ATP Physios, and 1 high low table for private physios. At 500 level" +
-	"            tournaments there will be 4 adjustable treatment tables, and at 1000 level tournaments there will be" +
-	"            at least 6 adjustable treatment tables. Examples of high low tables with face cut-outs are shown in" +
-	"            the photos below." +
-	"            {'\\n\\n'}" +
-	"          " +
-	"          " +
-	"          " +
-	"            {'\\n\\n'}" +
-	"            A desk, table or a counter top will be supplied with enough surface area for medical supplies and" +
-	"            computer workstation area, examples below." +
-	"            {'\\n\\n'}" +
-	"          " +
-	"          " +
-	"          " +
-	"            {'\\n\\n'}" +
-	"            One desk chair and treatment rolling stool for each ATP physiotherapist working the event. (ie at 250’s" +
-	"            2 ATP physios, 500’s, 3 ATP Physios and 1000 level events 4-5 physios)" +
-	"            {'\\n\\n'}" +
-	"          " +
-	"          " +
-	"          " +
-	"            {'\\n\\n'}" +
-	"            A lockable cupboard large enough for medical supplies and court call bags – minimum of 3 shelves for a" +
-	"            250 event, 4 shelves for a 500 event and 5 shelves for a 1000 event." +
-	"            {'\\n\\n'}" +
-	"          " +
-	"          " +
-	"          " +
-	"            {'\\n\\n'}" +
-	"            A refrigerator or cooler for ice and player drinks. Ice needs to be stocked regularly and in crushed /" +
-	"            shaved or small cube variety." +
-	"            {'\\n\\n'}" +
-	"          " +
-	"          " +
-	"          " +
-	"            {'\\n\\n'}" +
-	"            Several Automated External Defibrillators (AED’s) must be available on-site with one located in the" +
-	"            physician office. Additional AED’s must be located throughout the tournament facilities such that an" +
-	"            AED is within 3 min of every court on-site" +
-	"" +
-	"" +
-	"            {'\\n\\n'}" +
-	"            Physician Office" +
-	"            {'\\n\\n'}" +
-	"            The tournament will provide desk, chair, treatment table and lockable cabinets, similar to pictures" +
-	"            above. The room must be private and separated from other areas of the treatment room to allow for" +
-	"            private medical evaluations and consultations." +
-	"" +
-	"            {'\\n\\n'}" +
-	"            Telecommunications/computer supplies" +
-	"            {'\\n\\n'}" +
-	"            The tournament will provide a telephone/fax machine in the doctor’s room and each physiotherapy" +
-	"            treatment area. The tournament will be responsible for cost of installation and cost for the phone line." +
-	"            {'\\n\\n'}" +
-	"            The treatment room will be equipped with a high-speed high-speed or wireless internet connection," +
-	"            with 0.6 megabit per second for uploads and 5 megabits per second for downloads at a minimum, for" +
-	"            each ATP physiotherapist to enable use of the online medical records. This can be individual DSL/ADSL" +
-	"            cable connections, a single ADSL line with a router and cabling to provide individual connections or a" +
-	"            WIFI router providing adequate internet connection service to the group. This is to be provided in" +
-	"            each training room. The tournament will be responsible for the cost of installation of the Internet" +
-	"            connection." +
-	"            {'\\n\\n'}" +
-	"            The tournament will provide a printer and copier for the ATP physio to use during the tournament for" +
-	"            medical documents." +
-	"            {'\\n\\n'}" +
-	"            Adequate power outlets or power boards to be supplied for operation of computers, phones, routers," +
-	"            hi-lo treatment tables, refrigerators, TV’s, etc" +
-	"            {'\\n\\n'}" +
-	"" +
-	"" +
-	"            Linen" +
-	"            {'\\n\\n'}" +
-	"            The tournament will supply adequate towels of minimum size 60cm x 120cm (larger towels are better" +
-	"            for players to lay on the treatment table with. For example 2 quantity 60 x 120 towels would be needed" +
-	"            under a player as compared to only 1, 80 x 180cm sized towel). During the busy days of the tournament" +
-	"            (qualifying Saturday to main draw Thursday) it would be usual for each physio working the event to use" +
-	"            50 towels per day." +
-	"" +
-	"" +
-	"            {'\\n\\n'}" +
-	"            Sanitation Requirements" +
-	"            {'\\n\\n'}" +
-	"            The tournament will provide a dispensed liquid soap with paper towels in the training room for hand" +
-	"            washing. The tournament will provide covered waste bins with pedal-control– to decrease infected" +
-	"            waste. The training room, doctor’s office and massage therapy rooms will be cleaned twice a day. This" +
-	"            will consist of cleaning tables, chairs, equipment, and floors. Anti- bacterial wipes or spray is to be" +
-	"            supplied for cleaning of treatment tables between treatments." +
-	"            {'\\n\\n'}" +
-	"          " +
-	"          " +
-	"          " +
-	"            {'\\n\\n'}" +
-	"" +
-	"" +
-	"" +
-	"            Additional Items" +
-	"            {'\\n\\n'}" +
-	"            Ice:" +
-	"            " +
-	"            It is expected that at least 2 bags of ice will be used for a 32 draw size per day, 3 bags for a 48 draw" +
-	"            and 4 bags for a 64 draw and 5 bags for a 96 draw. This does NOT include ice for making ice towels (an" +
-	"            additional supply will be required for that). Ice bags also need to be supplied by the tournament." +
-	"            Durable plastic bags that do not leak are needed to assist with ice application for the players." +
-	"            {'\\n\\n'}" +
-	"            Water:" +
-	"            " +
-	"            Bottled still water and electrolyte drinks to be supplied for players to rehydrate while in the" +
-	"            treatment room. All drinks must be WADA compatible and consistent with ATP requirements" +
-	"            {'\\n\\n'}" +
-	"            Television:" +
-	"            " +
-	"            At least one television should be supplied with access to live scoring. An additional TV with" +
-	"            court view is ideal so that players can watch current matches." +
-	"            {'\\n\\n'}" +
-	"            Massage Therapist" +
-	"            " +
-	"            Each massage therapist will require a separate massage table. They will also have a separate supply of" +
-	"            towels (minimum 30 per day) and 30 sheets per day." +
-	"            {'\\n\\n'}" +
-	"            The massage therapist will have close access to proper hand washing and toilet facilities. They will" +
-	"            have lockable cupboard, waste bins, chairs for players, and one rolling stool per massage therapist." +
-	"" +
-	"" +
-	"            {'\\n\\n'}" +
-	"            Timing Required for Preparation of Treatment Room Facility and Equipment" +
-	"            {'\\n\\n'}" +
-	"            All of these requirements must be ready to operate by 8:00 am tournament local time the day of" +
-	"            Qualifying Sign-In (i.e. The day before Qualifying matches begin)." },
-    { id: 174, indexId: '', name: 'EXHIBIT S - Media Facilities Guidelines', pageName: 'Rule174' , comp:Rule174, searchindex:"X. EXHIBITS" +
-	"          " +
-	"          " +
-	"            EXHIBIT S - Media Facilities Guidelines{'\\n\\n'}" +
+	"            EXHIBIT R - Media Facilities Guidelines{'\\n\\n'}" +
 	"" +
 	"            {'\\n\\n'}A.Media working area" +
 	"            {'\\n\\t'}1) Adequate workspace for all credentialed media" +
@@ -17655,10 +17686,10 @@ export const AllPageIndexList = [
 	"            preferred status for workspace and court side seating." +
 	"            {'\\n\\n'}* Tournaments are recommended to use web filtering technology to restrict" +
 	"            access to internet gambling sites in all areas where tournament provided internet access is provided." },
-    { id: 175, indexId: '', name: 'EXHIBIT T - Electronic Line Calling Facilities Guidelines', pageName: 'Rule175' , comp:Rule175, searchindex:"X. EXHIBITS" +
+    { id: 175, indexId: '', name: 'EXHIBIT S - Electronic Line Calling Facilities Guidelines', pageName: 'Rule175' , comp:Rule175, searchindex:"X. EXHIBITS" +
 	"          " +
 	"          " +
-	"           EXHIBIT T - Electronic Line Calling Facilities Guidelines{'\\n\\n'}" +
+	"           EXHIBIT S - Electronic Line Calling Facilities Guidelines{'\\n\\n'}" +
 	"            {'\\n\\n'}" +
 	"            A The ELC booth must be located in direct line of sight to the court, in order to provide" +
 	"            an unobstructed view of the court. It should preferably be at the back (North or South" +
@@ -17688,10 +17719,10 @@ export const AllPageIndexList = [
 	"            G. Access to the booth must be reasonably easy and safe." +
 	"            {'\\n\\n'}" +
 	"            H. Tables, chairs and high stools must be provided as requested by the ELC team." },
-    { id: 176, indexId: '', name: 'EXHIBIT U - Review Officials Duties and Procedures for the ELC Systems', pageName: 'Rule176' , comp:Rule176, searchindex:"X. EXHIBITS" +
+    { id: 176, indexId: '', name: 'EXHIBIT T - Review Officials Duties and Procedures for the ELC Systems', pageName: 'Rule176' , comp:Rule176, searchindex:"X. EXHIBITS" +
 	"          " +
 	"          " +
-	"            EXHIBIT U - Review Officials Duties and Procedures for the ELC Systems{'\\n\\n'}" +
+	"            EXHIBIT T - Review Officials Duties and Procedures for the ELC Systems{'\\n\\n'}" +
 	"" +
 	"            {'\\n\\n'}• The ELC Review Official (RO) shall be designated by the governing body responsible for the Tournament" +
 	"            {'\\n\\n'}• Attend all mandatory official’s meetings and requested training" +
@@ -17736,10 +17767,10 @@ export const AllPageIndexList = [
 	"            follow the code of Conduct, the TUI rules and procedure for officials" +
 	"            {'\\n\\n'}• Any violation of this policy could be considered a breach of the code of conduct for" +
 	"            Officials." },
-    { id: 177, indexId: '', name: 'EXHIBIT U.1 - Review Electronic Line Calling System (Review ELC)', pageName: 'Rule177' , comp:Rule177, searchindex:"X. EXHIBITS" +
+    { id: 177, indexId: '', name: 'EXHIBIT T.1 - Review Electronic Line Calling System (Review ELC)', pageName: 'Rule177' , comp:Rule177, searchindex:"X. EXHIBITS" +
 	"" +
 	"          " +
-	"            EXHIBIT U.1 - Review Electronic Line Calling System (Review ELC){'\\n\\n'}" +
+	"            EXHIBIT T.1 - Review Electronic Line Calling System (Review ELC){'\\n\\n'}" +
 	"            A Line calling system with a challenge process (Line Umpires on-court)" +
 	"" +
 	"" +
@@ -18102,10 +18133,10 @@ export const AllPageIndexList = [
 	"" +
 	"            {'\\n\\n'}" +
 	"             Review Official Protocol for Challengeable Shot" },
-    { id: 178, indexId: '', name: 'EXHIBIT U.2 - Live Electronic Line Calling System (LIVE ELC)', pageName: 'Rule178' , comp:Rule178, searchindex:"X. EXHIBITS" +
+    { id: 178, indexId: '', name: 'EXHIBIT T.2 - Live Electronic Line Calling System (LIVE ELC)', pageName: 'Rule178' , comp:Rule178, searchindex:"X. EXHIBITS" +
 	"          " +
 	"          " +
-	"            EXHIBIT U.2 - Live Electronic Line Calling System (LIVE ELC){'\\n\\n'}" +
+	"            EXHIBIT T.2 - Live Electronic Line Calling System (LIVE ELC){'\\n\\n'}" +
 	"            A line calling system making automated line calls with no Line Umpires on-court." +
 	"" +
 	"            LIVE ELC Review Official Procedures and Protocols" +
@@ -18249,9 +18280,9 @@ export const AllPageIndexList = [
 	"            red) on the chair to determine if the ball is “in” or “out” and must call audibly by" +
 	"            themselves." +
 	"" },
-    { id: 179, indexId: '', name: 'EXHIBIT V - Anti-Doping Testing Facilities Guidelines', pageName: 'Rule179' , comp:Rule179, searchindex:"X. EXHIBITS" +
+    { id: 179, indexId: '', name: 'EXHIBIT U - Anti-Doping Testing Facilities Guidelines', pageName: 'Rule179' , comp:Rule179, searchindex:"X. EXHIBITS" +
 	"          " +
-	"            EXHIBIT V - Anti-Doping Testing Facilities Guidelines{'\\n\\n'}" +
+	"            EXHIBIT U - Anti-Doping Testing Facilities Guidelines{'\\n\\n'}" +
 	"            {'\\n\\n'}" +
 	"            Doping Control Station" +
 	"            " +
@@ -18297,10 +18328,10 @@ export const AllPageIndexList = [
 	"" +
 	"          " +
 	"            A suggested layout for a doping control station is shown in the following diagram:" },
-    { id: 180, indexId: '', name: 'EXHIBIT W - Retractable Roof Policy', pageName: 'Rule180' , comp:Rule180, searchindex:"X. EXHIBITS" +
+    { id: 180, indexId: '', name: 'EXHIBIT V - Retractable Roof Policy', pageName: 'Rule180' , comp:Rule180, searchindex:"X. EXHIBITS" +
 	"          " +
 	"          " +
-	"            EXHIBIT W - Retractable Roof Policy{'\\n\\n'}" +
+	"            EXHIBIT V - Retractable Roof Policy{'\\n\\n'}" +
 	"" +
 	"            Whenever practical, playing conditions on the center court will remain the same" +
 	"            as on all other courts." +
@@ -18331,9 +18362,9 @@ export const AllPageIndexList = [
 	"            In some instances, the roof must be partially closed for the lights to function properly. In this case, the roof must be partially closed prior to the start of the match." +
 	"            {'\\n\\n'}" +
 	"            The ATP Supervisor shall be the final authority on all decisions regarding the" },
-    { id: 181, indexId: '', name: 'EXHIBIT X - Writing Table For Umpire Chairs', pageName: 'Rule181' , comp:Rule181, searchindex:"X. EXHIBITS" +
+    { id: 181, indexId: '', name: 'EXHIBIT W - Writing Table For Umpire Chairs', pageName: 'Rule181' , comp:Rule181, searchindex:"X. EXHIBITS" +
 	"          " +
-	"            EXHIBIT X - Writing Table For Umpire Chairs{'\\n\\n'}" +
+	"            EXHIBIT W - Writing Table For Umpire Chairs{'\\n\\n'}" +
 	"            {'\\n\\n'}" +
 	"            In an effort to provide a comfortable platform for the Chair Umpires to place their" +
 	"            hardware such as tablet, walkie-talkie, net device handset, it is requested that all" +
@@ -18359,10 +18390,10 @@ export const AllPageIndexList = [
 	"            be used and just cut to length and ripped for the 9 x 20 piece that is taken out. The" +
 	"            actual dimension of a 1 x 12 is 11 ½ inches wide by ¾ inches thick. A comparable" +
 	"            product could also be used in countries using the metric standard." },
-    { id: 182, indexId: '', name: 'EXHIBIT Y - Premier Player Protocol', pageName: 'Rule182' , comp:Rule182, searchindex:"X. EXHIBITS" +
+    { id: 182, indexId: '', name: 'EXHIBIT X - Premier Player Protocol', pageName: 'Rule182' , comp:Rule182, searchindex:"X. EXHIBITS" +
 	"          " +
 	"          " +
-	"            EXHIBIT Y - Premier Player Protocol{'\\n\\n'}" +
+	"            EXHIBIT X - Premier Player Protocol{'\\n\\n'}" +
 	"            " +
 	"            " +
 	"            Premier Player Group. " +
@@ -18370,16 +18401,16 @@ export const AllPageIndexList = [
 	"            Players ranked as a year-end top 30 player (commitment players) or have a current protected ranking within the top 10 are eligible to be selected in" +
 	"            the premier player group for purposes of fulfilling the restriction on who is eligible to be" +
 	"            named as an additional Wild Card at an ATP Tour 500 event. The size of the premier" +
-	"            player group shall be six (6) players plus two (2) alternates selected as follows:" +
+	"            player group shall be  ten (10)  players plus two (2) alternates selected as follows:" +
 	"            {'\\n\\n'}" +
-	"            Six (6) players shall be selected as “regional” premier players (A+) by each of the" +
-	"            three (3) regions (Americas, European and International). Each region shall also designate two (2) alternates as A1 and A2. The regional EVP’S shall solicit input from" +
-	"            their respective events to determine the six (6) regional selections, plus alternates." +
-	"            These six (6) players and the two (2) alternates shall be presented to the Board at the" +
+	"            Ten (10) players shall be selected as “tournament” premier players (A+) by each of the" +
+	"            ATP 500 tournaments. Each tournament shall also designate two (2) alternates as A1 and A2. The regional EVP’S shall solicit input from" +
+	"            their respective events to determine the ten (10) tournament selections, plus alternates." +
+	"            These ten (10) players and the two (2) alternates shall be presented to the Board at the" +
 	"            final Board meeting of the previous year for approval." +
 	"            In the event that an A+ player becomes injured or otherwise is not able to compete for" +
 	"            an extended period of time, as specified below, he will be replaced by the A1 player" +
-	"            designated by the region." +
+	"            designated by the e tournament." +
 	"            {'\\n\\n'}" +
 	"            The same procedure will be followed in the event that a second player needs to be" +
 	"            replaced as determined below." +
@@ -18408,71 +18439,71 @@ export const AllPageIndexList = [
 	"            If the replaced player returns to competition during the season, he shall be reinstated" +
 	"            as a premier A+ player upon the start of his first match (singles or doubles) in his first" +
 	"            ATP Tour event." },
-    { id: 183, indexId: '', name: 'EXHIBIT Z - Player Gym', pageName: 'Rule183' , comp:Rule183, searchindex:"X. EXHIBITS" +
-	"          " +
-	"            EXHIBIT Z - Player Gym{'\\n\\n'}" +
-	"            The minimum requirements for the on-site player gymnasium are as follows:" +
-	"            {'\\n\\n'}" +
-	"            " +
-	"              ATP Tour Masters 1000 / 500 events" +
-	"            " +
-	"          " +
-	"          " +
-	"          <Text>{'\\n\\n'}" +
-	"          " +
-	"          " +
-	"            Additional Equipment / Supplies:" +
-	"            {'\\n\\n'}a) Adequate supply of bottled water for hydration." +
-	"            {'\\n\\n'}b) Anti-bacterial wipes for hygiene." +
-	"            {'\\n\\n'}c) Mirrors on walls (to check form)." +
-	"            {'\\n\\n'}d) TV monitor(s) for live scores and live action." +
-	"            {'\\n\\n'}e) In addition to floor space for cardio equipment and weight machine(s), there" +
-	"            must be ample space for functional exercises and utilization of the medicine" +
-	"            balls, Swiss balls, and free weights and tubing. Area for stretching and work" +
-	"            with coach, physio or strength and conditioning specialist is as important as" +
-	"            the footprint for the cardio and weight machines." +
-	"            {'\\n\\n'}" +
-	"            " +
-	"              ATP Tour 250 / Challenger events" +
-	"            " +
-	"            {'\\n\\n'}a) All ATP Tour 250 events shall provide on-site and free of charge a fully" +
-	"            equipped gym of adequate size with the proper equipment as shown above" +
-	"            under requirements for a 1000 / 500 event. If the Official Tournament Hotel" +
-	"            has a fully equipped gym, which is available to all players free of charge, then" +
-	"            the tournament must provide at a minimum an area designated for warm-up /" +
-	"            cool-down with the minimum amenities hereinafter set forth in Section c):" +
-	"            {'\\n\\n'}" +
-	"            b) All Challenger Tour 175, 125 and 100 must provide on-site, off-site within" +
-	"            a reasonable distance from the tournament site/official hotel or at the official tournament hotel and free of charge a fully equipped gym of adequate" +
-	"            size with the proper equipment as shown above under requirements for a" +
-	"            1000 / 500 event. If the tournament gym is off-site, then the tournament must" +
-	"            provide at a minimum an area designated for warm-up / cool-down with the" +
-	"            minimum amenities hereinafter set forth in Section c)." +
-	"            {'\\n\\n'}" +
-	"            c) The on-site warm-up/cool-down area should be large enough to allow for" +
-	"            stretching, functional exercise, as well as to use the cardio equipment (treadmill and bike). In addition, the following amenities shall be provided at a minimum:" +
-	"            {'\\n\\n'}" +
-	"            a) 1 treadmill" +
-	"            {'\\n\\n'}b) 2 upright stationary bikes" +
-	"            {'\\n\\n'}c) Stretching area with exercise mats" +
-	"            {'\\n\\n'}d) 2 sets of elastic bands" +
-	"            {'\\n\\n'}e) 1 set of medicine/weighted balls (see recommended weights in 1000/500" +
-	"            section hereinbefore set forth" +
-	"            {'\\n\\n'}f) 2 foam rolls" +
-	"            {'\\n\\n'}g) 1 set dumb-bells (see recommended weights above in 1000/500 section" +
-	"            hereinbefore set forth" +
-	"            {'\\n\\n'}h) 1 Swiss Ball" +
-	"            {'\\n\\n'}i) 1 wobble board/foam balance platform" },
-    { id: 184, indexId: '', name: 'EXHIBIT AA - Mandatory Physical', pageName: 'Rule184' , comp:Rule184, searchindex:"X. EXHIBITS" +
+    // { id: 183, indexId: '', name: 'EXHIBIT Z - Player Gym', pageName: 'Rule183' , comp:Rule183, searchindex:"X. EXHIBITS" +
+	// "          " +
+	// "            EXHIBIT Z - Player Gym{'\\n\\n'}" +
+	// "            The minimum requirements for the on-site player gymnasium are as follows:" +
+	// "            {'\\n\\n'}" +
+	// "            " +
+	// "              ATP Tour Masters 1000 / 500 events" +
+	// "            " +
+	// "          " +
+	// "          " +
+	// "          <Text>{'\\n\\n'}" +
+	// "          " +
+	// "          " +
+	// "            Additional Equipment / Supplies:" +
+	// "            {'\\n\\n'}a) Adequate supply of bottled water for hydration." +
+	// "            {'\\n\\n'}b) Anti-bacterial wipes for hygiene." +
+	// "            {'\\n\\n'}c) Mirrors on walls (to check form)." +
+	// "            {'\\n\\n'}d) TV monitor(s) for live scores and live action." +
+	// "            {'\\n\\n'}e) In addition to floor space for cardio equipment and weight machine(s), there" +
+	// "            must be ample space for functional exercises and utilization of the medicine" +
+	// "            balls, Swiss balls, and free weights and tubing. Area for stretching and work" +
+	// "            with coach, physio or strength and conditioning specialist is as important as" +
+	// "            the footprint for the cardio and weight machines." +
+	// "            {'\\n\\n'}" +
+	// "            " +
+	// "              ATP Tour 250 / Challenger events" +
+	// "            " +
+	// "            {'\\n\\n'}a) All ATP Tour 250 events shall provide on-site and free of charge a fully" +
+	// "            equipped gym of adequate size with the proper equipment as shown above" +
+	// "            under requirements for a 1000 / 500 event. If the Official Tournament Hotel" +
+	// "            has a fully equipped gym, which is available to all players free of charge, then" +
+	// "            the tournament must provide at a minimum an area designated for warm-up /" +
+	// "            cool-down with the minimum amenities hereinafter set forth in Section c):" +
+	// "            {'\\n\\n'}" +
+	// "            b) All Challenger Tour 175, 125 and 100 must provide on-site, off-site within" +
+	// "            a reasonable distance from the tournament site/official hotel or at the official tournament hotel and free of charge a fully equipped gym of adequate" +
+	// "            size with the proper equipment as shown above under requirements for a" +
+	// "            1000 / 500 event. If the tournament gym is off-site, then the tournament must" +
+	// "            provide at a minimum an area designated for warm-up / cool-down with the" +
+	// "            minimum amenities hereinafter set forth in Section c)." +
+	// "            {'\\n\\n'}" +
+	// "            c) The on-site warm-up/cool-down area should be large enough to allow for" +
+	// "            stretching, functional exercise, as well as to use the cardio equipment (treadmill and bike). In addition, the following amenities shall be provided at a minimum:" +
+	// "            {'\\n\\n'}" +
+	// "            a) 1 treadmill" +
+	// "            {'\\n\\n'}b) 2 upright stationary bikes" +
+	// "            {'\\n\\n'}c) Stretching area with exercise mats" +
+	// "            {'\\n\\n'}d) 2 sets of elastic bands" +
+	// "            {'\\n\\n'}e) 1 set of medicine/weighted balls (see recommended weights in 1000/500" +
+	// "            section hereinbefore set forth" +
+	// "            {'\\n\\n'}f) 2 foam rolls" +
+	// "            {'\\n\\n'}g) 1 set dumb-bells (see recommended weights above in 1000/500 section" +
+	// "            hereinbefore set forth" +
+	// "            {'\\n\\n'}h) 1 Swiss Ball" +
+	// "            {'\\n\\n'}i) 1 wobble board/foam balance platform" },
+    { id: 184, indexId: '', name: 'EXHIBIT Y - Mandatory Physical', pageName: 'Rule184' , comp:Rule184, searchindex:"X. EXHIBITS" +
 	"" +
-	"	EXHIBIT AA - Mandatory Physical" },
-    { id: 185, indexId: '', name: 'EXHIBIT AB - Clothing Logos', pageName: 'Rule185' , comp:Rule185, searchindex:"X. EXHIBITS" +
+	"	EXHIBIT Y - Mandatory Physical" },
+    { id: 185, indexId: '', name: 'EXHIBIT Z - Clothing Logos', pageName: 'Rule185' , comp:Rule185, searchindex:"X. EXHIBITS" +
 	"          " +
-	"            EXHIBIT AB - Clothing Logos" },
-    { id: 186, indexId: '', name: 'EXHIBIT AC - Sample Basic Accreditation Policy Wording', pageName: 'Rule186' , comp:Rule186, searchindex:"X. EXHIBITS" +
+	"            EXHIBIT Z - Clothing Logos" },
+    { id: 186, indexId: '', name: 'EXHIBIT AA - Sample Basic Accreditation Policy Wording', pageName: 'Rule186' , comp:Rule186, searchindex:"X. EXHIBITS" +
 	"          " +
 	"          " +
-	"            EXHIBIT AC - Sample Basic Accreditation Policy Wording" +
+	"            EXHIBIT AA - Sample Basic Accreditation Policy Wording" +
 	"            {'\\n\\n'}" +
 	"            1. SCOPE AND TERM OF ACCREDITATION" +
 	"            {'\\n\\n'}" +
@@ -18786,9 +18817,9 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            6.4. The Accreditation and this Policy shall be governed by the laws of [insert jurisdiction] and the Accreditor and Accreditee agree that the courts of [insert jurisdiction] shall have exclusive jurisdiction over any dispute (whether contractual or" +
 	"            non-contractual) in relation to this Accreditation Policy." },
-    { id: 187, indexId: '', name: 'EXHIBIT AD - ATP Fantasy Sport and Betting Sponsorship', pageName: 'Rule187' , comp:Rule187, searchindex:"X. EXHIBITS" +
+    { id: 187, indexId: '', name: 'EXHIBIT AB - ATP Fantasy Sport and Betting Sponsorship', pageName: 'Rule187' , comp:Rule187, searchindex:"X. EXHIBITS" +
 	"          " +
-	"            EXHIBIT AD - ATP Fantasy Sport and Betting Sponsorship" +
+	"            EXHIBIT AB - ATP Fantasy Sport and Betting Sponsorship" +
 	"           " +
 	"           " +
 	"            {'\\n\\n'}" +

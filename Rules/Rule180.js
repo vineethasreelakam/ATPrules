@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule180({ navigation }) {
   return (
@@ -11,8 +12,9 @@ export default function Rule180({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT W - Retractable Roof Policy</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT V - Retractable Roof Policy</Text>{'\n\n'}
 
             Whenever practical, playing conditions on the center court will remain the same
             as on all other courts.
@@ -47,6 +49,7 @@ export default function Rule180({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule179', next: 'Rule181', nav: navigation }} />

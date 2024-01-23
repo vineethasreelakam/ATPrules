@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 export default function Rule125({ navigation }) {
   return (
@@ -11,10 +12,11 @@ export default function Rule125({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>9.01 Definitions</Text>{'\n\n'}
 
-            A.The 2023 Pepperstone ATP Doubles Team Rankings is the mathematical method of
+            A.The 2024 Pepperstone ATP Doubles Team Rankings is the mathematical method of
             ranking men’s doubles pairs on a calendar-year basis.
             {'\n\n'}
             B.The Pepperstone ATP Rankings and the Pepperstone ATP Doubles Rankings are
@@ -43,6 +45,7 @@ export default function Rule125({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule124', next: 'Rule126', nav: navigation }} />

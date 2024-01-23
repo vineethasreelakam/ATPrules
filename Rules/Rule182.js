@@ -12,7 +12,7 @@ export default function Rule182({ navigation }) {
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT Y - Premier Player Protocol</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT X - Premier Player Protocol</Text>{'\n\n'}
             
             <Text style={RuleStyles.SubHeading2}>
             Premier Player Group. 
@@ -20,16 +20,17 @@ export default function Rule182({ navigation }) {
             Players ranked as a year-end top 30 player (commitment players) or have a current protected ranking within the top 10 are eligible to be selected in
             the premier player group for purposes of fulfilling the restriction on who is eligible to be
             named as an additional Wild Card at an ATP Tour 500 event. The size of the premier
-            player group shall be six (6) players plus two (2) alternates selected as follows:
+            player group shall be ten (10) players plus two (2) alternates selected as follows:
             {'\n\n'}
-            Six (6) players shall be selected as “regional” premier players (A+) by each of the
-            three (3) regions (Americas, European and International). Each region shall also designate two (2) alternates as A1 and A2. The regional EVP’S shall solicit input from
-            their respective events to determine the six (6) regional selections, plus alternates.
-            These six (6) players and the two (2) alternates shall be presented to the Board at the
-            final Board meeting of the previous year for approval.
+            Ten (10) players shall be selected as “tournament” premier players (A+) by each of
+            the ATP 500 tournaments. Each tournament shall also designate two (2) alternates
+            as A1 and A2. The regional EVP’S shall solicit input from the respective events to
+            determine the ten (10) tournament selections, plus alternates. These ten (10) players
+            and the two (2) alternates shall be presented to the Board at the final Board meeting
+            of the previous year for approval.
             In the event that an A+ player becomes injured or otherwise is not able to compete for
             an extended period of time, as specified below, he will be replaced by the A1 player
-            designated by the region.
+            designated by the tournament.
             {'\n\n'}
             The same procedure will be followed in the event that a second player needs to be
             replaced as determined below.
@@ -64,7 +65,7 @@ export default function Rule182({ navigation }) {
           </Text>
         </ScrollView>
       </View>
-      <RuleNavigationButtons props={{ prev: 'Rule181', next: 'Rule183', nav: navigation }} />
+      <RuleNavigationButtons props={{ prev: 'Rule181', next: 'Rule184', nav: navigation }} />
     </>
   );
 }

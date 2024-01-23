@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule186({ navigation }) {
   return (
@@ -11,8 +12,9 @@ export default function Rule186({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT AC - Sample Basic Accreditation Policy Wording</Text>
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT AA - Sample Basic Accreditation Policy Wording</Text>
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>1. SCOPE AND TERM OF ACCREDITATION
             </Text>{'\n\n'}
@@ -329,6 +331,7 @@ export default function Rule186({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule185', next: 'Rule187', nav: navigation }} />

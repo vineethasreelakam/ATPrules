@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 export default function Rule172({ navigation }) {
   return (
     <>
@@ -11,6 +11,7 @@ export default function Rule172({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>EXHIBIT Q - Player Food Service</Text>{'\n\n'}
             
@@ -24,7 +25,6 @@ export default function Rule172({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>1) Carbohydrates 
             </Text>
-            (60% of total calorie intake)
             {'\n\n'}a) Breads and Starches
             Assorted multi-grain breads and rolls, bagels, crackers, low-sugar cereals,
             pasta (with all sauces on the side), baked (white and sweet) potatoes (with
@@ -37,7 +37,6 @@ export default function Rule172({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>2) Proteins 
             </Text>
-            (15% of total calorie intake)
             {'\n\n'}Chicken (white meat), turkey (white meat), fish (assorted variety), soft low-fat
             cheeses, low fat cottage cheese, low fat yogurt, hard-boiled eggs, tofu, nonfat milk. Additional recommendations are soy milk and assorted nuts.
             {'\n\n'}
@@ -61,17 +60,18 @@ export default function Rule172({ navigation }) {
             available (e.g., cold cereals, bagels and breads, yogurt, fruit).
             {'\n\n'}4) Suggested lunch and dinner menus should include Carbohydrates (bread/pasta/
             potatoes/rice) and at least two (2) protein selections (one [1] chicken and the
-            other fish, meat, turkey or tofu).
+            other fish, meat, turkey, tofu or other vegetarian protein option).
             {'\n\n'}5) Practice hours and match schedule will determine when meals and/or snacks are
             served. Allow for during playing hours, and up until the last match has gone on
             court.
-            {'\n\n'}6) Each tournament may contact the ATP Sport Medicine Department for menu recommendations and/or review.
+            {'\n\n'}6) Each tournament may contact the ATP Medical Services Department for menu recommendations and/or review.
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
-      <RuleNavigationButtons props={{ prev: 'Rule171', next: 'Rule173', nav: navigation }} />
+      <RuleNavigationButtons props={{ prev: 'Rule171', next: 'Rule174', nav: navigation }} />
     </>
   );
 }

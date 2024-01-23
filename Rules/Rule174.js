@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule174({ navigation }) {
   return (
@@ -11,8 +12,9 @@ export default function Rule174({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT S - Media Facilities Guidelines</Text>{'\n\n'}
+            <Text style={RuleStyles.SubHeading1}>EXHIBIT R - Media Facilities Guidelines</Text>{'\n\n'}
 
             {'\n\n'}A.Media working area
             {'\n\t'}1) Adequate workspace for all credentialed media
@@ -51,9 +53,10 @@ export default function Rule174({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
-      <RuleNavigationButtons props={{ prev: 'Rule173', next: 'Rule175', nav: navigation }} />
+      <RuleNavigationButtons props={{ prev: 'Rule172', next: 'Rule175', nav: navigation }} />
     </>
   );
 }

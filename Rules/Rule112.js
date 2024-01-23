@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 
 export default function Rule112({ navigation }) {
@@ -12,6 +13,7 @@ export default function Rule112({ navigation }) {
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                     <Text style={RuleStyles.SubHeading1}>7.22 On-Court Procedures and Requirements</Text>
                         {'\n\n'}
@@ -621,6 +623,7 @@ export default function Rule112({ navigation }) {
                         made and the line review system is unable to make a determination, the chair umpire may review the 
                         call for clear evidence that confirms or overturns the call on the cour.
                     </Text>
+                    </ZoomText>
                     <Text style={RuleStyles.Description}>
 
                         {'\n\n'}
