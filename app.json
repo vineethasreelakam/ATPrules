@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ATP Rules List",
+    "slug": "atptour",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/iconImage.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashImage.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.atptour.app",
+      "buildNumber": "2"
+    },
+    "android": {
+      "package": "com.atptour.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-iconImage.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/iconImage.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f2b1a7e-e211-42ea-9ed6-c501bbd66456"
+      }
+    },
+    "owner": "rekhacigroupusa"
+  }
+}

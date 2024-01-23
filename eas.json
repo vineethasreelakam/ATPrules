@@ -1,0 +1,31 @@
+{
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        },
+        "ios": {
+            "simulator": true
+          }
+      },
+      "preview2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview3": {
+        "developmentClient": true
+      },
+      "production": {}
+    },
+    "submit":{
+      "production": {
+        "ios":{
+          "appleId": "rekharamesh04@yahoo.com",
+          "ascAppId": "6472019666",
+          "appleTeamId": "LV96CVG99V"
+        }
+      }
+    }
+  }
+  
