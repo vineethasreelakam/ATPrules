@@ -4896,11 +4896,21 @@ export const AllPageIndexList = [
 	"            tournament to provide on-site during the entire tournament an English-speaking" +
 	"            Doctor who specializes in sports medicine, unless otherwise approved by ATP’s" +
 	"            Medical Services Committee. Each tournament shall send the name and address" +
-	"            of the tournament Doctor to the appropriate ATP regional coordinator forty-two" +
-	"            (42) days in advance of the tournament. The tournament doctor shall be responsible for the medical care and treatment of the players at all times during the event" +
-	"            and shall have no other official duties while at the tournament site. ATP Masters" +
-	"            1000 and ATP 500 tournaments shall provide for the Tournament Doctor, a private" +
-	"            space in the vicinity of the ATP Physiotherapist area." +
+	"            of the tournament Doctor (or all Doctors, if more than one) to the appropriate" +
+	"            ATP regional coordinator ninety (90) days in advance of the tournament. The" +
+	"            tournament doctor shall be responsible for the medical care and treatment of the" +
+	"            players at all times during the event and shall have no other official duties while at" +
+	"            the tournament site. ATP tournaments shall provide for the Tournament Doctor, a" +
+	"            private space in the vicinity of the ATP Physiotherapist area. Please refer to the" +
+	"            Standards and Best Practices section on ATP Tournament Centre." +
+	"            {'\\n\\n'}" +
+	"            Thirty (30) days prior to the start of the tournament, a physician schedule is required outlining the schedule of physicians for the tournament (days and hours)." +
+	"            No more than 2-3 physicians should be used. Tournament physicians are required to arrive on-site ninety (90) minutes prior to the start of play each day and" +
+	"            remain onsite until the last match concludes, and all players have been checked" +
+	"            and cleared for not requiring physician services. Tournament physicians must" +
+	"            present themselves to the ATP physiotherapist upon arrival to the site the first day" +
+	"            for debriefing and orientation of ATP Medical Services Policies and Procedures." +
+	"            All on-site tournament doctor treatments are provided to players free of charge." +
 	"            {'\\n\\n'}" +
 	"            2) Physiotherapist." +
 	"            {'\\n\\n'}" +
@@ -4912,7 +4922,9 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            3) Massage Therapist." +
 	"            It is the responsibility of each ATP Tour tournament to provide a Massage Therapist. in the following amounts: (i) 96-draw: 5, (ii) 56-draw: 4, (iii) 48-draw: 3, and" +
-	"            (iv) 32-draw: 2." +
+	"            (iv) 32/28-draw: 2. Tournaments should provide a separate ventilated room for tournament massage therapists. In exceptional circumstances massage therapists may be located in the ATP treatment room, provided there are no other options, and the room size is suficient to accommodate the increased number of tables and therapists. Please refer to the Standards and Best Practices section on ATP Tournament Centre. " +
+	"            {'\\n\\n'}" +
+	"            4) ATP Mental Health and Wellbeing ATP shall provide a player Mental Health and Wellbeing specialist at select ATP Masters 1000 tournaments. Tournaments shall provide for the ATP Mental Health and Wellbeing specialist a private space per the specifications in the Standards and Best Practices Section on ATP Tournament Centre." +
 	"            {'\\n\\n'}" +
 	"            B.ATP Challenger Tour Tournaments" +
 	"            {'\\n\\n'}" +
@@ -4977,7 +4989,9 @@ export const AllPageIndexList = [
 	"             d) Education module. All non-ATP Physiotherapists must have successfully" +
 	"            completed the ATP Medical Services education online program prior to working at ATP Challengers." +
 	"            {'\\n\\n'}" +
-	"             3) Massage Therapist. One (1) Massage Therapist must be provided at each Challenger." +
+	"            3) Massage Therapist.A minimum of one (1) Massage Therapist must be provided" +
+	"            at each Challenger. Please refer to the Standards and Best Practices section on" +
+	"            ATP Tournament Centre." +
 	"            {'\\n\\n'}" +
 	"            ● At Challenger 50 and 75 events, the second Physiotheraplist may work as" +
 	"            the Massage Therapist." +
