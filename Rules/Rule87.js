@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule87({ navigation }) {
     return (
@@ -12,8 +12,9 @@ export default function Rule87({ navigation }) {
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>6.23 Anti-Doping Facilities and On-Site Personnel Assistance</Text>
+                        <Text style={RuleStyles.SubHeading1}>6.24 Anti-Doping Facilities and On-Site Personnel Assistance</Text>
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>A.On-Site Testing Facility</Text>
                         {'\n\n'}
@@ -35,13 +36,14 @@ export default function Rule87({ navigation }) {
                         tournament of the number of personnel required no later than three (3) weeks prior to
                         the start of an event.
                         {'\n\n'}
-                        See “Exhibit V” for full Anti-Doping Facilities Guidelines.
+                        See “Exhibit U” for full Anti-Doping Facilities Guidelines.
 
                         {'\n\n'}
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
-            <RuleNavigationButtons props={{ prev: 'Rule86', next: 'Rule88', nav: navigation }} />
+            <RuleNavigationButtons props={{ prev: 'Rule211', next: 'Rule88', nav: navigation }} />
         </>
     );
 }

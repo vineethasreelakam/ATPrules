@@ -12,617 +12,617 @@ export default function Rule112({ navigation }) {
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
-                    <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+                    <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule2.png' }} />
                     <ZoomText>
-                    <Text style={RuleStyles.Description}>
-                    <Text style={RuleStyles.SubHeading1}>7.22 On-Court Procedures and Requirements</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}> A.Start of Tournament</Text>
-                        {'\n\n'}
-                        A tournament shall commence when the first serve of the first point of the first match
-                        is struck.
-                        {'\n\n'}
+                        <Text style={RuleStyles.Description}>
+                            <Text style={RuleStyles.SubHeading1}>7.22 On-Court Procedures and Requirements</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}> A.Start of Tournament</Text>
+                            {'\n\n'}
+                            A tournament shall commence when the first serve of the first point of the first match
+                            is struck.
+                            {'\n\n'}
 
-                        <Text style={RuleStyles.SubHeading2}>B.Start of Match </Text>
-                        {'\n\n'}
-                        A match shall commence when the first serve of the first point is struck.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>C. Rules of Tennis</Text>
-                        {'\n\n'}
-                        The Rules of Tennis shall apply to all ATP Tour and ATP Challenger Tour tournaments
-                        except as amended by the ATP Official Rulebook.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>D.Appeal of Calls </Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) Questions of Fact.</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Definition.</Text> A question of fact is defined as an issue relating to what actually
-                        occurred on court during a specific match. Only the on-court officials shall
-                        determine questions of fact arising during a match and the player or the Supervisor may not change such determinations.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) Rule. </Text>A player may not appeal the determination made by the on-court officials on a question of fact.
-                        {'\n\n'}
-
-
-                        <Text style={RuleStyles.SubHeading3}>2) Questions of Tennis Law.</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Definition. </Text>A question of tennis law is defined as an issue relating to the
-                        construction and application of specific facts to the ATP rules and regulations
-                        and the rules of tennis. During a match, the Chair Umpire shall first determine
-                        questions of tennis law. If the Chair Umpire is uncertain or if a player appeals
-                        the determination of the Chair Umpire, then the decision shall be made by the
-                        Supervisor, which shall be final and non-appealable.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) Player Rights.</Text> A player shall have the right to appeal any ruling of tennis law
-                        in accordance with the following procedures:
-                        {'\n\n'}
-                        i) When a player is of the opinion that a ruling by the Chair Umpire on a
-                        matter of tennis law is erroneous, he may appeal the ruling by notification
-                        to the Chair Umpire in a professional and non-abusive manner.
-                        {'\n\n'}
-                        ii) The Chair Umpire shall stop play and immediately call for the Supervisor.
-                        Upon the arrival of the Supervisor, the Chair Umpire shall state the facts
-                        of the incident and the Supervisor shall be bound by the facts as stated.
-                        The Chair Umpire shall then state his position with respect to the ruling.
-                        The Supervisor shall review briefly the applicable rules with the player
-                        and the Chair Umpire and either affirm or reverse the ruling.
-                        {'\n\n'}
-                        iii) Play shall be resumed upon the statement of “Let’s Play” by the Supervisor and the players must proceed to commence play and the twenty-five
-                        (25) second clock shall commence.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>E. Tennis Law - Cases</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Appeal of Judgment Calls</Text>
-                        {'\n\n'}
-
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A first serve is hit down the middle and is called out and then
-                        corrected to good by the center service Line Umpire. The Chair
-                        Umpire awards the point to the server, but the receiver disagrees
-                        saying that he had a play on the ball. The Chair Umpire agrees
-                        and rules that the point be replayed. The Supervisor is called to the
-                        court.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Point to server. The Chair Umpire may not change a
-                        judgment decision after a player appeal.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Receiver</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> First point of a game, the first serve is called fault and overruled by the Chair Umpire to good. The Chair Umpire then announces 15-Love. The receiver states that the point should be re-played
-                        because he returned the ball into the court. The Chair Umpire realizes that the receiver did in fact return the ball and orders the point
-                        to be replayed. The server claims that the Chair Umpire cannot
-                        change his decision and asks for the Supervisor to be called.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point is re-played. The Chair Umpire’s initial awarding of the point to the server was incorrect based upon the facts as
-                        described by the Chair Umpire: The receiver did return the serve.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Server</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> First point of a game, the first serve is called fault and
-                        overruled by the Chair Umpire to good. The Chair Umpire awards
-                        the point to the server based upon his judgment that the receiver
-                        did not have a play on the ball. The receiver claims that he could
-                        have played the ball. The Chair Umpire is not sure of his original
-                        judgment and orders the point to be re-played. The server claims
-                        that the Chair Umpire may not change his judgment based upon an
-                        appeal from the receiver and asks for the Supervisor to be called.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>Point to the server. The facts on which the Chair Umpire
-                        based his initial decision did not change. Therefore, the Chair
-                        Umpire may not change his original decision based upon a player’s
-                        appeal or protest.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Umpire Blocked on Question of Fact</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>Player A stops play claiming that player B had played the
-                        ball after it had bounced twice. The Chair Umpire said that he was
-                        “blocked” and could not make the decision.
-                        {'\n\n'}
-
- <Text style={RuleStyles.SubHeading3}>Decision:</Text> The point stands as played. When the Chair Umpire has
-                        the primary responsibility for a call (nets, throughs, not-ups and
-                        touches) as opposed to the secondary responsibility (line calls), an
-                        immediate decision must be made. If the Chair Umpire did not see a
-                        rules violation on something for which he has the primary responsibility then technically no violation can be called
-                        Appealing for a Let
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> Player A serves and player B returns the ball for a winner.
-                        Player A appeals to the Chair Umpire that the service was a let. The
-                        Chair Umpire says that he did not hear a let. Player A then asks
-                        player B if he heard a let. Player B answers yes. Upon hearing this,
-                        the Chair Umpire says that since both players heard a let, we shall
-                        play a let. Player B objects saying that it is the Chair Umpire’s call
-                        and that he was only confirming to player A that the Chair Umpire
-                        had made a mistake.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point stands as played. The Chair Umpire cannot
-                        make assumptions as to the intent of player B’s comment. The Chair Umpire should be certain that the intention of player B was to
-                        play a let before making any decision.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>F. Hindrance. </Text>A hindrance may result (1) from a corrected call by an official or (2) from
-                        an inadvertent event that occurs on-court:
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) Corrected Call. </Text>Whenever there is a corrected call either by overrule, correction
-                        by a Line Umpire or otherwise, the Chair Umpire in his sole judgment must determine if either player was hindered, and if so, order a “Let” to be played.
-                        {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>B.Start of Match </Text>
+                            {'\n\n'}
+                            A match shall commence when the first serve of the first point is struck.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>C. Rules of Tennis</Text>
+                            {'\n\n'}
+                            The Rules of Tennis shall apply to all ATP Tour and ATP Challenger Tour tournaments
+                            except as amended by the ATP Official Rulebook.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>D.Appeal of Calls </Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>1) Questions of Fact.</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>a) Definition.</Text> A question of fact is defined as an issue relating to what actually
+                            occurred on court during a specific match. Only the on-court officials shall
+                            determine questions of fact arising during a match and the player or the Supervisor may not change such determinations.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>b) Rule. </Text>A player may not appeal the determination made by the on-court officials on a question of fact.
+                            {'\n\n'}
 
 
-                        
-                       
-                       
-                        a) If a call is corrected from “Good Ball” to “Out,” then the point is ended and
-                        there is no hindrance.
-                        {'\n\n'}
-                        b) If the call is corrected from “Out” to “Good Ball,” then there must be a “Let”
-                        played unless it was a clear ace or a clear winning shot that the player could
-                        not possibly have retrieved. If there is any reasonable possibility that such a
-                        ball could have been played, then the player who would have lost the point
-                        must be given the benefit of the doubt.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>2) Inadvertent or Deliberate event. </Text>A distraction occurring on-court may be ruled
-                        inadvertent (unintentional) or ruled deliberate.
-                        {'\n\n'}
-                        a) Inadvertent distractions may include the following (a “Let” may be called in
-                        these cases): a ball rolling onto the court; a ball falling out of a pocket; a hat
-                        falling off; or an involuntary sound or exclamation (ex. verbal reaction to an
-                        injury) from a player. Any player who created the hindrance must be advised
-                        that the next time play is stopped by the Chair Umpire because of that player’s similar actions; it shall result in a loss of point.
-                        {'\n\n'}
-                        b) Any distraction caused by a player may be ruled deliberate and result in the
-                        loss of a point (intentional or unintentional). Deliberate is defined as the player meant to do what it was that caused the hindrance or distraction.
-                        {'\n\n'}
-                        c) Care must be exercised to ensure rulings do not result in providing a player(s)
-                        with two opportunities to win a point.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>G.Hindrance Cases</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Delaying the Server</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>During a match with Review ELC in use, the receiver breaks
-                        a string after returning a first serve called fault. The server challenges the fault call and the receiver changes his racket before the result
-                        of the challenge is displayed on the screen. Should the server be
-                        awarded a first serve if the call stands?
-                        {'\n\n'}
-                        Decision: Second serve, as the receiver changing his racket did not
-                        delay the server in any way.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Corrected Call</Text>
-                        {'\n\n'}
-                        Case: A second serve is a “net” call. The service Line Umpire calls
-                        “out,” then corrects it to “good.”
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Second serve
-                        Opponent’s Gear Falls On The Court
-                        {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>2) Questions of Tennis Law.</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>a) Definition. </Text>A question of tennis law is defined as an issue relating to the
+                            construction and application of specific facts to the ATP rules and regulations
+                            and the rules of tennis. During a match, the Chair Umpire shall first determine
+                            questions of tennis law. If the Chair Umpire is uncertain or if a player appeals
+                            the determination of the Chair Umpire, then the decision shall be made by the
+                            Supervisor, which shall be final and non-appealable.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>b) Player Rights.</Text> A player shall have the right to appeal any ruling of tennis law
+                            in accordance with the following procedures:
+                            {'\n\n'}
+                            i) When a player is of the opinion that a ruling by the Chair Umpire on a
+                            matter of tennis law is erroneous, he may appeal the ruling by notification
+                            to the Chair Umpire in a professional and non-abusive manner.
+                            {'\n\n'}
+                            ii) The Chair Umpire shall stop play and immediately call for the Supervisor.
+                            Upon the arrival of the Supervisor, the Chair Umpire shall state the facts
+                            of the incident and the Supervisor shall be bound by the facts as stated.
+                            The Chair Umpire shall then state his position with respect to the ruling.
+                            The Supervisor shall review briefly the applicable rules with the player
+                            and the Chair Umpire and either affirm or reverse the ruling.
+                            {'\n\n'}
+                            iii) Play shall be resumed upon the statement of “Let’s Play” by the Supervisor and the players must proceed to commence play and the twenty-five
+                            (25) second clock shall commence.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>E. Tennis Law - Cases</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Appeal of Judgment Calls</Text>
+                            {'\n\n'}
 
+                            <Text style={RuleStyles.SubHeading3}>Case: </Text>A first serve is hit down the middle and is called out and then
+                            corrected to good by the center service Line Umpire. The Chair
+                            Umpire awards the point to the server, but the receiver disagrees
+                            saying that he had a play on the ball. The Chair Umpire agrees
+                            and rules that the point be replayed. The Supervisor is called to the
+                            court.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> Point to server. The Chair Umpire may not change a
+                            judgment decision after a player appeal.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Receiver</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> First point of a game, the first serve is called fault and overruled by the Chair Umpire to good. The Chair Umpire then announces 15-Love. The receiver states that the point should be re-played
+                            because he returned the ball into the court. The Chair Umpire realizes that the receiver did in fact return the ball and orders the point
+                            to be replayed. The server claims that the Chair Umpire cannot
+                            change his decision and asks for the Supervisor to be called.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point is re-played. The Chair Umpire’s initial awarding of the point to the server was incorrect based upon the facts as
+                            described by the Chair Umpire: The receiver did return the serve.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Server</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> First point of a game, the first serve is called fault and
+                            overruled by the Chair Umpire to good. The Chair Umpire awards
+                            the point to the server based upon his judgment that the receiver
+                            did not have a play on the ball. The receiver claims that he could
+                            have played the ball. The Chair Umpire is not sure of his original
+                            judgment and orders the point to be re-played. The server claims
+                            that the Chair Umpire may not change his judgment based upon an
+                            appeal from the receiver and asks for the Supervisor to be called.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>Point to the server. The facts on which the Chair Umpire
+                            based his initial decision did not change. Therefore, the Chair
+                            Umpire may not change his original decision based upon a player’s
+                            appeal or protest.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Umpire Blocked on Question of Fact</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case: </Text>Player A stops play claiming that player B had played the
+                            ball after it had bounced twice. The Chair Umpire said that he was
+                            “blocked” and could not make the decision.
+                            {'\n\n'}
 
-
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> Clothing or equipment (excluding the racquet) that is worn or
-                        carried by a player, including a ball from his pocket, falls to the court
-                        during play.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire shall call a let and replay the point. He
-                        shall also inform the player that if the Chair Umpire makes a second
-                        call of let, it will result in a loss of point.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player’s shoe comes off during play and is laying on the
-                        court.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The default position of the Chair Umpire should be that
-                        the point continues, unless the Chair Umpire is convinced that the
-                        opponent is hindered and in that case, a let could be called.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Opponent Makes Noise</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> During play, a player thinking he has hit a winner, shouts “vamos”, “come on”, “yes”, etc. as his opponent is in the act of hitting
-                        the ball.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> If the Chair Umpire rules that a hindrance has occurred
-                        then, as the sound or exclamation that caused the hindrance was
-                        deliberate, the point shall be awarded.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Inadvertent Hindrance</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>As a player is in the process of hitting a volley into the net,
-                        his hat falls off. He then claims a let for hindrance.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>No let. A player may not hinder himself. A let should only
-                        be called when the opponent could have been hindered.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Singles Stick Falls</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>After a first serve fault, the singles stick falls to the court.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire should award a first serve unless in
-                        his opinion the replacement time was such that the server was not
-                        delayed in his delivery of a second serve.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Spectator Noise</Text>
-                        {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The point stands as played. When the Chair Umpire has
+                            the primary responsibility for a call (nets, throughs, not-ups and
+                            touches) as opposed to the secondary responsibility (line calls), an
+                            immediate decision must be made. If the Chair Umpire did not see a
+                            rules violation on something for which he has the primary responsibility then technically no violation can be called
+                            Appealing for a Let
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> Player A serves and player B returns the ball for a winner.
+                            Player A appeals to the Chair Umpire that the service was a let. The
+                            Chair Umpire says that he did not hear a let. Player A then asks
+                            player B if he heard a let. Player B answers yes. Upon hearing this,
+                            the Chair Umpire says that since both players heard a let, we shall
+                            play a let. Player B objects saying that it is the Chair Umpire’s call
+                            and that he was only confirming to player A that the Chair Umpire
+                            had made a mistake.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point stands as played. The Chair Umpire cannot
+                            make assumptions as to the intent of player B’s comment. The Chair Umpire should be certain that the intention of player B was to
+                            play a let before making any decision.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>F. Hindrance. </Text>A hindrance may result (1) from a corrected call by an official or (2) from
+                            an inadvertent event that occurs on-court:
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>1) Corrected Call. </Text>Whenever there is a corrected call either by overrule, correction
+                            by a Line Umpire or otherwise, the Chair Umpire in his sole judgment must determine if either player was hindered, and if so, order a “Let” to be played.
+                            {'\n\n'}
 
 
 
 
 
+                            a) If a call is corrected from “Good Ball” to “Out,” then the point is ended and
+                            there is no hindrance.
+                            {'\n\n'}
+                            b) If the call is corrected from “Out” to “Good Ball,” then there must be a “Let”
+                            played unless it was a clear ace or a clear winning shot that the player could
+                            not possibly have retrieved. If there is any reasonable possibility that such a
+                            ball could have been played, then the player who would have lost the point
+                            must be given the benefit of the doubt.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>2) Inadvertent or Deliberate event. </Text>A distraction occurring on-court may be ruled
+                            inadvertent (unintentional) or ruled deliberate.
+                            {'\n\n'}
+                            a) Inadvertent distractions may include the following (a “Let” may be called in
+                            these cases): a ball rolling onto the court; a ball falling out of a pocket; a hat
+                            falling off; or an involuntary sound or exclamation (ex. verbal reaction to an
+                            injury) from a player. Any player who created the hindrance must be advised
+                            that the next time play is stopped by the Chair Umpire because of that player’s similar actions; it shall result in a loss of point.
+                            {'\n\n'}
+                            b) Any distraction caused by a player may be ruled deliberate and result in the
+                            loss of a point (intentional or unintentional). Deliberate is defined as the player meant to do what it was that caused the hindrance or distraction.
+                            {'\n\n'}
+                            c) Care must be exercised to ensure rulings do not result in providing a player(s)
+                            with two opportunities to win a point.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>G.Hindrance Cases</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Delaying the Server</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case: </Text>During a match with Review ELC in use, the receiver breaks
+                            a string after returning a first serve called fault. The server challenges the fault call and the receiver changes his racket before the result
+                            of the challenge is displayed on the screen. Should the server be
+                            awarded a first serve if the call stands?
+                            {'\n\n'}
+                            Decision: Second serve, as the receiver changing his racket did not
+                            delay the server in any way.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Corrected Call</Text>
+                            {'\n\n'}
+                            Case: A second serve is a “net” call. The service Line Umpire calls
+                            “out,” then corrects it to “good.”
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> Second serve
+                            Opponent’s Gear Falls On The Court
+                            {'\n\n'}
 
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> During play an “out” call is made by a spectator. The player
-                        stops playing and claims hindrance.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: The point stands as played. </Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Early Foot Fault Call</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>The baseline umpire calls a foot fault on the server prior to
-                        him hitting a first serve. The server continues with his motion and
-                        hits the serve into the net.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}></Text>Decision: First serve awarded. It is not a foot fault until the ball has
-                        been struck. Therefore, the call is erroneous and the Line Umpire
-                        has hindered the server.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>H.Overrule </Text>
-                        {'\n\n'}
-                        1) The Chair Umpire may overrule a Line Umpire only if (1) there is a clear mistake
-                        by a Line Umpire, and (2) the overrule is made promptly after the mistake. A player may never appeal a determination on questions of fact to the Supervisor.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Clear Mistake.</Text> As a matter of practice the Chair Umpire must be in a position to make a determination that a call was erroneous beyond a reasonable
-                        doubt. To overrule a ball called “Good” by the Line Umpire, the Chair Umpire
-                        must have been able to see a space between the ball and the line. To overrule
-                        an “Out” or “Fault” call by a Line Umpire, the Chair Umpire must have seen
-                        the ball hit on or inside the line. Clear foot-faults not called by the responsible
-                        Line Umpire should be called by the Chair Umpire.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) Promptly. </Text>The Chair Umpire must overrule immediately after the Line Umpire
-                        makes the “clear mistake.” The overrule “call” must be made almost simultaneously with the “clear mistake” made by the Line Umpire.
-                        {'\n\n'}
-                        2) A player may request that the Chair Umpire verify a call or other determination
-                        of fact on a point-ending call made by an on-court official; upon such request the
-                        Chair Umpire shall immediately verify the same either by his own personal observation or upon confirmation of the Line Umpire or other on-court official involved.
-                        The Chair Umpire may never overrule the call of a Line Umpire upon the request
-                        of a player. A Line Umpire may never change a call as a result of a protest or
-                        appeal, except in the case of clay court ball mark procedures.
-                        {'\n\n'}
-                        3) The request, verification and resumption of play should be completed within the
-                        twenty-five (25) seconds allowed between points. If the player prolongs the argument, the Chair Umpire should announce “Let’s Play,” and the player is subject to
-                        the provisions of the Code.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>I. Correction/Verification of Call</Text>
-                        <Text style={RuleStyles.SubHeading3}>Line umpires. </Text>When a Line Umpire realizes that he/she has made an erroneous
-                        call, including an inadvertent sound, he/she should immediately call “Correction”
-                        so that the Chair Umpire and the players are aware of the error. The Line Umpire
-                        should then make the corrected call.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>J. Ball Mark Inspection Procedures (Clay Courts)</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) Chair Umpire</Text>
-                        {'\n\n'}
-                        a) A ball mark inspection requested by a player (team) shall be allowed only if
-                        the Chair Umpire cannot determine the call with surety on either a point-ending shot or when a player (team) stops playing the point during the rally (Returns are permitted but then the player must immediately stop). The Chair
-                        Umpire shall check ball marks if there is some doubt about the accuracy of
-                        the call.
-                        {'\n\n'}
+
+
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> Clothing or equipment (excluding the racquet) that is worn or
+                            carried by a player, including a ball from his pocket, falls to the court
+                            during play.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire shall call a let and replay the point. He
+                            shall also inform the player that if the Chair Umpire makes a second
+                            call of let, it will result in a loss of point.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case: </Text>A player’s shoe comes off during play and is laying on the
+                            court.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The default position of the Chair Umpire should be that
+                            the point continues, unless the Chair Umpire is convinced that the
+                            opponent is hindered and in that case, a let could be called.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Opponent Makes Noise</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> During play, a player thinking he has hit a winner, shouts “vamos”, “come on”, “yes”, etc. as his opponent is in the act of hitting
+                            the ball.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> If the Chair Umpire rules that a hindrance has occurred
+                            then, as the sound or exclamation that caused the hindrance was
+                            deliberate, the point shall be awarded.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Inadvertent Hindrance</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case: </Text>As a player is in the process of hitting a volley into the net,
+                            his hat falls off. He then claims a let for hindrance.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>No let. A player may not hinder himself. A let should only
+                            be called when the opponent could have been hindered.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Singles Stick Falls</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case: </Text>After a first serve fault, the singles stick falls to the court.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire should award a first serve unless in
+                            his opinion the replacement time was such that the server was not
+                            delayed in his delivery of a second serve.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Spectator Noise</Text>
+                            {'\n\n'}
 
 
 
 
 
 
-                        b) If the Chair Umpire sees a clear mistake, he may stop play with an overrule.
-                        {'\n\n'}
-                        c) The original call or overrule shall always stand if the Line Umpire and/or Chair
-                        Umpire cannot determine the location of the mark or if the mark is unreadable.
-                        {'\n\n'}
-                        d) Once the Chair Umpire has identified and ruled on a ball mark, this decision
-                        is final and not appealable.
-                        {'\n\n'}
-                        e) In clay court tennis, the Chair Umpire should not be too quick to announce
-                        the score unless absolutely certain of the call. If in doubt, the Chair Umpire
-                        should wait before calling the score to determine whether a ball mark inspection is necessary. Ball mark inspections made after the score has been
-                        announced or after first serves shall be done as quickly as possible so the
-                        server is not unreasonably delayed.
-                        {'\n\n'}
-                        f) In doubles, the appealing player must make his appeal in such a way that
-                        either both players stop playing the point or the Chair Umpire stops play.
-                        If an appeal is made to the Chair Umpire, then the Chair Umpire must first
-                        determine that the correct procedure was followed. If it is not proper or if it
-                        is late, then the Chair Umpire may determine that the opposing team was
-                        deliberately hindered.
-                        {'\n\n'}
-                        g) Players may not cross the net to check a ball mark without being subject to
-                        the Code. A player may not erase marks unless he is conceding the call or
-                        after a ball mark inspection occurs and the Chair Umpire has made a final
-                        decision.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>2) Line Umpires</Text>
-                        {'\n\n'}
-                        a) If a Line Umpire has to make a close call, he must keep his eyes on the mark
-                        and should not look at the Chair Umpire.
-                        {'\n\n'}
-                        b) If requested by the Chair Umpire, the Line Umpire shall walk directly to the
-                        mark and identify the mark to the Chair Umpire. The Chair Umpire shall then
-                        inspect the mark and make the determination.
-                        {'\n\n'}
-                        c) If directed by the Chair Umpire to identify a mark and the Line Umpire is not
-                        sure of the mark, the Line Umpire must state immediately to the Chair Umpire, “I do not have the mark.”
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>K.Clay Court Cases</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Can’t Find Ball Mark</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A Line Umpire calls a ball out on a clay court. The Chair
-                        Umpire asks him to show the mark. The Line Umpire cannot locate
-                        the mark and neither can the Chair Umpire.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The original (out) call must stand.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Clay Court:</Text> Doubles Ball Mark Appeal
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> Player B returns a serve but his partner, player A, says, “wait”
-                        as he moves to look at the mark. The Chair Umpire stops play. The
-                        opponent, player C, appeals to the Supervisor, saying player B
-                        returned the serve, which player C put away.
-                        Decision: The procedure was correct (The Chair Umpire stopped
-                        play after an interruption by player A.) The mark is examined and if
-                        it is good, Team A-B loses the point; otherwise, it is a second serve.
-                        Must Both Players on a Team Stop to Get Ball Mark Inspection.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> In doubles on a clay court, the second serve is called good.
-                        The receiver returns the ball but hesitates in search of the mark. His
-                        partner crosses (poaches) and hits the ball into the net. The receiver
-                        then appeals the second serve, stating that he stopped play prior to
-                        his reflex return.
-                        {'\n\n'}
-
-
-
-
-
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point stands as played. Both players must stop
-                        playing or the player appealing must do so in a manner that results
-                        in the Chair Umpire stopping play.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Overrule Then Inspect Ball Mark</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>As a Chair Umpire, you overrule a ball on a clay court. The
-                        player disagrees and asks for a ball mark inspection. You think that
-                        maybe you made a mistake on the overrule.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire should check the mark.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>L. Electronic Review / Electronic Review - Line Calling (Review ELC)</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>A. Electronic Review (Review ELC)</Text>
-                        {'\n\n'}
-                        The use of an approved electronic system for reviewing line calls and/or overrules is
-                        authorized for use at ATP events. The protocol for Review ELC is as follows:
-                        {'\n\n'}
-                        1) A request for an electronic review of a line call by a player (team) shall be allowed
-                        only on either a point-ending shot or when a player (team) stops playing the point
-                        during a rally (returns are permitted but then the player must immediately stop).
-                        {'\n\n'}
-                        2) In doubles the appealing player must make his appeal in such a way that either
-                        play stops or the Chair Umpire stops play. If an appeal is made to the Chair Umpire the Chair Umpire must first determine that the correct appeal procedure
-                        was followed. If it was not correct or if it was late, then the Chair Umpire may
-                        determine that the opposing team was deliberately hindered, in which case the
-                        appealing team loses the point.
-                        {'\n\n'}
-                        3) Each player/team shall receive three (3) challenges per set (excluding the tiebreak game). If the player/team is incorrect with a challenge, then one of the
-                        challenges is lost. If the player (team) is correct with a challenge, then the player
-                        retains his same number of challenges. Challenges remaining, if any, at the end
-                        of a set do not carry over to the next set.
-                        {'\n\n'}
-                        4) During the tie-break game in any set, each player/team shall receive one (1) additional challenge. This is in addition to any challenges not lost, if any, during the
-                        set.
-                        {'\n\n'}
-                        5) For doubles, the Match Tie Break shall be considered as a new set and each
-                        team shall receive three (3) challenges. Challenges remaining from the previous
-                        set do not carry over into the Match Tie Break. Successful challenges do not
-                        reduce the number of challenges that may remain.
-                        {'\n\n'}
-                        6) In order to challenge, a player must show an immediate interest in making a
-                        challenge and must do it in a timely manner. The key to the policy is “immediate
-                        interest”. The player must also make his/her intention to challenge known to the
-                        Chair Umpire either verbally or visually using his racquet or finger. The Chair
-                        Umpire will (a) reconfirm with the player his intent to challenge; (b) confirm that
-                        the player has challenges remaining; and (c) proceed with the electronic review.
-                        {'\n\n'}
-                        7) The original call or overrule will always stand if the electronic review is unable, for
-                        whatever reason, to make a decision on that line call or overrule. In this case, the
-                        player shall not have his available number of challenges reduced.
-                        {'\n\n'}
-                        8) If there is no call made from the on-court officials (unsighted Line Umpire and
-                        Chair Umpire cannot make the call) on a point ending shot, the Chair Umpire may
-                        call for a review and the result of the review will not affect the remaining challenges of either player.
-                        {'\n\n'}
-                        9) The decision of the electronic review is final and cannot be appealed.
-                        {'\n\n'}
-                        10) A certified official, approved by the ATP Supervisor, shall act as the Review Official* and his duties shall include, but are not limited to:
-                        {'\n\n'}
-                        a) Determining which impact shall be reviewed by the system.
-                        {'\n\n'}
-                        b) Act as the final authority on tracking the number of challenges each player
-                        has remaining.
-                        {'\n\n'}
-                        c) Monitor the system to ensure that it is functioning properly.
-                        {'\n\n'}
-                        d) Notify the Chair Umpire immediately in the case of a system failure or any
-                        other condition that prohibits or brings into question the ability of the system
-                        to review a challenged call. In this case, the Chair Umpire shall immediately
-                        notify both players that review is not available until further notice.
-                        {'\n\n'}
-                        * Review official and supporting technology staff shall be located within the stadium or arena in a secured area and with an unobstructed view of the court.
-                        {'\n\n'}
-                        11) For each court that is using a review system, there shall be a minimum of one
-                        (1) video board, of sufficient size, located in a position where the Chair Umpire,
-                        players and spectators may view the results of the challenge.
-                        {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> During play an “out” call is made by a spectator. The player
+                            stops playing and claims hindrance.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision: The point stands as played. </Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Early Foot Fault Call</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case: </Text>The baseline umpire calls a foot fault on the server prior to
+                            him hitting a first serve. The server continues with his motion and
+                            hits the serve into the net.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}></Text>Decision: First serve awarded. It is not a foot fault until the ball has
+                            been struck. Therefore, the call is erroneous and the Line Umpire
+                            has hindered the server.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>H.Overrule </Text>
+                            {'\n\n'}
+                            1) The Chair Umpire may overrule a Line Umpire only if (1) there is a clear mistake
+                            by a Line Umpire, and (2) the overrule is made promptly after the mistake. A player may never appeal a determination on questions of fact to the Supervisor.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>a) Clear Mistake.</Text> As a matter of practice the Chair Umpire must be in a position to make a determination that a call was erroneous beyond a reasonable
+                            doubt. To overrule a ball called “Good” by the Line Umpire, the Chair Umpire
+                            must have been able to see a space between the ball and the line. To overrule
+                            an “Out” or “Fault” call by a Line Umpire, the Chair Umpire must have seen
+                            the ball hit on or inside the line. Clear foot-faults not called by the responsible
+                            Line Umpire should be called by the Chair Umpire.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>b) Promptly. </Text>The Chair Umpire must overrule immediately after the Line Umpire
+                            makes the “clear mistake.” The overrule “call” must be made almost simultaneously with the “clear mistake” made by the Line Umpire.
+                            {'\n\n'}
+                            2) A player may request that the Chair Umpire verify a call or other determination
+                            of fact on a point-ending call made by an on-court official; upon such request the
+                            Chair Umpire shall immediately verify the same either by his own personal observation or upon confirmation of the Line Umpire or other on-court official involved.
+                            The Chair Umpire may never overrule the call of a Line Umpire upon the request
+                            of a player. A Line Umpire may never change a call as a result of a protest or
+                            appeal, except in the case of clay court ball mark procedures.
+                            {'\n\n'}
+                            3) The request, verification and resumption of play should be completed within the
+                            twenty-five (25) seconds allowed between points. If the player prolongs the argument, the Chair Umpire should announce “Let’s Play,” and the player is subject to
+                            the provisions of the Code.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>I. Correction/Verification of Call</Text>
+                            <Text style={RuleStyles.SubHeading3}>Line umpires. </Text>When a Line Umpire realizes that he/she has made an erroneous
+                            call, including an inadvertent sound, he/she should immediately call “Correction”
+                            so that the Chair Umpire and the players are aware of the error. The Line Umpire
+                            should then make the corrected call.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>J. Ball Mark Inspection Procedures (Clay Courts)</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>1) Chair Umpire</Text>
+                            {'\n\n'}
+                            a) A ball mark inspection requested by a player (team) shall be allowed only if
+                            the Chair Umpire cannot determine the call with surety on either a point-ending shot or when a player (team) stops playing the point during the rally (Returns are permitted but then the player must immediately stop). The Chair
+                            Umpire shall check ball marks if there is some doubt about the accuracy of
+                            the call.
+                            {'\n\n'}
 
 
 
 
 
 
-                        
-                        12) Review Official Protocol is described in “Exhibit T.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>B. Electronic Review -</Text> Live Line Calling (Live ELC)
-                        The use of an approved Live ELC electronic line calling system is authorized for use
-                        at ATP events in 2023.
-                        {'\n\n'}
-                        The following protocol shall be used.
-                        {'\n\n'}
-                        1) There shall be no line umpires. All lines shall be called using the Live ELC System
-                        approved by ATP to call all lines.
-                        {'\n\n'}
-                        2) Foot-faults will be called by a Review Official monitoring two (2) court-level cameras placed on the baseline and on the center service line at each end of the court
-                        if available or the Chair Umpire.
-                        {'\n\n'}
-                        3) In the unlikely event the Live ELC system malfunctions, play will be delayed for up
-                        until such time as the issue is corrected or 15 minutes have elapsed. If the issue
-                        is not resolved within 15 minutes the ATP Tour Supervisor will decide when and
-                        how the match will resume.
-                        {'\n\n'}
-                        4) If the Live ELC system fails to make a call, the call shall be made by the Chair
-                        Umpire. If the Chair Umpire is unable to determine if the ball was in or out, then
-                        the point shall be replayed. This protocol applies only to point ending shots or
-                        in the case when a player stops play. In the case where there is no call, and the
-                        player stops play, the umpire shall call for the shot to be displayed on the video
-                        board for confirmation.
-                        {'\n\n'}
-                        5) If equipment is available, automatic replays of the call will be shown on the video
-                        boards on point ending shots that are “out” by 15 centimeters or less. Winning
-                        shots warranting a replay will be manually directed to the video board by the Review Official.
-                        {'\n\n'}
-                        6) Physical requirements for the on-site booth to be confirmed..
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>M. Continuous Play/Delay of Game </Text>
-                        {'\n\n'}
-                        Play shall be continuous, except that a maximum of twenty-five (25) seconds may
-                        elapse from the moment the ball goes out of play at the end of one point to the time
-                        the ball is struck for the next point, except at a ninety (90) second changeover or a
-                        one hundred and twenty (120) second set break. The procedures for enforcing this
-                        rule are as follows:
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) Time Between Points. 25 Seconds/Continuous Play</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch.</Text> The Chair Umpire must start the stopwatch after the ball
-                        goes out of play or when the players are ordered to play.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</Text> A Time or Code Violation must be assessed if the ball is not struck for the next point within the twenty-five (25)
-                        seconds allowed, except if the Chair Umpire extends the time for special circumstances defined by ATP. There is no time warning prior to the expiration
-                        of the twenty-five (25) seconds.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>2) 90 Seconds/Change-Over (Changing Ends)</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch the moment
-                        the ball goes out of play.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) “Time.” </Text>The Chair Umpire must announce to players “Time” after one (1)
-                        minute has elapsed. If requested, prior to the match, by a television broadcaster, the Chair Umpire shall have the authority to delay the start of play until
-                        the end of the ninety (90) second changeover period.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>c) “15 Seconds.” </Text>The Chair Umpire may announce to players “15 Seconds” if
-                        the players are still at their chairs and/or have not started toward their playing
-                        positions.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </Text>The Chair Umpire must assess a Time
-                        Violation or, when applicable, a Code Violation (after a medical time-out or
-                        treatment) if the ball is not struck for the next point within the ninety (90) seconds / one hundred twenty (120) seconds allowed, provided there has been
-                        no interference which prevented the Server from serving within that time or a
-                        delay by the Chair Umpire.
-                        {'\n\n'}
+                            b) If the Chair Umpire sees a clear mistake, he may stop play with an overrule.
+                            {'\n\n'}
+                            c) The original call or overrule shall always stand if the Line Umpire and/or Chair
+                            Umpire cannot determine the location of the mark or if the mark is unreadable.
+                            {'\n\n'}
+                            d) Once the Chair Umpire has identified and ruled on a ball mark, this decision
+                            is final and not appealable.
+                            {'\n\n'}
+                            e) In clay court tennis, the Chair Umpire should not be too quick to announce
+                            the score unless absolutely certain of the call. If in doubt, the Chair Umpire
+                            should wait before calling the score to determine whether a ball mark inspection is necessary. Ball mark inspections made after the score has been
+                            announced or after first serves shall be done as quickly as possible so the
+                            server is not unreasonably delayed.
+                            {'\n\n'}
+                            f) In doubles, the appealing player must make his appeal in such a way that
+                            either both players stop playing the point or the Chair Umpire stops play.
+                            If an appeal is made to the Chair Umpire, then the Chair Umpire must first
+                            determine that the correct procedure was followed. If it is not proper or if it
+                            is late, then the Chair Umpire may determine that the opposing team was
+                            deliberately hindered.
+                            {'\n\n'}
+                            g) Players may not cross the net to check a ball mark without being subject to
+                            the Code. A player may not erase marks unless he is conceding the call or
+                            after a ball mark inspection occurs and the Chair Umpire has made a final
+                            decision.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>2) Line Umpires</Text>
+                            {'\n\n'}
+                            a) If a Line Umpire has to make a close call, he must keep his eyes on the mark
+                            and should not look at the Chair Umpire.
+                            {'\n\n'}
+                            b) If requested by the Chair Umpire, the Line Umpire shall walk directly to the
+                            mark and identify the mark to the Chair Umpire. The Chair Umpire shall then
+                            inspect the mark and make the determination.
+                            {'\n\n'}
+                            c) If directed by the Chair Umpire to identify a mark and the Line Umpire is not
+                            sure of the mark, the Line Umpire must state immediately to the Chair Umpire, “I do not have the mark.”
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>K.Clay Court Cases</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Can’t Find Ball Mark</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> A Line Umpire calls a ball out on a clay court. The Chair
+                            Umpire asks him to show the mark. The Line Umpire cannot locate
+                            the mark and neither can the Chair Umpire.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>The original (out) call must stand.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Clay Court:</Text> Doubles Ball Mark Appeal
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> Player B returns a serve but his partner, player A, says, “wait”
+                            as he moves to look at the mark. The Chair Umpire stops play. The
+                            opponent, player C, appeals to the Supervisor, saying player B
+                            returned the serve, which player C put away.
+                            Decision: The procedure was correct (The Chair Umpire stopped
+                            play after an interruption by player A.) The mark is examined and if
+                            it is good, Team A-B loses the point; otherwise, it is a second serve.
+                            Must Both Players on a Team Stop to Get Ball Mark Inspection.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case:</Text> In doubles on a clay court, the second serve is called good.
+                            The receiver returns the ball but hesitates in search of the mark. His
+                            partner crosses (poaches) and hits the ball into the net. The receiver
+                            then appeals the second serve, stating that he stopped play prior to
+                            his reflex return.
+                            {'\n\n'}
 
 
 
 
 
-                        <Text style={RuleStyles.SubHeading3}>3) 120 Seconds/Set Break</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch the moment
-                        the ball goes out of play.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) “Time”. </Text>The Chair Umpire must announce to players “time” after 90 seconds
-                        has elapsed. If requested, prior to the match, by a television broadcaster, the
-                        Chair Umpire shall have the authority to delay the start of play until the end of
-                        the one hundred twenty (120) second set break.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>c) “15 Seconds.” </Text>The Chair Umpire may announce to players “15 Seconds” if
-                        the players are still at their chairs and/or have not started toward their playing
-                        positions.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </Text>The Chair Umpire must assess a Time
-                        Violation or, when applicable, a Code Violation (after a medical time-out or
-                        treatment) if the ball is not struck for the next point within the one hundred
-                        twenty (120) / one hundred fifty (150) seconds allowed, provided there has
-                        been no interference which prevented the server from serving within that time
-                        or a delay by the Chair Umpire.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>4) Not Playing to the Reasonable Pace of the Server</Text>
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch when the player is ordered to play or the moment the ball goes out of play.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</Text> The Chair Umpire must assess a Code
-                        Violation if the receiver is employing “gamesmanship.” The Chair Umpire
-                        must issue a Time Violation before the expiration of twenty-five (25) seconds
-                        if the receiver’s actions delay the reasonable pace of the server.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>5) Stoppage and Postponement of a Match</Text>
-                        {'\n\n'}
-                        a) The Chair Umpire may stop a match temporarily because of or conditions
-                        of the grounds or weather. Any such stoppage by a Chair Umpire must be
-                        reported immediately to the Supervisor. Once a match is stopped and until
-                        a match is postponed, the Chair Umpire must ensure that he, the players
-                        and all on-court officials remain ready to resume the match. The Supervisor
-                        makes the decision to postpone a match until a later day.
-                        {'\n\n'}
-                        b) Upon stoppage or postponement by the Supervisor, the Chair Umpire shall
-                        record the time, point, game and set score, the name of the server, the side
-                        on which each player was situated and shall collect all balls in use for the
-                        match.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>6) Warm up / Re-warm up.</Text>
-                        {'\n\n'}
-                        There shall be a four (4) minute warm-up before a match and in the case of a
-                        stopped or postponed match, the period of warm-up shall be as follows:
-                        {'\n\n'}
-                        a) 0-15 minutes delay — No warm--up;
-                        {'\n\n'}
-                        b) more than 15 minutes but less than 30 minutes —Three (3) minutes of warmup; and
-                        {'\n\n'}
-                        c) 30 or more minutes of delay — Four (4) minutes of warm-up [Five (5) minutes
-                        at Challengers].
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>N. Video Review (“VR”)</Text>
-                        {'\n\n'}
-                        The use of VR to determine specific judgment calls is approved for use at events
-                        where there is Electronic Line Calling (“ELC”) and the VR system has been approved
-                        by ATP.
-                        {'\n\n'}
-                        The protocol for use is as follows:
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Reviewable calls</Text>
-                        {'\n\n'}
-                        i) Not-up – ball bounced more than once prior to contact.
-                        {'\n\n'}
-                        ii) Foul shot – player carries the ball on the racquet, player contacts the ball
-                        before it crosses the net, player’s racquet touches the ball while not under
-                        the control of the player.
-                        {'\n\n'}
-                        iii) Touch – ball touches player, or anything he is wearing or carrying (except
-                        racquet), player touches net while ball is in play.
-                        {'\n\n'}
-                        iv) Invasion – player touches the opponent’s court with any part of his body
-                        or his racquet while the ball is in play.
-                        {'\n\n'}
-                        v) Through – the ball passes through the net instead of passing over the net.
-                        {'\n\n'}
-                        vi) Hindrance – any decision on whether a point should be awarded, or the
-                        point should be replayed. Most common use of this would be a call corrected from out to good and whether the 
-                        player had a play on the ball.
-                        {'\n\n'}
-                        vii) Original Call Stands – when a challenge to a line call has properly been 
-                        made and the line review system is unable to make a determination, the chair umpire may review the 
-                        call for clear evidence that confirms or overturns the call on the cour.
-                    </Text>
+                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point stands as played. Both players must stop
+                            playing or the player appealing must do so in a manner that results
+                            in the Chair Umpire stopping play.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Overrule Then Inspect Ball Mark</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Case: </Text>As a Chair Umpire, you overrule a ball on a clay court. The
+                            player disagrees and asks for a ball mark inspection. You think that
+                            maybe you made a mistake on the overrule.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire should check the mark.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>L. Electronic Review / Electronic Review - Line Calling (Review ELC)</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>A. Electronic Review (Review ELC)</Text>
+                            {'\n\n'}
+                            The use of an approved electronic system for reviewing line calls and/or overrules is
+                            authorized for use at ATP events. The protocol for Review ELC is as follows:
+                            {'\n\n'}
+                            1) A request for an electronic review of a line call by a player (team) shall be allowed
+                            only on either a point-ending shot or when a player (team) stops playing the point
+                            during a rally (returns are permitted but then the player must immediately stop).
+                            {'\n\n'}
+                            2) In doubles the appealing player must make his appeal in such a way that either
+                            play stops or the Chair Umpire stops play. If an appeal is made to the Chair Umpire the Chair Umpire must first determine that the correct appeal procedure
+                            was followed. If it was not correct or if it was late, then the Chair Umpire may
+                            determine that the opposing team was deliberately hindered, in which case the
+                            appealing team loses the point.
+                            {'\n\n'}
+                            3) Each player/team shall receive three (3) challenges per set (excluding the tiebreak game). If the player/team is incorrect with a challenge, then one of the
+                            challenges is lost. If the player (team) is correct with a challenge, then the player
+                            retains his same number of challenges. Challenges remaining, if any, at the end
+                            of a set do not carry over to the next set.
+                            {'\n\n'}
+                            4) During the tie-break game in any set, each player/team shall receive one (1) additional challenge. This is in addition to any challenges not lost, if any, during the
+                            set.
+                            {'\n\n'}
+                            5) For doubles, the Match Tie Break shall be considered as a new set and each
+                            team shall receive three (3) challenges. Challenges remaining from the previous
+                            set do not carry over into the Match Tie Break. Successful challenges do not
+                            reduce the number of challenges that may remain.
+                            {'\n\n'}
+                            6) In order to challenge, a player must show an immediate interest in making a
+                            challenge and must do it in a timely manner. The key to the policy is “immediate
+                            interest”. The player must also make his/her intention to challenge known to the
+                            Chair Umpire either verbally or visually using his racquet or finger. The Chair
+                            Umpire will (a) reconfirm with the player his intent to challenge; (b) confirm that
+                            the player has challenges remaining; and (c) proceed with the electronic review.
+                            {'\n\n'}
+                            7) The original call or overrule will always stand if the electronic review is unable, for
+                            whatever reason, to make a decision on that line call or overrule. In this case, the
+                            player shall not have his available number of challenges reduced.
+                            {'\n\n'}
+                            8) If there is no call made from the on-court officials (unsighted Line Umpire and
+                            Chair Umpire cannot make the call) on a point ending shot, the Chair Umpire may
+                            call for a review and the result of the review will not affect the remaining challenges of either player.
+                            {'\n\n'}
+                            9) The decision of the electronic review is final and cannot be appealed.
+                            {'\n\n'}
+                            10) A certified official, approved by the ATP Supervisor, shall act as the Review Official* and his duties shall include, but are not limited to:
+                            {'\n\n'}
+                            a) Determining which impact shall be reviewed by the system.
+                            {'\n\n'}
+                            b) Act as the final authority on tracking the number of challenges each player
+                            has remaining.
+                            {'\n\n'}
+                            c) Monitor the system to ensure that it is functioning properly.
+                            {'\n\n'}
+                            d) Notify the Chair Umpire immediately in the case of a system failure or any
+                            other condition that prohibits or brings into question the ability of the system
+                            to review a challenged call. In this case, the Chair Umpire shall immediately
+                            notify both players that review is not available until further notice.
+                            {'\n\n'}
+                            * Review official and supporting technology staff shall be located within the stadium or arena in a secured area and with an unobstructed view of the court.
+                            {'\n\n'}
+                            11) For each court that is using a review system, there shall be a minimum of one
+                            (1) video board, of sufficient size, located in a position where the Chair Umpire,
+                            players and spectators may view the results of the challenge.
+                            {'\n\n'}
+
+
+
+
+
+
+
+                            12) Review Official Protocol is described in “Exhibit T.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>B. Electronic Review -</Text> Live Line Calling (Live ELC)
+                            The use of an approved Live ELC electronic line calling system is authorized for use
+                            at ATP events in 2024.
+                            {'\n\n'}
+                            The following protocol shall be used.
+                            {'\n\n'}
+                            1) There shall be no line umpires. All lines shall be called using the Live ELC System
+                            approved by ATP to call all lines.
+                            {'\n\n'}
+                            2) Foot-faults will be called by a Review Official monitoring two (2) court-level cameras placed on the baseline and on the center service line at each end of the court
+                            if available or the Chair Umpire.
+                            {'\n\n'}
+                            3) In the unlikely event the Live ELC system malfunctions, play will be delayed for up
+                            until such time as the issue is corrected or 15 minutes have elapsed. If the issue
+                            is not resolved within 15 minutes the ATP Tour Supervisor will decide when and
+                            how the match will resume.
+                            {'\n\n'}
+                            4) If the Live ELC system fails to make a call, the call shall be made by the Chair
+                            Umpire. If the Chair Umpire is unable to determine if the ball was in or out, then
+                            the point shall be replayed. This protocol applies only to point ending shots or
+                            in the case when a player stops play. In the case where there is no call, and the
+                            player stops play, the umpire shall call for the shot to be displayed on the video
+                            board for confirmation.
+                            {'\n\n'}
+                            5) If equipment is available, automatic replays of the call will be shown on the video
+                            boards on point ending shots that are “out” by 15 centimeters or less. Winning
+                            shots warranting a replay will be manually directed to the video board by the Review Official.
+                            {'\n\n'}
+                            6) Physical requirements for the on-site booth to be confirmed..
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>M. Continuous Play/Delay of Game </Text>
+                            {'\n\n'}
+                            Play shall be continuous, except that a maximum of twenty-five (25) seconds may
+                            elapse from the moment the ball goes out of play at the end of one point to the time
+                            the ball is struck for the next point, except at a ninety (90) second changeover or a
+                            one hundred and twenty (120) second set break. The procedures for enforcing this
+                            rule are as follows:
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>1) Time Between Points. 25 Seconds/Continuous Play</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch.</Text> The Chair Umpire must start the stopwatch after the ball
+                            goes out of play or when the players are ordered to play.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</Text> A Time or Code Violation must be assessed if the ball is not struck for the next point within the twenty-five (25)
+                            seconds allowed, except if the Chair Umpire extends the time for special circumstances defined by ATP. There is no time warning prior to the expiration
+                            of the twenty-five (25) seconds.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>2) 90 Seconds/Change-Over (Changing Ends)</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch the moment
+                            the ball goes out of play.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>b) “Time.” </Text>The Chair Umpire must announce to players “Time” after one (1)
+                            minute has elapsed. If requested, prior to the match, by a television broadcaster, the Chair Umpire shall have the authority to delay the start of play until
+                            the end of the ninety (90) second changeover period.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>c) “15 Seconds.” </Text>The Chair Umpire may announce to players “15 Seconds” if
+                            the players are still at their chairs and/or have not started toward their playing
+                            positions.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </Text>The Chair Umpire must assess a Time
+                            Violation or, when applicable, a Code Violation (after a medical time-out or
+                            treatment) if the ball is not struck for the next point within the ninety (90) seconds / one hundred twenty (120) seconds allowed, provided there has been
+                            no interference which prevented the Server from serving within that time or a
+                            delay by the Chair Umpire.
+                            {'\n\n'}
+
+
+
+
+
+                            <Text style={RuleStyles.SubHeading3}>3) 120 Seconds/Set Break</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch the moment
+                            the ball goes out of play.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>b) “Time”. </Text>The Chair Umpire must announce to players “time” after 90 seconds
+                            has elapsed. If requested, prior to the match, by a television broadcaster, the
+                            Chair Umpire shall have the authority to delay the start of play until the end of
+                            the one hundred twenty (120) second set break.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>c) “15 Seconds.” </Text>The Chair Umpire may announce to players “15 Seconds” if
+                            the players are still at their chairs and/or have not started toward their playing
+                            positions.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </Text>The Chair Umpire must assess a Time
+                            Violation or, when applicable, a Code Violation (after a medical time-out or
+                            treatment) if the ball is not struck for the next point within the one hundred
+                            twenty (120) / one hundred fifty (150) seconds allowed, provided there has
+                            been no interference which prevented the server from serving within that time
+                            or a delay by the Chair Umpire.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>4) Not Playing to the Reasonable Pace of the Server</Text>
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch when the player is ordered to play or the moment the ball goes out of play.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</Text> The Chair Umpire must assess a Code
+                            Violation if the receiver is employing “gamesmanship.” The Chair Umpire
+                            must issue a Time Violation before the expiration of twenty-five (25) seconds
+                            if the receiver’s actions delay the reasonable pace of the server.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>5) Stoppage and Postponement of a Match</Text>
+                            {'\n\n'}
+                            a) The Chair Umpire may stop a match temporarily because of or conditions
+                            of the grounds or weather. Any such stoppage by a Chair Umpire must be
+                            reported immediately to the Supervisor. Once a match is stopped and until
+                            a match is postponed, the Chair Umpire must ensure that he, the players
+                            and all on-court officials remain ready to resume the match. The Supervisor
+                            makes the decision to postpone a match until a later day.
+                            {'\n\n'}
+                            b) Upon stoppage or postponement by the Supervisor, the Chair Umpire shall
+                            record the time, point, game and set score, the name of the server, the side
+                            on which each player was situated and shall collect all balls in use for the
+                            match.
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>6) Warm up / Re-warm up.</Text>
+                            {'\n\n'}
+                            There shall be a four (4) minute warm-up before a match and in the case of a
+                            stopped or postponed match, the period of warm-up shall be as follows:
+                            {'\n\n'}
+                            a) 0-15 minutes delay — No warm--up;
+                            {'\n\n'}
+                            b) more than 15 minutes but less than 30 minutes —Three (3) minutes of warmup; and
+                            {'\n\n'}
+                            c) 30 or more minutes of delay — Four (4) minutes of warm-up [Five (5) minutes
+                            at Challengers].
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading2}>N. Video Review (“VR”)</Text>
+                            {'\n\n'}
+                            The use of VR to determine specific judgment calls is approved for use at events
+                            where there is Electronic Line Calling (“ELC”) and the VR system has been approved
+                            by ATP.
+                            {'\n\n'}
+                            The protocol for use is as follows:
+                            {'\n\n'}
+                            <Text style={RuleStyles.SubHeading3}>a) Reviewable calls</Text>
+                            {'\n\n'}
+                            i) Not-up – ball bounced more than once prior to contact.
+                            {'\n\n'}
+                            ii) Foul shot – player carries the ball on the racquet, player contacts the ball
+                            before it crosses the net, player’s racquet touches the ball while not under
+                            the control of the player.
+                            {'\n\n'}
+                            iii) Touch – ball touches player, or anything he is wearing or carrying (except
+                            racquet), player touches net while ball is in play.
+                            {'\n\n'}
+                            iv) Invasion – player touches the opponent’s court with any part of his body
+                            or his racquet while the ball is in play.
+                            {'\n\n'}
+                            v) Through – the ball passes through the net instead of passing over the net.
+                            {'\n\n'}
+                            vi) Hindrance – any decision on whether a point should be awarded, or the
+                            point should be replayed. Most common use of this would be a call corrected from out to good and whether the
+                            player had a play on the ball.
+                            {'\n\n'}
+                            vii) Original Call Stands – when a challenge to a line call has properly been
+                            made and the line review system is unable to make a determination, the chair umpire may review the
+                            call for clear evidence that confirms or overturns the call on the cour.
+                        </Text>
                     </ZoomText>
                     <Text style={RuleStyles.Description}>
 
@@ -794,36 +794,37 @@ export default function Rule112({ navigation }) {
                         <Text style={RuleStyles.SubHeading2}>P. Toilet/Change of Attire Break</Text>
                         {'\n\n'}
 
-                        1) A player may be permitted to leave the court for a toilet break. A player is entitled
-                        to one (1) toilet break during a best of three set match and two (2) toilet breaks
-                        during a best of five set match. For best of five set matches one toilet break may
-                        be taken during the first three sets. The second toilet break may only be taken
-                        after the end of the third set. Toilet breaks may only be taken on a set break and
-                        can be used for no other purpose. The toilet break is limited to a maximum of
-                        three (3) minutes from the time the player enters the toilet. Players exceeding the
-                        allowed time will be penalized by back-to-back Time Violations.
+                        1) A player may be permitted to leave the court for a toilet or change of attire break.
+                        A player is entitled to one (1) toilet or change of attire break during a best of three
+                        set match and two (2) toilet or change of attire breaks during a best of five set
+                        match. For best of five set matches one toilet break may be taken during the first
+                        three sets. The second break may only be taken after the end of the third set. Toilet or change of attire breaks may only be taken on a set break and can be used
+                        for no other purpose. The toilet break is limited to a maximum of three (3) minutes
+                        from the time the player enters the toilet.
                         {'\n\n'}
-                        a) For doubles, each team is entitled to a total of one (1) toilet break in all matches. If partners leave the court together, it counts as the team’s authorized
-                        break.
+                        A change of attire break combined with a toilet break is limited to a maximum of
+                        five (5) minutes from the time the player enters the off court changing area/toilet.
                         {'\n\n'}
-                        2) Any time a player leaves the court for a toilet break, it is considered the authorized
+                        A change of attire break is limited to a maximum of five (5) minutes from the time
+                        the player enters the off court changing area/toilet.
+                        {'\n\n'}
+                        Players will only be allowed to leave the court on a set break to change wet
+                        shorts/underwear. Shirts, socks, and shoes should be changed on court.
+                        {'\n\n'}
+                        Players exceeding the allowed time will be penalized by back-to-back Time Violations.
+                        {'\n\n'}
+                        a) For doubles, each team is entitled to a total of one (1) toilet or change of attire break in all matches. If partners leave the court together, it counts as the
+                        team’s authorized break.
+                        {'\n\n'}
+                        2) Any time a player leaves the court for a toilet break or a change of attire break, it is considered the authorized
                         break regardless of whether or not the opponent has left the court.
                         {'\n\n'}
                         3) Any toilet break taken after the warm-up has started is considered the authorized
                         break. Additional breaks will be authorized, but will be penalized with the back-toback Time Violations if the player is not ready within the allowed time.
                         {'\n\n'}
-                        4) Change of Attire break can only be allowed in conjunction with a Toilet Break
-                        unless provisions of “equipment out of adjustment” take precedent. In that case,
-                        the Chair Umpire has the authority to decide each request on its own merit.
-                        {'\n\n'}
-                        • Players will only be allowed to leave the court on a set break to change wet
-                        shorts/underwear.
-                        {'\n\n'}
-                        • A maximum of two minutes from the time the player enters the off court
-                        changing area/toilet will be allowed in addition to the 3 minutes per Toilet
-                        Break (to a maximum of 5 minutes in total).
-                        {'\n\n'}
-                        • Shirts, socks, and shoes must be changed on court.
+                        4) The Chair Umpire has the authority to decide each request for change of attire
+                        break on its own merit when provisions of “equipment out of adjustment” take
+                        precedent.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading3}>Toilet Visit</Text>
                         {'\n\n'}
@@ -895,7 +896,7 @@ export default function Rule112({ navigation }) {
                         If the Physiotherapist determines that the player has a non-treatable medical condition, then the player will be advised that no medical treatment will be allowed.
                         {'\n\n'}
 
-                        
+
                         * It is recognized that national laws or governmental or other binding regulations imposed upon the event by authorities outside its control may require
                         more compulsory participation by the tournament Doctor in all decisions regarding diagnosis and treatment.
                         {'\n\n'}
@@ -1030,8 +1031,8 @@ export default function Rule112({ navigation }) {
                         Penalty Schedule.
                         {'\n\n'}
 
-                        </Text>
-                        <Text style={RuleStyles.Description}>
+                    </Text>
+                    <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading3}>Decision B: </Text>The Chair Umpire stops the clock at 60 seconds and
                         stops play until the Physiotherapist is ready to treat the player. The
                         three-minute medical time-out begins, and after the Chair Umpire
@@ -1380,7 +1381,7 @@ export default function Rule112({ navigation }) {
                         If error occurred during a tie break, then the receiving order shall
                         remain as altered until the completion of the tie break game.
 
-                        {'\n\n'}                        
+                        {'\n\n'}
 
                     </Text>
                 </ScrollView>

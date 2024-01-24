@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule88({ navigation }) {
     return (
@@ -12,8 +12,9 @@ export default function Rule88({ navigation }) {
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>6.24 Media Facilities Guidelines</Text>
+                        <Text style={RuleStyles.SubHeading1}>6.25 Media Facilities Guidelines</Text>
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>A. General</Text>
                         {'\n\n'}
@@ -38,7 +39,7 @@ export default function Rule88({ navigation }) {
                         performance of their duties.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>3) Specifications.</Text> Requirements / recommendations for the media work room can
-                        be found in “Exhibit S - Media Facilities Guidelines”.
+                        be found in “Exhibit R - Media Facilities Guidelines”.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}> C. Player Interview Rooms</Text>
                         {'\n\n'}
@@ -74,7 +75,7 @@ export default function Rule88({ navigation }) {
                         Tournaments are recommended to use web filtering technology to restrict access to
                         internet gambling sites in all areas where tournament provided access is provided.
                         {'\n\n'}
-                        See “EXHIBIT S” for full Media Facilities Guidelines.
+                        See “EXHIBIT R” for full Media Facilities Guidelines.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>E. TV Studios. </Text>ATP Tour Masters 1000 tournament shall provide the following number
                         of TV studios: (i) 96-draw – 3, and (ii) 56-draw and 48-draw: 2.
@@ -82,6 +83,7 @@ export default function Rule88({ navigation }) {
                         <Text style={RuleStyles.SubHeading2}>F. Stars Program. </Text>ATP Tour Masters 1000 tournaments must provide a dedicated person to help implement the Stars Program.
                         {'\n\n'}
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule87', next: 'Rule89', nav: navigation }} />

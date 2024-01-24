@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule76({ navigation }) {
     return (
@@ -12,6 +12,7 @@ export default function Rule76({ navigation }) {
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>6.12 ATP Family Lounge and ATP Player Lounge</Text>
                         {'\n\n'}
@@ -49,6 +50,7 @@ export default function Rule76({ navigation }) {
                         {'\n\n'}
 
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule75', next: 'Rule77', nav: navigation }} />

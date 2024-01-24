@@ -190,7 +190,7 @@ import Rule188 from '../Rules/Rule188.js';
 import Rule189 from '../Rules/Rule189.js'; 
 import Rule190 from '../Rules/Rule190.js'; 
 import Rule191 from '../Rules/Rule191.js';
-
+import Rule211 from '../Rules/Rule211.js'
 
 //need to loop all imports files  if possible
 //delete below code
@@ -5784,13 +5784,13 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        B.All match and practice courts must be the same surface, speed and conditions as the" +
 	"                        main draw and must be available for practice from 9:00 A.M. on Friday prior to the" +
-	"                        start of the tournament until the conclusion of the tournament." +
+	"                        start of the tournament until the conclusion of the tournament. For outdoor tournaments the practice courts must be available for practice at a minimum of two (2) complete days prior to the start of the tournament." +
 	"                        {'\\n\\n'}" +
 	"                        For ATP Challenger Tour tournaments, practice courts to be available from 12:00" +
 	"                        Noon on the Saturday preceding the start of the tournament (Friday, in case of Sunday to Saturday schedule)." +
 	"                        {'\\n\\n'}" +
-	"                        C.Courts must be set up to provide normal support, including drinks (bottled water)," +
-	"                        sawdust and towels." },
+	"                        C.Courts must be set up to provide normal support, including a practice desk, balls," +
+	"                        drinks (bottled water), fruit, sawdust and towels." },
     { id: 67, indexId: '', name: '6.03 Balls', pageName: 'Rule67' , comp:Rule67 , searchindex:"VI. FACILITIES & ON-SITE CONDITIONS" +
 	"                    " +
 	"                   " +
@@ -5810,11 +5810,8 @@ export const AllPageIndexList = [
 	"                       1) ATP Tour Tournaments: Six (6) balls for each main draw and qualifying match to" +
 	"                        be changed after seven (7) and nine (9) games throughout the tournament." +
 	"                        {'\\n\\n'}" +
-	"                       2) ATP Challenger Tour Tournaments: It is recommended that all Challenger" +
-	"                        events use six (6) balls, changed after seven (7) and nine (9) games for all matches, however, it is mandatory for Challenger 125 and 175 events. For all other" +
-	"                        challenger events, as a minimum, four (4) balls are to be provided for each main" +
-	"                        draw and qualifying match to be changed at least every seven (7) and nine (9)" +
-	"                        games." +
+	"                       2) ATP Challenger Tour Tournaments: Six (6) balls, for each main draw and qualifying match to be changed after seven (7) and nine (9) games for all matches." +
+	"                       This will be mandatory for Challenger 50 and 75 events from 1 May 2024." +
 	"                        {'\\n\\n'}" +
 	"                        B.Lost Balls. Play must be continuous even if a ball needs to be replaced." +
 	"                        {'\\n\\n'}" +
@@ -5833,28 +5830,29 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                       C.Practice Balls" +
 	"                        {'\\n\\n'}" +
-	"                        1) ATP Tour Masters 1000 and ATP 500 Tournaments: Each main draw player" +
-	"                        is entitled to twelve (12) new balls per day for practice, free of charge, one (1)" +
-	"                        day prior to the start of qualifying until that player is eliminated. Once eliminated," +
-	"                        he shall be entitled to six (6) new balls per day for practice. Players must return" +
+	"                        1) ATP Tour Masters 1000 and ATP 500 Tournaments: Each main draw player is" +
+	"                        entitled to twelve (12) new balls per day for practice, free of charge, two (2) day" +
+	"                        prior to the start of qualifying until that player is eliminated. Once eliminated, he" +
+	"                        shall be entitled to six (6) new balls per day for practice. Tournaments should" +
+	"                        provide tennis ball baskets upon request. Players must return practice balls." +
+	"                        {'\\n\\n'}" +
+	"                        2) Each main draw player is entitled to nine (9) new balls" +
+	"                        per day for practice, free of charge, two (2) day prior to the start of qualifying" +
+	"                        until that player is eliminated. Once eliminated, he shall be entitled to six (6) new" +
+	"                        balls per day for practice. Tournaments should provide tennis ball baskets upon" +
+	"                        request. Players must return practice balls." +
+	"                        {'\\n\\n'}" +
+	"                        3) ATP Qualifying Competition: : Players listed in the Pepperstone ATP Rankings" +
+	"                        (singles/doubles) who are practicing for qualifying competition are enti- tled to six" +
+	"                        (6) new balls per day for practice, free of charge, two (2) days prior to the start" +
+	"                        of the qualifying competition until that player is eliminated. Players must return" +
 	"                        practice balls." +
 	"                        {'\\n\\n'}" +
-	"                        2) ATP 250 Tournaments: Each main draw player is entitled to nine (9) new balls" +
-	"                        per day for practice, free of charge, one (1) day prior to the start of qualifying until" +
-	"                        that player is eliminated. Once eliminated, he shall be entitled to six (6) new balls" +
-	"                        per day for practice. Players must return practice balls." +
-	"                        {'\\n\\n'}" +
-	"                        3) ATP/Challenger Qualifying Competition: Players listed in the Pepperstone ATP" +
-	"                        Rankings (singles/doubles) who are practicing for qualifying competition are entitled to three (3) new balls per day for practice, free of charge, one (1) day prior to" +
-	"                        the start of the qualifying competition until that player is eliminated. Players must" +
-	"                        return practice balls. For ATP Tour qualifying at combined events, each player is" +
-	"                        entitled to six (6) new balls per day until that player is eliminated." +
-	"                        {'\\n\\n'}" +
-	"                        4) ATP Challenger Tour Tournaments: Each main draw player is entitled to three" +
-	"                        (3) new balls per day for practice (six (6) balls for Challenger 125 and 175 events)," +
-	"                        free of charge, from 12 Noon Saturday (Friday for events with a Sunday start) prior to the start of the event until that player is eliminated. Once eliminated, he shall" +
-	"                        be entitled to three (3) used balls per day for practice (six (6) balls for Challenger" +
-	"                        125 and 175 events). Players must return practice balls." +
+	"                        4) ATP Challenger Tour Tournaments: Each main draw and qualifying player is" +
+	"                        entitled to three (3) new balls per day for practice (six (6) balls for Challenger 125" +
+	"                        and 175 events), free of charge, from 12 Noon two (2) days prior to the start of the" +
+	"                        event until that player is eliminated. Once eliminated, he shall be entitled to six (6)" +
+	"                        used balls per day for practice. Players must return practice balls" +
 	"                        {'\\n\\n'}" +
 	"                       D.Ball Logo. Tournaments may add an additional logo to the tournament ball under the" +
 	"                        following conditions." +
@@ -6016,6 +6014,8 @@ export const AllPageIndexList = [
 	"                        3) There can be no commercial or manufacturer identification on the net except as" +
 	"                        approved by ATP." +
 	"                        {'\\n\\n'}" +
+	"                        Note: Each ATP Tour tournament will be provided with Oficial ATP Tour nets for a minimum of four (4) years (number of nets provided will vary depending on tournament category). These nets should be used for the tournament matches and practice during the tournament week only. Each tournament is responsible for properly storing the Oficial ATP Tour nets. Should damage caused by misuse, poor maintenance or modification lead to the need to replace the net, the costs for the new net will be tournament responsibility." +
+	"                        {'\\n\\n'}" +
 	"                        E. Net Posts and Net Post Signage. The net posts shall conform to the specifications" +
 	"                        in the" +
 	"                        <Text" +
@@ -6039,6 +6039,13 @@ export const AllPageIndexList = [
 	"                        courts and in the player’s locker room. Towels should be pre-washed and of sufficient" +
 	"                        size for the intended use." +
 	"                        {'\\n\\n'}" +
+	"                        Each court shall be equipped with bins/baskets for the players to leave their towels" +
+    "                        during the match. This area should be located at the closest point for the player to be" +
+    "                        able to use their towel without delay. The two designated areas are near the baseline umpire position or the corner of the courts. Each player/team should have their own" +
+    "                        bin/basket where they can place their towels. There should be identification to clearly" +
+    "                        show each player’s allocated bin/basket. There should be four (4) of these at each" +
+    "                        end and each side of the court for a total of eight (8) on the court. This would be applicale for singles and doubles." +
+	"                         {'\\n\\n'}" +
 	"                        I. Beverages." +
 	"                        {'\\n\\n'}" +
 	"                        1) Players. Each tournament shall provide, in sealed containers, electrolyte replacement drinks, non-carbonated bottled water and other beverages for players" +
@@ -6115,7 +6122,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"" +
 	"                        {'\\n\\n'}" +
-	"                        A. ATP Membership Card. A 2023 ATP Membership Card shall be honored at all ATP" +
+	"                        A. ATP Membership Card. A 2024 ATP Membership Card shall be honored at all ATP" +
 	"                        Tour and ATP Challenger Tour events and will permit the holder entry to the tournament office (or such other location as directed by a Tournament or ATP) in order to" +
 	"                        receive the appropriate credential." +
 	"                        {'\\n\\n'}" +
@@ -6280,14 +6287,14 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                       A.General. Each tournament shall provide players with a suitably equipped and secure" +
 	"                        locker room. The entrance to the locker room shall be monitored and only properly" +
-	"                        credentialed persons shall be allowed to enter. Only those persons with access approval and properly credentialed tournament staff, who in the performance of duties justify access to the locker room, shall be authorized to enter the locker room." +
+	"                        credentialed persons shall be allowed to enter. Only those persons with access approval and properly credentialed tournament staff, who in the performance of duties justify access to the locker room, shall be authorized to enter the locker room.  ATP Tour Tournaments are required to provide shower gel and shampoo in the player locker rooms free of charge." +
 	"                        {'\\n\\n'}" +
-	"                       ATP Masters 1000 and 500 Tournaments. Each tournament shall provide a small" +
+	"                        ATP Masters 1000, 500 and 250 Tournaments. Each tournament shall provide a small" +
 	"                        seating area for players inside the locker room with a minimum size requirement as" +
 	"                        determined by ATP dependent on the size of the facility." +
 	"                        {'\\n\\n'}" +
 	"                        B. It is recommended that tournaments located where extreme weather conditions exist provide a submersion bath (ice bath) in or near the shower area. For combined" +
-	"                        events, if a submersion bath is provided, it must be provided in both locker/shower" +
+	"                        events, if a submersion bath is provided, it must be provided in both male and female locker/shower" +
 	"                        areas." +
 	"                        {'\\n\\n'}" +
 	"                       C.Lockers" +
@@ -6311,45 +6318,37 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        All ATP Tour events are required to provide a gym as follows:" +
 	"                        {'\\n\\n'}" +
-	"                        A.ATP Tour Masters 1000 and 500 events. A fully equipped gym of adequate size" +
-	"                        must be provided, free of charge, on-site as specified in “Exhibit Z”." +
+	"                        A.All ATP Tour events. A fully equipped gym of adequate size" +
+	"                        must be provided, free of charge, on-site as specified in the Standards and Best Practices section on ATP Tournament Centre." +
 	"                        In addition to the on-site required gym, ATP Tour Masters 1000 tournaments shall" +
 	"                        provide: (i) an additional professional quality level gym (off-site location acceptable" +
 	"                        in order to provide the requested quality) and (ii) a separate on-site area for player" +
 	"                        warm-up, light sprints, and movement drills." +
-	"                        In addition to the on-site required gym, ATP 500 tournament shall provide a separate" +
+	"                        In addition to the on-site required gym, all ATP Tour tournaments shall provide a separate" +
 	"                        on-site area for player warm-up, light sprints, and movement drills." +
 	"                        {'\\n\\n'}" +
-	"                        B.ATP Tour 250 events. A fully equipped gym, free of charge, of adequate size must" +
-	"                        be provided on-site as specified in “Exhibit Z”, with the following exception:" +
-	"                        If there is a fully equipped gym at the Official Tournament Hotel which is available to" +
-	"                        all players free of charge, then at a minimum the tournament must provide on-site" +
-	"                        a warm-up / cool-down area of adequate size with proper equipment as specified in" +
-	"                        “Exhibit Z”." +
-	"                        {'\\n\\n'}" +
-	"                        C.ATP Challenger Tour events. A fully equipped gym (as specified in “Exhibit Z”), of" +
+	"                        B.ATP Challenger Tour events. A fully equipped gym (as specified in the Standards and Best Practices section on ATP Tournament Centre), of" +
 	"                        adequate size must be provided free of charge on-site, off-site at a reasonable distance from the tournament site/official hotel or at the official tournament hotel with the" +
 	"                        following exception:" +
 	"                        {'\\n\\n'}" +
-	"                        At the Challenger 50-75 category, if it is not reasonably practicable to have a fully" +
-	"                        equipped gym, then at a minimum the tournament must provide on-site a warm-up /" +
-	"                        cool-down area of adequate size with equipment as specified in “Exhibit Z”." +
+	"                        Challenger 50 events may petition ATP to waive the fully equipped gym requirement" +
+	"                        if they are not reasonably able to provide it." +
 	"                        {'\\n\\n'}" +
 	"                        Each Challenger tournament regardless of category must provide an area on-site" +
 	"                        to be used for warm up/cool down, with equipment for this purpose as specified in" +
-	"                        “Exhibit Z” if fully equipped gym is not available on-site." +
+	"                        the Standards and Best Practices section on ATP Tournament Centre if fully equipped gym is not available on-site." +
 	"" +
 	"" },
     { id: 79, indexId: '', name: '6.15 Laundry Service', pageName: 'Rule79' , comp:Rule79 , searchindex:"6.15 Laundry Service" +
 	"                        {'\\n\\n'}" +
-	"                        A.ATP Masters 1000 and ATP 500 Tournaments.A complementary laundry service of" +
+	"                        A.ATP Masters 1000 and ATP 500 Tournaments.A complimentary laundry service of" +
 	"                        a high standard must be made available to the players, coaches and ATP/tournament" +
-	"                        personnel throughout the length of the event, while still competing or working at the" +
+	"                        personnel starting two (2) days prior to the start of qualifying throughout the length of the event, while still competing or working at the" +
 	"                        event." +
 	"                        {'\\n\\n'}" +
-	"                        B.ATP 250 Tournaments. A complementary laundry service must be made available to" +
-	"                        the players throughout the length of the event, while still competing or working at the" +
-	"                        event." },
+	"                        B.ATP 250 Tournaments. A complimentary wash and fold laundry service of a good" +
+	"                        quality must be made available to the players starting two (2) days prior to the start" +
+	"                        of qualifying throughout the length of the event, while still competing."},
     { id: 80, indexId: '', name: '6.16 Stringing Service', pageName: 'Rule80' , comp:Rule80 , searchindex:"6.16 Stringing Service" +
 	"                        {'\\n\\n'}" +
 	"                        A. General. A stringing service of a high professional standard must be made available" +
@@ -6381,22 +6380,24 @@ export const AllPageIndexList = [
     { id: 81, indexId: '', name: '6.17 Food', pageName: 'Rule81' , comp:Rule81 , searchindex:"6.17 Food" +
 	"                        {'\\n\\n'}" +
 	"                        General. Each tournament must provide a variety of suitable and of high-quality food" +
-	"                        for the competitors on-site or, as approved by ATP, within reasonable distance of the tournament venue. Food service should begin no later than the first day of qualifying" +
-	"                        and continue until the completion of the tournament." +
+	"                        for the competitors on-site or, as approved by ATP, within reasonable distance of" +
+	"                        the tournament venue. Food service for ATP 250 and Challenger Tour tournaments" +
+	"                        should begin no later than the day before the start of the qualifying and continue until" +
+	"                        the completion of the tournament." +
 	"                        {'\\n\\n'}" +
 	"                        Type of food offered shall be subject to local health and safety regulations." +
 	"                        {'\\n\\n'}" +
 	"                        After a player permanently leaves the event, guest passes/credentials and associated benefits shall be automatically revoked for PST members, unless otherwise" +
 	"                        decided by the tournament." +
 	"                        {'\\n\\n'}" +
-	"                        See “Exhibit Q” for minimum Player Food Service Guidelines." +
+	"                        Please refer to \"Exhibit Q\" and to the Standards and Best Practices section on ATP Tournament Centre for minimum Player Food Service Guidelines." +
 	"" +
 	"                        {'\\n\\n'}" +
 	"                        ATP Tour Masters 1000 and ATP 500 Tournaments*. Each tournament shall provide complimentary food service available for each player and two (2) PST members" +
 	"                        for the same number of days as the player’s hospitality through direct allocation on" +
 	"                        the individual credential or allowance on the player credential. Tournaments are encouraged to provide complimentary food for additional PST members." +
 	"                        {'\\n\\n'}" +
-	"                        The complementary food service shall offer fresh, high-quality hot and cold food options with a combination of made to order and buffet food, variety of proteins including" +
+	"                        The complimentary food service shall offer fresh, high-quality hot and cold food options with a combination of made to order and buffet food, variety of proteins including" +
 	"                        vegan protein (tofu or tempeh), carbs, salads, fruit and smoothies." +
 	"                        {'\\n\\n'}" +
 	"                        ATP 250 Tournaments*. Each tournament shall provide complimentary food service" +
@@ -6439,16 +6440,18 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        General. Each tournament must provide scheduled transportation for players (main" +
 	"                        draw and qualifying), credentialed Player Support Team (“PST”) members, officials" +
-	"                        and ATP staff that ensures players arrive on-site at least “on the hour”." +
+	"                        and ATP staff that ensures players arrive on-site at least “on the hour”. Transportation vehicles shall be clean, safe, and of a good quality. Child seats shall be available upon request." +
 	"                        {'\\n\\n'}" +
 	"                        <ATP Tour Tournaments. The scheduled transportation must meet ATP quality standards and be available from 7AM local time (with advanced booking required for" +
 	"                        the 7AM local time) through to one hour after the last match/practice session. As a" +
 	"                        guideline, airport transportation should be available, at a minimum, between 7AM" +
 	"                        and 10PM local time. PST airport transportation will depend on availability if arriving" +
-	"                        separately from the player." +
+	"                        separately from the player. . Airport and hotel-site-hotel transportation shall begin two" +
+	"                        (2) days prior to the start of the qualifying competition through the morning following" +
+	"                        the final day of the tournament." +
 	"                        {'\\n\\n'}" +
 	"                        <Combined Events and Challenger 175. Each Tournament shall provide airport" +
-	"                        transportation beginning the day before the Qualifying Sign-In Deadline (provided" +
+	"                        transportation beginning two (2) days before the Qualifying Sign-In Deadline (provided" +
 	"                        that 24-hour notice is given to the Tournament) until the morning following the final" +
 	"                        day of the Tournament to:" +
 	"                        {'\\n\\n'}" +
@@ -6466,8 +6469,9 @@ export const AllPageIndexList = [
 	"                        proper security at the entry point must be provided. Only those persons with approved access and properly credentialed tournament staff, who in the performance" +
 	"                        of their duties justify access to the locker room, shall be authorized to enter the Physiotherapist/treatment room. The room must be private and equipped with ice and ice" +
 	"                        chests/coolers, towels and electricity. This room must be fully functional by 8:00 am" +
-	"                        the day prior to the start of qualifying. (For Challengers, the day of main draw). See" +
-	"                        “Exhibit R “ for full medical facility guidelines." +
+	"                        the day prior to the start of qualifying.  (For ATP Masters 1000 events three (3) days" +
+	"                        before qualifying starts). Please refer to the Standards and Best Practices section on" +
+	"                        ATP Tournament Centre for full medical facility guidelines." +
 	"                        {'\\n\\n'}" +
 	"                        B.High/Low Treatment/Massage Table." +
 	"                        {'\\n\\n'}" +
@@ -6475,11 +6479,12 @@ export const AllPageIndexList = [
 	"                        low tables for larger draws, as determined by ATP Medical Services." +
 	"" +
 	"                        {'\\n\\n'}" +
-	"                       2) ATP Challenger Tour. Challenger 125 and 175 events are required to have two" +
-	"                        (2) high/low treatment tables in the physiotherapist’s room, whereas Challenger" +
-	"                        100 events are required to have one (1) high/low table in the physiotherapist" +
-	"                        room with a recommendation to have two (2) high/low tables. A minimum of one" +
-	"                        (1), but preferably two (2) high/low table(s) is recommended for all other Challenger levels." +
+	"                        2) ATP Challenger Tour. Challenger 125 and 175 events are required to have two" +
+	"                        (2) electric or hydraulic high/low treatment tables in the physiotherapist’s room," +
+	"                        whereas Challenger 100 events are required to have one (1) electric or hydraulic" +
+	"                        high/low table in the physiotherapist room with a recommendation to have two (2)" +
+	"                        electric or hydraulic high/low tables. A minimum of one (1), but preferably two (2)" +
+	"                        high/low table(s) is recommended for all other Challenger levels." +
 	"" +
 	"                        {'\\n\\n'}" +
 	"" +
@@ -6487,17 +6492,21 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        1) ATP Masters 1000 Tournaments. Each tournament shall provide: (i) high-quality" +
 	"                        (selected in consultation with ATP Medical Services) recovery modalities (e.g.," +
-	"                        compression devices or ice bath) and (ii) separate area with treatment tables" +
-	"                        (recommendation – 4 for 48-draw; 5 for 56-draw; 6 for 64-draw; and 9 for 96-" +
-	"                        draw)." +
+	"                        compression devices and ice bath). " +
 	"                        {'\\n\\n'}" +
-	"                        2) ATP 500 Tournaments. Each tournament shall provide: (i) dedicated recovery" +
-	"                        modalities (selected in consultation with ATP Medical Services) and (ii) separate" +
-	"                        area with treatment tables (recommendation – 3 for 32-draw and 4 for 48-draw)." +
+	"                        2) ATP 500 Tournaments. Each tournament shall provide: (i) high-quality dedicated ice bath and recovery modalities (selected in consultation with ATP Medical Services)." +
 	"                        {'\\n\\n'}" +
-	"                        3) ATP 250 Tournaments. Each tournament shall provide: (i) recovery equipment" +
-	"                        (selected in consultation with ATP Medical Services) and (ii) separate private" +
-	"                        physiotherapist area with appropriate number of treatment tables." },
+	"                        3) ATP 250 Tournaments. Each tournament shall provide: (i) high-quality ice bath, selected in consultation with ATP Medical Services."+
+    "                        {'\\n\\n'}" +
+	"                        Please refer to the Standards and Best Practices section on ATP Tournament Centre for full recovery and equipment facilities guidelines."+
+	"                        {'\n\n'}" +
+    "                        D. Private Physiotheraplist Facilities." +
+    "                        {'\n\n'}" +
+	"                        1) ATP Masters 1000 Tournaments. Each tournament shall provide separate area with treatment tables (recommendation – 4 for 48-draw; 5 for 56-draw; 6 for 64-draw; and 9 for 96-draw)." +
+    "                        {'\n\n'}" +
+	" 						 2) ATP 500 Tournaments. Each tournament shall provide separate area with treatment tables (recommendation – 3 for 32-draw and 4 for 48-draw)." +
+    "                        {'\n\n'}" +
+	"                        3) ATP 250 Tournaments. Each tournament shall provide separate private physiotherapist area with appropriate number of treatment tables."},
     { id: 85, indexId: '', name: '6.21 Automated External Defibrillator (“AED”)', pageName: 'Rule85' , comp:Rule85 , searchindex:"6.21 Automated External Defibrillator (“AED”)" +
 	"                        {'\\n\\n'}" +
 	"                        An Automated External Defibrillator (“AED”) must be provided in the Physiotherapist/" +
@@ -6511,7 +6520,11 @@ export const AllPageIndexList = [
 	"                        Each tournament must provide a First Aid Team present at all times on the tournament site for public emergencies. The First Aid Team must be separate from the" +
 	"                        medical team responsible for the care and treatment of the players." +
 	"" },
-    { id: 87, indexId: '', name: '6.23 Anti-Doping Facilities and On-Site Personnel Assistance', pageName: 'Rule87' , comp:Rule87 , searchindex:"6.23 Anti-Doping Facilities and On-Site Personnel Assistance" +
+	{ id: 200, indexId: '', name: '6.23 Emergency Action Plan', pageName: 'Rule211' , comp:Rule211 , searchindex:"6.23 Emergency Action Plan" +
+	"                        {'\\n\\n'}" +
+	"                        Each ATP Tour Tournament shall submit an emergency action plan to the ATP Medical Services for review at least sixty (60) days prior to the start of the tournament." +
+	"" },
+    { id: 87, indexId: '', name: '6.24 Anti-Doping Facilities and On-Site Personnel Assistance', pageName: 'Rule87' , comp:Rule87 , searchindex:"6.24 Anti-Doping Facilities and On-Site Personnel Assistance" +
 	"                        {'\\n\\n'}" +
 	"                       A.On-Site Testing Facility" +
 	"                        {'\\n\\n'}" +
@@ -6533,8 +6546,8 @@ export const AllPageIndexList = [
 	"                        tournament of the number of personnel required no later than three (3) weeks prior to" +
 	"                        the start of an event." +
 	"                        {'\\n\\n'}" +
-	"                        See “Exhibit V” for full Anti-Doping Facilities Guidelines." },
-    { id: 88, indexId: '', name: '6.24 Media Facilities Guidelines', pageName: 'Rule88' , comp:Rule88 , searchindex:"6.24 Media Facilities Guidelines" +
+	"                        See “Exhibit U” for full Anti-Doping Facilities Guidelines." },
+    { id: 88, indexId: '', name: '6.25 Media Facilities Guidelines', pageName: 'Rule88' , comp:Rule88 , searchindex:"6.25 Media Facilities Guidelines" +
 	"                        {'\\n\\n'}" +
 	"                       A. General" +
 	"                        {'\\n\\n'}" +
@@ -6601,12 +6614,12 @@ export const AllPageIndexList = [
 	"                        of TV studios: (i) 96-draw – 3, and (ii) 56-draw and 48-draw: 2." +
 	"                        {'\\n\\n'}" +
 	"                       F. Stars Program. ATP Tour Masters 1000 tournaments must provide a dedicated person to help implement the Stars Program." },
-    { id: 89, indexId: '', name: '6.25 Electronic Line Calling Facilities Guidelines', pageName: 'Rule89' , comp:Rule89 , searchindex:"6.25 Electronic Line Calling Facilities Guidelines<" +
+    { id: 89, indexId: '', name: '6.26 Electronic Line Calling Facilities Guidelines', pageName: 'Rule89' , comp:Rule89 , searchindex:"6.26 Electronic Line Calling Facilities Guidelines<" +
 	"                        {'\\n\\n'}" +
 	"                        The use of an approved electronic system for reviewing line calls and/or overrules is" +
 	"                        authorized for use at ATP events." +
 	"                        {'\\n\\n'}" +
-	"                        See “Exhibit S - Electronic Line Calling Facilities Guidelines” and “Exhibit U - ELC" +
+	"                        See “Exhibit S - Electronic Line Calling Facilities Guidelines” and “Exhibit T1 - ELC" +
 	"                        Review Official Protocol” for full Electronic Line Calling Facilities Guidelines and Protocol." },
     { id: 90, indexId: '', name: 'VII. THE COMPETITION', pageName: 'Rule90' , comp:Rule90 , searchindex:'' },
     { id: 91, indexId: '', name: '7.01 ATP Fees', pageName: 'Rule91' , comp:Rule91 , searchindex:"VII. THE COMPETITION" +
@@ -6689,7 +6702,25 @@ export const AllPageIndexList = [
 	"                        ATP Tour 250 or ATP Tour 500 tournament, or if he is still competing in an ATP" +
 	"                        Tour, ATP Challenger Tour, or ITF Men’s WTT tournament at any time on the day" +
 	"                        prior to the commencement of qualifying or two days prior if competing on another" +
-	"                        continent. If a player is still competing past 9:00 p.m. local time, he will be automatically withdrawn from the qualifying without penalty. Players who withdraw" +
+	"                        continent. Once a player has lost his match in the preceding week’s tournament," +
+	"                        he must confirm to the Supervisor or Player Relations staff no later than one (1)" +
+	"                        hour following the completion of the match if he will compete in the following" +
+	"                        week’s Qualifying or will withdraw with “still competing”, except for those players" +
+	"                        who have decided to remain on the qualifying list as outlined below." +
+	"                        {'\\n\\n'}" +
+	"                        If a player is still competing past the qualifying sign in deadline, he may choose to" +
+	"                        remain on the qualifying list of the following week’s tournament if the player can" +
+    "                        reasonably travel and arrive on time to compete at the qualifying event as determined by the supervisor. For the avoidance of doubt, the Supervisor should use" +
+    "                        great discretion when making such determination. Unless clearly impossible to" +
+    "                        arrive on-time for the next week’s tournament, players should be given the benefit" +
+    "                        of the doubt. If he chooses to remain on the qualifying list and loses at the current" +
+	"                        event after the qualifying draw is made (and did not withdraw himself before the" +
+	"                        qualifying alternate sign in deadline) he is committed to play the qualifying and" +
+	"                        will be subject to applicable late withdrawal penalties if he withdraws. Players" +
+	"                        who are still competing past 9:00 p.m. local time and who cannot reasonably" +
+	"                        attend the following week’s event due to the location of the current event where" +
+	"                        they are still competing or who choose not to remain on the qualifying list will be" +
+	"                        automatically withdrawn from the qualifying at this time. Players who withdraw" +
 	"                        or are withdrawn due to “still competing” will be allowed to accept a wild card or" +
 	"                        enter doubles into any ATP Tour 250, ATP Tour 500, ATP Challenger Tour or ITF" +
 	"                        Men’s WTT tournament, including qualifying. If a withdrawal occurs prior to 10" +
@@ -6699,7 +6730,7 @@ export const AllPageIndexList = [
 	"                        ATP Rankings list. Main draw vacancies will be filled from the main draw alternate" +
 	"                        list, not the qualifying acceptance list." +
 	"                        {'\\n\\n'}" +
-	"                         NOTE: For ATP Tour qualifying tournaments, withdrawals occurring after 10 AM" +
+	"                        NOTE: For ATP Tour qualifying tournaments, withdrawals occurring after 10 AM" +
 	"                        Eastern Time USA and prior to the draw* will be filled from that night’s alternate" +
 	"                        sign-in. Vacancies occurring after the release of the qualifying draw, will be filled" +
 	"                        from the next day’s on-site alternate list. Players must personally sign-in to be" +
@@ -6830,14 +6861,33 @@ export const AllPageIndexList = [
 	"                        250 or ATP Tour 500 tournament, or if he is still competing in an ATP Tour, ATP" +
 	"                        Challenger Tour, or ITF Men’s WTT tournament at any time on the day prior to the" +
 	"                        commencement of qualifying or two days prior if competing on another continent." +
-	"                        If a player is still competing past 9:00 p.m. local time, he will be automatically withdrawn from the qualifying without penalty. Players who withdraw or are withdrawn" +
-	"                        due to “still competing” will be allowed to accept a wild card or enter doubles" +
-	"                        into any ATP Tour 250, ATP Tour 500, ATP Challenger Tour or ITF Men’s WTT" +
-	"                        tournament, including qualifying. If a withdrawal occurs prior to 10 AM, Eastern" +
-	"                        Time, USA, on Friday, the qualifying vacancy shall be filled by the next player on" +
-	"                        the qualifying alternate list. This player is not required to sign in. If a withdrawal" +
-	"                        occurs after 10 AM, Eastern Time, USA, on Friday, the qualifying vacancy will be" +
-	"                        filled from the on-site sign-in list, using the most recent Pepperstone ATP Rankings list." +
+	"                        Once a player has lost his match in the preceding week’s tournament, he must" +
+	"                        confirm to the Supervisor or Player Relations staff no later than one (1) hour" +
+	"                        following the completion of the match if he will compete in the following week’s" +
+	"                        Qualifying or will withdraw with “still competing”, except for those players who" +
+	"                        have decided to remain on the qualifying list as outlined below. " +
+	"                        {'\\n\\n'}" +
+	"                        If a player is still competing past the qualifying sign in deadline, he may choose to" +
+	"                        remain on the qualifying list of the following week’s tournament if the player can" +
+	"                        reasonably travel and arrive on time to compete at the qualifying event as determined by the supervisor. For the avoidance of doubt, the Supervisor should use" +
+	"                        great discretion when making such determination. Unless clearly impossible to" +
+	"                        arrive on-time for the next week’s tournament, players should be given the benefit" +
+	"                        of the doubt. If he chooses to remain on the qualifying list and loses at the current" +
+	"                        event after the qualifying draw is made (and did not withdraw himself before the" +
+	"                        qualifying alternate sign in deadline) he is committed to play the qualifying and" +
+	"                        will be subject to applicable late withdrawal penalties if he withdraws. Players" +
+	"                        who are still competing past 9:00 p.m. local time and who cannot reasonably" +
+	"                        attend the following week’s event due to the location of the current event where" +
+	"                        they are still competing or who choose not to remain on the qualifying list will be" +
+	"                        automatically withdrawn from the qualifying at this time. Players who withdraw" +
+	"                        or are withdrawn due to “still competing” will be allowed to accept a wild card or" +
+	"                        enter doubles into any ATP Tour 250, ATP Tour 500, ATP Challenger Tour or ITF" +
+	"                        Men’s WTT tournament, including qualifying. If a withdrawal occurs prior to 10" +
+	"                        AM, Eastern Time, USA, on Friday, the qualifying vacancy shall be filled by the" +
+	"                        next player on the qualifying alternate list. This player is not required to sign in. If" +
+	"                        a withdrawal occurs after 10 AM, Eastern Time, USA, on Friday, the qualifying vacancy will be filled from the on-site sign-in list, using the most recent Pepperstone" +
+	"                        ATP Rankings list. Main draw vacancies will be filled from the main draw alternate" +
+	"                        list, not the qualifying acceptance list" +
 	"                        {'\\n\\n'}" +
 	"                        NOTE: For the purposes of this rule, the Continents are: Europe, Asia, Antarctica," +
 	"                        Australia, Africa, North America (including Central America) and South America." +
@@ -6874,12 +6924,24 @@ export const AllPageIndexList = [
 	"                        a) Tournaments shall qualify for one (1) emergency substitution if the following" +
 	"                        conditions exist:" +
 	"                        {'\\n\\n'}" +
-	"                        i) Two (2) of the tournament’s top four (4) seeds withdraw; and" +
+	"                        i) Two (2) of the tournament’s top four (4) ranked players on the original acceptance list withdraw; and" +
 	"                        {'\\n\\n'}" +
-	"                        ii) One (1) of the withdrawals involves the first or second seeded player; and" +
+	"                        ii) One (1) of the withdrawals involves the first highest or second seeded highest ranked player; and" +
 	"                        {'\\n\\n'}" +
-	"                        iii) The substitute player (1) will become one of the tournament’s top two (2)" +
-	"                        seeds*." +
+	"                        iii) The substitute player (1) meets a minimum of one (1) of the following criteria:" +
+	"                        {'\\n\\n'}" +
+	"                          1. A former top 20 player on the Pepperstone ATP rankings within the previous 5 years from the tournament date."+
+	"                        {'\\n\\n'}" +
+	"                        {'\\n\\n'}" +
+	"                          2. Past tournament champion."+
+	"                        {'\\n\\n'}" +
+	"                        {'\\n\\n'}" +
+	"                          3. A current player ranked in the top 5 on the current ITF International Junior Ranking."+
+	"                        {'\\n\\n'}" +
+	"                        {'\\n\\n'}" +
+	"                          4. A current player ranked in the top 2 of the host country official National Junior Ranking."+
+	"                        {'\\n\\n'}" +
+	"                        Substitute players meeting any of the criteria listed above must be ranked 500 or better in the most recent Pepperstone ATP Singles Ranking" +
 	"                        {'\\n\\n'}" +
 	"                        The withdrawals and substitution must occur within the period beginning on the" +
 	"                        Monday prior to the start of the event week and ending at 10 AM, Eastern Time," +
@@ -6894,24 +6956,7 @@ export const AllPageIndexList = [
 	"                        to each player who would have been a direct acceptance if not for the late" +
 	"                        substitution. This payment shall not apply in the case where the player gained" +
 	"                        entry into a main draw singles, at any event, by other means." +
-	"                        {'\\n\\n'}" +
-	"                        *For purposes of determining if the substitute player qualifies as a 1 or 2 seed," +
-	"                        all players including Wild Cards, shall be ranked in order using the most recent" +
-	"                        Pepperstone ATP Rankings. To be eligible for the emergency substitution, the" +
-	"                        tournament must have declared their Wild Cards to the ATP prior to the withdrawal of the player that qualified them for the emergency substitution." +
-	"                        {'\\n\\n'}" +
-	"                        CASE: Which Pepperstone ATP Ranking is used to determine the" +
-	"                        emergency substitution rule?" +
-	"                        {'\\n\\n'}" +
-	"                        DECISION: The most recent Pepperstone ATP Rankings is used" +
-	"                        to determine the seeding of the withdrawing players as well as the" +
-	"                        seeding of the substitute player." +
-	"                        {'\\n\\n'}" +
-	"                        CASE: If a Wild Card player will become one of the tournament’s" +
-	"                        top two seeds, can a tournament switch the Wild Card to a substitute player if the Wild Card was announced?" +
-	"                        DECISION: No, once the Wild Card has been announced, such" +
-	"                        player is not eligible to become a substitute player." +
-	"                        {'\\n\\n'}" +
+	"                        {'\\n\\n'}" +                       
 	"                        B.Main Draw Doubles" +
 	"                        {'\\n\\n'}" +
 	"                        1) ATP Tour Tournaments" +
@@ -6989,6 +7034,20 @@ export const AllPageIndexList = [
 	"                        and doubles, the player must be an ATP Player Member or an ATP Registered Player." +
 	"                        Wild Cards are exempt from this provision." +
 	"                        {'\\n\\n'}" +
+	"                        ATP Tour 250 Main Draw Singles Late Entry (LE) Spot:"+
+	"                        {'\\n\\n'}" +
+	"                        A Late Entry spot is a reserved position (one) in each ATP 250 tournament. Only players with a ranking better than the original tournament entry list cut are allowed to enter. The entry deadline for this spot is Thursday, 10 AM Eastern Time, USA prior to the Monday of the tournament week. At this deadline, the position will be filled by the highest ranked player who entered using the Pepperstone ATP Rankings (Singles) used for tournament entries twenty-eight (28) days prior to the Monday of the tournament week. If there are no entries for the LE spot by the deadline, then the position in the main draw goes to the next eligible player on the entry list."+
+	"                        {'\\n\\n'}" +
+	"                        ATP Next Gen Programme" +
+	"                        {'\\n\\n'}" +
+	"                        Players born in 2004 or later will be eligible for the Programme in 2024. Players who begin the season aged 20&U and turn 21 in 2024 will not be considered for the Programme. Starting from 01 January 2024, playing opportunities for players aged 20 & under who break into the Top 250 & 350 of the Pepperstone ATP Rankings will be reserved as follows: "+
+	"                        {'\\n\\n'}" +
+	"                        • Players who break into the Top 350 and are aged 20 & under will be eligible to receive up to 8 CH 100 & 125 Opportunities in a calendar year. " +
+	"                        {'\\n\\n'}" +
+	"                        • Players who break into the Top 250 and are aged 20 & under will be eligible to receive up to 1 ATP 250 Main Draw Singles & 2 ATP 250 Qualifying opportunities each week with three ATP level events on the calendar in addition to their Challenger opportunities."+
+	"                        {'\\n\\n'}" +
+	"                        Draw spots will be reserved and will drop to the next highest-ranked player should they not be utilized"+
+	"                        {'\\n\\n'}" +
 	"                        Junior Accelerator Spots (JAS) >" +
 	"                        {'\\n\\n'}" +
 	"                        Junior Accelerator Spots are awarded at the Challenger level to the Junior players" +
@@ -7013,7 +7072,53 @@ export const AllPageIndexList = [
 	"                        if they are directly accepted into the Qualifying with their ATP Ranking at the entry" +
 	"                        deadline, subject to availability." +
 	"                        {'\\n\\n'}" +
-	"                        Any Junior Accelerator Spot or Promotions from Qualifying to Main draw will be determined at the relevant Challenger Main Draw of Qualifying Entry Deadline." +
+	"                        Any Junior Accelerator Spot or Promotions from Qualifying to Main draw will be determined at the relevant Challenger Main Draw or Qualifying Entry Deadline." +
+	"                        {'\\n\\n'}" +
+	"                        College Accelerator Spots (CAS)"+
+	"                        {'\\n\\n'}" +
+	"                        College Accelerator Spots are awarded at the Challenger level to the College players" +
+	"                        who are ranked 1-20 in the season-end Intercollegiate Tennis Association (ITA) Collegiate Tennis Rankings, as well as individual NCAA Division I Tennis Championships" +
+	"                        quarterfinalists." +
+	"                        {'\\n\\n'}" +
+	"                        • Challengers 50 and 75 - College Accelerator Spots can be awarded to up to two" +
+	"                        (2) players in every Main Draw (eligible College players ranked 1-10 and individual" +
+	"                        NCAA DI Champion) and to up to two (2) players in every Qualifying (eligible College" +
+	"                        players ranked 11-20 and individual NCAA DI quarterfinalists) of Challenger 50 and" +
+	"                        75 tournaments." +
+	"                        {'\\n\\n'}" +
+	"                        Players who have finished College education – defined as any player who has obtained a College degree or who has stopped college education for the pursuit of full time competition on the professional tennis circuit – shall be eligible for the following" +
+	"                        opportunities: " +
+	"                        {'\\n\\n'}" +
+	"                        i) Players ranked 1-10 in the season-end singles ITA Collegiate Tennis Ranking and" +
+	"                        NCAA Division I Champion shall be eligible for up to eight (8) Accelerator Spots" +
+	"                        over twelve (12) months at Challenger Main Draw, with a maximum of four (4)" +
+	"                        uses per six (6) months, starting July 1, 2023." +
+	"                        {'\\n\\n'}" +
+	"                        ii) Players ranked 11-20 in the season-end singles ITA Collegiate Tennis Ranking" +
+	"                        and NCAA Division I quarter-finalists shall be eligible for up to eight (8) Accelerator Spots over twelve (12) months at Challenger Tour Qualifying, with a maximum" +
+	"                        of four (4) uses per six (6) months, starting July 1, 2023." +
+	"                        {'\\n\\n'}" +
+	"                        Players who remain in College education – defined as any player who is scheduled" +
+	"                        to return to College in the following semester - shall be eligible for the following opportunities:" +
+	"                        {'\\n\\n'}" +
+	"                        i) Players ranked 1-10 in the season-end singles ITA Collegiate Tennis Ranking and" +
+	"                        NCAA Division I Champion shall be eligible for up to six (6) Accelerator Spots at" +
+	"                        Challenger Main Draw over six (6) months, starting July 1 2023, through to the" +
+	"                        last week of Challenger events in the season. " +
+	"                        {'\\n\\n'}" +
+	"                        ii) Players ranked 11-20 in the season-end singles ITA Collegiate Tennis Ranking" +
+	"                        and NCAA Division I quarter-finalists shall be eligible for up to six (6) Accelerator" +
+	"                        Spots at Challenger Qualifying over six months, starting July 1, 2023, through to" +
+	"                        the last week of Challenger events in December." +
+	"                        {'\\n\\n'}" +
+	"                        • All Challengers – Players who are eligible for the Challenger College Accelerator" +
+	"                        Spots (ranked 1-20) can be promoted via Promotion System from Qualifying to Main" +
+	"                        Draw at any Challenger tournament (up to 2 spots reserved per tournament) if they" +
+	"                        are directly accepted into the Qualifying with their ATP Ranking at the entry deadline," +
+	"                        subject to availability. " +
+	"                        {'\\n\\n'}" +
+	"                        Any College Accelerator Spot or Promotions from Qualifying to Main draw will be" +
+	"                        determined at the relevant Challenger Main Draw or Qualifying Entry Deadline." +
 	"                        {'\\n\\n'}" +
 	"                        A.Main Draw - Singles>" +
 	"                        {'\\n\\n'}" +
@@ -7049,22 +7154,22 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        b) Once a team enters they are subject to all the withdrawal provisions." +
 	"                        {'\\n\\n'}" +
-	"                        *The top 13 eligible teams from the final 2022 ATP Doubles Team Rankings" +
+	"                        *The top 13 teams from the final 2023 ATP Doubles Team Rankings" +
 	"                        shall receive automatic Direct Acceptance into the first 5 Masters 1000 events" +
-	"                        in the 2023 season (if not included as a Direct Acceptance on their own merit). To qualify for automatic acceptance a team must have competed as a" +
-	"                        team in 11 ATP Tour or Grand Slam events during the 2022 season. A player" +
+	"                        in the 2024 season (if not included as a Direct Acceptance on their own merit). To qualify for automatic acceptance a team must have competed as a" +
+	"                        team in 11 ATP Tour or Grand Slam events during the 2023 season. A player" +
 	"                        can only be eligible on one team." +
 	"                        {'\\n\\n'}" +
-	"                        For each of the remaining four (4) Masters 1000 events, the top 13 eligible" +
+	"                        For each of the remaining four (4) Masters 1000 events, the top 13 " +
 	"                        teams in the Team Race at the advanced entry deadline for that event, shall" +
 	"                        receive automatic Direct Acceptance into that Masters 1000 event (if not included as a Direct Acceptance on their own merit). A player can only be eligible on one team." +
 	"                        {'\\n\\n'}" +
 	"                        To qualify for automatic acceptance into the first 5 Masters 1000 events a" +
-	"                        team must have competed together as a team in each week of the 2023" +
+	"                        team must have competed together as a team in each week of the 2024" +
 	"                        season where both players were playing doubles in that week. The exception" +
 	"                        would be when they were both involved in the singles of different events." +
 	"                        To qualify for automatic acceptance into the final 4 Masters 1000 events, a" +
-	"                        team must compete together as a team in each week of the 2023 season" +
+	"                        team must compete together as a team in each week of the 2024 season" +
 	"                        where both players were playing doubles in that week. The exception would" +
 	"                        be when they were both involved in the singles of different events." +
 	"                        {'\\n\\n'}" +
@@ -7515,7 +7620,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        d) 0-2 Special Exempts" +
 	"                        {'\\n\\n'}" +
-	"                        e) 0-2 JAS" +
+	"                        e) 0-2 JAS/CAS" +
 	"                        {'\\n\\n'}" +
 	"                        2) Qualifying is a 24-player event for 6 positions in the main draw" +
 	"                        {'\\n\\n'}" +
@@ -7523,18 +7628,9 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        b) 4 Wild Cards" +
 	"                        {'\\n\\n'}" +
-	"                        c) 0-2 JAS" +
+	"                        c) 0-2 JAS/CAS" +
 	"                        {'\\n\\n'}" +
-	"                        3) All Challenger events are 8-day events" +
-	"                        {'\\n\\n'}" +
-	"                        a) Play is Sunday through Sunday with the exception that Challengers scheduled in the week prior to a Grand Slam (same region) are approved for a" +
-	"                        Saturday final. All requests from Challengers not scheduled in the week prior" +
-	"                        to a Grand Slam (same region) shall be considered on a case by case basis." +
-	"                        {'\\n\\n'}" +
-	"                        b) The deadline for applying for a Saturday final is four (4) months prior to the" +
-	"                        first Monday of the event or prior to the tournament being added to the calendar, whichever is first." +
-	"                        {'\\n\\n'}" +
-	"                        4) Vacancies" +
+	"                        3) Vacancies" +
 	"                        {'\\n\\n'}" +
 	"                        a) Any main draw vacancies occurring after the withdrawal deadline and prior" +
 	"                        to the start of Qualifying will be filled in ranking order from the original main" +
@@ -7929,7 +8025,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        Potential Special Exempt Loses: After 9 p.m." +
 	"                        {'\\n\\n'}" +
-	"                        Case: A potential special exempt player loses his match at 9:15" +
+	"                        Case: : A potential special exempt player loses his match at 9:15" +
 	"                        p.m. on the night prior to the start of the qualifying competition and" +
 	"                        he calls the qualifying sign-in site requesting that he be given a wild card into the singles qualifying competition. May a wild card be" +
 	"                        given to him for the next week’s tournament if the qualifying draw" +
@@ -9251,9 +9347,9 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        C.Daily Scheduling Overview " +
 	"                        {'\\n\\n'}" +
-	"                        1) Feature singles matches should be scheduled after the scheduling committee" +
-	"                        considers the needs of players, television, tournament and the public. It is recommended that a tournament schedule no more than two (2) evening matches to" +
-	"                        begin no later than 8 p.m. local time." +
+	"                        1) Feature singles matches should be scheduled after the scheduling committee	" +
+	"                        considers the needs of players, television, tournament and the public.Tournaments may not schedule more than two (2) evening matches to begin no later	" +
+	"                        than 7:30 p.m. local time (6:30 p.m. recommended) without prior ATP approval.	" +
 	"                        {'\\n\\n'}" +
 	"                        2) The scheduling committee must schedule a doubles match on all show courts" +
 	"                        (including Center Court) as follows:" +
@@ -9341,6 +9437,8 @@ export const AllPageIndexList = [
 	"                        avoided). The ATP Supervisor may postpone a match after examining the impact" +
 	"                        on the tournament and the players. If postponing the match is not possible, then" +
 	"                        consideration must be given to moving a match to another court, if available." +
+	"                        {'\\n\\n'}" +
+	"                        Note applicable to all ATP Tour Tournaments on a trial basis in 2024: A maximum of 5 matches may be scheduled per court starting at 11 a.m. with three (3) matches during the day session and two (2) matches during the evening session. Any match not on court by 10:30pm will be moved to another court at 11 p.m. local time. No matches will be started after 11 p.m. local time, unless approved by the ATP Supervisor in consultation with ATP management. The ATP Scheduling Working Group reviewing tournament Match Schedule Plans shall have the authority to consider and issue waivers for deviations from the above trial scheduling rules based on local cultural traditions or weather conditions." +
 	"                        {'\\n\\n'}" +
 	"                        D. Order of Play " +
 	"                        {'\\n\\n'}" +
@@ -10058,7 +10156,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        B. Electronic Review - Live Line Calling (Live ELC)" +
 	"                        The use of an approved Live ELC electronic line calling system is authorized for use" +
-	"                        at ATP events in 2023." +
+	"                        at ATP events in 2024." +
 	"                        {'\\n\\n'}" +
 	"                        The following protocol shall be used." +
 	"                        {'\\n\\n'}" +
@@ -10385,36 +10483,37 @@ export const AllPageIndexList = [
 	"                        P. Toilet/Change of Attire Break" +
 	"                        {'\\n\\n'}" +
 	"" +
-	"                        1) A player may be permitted to leave the court for a toilet break. A player is entitled" +
-	"                        to one (1) toilet break during a best of three set match and two (2) toilet breaks" +
-	"                        during a best of five set match. For best of five set matches one toilet break may" +
-	"                        be taken during the first three sets. The second toilet break may only be taken" +
-	"                        after the end of the third set. Toilet breaks may only be taken on a set break and" +
-	"                        can be used for no other purpose. The toilet break is limited to a maximum of" +
-	"                        three (3) minutes from the time the player enters the toilet. Players exceeding the" +
-	"                        allowed time will be penalized by back-to-back Time Violations." +
+	"                        1) A player may be permitted to leave the court for a toilet or change of attire break." +
+	"                        A player is entitled to one (1) toilet or change of attire break during a best of three" +
+	"                        set match and two (2) toilet or change of attire breaks during a best of five set" +
+	"                        match. For best of five set matches one toilet break may be taken during the first" +
+	"                        three sets. The second break may only be taken after the end of the third set. Toilet or change of attire breaks may only be taken on a set break and can be used" +
+	"                        for no other purpose. The toilet break is limited to a maximum of three (3) minutes" +
+	"                        from the time the player enters the toilet. " +
 	"                        {'\\n\\n'}" +
-	"                        a) For doubles, each team is entitled to a total of one (1) toilet break in all matches. If partners leave the court together, it counts as the team’s authorized" +
-	"                        break." +
+	"                        A change of attire break combined with a toilet break is limited to a maximum of" +
+	"                        five (5) minutes from the time the player enters the off court changing area/toilet." +
 	"                        {'\\n\\n'}" +
-	"                        2) Any time a player leaves the court for a toilet break, it is considered the authorized" +
+	"                        A change of attire break is limited to a maximum of five (5) minutes from the time" +
+	"                        the player enters the off court changing area/toilet." +
+	"                        {'\\n\\n'}" +
+	"                        Players will only be allowed to leave the court on a set break to change wet" +
+	"                        shorts/underwear. Shirts, socks, and shoes should be changed on court." +
+	"                        {'\\n\\n'}" +
+	"                        Players exceeding the allowed time will be penalized by back-to-back Time Violations." +
+	"                        {'\\n\\n'}" +
+	"                        a) For doubles, each team is entitled to a total of one (1) toilet or change of attire break in all matches. If partners leave the court together, it counts as the" +
+	"                        team’s authorized break." +
+	"                        {'\\n\\n'}" +
+	"                        2) Any time a player leaves the court for a toilet break or a change of attire break, it is considered the authorized" +
 	"                        break regardless of whether or not the opponent has left the court." +
 	"                        {'\\n\\n'}" +
 	"                        3) Any toilet break taken after the warm-up has started is considered the authorized" +
 	"                        break. Additional breaks will be authorized, but will be penalized with the back-toback Time Violations if the player is not ready within the allowed time." +
 	"                        {'\\n\\n'}" +
-	"                        4) Change of Attire break can only be allowed in conjunction with a Toilet Break" +
-	"                        unless provisions of “equipment out of adjustment” take precedent. In that case," +
-	"                        the Chair Umpire has the authority to decide each request on its own merit." +
-	"                        {'\\n\\n'}" +
-	"                        • Players will only be allowed to leave the court on a set break to change wet" +
-	"                        shorts/underwear." +
-	"                        {'\\n\\n'}" +
-	"                        • A maximum of two minutes from the time the player enters the off court" +
-	"                        changing area/toilet will be allowed in addition to the 3 minutes per Toilet" +
-	"                        Break (to a maximum of 5 minutes in total)." +
-	"                        {'\\n\\n'}" +
-	"                        • Shirts, socks, and shoes must be changed on court." +
+	"                        4) The Chair Umpire has the authority to decide each request for change of attire" +
+	"                        break on its own merit when provisions of “equipment out of adjustment” take" +
+	"                        precedent." + 
 	"                        {'\\n\\n'}" +
 	"                        Toilet Visit" +
 	"                        {'\\n\\n'}" +

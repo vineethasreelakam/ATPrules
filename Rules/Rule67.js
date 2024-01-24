@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView, Linking } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule67({ navigation }) {
     return (
@@ -11,7 +11,8 @@ export default function Rule67({ navigation }) {
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
-                    <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule3.png' }} />
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>6.03 Balls</Text>
                         {'\n\n'}
@@ -29,11 +30,8 @@ export default function Rule67({ navigation }) {
                         <Text style={RuleStyles.SubHeading2}>1) ATP Tour Tournaments:</Text> Six (6) balls for each main draw and qualifying match to
                         be changed after seven (7) and nine (9) games throughout the tournament.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>2) ATP Challenger Tour Tournaments:</Text> It is recommended that all Challenger
-                        events use six (6) balls, changed after seven (7) and nine (9) games for all matches, however, it is mandatory for Challenger 125 and 175 events. For all other
-                        challenger events, as a minimum, four (4) balls are to be provided for each main
-                        draw and qualifying match to be changed at least every seven (7) and nine (9)
-                        games.
+                        <Text style={RuleStyles.SubHeading2}>2) ATP Challenger Tour Tournaments:</Text> Six (6) balls, for each main draw and qualifying match to be changed after seven (7) and nine (9) games for all matches.
+                        This will be mandatory for Challenger 50 and 75 events from 1 May 2024.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}> B.Lost Balls.</Text> Play must be continuous even if a ball needs to be replaced.
                         {'\n\n'}
@@ -52,28 +50,29 @@ export default function Rule67({ navigation }) {
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>C.Practice Balls</Text>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) ATP Tour Masters 1000 and ATP 500 Tournaments:</Text> Each main draw player
-                        is entitled to twelve (12) new balls per day for practice, free of charge, one (1)
-                        day prior to the start of qualifying until that player is eliminated. Once eliminated,
-                        he shall be entitled to six (6) new balls per day for practice. Players must return
-                        practice balls.
+                        <Text style={RuleStyles.SubHeading3}>1) ATP Tour Masters 1000 and ATP 500 Tournaments:</Text> Each main draw player is
+                        entitled to twelve (12) new balls per day for practice, free of charge, two (2) day
+                        prior to the start of qualifying until that player is eliminated. Once eliminated, he
+                        shall be entitled to six (6) new balls per day for practice. Tournaments should
+                        provide tennis ball baskets upon request. Players must return practice balls.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading3}>2) ATP 250 Tournaments:</Text> Each main draw player is entitled to nine (9) new balls
-                        per day for practice, free of charge, one (1) day prior to the start of qualifying until
-                        that player is eliminated. Once eliminated, he shall be entitled to six (6) new balls
-                        per day for practice. Players must return practice balls.
+                        per day for practice, free of charge, two (2) day prior to the start of qualifying
+                        until that player is eliminated. Once eliminated, he shall be entitled to six (6) new
+                        balls per day for practice. Tournaments should provide tennis ball baskets upon
+                        request. Players must return practice balls.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>3) ATP/Challenger Qualifying Competition:</Text> Players listed in the Pepperstone ATP
-                        Rankings (singles/doubles) who are practicing for qualifying competition are entitled to three (3) new balls per day for practice, free of charge, one (1) day prior to
-                        the start of the qualifying competition until that player is eliminated. Players must
-                        return practice balls. For ATP Tour qualifying at combined events, each player is
-                        entitled to six (6) new balls per day until that player is eliminated.
+                        <Text style={RuleStyles.SubHeading3}>3) ATP Qualifying Competition:</Text> : Players listed in the Pepperstone ATP Rankings
+                        (singles/doubles) who are practicing for qualifying competition are enti- tled to six
+                        (6) new balls per day for practice, free of charge, two (2) days prior to the start
+                        of the qualifying competition until that player is eliminated. Players must return
+                        practice balls.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>4) ATP Challenger Tour Tournaments:</Text> Each main draw player is entitled to three
-                        (3) new balls per day for practice (six (6) balls for Challenger 125 and 175 events),
-                        free of charge, from 12 Noon Saturday (Friday for events with a Sunday start) prior to the start of the event until that player is eliminated. Once eliminated, he shall
-                        be entitled to three (3) used balls per day for practice (six (6) balls for Challenger
-                        125 and 175 events). Players must return practice balls.
+                        <Text style={RuleStyles.SubHeading3}>4) ATP Challenger Tour Tournaments:</Text>  Each main draw and qualifying player is
+                        entitled to three (3) new balls per day for practice (six (6) balls for Challenger 125
+                        and 175 events), free of charge, from 12 Noon two (2) days prior to the start of the
+                        event until that player is eliminated. Once eliminated, he shall be entitled to six (6)
+                        used balls per day for practice. Players must return practice balls
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>D.Ball Logo.</Text> Tournaments may add an additional logo to the tournament ball under the
                         following conditions.
@@ -139,6 +138,7 @@ export default function Rule67({ navigation }) {
                         {'\n\n'}
 
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule66', next: 'Rule68', nav: navigation }} />

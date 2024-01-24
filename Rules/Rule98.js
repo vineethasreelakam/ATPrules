@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule98({ navigation }) {
     return (
@@ -12,6 +12,7 @@ export default function Rule98({ navigation }) {
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>7.08 The Draw</Text>
                         {'\n\n'}
@@ -95,7 +96,7 @@ export default function Rule98({ navigation }) {
                         {'\n\n'}
                         d) 0-2 Special Exempts
                         {'\n\n'}
-                        e) 0-2 JAS
+                        e) 0-2 JAS/CAS
                         {'\n\n'}
                         2) Qualifying is a 24-player event for 6 positions in the main draw
                         {'\n\n'}
@@ -103,18 +104,9 @@ export default function Rule98({ navigation }) {
                         {'\n\n'}
                         b) 4 Wild Cards
                         {'\n\n'}
-                        c) 0-2 JAS
+                        c) 0-2 JAS/CAS
                         {'\n\n'}
-                        3) All Challenger events are 8-day events
-                        {'\n\n'}
-                        a) Play is Sunday through Sunday with the exception that Challengers scheduled in the week prior to a Grand Slam (same region) are approved for a
-                        Saturday final. All requests from Challengers not scheduled in the week prior
-                        to a Grand Slam (same region) shall be considered on a case by case basis.
-                        {'\n\n'}
-                        b) The deadline for applying for a Saturday final is four (4) months prior to the
-                        first Monday of the event or prior to the tournament being added to the calendar, whichever is first.
-                        {'\n\n'}
-                        4) Vacancies
+                        3) Vacancies
                         {'\n\n'}
                         a) Any main draw vacancies occurring after the withdrawal deadline and prior
                         to the start of Qualifying will be filled in ranking order from the original main
@@ -253,6 +245,7 @@ export default function Rule98({ navigation }) {
 
                         {'\n\n'}
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule97', next: 'Rule99', nav: navigation }} />

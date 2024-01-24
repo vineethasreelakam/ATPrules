@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule93({ navigation }) {
     return (
@@ -11,7 +11,8 @@ export default function Rule93({ navigation }) {
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
-                    <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule3.png' }} />
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>7.03 Entry Deadlines</Text>
                         {'\n\n'}
@@ -35,7 +36,25 @@ export default function Rule93({ navigation }) {
                         ATP Tour 250 or ATP Tour 500 tournament, or if he is still competing in an ATP
                         Tour, ATP Challenger Tour, or ITF Men’s WTT tournament at any time on the day
                         prior to the commencement of qualifying or two days prior if competing on another
-                        continent. If a player is still competing past 9:00 p.m. local time, he will be automatically withdrawn from the qualifying without penalty. Players who withdraw
+                        continent. Once a player has lost his match in the preceding week’s tournament,
+                        he must confirm to the Supervisor or Player Relations staff no later than one (1)
+                        hour following the completion of the match if he will compete in the following
+                        week’s Qualifying or will withdraw with “still competing”, except for those players
+                        who have decided to remain on the qualifying list as outlined below.
+                        {'\n\n'}
+                        If a player is still competing past the qualifying sign in deadline, he may choose to
+                        remain on the qualifying list of the following week’s tournament if the player can
+                        reasonably travel and arrive on time to compete at the qualifying event as determined by the supervisor. For the avoidance of doubt, the Supervisor should use
+                        great discretion when making such determination. Unless clearly impossible to
+                        arrive on-time for the next week’s tournament, players should be given the benefit
+                        of the doubt. If he chooses to remain on the qualifying list and loses at the current
+                        event after the qualifying draw is made (and did not withdraw himself before the
+                        qualifying alternate sign in deadline) he is committed to play the qualifying and
+                        will be subject to applicable late withdrawal penalties if he withdraws. Players
+                        who are still competing past 9:00 p.m. local time and who cannot reasonably
+                        attend the following week’s event due to the location of the current event where
+                        they are still competing or who choose not to remain on the qualifying list will be
+                        automatically withdrawn from the qualifying at this time. Players who withdraw
                         or are withdrawn due to “still competing” will be allowed to accept a wild card or
                         enter doubles into any ATP Tour 250, ATP Tour 500, ATP Challenger Tour or ITF
                         Men’s WTT tournament, including qualifying. If a withdrawal occurs prior to 10
@@ -176,14 +195,33 @@ export default function Rule93({ navigation }) {
                         250 or ATP Tour 500 tournament, or if he is still competing in an ATP Tour, ATP
                         Challenger Tour, or ITF Men’s WTT tournament at any time on the day prior to the
                         commencement of qualifying or two days prior if competing on another continent.
-                        If a player is still competing past 9:00 p.m. local time, he will be automatically withdrawn from the qualifying without penalty. Players who withdraw or are withdrawn
-                        due to “still competing” will be allowed to accept a wild card or enter doubles
-                        into any ATP Tour 250, ATP Tour 500, ATP Challenger Tour or ITF Men’s WTT
-                        tournament, including qualifying. If a withdrawal occurs prior to 10 AM, Eastern
-                        Time, USA, on Friday, the qualifying vacancy shall be filled by the next player on
-                        the qualifying alternate list. This player is not required to sign in. If a withdrawal
-                        occurs after 10 AM, Eastern Time, USA, on Friday, the qualifying vacancy will be
-                        filled from the on-site sign-in list, using the most recent Pepperstone ATP Rankings list.
+                        Once a player has lost his match in the preceding week’s tournament, he must
+                        confirm to the Supervisor or Player Relations staff no later than one (1) hour
+                        following the completion of the match if he will compete in the following week’s
+                        Qualifying or will withdraw with “still competing”, except for those players who
+                        have decided to remain on the qualifying list as outlined below.
+                        {'\n\n'}
+                        If a player is still competing past the qualifying sign in deadline, he may choose to
+                        remain on the qualifying list of the following week’s tournament if the player can
+                        reasonably travel and arrive on time to compete at the qualifying event as determined by the supervisor. For the avoidance of doubt, the Supervisor should use
+                        great discretion when making such determination. Unless clearly impossible to
+                        arrive on-time for the next week’s tournament, players should be given the benefit
+                        of the doubt. If he chooses to remain on the qualifying list and loses at the current
+                        event after the qualifying draw is made (and did not withdraw himself before the
+                        qualifying alternate sign in deadline) he is committed to play the qualifying and
+                        will be subject to applicable late withdrawal penalties if he withdraws. Players
+                        who are still competing past 9:00 p.m. local time and who cannot reasonably
+                        attend the following week’s event due to the location of the current event where
+                        they are still competing or who choose not to remain on the qualifying list will be
+                        automatically withdrawn from the qualifying at this time. Players who withdraw
+                        or are withdrawn due to “still competing” will be allowed to accept a wild card or
+                        enter doubles into any ATP Tour 250, ATP Tour 500, ATP Challenger Tour or ITF
+                        Men’s WTT tournament, including qualifying. If a withdrawal occurs prior to 10
+                        AM, Eastern Time, USA, on Friday, the qualifying vacancy shall be filled by the
+                        next player on the qualifying alternate list. This player is not required to sign in. If
+                        a withdrawal occurs after 10 AM, Eastern Time, USA, on Friday, the qualifying vacancy will be filled from the on-site sign-in list, using the most recent Pepperstone
+                        ATP Rankings list. Main draw vacancies will be filled from the main draw alternate
+                        list, not the qualifying acceptance list.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading3}>NOTE:</Text> For the purposes of this rule, the Continents are: Europe, Asia, Antarctica,
                         Australia, Africa, North America (including Central America) and South America.
@@ -220,12 +258,26 @@ export default function Rule93({ navigation }) {
                         a) Tournaments shall qualify for one (1) emergency substitution if the following
                         conditions exist:
                         {'\n\n'}
-                        i) Two (2) of the tournament’s top four (4) seeds withdraw; and
+                        i) Two (2) of the tournament’s top four (4) ranked players on the original
+                        acceptance list withdraw; and
                         {'\n\n'}
-                        ii) One (1) of the withdrawals involves the first or second seeded player; and
+                        ii) One (1) of the withdrawals involves the first highest or second seeded
+                        highest ranked player; and
                         {'\n\n'}
-                        iii) The substitute player (1) will become one of the tournament’s top two (2)
-                        seeds*.
+                        iii) The substitute player (1) meets a minimum of one (1) of the following
+                        criteria:
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>1.</Text> A former top 20 player on the Pepperstone ATP rankings within the
+                               previous 5 years from the tournament date.
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>2.</Text> Past tournament champion.
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>3.</Text> A current player ranked in the top 5 on the current ITF International Junior Ranking.
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>4.</Text>  A current player ranked in the top 2 of the host country official National Junior Ranking.
+                        {'\n\n'}
+                        Substitute players meeting any of the criteria listed above must be ranked
+                        500 or better in the most recent Pepperstone ATP Singles Ranking.
                         {'\n\n'}
                         The withdrawals and substitution must occur within the period beginning on the
                         Monday prior to the start of the event week and ending at 10 AM, Eastern Time,
@@ -240,23 +292,6 @@ export default function Rule93({ navigation }) {
                         to each player who would have been a direct acceptance if not for the late
                         substitution. This payment shall not apply in the case where the player gained
                         entry into a main draw singles, at any event, by other means.
-                        {'\n\n'}
-                        *For purposes of determining if the substitute player qualifies as a 1 or 2 seed,
-                        all players including Wild Cards, shall be ranked in order using the most recent
-                        Pepperstone ATP Rankings. To be eligible for the emergency substitution, the
-                        tournament must have declared their Wild Cards to the ATP prior to the withdrawal of the player that qualified them for the emergency substitution.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>CASE: </Text>Which Pepperstone ATP Ranking is used to determine the
-                        emergency substitution rule?
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>DECISION:</Text> The most recent Pepperstone ATP Rankings is used
-                        to determine the seeding of the withdrawing players as well as the
-                        seeding of the substitute player.
-                        {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>CASE: </Text>If a Wild Card player will become one of the tournament’s
-                        top two seeds, can a tournament switch the Wild Card to a substitute player if the Wild Card was announced?
-                        DECISION: No, once the Wild Card has been announced, such
-                        player is not eligible to become a substitute player.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading3}>B.Main Draw Doubles</Text>
                         {'\n\n'}
@@ -329,6 +364,7 @@ export default function Rule93({ navigation }) {
                         ATP may extend the deadline for entries and/or withdrawals when unforeseen circumstances arise.
                         {'\n\n'}
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule92', next: 'Rule94', nav: navigation }} />

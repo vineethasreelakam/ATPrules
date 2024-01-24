@@ -190,6 +190,7 @@ import Rule187 from '../Rules/Rule187.js';
 import Rule189 from '../Rules/Rule189.js';
 import Rule190 from '../Rules/Rule190.js'; 
 import Rule191 from '../Rules/Rule191.js';
+import Rule211 from '../Rules/Rule211.js';
 
 export const SubIndex1_List = [
   { id: 2, indexId: '', name: '1.01 Categories of Tournaments', pageName: 'Rule2' , comp:Rule2},
@@ -294,9 +295,10 @@ export const SubIndex6_List = [
     { id: 84, indexId: '', name: '6.20 Physiotherapist/Treatment Room', pageName: 'Rule84' , comp:Rule84 },
     { id: 85, indexId: '', name: '6.21 Automated External Defibrillator (“AED”)', pageName: 'Rule85' , comp:Rule85 },
     { id: 86, indexId: '', name: '6.22 First Aid', pageName: 'Rule86' , comp:Rule86 },
-    { id: 87, indexId: '', name: '6.23 Anti-Doping Facilities and On-Site Personnel Assistance', pageName: 'Rule87' , comp:Rule87 },
-    { id: 88, indexId: '', name: '6.24 Media Facilities Guidelines', pageName: 'Rule88' , comp:Rule88 },
-    { id: 89, indexId: '', name: '6.25 Electronic Line Calling Facilities Guidelines', pageName: 'Rule89' , comp:Rule89 },
+    { id: 86, indexId: '', name: '6.23 Emergency Action Plan', pageName: 'Rule211' , comp:Rule211 },
+    { id: 87, indexId: '', name: '6.24 Anti-Doping Facilities and On-Site Personnel Assistance', pageName: 'Rule87' , comp:Rule87 },
+    { id: 88, indexId: '', name: '6.25 Media Facilities Guidelines', pageName: 'Rule88' , comp:Rule88 },
+    { id: 89, indexId: '', name: '6.26 Electronic Line Calling Facilities Guidelines', pageName: 'Rule89' , comp:Rule89 },
 ]
 
 export const SubIndex7_List = [

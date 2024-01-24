@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView, Linking } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule70({ navigation }) {
     return (
@@ -11,7 +11,8 @@ export default function Rule70({ navigation }) {
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
-                    <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule3.png' }} />
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>6.06 Equipment & Supplies</Text>
                         {'\n\n'}
@@ -86,6 +87,8 @@ export default function Rule70({ navigation }) {
                         3) There can be no commercial or manufacturer identification on the net except as
                         approved by ATP.
                         {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>Note: </Text>Each ATP Tour tournament will be provided with Oficial ATP Tour nets for a minimum of four (4) years (number of nets provided will vary depending on tournament category). These nets should be used for the tournament matches and practice during the tournament week only. Each tournament is responsible for properly storing the Oficial ATP Tour nets. Should damage caused by misuse, poor maintenance or modification lead to the need to replace the net, the costs for the new net will be tournament responsibility.
+                        {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>E. Net Posts and Net Post Signage.</Text> The net posts shall conform to the specifications
                         in the
                         <Text
@@ -109,6 +112,13 @@ export default function Rule70({ navigation }) {
                         courts and in the player’s locker room. Towels should be pre-washed and of sufficient
                         size for the intended use.
                         {'\n\n'}
+                        Each court shall be equipped with bins/baskets for the players to leave their towels
+                        during the match. This area should be located at the closest point for the player to be
+                        able to use their towel without delay. The two designated areas are near the baseline umpire position or the corner of the courts. Each player/team should have their own
+                        bin/basket where they can place their towels. There should be identification to clearly
+                        show each player’s allocated bin/basket. There should be four (4) of these at each
+                        end and each side of the court for a total of eight (8) on the court. This would be applicale for singles and doubles.
+                        {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>I. Beverages.</Text>
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading3}>1) Players.</Text> Each tournament shall provide, in sealed containers, electrolyte replacement drinks, non-carbonated bottled water and other beverages for players
@@ -121,6 +131,7 @@ export default function Rule70({ navigation }) {
                         {'\n\n'}
 
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule69', next: 'Rule71', nav: navigation }} />

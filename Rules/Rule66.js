@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView, Linking } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule66({ navigation }) {
     return (
@@ -11,7 +11,8 @@ export default function Rule66({ navigation }) {
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
-                    <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule3.png' }} />
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>6.02 Match and Practice Courts</Text>
                         {'\n\n'}
@@ -86,17 +87,17 @@ export default function Rule66({ navigation }) {
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>B.</Text>All match and practice courts must be the same surface, speed and conditions as the
                         main draw and must be available for practice from 9:00 A.M. on Friday prior to the
-                        start of the tournament until the conclusion of the tournament.
+                        start of the tournament until the conclusion of the tournament. For outdoor tournaments the practice courts must be available for practice at a minimum of two (2) complete days prior to the start of the tournament.
                         {'\n\n'}
                         For ATP Challenger Tour tournaments, practice courts to be available from 12:00
                         Noon on the Saturday preceding the start of the tournament (Friday, in case of Sunday to Saturday schedule).
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>C.</Text>Courts must be set up to provide normal support, including drinks (bottled water),
-                        sawdust and towels.
-
+                        <Text style={RuleStyles.SubHeading2}>C.</Text>Courts must be set up to provide normal support, including a practice desk, balls,
+                        drinks (bottled water), fruit, sawdust and towels.
                         {'\n\n'}
 
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View>
             <RuleNavigationButtons props={{ prev: 'Rule65', next: 'Rule67', nav: navigation }} />

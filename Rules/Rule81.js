@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule81({ navigation }) {
     return (
@@ -11,27 +11,31 @@ export default function Rule81({ navigation }) {
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
-                    <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule3.png' }} />
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>6.17 Food</Text>
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading3}>General.</Text> Each tournament must provide a variety of suitable and of high-quality food
-                        for the competitors on-site or, as approved by ATP, within reasonable distance of the tournament venue. Food service should begin no later than the first day of qualifying
-                        and continue until the completion of the tournament.
+                        for the competitors on-site or, as approved by ATP, within reasonable distance of
+                        the tournament venue. Food service for ATP 250 and Challenger Tour tournaments
+                        should begin no later than the day before the start of the qualifying and continue until
+                        the completion of the tournament.
                         {'\n\n'}
                         Type of food offered shall be subject to local health and safety regulations.
                         {'\n\n'}
                         After a player permanently leaves the event, guest passes/credentials and associated benefits shall be automatically revoked for PST members, unless otherwise
                         decided by the tournament.
                         {'\n\n'}
-                        See “Exhibit Q” for minimum Player Food Service Guidelines.
+                        Please refer to "Exhibit Q" and to the Standards and Best Practices section on ATP
+                        Tournament Centre for minimum Player Food Service Guidelines.
 
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading3}>ATP Tour Masters 1000 and ATP 500 Tournaments*. </Text>Each tournament shall provide complimentary food service available for each player and two (2) PST members
                         for the same number of days as the player’s hospitality through direct allocation on
                         the individual credential or allowance on the player credential. Tournaments are encouraged to provide complimentary food for additional PST members.
                         {'\n\n'}
-                        The complementary food service shall offer fresh, high-quality hot and cold food options with a combination of made to order and buffet food, variety of proteins including
+                        The complimentary food service shall offer fresh, high-quality hot and cold food options with a combination of made to order and buffet food, variety of proteins including
                         vegan protein (tofu or tempeh), carbs, salads, fruit and smoothies.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading3}>ATP 250 Tournaments*. </Text>Each tournament shall provide complimentary food service
@@ -63,6 +67,7 @@ export default function Rule81({ navigation }) {
                         staff are not included.
                         {'\n\n'}
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule80', next: 'Rule82', nav: navigation }} />

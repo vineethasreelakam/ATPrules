@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule74({ navigation }) {
     return (
@@ -12,12 +12,13 @@ export default function Rule74({ navigation }) {
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>6.10 Tournament Credentialing and Ticketing</Text>
                         {'\n\n'}
 
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A. ATP Membership Card.</Text> A 2023 ATP Membership Card shall be honored at all ATP
+                        <Text style={RuleStyles.SubHeading2}>A. ATP Membership Card.</Text> A 2024 ATP Membership Card shall be honored at all ATP
                         Tour and ATP Challenger Tour events and will permit the holder entry to the tournament office (or such other location as directed by a Tournament or ATP) in order to
                         receive the appropriate credential.
                         {'\n\n'}
@@ -118,6 +119,7 @@ export default function Rule74({ navigation }) {
                         {'\n\n'}
 
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule73', next: 'Rule75', nav: navigation }} />

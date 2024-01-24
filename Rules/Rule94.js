@@ -3,7 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
-
+import ZoomText from "../Component/ZoomText.js";
 
 export default function Rule94({ navigation }) {
     return (
@@ -11,7 +11,8 @@ export default function Rule94({ navigation }) {
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
                     <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
-                    <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+                    <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule3.png' }} />
+                    <ZoomText>
                     <Text style={RuleStyles.Description}>
                         <Text style={RuleStyles.SubHeading1}>7.04 Entry/Withdrawal Method</Text>
                         {'\n\n'}
@@ -20,6 +21,18 @@ export default function Rule94({ navigation }) {
                         For entry into an ATP Tour or ATP Challenger Tour main draw or qualifying singles
                         and doubles, the player must be an ATP Player Member or an ATP Registered Player.
                         Wild Cards are exempt from this provision.
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading2}>ATP Tour 250 Main Draw Singles Late Entry (LE) Spot: </Text>
+                        A Late Entry spot is a reserved position (one) in each ATP 250 tournament. Only players with a ranking better than the original tournament entry list cut are allowed to enter. The entry deadline for this spot is Thursday, 10 AM Eastern Time, USA prior to the Monday of the tournament week. At this deadline, the position will be filled by the highest ranked player who entered using the Pepperstone ATP Rankings (Singles) used for tournament entries twenty-eight (28) days prior to the Monday of the tournament week. If there are no entries for the LE spot by the deadline, then the position in the main draw goes to the next eligible player on the entry list.
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading2}>ATP Next Gen Programme </Text>
+                        Players born in 2004 or later will be eligible for the Programme in 2024. Players who begin the season aged 20&U and turn 21 in 2024 will not be considered for the Programme. Starting from 01 January 2024, playing opportunities for players aged 20 & under who break into the Top 250 & 350 of the Pepperstone ATP Rankings will be reserved as follows:
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>• Players who break into the Top 350 and are aged 20 & under will be eligible to receive up to 8 CH 100 & 125 Opportunities in a calendar year. </Text>
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>• Players who break into the Top 250 and are aged 20 & under will be eligible to receive up to 1 ATP 250 Main Draw Singles & 2 ATP 250 Qualifying opportunities each week with three ATP level events on the calendar in addition to their Challenger opportunities.</Text>
+                        {'\n\n'}
+                        Draw spots will be reserved and will drop to the next highest-ranked player should they not be utilized
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>Junior Accelerator Spots (JAS) </Text>
                         {'\n\n'}
@@ -45,7 +58,46 @@ export default function Rule94({ navigation }) {
                         if they are directly accepted into the Qualifying with their ATP Ranking at the entry
                         deadline, subject to availability.
                         {'\n\n'}
-                        Any Junior Accelerator Spot or Promotions from Qualifying to Main draw will be determined at the relevant Challenger Main Draw of Qualifying Entry Deadline.
+                        Any Junior Accelerator Spot or Promotions from Qualifying to Main draw will be determined at the relevant Challenger Main Draw or Qualifying Entry Deadline.
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading2}>College Accelerator Spots (CAS)</Text>
+                        College Accelerator Spots are awarded at the Challenger level to the College players who are ranked 1-20 in the season-end Intercollegiate Tennis Association (ITA) Collegiate Tennis Rankings, as well as individual NCAA Division I Tennis Championships quarterfinalists.
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>• Challengers 50 and 75 </Text>- College Accelerator Spots can be awarded to up to two (2) players in every Main Draw (eligible College players ranked 1-10 and individual NCAA DI Champion) and to up to two (2) players in every Qualifying (eligible College players ranked 11-20 and individual NCAA DI quarterfinalists) of Challenger 50 and 75 tournaments.
+                        {'\n\n'}
+                        Players who have finished College education – defined as any player who has obtained a College degree or who has stopped college education for the pursuit of full time competition on the professional tennis circuit – shall be eligible for the following
+                        opportunities:
+                        {'\n\n'}
+                        i) Players ranked 1-10 in the season-end singles ITA Collegiate Tennis Ranking and
+                        NCAA Division I Champion shall be eligible for up to eight (8) Accelerator Spots
+                        over twelve (12) months at Challenger Main Draw, with a maximum of four (4)
+                        uses per six (6) months, starting July 1, 2023.
+                        {'\n\n'}
+                        ii) Players ranked 11-20 in the season-end singles ITA Collegiate Tennis Ranking
+                        and NCAA Division I quarter-finalists shall be eligible for up to eight (8) Accelerator Spots over twelve (12) months at Challenger Tour Qualifying, with a maximum
+                        of four (4) uses per six (6) months, starting July 1, 2023.
+                        {'\n\n'}
+                        Players who remain in College education – defined as any player who is scheduled
+                        to return to College in the following semester - shall be eligible for the following opportunities:
+                        {'\n\n'}
+                        i) Players ranked 1-10 in the season-end singles ITA Collegiate Tennis Ranking and
+                        NCAA Division I Champion shall be eligible for up to six (6) Accelerator Spots at
+                        Challenger Main Draw over six (6) months, starting July 1 2023, through to the
+                        last week of Challenger events in the season.
+                        {'\n\n'}
+                        ii) Players ranked 11-20 in the season-end singles ITA Collegiate Tennis Ranking
+                        and NCAA Division I quarter-finalists shall be eligible for up to six (6) Accelerator
+                        Spots at Challenger Qualifying over six months, starting July 1, 2023, through to
+                        the last week of Challenger events in December.
+                        {'\n\n'}
+                        <Text style={RuleStyles.SubHeading3}>• All Challengers – </Text>Players who are eligible for the Challenger College Accelerator
+                        Spots (ranked 1-20) can be promoted via Promotion System from Qualifying to Main
+                        Draw at any Challenger tournament (up to 2 spots reserved per tournament) if they
+                        are directly accepted into the Qualifying with their ATP Ranking at the entry deadline,
+                        subject to availability.
+                        {'\n\n'}
+                        Any College Accelerator Spot or Promotions from Qualifying to Main draw will be
+                        determined at the relevant Challenger Main Draw or Qualifying Entry Deadline.
                         {'\n\n'}
                         <Text style={RuleStyles.SubHeading2}>A.Main Draw - Singles</Text>
                         {'\n\n'}
@@ -81,22 +133,21 @@ export default function Rule94({ navigation }) {
                         {'\n\n'}
                         b) Once a team enters they are subject to all the withdrawal provisions.
                         {'\n\n'}
-                        *The top 13 eligible teams from the final 2022 ATP Doubles Team Rankings
+                        *The top 13 teams from the final 2023 ATP Doubles Team Rankings
                         shall receive automatic Direct Acceptance into the first 5 Masters 1000 events
-                        in the 2023 season (if not included as a Direct Acceptance on their own merit). To qualify for automatic acceptance a team must have competed as a
-                        team in 11 ATP Tour or Grand Slam events during the 2022 season. A player
+                        in the 2024 season (if not included as a Direct Acceptance on their own merit). To qualify for automatic acceptance a team must have competed as a
+                        team in 11 ATP Tour or Grand Slam events during the 2023 season. A player
                         can only be eligible on one team.
                         {'\n\n'}
-                        For each of the remaining four (4) Masters 1000 events, the top 13 eligible
-                        teams in the Team Race at the advanced entry deadline for that event, shall
+                        For each of the remaining four (4) Masters 1000 events, the top 13 teams in the Team Race at the advanced entry deadline for that event, shall
                         receive automatic Direct Acceptance into that Masters 1000 event (if not included as a Direct Acceptance on their own merit). A player can only be eligible on one team.
                         {'\n\n'}
                         To qualify for automatic acceptance into the first 5 Masters 1000 events a
-                        team must have competed together as a team in each week of the 2023
+                        team must have competed together as a team in each week of the 2024
                         season where both players were playing doubles in that week. The exception
                         would be when they were both involved in the singles of different events.
                         To qualify for automatic acceptance into the final 4 Masters 1000 events, a
-                        team must compete together as a team in each week of the 2023 season
+                        team must compete together as a team in each week of the 2024 season
                         where both players were playing doubles in that week. The exception would
                         be when they were both involved in the singles of different events.
                         {'\n\n'}
@@ -198,6 +249,7 @@ export default function Rule94({ navigation }) {
 
                         {'\n\n'}
                     </Text>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule93', next: 'Rule95', nav: navigation }} />
