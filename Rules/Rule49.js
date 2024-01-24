@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 export default function Rule49({ navigation }) {
   return (
@@ -11,29 +12,30 @@ export default function Rule49({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
 
             <Text style={RuleStyles.SubHeading1}>4.03 United Cup</Text>
             {'\n\n'}
             The United Cup is an annual country vs country mixed team competition. Eighteen
-            (18) countries will participate, with a minimum of three ATP and three WTA players per
+            (18) countries will participate, with a minimum of two ATP and two WTA players per
             country
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>A.Round Robin Competition</Text>
             {'\n\n'}
             1) The United Cup is a competition for eighteen (18) teams, each team composed
-            of a minimum of three (3) ATP and three (3) WTA players and a maximum of four
-            (4) ATP/WTA players from the same country. The team criteria shall be:
+            of a minimum of two (2) ATP and two (2) WTA players and a maximum of three
+            (3) ATP/WTA players from the same country. The team criteria shall be:
             {'\n\n'}
-            a) The three (3) highest ranked singles ATP/WTA players; then
+            a) The two (2) highest ranked singles ATP/WTA players; then
             {'\n\n'}
-            b) Teams may include a 4th ATP and WTA player, whose entry will be accepted
+            b) Teams may include a 3rd ATP and WTA player, whose entry will be accepted
             based on being the highest of singles ranking (up to maximum 500) or doubles ranking (up to maximum 250).
             {'\n\n'}
-            c) A junior player, meeting the criteria stated below, may be included as a country’s 4th respective Tour player.
+            c) A junior player, meeting the criteria stated below, may be included as a country’s 3rd respective Tour player.
             The junior player must,
             {'\n\n'}
-            i) Be born in 2004 or later, and
+            i) Be born in 2005 or later, and
             {'\n\n'}
             ii) Be ranked 500 or better in Singles rankings as of the Rankings Deadline,
             or
@@ -54,10 +56,9 @@ export default function Rule49({ navigation }) {
             mixed doubles matches shall be two (2) tie-break sets with a deciding Match TieBreak (10 point) at one (1) set all.
             {'\n\n'}
             4) Each team shall play each other in its group to determine the top team in each
-            group. Group winners will advance to the City Final match, playing off for one of 3
-            guaranteed Semi-Final spots against the winner of the other group from that host
-            city. The remaining Semi Final spot will be awarded to the best performing team
-            throughout the entire competition, from the 3 City Final runners-up.
+            group. Group winners will advance to the Quarterfinals. One Quarterfinal spot in
+            each city will be awarded to the best runner up in that City. Winners will advance
+            to the Semi-Finals, to be hosted in the Finals City.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>B.Player Nationality / Change of Nationality</Text>
             {'\n\n'}
@@ -107,35 +108,51 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>2) Entry – Deadline and Acceptance</Text>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Entry deadline.</Text>Tuesday 8 November 2022. The top fifteen (15) Direct Acceptance countries that qualify using the 7 November 2022 ATP/WTA Ranking must confirm their acceptance to the competition by this deadline.
+            <Text style={RuleStyles.SubHeading3}>a) Entry deadline:</Text>Tuesday 17 October 2023, 5pm Florida Time (Wednesday
+            18 October 2023, 8am Sydney Time). The top fifteen (15) Direct Acceptance countries that qualify using 
+            the 16 October 2023 ATP/WTA Ranking must confirm their acceptance to the competition by this deadline.
+            {'\n\n'}
+            <Text style={RuleStyles.SubHeading3}>b) At Second Qualification Date:</Text>
+            The Second Qualification Date is designed to account for results and changes
+            in ranking within the Top ATP and WTA eligible singles players since the
+            Entry Deadline. The next highest ranked ATP and WTA eligible and entered
+            players not already accepted into the competition determine the remaining 1
+            x ATP and 1 x WTA qualifying teams, as long as the teams meet the minimum
+            number of players required.
+            {'\n\n'}
+            <Text style={RuleStyles.SubHeading3}>Note:</Text>Players will only be eligible to qualify at second qualification date if they
+            have entered at the entry deadline.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>3) Qualification.</Text> In order to qualify for the competition, a team that has accepted
             entry must comply with the following requirements:
             {'\n\n'}
-            At this entry deadline, the Top 6 WTA qualified countries, 5 of the 6 ATP qualified
-            countries and Top 5 combined entry countries will be admitted to the competition,
-            with the final two remaining entrants to be admitted to the competition on Monday 21
-            November 2022 based on the 21 November 2022 rankings.
+            At this entry deadline, the Top 5 WTA qualified countries, Top 5 ATP qualified countries
+            and Top 6 combined entry countries (inclusive of host country as Direct in or by
+            wildcard) will be admitted to the competition, with the final two remaining entrants
+            to be admitted to the competition on Monday 20 November 2023, 12 noon Florida
+            time (Tuesday, 21 November 4 am Sydney time) based on the 20 November 2023
+            rankings.
             {'\n\n'}
             Players must enter the event to be eligible (i.e., no automatic entries)
             {'\n\n'}
             a) The team is composed of the two (2) highest positioned and eligible players
-            based on the ATP/WTA Ranking (Singles) as of 7 November 2022.
+            based on the ATP/WTA Ranking (Singles) as of 17 October 2023 (ATP/WTA
+            Ranking (Singles) as of 20 November for the two teams qualifying at the second
+            qualification deadline).
             {'\n\n'}
-            b) A third ATP/WTA singles ranked player must be named by the deadline, 8
-            November 2022, and must be on-site for the competition.
+            b) A third player may be named, if eligible, at the time of the deadline. The No.
+            3 players will be chosen based on their highest ATP/WTA Ranking (Singles or
+            Doubles) as of 17 October 2023 (ATP/WTA Ranking (Singles or Doubles)
+            as of 20 November for the two teams qualifying at the second qualification
+            deadline).
             {'\n\n'}
-            c) A fourth player may be named, if eligible, at the time of the deadline. The No.
-            4 players will be chosen based on their highest ATP/WTA Ranking (Singles or
-            Doubles) as of 7 November 2022.
-            {'\n\n'}
-            d) In the case of illness, injury or unforeseen circumstances, and the team number falls below three (3) members, the Supervisor and the Steering Committee may allow the team Captain to nominate a substitute player during the
-            competition, although the team may continue with only two (2) members per
+            c) In the case of illness, injury or unforeseen circumstances, and the team number falls below two (2) members, the Supervisor and the Steering Committee may allow the team Captain to nominate a substitute player during the
+            competition, although the team may continue with only one (1) member per
             gender.
             {'\n\n'}
-            e) The Steering Committee may use discretion if a team includes a Top 20 ATP/
+            d) The Steering Committee may use discretion if a team includes a Top 20 ATP/
             WTA player and does not wholly meet the qualification criteria pertaining to
-            the ATP or WTA third and fourth player.
+            the ATP or WTA second player.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>4) Ties – Team Entry</Text>
             {'\n\n'}
@@ -161,22 +178,22 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>5) Ties – Individual Entry</Text>
             {'\n\n'}
-            a) For spots 1-3 where entry is based on the ATP/WTA Ranking (Singles).
+            a) For spots 1-2 where entry is based on the ATP/WTA Ranking (Singles).
             {'\n\n'}
             i) If tied.
             {'\n\n'}
             • A current ranking beats a Protected Ranking/Special Ranking.
             {'\n\n'}
             • If still tied, the most total points from the Grand Slams, mandatory
-            ATP Tour Masters 1000, WTA 1000 mandatory and WTA 1000 tournaments and Nitto ATP Finals main draws, and if still tied, then
+            ATP Tour Masters 1000, WTA 1000 tournaments and Nitto ATP Finals/WTA Finals main draws, and if still tied, then
             {'\n\n'}
             • If still tied, the fewest events played, counting all missed Grand
-            Slams, ATP Tour Masters 1000 tournaments they could have played
+            Slams, ATP Tour Masters 1000 tournaments/WTA 1000 events they could have played
             (as described under A. above) as if played, and if still tied, then,
             {'\n\n'}
             • If still tied, coin toss
             {'\n\n'}
-            b) For spot 4 where entry is based on the best-of ATP/WTA Ranking (Singles or
+            b) For spot 3 where entry is based on the best-of ATP/WTA Ranking (Singles or
             Doubles).
             {'\n\n'}
             i) If tied.
@@ -195,7 +212,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             a) The deadline for withdrawal of entry for a player / team shall be as follows:
             {'\n\n'}
-            i) For those players/teams confirming entry on the entry deadline, any withdrawal after 5:00pm Eastern US on Tuesday, 8 November 2022 will be
+            i) For those players/teams confirming entry on the entry deadline, any withdrawal after 5:00pm Eastern US on Tuesday, 17 October 2023 will be
             considered as a Late Withdrawal.
             {'\n\n'}
             ii) WTA - A player’s withdrawal from United Cup is subject to all applicable
@@ -205,6 +222,9 @@ export default function Rule49({ navigation }) {
             Conduct. Late Withdrawal Fines shall apply and be based upon the player’s
             ranking at the date of acceptance. Any player withdrawing after accepting
             entry shall not be permitted to participate in any other event, including exhibitions, during the United Cup Competition.
+            Any players accepted as the #3 player, may withdraw from the team without penalty to play another event
+            during United Cup if she/he withdraws prior to the applicable entry deadlines
+            for that tournament.
             {'\n\n'}
             c) Players have the right to an Appeal of the Late Withdrawal Fine which must
             be submitted to the ATP Appeals Tribunal/WTA, which consideration is limited
@@ -212,41 +232,35 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>7) Late Withdrawals / Substitutions</Text>
             {'\n\n'}
-            a) Number 1 player withdraws after the deadline, 8 November 2022.
+            a) Number 1 player withdraws after the deadline, 17 October 2023.
             {'\n\n'}
             i) The team remains in the competition as long as there is a minimum of
-            three (3) ATP/WTA Ranked players on the team, two of which must have
+            two (2) ATP/WTA Ranked players on the team, which must have
             an ATP/WTA Ranking (Singles), unless otherwise approved by ATP/WTA
             or, an Alternate is inserted as approved by ATP/WTA. This can include
             a replacement player. The team must also have at least 1 ATP or WTA
             member of the team ranked 250 or better in singles to remain in the competition. Number 1 and 2 players to be reclassified if required.
+            (e.g. #2 becomes #1 and the replacement player becomes the new #2).
             {'\n\n'}
             ii) The next highest ranked singles player from that country may be added to
             the team, unless otherwise approved by ATP/WTA. Non-entered substitute/alternate players may only be considered if the team does not have
-            a minimum of 3 entered players meeting the criteria.
+            a minimum of 2 entered players meeting the criteria.
             {'\n\n'}
-            b) A top 2 singles player withdraws prior to 10:00 am local time in Sydney, the
+            b) The number 2 singles player withdraws prior to 10:00 am local time in Sydney, the
             day prior to the start of the competition.
             {'\n\n'}
             i) The next highest singles ranked player from that country may be added to
             the team, unless otherwise approved by the ATP/WTA. That player may
-            either be a player not already accepted to a Week 1 event, or a player
-            who by approval of ATP/WTA may be able to withdraw from qualifying of
-            a week 1, prior to the start of the qualifying event without penalty.
+            either be a player not already accepted to a Week 1 Tour event, or a player
+            who by approval of ATP/WTA may be able to withdraw from main draw and qualifying of
+            a week 1 without penalty(For ATP, Challenger Tour
+            only. For WTA 125, only if for main draw withdrawal before the main draw
+            is made.), prior to the start of the qualifying event without penalty.
             {'\n\n'}
-            c) One of the positions (players 3-4) withdraws prior to 10:00 am local time in
-            Sydney, the day prior to the start of competition.
+            c) All substitutions are subject to ATP/WTA approval.
             {'\n\n'}
-            i) The next player from that country with the highest ATP/WTA Ranking
-            (Singles or Doubles) may be added to the team. That player may either
-            be a player not already accepted to a Week 1 event, or a player who by
-            approval of ATP/WTA may be able to withdraw from ATP/WTA Tour qualifying or Challenger Main Draw and Qualifying of a week 1, prior to the
-            start of the qualifying event without penalty.
-            {'\n\n'}
-            d) All substitutions are subject to ATP/WTA approval.
-            {'\n\n'}
-            e) If through the withdrawal of the number 1 player or the numbers 1 and 2
-            players between the deadline (8 November 2022) and 10:00 am local time in
+            d) If through the withdrawal of the number 1 player or the numbers 1 and 2
+            players between the deadline (17 October 2023) and 10:00 am local time in Perth/
             Sydney, the day prior to the start of competition, a team may be withdrawn
             and replaced by an alternate team if they do not have at least one member of
             the team ranked 250 or better in singles
@@ -260,20 +274,20 @@ export default function Rule49({ navigation }) {
             United Cup Competition, pending ATP/WTA approval, or from any ATP Challenger Tour event.
             {'\n\n'}
             c) The Alternate Team may be selected for participation until 10:00 am local time
-            in Sydney, the day prior to the start of competition.
+            in Perth/Sydney, the day prior to the start of competition.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>9) Withdrawals after Start of the Competition</Text>
             {'\n\n'}
-            a) Any team that through withdrawals of team members has only two (2) players
-            remaining may continue in the competition as long as both players have, at a
-            minimum, one player with an ATP/WTA Ranking and one player with an ATP/
-            WTA Doubles Ranking, unless approved by ATP/WTA. These two players
-            must play singles and be available for the mixed doubles.
+            a) Any team that through withdrawals of team members has only one (1) player
+            from each Tour remaining may continue in the competition as long as those
+            players have an ATP/WTA Ranking, unless otherwise approved by ATP/WTA.
+            This player must play singles and be available for the mixed doubles.
             {'\n\n'}
-            b) If a team has only one (1) eligible ATP or WTA player, loses by Walkover and
-            no matches will be played, unless if approved by the Steering Committee the
-            team may remain in competition and the matches for the missing player are
-            lost by Walkover. No points are awarded for Walkovers.
+            b) If a team does not have at least one (1) eligible ATP and one (1) WTA player,
+            the team will lose by Walkover and no matches will be played, unless if
+            approved by the Steering Committee the team may remain in competition
+            and the matches for the missing player are lost by Walkover. No points are
+            awarded for Walkovers.
             {'\n\n'}
             c) A team may add an alternate player after the competition has begun as long
             as the player is not violating ATP/WTA rules for “No Play after Withdrawal” or
@@ -292,32 +306,31 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>Host Cities</Text>
             {'\n\n'}
-            Sydney, Brisbane and Perth will host Countries for the Group Stages, and Sydney
+            Sydney and Perth will host Countries for the Group Stages and  Quarterfinals. Sydney
             will host the Semi Finals and Final.
             {'\n\n'}
-            At the Official Draw, Sydney, Brisbane and Perth will be drawn as host of one of 3
+            At the Official Draw, Sydney and Perth will be drawn as host of one of 2
             combinations of seeds –
             {'\n\n'}
-            • #1 (Group A) and #6 (Group F)
+            • #1 (Group A), #3 (Group C), and #5 (Group E)
             {'\n\n'}
-            • #2 (Group B) and #5 (Group E)
+            •#2 (Group B), #4 (Group D), and #6 (Group F)
             {'\n\n'}
-            • #3 (Group C) and #4 (Group D)
-            {'\n\n'}
-            For 2023 Australia will compete in Sydney, so the Groups competing in Sydney will
-            be determined by where Australia is drawn.
+            Which City hosts which combination of seeds to be determined at the Official Draw.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>1) Round Robin – The Groups</Text>
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>The Draw-Teams 1-18</Text>
             {'\n\n'}
-            a) The official draw for the placement of teams 1-18 shall take place, on Thursday 10 November 2022, following the 8 November 2022 deadline.
+            a) The oﬃcial draw for the placement of teams 1-18 shall take place, on Monday
+            23 October 2023.
             {'\n\n'}
-            b) The teams shall be positioned from 1 to 18 in accordance with the best combined ATP/WTA Ranking (Singles) as of 7 November 2022, of the number 1
-            players of each team accepted at the 8 November 2022 deadline. Two team
-            positions 1 ATP Qualified position and 1 Combined position will be reserved.
-            The final two remaining entrants to be admitted to the competition on Monday
-            21 November based on the November 21 rankings.
+            b) The teams shall be positioned from 1 to 18 in accordance with the best com-
+            bined ATP/WTA Ranking (Singles) as of 23 October 2023, of the number 1
+            players of each team accepted at the 17 October 2023 deadline. Two team
+            positions 1 ATP Qualified position and 1 WTA position will be reserved. The
+            final two remaining entrants to be admitted to the competition on Monday 20
+            November 2023 based on the November 20 rankings.
             {'\n\n'}
             c) The top six (6) teams shall be placed in separate groups.
             {'\n\n'}
@@ -388,10 +401,10 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>2) Daily Order of Play - The Tie</Text>
             {'\n\n'}
-            a) A tie consists of four (4) singles matches and one (1) mixed doubles match.
+            a) A tie consists of two (2) singles matches and one (1) mixed doubles match.
             {'\n\n'}
             b) Each team Captain shall submit to the ATP/WTA Supervisor, in writing, the
-            name of the four (4) singles players and the mixed doubles team selected to
+            name of the two (2) singles players and the mixed doubles team selected to
             compete in the Tie. The singles players shall be the top two (2) ranked ATP/
             WTA players (including protected ranking/special ranking) as of the date of
             the entry deadline unless there is a medically supported substitution.
@@ -400,33 +413,25 @@ export default function Rule49({ navigation }) {
             is 3:00pm local time, the day prior to the scheduled Tie.
             {'\n\n'}
             d) For each Tie, the highest-positioned (hereafter, number ones) singles players
-            named from each team shall compete against each other and the second
-            positioned (hereafter, number twos) singles players named from each team
-            shall compete against each other. The order of positions in each team shall
-            be based upon the most recent ATP/WTA Ranking as of the Monday prior to
-            the start of the competition. The order of matches shall be as follows played
-            over two (2) days unless otherwise decided by the Steering Committee:
+            named from each team shall compete against each other. The order of
+            matches shall be as follows unless otherwise decided by the Steering Com-
+            mittee:
             {'\n\n'}
-            i) Number 2 ATP/WTA Singles followed by
+            i) Number 1 ATP/WTA Singles followed by
             {'\n\n'}
             ii) Number 1 ATP/WTA Singles followed by
             {'\n\n'}
-            iii) Number 1 ATP/WTA Singles followed by
+            iii) Mixed Doubles
             {'\n\n'}
-            iv) Number 2 ATP/WTA Singles followed by
-            {'\n\n'}
-            v) Mixed Doubles
-            {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note:</Text> “Not Before” times may be assigned to the Number 1 singles match
-            and the Doubles match as determined by the organizers in consultation with
-            the ATP Supervisor.
+            <Text style={RuleStyles.SubHeading3}>Note:</Text> “Not Before” times may be assigned as determined by the organizers
+            in consultation with the ATP Supervisor.
             {'\n\n'}
             e) Upon the completion of the mixed doubles match, the winner of the tie shall
-            be the team that wins at least three (3) of the five (5) matches.
+            be the team that wins at least two (2) of the three (3) matches.
             {'\n\n'}
             f) The mixed doubles match must be played regardless of the results of the two
             singles matches. *
-            *For the Semi-Finals & Finals, if the tie is decided following the singles matches, the mixed doubles match will not be played (unless mutually agreed by
+            *For the Final, if the tie is decided following the singles matches, the mixed doubles match will not be played (unless mutually agreed by
             both Countries), and the money will be split evenly amongst the members of
             both teams.
             {'\n\n'}
@@ -437,12 +442,9 @@ export default function Rule49({ navigation }) {
             <Text style={RuleStyles.SubHeading3}>a) Groups</Text>
             {'\n\n'}
             There will be six Groups comprising of three countries in each group. Each
-            city will host two groups (six countries) for the Group stages, which will consist of round robin ties where each country will play both other countries in
+            city will host three groups (nine countries) for the Group stages, which will consist of round robin ties where each country will play both other countries in
             their group.
             {'\n\n'}
-            Group winners will advance to the City Final match, playing off for one of 3
-            guaranteed Semi-Final spots against the winner of the other group from that
-            host city. The remaining Semi Final spot will be awarded to the best performing team throughout the entire competition, from the 3 City Final runners-up.
             <Text style={RuleStyles.SubHeading2}>4) Determination of Group Winners</Text>
             {'\n\n'}
             a) Number of ties won
@@ -460,8 +462,7 @@ export default function Rule49({ navigation }) {
             played fewer total matches (singles & mixed doubles) will be eliminated
             and the winner of the head-to-head matchup between the two remaining
             teams advance, if still tied then,
-            Comment: 11-1 win-loss beats 11-0 win-loss. A 5-7 win-loss beats 5-0
-            record
+            Comment: 5-1 win-loss beats 5-0 win-loss.
             {'\n\n'}
             ii) The team with the most match wins (singles & doubles), if still tied then,
             {'\n\n'}
@@ -492,17 +493,18 @@ export default function Rule49({ navigation }) {
             of sets or percentage of games won.
             {'\n\n'}
             • Any team that withdraws from any round robin tie after the first-round robin tie
-            shall not be eligible for the City Finals.
+            shall not be eligible for the Quarterfinals.
             {'\n\n'}
             • The Match Tie-Break (doubles) counts as a set won and for games won
             counts as 1-0.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>5) City Finals</Text>
+            <Text style={RuleStyles.SubHeading2}>5) Quarterfinals</Text>
             {'\n\n'}
-            Group winners will advance to the City Final match, playing off for one of 3 guaranteed Semi-Final spots against the winner of the other group from that hostcity. The remaining Semi Final spot will be awarded to the best performing team
-            throughout the entire competition, from the 3 City Final runners-up.
+            Group winners will advance to the Quarterfinals. One Quarterfinal spot in each
+            city will be awarded to the best runner up in that City. Winners will advance to the
+            Semi-Finals, to be hosted in the Finals City.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>6) Determination of Best Runner up from City Finals</Text>
+            <Text style={RuleStyles.SubHeading2}>6) Determination of Best Runner up Quarterfinal spot</Text>
             {'\n\n'}
             a) Number of ties won
             {'\n\n'}
@@ -515,10 +517,9 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             c) In a tie between three (3) teams, the following shall apply:
             {'\n\n'}
-            i) If City Finals Runners UP have the same number of wins, then the team
+            i) If teams have the same number of wins, then the team
             having played fewer total matches (singles & mixed doubles) will be eliminated and, if still tied then,
-            Comment: 11-1 win-loss beats 11-0 win-loss. A 5-7 win-loss beats 5-0
-            record
+            Comment: 5-1 win-loss beats 5-0 win-loss.
             {'\n\n'}
             ii) The team with the most match wins (singles & doubles), if still tied then,
             {'\n\n'}
@@ -544,90 +545,98 @@ export default function Rule49({ navigation }) {
             as a tie won but this does not count towards total matches won, percentage
             of sets or percentage of games won.
             {'\n\n'}
-            • Any team that withdraws from the City Finals shall not be eligible for Semi
-            Finals.
+            • Any team that withdraws from any round robin tie after the first-round robin tie
+            shall not be eligible for the Quarterfinals.
             {'\n\n'}
-            • The Match Tie-Break (doubles) counts as a set won and for games won
-            counts as 1-0
+            <Text style={RuleStyles.SubHeading2}>6) Quarter finals  </Text>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>6) Finals in Sydney </Text>
+            <Text style={RuleStyles.SubHeading2}>a) </Text>
+            The eight (8) teams advancing to the knock-out rounds shall be placed in the
+            draw as follows:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>a) Semi-Finals</Text>
+            <Text style={RuleStyles.SubHeading3}>Sydney: </Text>
             {'\n\n'}
-            The three winners of the City Finals will qualify for the Semi-Finals in Sydney.
-            The remaining Semi-Final spot will be awarded to the best performing team
-            throughout the entire competition, from the 3 losing teams out of the City
-            Finals.
+            • The winner of Group 1 will play the best runner-up* from the remaining groups
+            from the city
             {'\n\n'}
-            • S/Final 1 – WINNER of Groups B/E v WINNER Groups C/D
+            • The winner of Group 3 will play the winner of Group 5*  
             {'\n\n'}
-            • S/Final 2 – WINNER Groups A/F v Best Runner Up from Group Winners
-            Matches*
+            <Text style={RuleStyles.SubHeading3}>Perth: </Text>
             {'\n\n'}
-            *Should the best Runner Up from the City Finals Matches result in a City Final
-            rematch in the Semi Finals, the match-ups will swap to award the highest seeded
-            country with the best runner up.
+            • The winner of Group 2 will play the best runner-up* from the remaining groups
+            from the city  
             {'\n\n'}
-            b) The Champion Team shall be decided by the result of a straight knock-out
+            • The winner of Group 4 will play the winner of Group 6*
+            {'\n\n'}
+            *No runner-up teams will play versus the winner of their groups before the Final
+            of the competition.
+            {'\n\n'}
+            To avoid that the runner-up teams in the quarter finals will swap position with the
+            winner of the lowest ranked group in the specific city.
+            {'\n\n'}
+            <Text style={RuleStyles.SubHeading2}>7) Semi-Finals  </Text>
+            {'\n\n'}
+            The four winners of the quarterfinals will qualify for the Semi Finals in Sydney.
+            {'\n\n'}
+            <Text style={RuleStyles.SubHeading2}>8) The Final  </Text>
+            {'\n\n'}
+            • Final – Winner Semi Final 1 v Winner Semi Final 2
+            {'\n\n'}
+            a) The Champion Team shall be decided by the result of a straight knock-out
             competition.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>E. Protected Ranking/Special Ranking*</Text>
             {'\n\n'}
             The following applies to any player with a Protected Ranking (“PR”)/Special Ranking
-            that has been used in any manner during the competition or to qualify a country for
+            (“SR”) that has been used in any manner during the competition or to qualify a country for
             entry.
             {'\n\n'}
-            1) The PR must be valid at the entry deadline in which the player/country qualifies.
+            1) The PR must be valid at the entry deadline and remain valid through to the start
+            of the competition.
             {'\n\n'}
-            2) If valid at the entry deadline for qualification it shall remain valid throughout the
-            competition.
+            2) Can be used for team entry.
             {'\n\n'}
-            3) Can be used for team entry.
+            3) Will count for position in the singles lineup.
             {'\n\n'}
-            4) Will count for position in the singles lineup.
+            4) Will count for Ranking points.
             {'\n\n'}
-            5) Will count for Ranking points.
+            5) Will not count for team seeding.
             {'\n\n'}
-            6) Will not count for team seeding.
+            6) For WTA players - Will count as Special Ranking used for the player(s).
             {'\n\n'}
-            7) For WTA players - Will count as Special Ranking used for the player(s).
+            7) For ATP players - Will not count as Protected Ranking used for the player(s).
             {'\n\n'}
-            8) For ATP players - Will not count as Protected Ranking used for the player(s).
-            {'\n\n'}
-            9) May only be used at one (1) United Cup event
+            8) May only be used at one (1) United Cup event
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>F. Schedule of Play</Text>
             {'\n\n'}
             The following is the schedule of play unless otherwise determined by the Tournament
             Committee and Supervisor:
             {'\n\n'}
-            1) The eighteen (18) teams shall play Round Robin matches over the first six days
-            to determine the six (6) winners of the Round Robin groups qualifying for the City
-            Finals.
+            1) The eighteen (18) teams shall play Round Robin matches over the first days to
+            determine the six (6) winners of the Round Robin groups and the two best runner
+            ups (one for each city) qualifying for the Quarterfinals.
             {'\n\n'}
             2) Following the draw, the daily ties (country v country) for the round robin sessions
             will be scheduled and announced.
             {'\n\n'}
             3) All players and Captains must be available for play on the first day of the event.
             {'\n\n'}
-            4) Once the Captain has named the four (4) players competing in the singles, the
+            4) Once the Captain has named the two (2) players competing in the singles, the
             pairings for the Tie shall be made automatic as determined by the ATP/WTA
-            Ranking (including Protected Ranking/Special Ranking) on the Monday prior to
-            the start of the competition.
+            Ranking.
             {'\n\n'}
             5) Protected Ranking/Special Ranking (singles) will be used for a player’s position
             on the team but cannot be used for team seeding.
             {'\n\n'}
-            6) The City Finals final shall be held on the 7th day (Wednesday) of the Tournament.
+            6)A travel day for the Quarterfinal winners from Perth will take place on the 7th day
+            (Thursday) of the Tournament.
             {'\n\n'}
-            7) A travel day will take place on the 8th day (Thursday) of the Tournament
+            7) The Semi-Finals will be held on the 9th day of the tournament.
             {'\n\n'}
-            8) The Semi-Finals will be held on the 9th and 10th day of the tournament – each
-            Tie split over two days.
+            8) The Final will be held on the 10th day of the tournament.
             {'\n\n'}
-            9) The Final will be held on the 11th day of the tournament.
-            {'\n\n'}
-            10) The ATP/WTA Supervisors reserve the right to change the schedule of play, alter
+            9) The ATP/WTA Supervisors reserve the right to change the schedule of play, alter
             starting times and make other changes deemed necessary for the smooth running of the competitio
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>G.Team Captain / Team Coache</Text>
@@ -636,7 +645,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             a) The number one player on each team (the highest ATP/WTA singles ranked
             player) is by default the Team Captain, however each team can elect another player or person as Team Captain, provided such person is of the same
-            nationality. The No 1 player has the overall authority on the position of team
+            nationality as the team they are representing. The No 1 player has the overall authority on the position of team
             captain. If the No 1 player decides to appoint a team captain instead of fulfilling the role, the chosen person must be either an ATP / WTA player, former
             player or coach. Exceptions to this are subject to approval by the Event Steering Committee. The Team Captain must be confirmed and submitted to the
             ATP/WTA no later than December 1.
@@ -648,7 +657,7 @@ export default function Rule49({ navigation }) {
             court throughout matches.
             {'\n\n'}
             b) The Captain must be communicated to ATP/WTA no later than December 1,
-            2022.
+            2023.
             {'\n\n'}
             c) In the event the Captain is not on-site or not available, the number one (1)
             player shall assume the role of Captain or designate a non-playing team
@@ -703,27 +712,24 @@ export default function Rule49({ navigation }) {
             <Text style={RuleStyles.SubHeading3}>5) Player Designations</Text>
             {'\n\n'}
             a) Each team Captain shall submit to the ATP/WTA Supervisor, in writing, the
-            name of the four (4) singles players and the mixed doubles team selected
-            to compete in the Tie. The singles players shall be the top two (2) ATP/WTA
+            name of the two (2) singles players and the mixed doubles team selected
+            to compete in the Tie. The singles players shall be the top ATP/WTA
             ranked players (including protected ranking/special ranking) as of the date
             of the entry deadline, unless there is a medically supported substitution, or
             otherwise approved by the Supervisor.
             {'\n\n'}
-            b) The four (4) singles players, named from each country for the Tie, shall be
-            designated as players 1 and player 2 (ATP/WTA), based upon the most recent ATP/WTA Ranking (including Protected Ranking/Special Ranking) as of
-            the Monday prior to the start of the competition. Change may be allowed for
-            medical conditions or for unforeseen circumstances approved by the ATP/
-            WTA Supervisor.
+            b) Change may be allowed for medical conditions or for unforeseen circumstances
+            approved by the ATP/WTA Supervisor.
             {'\n\n'}
-            c) The team Captains must give in writing the names of the four (4) singles players and the mixed doubles team to the Supervisor no later than 3:00pm on
+            c) The team Captains must give in writing the names of the two (2) singles players and the mixed doubles team to the Supervisor no later than 3:00pm on
             the day prior to the scheduled Tie. The mixed doubles team may be chosen
             from any ATP/WTA players named to the team.
             For the Tournament Final, the team Captain must give in writing the names
-            of the four (4) singles players and the mixed doubles team to the Supervisor
+            of the two (2) singles players and the mixed doubles team to the Supervisor
             within fifteen minutes after the completion of the second tie determining the
             teams for the upcoming Final.
             {'\n\n'}
-            d) Following the conclusion of the fourth singles match, any change in the mixed
+            d) Following the conclusion of the second singles match, any change in the mixed
             doubles team must be communicated to the ATP/WTA Supervisor, in writing,
             within 10 minutes of the conclusion of the fourth singles match. The Supervisors shall notify the opposing Captain and all other relevant staff once both
             Captains have submitted their doubles teams.
@@ -746,20 +752,7 @@ export default function Rule49({ navigation }) {
             case of illness, injury or unforeseen circumstances approved by the ATP/WTA
             Supervisor.
             {'\n\n'}
-            i) After the Order of Play is released and up to the start of the first match.
-            {'\n\n'}
-            • Order of Play will be adjusted based upon the new team order, if necessary.
-            {'\n\n'}
-            ii) After the start of the first singles match.
-            {'\n\n'}
-            • A player who is substituted for a player named to the second match
-            cannot change the team order. For example, a player substituted for the number 2 player cannot have a better ranking than the player
-            competing at number 1 for that team.
-            {'\n\n'}
-            iii) A player who withdraws from the singles shall be eligible for mixed doubles on that same day.
-            {'\n\n'}
-            iv) In the event of match changes, the Supervisor may allow reasonable time
-            adjustments in the schedule.
+            i) A player who withdraws from the singles shall be eligible for mixed doubles on that same day.
             {'\n\n'}
             h) In the event of a conduct default, the Supervisor may decide to remove the
             offending player(s) for the remainder of the tie or event.
@@ -828,7 +821,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>J. Prize Money (All figures in U.S. dollars)</Text>
             {'\n\n'}
-            Total Prize Money: USD$15,000,000 (USD$7,500,000 each for ATP and WTA)
+            Total Prize Money: USD$10,000,000 (USD$5,000,000 each for ATP and WTA)
             {'\n\n'}
           </Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_1.png'}}/>
@@ -949,6 +942,7 @@ export default function Rule49({ navigation }) {
               and resolve all questions not considered in these Rules and Regulations.
               {'\n\n'}            
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule48', next: 'Rule50', nav: navigation }} />

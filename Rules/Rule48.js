@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 export default function Rule48({ navigation }) {
   return (
@@ -11,6 +12,7 @@ export default function Rule48({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>4.02 Nitto ATP Finals - Doubles</Text>
             {'\n\n'}
@@ -18,7 +20,7 @@ export default function Rule48({ navigation }) {
             {'\n\n'}
             The tournament shall be a doubles round robin format with eight (8) teams. There
             shall be two (2) groups of four (4) teams each with eight (8) seeds to be determined
-            by the 2023 Pepperstone ATP Doubles Team Rankings on the Monday after the last
+            by the 2024 Pepperstone ATP Doubles Team Rankings on the Monday after the last
             ATP Tour tournament of the calendar year. All matches shall be two (2) tie-break sets
             with a deciding Match Tie-break (10 point) at one (1) set all. The round robin shall
             determine the four (4) teams for the semi-finals with the format thereafter being a
@@ -28,15 +30,15 @@ export default function Rule48({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>1) Selection List.</Text>The selection list for the event shall be:
             {'\n\n'}
-            a) The top 7 teams in the 2023 Pepeprstone ATP Doubles Team Rankings as of
+            a) The top 7 teams in the 2024 Pepeprstone ATP Doubles Team Rankings as of
             the Monday after the last ATP Tour tournament of the calendar year; followed
             by
             {'\n\n'}
             b) Up to two (2) Grand Slam winners of that year, in order of their positions,
-            positioned between eight (8) and twenty (20) in the 2023 Pepperstone ATP
+            positioned between eight (8) and twenty (20) in the 2024 Pepperstone ATP
             Doubles Team Rankings as of that Monday; followed by
             {'\n\n'}
-            c) Teams positioned eight (8) and below in the 2023 Pepperstone ATP Doubles
+            c) Teams positioned eight (8) and below in the 2024 Pepperstone ATP Doubles
             Team Rankings as of that Monday.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>2) Direct Acceptances.</Text>
@@ -197,6 +199,7 @@ export default function Rule48({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule47', next: 'Rule49', nav: navigation }} />
