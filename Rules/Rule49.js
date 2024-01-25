@@ -835,41 +835,39 @@ export default function Rule49({ navigation }) {
             All players on the team (whether the player plays a match or not) earn the same
             amount for a team win.
             {'\n\n'}
-            *Entry order as of 8 November 2022
-            {'\n\n'}
           </Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_3.png'}}/>
           <Text>{'\n\n'}</Text>
-          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_4.png'}}/>
+         {/*  <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_4.png'}}/>
           <Text>{'\n\n'}</Text>
-
+ */}
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_5.png'}}/>
           <Text>{'\n\n'}</Text>
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_6.png'}}/>
           <Text>{'\n\n'}</Text>
-
+{/* 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_7.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <Text>{'\n\n'}</Text> */}
 
           <Text style={RuleStyles.Description}>
-            Ranking as of 7 November 2022
+          Ranking as of 16 October 2023 or 20 November 2023, for the teams accepted at the
+          second qualification date.
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>Participation Fee Notes</Text>
             {'\n\n'}
             • Players may only receive a participation fee in one category. Players will receive
             a fee for singles or mixed doubles, whichever was used for their entry.
             {'\n\n'}
-            • Participation fee for any team substitutions following the 8 November 2022 entry
-            order shall be based upon the 7 November team order and player ranking.
+            • Participation fee for any team substitutions following the 17 October 2023 entry
+            order shall be based upon the entry ranking team order and player ranking.
             {'\n\n'}
-            • A number 1 and number 2 singles player will receive 100% of the participation
-            fee if they compete in all Group stage singles matches. Pro-Rata schedule for
-            players number 1 and number 2 competing in less than all Group stage singles
-            matches is listed below including Pro-Rata schedule for mixed doubles matches
-            participated in.
+            • A number 1 singles player will receive 100% of the participation fee if they
+            compete in all Group stage singles matches. Pro-Rata schedule for players number
+            1 competing in less than all Group stage singles matches is listed below including
+            Pro-Rata schedule for mixed doubles matches participated in.
             {'\n\n'}
-            • Players number 3-5 will receive 100% participation fee regardless of whether
+            • Players number 2-3 will receive 100% participation fee regardless of whether
             they compete in any of the Group state matches.
             {'\n\n'}
           </Text>
@@ -880,11 +878,11 @@ export default function Rule49({ navigation }) {
           <Text style={RuleStyles.Description}>
             • Max of 30% per tie
             {'/n'}
-            • Playing Singles and Doubles in same tie = 15%
+            • Playing Singles and Doubles in same tie = 30%
             {'/n'}
             • Applies to Group stage matches and ties only
             {'/n'}
-            • This applies to all #1 & #2 players including players competing with Protected
+            • This applies to all #1 players including players competing with Protected
             Ranking (PR)/Special Ranking
             {'/n'}
             • Promotional % = minimum participation fee
@@ -892,7 +890,7 @@ export default function Rule49({ navigation }) {
             *15 % maximum per all mixed doubles matches, regardless of if a player plays 1 or
             2 mixed doubles during the group stage. Players competing in singles and mixed
             doubles in a Tie will receive the Promotional fee plus 30 % per the singles match. A
-            #1 & #2 Player only playing 2 mixed doubles during the group stage will receive 40 %
+            #1 Player only playing 2 mixed doubles during the group stage will receive 40 %
             Promotional + 15 % total for both mixed doubles matches (55 % overall). Examples
             in the table below.
             {'\n\n'}
@@ -910,6 +908,10 @@ export default function Rule49({ navigation }) {
             </Text>
             </Text>
             <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_11.png'}}/>
+            <Text>{'\n\n'}</Text>
+            WTA Only: WTA player who wins all 5 matches to receive 500 points. WTA player
+            who wins 4 of 5 matches to receive a minimum of 325 points or points per the table
+            above whichever is higher.
             <Text>{'\n\n'}</Text>
             <Text style={RuleStyles.Description}>
               <Text style={RuleStyles.SubHeading2}>L. Walkovers</Text>

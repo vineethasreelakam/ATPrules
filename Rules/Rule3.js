@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 export default function Rule3({ navigation }) {
   return (
     <>
@@ -10,6 +11,7 @@ export default function Rule3({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>I. ATP CIRCUIT REGULATIONS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3_1.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>1.02 Tournament Week{'\n\n'} </Text>
             <Text style={RuleStyles.SubHeading2}>A.Main Draw {'\n\n'}</Text>
@@ -83,6 +85,7 @@ export default function Rule3({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
 
       </View>

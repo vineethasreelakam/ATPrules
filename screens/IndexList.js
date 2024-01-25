@@ -4567,13 +4567,11 @@ export const AllPageIndexList = [
 	"            All players on the team (whether the player plays a match or not) earn the same" +
 	"            amount for a team win." +
 	"            {'\\n\\n'}" +
-	"            *Entry order as of 8 November 2022" +
-	"            {'\\n\\n'}" +
 	"          " +
 	"          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_3.png'}}/>" +
 	"          <Text>{'\\n\\n'}" +
-	"          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_4.png'}}/>" +
-	"          <Text>{'\\n\\n'}" +
+/* 	"          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_4.png'}}/>" +
+	"          <Text>{'\\n\\n'}" + */
 	"" +
 	"          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_5.png'}}/>" +
 	"          <Text>{'\\n\\n'}" +
@@ -4581,27 +4579,27 @@ export const AllPageIndexList = [
 	"          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_6.png'}}/>" +
 	"          <Text>{'\\n\\n'}" +
 	"" +
-	"          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_7.png'}}/>" +
-	"          <Text>{'\\n\\n'}" +
+	/* "          <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_7.png'}}/>" +
+	"          <Text>{'\\n\\n'}" + */
 	"" +
 	"          " +
-	"            Ranking as of 7 November 2022" +
+	"            Ranking as of 16 October 2023 or 20 November 2023, for the teams accepted at the" +
+	"			 second qualification date." +
 	"            {'\\n\\n'}" +
 	"            Participation Fee Notes" +
 	"            {'\\n\\n'}" +
 	"            • Players may only receive a participation fee in one category. Players will receive" +
 	"            a fee for singles or mixed doubles, whichever was used for their entry." +
 	"            {'\\n\\n'}" +
-	"            • Participation fee for any team substitutions following the 8 November 2022 entry" +
-	"            order shall be based upon the 7 November team order and player ranking." +
+	"            • Participation fee for any team substitutions following the 17 October 2023 entry" +
+	"			 order shall be based upon the entry ranking team order and player ranking." +
 	"            {'\\n\\n'}" +
-	"            • A number 1 and number 2 singles player will receive 100% of the participation" +
-	"            fee if they compete in all Group stage singles matches. Pro-Rata schedule for" +
-	"            players number 1 and number 2 competing in less than all Group stage singles" +
-	"            matches is listed below including Pro-Rata schedule for mixed doubles matches" +
-	"            participated in." +
+	"            • A number 1 singles player will receive 100% of the participation fee if they" +
+	"			 compete in all Group stage singles matches. Pro-Rata schedule for players number" +
+	"			 1 competing in less than all Group stage singles matches is listed below including" +
+	"			 Pro-Rata schedule for mixed doubles matches participated in." +
 	"            {'\\n\\n'}" +
-	"            • Players number 3-5 will receive 100% participation fee regardless of whether" +
+	"            • Players number 2-3 will receive 100% participation fee regardless of whether" +
 	"            they compete in any of the Group state matches." +
 	"            {'\\n\\n'}" +
 	"          " +
@@ -4612,11 +4610,11 @@ export const AllPageIndexList = [
 	"          " +
 	"            • Max of 30% per tie" +
 	"            {'/n'}" +
-	"            • Playing Singles and Doubles in same tie = 15%" +
+	"            • Playing Singles and Doubles in same tie = 30%" +
 	"            {'/n'}" +
 	"            • Applies to Group stage matches and ties only" +
 	"            {'/n'}" +
-	"            • This applies to all #1 & #2 players including players competing with Protected" +
+	"            • This applies to all #1 players including players competing with Protected" +
 	"            Ranking (PR)/Special Ranking" +
 	"            {'/n'}" +
 	"            • Promotional % = minimum participation fee" +
@@ -4624,7 +4622,7 @@ export const AllPageIndexList = [
 	"            *15 % maximum per all mixed doubles matches, regardless of if a player plays 1 or" +
 	"            2 mixed doubles during the group stage. Players competing in singles and mixed" +
 	"            doubles in a Tie will receive the Promotional fee plus 30 % per the singles match. A" +
-	"            #1 & #2 Player only playing 2 mixed doubles during the group stage will receive 40 %" +
+	"            #1 Player only playing 2 mixed doubles during the group stage will receive 40 %" +
 	"            Promotional + 15 % total for both mixed doubles matches (55 % overall). Examples" +
 	"            in the table below." },
     { id: 50, indexId: '', name: '4.04 Next Gen ATP Finals', pageName: 'Rule50' , comp:Rule50 , searchindex:"4.04 Next Gen ATP Finals" +
@@ -4642,14 +4640,15 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            B.Entries" +
 	"            {'\\n\\n'}            " +
-	"            1) Age Eligibility. All players must be 21 years or under throughout the 2023 calendar yea" +
+	"            1) Age Eligibility. All players must be 21 years or under throughout the 2024 calendar yea" +
 	"            {'\\n\\n'}" +
 	"            2) Selection List. The selection list for the event shall be:" +
 	"            {'\\n\\n'}" +
-	"            a) The top seven (7) players in the ATP Race to Milan standings as of Monday " +
-	"            (31 Oct) following the Basel / Vienna / Challenger events; followed by" +
+	"            a)The top seven (7) players in the Pepperstone ATP Race to Jeddah standings" +
+	"			 as of Monday (20 November) following the Nitto ATP Finals event; followed" +
+	"			 by" +
 	"            {'\\n\\n'}" +
-	"            b) One (1) Wild Card designated by the FIT and approved by ATP. The Wild " +
+	"            b) One (1) Wild Card designated by the ATP. The Wild " +
 	"            Card selection must meet the age restriction as specified in B. 1) above. " +
 	"            {'\\n\\n'}" +
 	"            3) Direct Acceptances. The top seven (7) players in the selection list shall " +
@@ -4798,7 +4797,7 @@ export const AllPageIndexList = [
 	"            g) Any player who withdraws from any round robin match after the first round " +
 	"            shall not be eligible for the single elimination competition            " +
 	"            {'\\n\\n'}" +
-	"            D.Single Elimination Competition" +
+	"            F.Single Elimination Competition" +
 	"            {'\\n\\n'}" +
 	"            1) The winner of each group shall be placed in separate semi-final brackets. The " +
 	"            runner-up of each group shall be placed in the semi-final bracket with the winner " +
@@ -4806,27 +4805,10 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            2) The event shall be completed with a single elimination competition for the semi-finals and final." +
 	"            {'\\n\\n'}" +
-	"            3) There shall be no playoff for the third and fourth-place positions." +
-	"            {'\\n\\n'}" +
-	"            F. Single Elimination Competition" +
-	"            {'\\n\\n'}" +
-	"            Final standings at the end of the tournament shall determine the prize-money and " +
-	"            Pepperstone ATP Doubles Rankings points earned." +
-	"            {'\\n\\n'}" +
-	"            1) The winner of each group shall be placed in separate semi-final brackets. The " +
-	"            runner-up of each group shall be placed in the semi-final bracket with the winner " +
-	"            of the opposite group." +
-	"            {'\\n\\n'}" +
-	"            2) The event shall be completed with a single elimination competition for the semifinals and final." +
-	"            {'\\n\\n'}" +
-	"            3) There shall be a playoff between the losers of the two semi-final matches for the " +
-	"            third and fourth place positions." +
-	"            {'\\n\\n'}" +
+	
 	"            G.Prize Money" +
 	"            {'\\n\\n'}Final standings at the end of the tournament shall determine the prize money earned" +
-	"            {'\\n\\n'}" +
-	"            H.Conditions of Play" +
-	"            {'\\n\\n'}The conditions of play will be finalized and announced following the 2023 US Open." },
+	"            " },
     { id: 51, indexId: '', name: 'V. PERSONNEL', pageName: 'Rule51' , comp:Rule51 , searchindex:'' },
     { id: 52, indexId: '', name: '5.01 Tournament Director', pageName: 'Rule52' , comp:Rule52 , searchindex:"5.01 Tournament Director" +
 	"            {'\\n\\n'}" +

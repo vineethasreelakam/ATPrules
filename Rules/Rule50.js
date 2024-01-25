@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 export default function Rule50({ navigation }) {
   return (
@@ -11,6 +12,7 @@ export default function Rule50({ navigation }) {
       <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
         <Text style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</Text>
         <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
+        <ZoomText>
         <Text style={RuleStyles.Description}>         
             <Text style={RuleStyles.SubHeading1}>4.04 Next Gen ATP Finals</Text>
             {'\n\n'}
@@ -27,14 +29,15 @@ export default function Rule50({ navigation }) {
             {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>B.Entries</Text>
             {'\n\n'}            
-            <Text style={RuleStyles.SubHeading3}>1) Age Eligibility. </Text>All players must be 21 years or under throughout the 2023 calendar yea
+            <Text style={RuleStyles.SubHeading3}>1) Age Eligibility. </Text>All players must be 21 years or under throughout the 2024 calendar yea
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>2) Selection List.</Text> The selection list for the event shall be:
             {'\n\n'}
-            a) The top seven (7) players in the ATP Race to Milan standings as of Monday 
-            (31 Oct) following the Basel / Vienna / Challenger events; followed by
+            a) The top seven (7) players in the Pepperstone ATP Race to Jeddah standings
+            as of Monday (20 November) following the Nitto ATP Finals event; followed
+            by
             {'\n\n'}
-            b) One (1) Wild Card designated by the FIT and approved by ATP. The Wild 
+            b) One (1) Wild Card designated by the ATP. The Wild 
             Card selection must meet the age restriction as specified in B. 1) above. 
             {'\n\n'}
             <Text style={RuleStyles.SubHeading3}>3) Direct Acceptances. </Text>The top seven (7) players in the selection list shall 
@@ -183,16 +186,7 @@ export default function Rule50({ navigation }) {
             g) Any player who withdraws from any round robin match after the first round 
             shall not be eligible for the single elimination competition            
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D.Single Elimination Competition</Text>
-            {'\n\n'}
-            1) The winner of each group shall be placed in separate semi-final brackets. The 
-            runner-up of each group shall be placed in the semi-final bracket with the winner 
-            of the opposite group.
-            {'\n\n'}
-            2) The event shall be completed with a single elimination competition for the semi-finals and final.
-            {'\n\n'}
-            3) There shall be no playoff for the third and fourth-place positions.
-            {'\n\n'}
+           
             <Text style={RuleStyles.SubHeading2}>F. Single Elimination Competition</Text>
             {'\n\n'}
             Final standings at the end of the tournament shall determine the prize-money and 
@@ -204,17 +198,11 @@ export default function Rule50({ navigation }) {
             {'\n\n'}
             2) The event shall be completed with a single elimination competition for the semifinals and final.
             {'\n\n'}
-            3) There shall be a playoff between the losers of the two semi-final matches for the 
-            third and fourth place positions.
-            {'\n\n'}
             <Text style={RuleStyles.SubHeading2}>G.Prize Money</Text>
             {'\n\n'}Final standings at the end of the tournament shall determine the prize money earned
-            {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>H.Conditions of Play</Text>
-            {'\n\n'}The conditions of play will be finalized and announced following the 2023 US Open.
-
              {'\n\n'}             
         </Text>
+        </ZoomText>
   </ScrollView>
   </View>
   <RuleNavigationButtons props={{ prev: 'Rule49', next: 'Rule51', nav: navigation }} />

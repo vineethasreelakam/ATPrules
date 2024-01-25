@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
 
 export default function Rule8({ navigation }) {
   return (
@@ -11,6 +12,7 @@ export default function Rule8({ navigation }) {
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
           <Text style={RuleStyles.MainHeading}>I. ATP CIRCUIT REGULATIONS</Text>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
+          <ZoomText>
           <Text style={RuleStyles.Description}>
             <Text style={RuleStyles.SubHeading1}>1.07 Commitment, Membership Obligations and Bonus Pool</Text>{'\n\n'}
 
@@ -107,6 +109,9 @@ export default function Rule8({ navigation }) {
             in 2024. The 2024 ATP Tour 500 bonus pool will be a total of USD $1,340,000, with
             distribution to the top 5 players as follow:{'\n\n'}
 
+            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule8_1.png'}}/>
+            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule8_2.png'}}/>
+
             *For the avoidance of doubt, points from the Monte Carlo Masters 1000 tournament
             will not be included in the ATP Tour 500 bonus pool point calculation.{'\n\n'}
 
@@ -178,6 +183,8 @@ export default function Rule8({ navigation }) {
             (for any reason) in an ATP Tour Masters 1000 event shall have their bonus pool
             amount reduced as follows:{'\n\n'}
 
+            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule8_3.png'}}/>
+
             In no event shall a player be able to recoup an amount greater than USD $200,000
             by fulfilling on-site promotional activities requirements.{'\n\n'}
 
@@ -212,6 +219,7 @@ export default function Rule8({ navigation }) {
 
             {'\n\n'}
           </Text>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule7', next: 'Rule9', nav: navigation }} />
