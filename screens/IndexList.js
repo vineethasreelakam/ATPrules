@@ -6526,7 +6526,7 @@ export const AllPageIndexList = [
 	"                        Each tournament must provide a First Aid Team present at all times on the tournament site for public emergencies. The First Aid Team must be separate from the" +
 	"                        medical team responsible for the care and treatment of the players." +
 	"" },
-	{ id: 200, indexId: '', name: '6.23 Emergency Action Plan', pageName: 'Rule211' , comp:Rule211 , searchindex:"6.23 Emergency Action Plan" +
+	{ id: 211, indexId: '', name: '6.23 Emergency Action Plan', pageName: 'Rule211' , comp:Rule211 , searchindex:"6.23 Emergency Action Plan" +
 	"                        {'\\n\\n'}" +
 	"                        Each ATP Tour Tournament shall submit an emergency action plan to the ATP Medical Services for review at least sixty (60) days prior to the start of the tournament." +
 	"" },
