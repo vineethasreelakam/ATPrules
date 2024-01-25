@@ -4,19 +4,20 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule50({ navigation }) {
   return (
     <>
     <View style={RuleStyles.Layout}>
       <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-        <Text style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</Text>
+        <HighlightText style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</HighlightText>
         <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
         <ZoomText>
-        <Text style={RuleStyles.Description}>         
-            <Text style={RuleStyles.SubHeading1}>4.04 Next Gen ATP Finals</Text>
+        <HighlightText style={RuleStyles.Description}>         
+            <HighlightText style={RuleStyles.SubHeading1}>4.04 Next Gen ATP Finals</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Competition Format</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Competition Format</HighlightText>
             {'\n\n'}
             The tournament shall be a round robin format with eight (8) players. There shall be 
             two (2) groups of four (4) players each with eight (8) seeds to be determined by their 
@@ -27,11 +28,11 @@ export default function Rule50({ navigation }) {
             (4) players for the semi-finals with the format thereafter being a single elimination 
             competition.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Entries</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Entries</HighlightText>
             {'\n\n'}            
-            <Text style={RuleStyles.SubHeading3}>1) Age Eligibility. </Text>All players must be 21 years or under throughout the 2024 calendar yea
+            <HighlightText style={RuleStyles.SubHeading3}>1) Age Eligibility. </HighlightText>All players must be 21 years or under throughout the 2024 calendar yea
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Selection List.</Text> The selection list for the event shall be:
+            <HighlightText style={RuleStyles.SubHeading3}>2) Selection List.</HighlightText> The selection list for the event shall be:
             {'\n\n'}
             a) The top seven (7) players in the Pepperstone ATP Race to Jeddah standings
             as of Monday (20 November) following the Nitto ATP Finals event; followed
@@ -40,7 +41,7 @@ export default function Rule50({ navigation }) {
             b) One (1) Wild Card designated by the ATP. The Wild 
             Card selection must meet the age restriction as specified in B. 1) above. 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Direct Acceptances. </Text>The top seven (7) players in the selection list shall 
+            <HighlightText style={RuleStyles.SubHeading3}>3) Direct Acceptances. </HighlightText>The top seven (7) players in the selection list shall 
             qualify for the event as direct acceptances. Participation is mandatory, and all 
             qualified players shall be entered. The exception to this is that any player(s) 
             who are qualified for the Nitto ATP Finals as a Direct Acceptance or as a designated Alternate are excluded from mandatory participation. All direct acceptances must be at the tournament site to attend the official pre-tournament 
@@ -48,10 +49,10 @@ export default function Rule50({ navigation }) {
             play through the completion of the round robin competition and the knock-out 
             competition if eligible.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) Withdrawal.</Text> Any withdrawal, before the official pre-tournament media conference starts, shall be replaced by the next highest positioned player on the selection list, who shall be qualified as a direct acceptance.           
+            <HighlightText style={RuleStyles.SubHeading3}>4) Withdrawal.</HighlightText> Any withdrawal, before the official pre-tournament media conference starts, shall be replaced by the next highest positioned player on the selection list, who shall be qualified as a direct acceptance.           
            
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>5) Alternate(s).</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>5) Alternate(s).</HighlightText>
             {'\n\n'}
             a) Alternate(s) (who are not a direct acceptance at the time of the official 
             pre-tournament media conference) shall be designated as determined by 
@@ -73,20 +74,20 @@ export default function Rule50({ navigation }) {
             the alternate(s) replaces a player that does not compete in his first round robin match, the alternate(s) becomes a direct acceptance and does not receive 
             the alternate fee.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C. Appearance at Event</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C. Appearance at Event</HighlightText>
             {'\n\n'}
             All direct acceptances and the alternate must appear at the site of the event(s) as 
             determined by ATP and participate in the pre-tournament media events scheduled on 
             Sunday night and Monday.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D.Failure to Participate</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D.Failure to Participate</HighlightText>
             {'\n\n'}
             If a player, qualified for the Next Gen ATP Finals as a direct acceptance fails or refuses to participate in this event, except for bona fide injury or other reason which 
             constitutes good cause, the player shall receive a fine in the amount of $25,000
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Order of Play</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Order of Play</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Round Robin</Text> 
+            <HighlightText style={RuleStyles.SubHeading3}>Round Robin</HighlightText> 
             {'\n\n'}
             1) The field shall be divided into two (2) groups of four (4) players each. The 
             top-seeded player shall be placed in Group “A” and the second-seeded player 
@@ -104,7 +105,7 @@ export default function Rule50({ navigation }) {
             {'\n\n'}
             b) Greatest number of matches played.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment:</Text> 2-1 won-loss record beats a 2-0 won-loss record; a 1-2 record 
+            <HighlightText style={RuleStyles.SubHeading3}>Comment:</HighlightText> 2-1 won-loss record beats a 2-0 won-loss record; a 1-2 record 
             beats a 1-0 record.
             {'\n\n'}
             c) Head-to-head results if only two (2) players are tied.
@@ -125,37 +126,37 @@ export default function Rule50({ navigation }) {
             the tie between those two (2) players shall be broken by head-to-head 
             record.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 1:</Text> 1 player has 3 wins and the other 3 players have 1 win. Of 
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 1:</HighlightText> 1 player has 3 wins and the other 3 players have 1 win. Of 
             the 3 players with 1 win, 1 player has only played in 2 matches while the 
             other 2 players have played 3 matches. The player who has only played 2 
             matches is eliminated and then the 2 remaining players revert to head-tohead results with the winner of their match advancing to the semi-finals.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 2:</Text>: 1 player has 3 wins and the other 3 players have 1 win and 
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 2:</HighlightText>: 1 player has 3 wins and the other 3 players have 1 win and 
             they all have played 3 matches. The tie-break for % of sets won has 1 
             player with a better % than the other two. This player advances to the 
             semi-final round.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 3:</Text> : 3 players have 2 wins and the other player has 0 wins. 
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 3:</HighlightText> : 3 players have 2 wins and the other player has 0 wins. 
             The player with 0 wins is eliminated. Of the 3 players with 2 wins, they are ordered by their % of sets won. This produces a 1, 2 & 3 order and 
             the players finishing 1 and 2 move to the semi-final round and the player 
             finishing 3 in % of sets won is eliminated. The player with the best % of 
             sets won is the winner of the group.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 4:</Text> : 3 players have 2 wins and the other player has 0 wins. The 
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 4:</HighlightText> : 3 players have 2 wins and the other player has 0 wins. The 
             player with 0 wins is eliminated. Of the 3 players with 2 wins, 1 player’s 
             sets won-loss is 5-2 for 71.43%; the other 2 players both have a 4-3 record in sets for 57.14%. In this case there is 1 superior player (71.43%) 
             and the remaining 2 players are tied; it now reverts to the head to head 
             result of the 2 remaining players with the winning player advancing as 
             group runner-up.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 5:</Text>  3 players have 2 wins and the other player has 0 wins. The 
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 5:</HighlightText>  3 players have 2 wins and the other player has 0 wins. The 
             player with 0 wins is eliminated. Of the 3 players with 2 wins, 2 have set 
             won-loss records of 5-3 (62.5%) while the other player is 4-3 (57.14%). 
             In this case, we have 1 inferior player (57.14%) and he is eliminated. The 
             remaining two players both advance to the semi-finals with the winner of 
             their head-to-head match advancing as the group winner.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 6:</Text> 3 players have 2 wins and the other player has 0 wins. The 
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 6:</HighlightText> 3 players have 2 wins and the other player has 0 wins. The 
             player with 0 wins is eliminated. Of the 3 players with 2 wins, all have 
             played 3 matches and all 3 have set won-loss records of 5-4 (55.56%). 
             In this case, we move to % of games won. The % of games won breaks 
@@ -172,7 +173,7 @@ export default function Rule50({ navigation }) {
             or injury may continue in the competition if it is approved by the tournament 
             Doctor.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment: </Text>This prevents a scenario where a player knows he only needs to 
+            <HighlightText style={RuleStyles.SubHeading3}>Comment: </HighlightText>This prevents a scenario where a player knows he only needs to 
             win 1 set to qualify for the semi-finals from retiring once he has won a set.
             {'\n\n'}
             f) Any player who is defaulted pursuant to the ATP Code during the round robin 
@@ -187,7 +188,7 @@ export default function Rule50({ navigation }) {
             shall not be eligible for the single elimination competition            
             {'\n\n'}
            
-            <Text style={RuleStyles.SubHeading2}>F. Single Elimination Competition</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>F. Single Elimination Competition</HighlightText>
             {'\n\n'}
             Final standings at the end of the tournament shall determine the prize-money and 
             Pepperstone ATP Doubles Rankings points earned.
@@ -198,10 +199,10 @@ export default function Rule50({ navigation }) {
             {'\n\n'}
             2) The event shall be completed with a single elimination competition for the semifinals and final.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>G.Prize Money</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>G.Prize Money</HighlightText>
             {'\n\n'}Final standings at the end of the tournament shall determine the prize money earned
              {'\n\n'}             
-        </Text>
+        </HighlightText>
         </ZoomText>
   </ScrollView>
   </View>

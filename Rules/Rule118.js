@@ -4,28 +4,29 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule118({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>VIII. THE CODE</Text>
+          <HighlightText style={RuleStyles.MainHeading}>VIII. THE CODE</HighlightText>
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule2.png' }} />
           <ZoomText>
-            <Text style={RuleStyles.Description}>
-              <Text style={RuleStyles.SubHeading1}>8.02 Tournament Standards Violations</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.Description}>
+              <HighlightText style={RuleStyles.SubHeading1}>8.02 Tournament Standards Violations</HighlightText>{'\n\n'}
 
               No ATP Tour or ATP Challenger Tour tournament shall violate any provision of ATP’s
               rules, regulations, or conditions of approval. Unless otherwise specified, a violation of
               this section shall subject the tournament to a fine specified in the table below (“Tournament Standards Violations Fines Table”).
               {'\n\n'}
-            </Text>
+            </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule118_1.png' }} />
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule118_2.png' }} />
           <ZoomText>
-            <Text style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.Description}>
               *Tour Tournament Standards Violation Fines Table under review.
 
               {'\n\n'}
@@ -39,14 +40,14 @@ export default function Rule118({ navigation }) {
               Board.
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>A.On-Site</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>A.On-Site</HighlightText>
               {'\n\n'}
 
               On-site violations may include, but are not limited to, tournament obligations specified in the current ATP Official Rulebook under sections titled ATP Circuit Regulations, Branding, Financial, Personnel and Facilities & On-Site Conditions.
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>B.Security at Tournaments</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>B.Security at Tournaments</HighlightText>
               {'\n\n'}
 
               Each tournament has the responsibility to provide security at the tournament site.
@@ -55,7 +56,7 @@ export default function Rule118({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>C.Tournament Report</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>C.Tournament Report</HighlightText>
               {'\n\n'}
 
               Each ATP Tour and ATP Challenger Tour tournament shall submit to ATP a report of
@@ -64,7 +65,7 @@ export default function Rule118({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>D.ATP Fantasy Sport and Sponsorship</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>D.ATP Fantasy Sport and Sponsorship</HighlightText>
               {'\n\n'}
 
               ATP Tour tournaments may enter sponsorship agreements with a company that offers wagering on tennis (a “Tennis Betting Operator”) subject to the terms and conditions stated in Exhibit AD. The agreements may not extend beyond December 31,
@@ -91,7 +92,7 @@ export default function Rule118({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>E. On-Site Tennis Betting</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>E. On-Site Tennis Betting</HighlightText>
               {'\n\n'}
 
               No ATP Tour or ATP Challenger Tour tournament shall, directly or indirectly, solicit or
@@ -101,7 +102,7 @@ export default function Rule118({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>F. Determination of Violation and Penalty</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>F. Determination of Violation and Penalty</HighlightText>
               {'\n\n'}
 
               The SVP – Rules & Competition shall make a reasonable investigation to determine
@@ -115,7 +116,7 @@ export default function Rule118({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>G.Payment of Fines</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>G.Payment of Fines</HighlightText>
               {'\n\n'}
 
               Fines levied by the SVP – Rules & Competition for tournament on-site offenses shall
@@ -132,7 +133,7 @@ export default function Rule118({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>H.Procedures for Appeal</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>H.Procedures for Appeal</HighlightText>
               {'\n\n'}
 
               1) Any tournament in violation of a tournament on-site offense may, after paying all
@@ -144,7 +145,7 @@ export default function Rule118({ navigation }) {
               F. 4.
 
               {'\n\n'}
-            </Text>
+            </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

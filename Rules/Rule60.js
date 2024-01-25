@@ -3,28 +3,31 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule60({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.09 Referee </Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.09 Referee </HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}> A.Assignment and Designation Process</Text>
+            <HighlightText style={RuleStyles.SubHeading2}> A.Assignment and Designation Process</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments </Text>
-            {'\n\n'}
-            Each tournament is required to hire a certified Referee approved by ATP.
-            {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments </HighlightText>
             {'\n\n'}
             Each tournament is required to hire a certified Referee approved by ATP.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Waiver of Obligation – Referee </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments</HighlightText>
+            {'\n\n'}
+            Each tournament is required to hire a certified Referee approved by ATP.
+            {'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>B.Waiver of Obligation – Referee </HighlightText>
             {'\n\n'}
             A tournament may petition ATP to waive the Referee requirement. Waivers shall not
             be granted to:
@@ -49,9 +52,9 @@ export default function Rule60({ navigation }) {
             {'\n\n'}
             Where a waiver is granted, tournament shall provide a suitable assistant to the supervisor.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C.Fees and Expenses</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.Fees and Expenses</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Tour and ATP Challenger Tour Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour and ATP Challenger Tour Tournaments</HighlightText>
             {'\n\n'}
             Each tournament must provide each Referee with single room hotel accommodations, meals and laundry. Complimentary rooms shall be in the player hotel or
             another hotel approved by ATP or the Supervisor.
@@ -60,12 +63,12 @@ export default function Rule60({ navigation }) {
             designated and approved Referee hired by the tournament.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>D.General</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D.General</HighlightText>
             {'\n\n'}
             The Referee is hired by the tournament to advise in planning the event and shall
             assist the Supervisor while being available to serve on the scheduling committee.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Responsibilities </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Responsibilities </HighlightText>
             {'\n\n'}
             Advise, assist and cooperate with the Supervisor as appropriate and necessary when
             carrying out any assigned duties or responsibilities. Assigned duties may include;
@@ -99,7 +102,8 @@ export default function Rule60({ navigation }) {
             {'\n\n'}
             {'\n\n'}
 
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule59', next: 'Rule61', nav: navigation }} />

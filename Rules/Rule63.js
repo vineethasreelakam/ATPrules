@@ -3,6 +3,8 @@ import { Text, View, Image, ScrollView, Linking } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule63({ navigation }) {
@@ -10,10 +12,11 @@ export default function Rule63({ navigation }) {
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.12 ATP/GRAND SLAMS/ITF/WTA Code of Conduct for Officials</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.12 ATP/GRAND SLAMS/ITF/WTA Code of Conduct for Officials</HighlightText>
             {'\n\n'}
             A.The ATP, the Grand Slam Tournaments, the ITF and the WTA as members of the Joint
             Certification Programme require a high standard of professionalism from all Certified
@@ -27,16 +30,17 @@ export default function Rule63({ navigation }) {
 
             The full text of the Code of Conduct for Officials can be found at the following website:
             {'\n\n'}
-            <Text
+            <HighlightText
             style={RuleStyles.hyperlinkStyle}
             onPress={() => {
               Linking.openURL('https://www.itftennis.com/en/about-us/governance/rules-and-regulations/');
             }}>
             weblink.
-          </Text>            
+          </HighlightText>            
             {'\n\n'}
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule61', next: 'Rule64', nav: navigation }} />

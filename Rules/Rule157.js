@@ -3,17 +3,20 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule157({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT B - ATP Tour Logo</Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>ATP Tour Trademark and Logo (Terms and Conditions)</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT B - ATP Tour Logo</HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>ATP Tour Trademark and Logo (Terms and Conditions)</HighlightText>
             {'\n\n'}
             In addition to Exhibit A, the following are the terms and conditions for the use of any
             ATP Tour trademark or logo (collectively referred to herein as the “ATP Logo”). Only
@@ -99,7 +102,8 @@ export default function Rule157({ navigation }) {
              terminate this authorization and license forthwith.
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule156', next: 'Rule158', nav: navigation }} />

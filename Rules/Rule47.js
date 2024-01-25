@@ -3,18 +3,21 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule47({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>4.01 Nitto ATP Finals - Singles</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>4.01 Nitto ATP Finals - Singles</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Competition Format</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Competition Format</HighlightText>
             {'\n\n'}
             The tournament shall be a singles round robin format with eight (8) players. There
             shall be two (2) groups of four (4) players each with eight (8) seeds to be determined
@@ -22,9 +25,9 @@ export default function Rule47({ navigation }) {
             of the calendar year. All matches shall be the best of three (3) tie-break sets, including the final. The round robin shall determine the four (4) players for the semifinals
             with the format thereafter being a single elimination competition.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>B.Entries</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Entries</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Selection List.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) Selection List.</HighlightText>
             The selection list for the event shall be:
             {'\n\n'}
             a) The top seven (7) players in the Pepperstone ATP Rankings as of the Monday after the last ATP Tour tournament of the calendar year, followed by
@@ -35,16 +38,16 @@ export default function Rule47({ navigation }) {
             c) Players positioned eight (8) and below in the Pepperstone ATP Rankings as
             of that Monday.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Direct Acceptances.</Text> The top eight (8) players in the selection list shall qualify
+            <HighlightText style={RuleStyles.SubHeading3}>2) Direct Acceptances.</HighlightText> The top eight (8) players in the selection list shall qualify
             for the event as direct acceptances. Participation is mandatory, and all qualified
             players shall be entered. All direct acceptances must be at the tournament site
             to attend the official pre-tournament media conference and must be available for
             play through the completion of the round robin competition and the knock-out
             competition if eligible.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Withdrawal. </Text>Any withdrawal, before the official pre-tournament media conference starts, shall be replaced by the next highest positioned player on the selection list, who shall be qualified as a direct acceptance.
+            <HighlightText style={RuleStyles.SubHeading3}>3) Withdrawal. </HighlightText>Any withdrawal, before the official pre-tournament media conference starts, shall be replaced by the next highest positioned player on the selection list, who shall be qualified as a direct acceptance.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) Alternate(s). </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4) Alternate(s). </HighlightText>
             {'\n\n'}
             a) The next highest positioned player on the selection list (who is not a direct
             acceptance at the time of the official pre-tournament media conference) shall
@@ -65,7 +68,7 @@ export default function Rule47({ navigation }) {
             first round robin match, the alternate(s) becomes a direct acceptance and
             does not receive the alternate fee
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C.Failure To Participate in the Nitto ATP Finals</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.Failure To Participate in the Nitto ATP Finals</HighlightText>
             {'\n\n'}
             1) If a player, qualified for the Nitto ATP Finals as a direct acceptance or designated
             as the alternate, fails or refuses to participate in this event, except for bona fide
@@ -78,9 +81,9 @@ export default function Rule47({ navigation }) {
             money earned during the ATP circuit year.
             Please also see 1.07 H. 2) b).{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>D.Order of Play</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D.Order of Play</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Round Robin</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Round Robin</HighlightText>
             {'\n\n'}
             1) The field shall be divided into two (2) groups of four (4) players each. The
             top-seeded player shall be placed in Group “A” and the second-seeded player
@@ -121,18 +124,18 @@ export default function Rule47({ navigation }) {
             the tie between those two (2) players shall be broken by head-to-head
             record.
 
-            <Text style={RuleStyles.SubHeading3}> Comment 1:</Text> 1 player has 3 wins and the other 3 players have 1 win. Of
+            <HighlightText style={RuleStyles.SubHeading3}> Comment 1:</HighlightText> 1 player has 3 wins and the other 3 players have 1 win. Of
             the 3 players with 1 win, 1 player has only played in 2 matches while the
             other 2 players have played 3 matches. The player who has only played
             2 matches is eliminated and then the 2 remaining players revert back to head-to-head results with the winner of their match advancing to the
             semi-finals.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 2: </Text>1 player has 3 wins and the other 3 players have 1 win and
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 2: </HighlightText>1 player has 3 wins and the other 3 players have 1 win and
             they all have played 3 matches. The tie-break for % of sets won has 1
             player with a better % than the other two. This player advances to the
             semi-final round.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 3:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 3:</HighlightText>
             3 players have 2 wins and the other player has 0 wins.
             The player with 0 wins is eliminated. Of the 3 players with 2 wins, they
             are ordered by their % of sets won. This produces a 1, 2 & 3 order and
@@ -140,7 +143,7 @@ export default function Rule47({ navigation }) {
             finishing 3 in % of sets won is eliminated. The player with the best % of
             sets won is the winner of the group.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 4:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 4:</HighlightText>
             3 players have 2 wins and the other player has 0 wins. The
             player with 0 wins is eliminated. Of the 3 players with 2 wins, 1 player’s
             sets won-loss is 5-2 for 71.43%; the other 2 players both have a 4-3 record in sets for 57.14%. In this case there is 1 superior player (71.43%)
@@ -148,7 +151,7 @@ export default function Rule47({ navigation }) {
             result of the 2 remaining players with the winning player advancing as
             group runner-up.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 5:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 5:</HighlightText>
             3 players have 2 wins and the other player has 0 wins. The
             player with 0 wins is eliminated. Of the 3 players with 2 wins, 2 have set
             won-loss records of 5-3 (62.5%) while the other player is 4-3 (57.14%).
@@ -156,7 +159,7 @@ export default function Rule47({ navigation }) {
             remaining two players both advance to the semi-finals with the winner of
             their head-to-head match advancing as the group winner.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 6:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 6:</HighlightText>
             3 players have 2 wins and the other player has 0 wins. The
             player with 0 wins is eliminated. Of the 3 players with 2 wins, all have
             played 3 matches and all 3 have set won-loss records of 5-4 (55.56%).
@@ -172,7 +175,7 @@ export default function Rule47({ navigation }) {
             the defaulting or retiring player shall not be counted in the application of subsection 3.d. (iii) above. A player who retires during the round robin because of illness
             or injury may continue in the competition if it is approved by the tournament Doctor.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment:</Text> This prevents a scenario where a player knows he only needs to win
+            <HighlightText style={RuleStyles.SubHeading3}>Comment:</HighlightText> This prevents a scenario where a player knows he only needs to win
             1 set to qualify for the semi-finals from retiring once he has won a set.
             {'\n\n'}
             5) Any player who is defaulted pursuant to the ATP Code during the round robin
@@ -186,23 +189,24 @@ export default function Rule47({ navigation }) {
             6) Any player who withdraws from any round robin match after the first round shall
             not be eligible for the single elimination competition.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Single Elimination Competition</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Single Elimination Competition</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1)</Text> The winner of each group shall be placed in separate semi-final brackets. The
+            <HighlightText style={RuleStyles.SubHeading3}>1)</HighlightText> The winner of each group shall be placed in separate semi-final brackets. The
             runner-up of each group shall be placed in the semi-final bracket with the winner
             of the opposite group.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2)</Text> The event shall be completed with a single elimination competition for the semi-finals and final.
+            <HighlightText style={RuleStyles.SubHeading3}>2)</HighlightText> The event shall be completed with a single elimination competition for the semi-finals and final.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3)</Text> There shall be no playoff for the third and fourth place positions.
+            <HighlightText style={RuleStyles.SubHeading3}>3)</HighlightText> There shall be no playoff for the third and fourth place positions.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>F. Prize Money and Points</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>F. Prize Money and Points</HighlightText>
             {'\n\n'}
             Final standings at the end of the tournament shall determine the prize money and
             Pepperstone ATP Rankings points earned.
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule46', next: 'Rule48', nav: navigation }} />

@@ -3,19 +3,22 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule162({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT G - ATP Challenger Tour Logo 
-            (Print & Promotional Materials)</Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT G - ATP Challenger Tour Logo 
+            (Print & Promotional Materials)</HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>Basic Guidelines:</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>Basic Guidelines:</HighlightText>{'\n\n'}
             1) The brand mark may not be modified in any way or redrawn. The two fixed elements
              (the ATP Challenger Tour logo type; the official ATP Challenger Tour logo)
             may not be separated from each other.{'\n\n'}
@@ -37,7 +40,8 @@ export default function Rule162({ navigation }) {
             of the quality and authenticity of the tournament.
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule161', next: 'Rule163', nav: navigation }} />

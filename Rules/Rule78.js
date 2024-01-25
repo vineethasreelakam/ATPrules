@@ -4,21 +4,22 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule78({ navigation }) {
     return (
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</HighlightText>
                     <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule3.png' }} />
                     <ZoomText>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>6.14 The Gymnasium (“Gym”)</Text>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>6.14 The Gymnasium (“Gym”)</HighlightText>
                         {'\n\n'}
                         All ATP Tour events are required to provide a gym as follows:
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A.All ATP Tour events.</Text> A fully equipped gym of adequate size
+                        <HighlightText style={RuleStyles.SubHeading2}>A.All ATP Tour events.</HighlightText> A fully equipped gym of adequate size
                         must be provided, free of charge, on-site as specified in the Standards and Best Practices section on ATP Tournament Centre.
                         In addition to the on-site required gym, ATP Tour Masters 1000 tournaments shall
                         provide: (i) an additional professional quality level gym (off-site location acceptable
@@ -27,7 +28,7 @@ export default function Rule78({ navigation }) {
                         In addition to the on-site required gym, all ATP Tour tournaments shall provide a separate
                         on-site area for player warm-up, light sprints, and movement drills.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>B.ATP Challenger Tour events.</Text> A fully equipped gym (as specified in the Standards and Best Practices section on ATP Tournament Centre), of
+                        <HighlightText style={RuleStyles.SubHeading2}>B.ATP Challenger Tour events.</HighlightText> A fully equipped gym (as specified in the Standards and Best Practices section on ATP Tournament Centre), of
                         adequate size must be provided free of charge on-site, off-site at a reasonable distance from the tournament site/official hotel or at the official tournament hotel with the
                         following exception:
                         {'\n\n'}
@@ -40,7 +41,7 @@ export default function Rule78({ navigation }) {
 
                         {'\n\n'}
 
-                    </Text>
+                    </HighlightText>
                     </ZoomText>
                 </ScrollView>
             </View >

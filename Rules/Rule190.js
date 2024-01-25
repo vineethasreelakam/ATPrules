@@ -4,17 +4,18 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule44({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>III. FINANCIAL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>III. FINANCIAL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>3.21 ATP 500 Prize Money Formula Rule</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>3.21 ATP 500 Prize Money Formula Rule</HighlightText>{'\n\n'}
 
             The formula within this rule will be used to determine increases in on-site prize money
             for the 500 category tournaments (as this category is currently composed) for the
@@ -36,9 +37,9 @@ export default function Rule44({ navigation }) {
             The resulting overall on-site prize money increase will be allocated equally to each of
             the thirteen 500 tournaments, regardless of their current on-site prize money level.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}> Definitions:</Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Tournament Financial Information Rule for 500 Tournaments (“500 Audit
-            Rule”) - </Text>
+            <HighlightText style={RuleStyles.SubHeading2}> Definitions:</HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Tournament Financial Information Rule for 500 Tournaments (“500 Audit
+            Rule”) - </HighlightText>
             The ATP rule which, among other provisions, specifies the required annual
             independently audited reporting by each 500 tournament of its revenues, costs and 
             expenses, net income, net income before taxes and other financial information, and
@@ -47,13 +48,13 @@ export default function Rule44({ navigation }) {
             this 500 Prize Money Formula Rule will be the responsibility of the 500 PM 
             Committee (as defined in the 500 Audit Rule).{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Average Growth Percentage (“AGP”) - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Average Growth Percentage (“AGP”) - </HighlightText>
             AGP is the 2-year average growth in the
             most recent actual years DR as reported to and calculated by the 500 PM Committee
             Auditor. The annual period for purposes of AGP will be the 12-month periods ending
             in April each year immediately following the Barcelona tournament.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Defined Revenues (“DR”) - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Defined Revenues (“DR”) - </HighlightText>
             Defined revenues are the basis for the AGP calculations
             and include the following four broad revenue categories as long as the 2-year average 
             of these revenues exceed 92% of average gross revenues as reported to the 500 PM
@@ -63,7 +64,7 @@ export default function Rule44({ navigation }) {
            {'\t'}3. Media and television revenues{'\n\n'}
            {'\t'}4. Government funding and/or government subsidies{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Other Revenues (“OR”) - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Other Revenues (“OR”) - </HighlightText>
             OR includes all tournament revenues not otherwise included in DR.{'\n\n'}
 
             Revenues within each of these categories must include all amounts earned in connection 
@@ -115,7 +116,7 @@ export default function Rule44({ navigation }) {
             and 500 Player Auditor necessary to understand significant changes.{'\n\n'}
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

@@ -3,19 +3,22 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule159({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT D - Attendance Standards</Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT D - Attendance Standards</HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>ATP Tour Tournament Attendance Quality 
-            Standards</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>ATP Tour Tournament Attendance Quality 
+            Standards</HighlightText>{'\n\n'}
             
             Set forth below for each of the tournament classes are two attendance standard
             recommendations. In each year of operation, each ATP Tour tournament class member 
@@ -24,9 +27,9 @@ export default function Rule159({ navigation }) {
             circumstances) must present to the ATP Standards Committee a strategic plan on
             how they will meet the recommended standard in future years.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>1) Recommended Attendance Standards</Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) ATP Tour Masters 1000 & ATP Tour 500
-             tournaments</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>1) Recommended Attendance Standards</HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>a) ATP Tour Masters 1000 & ATP Tour 500
+             tournaments</HighlightText>{'\n\n'}
             The recommended total attendance is calculated as follows:{'\n\n'}
             • Start of main draw through Thursday.{'\n\n'}
             {'\t'}o 50% of the actual seating capacity* for match courts, as specified in
@@ -36,7 +39,7 @@ export default function Rule159({ navigation }) {
             • The sum of these totals determine the recommended total attendance for
             the week.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>b) ATP Tour 250</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>b) ATP Tour 250</HighlightText>{'\n\n'}
             
             The recommended total attendance is calculated as follows:{'\n\n'}
             • Start of main draw through Tuesday.{'\n\n'}
@@ -56,12 +59,12 @@ export default function Rule159({ navigation }) {
             the minimum requirement.{'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading3}>2) Minimum Weekend Attendance</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>2) Minimum Weekend Attendance</HighlightText>{'\n\n'}
             
             The average minimum attendance per session during the final weekend of play is
             recommended to be in excess of 75% of capacity for the Center Court.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>3) Measurement</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>3) Measurement</HighlightText>{'\n\n'}
             
             a) On a daily basis during the operation of each tournament, each tournament
             class member shall provide the ATP Supervisor with attendance figures in
@@ -82,7 +85,8 @@ export default function Rule159({ navigation }) {
 
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule158', next: 'Rule160', nav: navigation }} />

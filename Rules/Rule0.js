@@ -3,18 +3,23 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
+
 export default function Rule0({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>2023 Changes in the Rules</Text>
+          <HighlightText style={RuleStyles.MainHeading}>2023 Changes in the Rules</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
            No changes in the current year.
 
-          </Text>
-          <Text>{'\n\n'}</Text>
+          </HighlightText>
+          <HighlightText>{'\n\n'}</HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'ATPRulesList', next: 'Rule1', nav: navigation }} />

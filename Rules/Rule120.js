@@ -4,22 +4,23 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule120({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>VIII. THE CODE</Text>
+          <HighlightText style={RuleStyles.MainHeading}>VIII. THE CODE</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
          <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>8.04 Player Code of Conduct (“Code”)</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>8.04 Player Code of Conduct (“Code”)</HighlightText>{'\n\n'}
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Entry/Withdrawal Offenses</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Entry/Withdrawal Offenses</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Entry Obligations. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Entry Obligations. </HighlightText>
             No player or team entered into the main draw or moved into
             the main draw as a direct acceptance of a tournament may withdraw after the
             entry and withdrawal deadline or not appear for first-round match(es) without penalty as described below. The Senior Vice President, Rules & Competition shall
@@ -30,43 +31,43 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Fines</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Fines</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments</HighlightText>
             {'\n\n'}
             a) The provisions relating to assessment and payment of withdrawal, late withdrawal or punctuality fines for tournaments are separate from but in addition
             to the provisions of the player ATP commitment. The penalties are:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>i) Singles</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>i) Singles</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>aa) ATP Tour 250 Only. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>aa) ATP Tour 250 Only. </HighlightText>
             Withdrawals occurring prior to the 10 AM, Eastern time, USA, Friday withdrawal deadline:
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule120_1.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>bb)ATP Tour Masters 1000, ATP Tour 500 & 250 events.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>bb)ATP Tour Masters 1000, ATP Tour 500 & 250 events.</HighlightText>
             {'\n\n'}
             Withdrawals occurring after the 10 AM, Eastern Time, USA, Friday
             withdrawal deadline (Late Withdrawals):
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule120_2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             {'\n\n'}
             *For purposes of determining 2nd, 3rd and Subsequent Offenses, only Late
             Withdrawals are counted.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ii) Doubles.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ii) Doubles.</HighlightText>
             {'\n\n'}
 
             aa) If the withdrawal was after 10 AM, Eastern time, USA, Friday and prior
@@ -77,13 +78,13 @@ export default function Rule120({ navigation }) {
             be considered as a Late Withdrawal and the fine is $2,500 per team
             member (doubled if team would have been, or was, seeded).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>iii) Doubles Qualifying. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>iii) Doubles Qualifying. </HighlightText>
             {'\n\n'}
             If the withdrawal was after 10 AM Eastern time,
             USA, Friday, then the fine is $500 per team member (doubled if the team
             would have been seeded).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}> iv) Doubles – Exceptions</Text>
+            <HighlightText style={RuleStyles.SubHeading3}> iv) Doubles – Exceptions</HighlightText>
             {'\n\n'}
             aa) If both members of the team were on-site at the time of the withdrawal
             and the withdrawal was due to a medical condition, then neither player is subject to a fine.
@@ -92,50 +93,50 @@ export default function Rule120({ navigation }) {
             accepted into the main draw singles of another event, then neither
             player is subject to a fine.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) </HighlightText>
             Fines shall be doubled in the case of any player who would have been seeded, based on the most recent Pepperstone ATP Rankings.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) ATP Tour Masters 1000 or ATP Tour 500 Qualifying. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) ATP Tour Masters 1000 or ATP Tour 500 Qualifying. </HighlightText>
             Third and subsequent
             withdrawals from the qualifying competition will be fined $250 or $500 if he
             would have been seeded based upon the most recent Pepperstone ATP
             Rankings.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour 250 Qualifying. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour 250 Qualifying. </HighlightText>
             Third and subsequent withdrawals from the qualifying competition will be fined $250 or $500 if he would have been seeded
             based upon the most recent Pepperstone ATP Rankings.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>All ATP Tour Qualifying events. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>All ATP Tour Qualifying events. </HighlightText>
             If the player withdraws after the 10 AM
             Eastern time, USA, Friday deadline, or is a No Show, it is a Late Withdrawal
             and the fine shall be $1,000 (or $2,000 if seeded).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>d) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>d) </HighlightText>
             In circumstances that are flagrant and particularly injurious to the success of
             a tournament, or are singularly egregious, a single violation of this section
             shall also constitute the player Major Offense of Aggravated Behavior.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) </HighlightText>
             The penalty for fourth and subsequent withdrawals is a fine of $250 for each
             offense and applies to singles. Fines shall be doubled in the case of any
             player who would have been seeded, based on the most recent Pepperstone
             ATP Rankings.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) </HighlightText>
             Any singles withdrawal occurring after 10 AM, Eastern Time, USA on Friday,
             shall be assessed a fine of $1,000 (or $2,000 if seeded).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) ATP Challenger Tour Qualifying. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) ATP Challenger Tour Qualifying. </HighlightText>
             Fifth and subsequent withdrawals from
             the qualifying competition will be fined $150 or $300 if he would have been
             seeded based upon the most recent Pepperstone ATP Rankings. If the player
             withdraws after the 10 AM Eastern time, USA, Friday deadline, or is a No
             Show, it is a Late Withdrawal and the fine shall be $500 (or $750 if seeded).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>d) ATP Challenger Doubles.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>d) ATP Challenger Doubles.</HighlightText>
             {'\n\n'}
             i) If the withdrawal was after 10 AM, Eastern time, USA, Friday and prior to
             the onsite sign-in deadline then the fine is $500 per team member (doubled if team would have been seeded).
@@ -150,23 +151,23 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C. Tournament Rebates</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C. Tournament Rebates</HighlightText>
             {'\n\n'}
             Tournaments shall receive a rebate from ATP when the following conditions have
             occurred:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Tour Masters 1000. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour Masters 1000. </HighlightText>
             All fine amounts collected as a result of late withdrawals
             shall be returned to the tournament where the late withdrawal occurred.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) ATP Tour 500. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Tour 500. </HighlightText>
             All fine amounts collected as a result of late withdrawals shall be
             returned to the tournament where the late withdrawal occurred.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) ATP Tour 250. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) ATP Tour 250. </HighlightText>
             All fine amounts collected as a result of withdrawals or late withdrawals shall be returned to the tournament where the withdrawal or late withdrawal occurred.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) ATP Tour Qualifying. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4) ATP Tour Qualifying. </HighlightText>
             All fine amounts collected as a result of withdrawals or late
             withdrawals shall be returned to the tournament where the withdrawal or late
             withdrawal occurred.
@@ -175,9 +176,9 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D.Withdrawal Penalties</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D.Withdrawal Penalties</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Tour 500. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour 500. </HighlightText>
             Any player withdrawing after the entry/withdrawal deadline shall
             have a ranking penalty assessed in accordance with procedures specified in the
             ranking section of this rule book. Players shall not have the ranking penalty assessed if they complete the requirements for “promotional activities”; are out of
@@ -185,7 +186,7 @@ export default function Rule120({ navigation }) {
             on-site withdrawal. Players may appeal withdrawal penalties to a Tribunal who
             will determine whether the penalties are affirmed or set aside.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) ATP Tour Masters 1000. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Tour Masters 1000. </HighlightText>
             Any player withdrawing from the main draw shall have
             a ranking penalty assessed in accordance with procedures specified in the ranking section of this rule book and be suspended from a subsequent ATP Tour
             Masters 1000 event. This event shall be the event where the player earned the
@@ -198,11 +199,11 @@ export default function Rule120({ navigation }) {
             set aside (see sections J & K). Ranking penalties are automatic and cannot be
             appealed.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>NOTE1</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>NOTE1</HighlightText>
             : If there were no 1000 results, the suspension would be from the next
             Masters 1000 event he is accepted as a Direct Acceptance.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>NOTE2</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>NOTE2</HighlightText>
             : Players with grandfathered earned complete commitment reduction from
             all ATP Tour Masters 1000 events, who withdrew from that event for any reason
             the previous year, do not need to submit an appeal to avoid the suspension penalty.
@@ -210,9 +211,9 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Retirement or Withdrawal Penalty (On-Site)</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Retirement or Withdrawal Penalty (On-Site)</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) </HighlightText>
             A player who, because of injury or illness, retires during a match or withdraws
             during the tournament week must submit to an on-site medical examination by
             the designated tournament Doctor. Any player who retires during a match must be
@@ -222,22 +223,22 @@ export default function Rule120({ navigation }) {
             $1,000, ($500 for the qualifying competition), or the amount of prize money won
             at the tournament, whichever is greater.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) </HighlightText>
             Following any on-site retirement or withdrawal, the Supervisor at the next tournament in which the players wants to play, may require the player to submit to an onsite examination by the designated tournament Doctor and receive authorization
             from the Supervisor before competing in any future ATP Tour and ATP Challenger
             Tour tournaments. The Supervisor’s authorization shall be based on the following:
             the results of the on-site medical examination; a review of such results with one of
             ATP’s medical services directors, if possible; and any other appropriate information.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>No Medical? Big Mistake</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>No Medical? Big Mistake</HighlightText>
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             A player retires from his singles match and leaves the tournament site without having been examined by the tournament Doctor.
             Later, it is discovered that the player has left the tournament city.
             What action does the Supervisor take?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             Any player who fails to submit to an on-site examination by the tournament Doctor after retiring from a match shall be
             subjected to a fine of $10,000 ($1,000 for ATP Challenger Tour
             tournaments) or the amount of prize money won at the tournament,
@@ -246,7 +247,7 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>F. Special Exempt/Wild Card Non-Appearance</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>F. Special Exempt/Wild Card Non-Appearance</HighlightText>
             {'\n\n'}
             A player who accepts a wild card or a special exempt pursuant to the procedures set
             forth under section 7.10, special exempts, shall appear for play. A violation of this
@@ -256,7 +257,7 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>G.Payment of Fines</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>G.Payment of Fines</HighlightText>
             {'\n\n'}
             The player shall pay all fines to ATP within ten (10) days after the notice of fine is
             provided to the player. All collected entry/withdrawal fine amounts, with the exception
@@ -265,9 +266,9 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>H.Playing Another event</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>H.Playing Another event</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) </HighlightText>
             No player who has entered and been accepted into the main draw or qualifying
             of an ATP Tour or ATP Challenger Tour tournament shall play in any other tennis
             event during the period of such tournament, except if appropriately released by
@@ -276,25 +277,25 @@ export default function Rule120({ navigation }) {
             unless released by the Senior Vice President - Rules & Competition or Supervisor. A violation of this section shall constitute the Major Offense of Aggravated
             Behavior.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) </HighlightText>
             A player who has entered and been accepted into the main draw of an ATP Tour
             or ATP Challenger Tour tournament shall be permitted to sign-in and compete
             in the doubles event of the same tournament if his withdrawal was for medical
             reasons and he is determined by the Supervisor, upon written medical advice, to
             be physically capable to compete on a professional level of play.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) </HighlightText>
             A player may receive permission from a Tournament Director of an ATP Tour 250
             tournament to compete in a special event on the Monday of that tournament.
 
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>I. Repeal of Withdrawal Fines and/or Penalties</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>I. Repeal of Withdrawal Fines and/or Penalties</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Tour 250</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour 250</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Consecutive Withdrawals</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Consecutive Withdrawals</HighlightText>
             {'\n\n'}
             i) Players with multiple consecutive withdrawals* who are out of competition for thirty (30) days or more due to injury will not be subject to a fine
             as long as verified and approved medical forms are provided.
@@ -307,7 +308,7 @@ export default function Rule120({ navigation }) {
             *Each consecutive withdrawal must be prior to 10 AM on Friday, before the
             tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) On-Site Medical Examination.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) On-Site Medical Examination.</HighlightText>
             {'\n\n'}
 
             Players who withdraw after 10 AM Eastern Time, USA on Friday (or in the
@@ -327,7 +328,7 @@ export default function Rule120({ navigation }) {
             * A withdrawal from Davis Cup must be from a “live” match, for medical
             reasons.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) Promotional Activities.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) Promotional Activities.</HighlightText>
             {'\n\n'}
 
             A player who was not on-site when the withdrawal/late withdrawal occurred
@@ -339,14 +340,14 @@ export default function Rule120({ navigation }) {
             hospitality from the day of arrival through the night following the completion of
             their promotional obligation.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>d) Appeal.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>d) Appeal.</HighlightText>
             {'\n\n'}
 
             The player may appeal the fine to the SVP - Rules and Competition as specified below under “Review of Penalties for Entry and Commitment Offenses”
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) ATP Tour 500</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Tour 500</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Consecutive Withdrawals</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Consecutive Withdrawals</HighlightText>
             {'\n\n'}
             i) Players with multiple consecutive withdrawals* who are out of competition for thirty (30) days or more due to injury will not be subject to a late
             withdrawal fine or a ranking penalty as long as verified and approved
@@ -360,7 +361,7 @@ export default function Rule120({ navigation }) {
             *Each consecutive withdrawal must be prior to 10 AM on Friday, before the
             tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) On-Site Medical Examination.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) On-Site Medical Examination.</HighlightText>
             {'\n\n'}
 
             Players who withdraw after 10 AM Eastern Time, USA on Friday (or in the
@@ -381,7 +382,7 @@ export default function Rule120({ navigation }) {
             * A withdrawal from Davis Cup must be from a “live” match, for medical
             reasons.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) Promotional Activities.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) Promotional Activities.</HighlightText>
             {'\n\n'}
             A player who was not on-site when the withdrawal/late withdrawal occurred
             but travels to the tournament within the first three (3) days of the main draw,
@@ -392,14 +393,14 @@ export default function Rule120({ navigation }) {
             shall receive full hospitality from the day of arrival through the night following
             the completion of their promotional obligation.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>d) Appeal.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>d) Appeal.</HighlightText>
             {'\n\n'}
 
             The player may appeal the fine and ranking penalty to the Appeals Tribunal
             as specified below under “Review of Penalties for Entry and Commitment
             Offenses”. See also ATP Tour 500 - Ranking Penalty, page 250.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>e) Replacement Event. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>e) Replacement Event. </HighlightText>
             {'\n\n'}
             A commitment player who has received a zero (0) point
             ranking penalty for withdrawing from an ATP Tour 500 event may replace the
@@ -408,9 +409,9 @@ export default function Rule120({ navigation }) {
             additional ATP Tour 500 event per year may be used to replace an ATP Tour
             500 ranking penalty. See also ATP Tour 500 - Ranking Penalty, page 250.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) ATP Tour Masters 1000</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) ATP Tour Masters 1000</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}> a) On-Site Medical Examination.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}> a) On-Site Medical Examination.</HighlightText>
             {'\n\n'}
             Players who withdraw after 10 AM Eastern Time, USA on Friday (or in the
             case of doubles, after the entry deadline) before a tournament shall not have
@@ -430,7 +431,7 @@ export default function Rule120({ navigation }) {
             * A withdrawal from Davis Cup must be from a “live” match, for medical
             reasons.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) Promotional Activities.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) Promotional Activities.</HighlightText>
             {'\n\n'}
             A player who was not on-site when the withdrawal/late withdrawal occurred
             but travels to the tournament within the first three (3) days of the main draw,
@@ -442,21 +443,21 @@ export default function Rule120({ navigation }) {
             day of arrival through the night following the completion of their promotional
             obligation.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) Appeal.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) Appeal.</HighlightText>
             {'\n\n'}
             The player may appeal the fine and suspension to the Appeals Tribunal as
             specified below under “Review of Penalties for Entry and Commitment Offenses.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>d) Exceptions.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>d) Exceptions.</HighlightText>
             {'\n\n'}
             The player will not have the suspension assessed if he has grandfathered
             earned commitment reductions and withdraws prior to the withdrawal deadline and he did not withdraw in any manner from the same event the previous
             year. For the avoidance of doubt, the ranking penalty is automatic and unappealable regardless of any grandfathered ATP Masters 1000 exemptions.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) ATP Challenger Tour/ATP Qualifying/ATP Challenger Tour Qualifying</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4) ATP Challenger Tour/ATP Qualifying/ATP Challenger Tour Qualifying</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Consecutive Withdrawals</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Consecutive Withdrawals</HighlightText>
             {'\n\n'}
 
             i) Players with multiple consecutive withdrawals* who are out of competition for 30 days or more due to injury will not be subject to a fine as long
@@ -470,7 +471,7 @@ export default function Rule120({ navigation }) {
             *Each consecutive withdrawal must be prior to 10 AM on Friday, before the
             tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) On-Site Medical Examination.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) On-Site Medical Examination.</HighlightText>
             {'\n\n'}
             Players who withdraw after 10 AM Eastern Time, USA on Friday (or in the
             case of doubles, after the entry deadline) before a tournament shall not have
@@ -490,15 +491,15 @@ export default function Rule120({ navigation }) {
             * A withdrawal from Davis Cup must be from a “live” match, for medical
             reasons.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) Appeal.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) Appeal.</HighlightText>
             {'\n\n'}
 
             The player may appeal the fine to the SVP - Rules and Competition as specified below under “Review of Penalties for Entry and Commitment Offenses”.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>No Penalty After Retirement</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>No Penalty After Retirement</HighlightText>
             {'\n\n'}
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             A player is injured at an ATP Tour tournament and is forced
             to retire from his match. He is also unable to compete in the next
             week’s tournament. The injury occurred after 10 AM, Friday, Eastern
@@ -506,27 +507,27 @@ export default function Rule120({ navigation }) {
             examined by that tournament’s Doctor to avoid the appropriate
             penalties?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No. If the player is forced to retire after 10 AM, Friday,
             Eastern Time, USA, he may be examined by that tournament’s
             Doctor.
 
-            </Text>
+            </HighlightText>
             </ZoomText>
             <ZoomText>
-            <Text style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.Description}>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>J. Review of Penalties for Entry and Commitment Offenses</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>J. Review of Penalties for Entry and Commitment Offenses</HighlightText>
             {'\n\n'}
             Any player found to have committed a United Cup, ATP Tour Masters 1000 or ATP
             Tour 500 entry or commitment offense may petition the Appeal Tribunal for discretionary review. ATP Tour 250, ATP Tour Qualifying and ATP Challenger Tour appeals
             shall be submitted to and determined by the ATP Senior Vice President – Rules and
             Competition. This written petition shall detail the basis for the appeal.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Deadline. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) Deadline. </HighlightText>
             The deadline for filing an appeal is as follows:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour Masters 1000 - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour Masters 1000 - </HighlightText>
             6:00 PM Eastern USA on the Tuesday of the event
             week; except that:
             {'\n\n'}
@@ -534,12 +535,12 @@ export default function Rule120({ navigation }) {
             If the Tribunal requests additional information, the player will have 24 hours
             from receipt of this notice to submit the requested information.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour 500 - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour 500 - </HighlightText>
             10 days from the Monday of the event week.
             If the Tribunal requests additional information, the player will have 48 hours
             from receipt of this notice to submit the requested information.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour 250/ATP Tour Qualifying/ATP Challenger Tour - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour 250/ATP Tour Qualifying/ATP Challenger Tour - </HighlightText>
             10 days from
             the Monday of the event week.
             {'\n\n'}
@@ -556,43 +557,43 @@ export default function Rule120({ navigation }) {
             {'\n\t\t'}Ponte Vedra Beach, Florida 32082 USA
             {'\n\t\t'}Email: miro.bratoev@atptour.com
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Determination. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) Determination. </HighlightText>
             The Tribunal President/SVP - Rules and Competition shall review the petition and make a determination within the following time period:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour Masters 1000 - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour Masters 1000 - </HighlightText>
             10 AM Eastern USA on the Friday* of the event
             week.
             {'\n\n'}
             *For 96-draw tournaments, the determination shall be made by 10 AM
             Eastern USA on the 2nd Friday of the event.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour 500 - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour 500 - </HighlightText>
             20 days from the Monday of the event week.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour 250/ATP Tour Qualifying/ATP Challenger Tour - </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour 250/ATP Tour Qualifying/ATP Challenger Tour - </HighlightText>
             20 days from the Monday of the event week.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Scope of determination. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) Scope of determination. </HighlightText>
             The Tribunal’s/SVP - Rules and Competition decision
             on each case is limited to the following:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>United Cup</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>United Cup</HighlightText>
             {'\n\n'}
             Late Withdrawal Fine, if applicable
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour Masters 1000</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour Masters 1000</HighlightText>
             {'\n\n'}
             Suspension
             {'\n\n'}
             Late Withdrawal Fine, if applicable.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour 500</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour 500</HighlightText>
             {'\n\n'}
             Ranking penalty
             {'\n\n'}
             Late Withdrawal Fine, if applicable.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour 250/ATP Tour Qualifying/ATP Challenger Tour</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour 250/ATP Tour Qualifying/ATP Challenger Tour</HighlightText>
             {'\n\n'}
             Withdrawal Fine
             {'\n\n'}
@@ -601,23 +602,23 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}> K. Tribunal.</Text>
+            <HighlightText style={RuleStyles.SubHeading2}> K. Tribunal.</HighlightText>
             {'\n\n'}
             The ATP Board of Directors and ATP CEO shall nominate designees for the appeals
             tribunal as follows:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) </HighlightText>
             The three members of the board representing the players shall nominate a designee to serve a one (1) year term on the tribunal.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) </HighlightText>
             The three members of the board representing the tournaments shall nominate a
             designee to serve a one (1) year term on the tribunal.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) </HighlightText>
             The ATP CEO shall nominate a designee to serve a one (1) year term on the
             tribunal.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) Medical Advisor.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4) Medical Advisor.</HighlightText>
             {'\n\n'}
             a) A person nominated by the medical services committee shall be present,
             if requested by the three (3) voting members of the Tribunal, at all tribunal
@@ -629,13 +630,13 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>L. On-Site Offenses/Procedures</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>L. On-Site Offenses/Procedures</HighlightText>
             {'\n\n'}
             The on-site offense provisions shall apply to every player during his participation in
             an ATP Tour or ATP Challenger Tour tournament. On-site includes tournament hotels,
             transportation, all tournament facilities and activities.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Dress and Equipment</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) Dress and Equipment</HighlightText>
             {'\n\n'}
             Every player shall dress and present himself for play in a professional manner.
             Clean and customarily acceptable tennis attire as approved by ATP shall be worn.
@@ -643,33 +644,33 @@ export default function Rule120({ navigation }) {
             visor to change his attire or equipment immediately. Failure of a player to comply
             with such order may result in an immediate default.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Identification/Visible</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Identification/Visible</HighlightText>
             {'\n\n'}
             No visible identification shall be permitted on a player, his clothing, products
             or equipment on court during a match or at any press conference or tournament ceremony, except as follows:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>i) ATP Definitions.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>i) ATP Definitions.</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1. Clothing Designs. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1. Clothing Designs. </HighlightText>
             Clothing designs will not be interpreted as manufacturer’s logos and such logos can be incorporated into the clothing
             design, provided they conform to the size and placement restrictions.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2. Commercial Identification. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2. Commercial Identification. </HighlightText>
             Corporate or product identification other
             than the manufacturer of the item, including social media usernames,
             hashtags, and URLs.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3. Tennis Equipment Manufacturer. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3. Tennis Equipment Manufacturer. </HighlightText>
             The tennis equipment manufacturer is the entity that distributes, or offers for sale, tennis racquets,
             clothing, strings or shoes.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4. Clothing Manufacturer. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4. Clothing Manufacturer. </HighlightText>
             Clothing manufacturer is the corporate or
             product identification, trademarks (regardless of registration status)
             or other recognizable names presented in the form of a logo or mark
             on the clothing product in question.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>5. Size Limitation.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>5. Size Limitation.</HighlightText>
             {'\n\n'}
             - If a patch, the size is determined by the area of the actual patch.
             If a solid color patch is the same color as the clothing, then the
@@ -680,19 +681,19 @@ export default function Rule120({ navigation }) {
             by the circumference of a circle or the perimeter of a triangle or
             rectangle drawn around the logo or mark.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ii) Logo Usage. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ii) Logo Usage. </HighlightText>
             All logos or patches must be firmly attached at all points
             on the clothing or equipment. All commercial ID logos placed on the shirt
             front or collar must be embroidered or screen printed. All manufacturer
             logos must be embroidered, screen printed or otherwise professionally
             attached at all points.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1. Bags, Towels or Other Items. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1. Bags, Towels or Other Items. </HighlightText>
             Standard logos of tennis equipment
             manufacturers on each item plus two (2) separate commercial identifications on one (1) bag, neither of which may exceed six (6) square
             inches (39 sq. cm.).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2. Drink Containers. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2. Drink Containers. </HighlightText>
             Players are permitted to use drink containers oncourt if they are of reasonable size and they contain no logo or writing
             of the drink manufacturer. ATP has designated three (3) beverage
             categories of drinks for purposes of this rule: bottled water, electrolyte
@@ -703,12 +704,12 @@ export default function Rule120({ navigation }) {
             {'\n\n'}
             · The advertised on-court drink sponsor(s) is not in the same beverage category as the player’s drink container.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3. Hat or Headband. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3. Hat or Headband. </HighlightText>
             One (1) standard logo of a clothing manufacturer
             or a tennis equipment manufacturer and/or one (1) commercial identification, both of which may contain writing. Neither shall exceed four
             (4) square inches (26 sq. cm.).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Restrictions:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Restrictions:</HighlightText>
             {'\n\n'}
             • The commercial logo must be located on the side of the hat /
             headband and worn so that it is positioned on the side of the
@@ -722,22 +723,22 @@ export default function Rule120({ navigation }) {
             not change commercial brands during that calendar year, unless
             approved by ATP.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}> Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> Note: </HighlightText>
             Players shall include a clause in their contracts permitting
             them to opt out at the end of any year in the event ATP rules
             change to prohibit a commercial brand logo on the hat or headband in the manner described above.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}> 4. Wristband. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> 4. Wristband. </HighlightText>
             One (1) standard logo of a clothing manufacturer or tennis equipment manufacturer, which may contain writing, not to exceed
             four (4) square inches (26 sq. cm.)
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>5. Racquet. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>5. Racquet. </HighlightText>
             Standard logos of the manufacturer shall be permitted on
             racquets and strings.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>6. Shirt, Sweater or Jacket.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>6. Shirt, Sweater or Jacket.</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>· Front, Back and Collar. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>· Front, Back and Collar. </HighlightText>
             Two (2) standard logo positions of the
             clothing manufacturer or commercial ID, neither of which exceeds six (6) square inches (39 sq. cm.), may be placed in any
             location (i.e. 2 on the front, or 1 on the front and 1 on the collar)
@@ -751,24 +752,24 @@ export default function Rule120({ navigation }) {
             by ATP. No new commercial logo may be added to the shirt front
             for events following the US Open through the Nitto ATP Finals.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             Players shall include a clause in their contracts permitting
             them to opt out at the end of any year in the event ATP rules
             change to prohibit a commercial brand logo on the front of a
             shirt, sweater or jacket in the manner described above.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Premier / Platinum Sponsor Patch. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Premier / Platinum Sponsor Patch. </HighlightText>
             An additional commercial identification patch may be placed on the back of the
             shirt, below the collar, if part of the ATP Premier / Platinum sponsor patch program. This program is optional and is in addition to
             any manufacturer identification on the back of the shirt.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>· Sleeves. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>· Sleeves. </HighlightText>
             Two positions for commercial (i.e., non-clothing manufacturer) or manufacturer’s identification for each sleeve, neither
             of which exceeds six (6) square inches (39 sq. cm). A maximum
             of two (2) logos may be placed within each 6 square inch (39 sq.
             cm.) position. Logos may contain writing.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>· Sleeveless. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>· Sleeveless. </HighlightText>
             Two (2) logo positions of the clothing manufacturer
             or commercial ID none of which exceeds six (6) square inches
             (39 sq. cm.) may be placed on the front of the shirt. If no more
@@ -776,7 +777,7 @@ export default function Rule120({ navigation }) {
             one (1) manufacturer logo may be placed on the back of the
             shirt, not to exceed four (4) square inches (26 sq. cm).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>· Other. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>· Other. </HighlightText>
             A logo of the clothing manufacturer, without the name of
             the manufacturer or any other writing, may be placed once or repeatedly within an area not to exceed twelve (12) square inches
             (77.5 sq. cm.) in one of the following positions:
@@ -785,9 +786,9 @@ export default function Rule120({ navigation }) {
             {'\n\n'}
             b. On the outer seams (sides of torso) of the shirt.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>7. Shorts.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>7. Shorts.</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>· Front and Back. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>· Front and Back. </HighlightText>
             Two (2) standard logos of the clothing manufacturer neither of which exceeds two (2) square inches (13 sq.
             cm.), may be placed on the front or back of the shorts; or two
             (2) standard logos of the clothing manufacturer neither of which
@@ -800,55 +801,55 @@ export default function Rule120({ navigation }) {
             not exceed two (2) square inches (13 sq. cm.) or one (1) standard logo of the clothing manufacturer which must not exceed
             four (4) square inches (26 sq. cm.).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>8. Socks /Shoes. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>8. Socks /Shoes. </HighlightText>
             {'\n\n'}
             Standard logos of the manufacturer of the article may
             appear on each sock and each shoe.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Tattoo as Logo</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Tattoo as Logo</HighlightText>
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             A player arrives on court wearing an approved sleeveless
             shirt. The Chair Umpire notices that the player has a tattoo of the
             clothing manufacturer on his upper arm. If there is no issue with the
             size, is this allowed?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No. The rules for both clothing manufacturer and commercial I.D. logo placement clearly specify where these logos may
             be placed.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>iii) Restrictions /Government. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>iii) Restrictions /Government. </HighlightText>
             Any commercial or other identification that
             violates applicable governmental and/or television regulations is prohibited.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>iv) Restrictions/Other Tennis event. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>iv) Restrictions/Other Tennis event. </HighlightText>
             The identification by use of the name,
             emblem, logo, trademark, symbol or other description of any tennis circuit, series of tennis events, tennis exhibition or tournament other than
             the “ATP” is prohibited on all dress or equipment at any ATP Tour and ATP
             Challenger Tour tournaments, unless otherwise approved by ATP.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>v) Restrictions /Timing. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>v) Restrictions /Timing. </HighlightText>
             Once a player has competed in the first match of
             his first event with a commercial brand logo in either of the two locations
             (shirt front and/or hat/headband), he may not change brands during that
             calendar year, unless approved by ATP.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             Players shall include a clause in their contracts permitting them to
             opt out at the end of any year in the event ATP rules change to prohibit
             a commercial brand logo on the front of a shirt, sweater or jacket in the
             manner described above.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>vi) Restrictions / General. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>vi) Restrictions / General. </HighlightText>
             Tobacco and companies associated with tennis
             gambling will be prohibited from any endorsements on player clothing.
             ATP reserves the right to prohibit any identification it deems not to be in
             the best interest of the game and/or ATP.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) Shoes</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) Shoes</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>i) General. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>i) General. </HighlightText>
             Players are required to wear tennis shoes generally accepted
             as proper tennis attire. Shoes shall not cause damage to the court other
             than what is expected during the normal course of a match or practice.
@@ -857,13 +858,13 @@ export default function Rule120({ navigation }) {
             meet the criteria of “customarily acceptable” and may order the player to
             change.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ii) Clay Courts. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ii) Clay Courts. </HighlightText>
             Players are required to wear tennis shoes generally accepted for play on clay courts or granular surfaces. The Supervisor has
             the authority to determine that a tennis shoe’s sole does not conform and
             can prohibit its use at any ATP Tour or ATP Challenger Tour tournament.
             Grass court shoes should not be worn during a match on clay courts.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>iii) Grass Courts. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>iii) Grass Courts. </HighlightText>
             In ATP Tour and ATP Challenger Tour tournaments played
             on grass courts, no shoes other than those with rubber soles, without
             heels, ribs, studs or covering, shall be worn by players.
@@ -893,17 +894,17 @@ export default function Rule120({ navigation }) {
             ATP at least ninety (90) days in advance of the grass court
             tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>
+            <HighlightText style={RuleStyles.SubHeading3}>
               All shoes approved for play in 2008 shall continue to be approved.
 
-            </Text>
+            </HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) Violations/Fines</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) Violations/Fines</HighlightText>
             {'\n\n'}
             Any player who violates this section and is not defaulted shall be subject to
             the following fines:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>i) Commercial Identification. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>i) Commercial Identification. </HighlightText>
             {'\n\n'}
             Violation of the provisions with respect to
             commercial identifications shall result in a fine up to:
@@ -919,12 +920,12 @@ export default function Rule120({ navigation }) {
             The maximum fine will increase by one hundred percent (100%) for each
             consecutive violation during the same calendar year.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ii) Tennis Equipment Manufacturer’s logo. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ii) Tennis Equipment Manufacturer’s logo. </HighlightText>
 
-            </Text>
+            </HighlightText>
             </ZoomText>
             <ZoomText>
-            <Text style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.Description}>
             Violation of the provisions with
             respect to standard logos of manufacturers shall result in a fine up to:
             {'\n\n'}• $500 for ATP Challenger Tour tournaments.
@@ -934,7 +935,7 @@ export default function Rule120({ navigation }) {
             {'\n\n'} The maximum fine will increase by one hundred percent (100%) for each
             consecutive violation during the same calendar year.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>iii) Other Tennis event. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>iii) Other Tennis event. </HighlightText>
             Violation of the provisions with respect to the name
             of an event other than the “ATP” shall result in a fine up to:
             {'\n\n'}• $5,000 for ATP Challenger Tour tournaments.
@@ -944,7 +945,7 @@ export default function Rule120({ navigation }) {
             {'\n\n'}The maximum fine will increase by one hundred percent (100%) for each
             consecutive violation during the same calendar year.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>iv) Unacceptable Attire. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>iv) Unacceptable Attire. </HighlightText>
             Violation of the provisions with respect to unacceptable attire shall result in a fine up to:
             {'\n\n'}• $1,000 for ATP Challenger Tour tournaments
             {'\n\n'}• $30,000 for ATP Tour 250 tournaments.
@@ -953,7 +954,7 @@ export default function Rule120({ navigation }) {
             {'\n\n'}The maximum fine will increase by one hundred percent (100%) for each
             consecutive violation during the same calendar year.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Point Penalty Schedule</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) Point Penalty Schedule</HighlightText>
             {'\n\n'}
             a) The Point Penalty Schedule to be used for Code Violations is as follows:
             {'\n\n'} FIRST OFFENSE {'\t\t\t'} WARNING
@@ -966,7 +967,7 @@ export default function Rule120({ navigation }) {
             order him to do so.
             {'\n\n'} c) In doubles, code violations shall be assessed against the team.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Code Violations Not Witnessed By Chair Umpire</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) Code Violations Not Witnessed By Chair Umpire</HighlightText>
             {'\n\n'}
             Occasionally, there are code violations by players that are not witnessed by the
             Chair Umpire. The Line Umpire should immediately approach the Chair Umpire
@@ -984,31 +985,31 @@ export default function Rule120({ navigation }) {
             Default. The Supervisor may order the Chair Umpire to issue a code violation for
             a violation witnessed or not witnessed by the Chair Umpire.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>
             A Line Umpire reports to the Chair Umpire an incident
             which occurred three (3) points earlier, may the Chair Umpire issue
             a Warning, Point or Game Penalty?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision 1: </HighlightText>
             No, in this case a Code Violation may be issued only
             if the violation was reported immediately (before the next point is
             played).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2: </HighlightText>
             Same situation as Case 1 above except that the violation
             reported is a serious violation that may warrant an Immediate Default. May the Supervisor/Referee be called to discuss an Immediate
             Default?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision 2: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision 2: </HighlightText>
             Yes, as long as the violation has been reported and
             acted upon no later than the end of the next changeover. Once the
             first point of the game immediately following the changeover has
             been played then no Code Violation for an Immediate Default may
             be issued. The player may however be subject to a fine as determined by the Supervisor.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) Offenses</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4) Offenses</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Ball Abuse</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Ball Abuse</HighlightText>
             {'\n\n'}
 
             i) Players shall not violently, dangerously or with anger hit, kick or throw
@@ -1021,7 +1022,7 @@ export default function Rule120({ navigation }) {
             each violation. In addition, if such violation occurs during a match, the
             player shall be penalized in accordance with the Point Penalty Schedule.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) Racquet or Equipment Abuse</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) Racquet or Equipment Abuse</HighlightText>
             {'\n\n'}
 
             i) Players shall not violently, dangerously or with anger hit, kick or throw a
@@ -1035,7 +1036,7 @@ export default function Rule120({ navigation }) {
             violation. In addition, if such violation occurs during a match, the player
             shall be penalized in accordance with the Point Penalty Schedule.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) Physical Abuse</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) Physical Abuse</HighlightText>
             {'\n\n'}
 
             i) Players shall not at any time physically abuse any official, opponent,
@@ -1055,7 +1056,7 @@ export default function Rule120({ navigation }) {
             the ATP Members Fines Committee has concluded their investigation and made a
             determination.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}> d) Verbal Abuse</Text>
+            <HighlightText style={RuleStyles.SubHeading3}> d) Verbal Abuse</HighlightText>
             {'\n\n'}
 
             i) Players shall not at any time directly or indirectly verbally abuse an official, opponent, sponsor, spectator or any other person within the precincts of the tournament site. Verbal abuse is defined as any statement
@@ -1074,7 +1075,7 @@ export default function Rule120({ navigation }) {
             the ATP Members Fines Committee has concluded their investigation and made a
             determination.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>e) Audible Obscenity</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>e) Audible Obscenity</HighlightText>
             {'\n\n'}
 
             i) A player shall not use an audible obscenity while on-site. Audible obscenity is defined as the use of words commonly known and understood to be
@@ -1087,7 +1088,7 @@ export default function Rule120({ navigation }) {
             this section shall also constitute the player Major Offense of Aggravated
             Behavior.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>f) Visible Obscenity</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>f) Visible Obscenity</HighlightText>
             {'\n\n'}
 
             i) Players shall not make obscene gestures of any kind while on-site. Visible
@@ -1101,7 +1102,7 @@ export default function Rule120({ navigation }) {
             this section shall also constitute the player Major Offense of Aggravated
             Behavior.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>g) Unsportsmanlike Conduct</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>g) Unsportsmanlike Conduct</HighlightText>
             {'\n\n'}
 
             i) Players shall at all times conduct themselves in a sportsmanlike manner
@@ -1129,7 +1130,7 @@ export default function Rule120({ navigation }) {
             the ATP Members Fines Committee has concluded their investigation and made a
             determination.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>h) Best Efforts</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>h) Best Efforts</HighlightText>
             {'\n\n'}
 
             i) A player shall use his best efforts during the match when competing in a
@@ -1149,7 +1150,7 @@ export default function Rule120({ navigation }) {
             the ATP Members Fines Committee has concluded their investigation and made a
             determination.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>i) Leaving the Court</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>i) Leaving the Court</HighlightText>
             {'\n\n'}
 
             i) A player shall not leave the court area during a match (including the
@@ -1163,7 +1164,7 @@ export default function Rule120({ navigation }) {
             same calendar year. In addition, the player may be defaulted and shall be
             subject to the additional penalties for failure to complete match.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>j) Failure to Complete Match</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>j) Failure to Complete Match</HighlightText>
             {'\n\n'}
 
             i) A player must complete a match in progress unless he is reasonably unable to do so.
@@ -1175,7 +1176,7 @@ export default function Rule120({ navigation }) {
             year. Violation of this section shall subject a player to immediate default
             and shall also constitute the Major Offense of Aggravated Behavior.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>k) Ceremonies</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>k) Ceremonies</HighlightText>
             {'\n\n'}
 
             i) All tournament finalists must attend and participate in the post-match ceremonies, unless he is physically unable to do so as determined by the
@@ -1184,7 +1185,7 @@ export default function Rule120({ navigation }) {
             {'\n\n'}
             ii) Violation of this section shall subject a player to a fine up to $5,000.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>l) Coaching and Coaches</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>l) Coaching and Coaches</HighlightText>
             {'\n\n'}
 
             i) Players shall not receive coaching during a tournament match*. Communications of any kind, audible or visible, between a player and a coach
@@ -1231,35 +1232,35 @@ export default function Rule120({ navigation }) {
             for any reason
             {'\n\n'}● Penalties and fines to apply for abuse or misuse of the coaching conditions
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Electronic devices</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Electronic devices</HighlightText>
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             May a player listen to an mp3 player or other device on a
             changeover?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             A player is not allowed to use any electronic devices (e.g.
             CD players, mobile phones, etc.) during matches, unless approved
             by the Supervisor. (Tour Policy)
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>m) Default</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>m) Default</HighlightText>
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>i) During the match. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>i) During the match. </HighlightText>
             The Supervisor may default a player either for a single violation of the Code (immediate default) or as outlined in the Point
             Penalty Schedule.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ii) On-site. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ii) On-site. </HighlightText>
             The Supervisor may withdraw a player from all events for a single
             violation of the Code occurring during the event but not during a player’s
             match.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>iii) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>iii) </HighlightText>
             In all cases of default, the Supervisor’s decision shall be final and may
             not be appealed.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>iv) Penalties:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>iv) Penalties:</HighlightText>
 
             {'\n\n'}aa) Any player who is defaulted shall lose all prize money (gross prize
             money to be paid to ATP), hotel accommodations and points earned
@@ -1269,7 +1270,7 @@ export default function Rule120({ navigation }) {
             {'\n\n'}cc) In addition, if the Senior Vice President - Rules & Competition determines that the default was particularly injurious to the success of the
             tournament or detrimental to the integrity of the sport, he may consider additional penalties (fines and/or suspensions).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>v) </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>v) </HighlightText>
             The exception is when the offending incident involves:
             {'\n\n'}aa) A violation of the punctuality or dress and equipment provisions set
             forth in the Code; or
@@ -1279,7 +1280,7 @@ export default function Rule120({ navigation }) {
             {'\n\n'}dd)A member of a doubles team did not cause any of the misconduct
             code violations that resulted in the team being defaulted.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>vi) In doubles:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>vi) In doubles:</HighlightText>
             {'\n\n'}
 
             aa) A default assessed for violation of the Code shall be assessed against
@@ -1291,12 +1292,12 @@ export default function Rule120({ navigation }) {
             {'\n\n'}dd)The partner of the player who caused the default shall receive points
             and prize money from the previous round.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Default - List Penalties</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Default - List Penalties</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             If a player is defaulted through the Code of Conduct for misconduct, what penalties result?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The player may be withdrawn from any other event he
             is entered in, as determined by the Supervisor; lose all points and
             gross prize money earned for the event where he was defaulted;
@@ -1304,7 +1305,7 @@ export default function Rule120({ navigation }) {
             event as well, he will lose all points and prize money earned from
             both events, and hotel accommodations.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>n) Punctuality</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>n) Punctuality</HighlightText>
             {'\n\n'}
             Players shall be ready to play when their matches are called.
             {'\n\n'}i) Any player not ready to play within ten (10) minutes after his match is
@@ -1320,35 +1321,35 @@ export default function Rule120({ navigation }) {
             elects not to declare a default. In such case, the Supervisor shall immediately inform the Senior Vice President - Rules & Competition. This section
             applies only to those players who are or have been on-site.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Late Transportation</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Late Transportation</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             The scheduled transportation is late to pick up players from
             the tournament hotel. A player is defaulted for punctuality and subsequently arrives on-site with tournament transportation. Should the
             default be rescinded and the match played?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The player is defaulted. Transportation is a service
             provided by the tournament; however, the player is responsible for
             arriving on time for his match.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>o) Continuous Play</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>o) Continuous Play</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>i) Delay of Play. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>i) Delay of Play. </HighlightText>
             A player will receive a warning for the first violation and
             be subject to a fine for each subsequent violation ($250 then doubled for
             each additional violation) during that week’s event for violating the following timings:
 
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule120_3.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>ii) Delay of Game. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ii) Delay of Game. </HighlightText>
             Once the match has begun, play shall be continuous and a
             player shall not unreasonably delay a match for any cause. A maximum of
             twenty-five (25) seconds shall elapse from the moment the ball goes out of
@@ -1356,7 +1357,7 @@ export default function Rule120({ navigation }) {
             then the second serve must be struck by the server without delay. The exception is at a ninety (90) second changeover or a one hundred twenty (120) set
             break. The procedures for enforcing this rule are as follows:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>aa) 25 Seconds Between Points.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>aa) 25 Seconds Between Points.</HighlightText>
             {'\n\n'}
             1) Start stopwatch when the player is ordered to play or when the
             ball goes out of play.
@@ -1366,8 +1367,8 @@ export default function Rule120({ navigation }) {
             is no time warning prior to the expiration of the twenty-five (25)
             seconds.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>bb)Changeover (Ninety (90) Seconds) and Set Break (One Hundred
-              and Twenty (120) Seconds).</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>bb)Changeover (Ninety (90) Seconds) and Set Break (One Hundred
+              and Twenty (120) Seconds).</HighlightText>
             {'\n\n'}
             1) Start stopwatch the moment the ball goes out of play.
             {'\n\n'}2) Announce “Time” after sixty (60) / ninety (90) seconds have
@@ -1379,21 +1380,21 @@ export default function Rule120({ navigation }) {
             ninety (90) / one hundred and twenty (120) seconds allowed provided there has been no interference which prevented the server
             from serving within that time.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>NOTE: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>NOTE: </HighlightText>
             When requested by television, “Time” shall be announced after ninety (90) seconds for a changeover and one
             hundred twenty (120) seconds for a set break.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>cc) Time Violations.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>cc) Time Violations.</HighlightText>
             {'\n\n'}
 
             Violating a provision of this Section, as server or receiver, shall be
             penalized by a “Time Violation – Warning” and each subsequent vio-
             ation shall be penalized as follows:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>• Server. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>• Server. </HighlightText>
             When serving the time violation shall result in a “fault”.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>• Receiver. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>• Receiver. </HighlightText>
             When it is determined that the receiver is the cause
             of the time violation, then the receiver shall be penalized by the
             assessment of one (1) point penalty. The receiver must also
@@ -1402,10 +1403,10 @@ export default function Rule120({ navigation }) {
             seconds if the receiver’s actions are delaying the reasonable
             pace of the server. Assess a code violation if the receiver is consistently or obviously delaying the server, thus employing “Unsportsmanlike Conduct”.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>• Server/Receiver </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>• Server/Receiver </HighlightText>
             following a toilet break. Point Penalty.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             A second time violation occurs when a player who has received
             a prior warning as either the server or receiver is issued another time
             violation as either server or receiver. Example is Player A had received a warning for not serving within the 25 second limit; later, as
@@ -1413,7 +1414,7 @@ export default function Rule120({ navigation }) {
             of the server. This would be considered a second violation and a point
             penalty would be issued.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>p) Post-Match Media Availability</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>p) Post-Match Media Availability</HighlightText>
             {'\n\n'}i) All players scheduled to play on televised courts will be required, if requested, to perform a pre-match TV interview on the day of the match (not
             to exceed 2 minutes in total). The interview may be conducted at either
             the player’s practice court or as the players approach the court for walkon as determined by the host and player’s national broadcasters.
@@ -1437,12 +1438,12 @@ export default function Rule120({ navigation }) {
             For ATP Challenger Tour events, a violation of this section shall result in
             a fine of $500.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>q) Pre-Tournament Media Availability</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>q) Pre-Tournament Media Availability</HighlightText>
             {'\n\n'}
             All players will be required, if requested, to take part in media availability prior
             to their first match at each tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>r) ATP STARS Program Penalties</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>r) ATP STARS Program Penalties</HighlightText>
             {'\n\n'}
             Players shall be required to participate in ATP sponsored activities at each
             ATP Tour tournament. Failure to participate in a scheduled activity due to
@@ -1457,7 +1458,7 @@ export default function Rule120({ navigation }) {
             {'\n\n'}Fines will be increased to the next higher level for any national player. Fines
             will double for each repeat offense within an ATP Circuit Year.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>s) Champion’s Media Tour</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>s) Champion’s Media Tour</HighlightText>
             {'\n\n'}
             Each winner of a Grand Slam or the Nitto ATP Finals, if requested, is obligated to participate in media tour as arranged by ATP during the days immediately following the finals of any such tournament. Players and their agents
             will be consulted with respect to the scope and substance of the activities to
@@ -1465,7 +1466,7 @@ export default function Rule120({ navigation }) {
             the proposed activities. ATP will cover all expenses incurred by a player while
             participating in the media tour.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>t) Special Functions</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>t) Special Functions</HighlightText>
             {'\n\n'}
             Each player, if requested, is obligated to attend the ATP Awards Show and
             up to two (2) additional ATP sponsored/conducted special events. Players
@@ -1477,7 +1478,7 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>M. Determination of Violation and Penalty</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>M. Determination of Violation and Penalty</HighlightText>
             {'\n\n'}
 
             1) The Supervisor shall make a reasonable investigation to determine the facts
@@ -1500,19 +1501,19 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>N. Payment of Fines</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>N. Payment of Fines</HighlightText>
             {'\n\n'}
             Fines levied by the Supervisor for player on-site offenses shall be paid in accordance
             with the following:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}> 1) ATP Tour and ATP Challenger Tour Tournaments. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> 1) ATP Tour and ATP Challenger Tour Tournaments. </HighlightText>
             Each tournament shall deduct fines from the player’s winnings, if any, and promptly pay the fine to ATP. In
             the event that the player’s winnings are insufficient to pay the fine, the player shall
             pay the balance within twenty (20) days after the tournament to ATP.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>O.Procedures for Appeal</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>O.Procedures for Appeal</HighlightText>
             {'\n\n'}
             1) Except for appeals of violations of the Stars Program, any player in violation of a
             player on-site offense may, after paying all fines, appeal to the ATP Members Fines Committee for review of a determination of guilt and the penalty assessed.
@@ -1529,7 +1530,7 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>P. Appeal of Violations of STARS Program</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>P. Appeal of Violations of STARS Program</HighlightText>
             {'\n\n'}
 
             1) All appeals concerning the ATP STARS Program shall be governed by the procedures in this section.
@@ -1560,9 +1561,9 @@ export default function Rule120({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>Q.Notice and Service</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>Q.Notice and Service</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}></Text>
+            <HighlightText style={RuleStyles.SubHeading3}></HighlightText>
             {'\n\n'}
             1) Any written communication to be sent to the ATP CEO or Senior Vice President -
             Rules & Competition should be addressed as follows, unless notice of change is
@@ -1574,14 +1575,14 @@ export default function Rule120({ navigation }) {
             {'\n\t'}Ponte Vedra Beach, FL 32082, USA
             {'\n\t'}Telephone: +1 904 285 8000
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Service. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) Service. </HighlightText>
             {'\n\n'}
             Service to a player of any notice or other document shall be deemed
             completed if mailed to the player at his home address or other address designated by the player.
 
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

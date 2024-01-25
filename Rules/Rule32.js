@@ -3,16 +3,19 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule32({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>III. FINANCIAL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>III. FINANCIAL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>3.07 Letter of Credit - New/Conditional Tournaments</Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>3.07 Letter of Credit - New/Conditional Tournaments</HighlightText>{'\n\n'}
 
             Unless otherwise determined by ATP, each ATP Tour tournament with conditional
             membership status must submit to ATP within the time period required, an approved
@@ -22,7 +25,8 @@ export default function Rule32({ navigation }) {
             ATP event.
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule31', next: 'Rule33', nav: navigation }} />

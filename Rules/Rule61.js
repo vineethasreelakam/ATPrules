@@ -3,24 +3,27 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule61({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.10 Chief of Umpires</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.10 Chief of Umpires</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Assignment and Designation Process</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Assignment and Designation Process</HighlightText>
             {'\n\n'}
             ATP Tour and ATP Challenger Tour tournaments are required to hire a certified Chief
             of Umpires approved by ATP, unless otherwise determined by ATP.
-            <Text style={RuleStyles.SubHeading2}>B.Fees and Expenses</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Fees and Expenses</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Tour and ATP Challenger Tour Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour and ATP Challenger Tour Tournaments</HighlightText>
             {'\n\n'}
             Each tournament must provide each Chief of Umpires with single room hotel accommodations, meals and laundry. Complimentary rooms shall be in the player
             hotel or another hotel approved by ATP or the Supervisor.
@@ -28,12 +31,12 @@ export default function Rule61({ navigation }) {
             Each tournament shall pay a fair and reasonable fee and travel expense to the Chief
             of Umpires hired by the tournament.
 
-            <Text style={RuleStyles.SubHeading2}>C.General </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.General </HighlightText>
             {'\n\n'}
             The Chief of Umpires is approved by ATP, hired by the tournament and is responsible
             for having sufficient quality Line Umpires assigned to each match.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D. Responsibilities </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D. Responsibilities </HighlightText>
             {'\n\n'}
             1) Recruit a sufficient number of competent officials for the tournament. Be prepared
             to respond to or make recommendations to the Fulltime Official who is coordinating assignments and designations of all necessary and required Chair Umpires.
@@ -53,7 +56,8 @@ export default function Rule61({ navigation }) {
             quar     terfinals and have the Supervisor’s specific approval.
             {'\n\n'}
 
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule59', next: 'Rule62', nav: navigation }} />

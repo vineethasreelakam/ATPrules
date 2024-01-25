@@ -4,19 +4,20 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule48({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>4.02 Nitto ATP Finals - Doubles</Text>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>4.02 Nitto ATP Finals - Doubles</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Competition Format</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Competition Format</HighlightText>
             {'\n\n'}
             The tournament shall be a doubles round robin format with eight (8) teams. There
             shall be two (2) groups of four (4) teams each with eight (8) seeds to be determined
@@ -26,9 +27,9 @@ export default function Rule48({ navigation }) {
             determine the four (4) teams for the semi-finals with the format thereafter being a
             single elimination competition.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Entries</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Entries</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Selection List.</Text>The selection list for the event shall be:
+            <HighlightText style={RuleStyles.SubHeading3}>1) Selection List.</HighlightText>The selection list for the event shall be:
             {'\n\n'}
             a) The top 7 teams in the 2024 Pepeprstone ATP Doubles Team Rankings as of
             the Monday after the last ATP Tour tournament of the calendar year; followed
@@ -41,7 +42,7 @@ export default function Rule48({ navigation }) {
             c) Teams positioned eight (8) and below in the 2024 Pepperstone ATP Doubles
             Team Rankings as of that Monday.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Direct Acceptances.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) Direct Acceptances.</HighlightText>
             The top eight (8) teams in the selection list shall qualify
             for the event as direct acceptances. Participation is mandatory, and all qualified
             teams shall be entered. All direct acceptances must be at the tournament site to
@@ -54,13 +55,13 @@ export default function Rule48({ navigation }) {
             choose to participate is ineligible to be a direct acceptance unless such player
             qualifies with another partner.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Withdrawal.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) Withdrawal.</HighlightText>
             All eligible teams shall be entered by ATP; however, teams may
             withdraw through the Monday following the last ATP Tour tournament of the year.
             Any withdrawal, before the official pre-tournament media conference starts, shall
             be replaced by the next highest positioned team on the selection list, who shall be qualified as a direct acceptance.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) Alternate(s).</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4) Alternate(s).</HighlightText>
             {'\n\n'}
             a) On the Monday following the last ATP Tour tournament of the year, the next
             highest positioned team shall be asked to confirm its status as the alternate
@@ -80,9 +81,9 @@ export default function Rule48({ navigation }) {
             prize money and points won. If the alternate team(s) replaces a team that
             does not compete in their first round robin match, the alternate team(s) becomes a direct acceptance and does not receive the alternate fee.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C.Order of Play</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.Order of Play</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Round Robin</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Round Robin</HighlightText>
             {'\n\n'}
             1) The field shall be divided into two (2) groups of four (4) teams each. The
             top-seeded team shall be placed in Group “A” and the second-seeded team shall
@@ -123,37 +124,37 @@ export default function Rule48({ navigation }) {
             inferior team (third place), and the two (2) remaining teams are tied, the
             tie between those two (2) teams shall be broken by head-to-head record
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 1:</Text> 1 team has 3 wins and the other 3 teams have 1 win. Of the
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 1:</HighlightText> 1 team has 3 wins and the other 3 teams have 1 win. Of the
             3 teams with 1 win, 1 team has only played in 2 matches while the other 2
             teams have played 3 matches. The team who has only played 2 matches
             is eliminated and then the 2 remaining teams revert back to head-to-head
             results with the winner of their match advancing to the semi-finals.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 2:</Text> 1 team has 3 wins and the other 3 teams have 1 win and
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 2:</HighlightText> 1 team has 3 wins and the other 3 teams have 1 win and
             they all have played 3 matches. The tie-break for % of sets won has
             1 team with a better % than the other two. This team advances to the
             semi-final round.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 3:</Text> 3 teams have 2 wins and the other team has 0 wins. The
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 3:</HighlightText> 3 teams have 2 wins and the other team has 0 wins. The
             team with 0 wins is eliminated. Of the 3 teams with 2 wins, they are ordered by their % of sets won. This produces a 1, 2 & 3 order and the
             teams finishing 1 and 2 move to the semi-final round and the team finishing 3 in % of sets won is eliminated. The team with the best % of sets won
             is the winner of the group.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 4:</Text> 3 teams have 2 wins and the other team has 0 wins. The
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 4:</HighlightText> 3 teams have 2 wins and the other team has 0 wins. The
             team with 0 wins is eliminated. Of the 3 teams with 2 wins, 1 team’s sets
             won-loss is 5-2 for 71.43%; the other 2 teams both have a 4-3 record in
             sets for 57.14%. In this case there is 1 superior team (71.43%) and the
             remaining 2 teams are tied; it now reverts to the head to head result of the
             2 remaining teams with the winning team advancing as group runner-up.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 5:</Text> 3 teams have 2 wins and the other team has 0 wins. The
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 5:</HighlightText> 3 teams have 2 wins and the other team has 0 wins. The
             team with 0 wins is eliminated. Of the 3 teams with 2 wins, 2 have set
             won-loss records of 5-3 (62.5%) while the other team is 4-3 (57.14%). In
             this case we have 1 inferior team (57.14%) and this team is eliminated.
             The remaining two teams both advance to the semi-finals with the winner
             of their head-to-head match advancing as the group winner.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment 6:</Text> 3 teams have 2 wins and the other team has 0 wins. The
+            <HighlightText style={RuleStyles.SubHeading3}>Comment 6:</HighlightText> 3 teams have 2 wins and the other team has 0 wins. The
             team with 0 wins is eliminated. Of the 3 teams with 2 wins, all have played
             3 matches and all 3 have set won-loss records of 5-4 (55.56%). In this
             case we move to % of games won. The % of games won breaks down
@@ -181,7 +182,7 @@ export default function Rule48({ navigation }) {
             6) Any team who withdraws from any round robin match after the first round shall not
             be eligible for the single elimination competition
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D.Single Elimination Competition</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D.Single Elimination Competition</HighlightText>
             {'\n\n'}
             1) The winner of each group shall be placed in separate semi-final brackets. The
             runner-up of each group shall be placed in the semi-final bracket with the winner
@@ -191,14 +192,14 @@ export default function Rule48({ navigation }) {
             {'\n\n'}
             3) There shall be no playoff for the third and fourth-place positions.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Prize Money and Points</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Prize Money and Points</HighlightText>
             {'\n\n'}
             Final standings at the end of the tournament shall determine the prize-money and
             Pepperstone ATP Doubles Rankings points earned.
             {'\n\n'}
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

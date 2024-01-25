@@ -4,22 +4,23 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule177({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT T.1 - Review Electronic Line Calling System (Review ELC)</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT T.1 - Review Electronic Line Calling System (Review ELC)</HighlightText>{'\n\n'}
             A Line calling system with a challenge process (Line Umpires on-court)
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>Review ELC Official (RO) Protocol
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>Review ELC Official (RO) Protocol
+            </HighlightText>{'\n\n'}
             {'\n\n'}• RO shall be in direct communication with the CU.
             {'\n\n'}• Most desirable method is a direct talk box with a “push to talk” button. The alternative is dedicated walkie-talkie.
             {'\n\n'}• If using a computer to record the challenges load proper match into it.
@@ -68,8 +69,8 @@ export default function Rule177({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>Video Board
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>Video Board
+            </HighlightText>{'\n\n'}
             • During the warm-up, the following statement shall appear on the video board
             and remain visible for at least 90 seconds. This should coincide with the Announcer’s introductions (if an announcer is used).
             “This match will use Electronic Review as an officiating aid. Each player (team)
@@ -96,9 +97,9 @@ export default function Rule177({ navigation }) {
             {'\n\n'}• Graphic includes “Official Review”.
             {'\n\n'}• Graphic at bottom of the screen shows “IN” or “OUT”. The “in” / “out” will not
             appear until after the overhead zoom to enhance the drama of the video. Television will receive the exact same feed as the video board with the graphic
-            <Text style={RuleStyles.SubHeading3}>“OFFICIAL REVIEW”</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“OFFICIAL REVIEW”</HighlightText>
             and showing
-            <Text style={RuleStyles.SubHeading3}>“IN” or “OUT”.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“IN” or “OUT”.</HighlightText>
             {'\n\n'}• If review is not available, the RO shall notify the CU and then while the CU is
             informing the players, the graphic “Review Not Available - Original Call Stands”
             shall be sent to the video board. Reviews not available shall not count against
@@ -112,10 +113,10 @@ export default function Rule177({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>
+            <HighlightText style={RuleStyles.SubHeading2}>
               Announcing{'\n\n'}
               Chair Umpire
-            </Text>{'\n\n'}
+            </HighlightText>{'\n\n'}
             When a Challenge is made:
             {'\n\n'}• The Player shall clearly express their desire to have the call reviewed by stating, “I
             Challenge”. If the CU is not 100% sure that the Player is Challenging, then the CU
@@ -153,9 +154,9 @@ export default function Rule177({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>
+            <HighlightText style={RuleStyles.SubHeading2}>
               Additional REVIEW ELC procedures Specifically for Hawk Eye
-            </Text>{'\n\n'}
+            </HighlightText>{'\n\n'}
             • The RO will instruct the Hawkeye Operator that when the command “Stand By”
             is given, the operator will immediately say if the ball is “in” or “out” and give the
             measurement.
@@ -172,18 +173,18 @@ export default function Rule177({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>
+            <HighlightText style={RuleStyles.SubHeading2}>
               Additional REVIEW ELC Procedures Specifically for FoxTenn
-            </Text>{'\n\n'}
+            </HighlightText>{'\n\n'}
             In general, the role of the RO when working with FoxTenn is the same but there are
             some differences, which are going to be mentioned here.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Pre-match:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Pre-match:</HighlightText>
             {'\n\n'}• Check with the Operator that they have calibrated the lines for the appropriate
             event – singles or doubles.
             {'\n\n'}• During the warmup look at one image of the ball to make sure the system is ready.
             {'\n\n'}•
-            <Text style={RuleStyles.SubHeading3}>When the match starts:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>When the match starts:</HighlightText>
 
             {'\n\n'}• When giving “Standby”, the RO must also give the exact line. So, for example:
             “Standby –left near sideline”.
@@ -194,7 +195,7 @@ export default function Rule177({ navigation }) {
             {'\n\n'}• When the Challenge is made the RO will be looking at the live image and needs to
             confirm the bounce on the live image. There will be no numbers on the screen, so
             it’s
-            <Text style={RuleStyles.SubHeading3}>IMPERATIVE</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>IMPERATIVE</HighlightText>
             that the RO watch the match all the time to know which bounce
             it is.
             {'\n\n'}• When the VR operator says “ready”, the RO should have graphic image of the
@@ -210,19 +211,19 @@ export default function Rule177({ navigation }) {
             {'\n\n'}• As FoxTenn operates differently than Hawkeye, there is no option to look at some
             of the close balls from the points played, so, do not ask for that.
             {'\n\n'}•
-            <Text style={RuleStyles.SubHeading3}>IMPORTANT</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>IMPORTANT</HighlightText>
             to remember
-            <Text style={RuleStyles.SubHeading3}>LANGUAGE</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>LANGUAGE</HighlightText>
             to use:
             {'\n\t'}o
-            <Text style={RuleStyles.SubHeading3}>STAND BY </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>STAND BY </HighlightText>
             and the line (ex. STAND BY LEFT BASE)
             {'\n\t'}o
-            <Text style={RuleStyles.SubHeading3}>WORK ON IT </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>WORK ON IT </HighlightText>
             (when it’s not sure if the ball will be Challenged)
             {'\n\n'}• The CU’s chair is shown in a different position based on which camera is in use,
             but the
-            <Text style={RuleStyles.SubHeading3}>ORIENTATION POINT IS ALWAYS</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ORIENTATION POINT IS ALWAYS</HighlightText>
             the CU’s chair, so, left base will always
             be left base in relation to the CU’s chair, regardless of what side of the screen the
             chair is located at that particular Challenge.
@@ -230,38 +231,38 @@ export default function Rule177({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>
+            <HighlightText style={RuleStyles.SubHeading2}>
               Additional REVIEW ELC Procedures Specifically for FlightScope
-            </Text>{'\n\n'}
+            </HighlightText>{'\n\n'}
             At the beginning of the match Remember to check the
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1. INITIAL SCREEN</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1. INITIAL SCREEN</HighlightText>
             {'\n\n'}• To ensure the correct match is loaded
             {'\n\n'}• To ensure the player names are at the correct side of the court (after the coin toss)
             {'\n\n'}• To ensure the number of Challenges for each player is correct.
             {'\n\n'}• When there is a Challenge press the button
-            <Text style={RuleStyles.SubHeading3}>START CHALLENGE.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>START CHALLENGE.</HighlightText>
 
             {'\n\n'}2. When the RO presses
-            <Text style={RuleStyles.SubHeading3}>START CHALLENGE</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>START CHALLENGE</HighlightText>
             the RO will see
-            <Text style={RuleStyles.SubHeading3}>(WAITING FOR DATA)</Text>
-            <Text style={RuleStyles.SubHeading3}>
+            <HighlightText style={RuleStyles.SubHeading3}>(WAITING FOR DATA)</HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>
 
               {'\n\n'}• If DATA is displayed go to point 3,
               {'\n\n'}• if DATA NOT AVAILABLE is displayed, go to Point 8
-            </Text>
+            </HighlightText>
             {'\n\n'}3. If DATA is received the RO will have to choose the ball, which the RO can do in 2
             ways:
             {'\n\n'}• Press the dot with the number on the court (after the dot is pressed it will become
             red), or
             {'\n\n'}• Press the number at the bottom of the screen (yellow balls above
-            <Text style={RuleStyles.SubHeading3}>“CHOOSE BALL”</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“CHOOSE BALL”</HighlightText>
             writing)
 
             {'\n\n'}4. After choosing the ball, the RO needs to double-check if the RO has chosen the
             correct ball and
-            <Text style={RuleStyles.SubHeading3}>CONFIRM BALL</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>CONFIRM BALL</HighlightText>
 
             {'\n\n'}5. Next step is to confirm/change the area (darker grey color) to the correct area
             {'\n\n'}• If it is a serve, then one of the service boxes should be in darker color – if it’s incorrect, touch the screen to change the box
@@ -270,90 +271,90 @@ export default function Rule177({ navigation }) {
 
             {'\n\n'}6. When the RO confirms the area, the RO will see the screen with the information:
 
-            <Text style={RuleStyles.SubHeading3}>“WAITING FOR RESULT” If NO SHOTS WERE RECEIVED go to point 8.
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“WAITING FOR RESULT” If NO SHOTS WERE RECEIVED go to point 8.
+            </HighlightText>
             {'\n\n'}7. After the RO receives the result the RO will have to
-            <Text style={RuleStyles.SubHeading3}>PREVIEW the Challenge</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>PREVIEW the Challenge</HighlightText>
             – if
             everything is good and correct, press:
-            <Text style={RuleStyles.SubHeading3}>START ANIMATION </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>START ANIMATION </HighlightText>
             (system won’t let the RO
             send the Challenge to the board before the RO previews the Challenge)
 
 
             {'\n\n'}8. At point 2 or 6 the RO might receive the screen with the information
-            <Text style={RuleStyles.SubHeading3}>“NO DATA RECEIVED” </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“NO DATA RECEIVED” </HighlightText>
             or
-            <Text style={RuleStyles.SubHeading3}>“NO SHOTS WERE RECEIVED”</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“NO SHOTS WERE RECEIVED”</HighlightText>
             {'\n\n'}• If
-            <Text style={RuleStyles.SubHeading3}>“NO SHOTS WERE RECEIVED”</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“NO SHOTS WERE RECEIVED”</HighlightText>
             , the procedure is to ask the operator: “Do you
             have it?”
-            {'\n\t'}o <Text style={RuleStyles.SubHeading3}>YES</Text> –the operator will input the rally from their computer to the tablet or
+            {'\n\t'}o <HighlightText style={RuleStyles.SubHeading3}>YES</HighlightText> –the operator will input the rally from their computer to the tablet or
             {'\n\t'}o
-            <Text style={RuleStyles.SubHeading3}>NEED MORE TIME</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>NEED MORE TIME</HighlightText>
             – the operator will look for the rally and input it to the
             tablet or
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>• In both cases the RO needs to go back to the original procedure – DATA
-              available Point 2/ SHOT available Point 7)</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>• In both cases the RO needs to go back to the original procedure – DATA
+              available Point 2/ SHOT available Point 7)</HighlightText>
             {'\n\n'}•
-            <Text style={RuleStyles.SubHeading3}>NO – ORIGINAL CALL STANDS </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>NO – ORIGINAL CALL STANDS </HighlightText>
             (the RO presses the red button located under
             match time in the right top corner), see below
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>IMPORTANT INFORMATION:
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>IMPORTANT INFORMATION:
+            </HighlightText>{'\n\n'}
             1. Any time that the RO presses the button
-            <Text style={RuleStyles.SubHeading3}>START CHALLENGE
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>START CHALLENGE
+            </HighlightText>
             the system is
-            <Text style={RuleStyles.SubHeading3}>LOCKED
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>LOCKED
+            </HighlightText>
             and is not recording anything further, the RO has buttons that can be used
             in case a Challenge is not happening or has been cancelled:
             {'\n\n'}• If
-            <Text style={RuleStyles.SubHeading3}>“WAITING FOR DATA” or “WAITING FOR RESULT” press DISMISS
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“WAITING FOR DATA” or “WAITING FOR RESULT” press DISMISS
+            </HighlightText>
 
             {'\n\n'}• In any other case press
-            <Text style={RuleStyles.SubHeading3}>RELEASE
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>RELEASE
+            </HighlightText>
             (located in the bottom right corner)
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>NOTE:
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>NOTE:
+            </HighlightText>
             It is very important to
-            <Text style={RuleStyles.SubHeading3}>DISMISS/RELEASE
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>DISMISS/RELEASE
+            </HighlightText>
             as soon as it is known that there
             won’t be a Challenge to have the system fully functioning.
             {'\n\n'}2. Another button that the RO can see is
-            <Text style={RuleStyles.SubHeading3}>BACK
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>BACK
+            </HighlightText>
             – it can be used to go one step back at
             the time.
             {'\n\n'}3. In point 7 the RO sees the button
-            <Text style={RuleStyles.SubHeading3}>REPLAY
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>REPLAY
+            </HighlightText>
             – which can be used to replay the preview
             of the Challenge as many times as needed before the RO
-            <Text style={RuleStyles.SubHeading3}>START ANIMATION.
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>START ANIMATION.
+            </HighlightText>
 
             {'\n\n'}4. In point 3-5 two buttons can be seen -
-            <Text style={RuleStyles.SubHeading3}>PREVIOUS and NEXT
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>PREVIOUS and NEXT
+            </HighlightText>
             – this is the option to
             see all the bounces (long rally) as on the RO’s screen when the RO presses
-            <Text style={RuleStyles.SubHeading3}> START CHALLENGE
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> START CHALLENGE
+            </HighlightText>
             the RO will see the last 5 bounces –
-            <Text style={RuleStyles.SubHeading3}> It is strongly recommended
+            <HighlightText style={RuleStyles.SubHeading3}> It is strongly recommended
               NOT TO USE these buttons
-            </Text>
+            </HighlightText>
             unless necessary (there should be no reason to allow
             the Challenge of the ball that is 5 shots or more back).
             {'\n\n'}
@@ -361,27 +362,27 @@ export default function Rule177({ navigation }) {
             services (e.g. Scoreboards).
             {'\n\n'}
             At some events whenever the RO presses
-            <Text style={RuleStyles.SubHeading3}> START ANIMATION
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> START ANIMATION
+            </HighlightText>
             it will go directly to the
             scoreboard and will automatically go off-board when the animation is finished (the RO
             will have the option to press the button
 
-            <Text style={RuleStyles.SubHeading3}> OFF BOARD
-            </Text>-located in the bottom left cornerearlier if needed).
+            <HighlightText style={RuleStyles.SubHeading3}> OFF BOARD
+            </HighlightText>-located in the bottom left cornerearlier if needed).
             {'\n\n'}
             If FlightScope is not operating the scoreboards there will be an extra step when the
             RO releases it, the Challenge will be sent to the vendor who will be responsible to
             send to the board.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}> Review Official Protocol for Challengeable Shot
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading2}> Review Official Protocol for Challengeable Shot
+            </HighlightText>
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule177.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
         </ScrollView>
       
       </View>

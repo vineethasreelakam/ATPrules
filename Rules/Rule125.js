@@ -4,17 +4,18 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule125({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>9.01 Definitions</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>9.01 Definitions</HighlightText>{'\n\n'}
 
             A.The 2024 Pepperstone ATP Doubles Team Rankings is the mathematical method of
             ranking men’s doubles pairs on a calendar-year basis.
@@ -44,7 +45,7 @@ export default function Rule125({ navigation }) {
             system for 52 consecutive weeks.
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

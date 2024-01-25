@@ -4,19 +4,20 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule8({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>I. ATP CIRCUIT REGULATIONS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>I. ATP CIRCUIT REGULATIONS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>1.07 Commitment, Membership Obligations and Bonus Pool</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>1.07 Commitment, Membership Obligations and Bonus Pool</HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>A.Player Entry and Commitment to Rules </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>A.Player Entry and Commitment to Rules </HighlightText>{'\n\n'}
             Any player who is included in the Pepperstone ATP Rankings for singles (hereafter
             referred to as “Pepperstone ATP Rankings”) or the Pepperstone ATP Doubles Rankings and/or commits to enter or participates in any ATP Tour or ATP Challenger Tour
             tournament consents and agrees with the following:{'\n\n'}
@@ -60,19 +61,19 @@ export default function Rule8({ navigation }) {
             allowed to compete in any ATP Tour or ATP Challenger Tour event. This form
             will be provided by ATP upon request.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>B.Official Means of Communication </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>B.Official Means of Communication </HighlightText>{'\n\n'}
             The PlayerZone and Tour Weekly are ATP’s official means of communicating with its
             player members. All players must stay informed of all information published by ATP
             through these official means of communication. Notification of any modifications, deletions or
             additions to the rules set forth in this Rulebook shall be through such means
             of communication and shall become effective upon their publication.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>C.Commitment Player</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>C.Commitment Player</HighlightText>{'\n\n'}
             A 2024 ATP commitment player is any player positioned in the Top 30 in the ATP 2023
             Rankings (singles) as of November 13, 2023.{'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading2}>D.Commitment</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>D.Commitment</HighlightText>{'\n\n'}
             The commitment for the commitment player is, the singles event of all ATP Tour
             Masters 1000 tournaments for which he is accepted, the Nitto ATP Finals (if qualified
             as a direct acceptance or designated as the alternate) and four (4) ATP Tour 500
@@ -80,11 +81,11 @@ export default function Rule8({ navigation }) {
             and ranking purposes, the Monte Carlo Masters 1000 will be included in the minimum
             requirements for the 500 category.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>E. Commitment Player Entry Exception – Top 30 </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>E. Commitment Player Entry Exception – Top 30 </HighlightText>{'\n\n'}
             Except as otherwise set forth herein, commitment players are automatically accepted into the main draw of all ATP Tour
             500 events in which they have entered in a proper manner.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>F. Good Standing</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>F. Good Standing</HighlightText>{'\n\n'}
             A player is in good standing with ATP if he is in full compliance with all ATP Rules
             (including the Tennis Anti-Corruption Program Rules and Tennis Anti-Doping Pro-
             gramme), is not suspended and has paid/complied with any debts and/or obligations
@@ -101,7 +102,7 @@ export default function Rule8({ navigation }) {
             gram Rules and Tennis Anti-Doping Programme) shall remain payable unless other-
             wise determined by ATP.
 
-            <Text style={RuleStyles.SubHeading2}>G. ATP Tour 500 Bonus Pool</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>G. ATP Tour 500 Bonus Pool</HighlightText>{'\n\n'}
             Only members who are in good standing meet the Platinum Benefit eligibility criteria
             (as defined in Section 1 .21) and fulfill the ATP Tour 500 commitment requirements,
             shall be eligible for the ATP Tour 500 bonus pool. The order of standings will be
@@ -125,25 +126,25 @@ export default function Rule8({ navigation }) {
             If players have the same points breakdowns:
               3. The higher ranked player as per the Year-End Pepperstone ATP Singles
               Rankings wins the tie.{'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>H. ATP Tour Masters 1000 & Nitto ATP Finals
-              (“Finals”) Bonus Pool </Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>General. </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>H. ATP Tour Masters 1000 & Nitto ATP Finals
+              (“Finals”) Bonus Pool </HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>General. </HighlightText>{'\n\n'}
             The ATP Tour Masters 1000 and Nitto ATP Finals 2024 Bonus Pool will be
             USD $20,000,000. The order of standings will be based on total Pepperstone ATP
             Ranking points earned across the ATP Tour Masters 1000 and Nitto ATP Finals in
             2024. The bonus pool financial distribution is to be confirmed.{'\n\n'}
             The bonus pool distribution payment to players will be made by the end of January
             2025.{'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Conditions of Eligibility for ATP Tour Masters 1000 and Nitto ATP Finals
-              2024 Bonus Pool.</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>1) Conditions of Eligibility for ATP Tour Masters 1000 and Nitto ATP Finals
+              2024 Bonus Pool.</HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>a) Platinum Benefit Eligibility Criteria. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Platinum Benefit Eligibility Criteria. </HighlightText>
             Only members who are in good stand-
             ing and meet the Platinum Benefit eligibility criteria (as defined in Section
             1 .21 below) shall be eligible for the ATP Tour Masters 1000 and Nitto ATP
             Finals Bonus Pool.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>b) Nitto ATP Finals. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) Nitto ATP Finals. </HighlightText>
             All players must play, if they qualify, in the Nitto ATP Fi-
             nals.Alternates must appear and fulfill the requirements of the alternate, as
             determined by ATP. A player who is otherwise qualified but does not play in
@@ -155,16 +156,16 @@ export default function Rule8({ navigation }) {
             as described above, such player will not be eligible to receive any bonus, unless
             approved by ATP.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>c) Suspended player. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) Suspended player. </HighlightText>
             A player who is suspended from an event shall have the
             suspension count as a missed event for the bonus year in which the event is
             held.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>d) Not direct acceptance. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>d) Not direct acceptance. </HighlightText>
             Any player who is not a direct acceptance to a mandatory ATP Tour Masters 1000 event shall not have that event count as a
             missed event.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>e) Promotional work.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>e) Promotional work.</HighlightText>
             i) On-site promotional activities for withdrawn players are applicable for
             relief of fines, bonus pool reduction recoupment pursuant to Section
             1.07.H.2, and/or suspensions but shall not provide relief for the ranking
@@ -172,7 +173,7 @@ export default function Rule8({ navigation }) {
             ii) On-site promotional activities are not applicable to players missing the
             event due to being suspended.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>2) </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>2) </HighlightText>{'\n\n'}
             Subject to the limitations and eligibility criteria herein, players shall be eligible for
             the bonus pool in this section based upon the total Pepperstone ATP Rankings
             points earned at the ATP Tour Masters 1000 and Nitto ATP Finals events in 2024.
@@ -188,7 +189,7 @@ export default function Rule8({ navigation }) {
             In no event shall a player be able to recoup an amount greater than USD $200,000
             by fulfilling on-site promotional activities requirements.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>3) </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>3) </HighlightText>{'\n\n'}
             A player who, as of December 31, 2022, earned commitment and elected to main-
             tain his earned commitment reductions pursuant to the 2022 ATP Tour Official
             Rule Book shall continue to hold such commitment reductions and be bound by
@@ -197,28 +198,28 @@ export default function Rule8({ navigation }) {
             not be able to replace zero (0) point ranking penalties for missing ATP Tour Mas-
             ters 1000 tournaments for any reason except as permitted in Section 9.03).{'\n\n'}
             
-            <Text style={RuleStyles.SubHeading3}>4) </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>4) </HighlightText>{'\n\n'}
             The order of standings for the ATP Masters 1000 Bonus Pool will be based on
             the total Pepperstone ATP Rankings points earned across the  ATP Tour Masters
             1000 category and Nitto ATP Finals. {'\n\n'}
 
             Ties shall be broken as follows:{'\n\n'}  
 
-            <Text style={RuleStyles.SubHeading3}>1. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1. </HighlightText>
             Most ATP Tour 1000 events played; followed by{'\n\n'} 
 
-            <Text style={RuleStyles.SubHeading3}>1. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1. </HighlightText>
             The highest number of points earned from a single event, followed by the 2nd
             highest and so on.{'\n\n'}  
 
             If players have the same points breakdowns: {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>3. </Text>  
+            <HighlightText style={RuleStyles.SubHeading3}>3. </HighlightText>  
             The higher-ranked player, as per the Year-End Pepperstone ATP Singles
             Rankings, wins the tie
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

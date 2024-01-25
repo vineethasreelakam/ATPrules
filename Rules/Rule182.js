@@ -3,20 +3,23 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule182({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT X - Premier Player Protocol</Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT X - Premier Player Protocol</HighlightText>{'\n\n'}
             
-            <Text style={RuleStyles.SubHeading2}>
+            <HighlightText style={RuleStyles.SubHeading2}>
             Premier Player Group. 
-            </Text>
+            </HighlightText>
             Players ranked as a year-end top 30 player (commitment players) or have a current protected ranking within the top 10 are eligible to be selected in
             the premier player group for purposes of fulfilling the restriction on who is eligible to be
             named as an additional Wild Card at an ATP Tour 500 event. The size of the premier
@@ -38,9 +41,9 @@ export default function Rule182({ navigation }) {
             If additional A+ players are required and the designated A1 and A2 players have already been promoted or are otherwise not available, then the A+ replacement player
             will be the next highest ranked player on the most current Pepperstone ATP Rankings.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>
+            <HighlightText style={RuleStyles.SubHeading2}>
             Replacement protocol. 
-            </Text>
+            </HighlightText>
             The replacement of a Premier Player will automatically occur when any of the following apply:
             {'\n\n'}
             1) A Premier Player has withdrawn / retired from an event due to illness or injury and
@@ -50,7 +53,7 @@ export default function Rule182({ navigation }) {
             will be out of competition for a period of at least sixty (60) days; or
             {'\n\n'}
             3) A Premier Player announces his retirement; in this case he is replaced immediately following his last event.
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             The count shall begin on the withdrawal deadline date; the date of the retirement; the date of the late withdrawal; or the date of the on-site withdrawal, whichever
             was chronologically first.
             {'\n\n'}
@@ -62,7 +65,8 @@ export default function Rule182({ navigation }) {
 
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule181', next: 'Rule184', nav: navigation }} />

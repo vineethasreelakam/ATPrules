@@ -5,15 +5,19 @@ import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import { MaterialIcons, FontAwesome5 } from '@expo/vector-icons'
 import { NavigationStyles } from '../Rules/Styles.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
+
 export default function Rule188({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>INDEX</Text>
+          <HighlightText style={RuleStyles.MainHeading}>INDEX</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule188.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>INDEX</Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>INDEX</HighlightText>{'\n\n'}
 
             {'\n\n'}A{'\n\n'}
             
@@ -357,8 +361,8 @@ export default function Rule188({ navigation }) {
             {'\n\n'}Lucky Losers 168 <FontAwesome5 onPress={() => { navigation.navigate("Rule56"); }} style={NavigationStyles.ButtonIconStyle} name="link"/>
             {'\n\n'}Selection 168 <FontAwesome5 onPress={() => { navigation.navigate("Rule56"); }} style={NavigationStyles.ButtonIconStyle} name="link"/>
             {'\n\n'}Substitution 168 <FontAwesome5 onPress={() => { navigation.navigate("Rule56"); }} style={NavigationStyles.ButtonIconStyle} name="link"/>
-            </Text>
-            <Text style={RuleStyles.Description}>
+            </HighlightText>
+            <HighlightText style={RuleStyles.Description}>
             {'\n\n'}M{'\n\n'}
             {'\n\n'}Main Draw 7 <FontAwesome5 onPress={() => { navigation.navigate("Rule56"); }} style={NavigationStyles.ButtonIconStyle} name="link"/>
             {'\n\n'}Mandatory Player Meeting 14 <FontAwesome5 onPress={() => { navigation.navigate("Rule56"); }} style={NavigationStyles.ButtonIconStyle} name="link"/>
@@ -670,7 +674,8 @@ export default function Rule188({ navigation }) {
             {'\n\n'}World Championships 67 <FontAwesome5 onPress={() => { navigation.navigate("Rule56"); }} style={NavigationStyles.ButtonIconStyle} name="link"/>
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule187', next: 'Rule192', nav: navigation }} />

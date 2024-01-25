@@ -3,6 +3,9 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
+
 
 
 export default function Rule73({ navigation }) {
@@ -10,25 +13,26 @@ export default function Rule73({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>6.09 Communication Devices</Text>
+                    <ZoomText>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>6.09 Communication Devices</HighlightText>
                         {'\n\n'}
                         Each tournament must provide communication devices to the Referee, Chief of Umpires, and Physiotherapist(s) except if otherwise approved by ATP. In addition, the
                         following equipment is required to be on-site:
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A.Copy machine</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>A.Copy machine</HighlightText>
                         {'\n\n'}
                         A copy machine should be provided in, or near, the Supervisor’s office. Copy machine should be available on the morning prior to the start of the qualifying competition.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>B. Printer</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>B. Printer</HighlightText>
                         {'\n\n'}
                         A printer shall be provided in the office of the Supervisor. Printer should be available
                         on the morning prior to the start of the qualifying competition and be available through
                         the last match of the tournament.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>C.Internet</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>C.Internet</HighlightText>
                         {'\n\n'}
                         Always-on high speed Internet connection is to be provided in the offices of the ATP
                         Supervisor, ATP Tour Manager, ATP Physiotherapist, ATP scoring system specialist
@@ -37,7 +41,7 @@ export default function Rule73({ navigation }) {
                         Tournaments are recommended to use web filtering technology to restrict access to
                         internet gambling sites in all areas where tournament provided access is provided.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>D. Live Scoring</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>D. Live Scoring</HighlightText>
                         {'\n\n'}
                         Each Tournament shall be responsible for the set up and maintenance of a network
                         based on specifications provided by ATP, to support live scoring services for each
@@ -60,7 +64,7 @@ export default function Rule73({ navigation }) {
                         to support live scoring. Tournaments are not required to provide live scoring support
                         for qualifying matches played at an alternate venue.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>E. Live Streaming</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>E. Live Streaming</HighlightText>
                         {'\n\n'}
                         Each Challenger tournament shall be responsible for providing and bearing the cost
                         of a secure adequate office space within reasonable distance of the streamed competition courts. In addition, power, including but not limited to an uninterruptible power
@@ -69,7 +73,8 @@ export default function Rule73({ navigation }) {
 
                         {'\n\n'}
 
-                    </Text>
+                    </HighlightText>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule72', next: 'Rule74', nav: navigation }} />

@@ -3,24 +3,27 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule58({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.07 Chair Umpire / Review Official</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.07 Chair Umpire / Review Official</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}> A.Assignment and Designation Process</Text>
+            <HighlightText style={RuleStyles.SubHeading2}> A.Assignment and Designation Process</HighlightText>
             {'\n\n'}
             1) ATP Tour Tournaments. Officials required to support the tournament are as follows:
             {'\n\n'}
             ATP shall hire designated Chair Umpires as follows:
             {'\n\n'}
-            <Text style={RuleStyles.underlineTextStyle}>Main Draw Size (Singles)</Text><Text style={RuleStyles.underlineTextStyle}> Total # of chair Umpires</Text>
+            <HighlightText style={RuleStyles.underlineTextStyle}>Main Draw Size (Singles)</HighlightText><HighlightText style={RuleStyles.underlineTextStyle}> Total # of chair Umpires</HighlightText>
             96 9
             {'\n\n'}
             56 7
@@ -31,7 +34,7 @@ export default function Rule58({ navigation }) {
             {'\n\n'}
             28 4
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>NOTE:</Text>  In the event the tournament elects to employ the services of an electronic
+            <HighlightText style={RuleStyles.SubHeading3}>NOTE:</HighlightText>  In the event the tournament elects to employ the services of an electronic
             line calling system, ATP will hire a Review Official in addition to the Chair Umpires
             as stated above.
             Each tournament is required to provide supplemental Chair Umpires approved
@@ -39,22 +42,22 @@ export default function Rule58({ navigation }) {
             not covered by the designated Chair Umpires hired by ATP. Supplemental Chair
             Umpires must have international certification of Gold, Silver or Bronze.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments.</Text>Tournaments must hire Chair Umpires as
+            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments.</HighlightText>Tournaments must hire Chair Umpires as
             specified below:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Chair Umpires.</Text> Each tournament shall have a minimum of four (4) designated Chair Umpires for the entire week as selected and coordinated by ATP.
+            <HighlightText style={RuleStyles.SubHeading3}>a) Chair Umpires.</HighlightText> Each tournament shall have a minimum of four (4) designated Chair Umpires for the entire week as selected and coordinated by ATP.
             Under special circumstances, ATP may require additional Chair Umpire(s) to
             be hired by the tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) Supplemental Chair Umpires.</Text> Each tournament shall provide supplemental
+            <HighlightText style={RuleStyles.SubHeading3}>b) Supplemental Chair Umpires.</HighlightText> Each tournament shall provide supplemental
             Chair Umpires approved by ATP for matches not covered by the designated
             Chair Umpires. Supplemental Chair Umpires must have certification of Gold,
             Silver, Bronze or White.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>B.Fees and Expenses</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Fees and Expenses</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour and ATP Challenger Tour Tournaments.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour and ATP Challenger Tour Tournaments.</HighlightText>
             {'\n\n'}
             ATP shall pay the fees and travel expenses of the designated Chair Umpires and
             review officials (if any) hired by ATP
@@ -65,13 +68,13 @@ export default function Rule58({ navigation }) {
             Each ATP Challenger Tour tournament shall pay a fair and reasonable fee and
             travel expense to each Chair Umpire hired by the tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C.Genera</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.Genera</HighlightText>
             {'\n\n'}
             Chair umpires are assigned matches by the ATP Supervisor and are responsible to
             ensure those matches are conducted according to the rules of ATP in order to present
             a professional tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D.Responsibilities</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D.Responsibilities</HighlightText>
             {'\n\n'}
             1) Enforce all ATP Rules and Regulations and on-court procedures to ensure accuracy, fairness and safety. Ensure that the players and all on-court officials observe
             the rules.
@@ -179,7 +182,7 @@ export default function Rule58({ navigation }) {
             all work or data he/she collects or creates in connection with any match shall constitute a “work made for hire” and any and all rights attributable to such work shall
             be retained by, or if necessary automatically assigned to, ATP and its members
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Clothing - ATP Tour</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Clothing - ATP Tour</HighlightText>
             {'\n\n'}
             The officiating uniform provided by ATP must be worn. No other commercial branding
             may be applied to the uniform without prior approval from ATP.
@@ -187,7 +190,8 @@ export default function Rule58({ navigation }) {
 
             {'\n\n'}
 
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule57', next: 'Rule59', nav: navigation }} />

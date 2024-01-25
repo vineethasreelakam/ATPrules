@@ -4,21 +4,22 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule187({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT AB - ATP Fantasy Sport and Betting Sponsorship</Text>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT AB - ATP Fantasy Sport and Betting Sponsorship</HighlightText>
            
            
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A. Compliance with the TACP
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>A. Compliance with the TACP
+            </HighlightText>{'\n\n'}
             The TACP currently provides that no Covered Person shall, directly or indirectly, facilitate any other person to wager on the outcome or any other aspect of any professional tennis event or any other tennis competition. The ITIA has determined that the
             provision of the following benefits by a tournament to a Tennis Betting Operator would
             be deemed to be “facilitation” and are therefore prohibited and subject to penalty
@@ -71,8 +72,8 @@ export default function Rule187({ navigation }) {
             
             
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B. Protecting the Integrity of the Sport
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>B. Protecting the Integrity of the Sport
+            </HighlightText>{'\n\n'}
             Any tournament that takes a sponsorship from a Tennis Betting Operator shall comply with the following:
             {'\n\n'}1) No Tennis Betting Operator as title and/or presenting sponsor of a tournament;No
             naming rights to player areas;
@@ -125,8 +126,8 @@ export default function Rule187({ navigation }) {
             
             
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C. Repute and Integrity of Tennis Betting Operators
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>C. Repute and Integrity of Tennis Betting Operators
+            </HighlightText>{'\n\n'}
             The following requirements are to provide transparency, assure compliance with Sections A and B, and assure the quality of the Tennis Betting Operator:
             {'\n\n'}1) Approval process:
             {'\n\t'}o Tournaments must apply to and secure approval from ATP at least thirty (30)
@@ -174,10 +175,10 @@ export default function Rule187({ navigation }) {
             {'\n\n'}9) Renewal / extension / amendment / early termination of agreement requires notification to, and approval by, ATP.
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule187.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule186', next: 'Rule188', nav: navigation }} />

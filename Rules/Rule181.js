@@ -4,16 +4,17 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule181({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT W - Writing Table For Umpire Chairs</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT W - Writing Table For Umpire Chairs</HighlightText>{'\n\n'}
             {'\n\n'}
             In an effort to provide a comfortable platform for the Chair Umpires to place their
             hardware such as tablet, walkie-talkie, net device handset, it is requested that all
@@ -40,14 +41,14 @@ export default function Rule181({ navigation }) {
             actual dimension of a 1 x 12 is 11 ½ inches wide by ¾ inches thick. A comparable
             product could also be used in countries using the metric standard.
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule181_1.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule181_2.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule181_3.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule180', next: 'Rule182', nav: navigation }} />

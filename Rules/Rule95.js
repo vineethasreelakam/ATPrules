@@ -3,6 +3,8 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule95({ navigation }) {
@@ -10,10 +12,11 @@ export default function Rule95({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>7.05 Withdrawal/Late Withdrawal Penalties</Text>
+                    <ZoomText>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>7.05 Withdrawal/Late Withdrawal Penalties</HighlightText>
                         {'\n\n'}
                         The following shall result when a player withdraws after the deadline from the singles
                         {'\n\n'}
@@ -32,9 +35,9 @@ export default function Rule95({ navigation }) {
                         on-site examination or player promotional activity provisions apply. Players included
                         in the draw that fail to appear on-site shall be classified as a late withdrawal.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>Whom To Fine?</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>Whom To Fine?</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>Player A and player B agree to play doubles together in a
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>Player A and player B agree to play doubles together in a
                         tournament, so player B signs the team in to play. On Monday,
                         player A withdraws from singles and consequently from doubles.
                         As player A does not come on-site for promotional activities, he is
@@ -42,7 +45,7 @@ export default function Rule95({ navigation }) {
                         Decision: Player A gets a fine for doubles while player B does not
                         as he is on-site.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>D.No Play After Withdrawal</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>D.No Play After Withdrawal</HighlightText>
                         {'\n\n'}
                         1) If a player withdraws after the entry/withdrawal deadline from the singles or doubles event of a Grand Slam, ATP Tour, ATP Challenger Tour or the qualifying
                         competition of an ATP Tour/Challenger Tour tournament for any reason, he may
@@ -58,74 +61,74 @@ export default function Rule95({ navigation }) {
                         Players, however, may continue playing in that event if the withdrawal from the
                         future event was for non-medical reasons.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>4) ATP TOUR:</Text> The exception to No Play after Withdrawal is the withdrawal of a
+                        <HighlightText style={RuleStyles.SubHeading3}>4) ATP TOUR:</HighlightText> The exception to No Play after Withdrawal is the withdrawal of a
                         team accepted into the main draw of an ATP Tour tournament through the advance entry method due to one or both team members being accepted into the
                         main draw singles of another ATP Tour, ATP Tour Qualifying or ATP Challenger
                         Tour tournament. In this case, both players may enter a doubles competition,
                         together or separately, through the on-site entry method.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>ATP CHALLENGER TOUR: </Text>The exception to No Play after Withdrawal is
+                        <HighlightText style={RuleStyles.SubHeading3}>ATP CHALLENGER TOUR: </HighlightText>The exception to No Play after Withdrawal is
                         the withdrawal of a team accepted into the main draw of an ATP Challenger
                         Tour tournament through the advance entry method due to one or both team rnament and withdraws. Can he play an ATP
                         Challenger during the 2nd week of that tournament.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Yes as long as the withdrawal was prior to the start of
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Yes as long as the withdrawal was prior to the start of
                         qualifying.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player is an alternate on an ATP Tour Qualifying list and
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player is an alternate on an ATP Tour Qualifying list and
                         gets in and is inserted in the draw which is done before the official
                         withdrawal deadline due to the difference in time zones. Is he allowed to withdraw once he is in the draw and play somewhere else?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> When the player gets in the draw, he is automatically
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> When the player gets in the draw, he is automatically
                         withdrawn from any other qualifying event where he was an alternate. He will be allowed to withdraw (up until the Thursday, 10 AM
                         commitment deadline) from the event where he got in and not be
                         penalized. However, he will only be allowed to play doubles at the
                         same event.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> May a player withdraw from a tournament where he is a Direct Acceptance in singles or doubles (with his regular or protected
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> May a player withdraw from a tournament where he is a Direct Acceptance in singles or doubles (with his regular or protected
                         ranking) and then accept a wild card into the same tournament?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Yes, provided the withdrawal is prior to the withdrawal
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Yes, provided the withdrawal is prior to the withdrawal
                         deadline, a player may withdraw from a tournament and then accept
                         a wild card into the same tournament. For doubles, the wild card
                         must be with his original partner. He cannot accept a wild card
                         nor play in any other tournament or event in the same week as the
                         tournament he withdrew from. (Tour Policy)
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player accepted in an ATP Tour, ATP Challenger Tour main
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player accepted in an ATP Tour, ATP Challenger Tour main
                         draw or ATP Tour Qualifying list using a PR withdraws prior to the
                         withdrawal deadline and accepts a WC into the same event. Does
                         this tournament count towards the total tournaments at which the
                         player can use his PR?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> No, this tournament will not count towards the player’s
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> No, this tournament will not count towards the player’s
                         total of tournaments.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player withdraws from an ATP Tour tournament prior to the
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player withdraws from an ATP Tour tournament prior to the
                         Friday, 10 AM deadline with injury. He is allowed to play doubles in
                         the same event provided he is determined to be physically capable
                         to compete. Since he is coming on-site to play doubles, does he
                         have to do promotional activity?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> No, however, he is required to complete his Stars requirements if requested by ATP staff.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> No, however, he is required to complete his Stars requirements if requested by ATP staff.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> May a player withdraw BDA from the main draw alternate list
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> May a player withdraw BDA from the main draw alternate list
                         of an ATP Tour or Challenger event and play the Qualifying of the
                         same event?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Yes, unless he would have moved into the main draw of
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Yes, unless he would have moved into the main draw of
                         that event, had he not withdrawn. A player may not turn down this
                         main draw position to play the qualifying of that event. He may,
                         however, play the Qualifying of a different event.
                         Challenger Cancels, Where can I Play?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player enters and is main draw of a Challenger on the
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player enters and is main draw of a Challenger on the
                         original Acceptance List. The Challenger cancels. The deadline
                         has now passed for entering another Challenger or 250 tournament
                         during the same week. What are the player’s options for competing
                         that week?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The player may sign in as an Alternate at any ATP Tour
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The player may sign in as an Alternate at any ATP Tour
                         or ATP Challenger Tour qualifying event the same week. Or he may
                         accept, if offered, a Wild Card at any Challenger or ATP Tour event.
                         He may not be inserted directly into the draw or placed on another
@@ -133,32 +136,32 @@ export default function Rule95({ navigation }) {
                         {'\n\n'}
                         Options if Tournament Changes Surface after the Entry Deadline
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> Can a player withdraw from the main draw and play elsewhere during the same week if a tournament changes its surface
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> Can a player withdraw from the main draw and play elsewhere during the same week if a tournament changes its surface
                         after the Acceptance List has come out?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The player may sign in for Qualifying at any event that
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The player may sign in for Qualifying at any event that
                         week or he may accept, if offered, a Wild Card at any Challenger or
                         ATP Tour event. He may not be inserted directly into the draw or
                         placed on another Acceptance List.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A doubles team enters 4 Challenger tournaments in the same
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A doubles team enters 4 Challenger tournaments in the same
                         week through phone or email. The team is accepted and appears
                         on two draws at the same time as well as the alternate lists of the
                         other 2 tournaments. Is the team allowed to withdraw from one of
                         the events it is accepted into and play at the other one?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> No. The team is in violation of the One Tournament Per
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> No. The team is in violation of the One Tournament Per
                         Week and No Play After Withdrawal rules and will be withdrawn
                         from all tournaments that week.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player moves from the Alternate list into a Challenger Singles Main Draw at the 10 AM deadline on Friday before the event
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player moves from the Alternate list into a Challenger Singles Main Draw at the 10 AM deadline on Friday before the event
                         and later appears in the draw. Not knowing that he is in the main
                         draw of a tournament already, the player requests and receives a
                         Main Draw wild card at another Challenger tournament the same
                         week and appears in the draw. Is the player allowed to withdraw
                         from one of the events and compete at the other one?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>No. The player is in violation of the One Tournament
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>No. The player is in violation of the One Tournament
                         Per Week and No Play After Withdrawal rules and will be withdrawn
                         from both tournaments that week.
                         {'\n\n'}
@@ -175,7 +178,8 @@ export default function Rule95({ navigation }) {
                         to a fine in accordance with article 8.03 B., Fines.
 
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule94', next: 'Rule96', nav: navigation }} />

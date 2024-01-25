@@ -4,6 +4,7 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule107({ navigation }) {
@@ -11,13 +12,13 @@ export default function Rule107({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
                     <ZoomText>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>7.17 Qualifying Placement </Text>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>7.17 Qualifying Placement </HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A.Singles</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>A.Singles</HighlightText>
                         {'\n\n'}
                         1) There will be one section, having two (2) seeds, for each qualifying position in the
                         main draw. The first seed shall be placed at the top of the first section. The second
@@ -30,12 +31,12 @@ export default function Rule107({ navigation }) {
                         spaces not occupied by the seeds or byes beginning at the top of the draw.
 
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}> B.Doubles</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}> B.Doubles</HighlightText>
                         Two teams shall be seeded in a four-draw event with the seeds being placed on
                         lines 1 and 4.
 
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
                     </ZoomText>
                 </ScrollView>
             </View >

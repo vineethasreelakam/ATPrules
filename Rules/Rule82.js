@@ -3,6 +3,8 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule82({ navigation }) {
@@ -10,10 +12,11 @@ export default function Rule82({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>6.18 On-Site Access / Limits to On-Site Access</Text>
+                    <ZoomText>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>6.18 On-Site Access / Limits to On-Site Access</HighlightText>
                         {'\n\n'}
                         The ATP CEO, or his designee, may, in his sole discretion, instruct any ATP Tour or
                         ATP Challenger Tour tournament to prohibit any person from obtaining access to any
@@ -23,7 +26,8 @@ export default function Rule82({ navigation }) {
                         CEO, or his designee may have, in his sole discretion, that such person may pose
                         any issue with respect to security, reputation, integrity, misconduct, or competition.
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule81', next: 'Rule83', nav: navigation }} />

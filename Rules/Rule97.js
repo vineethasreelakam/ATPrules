@@ -3,6 +3,8 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule97({ navigation }) {
@@ -10,12 +12,13 @@ export default function Rule97({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>7.07 Play-Up Regulation (ATP Challenger Tour Tournaments)</Text>
+                    <ZoomText>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>7.07 Play-Up Regulation (ATP Challenger Tour Tournaments)</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A.Restrictions - Challengers 75-125</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>A.Restrictions - Challengers 75-125</HighlightText>
                         {'\n\n'}
                         1) Players positioned 1-10 in the Pepperstone ATP Rankings twenty-one (21) days
                         prior to the first Monday of the ATP Challenger Tour tournament are prohibited from entering, accepting a wild card and/or competing in an ATP Challenger
@@ -51,10 +54,10 @@ export default function Rule97({ navigation }) {
                         {'\n\n'}
                         ATP Challenger 75 no wild card
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}></Text>NOTE: These restrictions apply only to singles draws.
+                        <HighlightText style={RuleStyles.SubHeading3}></HighlightText>NOTE: These restrictions apply only to singles draws.
                         {'\n\n'}
 
-                        <Text style={RuleStyles.SubHeading2}>B. Restrictions - Challenger 50 </Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>B. Restrictions - Challenger 50 </HighlightText>
                         {'\n\n'}
                         Players positioned 1-150 in the Pepperstone ATP Rankings twenty-one (21) days
                         prior to the first Monday of the ATP Challenger Tour tournament are prohibited
@@ -68,36 +71,37 @@ export default function Rule97({ navigation }) {
                         {'\n\n'}
                         101-150 1 wild card - no nationality restriction
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player ranked between 11-50 asks for a wild card into an
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player ranked between 11-50 asks for a wild card into an
                         ATP Challenger 100 and is denied by the tournament. The player
                         then signs in for the qualifying. Is he allowed to play qualifying?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> He is allowed to play only if the tournament grants him
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> He is allowed to play only if the tournament grants him
                         a wild card into the qualifying. The WC, however, will not count
                         against the maximum allowed number of 11-50 players for the
                         tournament.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player ranked 11-50 at the time of the entry deadline asks
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player ranked 11-50 at the time of the entry deadline asks
                         for a wild card into an ATP Challenger 100 and is denied by the
                         tournament. The players ranking then drops below 50 and he signs
                         in for the qualifying. Is he allowed to play qualifying?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>Yes. Since his ranking dropped below 50, he is allowed
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>Yes. Since his ranking dropped below 50, he is allowed
                         to sign in and play qualifying and does not need a wild card.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> May a player who was ranked in the 11-50 range at the time
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> May a player who was ranked in the 11-50 range at the time
                         of the entry deadline into an ATP Challenger 75 event, but whose
                         ranking falls below this at the time of the qualifying sign-in, be accepted into the event as a main draw or qualifying wild card or
                         sign-in for the qualifying event?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> No. The rule under 7.07 A 2) states that these players are
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> No. The rule under 7.07 A 2) states that these players are
                         prohibited from entering, accepting a wild card or competing in an
                         ATP Challenger 75 tournament.
                         {'\n\n'}
 
 
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule96', next: 'Rule98', nav: navigation }} />

@@ -3,16 +3,19 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule62({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.11 Ball Persons</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.11 Ball Persons</HighlightText>
             {'\n\n'}
             Each ATP Tour and ATP Challenger Tour tournament must provide ball persons for all
             main draw and qualifying competition matches. Ball persons should be on-site and
@@ -20,14 +23,14 @@ export default function Rule62({ navigation }) {
             persons available until the conclusion of play each day.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>A.Number.</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Number.</HighlightText>
             {'\n\n'}
             At ATP Tour events, six (6) ball persons are recommended per court. At Challenger
             Tour events a minimum number of four (4) ball persons is required per court, although
             it is recommended to provide six (6)
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>B.Clothing</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Clothing</HighlightText>
             {'\n\n'}
             Clothing provided by the tournament for ball persons shall not be solid white, yellow
             or other colors that may interfere with the vision of the players, unless otherwise approved by ATP. It is recommended that dark-colored clothing be avoided for outdoor
@@ -37,7 +40,8 @@ export default function Rule62({ navigation }) {
 
             {'\n\n'}
 
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule61', next: 'Rule63', nav: navigation }} />

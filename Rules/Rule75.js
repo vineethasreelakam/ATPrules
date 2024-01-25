@@ -3,6 +3,8 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule75({ navigation }) {
@@ -10,10 +12,11 @@ export default function Rule75({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>6.11 Player Benefits - Guest Passes/Credentials/Tickets</Text>
+                    <ZoomText>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>6.11 Player Benefits - Guest Passes/Credentials/Tickets</HighlightText>
                         {'\n\n'}
                         A player entered in ATP Tour and ATP Challenger Tour tournaments shall be issued
                         a reasonable number (a minimum of two) guest passes/credentials for his use while
@@ -33,14 +36,14 @@ export default function Rule75({ navigation }) {
                         accommodations are expressly subject to the “Limits to On-Site Access” set forth in
                         the Rulebook.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>Combined Events.</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>Combined Events.</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>A.Players.</Text> Players shall receive two (2) tickets per day while they are still competing.
+                        <HighlightText style={RuleStyles.SubHeading3}>A.Players.</HighlightText> Players shall receive two (2) tickets per day while they are still competing.
                         For ticketed matches, a player box with a minimum of six (6) seats shall be provided
                         for that players’ match only. The boxes should be equally located at opposite ends of
                         the court.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>B.Staff.</Text> Each Tournament must provide the ATP and WTA each three (3) seats close to
+                        <HighlightText style={RuleStyles.SubHeading3}>B.Staff.</HighlightText> Each Tournament must provide the ATP and WTA each three (3) seats close to
                         the entrance of and with easy access to the court during all matches for the following
                         ATP/WTA staff members: (i) Supervisor; (ii) Physiotherapist / PHCP; and (iii) Tour
                         Manager / PR representative.
@@ -48,7 +51,8 @@ export default function Rule75({ navigation }) {
 
                         {'\n\n'}
 
-                    </Text>
+                    </HighlightText>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule74', next: 'Rule76', nav: navigation }} />

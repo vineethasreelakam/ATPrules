@@ -3,18 +3,21 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule52({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.01 Tournament Director</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.01 Tournament Director</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Appointment</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Appointment</HighlightText>
             {'\n\n'}
             1) A tournament may change the Tournament Director named in the tournament
             application by submitting the proposed change to the ATP Board for approval.
@@ -23,7 +26,7 @@ export default function Rule52({ navigation }) {
             upon a finding that such Tournament Director has failed to or refused to comply
             with any provision of ATP’s rules and regulations.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Responsibilities</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Responsibilities</HighlightText>
             {'\n\n'}
             Each Tournament Director shall:
             {'\n\n'}
@@ -33,12 +36,13 @@ export default function Rule52({ navigation }) {
             {'\n\n'}
             3) Not go on court during a match (including warm-up) or otherwise become involved in any Code of Conduct matter.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>NOTE:</Text> Tournament Directors are prohibited from playing in their own event (Tour
+            <HighlightText style={RuleStyles.SubHeading2}>NOTE:</HighlightText> Tournament Directors are prohibited from playing in their own event (Tour
             Policy)
             {'\n\n'}
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule51', next: 'Rule53', nav: navigation }} />

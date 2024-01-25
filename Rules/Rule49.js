@@ -4,24 +4,25 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule49({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>IV. WORLD CHAMPIONSHIPS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
 
-            <Text style={RuleStyles.SubHeading1}>4.03 United Cup</Text>
+            <HighlightText style={RuleStyles.SubHeading1}>4.03 United Cup</HighlightText>
             {'\n\n'}
             The United Cup is an annual country vs country mixed team competition. Eighteen
             (18) countries will participate, with a minimum of two ATP and two WTA players per
             country
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Round Robin Competition</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Round Robin Competition</HighlightText>
             {'\n\n'}
             1) The United Cup is a competition for eighteen (18) teams, each team composed
             of a minimum of two (2) ATP and two (2) WTA players and a maximum of three
@@ -60,14 +61,14 @@ export default function Rule49({ navigation }) {
             each city will be awarded to the best runner up in that City. Winners will advance
             to the Semi-Finals, to be hosted in the Finals City.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Player Nationality / Change of Nationality</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Player Nationality / Change of Nationality</HighlightText>
             {'\n\n'}
             A player’s nationality as of the entry date shall be used to determine team entry. All
             player nationality determinations are subject to ATP/WTA approval.
-            <Text style={RuleStyles.SubHeading2}>1) Nationality.</Text> A player’s nationality on the date of that country’s acceptance to the
+            <HighlightText style={RuleStyles.SubHeading2}>1) Nationality.</HighlightText> A player’s nationality on the date of that country’s acceptance to the
             United Cup shall determine the player’s eligibility to compete for that country.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>2) Change of Nationality.</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>2) Change of Nationality.</HighlightText>
             {'\n\n'}
             a) A player may only represent one (1) country in the United Cup during their
             career, unless
@@ -91,9 +92,9 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             b) All requests to change a player’s nationality are subject to ATP/WTA approval.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C.Teams Qualifications</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.Teams Qualifications</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Entry.</Text> The teams shall be selected and entered in the following manner:
+            <HighlightText style={RuleStyles.SubHeading3}>1) Entry.</HighlightText> The teams shall be selected and entered in the following manner:
             {'\n\n'}
             a) A team shall be entered based upon the ATP/WTA Ranking (singles) of the
             country’s Number 1 singles player.
@@ -106,13 +107,13 @@ export default function Rule49({ navigation }) {
             If the Wild Card is needed for the host country, then the Wild Card team will
             be placed randomly into one of the six (6) groups.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>2) Entry – Deadline and Acceptance</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>2) Entry – Deadline and Acceptance</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Entry deadline:</Text>Tuesday 17 October 2023, 5pm Florida Time (Wednesday
+            <HighlightText style={RuleStyles.SubHeading3}>a) Entry deadline:</HighlightText>Tuesday 17 October 2023, 5pm Florida Time (Wednesday
             18 October 2023, 8am Sydney Time). The top fifteen (15) Direct Acceptance countries that qualify using 
             the 16 October 2023 ATP/WTA Ranking must confirm their acceptance to the competition by this deadline.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) At Second Qualification Date:</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) At Second Qualification Date:</HighlightText>
             The Second Qualification Date is designed to account for results and changes
             in ranking within the Top ATP and WTA eligible singles players since the
             Entry Deadline. The next highest ranked ATP and WTA eligible and entered
@@ -120,10 +121,10 @@ export default function Rule49({ navigation }) {
             x ATP and 1 x WTA qualifying teams, as long as the teams meet the minimum
             number of players required.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note:</Text>Players will only be eligible to qualify at second qualification date if they
+            <HighlightText style={RuleStyles.SubHeading3}>Note:</HighlightText>Players will only be eligible to qualify at second qualification date if they
             have entered at the entry deadline.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>3) Qualification.</Text> In order to qualify for the competition, a team that has accepted
+            <HighlightText style={RuleStyles.SubHeading2}>3) Qualification.</HighlightText> In order to qualify for the competition, a team that has accepted
             entry must comply with the following requirements:
             {'\n\n'}
             At this entry deadline, the Top 5 WTA qualified countries, Top 5 ATP qualified countries
@@ -154,7 +155,7 @@ export default function Rule49({ navigation }) {
             WTA player and does not wholly meet the qualification criteria pertaining to
             the ATP or WTA second player.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>4) Ties – Team Entry</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>4) Ties – Team Entry</HighlightText>
             {'\n\n'}
             The 6 Highest ranked ATP and 6 highest ranked WTA players determine the first 12
             teams. If players of the same nationality qualify a team in both ATP and WTA or within either ATP or WTA Top 6, the next ranked players outside of the Top 6 will qualify
@@ -176,7 +177,7 @@ export default function Rule49({ navigation }) {
             singles player (ATP or WTA) will take priority. If still equal, the team with the highest
             ranked second singles player will take priority.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>5) Ties – Individual Entry</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>5) Ties – Individual Entry</HighlightText>
             {'\n\n'}
             a) For spots 1-2 where entry is based on the ATP/WTA Ranking (Singles).
             {'\n\n'}
@@ -208,7 +209,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             • If still tied, coin toss
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>6) Withdrawal of entry</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>6) Withdrawal of entry</HighlightText>
             {'\n\n'}
             a) The deadline for withdrawal of entry for a player / team shall be as follows:
             {'\n\n'}
@@ -230,7 +231,7 @@ export default function Rule49({ navigation }) {
             be submitted to the ATP Appeals Tribunal/WTA, which consideration is limited
             to the fine only.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>7) Late Withdrawals / Substitutions</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>7) Late Withdrawals / Substitutions</HighlightText>
             {'\n\n'}
             a) Number 1 player withdraws after the deadline, 17 October 2023.
             {'\n\n'}
@@ -265,7 +266,7 @@ export default function Rule49({ navigation }) {
             and replaced by an alternate team if they do not have at least one member of
             the team ranked 250 or better in singles
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>8) Alternate Team Selection</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>8) Alternate Team Selection</HighlightText>
             {'\n\n'}
             a) The Alternate Team will be the first team out of the final selection.
             {'\n\n'}
@@ -276,7 +277,7 @@ export default function Rule49({ navigation }) {
             c) The Alternate Team may be selected for participation until 10:00 am local time
             in Perth/Sydney, the day prior to the start of competition.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>9) Withdrawals after Start of the Competition</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>9) Withdrawals after Start of the Competition</HighlightText>
             {'\n\n'}
             a) Any team that through withdrawals of team members has only one (1) player
             from each Tour remaining may continue in the competition as long as those
@@ -295,16 +296,16 @@ export default function Rule49({ navigation }) {
             a player compete in two events offering ATP/WTA Ranking points which are
             held in the same ranking week.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>10) Seeding</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>10) Seeding</HighlightText>
             Seeding for the event will be based off the combined regular ranking (no protected ranking/special ranking) of the top ATP and top WTA ranked player regardless
             of their qualification into the event. As per the entry order priority rule, where a
             combined ranking is equal between two teams, the team with the highest ranked
             singles player (ATP or WTA) will become the higher seed. If still equal, the team
             with the highest ranked second singles player will be the higher seed.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D. Competition Format</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D. Competition Format</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Host Cities</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Host Cities</HighlightText>
             {'\n\n'}
             Sydney and Perth will host Countries for the Group Stages and  Quarterfinals. Sydney
             will host the Semi Finals and Final.
@@ -318,9 +319,9 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             Which City hosts which combination of seeds to be determined at the Official Draw.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>1) Round Robin – The Groups</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>1) Round Robin – The Groups</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>The Draw-Teams 1-18</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>The Draw-Teams 1-18</HighlightText>
             {'\n\n'}
             a) The oﬃcial draw for the placement of teams 1-18 shall take place, on Monday
             23 October 2023.
@@ -345,7 +346,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             Groups will be assigned as follows:
             {'\n\n'}
-            <Text style={RuleStyles.underlineTextStyle}>Group A</Text>
+            <HighlightText style={RuleStyles.underlineTextStyle}>Group A</HighlightText>
             #1 seeded country, plus one randomly selected team from each of the following
             bands –
             {'\n\n'}
@@ -354,7 +355,7 @@ export default function Rule49({ navigation }) {
             • Seeded countries 13 – 18 inclusive of the final 2 countries to be included in
             the competition
             {'\n\n'}
-            <Text style={RuleStyles.underlineTextStyle}>Group B</Text>
+            <HighlightText style={RuleStyles.underlineTextStyle}>Group B</HighlightText>
             #2 seeded country, plus one randomly selected team from each of the following
             bands –
             {'\n\n'}
@@ -363,7 +364,7 @@ export default function Rule49({ navigation }) {
             • Seeded countries 13 – 18 inclusive of the final 2 countries to be included in
             the competition
             {'\n\n'}
-            <Text style={RuleStyles.underlineTextStyle}>Group C</Text>
+            <HighlightText style={RuleStyles.underlineTextStyle}>Group C</HighlightText>
             #3 seeded country, plus one randomly selected team from each of the following
             bands –
             {'\n\n'}
@@ -372,7 +373,7 @@ export default function Rule49({ navigation }) {
             • Seeded countries 13 – 18 inclusive of the final 2 countries to be included in
             the competition.
             {'\n\n'}
-            <Text style={RuleStyles.underlineTextStyle}>Group D</Text>
+            <HighlightText style={RuleStyles.underlineTextStyle}>Group D</HighlightText>
             #4 seeded country, plus one randomly selected team from each of the following
             bands –
             {'\n\n'}
@@ -381,7 +382,7 @@ export default function Rule49({ navigation }) {
             • Seeded countries 13 – 18 inclusive of the final 2 countries to be included in
             the competition
             {'\n\n'}
-            <Text style={RuleStyles.underlineTextStyle}>Group E</Text>
+            <HighlightText style={RuleStyles.underlineTextStyle}>Group E</HighlightText>
             #5 seeded country, plus one randomly selected team from each of the following
             bands –
             {'\n\n'}
@@ -390,7 +391,7 @@ export default function Rule49({ navigation }) {
             • Seeded countries 13 – 18 inclusive of the final 2 countries to be included in
             the competition
             {'\n\n'}
-            <Text style={RuleStyles.underlineTextStyle}>Group F</Text>
+            <HighlightText style={RuleStyles.underlineTextStyle}>Group F</HighlightText>
             #6 seeded country, plus one randomly selected team from each of the following
             bands –
             {'\n\n'}
@@ -399,7 +400,7 @@ export default function Rule49({ navigation }) {
             • Seeded countries 13 – 18 inclusive of the final 2 countries to be included in
             the competition
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>2) Daily Order of Play - The Tie</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>2) Daily Order of Play - The Tie</HighlightText>
             {'\n\n'}
             a) A tie consists of two (2) singles matches and one (1) mixed doubles match.
             {'\n\n'}
@@ -423,7 +424,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             iii) Mixed Doubles
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note:</Text> “Not Before” times may be assigned as determined by the organizers
+            <HighlightText style={RuleStyles.SubHeading3}>Note:</HighlightText> “Not Before” times may be assigned as determined by the organizers
             in consultation with the ATP Supervisor.
             {'\n\n'}
             e) Upon the completion of the mixed doubles match, the winner of the tie shall
@@ -435,17 +436,17 @@ export default function Rule49({ navigation }) {
             both Countries), and the money will be split evenly amongst the members of
             both teams.
             {'\n\n'}
-            </Text>
-            <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading2}>3) Format and Competition </Text>
+            </HighlightText>
+            <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading2}>3) Format and Competition </HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Groups</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Groups</HighlightText>
             {'\n\n'}
             There will be six Groups comprising of three countries in each group. Each
             city will host three groups (nine countries) for the Group stages, which will consist of round robin ties where each country will play both other countries in
             their group.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>4) Determination of Group Winners</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>4) Determination of Group Winners</HighlightText>
             {'\n\n'}
             a) Number of ties won
             {'\n\n'}
@@ -479,7 +480,7 @@ export default function Rule49({ navigation }) {
             the winner of the match between the two (2) remaining teams is the winner of
             the group.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Notes: </Text>In all tie-break situations, the following shall apply.
+            <HighlightText style={RuleStyles.SubHeading3}>Notes: </HighlightText>In all tie-break situations, the following shall apply.
             {'\n\n'}
             • Unplayed matches shall be scored as completed for purposes of matches
             played.
@@ -498,19 +499,19 @@ export default function Rule49({ navigation }) {
             • The Match Tie-Break (doubles) counts as a set won and for games won
             counts as 1-0.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>5) Quarterfinals</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>5) Quarterfinals</HighlightText>
             {'\n\n'}
             Group winners will advance to the Quarterfinals. One Quarterfinal spot in each
             city will be awarded to the best runner up in that City. Winners will advance to the
             Semi-Finals, to be hosted in the Finals City.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>6) Determination of Best Runner up Quarterfinal spot</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>6) Determination of Best Runner up Quarterfinal spot</HighlightText>
             {'\n\n'}
             a) Number of ties won
             {'\n\n'}
             b) Number of Ties Played
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Comment:</Text> 2-1 win-loss beats 2-0 win-loss. A 1-2 win-loss beats a 1-1 or 1-0
+            <HighlightText style={RuleStyles.SubHeading3}>Comment:</HighlightText> 2-1 win-loss beats 2-0 win-loss. A 1-2 win-loss beats a 1-1 or 1-0
             record. A team winning by walkover shall have the tie count in its results as a
             tie played. The team causing the walkover shall not have the tie counted as a
             tie played.
@@ -532,7 +533,7 @@ export default function Rule49({ navigation }) {
             d) If ii), iii), iv) or v) produce one superior team (first place), then the tie is broken,
             or
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Notes:</Text> In all tie-break situations, the following shall apply.
+            <HighlightText style={RuleStyles.SubHeading3}>Notes:</HighlightText> In all tie-break situations, the following shall apply.
             {'\n\n'}
             • Unplayed matches shall be scored as completed for purposes of matches
             played.
@@ -548,20 +549,20 @@ export default function Rule49({ navigation }) {
             • Any team that withdraws from any round robin tie after the first-round robin tie
             shall not be eligible for the Quarterfinals.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>6) Quarter finals  </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>6) Quarter finals  </HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>a) </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>a) </HighlightText>
             The eight (8) teams advancing to the knock-out rounds shall be placed in the
             draw as follows:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Sydney: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Sydney: </HighlightText>
             {'\n\n'}
             • The winner of Group 1 will play the best runner-up* from the remaining groups
             from the city
             {'\n\n'}
             • The winner of Group 3 will play the winner of Group 5*  
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Perth: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Perth: </HighlightText>
             {'\n\n'}
             • The winner of Group 2 will play the best runner-up* from the remaining groups
             from the city  
@@ -574,18 +575,18 @@ export default function Rule49({ navigation }) {
             To avoid that the runner-up teams in the quarter finals will swap position with the
             winner of the lowest ranked group in the specific city.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>7) Semi-Finals  </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>7) Semi-Finals  </HighlightText>
             {'\n\n'}
             The four winners of the quarterfinals will qualify for the Semi Finals in Sydney.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>8) The Final  </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>8) The Final  </HighlightText>
             {'\n\n'}
             • Final – Winner Semi Final 1 v Winner Semi Final 2
             {'\n\n'}
             a) The Champion Team shall be decided by the result of a straight knock-out
             competition.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Protected Ranking/Special Ranking*</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Protected Ranking/Special Ranking*</HighlightText>
             {'\n\n'}
             The following applies to any player with a Protected Ranking (“PR”)/Special Ranking
             (“SR”) that has been used in any manner during the competition or to qualify a country for
@@ -608,7 +609,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             8) May only be used at one (1) United Cup event
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>F. Schedule of Play</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>F. Schedule of Play</HighlightText>
             {'\n\n'}
             The following is the schedule of play unless otherwise determined by the Tournament
             Committee and Supervisor:
@@ -639,9 +640,9 @@ export default function Rule49({ navigation }) {
             9) The ATP/WTA Supervisors reserve the right to change the schedule of play, alter
             starting times and make other changes deemed necessary for the smooth running of the competitio
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>G.Team Captain / Team Coache</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>G.Team Captain / Team Coache</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Designation of Captain</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) Designation of Captain</HighlightText>
             {'\n\n'}
             a) The number one player on each team (the highest ATP/WTA singles ranked
             player) is by default the Team Captain, however each team can elect another player or person as Team Captain, provided such person is of the same
@@ -667,7 +668,7 @@ export default function Rule49({ navigation }) {
             competition. The Captain shall be subject to all provisions of the Player Code
             of Conduct, including those pertaining to Dress and Equipment.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Duties of the Captain.</Text> The duties of the Captain are as follows:
+            <HighlightText style={RuleStyles.SubHeading3}>2) Duties of the Captain.</HighlightText> The duties of the Captain are as follows:
             {'\n\n'}
             a) Designate the team’s lineup, after consultation with the team members;
             {'\n\n'}
@@ -681,7 +682,7 @@ export default function Rule49({ navigation }) {
             e) The Captain may speak to the Chair Umpire, however only the Player may
             initiate Challenges to line calls.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Individual Coaches*</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) Individual Coaches*</HighlightText>
             {'\n\n'}
             a) Each player may have his personal coach be the designated coach for his
             matches.
@@ -692,7 +693,7 @@ export default function Rule49({ navigation }) {
             not apply if the individual coach is also the Captain of a team. A Captain may only
             sit on court and coach for the team he is captaining.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) Duties of the Coach. </Text>The duties of the coach are as follows:
+            <HighlightText style={RuleStyles.SubHeading3}>4) Duties of the Coach. </HighlightText>The duties of the coach are as follows:
             {'\n\n'}
             a) During each match the player involved may use his personal coach to assist
             him during the match.
@@ -709,7 +710,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             f) The coach must adhere to the ATP Code of Conduct, including logo restrictions on attire.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>5) Player Designations</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>5) Player Designations</HighlightText>
             {'\n\n'}
             a) Each team Captain shall submit to the ATP/WTA Supervisor, in writing, the
             name of the two (2) singles players and the mixed doubles team selected
@@ -757,9 +758,9 @@ export default function Rule49({ navigation }) {
             h) In the event of a conduct default, the Supervisor may decide to remove the
             offending player(s) for the remainder of the tie or event.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>H. Medical</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>H. Medical</HighlightText>
             {'/n'}
-            <Text style={RuleStyles.SubHeading3}>1) Tournament Doctor</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) Tournament Doctor</HighlightText>
             {'\n\n'}
             a) An official Tournament Doctor is required to be present at all times during play
             and a reasonable time before play begins.
@@ -774,11 +775,11 @@ export default function Rule49({ navigation }) {
             b) Only the ATP Physiotherapist/WTA PHCP will be allowed on court during the
             match.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>I. Code of Conduct</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>I. Code of Conduct</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Players.</Text> All players are subject to the ATP/WTA Code of Conduct.
+            <HighlightText style={RuleStyles.SubHeading3}>1) Players.</HighlightText> All players are subject to the ATP/WTA Code of Conduct.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Dress and Equipment.</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Dress and Equipment.</HighlightText>
             {'\n\n'}
             i) All team members must dress in similar attire that identifies them with the
             country they are representing.
@@ -786,7 +787,7 @@ export default function Rule49({ navigation }) {
             ii) Team attire must be submitted to and approved by ATP/WTA in advance
             of the event.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Team Captain / Coaches.</Text> All Team Captains and Coaches are subject to the provisions specified in the ATP/WTA Code of Conduct regarding Dress and Equipment and conduct on-site during the event.
+            <HighlightText style={RuleStyles.SubHeading3}>2) Team Captain / Coaches.</HighlightText> All Team Captains and Coaches are subject to the provisions specified in the ATP/WTA Code of Conduct regarding Dress and Equipment and conduct on-site during the event.
             {'\n\n'}
             During matches, official functions and media appearances, all Team Captains
             shall wear tournament provided unbranded clothing (polo shirt / jacket/ hat) with
@@ -817,44 +818,44 @@ export default function Rule49({ navigation }) {
             during the match will result in the coach being removed from the court for the
             remainder of that Tie.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Fines.</Text> Any fines issued during the Tie will be levied against the individual.
+            <HighlightText style={RuleStyles.SubHeading3}>3) Fines.</HighlightText> Any fines issued during the Tie will be levied against the individual.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>J. Prize Money (All figures in U.S. dollars)</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>J. Prize Money (All figures in U.S. dollars)</HighlightText>
             {'\n\n'}
             Total Prize Money: USD$10,000,000 (USD$5,000,000 each for ATP and WTA)
             {'\n\n'}
-          </Text>
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_1.png'}}/>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             *If the Tie is decided following the singles matches, the doubles match may not be
             played, and the money will be split evenly amongst the members of both teams.
             {'\n\n'}
-          </Text>
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_2.png'}}/>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             All players on the team (whether the player plays a match or not) earn the same
             amount for a team win.
             {'\n\n'}
-          </Text>
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_3.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
          {/*  <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_4.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
  */}
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_5.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_6.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
 {/* 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_7.png'}}/>
-          <Text>{'\n\n'}</Text> */}
+          <HighlightText>{'\n\n'}</HighlightText> */}
 
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
           Ranking as of 16 October 2023 or 20 November 2023, for the teams accepted at the
           second qualification date.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Participation Fee Notes</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Participation Fee Notes</HighlightText>
             {'\n\n'}
             • Players may only receive a participation fee in one category. Players will receive
             a fee for singles or mixed doubles, whichever was used for their entry.
@@ -870,12 +871,12 @@ export default function Rule49({ navigation }) {
             • Players number 2-3 will receive 100% participation fee regardless of whether
             they compete in any of the Group state matches.
             {'\n\n'}
-          </Text>
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_8.png'}}/>
 
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
 
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             • Max of 30% per tie
             {'/n'}
             • Playing Singles and Doubles in same tie = 30%
@@ -896,31 +897,31 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_9.png'}}/>
-          <Text>{'\n\n'}</Text>
+          <HighlightText>{'\n\n'}</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_10.png'}}/>
-          <Text>{'\n\n'}</Text>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading2}>K. ATP/WTA Ranking Points</Text>
-            <Text style={RuleStyles.SubHeading3}>Singles
+          <HighlightText>{'\n\n'}</HighlightText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading2}>K. ATP/WTA Ranking Points</HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>Singles
               {'\n\n'}
-            </Text>
-            </Text>
+            </HighlightText>
+            </HighlightText>
             <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_11.png'}}/>
-            <Text>{'\n\n'}</Text>
+            <HighlightText>{'\n\n'}</HighlightText>
             WTA Only: WTA player who wins all 5 matches to receive 500 points. WTA player
             who wins 4 of 5 matches to receive a minimum of 325 points or points per the table
             above whichever is higher.
-            <Text>{'\n\n'}</Text>
-            <Text style={RuleStyles.Description}>
-              <Text style={RuleStyles.SubHeading2}>L. Walkovers</Text>
+            <HighlightText>{'\n\n'}</HighlightText>
+            <HighlightText style={RuleStyles.Description}>
+              <HighlightText style={RuleStyles.SubHeading2}>L. Walkovers</HighlightText>
               1) No points are awarded if no matches of the tie are played
               {'\n\n'}
               2) An individual match in the tie is won by a Walkover, points are awarded based
               upon the lowest ranking category (251+).
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>M. Media / STARS Obligations</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>M. Media / STARS Obligations</HighlightText>
               {'\n\n'}
               1) All teams are requested to arrive in Australia on time for any pre-event media /
               STARS commitments, to be arranged.
@@ -931,7 +932,7 @@ export default function Rule49({ navigation }) {
               match. However, the ATP/WTA PR Manager may approach the player following the singles match to obtain a few quotes to give to media, if requested.
               N.Jurisdiction Governing the competition
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>N. Jurisdiction Governing the competition</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>N. Jurisdiction Governing the competition</HighlightText>
               {'\n\n'}
               1) The Competition is sanctioned and recognized by ATP Tour, Inc. and WTA Tour.
               {'\n\n'}
@@ -943,7 +944,7 @@ export default function Rule49({ navigation }) {
               WTA Senior Vice President Competition & On-Site Operations, shall determine
               and resolve all questions not considered in these Rules and Regulations.
               {'\n\n'}            
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

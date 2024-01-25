@@ -3,42 +3,45 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule57({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.06 Supervisor</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.06 Supervisor</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}> A.Assignment & Designation</Text>
+            <HighlightText style={RuleStyles.SubHeading2}> A.Assignment & Designation</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments</HighlightText>
             {'\n\n'}
             An ATP Supervisor shall be provided by ATP for each ATP Tour tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments</HighlightText>
             {'\n\n'}
             ATP shall provide a Supervisor for each ATP Challenger Tour tournament.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Fees and Expenses</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Fees and Expenses</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>ATP Tour and ATP Challenger Tour Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>ATP Tour and ATP Challenger Tour Tournaments</HighlightText>
             {'\n\n'}
             ATP shall pay the fees and travel expenses of the supervisors hired by ATP.
             {'\n\n'}
             Each tournament must provide each Supervisor with single room hotel accommodations, meals and laundry. Complimentary rooms shall be in the player hotel or
             another hotel approved by ATP or the Supervisor.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C.Genera</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.Genera</HighlightText>
             {'\n\n'}
             The Supervisor at each ATP Tour and ATP Challenger Tour tournament is provided by ATP. Whenever the Supervisor is not available, the Supervisor shall
             designate an approved Referee or ATP Official to assume all duties and responsibilities. (All references to Supervisor inc
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D.Responsibilities</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D.Responsibilities</HighlightText>
             {'\n\n'}
             In all ATP Tour and ATP Challenger Tour tournaments the Supervisor shall:
             {'\n\n'}
@@ -90,7 +93,7 @@ export default function Rule57({ navigation }) {
             13) Decide with the Tournament Director the designation of the lowest tier of seats
             that surround the playing area of the courts at each tournament
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Clothing - ATP Tour</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Clothing - ATP Tour</HighlightText>
             {'\n\n'}
             The officiating uniform provided by ATP must be worn. No other commercial branding
             may be applied to the uniform without prior approval from ATP.
@@ -98,7 +101,8 @@ export default function Rule57({ navigation }) {
 
             {'\n\n'}
 
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule56', next: 'Rule58', nav: navigation }} />

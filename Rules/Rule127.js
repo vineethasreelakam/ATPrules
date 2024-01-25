@@ -4,20 +4,21 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule127({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</HighlightText>
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule2.png' }} />
 
           <ZoomText>
-            <Text style={RuleStyles.Description}>
-              <Text style={RuleStyles.SubHeading1}>9.03 Pepperstone ATP Rankings</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.Description}>
+              <HighlightText style={RuleStyles.SubHeading1}>9.03 Pepperstone ATP Rankings</HighlightText>{'\n\n'}
 
-              <Text style={RuleStyles.SubHeading2}>A. Commitment Players. </Text>
+              <HighlightText style={RuleStyles.SubHeading2}>A. Commitment Players. </HighlightText>
               The year-end Pepperstone ATP Rankings is based on calculating, for each player, his total points from the four (4) Grand Slams, the eight
               (8) mandatory ATP Tour Masters 1000 tournaments and the Nitto ATP Finals of the
               ranking period, the United Cup and his best seven (7) results from the United Cup, all
@@ -38,7 +39,7 @@ export default function Rule127({ navigation }) {
               competed and not received a ranking penalty at the ATP Tour Masters 1000 tournament to replace the score.
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>B. Non-commitment Players. </Text>
+              <HighlightText style={RuleStyles.SubHeading2}>B. Non-commitment Players. </HighlightText>
               The Pepperstone ATP Rankings is based on calculating,
               for each player, his total points from the four (4) Grand Slams, the eight (8) mandatory ATP Tour Masters 1000 tournaments and the Nitto ATP Finals of the ranking
               period, and his best seven (7) results from the United Cup, all ATP Tour 500, ATP
@@ -62,7 +63,7 @@ export default function Rule127({ navigation }) {
               the score.*
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>C. ATP Tour 500 – Ranking Penalty. </Text>
+              <HighlightText style={RuleStyles.SubHeading2}>C. ATP Tour 500 – Ranking Penalty. </HighlightText>
               A player’s (Commitment and Non-Commitment
               players) withdrawal from an ATP Tour 500 event whether on time or after the 10 AM
               deadline, shall result in a zero (0) point ranking penalty. Further non-consecutive
@@ -78,14 +79,14 @@ export default function Rule127({ navigation }) {
               an ATP Tour 500 ranking penalty.
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>* Note 1: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>* Note 1: </HighlightText>
               Commitment players who are unable to fulfill their commitment, are not eligible to appeal the ranking penalty.
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Note 2: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Note 2: </HighlightText>
               (Applicable for 9.03 A. B. C.). Players returning to competition with an Entry
               Protection Ranking may replace ranking penalties assessed during the period of injury with results obtained at tournaments following their return to competition.
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Note 3: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Note 3: </HighlightText>
               (Applicable for 9.03 A. and B.) Players who are out of competition for three or
               more consecutive months (13-weeks minimum) can replace zero-pointers as follows:
               {'\n\n'}
@@ -100,12 +101,12 @@ export default function Rule127({ navigation }) {
               {'\n\n'}
               *Players must submit application to Medical Committee to be eligible to replace zero-pointers.
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>D. </Text>
+              <HighlightText style={RuleStyles.SubHeading2}>D. </HighlightText>
               Loser points for the rounds achieved are awarded to players in any tournament not
               completed.
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>E. Ties. </Text>
+              <HighlightText style={RuleStyles.SubHeading2}>E. Ties. </HighlightText>
               When two or more players have the same total number of points, ties shall be
               broken as follows:
               {'\n\n'}
@@ -120,9 +121,9 @@ export default function Rule127({ navigation }) {
               second highest, and so on.
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>F. Entry Protection</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>F. Entry Protection</HighlightText>
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>1) Petition. </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>1) Petition. </HighlightText>
               A player may petition the ATP CEO, or his designee, for an entry protection when he is physically injured or has a documented medical illness and
               does not compete in any tennis event, including Special Events – Exhibitions, for
               a minimum period of six (6) months. The written petition must be received within
@@ -133,7 +134,7 @@ export default function Rule127({ navigation }) {
               {'\n\n'}
 
 
-              <Text style={RuleStyles.SubHeading3}>2) Calculation and Use. </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>2) Calculation and Use. </HighlightText>
               The entry protection shall be a position in the Pepperstone
               ATP Rankings, as determined by the player’s average Pepperstone ATP Rankings position during the first three (3) months* after his last event played. The entry protection shall be for entry into the main draw or qualifying competition or for
               special exempt consideration. The entry protection shall not be used for seeding
@@ -147,7 +148,7 @@ export default function Rule127({ navigation }) {
               player’s weeks away from competition in order to qualify for Entry Protection.
               {'\n\n'}
 
-              <Text style={RuleStyles.SubHeading3}>3) Limit of Use.</Text>
+              <HighlightText style={RuleStyles.SubHeading3}>3) Limit of Use.</HighlightText>
               {'\n\n'}
               a) If a player is physically injured and does not compete in any tennis event for
               a period of at least six (6) months but less than twelve (12) months, the entry
@@ -179,14 +180,14 @@ export default function Rule127({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>4) Expiration Date. </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>4) Expiration Date. </HighlightText>
               A player has three (3) years from his original last event played
               to activate his protected ranking and will not be eligible to use his entry protected
               ranking beyond this date. A player who does not compete in any tennis event, including Special Events – Exhibitions, for a period of three (3) years from the date
               of his original last event played will have his entry protection revoked.
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>5) Re-injury Protection. </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>5) Re-injury Protection. </HighlightText>
               A player who has returned to competition and re-injures
               himself may petition for a “freeze” of the nine (9) or twelve (12) month limit for
               competing using his protected ranking. To be eligible for the “freeze” the player
@@ -196,44 +197,44 @@ export default function Rule127({ navigation }) {
               were available when the “freeze” went into effect. A maximum of two (2) “freezes”
               are allowed during the nine (9) or twelve (12) month period.
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Note: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
               For purposes of this rule, three (3) months is calculated at thirteen (13)
               weeks; six (6) months is calculated at twenty-six (26) weeks; nine (9) months
               is calculated at thirty-nine (39) weeks; and twelve (12) months is calculated at
               fifty-two (52) weeks.
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Case: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
               A player requests an entry protection freeze after the three
               (3) year expiration has passed; however, his last event played is
               before the three (3) year expiration date. Can the player “freeze” his
               protected ranking?
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
               A player cannot request a “freeze” after the three (3) year
               expiration has passed.
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Case: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
               A player returns to competition following a “freeze”, the number of weeks remaining from the freeze extend beyond the three (3)
               year expiration date. Can the player use all remaining weeks past
               the three (3) year expiration date?
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
               A player cannot extend the use of his entry protected
               ranking beyond the three (3) year expiration date.
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Case: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
               A player accepted in an ATP Tour, ATP Challenger Tour main
               draw or ATP Tour/Challenger Qualifying list using a PR, withdraws
               prior to the withdrawal deadline and accepts a WC into the same
               event. Does this tournament count towards the total tournaments at
               which a player may use his PR?
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+              <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
               No, this tournament will not count towards the player’s
               total of tournaments.
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>G. Points.</Text> {'\n\n'}
+              <HighlightText style={RuleStyles.SubHeading2}>G. Points.</HighlightText> {'\n\n'}
               {'\n\n'}
               1) Points shall be allocated based on tournament category (Grand Slam, Nitto ATP
               Finals, ATP Tour Masters 1000, ATP Tour 500, ATP Tour 250, ATP Challenger
@@ -266,11 +267,11 @@ export default function Rule127({ navigation }) {
               {'\n\n\t'}*** 3 Points only if the main draw is larger than 32
               {'\n\n'}
 
-            </Text>
+            </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.VerticalImageStyle, ImageName: 'rule127.png' }} />
           <ZoomText>
-            <Text style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.Description}>
               * Nitto ATP Finals 1,500 for undefeated Champion (200 for each round robin match
               win, plus 400 for a semi-final win, plus 500 for the final win)
               {'\n\n'}
@@ -288,7 +289,7 @@ export default function Rule127({ navigation }) {
               {'\n\n'}
               Teams receiving a first round Bye and subsequently losing in the final round receive no points.
               {'\n\n'}
-            </Text>
+            </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

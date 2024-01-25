@@ -4,20 +4,21 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule186({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT AA - Sample Basic Accreditation Policy Wording</Text>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT AA - Sample Basic Accreditation Policy Wording</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>1. SCOPE AND TERM OF ACCREDITATION
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>1. SCOPE AND TERM OF ACCREDITATION
+            </HighlightText>{'\n\n'}
             1.1.This accreditation policy (the Policy) shall be binding on any person (the Accreditee) who has applied for or been issued with a temporary or permanent
             accreditation(the Accreditation) by or on behalf of [insert name of Tournament
             owner] (the Accreditor) in respect of the [insert year] [insert Tournament name]
@@ -32,8 +33,8 @@ export default function Rule186({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>2. TERM
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>2. TERM
+            </HighlightText>{'\n\n'}
             2.1.This Policy shall come into effect and be binding as between the Accreditor and
             Accreditee from the date of signature or online acceptance of this Policy by the
             Accreditee and shall terminate upon the conclusion of the Tournament in the relevant year (save that the Accreditee and the Accreditor agree that paragraphs
@@ -49,12 +50,12 @@ export default function Rule186({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>3. TERMS AND CONDITIONS
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>3. TERMS AND CONDITIONS
+            </HighlightText>{'\n\n'}
             3.1.In consideration for the grant to the Accreditee of his/her Accreditation, the Accreditee hereby agrees, undertakes and/or acknowledges (as applicable) that:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>General
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>General
+            </HighlightText>
             {'\n\n'}
             3.1.1.the Accreditation is strictly non-transferable and in particular the Accreditation
             may not be used as a prize or give-away or as part of any competition or promotion or other similar activity;
@@ -90,8 +91,8 @@ export default function Rule186({ navigation }) {
             party in attendance at the Tournament.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Ground Regulations/Access
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Ground Regulations/Access
+            </HighlightText>
 
 
             {'\n\n'}
@@ -105,8 +106,8 @@ export default function Rule186({ navigation }) {
             granted;
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Players
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Players
+            </HighlightText>
 
 
             {'\n\n'}
@@ -129,8 +130,8 @@ export default function Rule186({ navigation }) {
             designated areas, and only authorized accredited media representatives may access the press conference;
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Photographs/Filming (General)
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Photographs/Filming (General)
+            </HighlightText>
 
 
             {'\n\n'}
@@ -178,8 +179,8 @@ export default function Rule186({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Official Broadcast Partners
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Official Broadcast Partners
+            </HighlightText>
 
             {'\n\n'}
             3.1.15. if the Accreditee is working on behalf of a radio, TV or other media channel,
@@ -199,8 +200,8 @@ export default function Rule186({ navigation }) {
             of at least :30 seconds;
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>News Agencies
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>News Agencies
+            </HighlightText>
 
             {'\n\n'}
             3.1.16. if the Accreditee is not an Official Broadcast Accreditee but has been granted
@@ -222,8 +223,8 @@ export default function Rule186({ navigation }) {
             for news reporting and editorial use;
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Assignment of copyright
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Assignment of copyright
+            </HighlightText>
 
             {'\n\n'}
             3.1.17. if and to the extent that the Accreditee obtains, acquires or exercises any
@@ -234,8 +235,8 @@ export default function Rule186({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Tournament Website
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Tournament Website
+            </HighlightText>
 
             {'\n\n'}
             3.1.18. no text, photo and/or audio or video content whatsoever from the Tournament
@@ -243,8 +244,8 @@ export default function Rule186({ navigation }) {
             other media without the prior written consent of the Accreditor and/or the ATP;
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Data
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Data
+            </HighlightText>
 
             {'\n\n'}
             3.1.19. unless approved in advance in writing by the Accreditor or ATP, the Accreditee may not continually collect, disseminate, transmit, publish or release from
@@ -258,8 +259,8 @@ export default function Rule186({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Gambling
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Gambling
+            </HighlightText>
 
             {'\n\n'}
             3.1.20. he/she shall not engage, whether directly or through an intermediary and
@@ -278,8 +279,8 @@ export default function Rule186({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>4. DATA PROTECTION
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>4. DATA PROTECTION
+            </HighlightText>{'\n\n'}
             4.1.The Accreditor may use the Accreditee’s personal details (including his/her photograph) for the purposes of: assessing a request for Accreditation, administration,
             marketing and/or vetting/security checking. The Accreditor may also disclose the
             Accreditee’s personal details to its service providers and agents for these purposes and to the ATP/other tournament owners where the Accreditor reasonably
@@ -290,8 +291,8 @@ export default function Rule186({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>5. INDEMNITY AND LIMITATION OF LIABILITY
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>5. INDEMNITY AND LIMITATION OF LIABILITY
+            </HighlightText>{'\n\n'}
             5.1.The Accreditee hereby indemnifies and holds harmless the Accreditor and ATP
             against any direct loss or damage to the Accreditor or ATP or their employees,
             officers or agents or arising out of any dispute, proceedings, claim suit or other action brought against the Accreditor or ATP or their employees, officers or agents
@@ -310,8 +311,8 @@ export default function Rule186({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>6. MISCELLANEOUS
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>6. MISCELLANEOUS
+            </HighlightText>{'\n\n'}
             6.1. The Accreditor nominates [insert job title] as the representative (the Tournament
             Representative) to whom the Accreditee should direct any queries or complaints
             in connection with his/her Accreditation or the terms of this Policy.
@@ -330,7 +331,7 @@ export default function Rule186({ navigation }) {
             non-contractual) in relation to this Accreditation Policy.
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

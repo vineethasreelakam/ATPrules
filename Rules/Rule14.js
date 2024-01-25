@@ -3,18 +3,21 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule14({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>I. ATP CIRCUIT REGULATIONS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>I. ATP CIRCUIT REGULATIONS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>1.13 Stars Program</Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>1.13 Stars Program</HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>Responsibilities</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>Responsibilities</HighlightText>{'\n\n'}
 
             A.All players competing in the main draw of any ATP Tour tournament will be required,
             if asked, to participate in ATP sponsored activities.{'\n\n'}
@@ -61,7 +64,8 @@ export default function Rule14({ navigation }) {
 
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule13', next: 'Rule15', nav: navigation }} />

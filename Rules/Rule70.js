@@ -4,27 +4,28 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule70({ navigation }) {
     return (
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</HighlightText>
                     <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule3.png' }} />
                     <ZoomText>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>6.06 Equipment & Supplies</Text>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>6.06 Equipment & Supplies</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A.Placement /Approval</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>A.Placement /Approval</HighlightText>
                         {'\n\n'}
                         The Supervisor must approve the placement of items or equipment on any court. The
                         Supervisor may remove or have removed any item (including advertising) that may
                         affect the safety of a player, official or ballperson.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}> B.Chairs</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}> B.Chairs</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) Chair Umpire</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>1) Chair Umpire</HighlightText>
                         {'\n\n'}
                         a) The sitting platform of the chair for the Chair Umpire must be between six (6)
                         feet (1.83 m.) and eight (8) feet (2.44 m.) high. The seating area should be
@@ -44,7 +45,7 @@ export default function Rule70({ navigation }) {
                         umpire’s chair on the East side of the court in 2000 due to infrastructure or
                         other agreed unusual requirements.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>2) Line Umpire</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>2) Line Umpire</HighlightText>
                         {'\n\n'}
                         a) Each tournament shall provide chairs for service and base Line Umpires located on an extension of their respective lines along the side fence not closer
                         than twelve (12) feet (3.66 m.) from the doubles sideline. Chairs for sideline
@@ -57,13 +58,13 @@ export default function Rule70({ navigation }) {
                         positioned so that Line Umpires are not facing the sun unless otherwise approved by ATP. When the sun is not a factor, the chairs should be positioned
                         on the opposite side of the court from the Chair Umpire.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>3) Net Judge</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>3) Net Judge</HighlightText>
                         a) A sponsorship box, which surrounds the net judge chair, may not extend past
                         the net post into the court.
                         {'\n\n'}
                         b) An approved electronic net device can replace the net judge.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>4) Player</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>4) Player</HighlightText>
                         {'\n\n'}
                         a) Each tournament shall provide chairs for the players located on each side
                         of the Chair Umpire. As a guide, the front portion of the player chair/bench
@@ -72,12 +73,12 @@ export default function Rule70({ navigation }) {
                         {'\n\n'}
                         b) Umbrellas are required if the sun is a factor.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>C.Measuring Devices </Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>C.Measuring Devices </HighlightText>
                         {'\n\n'}
                         Each tournament shall provide a measuring stick, tape measure or other measuring
                         device for the measuring of the net height and location of the singles sticks.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>D.Net</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>D.Net</HighlightText>
                         {'\n\n'}
                         1) The net band shall be cloth, canvas or vinyl, and the net shall extend to the
                         ground, unless otherwise approved by the on-site Supervisor.
@@ -87,28 +88,28 @@ export default function Rule70({ navigation }) {
                         3) There can be no commercial or manufacturer identification on the net except as
                         approved by ATP.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Note: </Text>Each ATP Tour tournament will be provided with Oficial ATP Tour nets for a minimum of four (4) years (number of nets provided will vary depending on tournament category). These nets should be used for the tournament matches and practice during the tournament week only. Each tournament is responsible for properly storing the Oficial ATP Tour nets. Should damage caused by misuse, poor maintenance or modification lead to the need to replace the net, the costs for the new net will be tournament responsibility.
+                        <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>Each ATP Tour tournament will be provided with Oficial ATP Tour nets for a minimum of four (4) years (number of nets provided will vary depending on tournament category). These nets should be used for the tournament matches and practice during the tournament week only. Each tournament is responsible for properly storing the Oficial ATP Tour nets. Should damage caused by misuse, poor maintenance or modification lead to the need to replace the net, the costs for the new net will be tournament responsibility.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>E. Net Posts and Net Post Signage.</Text> The net posts shall conform to the specifications
+                        <HighlightText style={RuleStyles.SubHeading2}>E. Net Posts and Net Post Signage.</HighlightText> The net posts shall conform to the specifications
                         in the
-                        <Text
+                        <HighlightText
                             style={RuleStyles.hyperlinkStyle}
                             onPress={() => {
                                 Linking.openURL('https://www.itftennis.com/en/about-us/governance/rules-and-regulations/');
                             }}>
                             Rules of Tennis,
-                        </Text>
+                        </HighlightText>
                         Rules of Tennis, unless otherwise approved by ATP. No signage of any type
                         may be placed on the net posts or net except as determined solely by ATP.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>F. Sawdust.</Text> Each tournament shall provide sawdust for players on match and practice
+                        <HighlightText style={RuleStyles.SubHeading2}>F. Sawdust.</HighlightText> Each tournament shall provide sawdust for players on match and practice
                         courts.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>G.Scoreboards.</Text> Each tournament must provide scoreboards for all courts to be placed
+                        <HighlightText style={RuleStyles.SubHeading2}>G.Scoreboards.</HighlightText> Each tournament must provide scoreboards for all courts to be placed
                         at the corner or side of the courts. Placement and color of scoreboards shall not
                         interfere with a player’s vision.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>H.Towels.</Text> Each tournament shall provide towels for players on match and practice
+                        <HighlightText style={RuleStyles.SubHeading2}>H.Towels.</HighlightText> Each tournament shall provide towels for players on match and practice
                         courts and in the player’s locker room. Towels should be pre-washed and of sufficient
                         size for the intended use.
                         {'\n\n'}
@@ -119,18 +120,18 @@ export default function Rule70({ navigation }) {
                         show each player’s allocated bin/basket. There should be four (4) of these at each
                         end and each side of the court for a total of eight (8) on the court. This would be applicale for singles and doubles.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>I. Beverages.</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>I. Beverages.</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) Players.</Text> Each tournament shall provide, in sealed containers, electrolyte replacement drinks, non-carbonated bottled water and other beverages for players
+                        <HighlightText style={RuleStyles.SubHeading3}>1) Players.</HighlightText> Each tournament shall provide, in sealed containers, electrolyte replacement drinks, non-carbonated bottled water and other beverages for players
                         on-court, in the player’s lounges and on the practice courts.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>2) Officials.</Text> Each tournament shall provide bottled water and other beverages for
+                        <HighlightText style={RuleStyles.SubHeading3}>2) Officials.</HighlightText> Each tournament shall provide bottled water and other beverages for
                         Officials on match courts and in the official’s off-court area.
                         {'\n\n'}
 
                         {'\n\n'}
 
-                    </Text>
+                    </HighlightText>
                     </ZoomText>
                 </ScrollView>
             </View >

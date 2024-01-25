@@ -4,17 +4,18 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule119({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>VIII. THE CODE</Text>
+          <HighlightText style={RuleStyles.MainHeading}>VIII. THE CODE</HighlightText>
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule2.png' }} />
           <ZoomText>
-            <Text style={RuleStyles.Description}>
-              <Text style={RuleStyles.SubHeading1}>8.03 Tournament Major Offenses</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.Description}>
+              <HighlightText style={RuleStyles.SubHeading1}>8.03 Tournament Major Offenses</HighlightText>{'\n\n'}
 
               No ATP Tour or ATP Challenger Tour tournament shall violate any provision of ATP’s
               rules and regulations contained below under the Tournament Major Offense section of the current ATP Official Rule Book. Unless otherwise specified, violation of
@@ -25,7 +26,7 @@ export default function Rule119({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>A.Conduct Contrary to the Integrity of the Game</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>A.Conduct Contrary to the Integrity of the Game</HighlightText>
               {'\n\n'}
 
               The favorable reputation of ATP, its tournaments and players is a valuable asset and
@@ -42,7 +43,7 @@ export default function Rule119({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}> B.Aggravated Behavior</Text>
+              <HighlightText style={RuleStyles.SubHeading2}> B.Aggravated Behavior</HighlightText>
               {'\n\n'}
 
               1) No ATP Tour or ATP Challenger Tour tournament, or any person who directly or
@@ -60,7 +61,7 @@ export default function Rule119({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>C.Promotional Fees</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>C.Promotional Fees</HighlightText>
               {'\n\n'}
 
               1) ATP Tour 500 and ATP Tour 250 tournaments have the option to offer fees for promotional services. No other ATP Tour or ATP Challenger Tour tournament owner,
@@ -84,7 +85,7 @@ export default function Rule119({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>D.Wagers and On-Site Tennis Betting</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>D.Wagers and On-Site Tennis Betting</HighlightText>
               {'\n\n'}
 
               No ATP Tour or ATP Challenger Tour tournament, ATP member or any person w h o
@@ -95,7 +96,7 @@ export default function Rule119({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>E. Wild Cards</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>E. Wild Cards</HighlightText>
               {'\n\n'}
 
               No ATP Tour or ATP Challenger Tour tournament, or any person who directly or indirectly has a controlling ownership interest therein or who is the Designated Representative (as defined in the ATP By-Laws) or Tournament Director or other employee
@@ -105,7 +106,7 @@ export default function Rule119({ navigation }) {
 
 
               {'\n\n'}
-              <Text style={RuleStyles.SubHeading2}>F. Investigation, Determination, Imposition and Review</Text>
+              <HighlightText style={RuleStyles.SubHeading2}>F. Investigation, Determination, Imposition and Review</HighlightText>
               {'\n\n'}
 
               1) The Senior Vice President - Rules & Competition/ATP Members Fines Committee, as applicable, shall investigate all facts concerning any alleged tournament
@@ -202,7 +203,7 @@ export default function Rule119({ navigation }) {
 
 
               {'\n\n'}
-            </Text>
+            </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

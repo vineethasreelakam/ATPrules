@@ -4,17 +4,18 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule10({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>I. ATP CIRCUIT REGULATIONS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>I. ATP CIRCUIT REGULATIONS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>1.09 Mandatory Player Meeting</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>1.09 Mandatory Player Meeting</HighlightText>{'\n\n'}
 
             Mandatory player meetings may be scheduled throughout the year as determined
             and announced in advance by ATP. These meetings are limited to and mandatory for
@@ -24,7 +25,7 @@ export default function Rule10({ navigation }) {
             <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule10_1.png'}}/>
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

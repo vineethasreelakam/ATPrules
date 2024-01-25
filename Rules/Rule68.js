@@ -3,6 +3,8 @@ import { Text, View, Image, ScrollView, Linking } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule68({ navigation }) {
@@ -10,12 +12,13 @@ export default function Rule68({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VI. FACILITIES & ON-SITE CONDITIONS</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>6.04 Crowd Movement / Spectator Seating</Text>
+                    <ZoomText>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>6.04 Crowd Movement / Spectator Seating</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A.Regulation </Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>A.Regulation </HighlightText>
                         {'\n\n'}
                         Each ATP Tour tournament shall allow spectators seated above the lowest tier of
                         seats that surround the playing area of the courts to move to and from their seats at
@@ -30,7 +33,8 @@ export default function Rule68({ navigation }) {
 
                         {'\n\n'}
 
-                    </Text>
+                    </HighlightText>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule67', next: 'Rule69', nav: navigation }} />

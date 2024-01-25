@@ -4,20 +4,21 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule128({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>IX. Pepperstone ATP RANKINGS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>9.04 Pepperstone ATP Doubles Rankings</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>9.04 Pepperstone ATP Doubles Rankings</HighlightText>{'\n\n'}
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
             The Pepperstone ATP Doubles Rankings is based on calculating, for each player, his
             total points from his best 19 results from all eligible tournaments, including the Nitto
             ATP Finals (Doubles) played in the Ranking period. For entry purposes there are no
@@ -30,12 +31,12 @@ export default function Rule128({ navigation }) {
             ranking.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
             Loser points for the rounds achieved are awarded to players in any tournament not
             completed.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C. Ties. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C. Ties. </HighlightText>
             When two or more players have the same total number of points, ties shall be
             broken as follows:
             {'\n\n'}
@@ -51,19 +52,19 @@ export default function Rule128({ navigation }) {
             ATP Tour Masters 1000 it shall count as an event played whether or not the team
             actually participated.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             The method for breaking ties on-site, between teams, is described under
             Selections of Entries.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>D. Entry Protection. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D. Entry Protection. </HighlightText>
             The Entry Protection, as described above for the Pepperstone
             ATP Rankings, applies for doubles under the same provisions.
             
             
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>E. Points. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. Points. </HighlightText>
             The provisions set forth under 9.03.E.1), 2) and 3) related to the Pepperstone
             ATP Rankings apply to doubles as well, the point table being similar, except that the
             second-round loser column becomes irrelevant. No points are awarded in the first
@@ -71,7 +72,7 @@ export default function Rule128({ navigation }) {
             
             
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>Doubles - After First Round:</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>Doubles - After First Round:</HighlightText>
             Should a doubles match in an ATP Tour or ATP Challenger Tour event be uncontested or fail to be completed, the losing team shall only receive points and prize
             money from the previous round unless one of the following exceptions is applicable:
             {'\n\n'}
@@ -118,7 +119,7 @@ export default function Rule128({ navigation }) {
             
             
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             Player A retires / withdraws from the doubles for medical
             reasons. Player A is also in the singles draw but is not scheduled to
             play his next match until the next day. On the day of his scheduled
@@ -127,13 +128,13 @@ export default function Rule128({ navigation }) {
             unfit for competition. The medical condition is the same condition
             that caused the doubles retirement / withdrawal.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             In this case the doubles team shall receive points / prize
             money from the round reached.
             
             
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             Player A retires from the singles competition due to a medical
             issue. He is in the doubles competition but is not scheduled to play
             doubles that day. Player A is examined by the tournament Doctor
@@ -141,7 +142,7 @@ export default function Rule128({ navigation }) {
             not be able to compete in the doubles that week. May Player A’s
             withdrawal and medical be accepted even though he is not scheduled to play doubles that day?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             If the medical issue is such that the tournament Doctor can confirm the player’s condition will not improve enough to
             compete in the doubles that week then the player may withdraw
             immediately and the medical is valid. Player A and his partner shall
@@ -150,7 +151,7 @@ export default function Rule128({ navigation }) {
             
             
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>
             Player A withdraws from the singles competition due to food
             poisoning, he is in the doubles competition but is not scheduled to
             play doubles until the next day. Player A would like to withdraw from
@@ -158,19 +159,19 @@ export default function Rule128({ navigation }) {
             cannot declare him unfit for play for a match scheduled the following
             day.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             If Player A withdraws from the doubles without a medical
             from the tournament Doctor declaring him unfit for play then the
             team receives ranking points / prize money from the previous round.
             
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             In cases where the condition of the player is likely to improve
             in a short time period the tournament Doctor should examine the
             player on the day of the match to determine his status and if he
             feels the player is fit for competition.
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

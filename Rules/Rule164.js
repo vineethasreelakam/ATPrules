@@ -3,16 +3,19 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule164({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT I - Rules of Tennis</Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT I - Rules of Tennis</HighlightText>{'\n\n'}
 
             {'\n\t\t\t\t\t\t'} FOREWORD
             {'\n\t'}Rule 1 {'\t\t'} THE COURT
@@ -68,7 +71,7 @@ export default function Rule164({ navigation }) {
             References to the International Tennis Federation or ITF shall hereafter mean ITF
             Limited.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>FOREWORD</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>FOREWORD</HighlightText>{'\n\n'}
             The International Tennis Federation (ITF) is the governing body of the game of tennis
             and its duties and responsibilities include PROTECTING THE INTEGRITY OF THE
             GAME THROUGH determination of the Rules of Tennis.
@@ -86,13 +89,13 @@ export default function Rule164({ navigation }) {
             the published rules and require a report to the ITF on the conclusion of the approved
             trial.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             If there are any inconsistencies between the English version and Rules of
             Tennis translated into other languages, the English version shall prevail.
             {'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading2}>1. THE COURT</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>1. THE COURT</HighlightText>{'\n\n'}
             The court shall be a rectangle, 78 feet (23.77 m) long and, for singles matches, 27
             feet (8.23 m) wide. For doubles matches, the court shall be 36 feet (10.97 m) wide.
             {'\n\n'}
@@ -147,13 +150,13 @@ export default function Rule164({ navigation }) {
             In addition to the court described above, the court designated as “Red” and the court
             designated as “Orange” in Appendix VII can be used for 10 and under tennis competition.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             Guidelines for minimum distances between the baseline and backstops and
             between the sidelines and sidestops can be found in Appendix IX.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>2. PERMANENT FIXTURES</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>2. PERMANENT FIXTURES</HighlightText>{'\n\n'}
             The permanent fixtures of the court include the backstops and sidestops, the spectators,
             the stands and seats for spectators, all other fixtures around and above the
             court, the Chair Umpire, Line Umpires, net umpire and ball persons when in their
@@ -165,7 +168,7 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>3. THE BALL</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>3. THE BALL</HighlightText>{'\n\n'}
             Balls, which are approved for play under the Rules of Tennis, must comply with the
             specifications in Appendix I.
             {'\n\n'}
@@ -194,22 +197,22 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
             If a ball gets broken during play, the point shall be replayed.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>
             If a ball is soft at the end of a point, should the point be
             replayed?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             If the ball is soft, not broken, the point shall not be
             replayed.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             Any ball to be used in a tournament which is played under the Rules of Tennis,
             must be named on the official ITF list of approved balls issued by the International
             Tennis Federation.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>4. THE RACKET</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>4. THE RACKET</HighlightText>{'\n\n'}
             Rackets, which are approved for play under the Rules of Tennis, must comply with
             the specifications in Appendix II.
             {'\n\n'}
@@ -221,63 +224,63 @@ export default function Rule164({ navigation }) {
             made in accordance with the applicable Review and Hearing Procedures of the International
             Tennis Federation (see Appendix X).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>
             Is more than one set of strings allowed on the hitting surface of a racket?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No. The rule mentions a pattern (not patterns) of crossed
             strings. (See Appendix II)
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2: </HighlightText>
             Is the stringing pattern of a racket considered to be generally uniform and
             flat if the strings are on more than one plane?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 3: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 3: </HighlightText>
             Can vibration damping devices be placed on the strings of
             a racket? If so, where can they be placed?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             Yes, but these devices may only be placed outside the
             pattern of the crossed strings.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 4: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 4: </HighlightText>
             During a point, a player accidentally breaks the strings. Can
             the player continue to play another point with this racket?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             Yes, except where specifically prohibited by event organizers
 
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 5: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 5: </HighlightText>
             Is a player allowed to use more than one racket at any time
             during play?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 6: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 6: </HighlightText>
             Can a battery that affects playing characteristics be incorporated into a racket?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No. A battery is prohibited because it is an energy
             source, as are solar cells and other similar devices.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>5. SCORE IN A GAME</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>5. SCORE IN A GAME</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a. Standard game</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a. Standard game</HighlightText>
             {'\n\n'}
             A standard game is scored as follows with the server’s score being called first:
             {'\n\t'}No point - “Love”
@@ -292,7 +295,7 @@ export default function Rule164({ navigation }) {
             opposing player/team wins the next point, the score is again “Deuce”. A player/team
             needs to win two consecutive points immediately after “Deuce” to win the “Game”.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b. Tie-break game</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b. Tie-break game</HighlightText>
             {'\n\n'}
             During a tie-break game, points are scored “Zero”,“1”, “2”, “3”, etc. The first player/
             team to win seven points wins the “Game” and “Set”, provided there is a margin of
@@ -312,19 +315,19 @@ export default function Rule164({ navigation }) {
             Additional approved alternative scoring methods can be found in Appendix V.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>6. SCORE IN A SET</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>6. SCORE IN A SET</HighlightText>{'\n\n'}
             There are different methods of scoring in a set. The two main methods are the
             “Advantage Set” and the “Tie-break Set”. Either method may be used provided that the
             one to be used is announced in advance of the event. If the “Tie-break Set” method is
             to be used, it must also be announced whether the final set will be played as a
             “Tiebreak Set” or an “Advantage Set”.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a. “Advantage Set”</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>a. “Advantage Set”</HighlightText>{'\n\n'}
             The first player/team to win six games wins that “Set”, provided there is a margin
             of two games over the opponent(s). If necessary, the set shall continue until this
             margin is achieved.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b. “Tie-break Set”</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>b. “Tie-break Set”</HighlightText>{'\n\n'}
             The first player/team to win six games wins that “Set”, provided there is a margin
             of two games over the opponent(s). If the score reaches six games all, a tie-break
             game shall be played.
@@ -333,7 +336,7 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading2}>7. SCORE IN A MATCH</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>7. SCORE IN A MATCH</HighlightText>{'\n\n'}
             A match can be played to the best of 3 sets (a player/team needs to win 2 sets to
             win the match) or to the best of 5 sets (a player/team needs to win 3 sets to win the
             match).
@@ -342,22 +345,22 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>8. SERVER & RECEIVER</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>8. SERVER & RECEIVER</HighlightText>{'\n\n'}
             The players/teams shall stand on opposite sides of the net. The server is the player
             who puts the ball into play for the first point. The receiver is the player who is ready
             to return the ball served by the server.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>{'\n\n'}
             Is the receiver allowed to stand outside the lines of the
             court?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>{'\n\n'}
             Yes. The receiver may take any position inside or outside
             the lines on the receiver’s side of the net.
             {'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading2}>9. CHOICE OF ENDS & SERVICE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>9. CHOICE OF ENDS & SERVICE</HighlightText>{'\n\n'}
             The choice of ends and the choice to be server or receiver in the first game shall be
             decided by toss before the warm-up starts. The player/team who wins the toss may
             choose:
@@ -370,17 +373,17 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
             c. To require the opponent(s) to make one of the above choices.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>{'\n\n'}
             Do both players/teams have the right to new choices if the
             warm-up is stopped and the players leave the court?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>{'\n\n'}
             Yes. The result of the original toss stands, but new choices may be made
             by both players/teams
             {'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading2}>10. CHANGE OF ENDS</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>10. CHANGE OF ENDS</HighlightText>{'\n\n'}
             The players shall change ends at the end of the first, third and every subsequent odd
             game of each set. The players shall also change ends at the end of each set unless
             the total number of games in that set is even, in which case the players change ends
@@ -392,22 +395,22 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading2}>11 BALL IN PLAY</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>11 BALL IN PLAY</HighlightText>{'\n\n'}
             Unless a fault or a let is called, the ball is in play from the moment the server hits the
             ball, and remains in play until the point is decided.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>12. BALL TOUCHES A LINE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>12. BALL TOUCHES A LINE</HighlightText>{'\n\n'}
             If a ball touches a line, it is regarded as touching the court bounded by that line.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>13. BALL TOUCHES A PERMANENT FIXTURE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>13. BALL TOUCHES A PERMANENT FIXTURE</HighlightText>{'\n\n'}
             If the ball in play touches a permanent fixture after it has hit the correct court, the
             player who hit the ball wins the point. If the ball in play touches a permanent fixture
             before it hits the ground, the player who hit the ball loses the point.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>14. ORDER OF SERVICE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>14. ORDER OF SERVICE</HighlightText>{'\n\n'}
             At the end of each standard game, the receiver shall become the server and the
             server shall become the receiver for the next game.
             {'\n\n'}
@@ -419,7 +422,7 @@ export default function Rule164({ navigation }) {
             shall continue until the end of the set.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>15. ORDER OF RECEIVING IN DOUBLES</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>15. ORDER OF RECEIVING IN DOUBLES</HighlightText>{'\n\n'}
             The team which is due to receive in the first game of a set shall decide which player
             shall receive the first point in the game. Similarly, before the second game starts, their
             opponents shall decide which player shall receive the first point of that game. The
@@ -428,17 +431,17 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
             After the receiver has returned the ball, either player in a team can hit the ball.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>{'\n\n'}
             Is one member of a doubles team allowed to play alone
             against the opponents?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>{'\n\n'}
             No.
 
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}> 16. THE SERVICE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}> 16. THE SERVICE</HighlightText>{'\n\n'}
             Immediately before starting the service motion, the server shall stand at rest with
             both feet behind (i.e. further from the net than) the baseline and within the imaginary
             extensions of the center mark and the sideline.
@@ -449,7 +452,7 @@ export default function Rule164({ navigation }) {
             arm may use the racket for the release of the ball.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>17 SERVING</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>17 SERVING</HighlightText>{'\n\n'}
             When serving in a standard game, the server shall stand behind alternate halves of
             the court, starting from the right half of the court in every game.
             {'\n\n'}
@@ -461,7 +464,7 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>18. FOOT FAULT</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>18. FOOT FAULT</HighlightText>{'\n\n'}
             During the service motion, the server shall not:
             {'\n\n'}
             a. Change position by walking or running, although slight movements of the feet
@@ -476,25 +479,25 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
             If the server breaks this rule it is a “Foot Fault”.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>{'\n\n'}
             In a singles match, is the server allowed to serve standing
             behind the part of the baseline between the singles sideline and the
             doubles sideline?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>{'\n\n'}
             No.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2: </HighlightText>{'\n\n'}
             Is the server allowed to have one or both feet off the
             ground?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>{'\n\n'}
             Yes.
 
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>19. SERVICE FAULT</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>19. SERVICE FAULT</HighlightText>{'\n\n'}
             The service is a fault if:
             {'\n\n'}a. The server breaks rules 16, 17 or 18; or
             {'\n\n'}b. The server misses the ball when trying to hit it; or
@@ -504,33 +507,33 @@ export default function Rule164({ navigation }) {
             server’s partner is wearing or carrying.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>{'\n\n'}
             After tossing a ball to serve, the server decides not to hit it
             and catches it instead. Is this a fault?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>{'\n\n'}
             No. A player, who tosses the ball and then decides not to
             hit it, is allowed to catch the ball with the hand or the racket, or to let
             the ball bounce.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2: </HighlightText>{'\n\n'}
             During a singles match played on a court with net posts
             and singles sticks, the ball served hits a singles stick and then hits
             the correct service court. Is this a fault?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>{'\n\n'}
             Yes.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>20. SECOND SERVICE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>20. SECOND SERVICE</HighlightText>{'\n\n'}
             If the first service is a fault, the server shall serve again without delay from behind the
             same half of the court from which that fault was served, unless the service was from
             the wrong half.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>21. WHEN TO SERVE & RECEIVE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>21. WHEN TO SERVE & RECEIVE</HighlightText>{'\n\n'}
             The server shall not serve until the receiver is ready. However, the receiver shall play
             to the reasonable pace of the server and shall be ready to receive within a reasonable
             time of the server being ready.
@@ -538,11 +541,11 @@ export default function Rule164({ navigation }) {
             A receiver who attempts to return the service shall be considered as being ready. If it
             is demonstrated that the receiver is not ready, the service cannot be called a fault.
 
-            </Text>
-            <Text style={RuleStyles.Description}>
+            </HighlightText>
+            <HighlightText style={RuleStyles.Description}>
               
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>22. THE LET DURING A SERVICE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>22. THE LET DURING A SERVICE</HighlightText>{'\n\n'}
             The service is a let if:
             {'\n\n'}
             a. The ball served touches the net, strap or band, and is otherwise good; or,
@@ -557,20 +560,20 @@ export default function Rule164({ navigation }) {
             Additional approved alternative procedures can be found in Appendix V.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>23. THE LET</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>23. THE LET</HighlightText>{'\n\n'}
             In all cases when a let is called, except when a service let is called on a second
             service, the whole point shall be replayed.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>{'\n\n'}
             When the ball is in play, another ball rolls onto court. A let
             is called. The server had previously served a fault. Is the server now
             entitled to a first service or second service?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>{'\n\n'}
             First service. The whole point must be replayed.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>24. PLAYER LOSES POINT</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>24. PLAYER LOSES POINT</HighlightText>{'\n\n'}
             The point is lost if:
             {'\n\n'}
             a. The player serves two consecutive faults; or
@@ -596,92 +599,92 @@ export default function Rule164({ navigation }) {
             {'\n\n'}l. In doubles, both players touch the ball when returning it.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>
             After the server has served a first service, the racket falls
             out of the server’s hand and touches the net before the ball has
             bounced. Is this a service fault, or does the server lose the point?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The server loses the point because the racket touches
             the net while the ball is in play.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2: </HighlightText>
             After the server has served a first service, the racket falls
             out of the server’s hand and touches the net after the ball has
             bounced outside the correct service court. Is this a service fault, or
             does the server lose the point?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             This is a service fault because when the racket touched
             the net the ball was no longer in play.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 3: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 3: </HighlightText>
             In a doubles match, the receiver’s partner touches the net
             before the ball that has been served touches the ground outside the
             correct service court. What is the correct decision?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The receiving team loses the point because the receiver’s partner touched
             the net while the ball was in play.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 4: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 4: </HighlightText>
             Does a player lose the point if an imaginary line in the
             extension of the net is crossed before or after hitting the ball?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The player does not lose the point in either case provided
             the player does not touch the opponent’s court.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 5: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 5: </HighlightText>
             Is a player allowed to jump over the net into the opponent’s
             court while the ball is in play?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No. The player loses the point.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 6: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 6: </HighlightText>
             A player throws the racket at the ball in play. Both the
             racket and the ball land in the court on the opponent’s side of the
             net and the opponent(s) is unable to reach the ball. Which player
             wins the point?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The player who threw the racket at the ball loses the
             point.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 7: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 7: </HighlightText>
             A ball that has just been served hits the receiver or in
             doubles the receiver’s partner before it touches the ground. Which
             player wins the point?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The server wins the point, unless it is a service let.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 8: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 8: </HighlightText>
             A player standing outside the court hits the ball or catches
             it before it bounces and claims the point because the ball was definitely going out
             of the correct court.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The player loses the point, unless it is a good return, in
             which case the point continues.
 
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>25. A GOOD RETURN</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>25. A GOOD RETURN</HighlightText>{'\n\n'}
             It is a good return if:
             {'\n\n'}a. The ball touches the net, net posts/singles sticks, cord or metal cable, strap
             or band, provided that it passes over any of them and hits the ground within
@@ -702,26 +705,26 @@ export default function Rule164({ navigation }) {
             court.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>
             A player returns a ball which then hits a singles stick and
             hits the ground in the correct court. Is this is a good return?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             Yes. However, if the ball is served and hits the singles
             stick, it is a service fault.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2: </HighlightText>
             A ball in play hits another ball which is lying in the correct
             court. What is the correct decision?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             Play continues. However, if it is not clear that the actual
             ball in play has been returned, a let should be called.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>26. HINDRANCE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>26. HINDRANCE</HighlightText>{'\n\n'}
             If a player is hindered in playing the point by a deliberate act of the opponent(s), the
             player shall win the point.
             {'\n\n'}
@@ -729,39 +732,39 @@ export default function Rule164({ navigation }) {
             either an unintentional act of the opponent(s), or something outside the player’s own
             control (not including a permanent fixture).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>
             Is an unintentional double hit a hindrance?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No. See also Rule 24 (f).
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2: </HighlightText>
             A player claims to have stopped play because the player
             thought that the opponent(s) was being hindered. Is this a hindrance?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No, the player loses the point.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 3: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 3: </HighlightText>
             A ball in play hits a bird flying over the court. Is this a
             hindrance?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             Yes, the point shall be replayed.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 4: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 4: </HighlightText>
             During a point, a ball or other object that was lying on the
             player’s side of the net when the point started hinders the player. Is
             this a hindrance?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 5: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 5: </HighlightText>
             In doubles, where are the server’s partner and receiver’s
             partner allowed to stand?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             The server’s partner and the receiver’s partner may take
             any position on their own side of the net, inside or outside the court.
             However, if a player is creating a hindrance to the opponent(s), the
@@ -769,7 +772,7 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>27. CORRECTING ERRORS</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>27. CORRECTING ERRORS</HighlightText>{'\n\n'}
             As a principle, when an error in respect of the Rules of Tennis is discovered, all points
             previously played shall stand. Errors so discovered shall be corrected as follows:
             {'\n\n'}a. During a standard game or a tie-break game, if a player serves from the
@@ -829,13 +832,13 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>28. ROLE OF COURT OFFICIALS</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>28. ROLE OF COURT OFFICIALS</HighlightText>{'\n\n'}
             For matches where officials are appointed, their roles and responsibilities can be
             found in Appendix VI.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>29. CONTINUOUS PLAY</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>29. CONTINUOUS PLAY</HighlightText>{'\n\n'}
             As a principle, play should be continuous, from the time the match starts (when the
             first service of the match is put in play) until the match finishes.
             {'\n\n'}a. Between points, a maximum of twenty-five (25) seconds is allowed. When the
@@ -867,7 +870,7 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>30. COACHING</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>30. COACHING</HighlightText>{'\n\n'}
             Coaching is considered to be communication, advice or instruction of any kind and by
             any means to a player.
             {'\n\n'}
@@ -878,31 +881,31 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
             In all other matches, coaching is not allowed.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>
             Is a player allowed to be coached, if the coaching is given
             by signals in a discreet way?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2: </HighlightText>
             Is a player allowed to receive coaching when play is suspended?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             Yes.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 3: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 3: </HighlightText>
             Is a player allowed to receive on-court coaching during a
             match?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             Sanctioning bodies may apply to the ITF to have on-court
             coaching allowed. In events where on-court coaching is allowed,
             designated coaches may enter the court and coach their players
             under procedures decided by the sanctioning body.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>31. PLAYER ANALYSIS TECHNOLOGY</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>31. PLAYER ANALYSIS TECHNOLOGY</HighlightText>{'\n\n'}
             Player analysis technology, that is approved for play under the Rules of Tennis, must
             comply with the specifications in Appendix III.
             {'\n\n'}
@@ -915,23 +918,23 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>RULES OF WHEELCHAIR TENNIS</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>RULES OF WHEELCHAIR TENNIS</HighlightText>{'\n\n'}
             The game of wheelchair tennis follows the ITF Rules of Tennis with the following
             exceptions.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a. The Two Bounce Rule</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>a. The Two Bounce Rule</HighlightText>{'\n\n'}
             The wheelchair tennis player is allowed two bounces of the ball. The player
             must return the ball before it hits the ground a third time. The second bounce
             can be either in or out of the court boundaries.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b. The Wheelchair</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>b. The Wheelchair</HighlightText>{'\n\n'}
             The wheelchair is considered part of the body and all applicable rules, which
             apply to a player’s body, shall apply to the wheelchair.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c. The Service</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>c. The Service</HighlightText>{'\n\n'}
             The service shall be delivered in the following manner.
             {'\n\n'}I. Immediately before commencing the service, the server shall be in a stationary
             position. The server shall then be allowed one push before striking
@@ -946,7 +949,7 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>d. Player Loses Point</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>d. Player Loses Point</HighlightText>{'\n\n'}
             A player loses a point if:
             {'\n\n'}i. The player fails to return the ball before it has touched the ground three
             times; or
@@ -958,7 +961,7 @@ export default function Rule164({ navigation }) {
             when contacting the ball.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>e. The Wheelchair</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>e. The Wheelchair</HighlightText>{'\n\n'}
             Wheelchairs used in all competitions played under the Rules of Wheelchair
             Tennis must comply with the following specifications:
             {'\n\n'}i. The wheelchair may be constructed of any material provided that such
@@ -987,7 +990,7 @@ export default function Rule164({ navigation }) {
             of the ITF Wheelchair Tennis Regulations.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>f. Propelling the Chair with the Foot</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>f. Propelling the Chair with the Foot</HighlightText>{'\n\n'}
             {'\n\n'}i. If due to lack of capacity a player is unable to propel the wheelchair via
             the wheel then they may propel the wheelchair using one foot.
             {'\n\n'}ii. Even if in accordance with rule e) i. above a player is permitted to propel
@@ -999,20 +1002,20 @@ export default function Rule164({ navigation }) {
             {'\n\n'}iii. A player in breach of this rule shall lose the point.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>f. Wheelchair/Able-bodied Tennis</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>f. Wheelchair/Able-bodied Tennis</HighlightText>{'\n\n'}
             Where a wheelchair tennis player is playing with or against an able-bodied person
             in singles or doubles, the Rules of Wheelchair Tennis shall apply for the wheelchair
             player while the Rules of Tennis for able-bodied tennis shall apply for the able-bodied
             player. In this instance, the wheelchair player is allowed two bounces while the
             able-bodied player is allowed only one bounce.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>{'\n\n'}
             The definition of lower extremities is: the lower limbs, including the buttocks,
             hips, thighs, legs, ankles and feet.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>AMENDMENT TO THE RULES OF TENNIS</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>AMENDMENT TO THE RULES OF TENNIS</HighlightText>{'\n\n'}
             (Article 28 of the Constitution of ITF Ltd)
             {'\n\n'}
             The official and decisive text to the Rules of Tennis shall be for ever in the English
@@ -1032,18 +1035,18 @@ export default function Rule164({ navigation }) {
             Meeting of the Council.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>APPENDIX I</Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>THE BALL</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX I</HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>THE BALL</HighlightText>{'\n\n'}
             For all measurements in Appendix I, SI units shall take precedence
             {'\n\n'}a. The ball shall have a uniform outer surface consisting of a fabric cover except for the
             Stage 3 (Red) foam ball. If there are any seams they shall be stitchless.
             {'\n\n'}b. The ball shall conform to one of types specified in the table immediately below or in
             the table under paragraph (d).
-          </Text>
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule164_1.png'}}/>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Notes: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Notes: </HighlightText>{'\n\n'}
             {'\n\t'}1 This ball type may be pressurised or pressureless. The pressureless ball shall
             have an internal pressure that is no greater than 7 kPa (1 psi) and may be used
             for high altitude play above 1,219 m (4,000 feet) above sea level and shall have
@@ -1059,11 +1062,11 @@ export default function Rule164({ navigation }) {
 
             {'\n\n'}c. In addition, all ball types specified under paragraph (b) shall conform to the
             requirements for durability as shown in the following table:
-          </Text>
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule164_2.png'}}/>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Notes: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Notes: </HighlightText>{'\n\n'}
             {'\n\t'}1 The largest permissible change in the specified properties resulting from the
             durability test described in the current edition of ITF Approved Tennis Balls &
             Classified Court Surfaces. The durability test uses laboratory equipment to simulate the
@@ -1072,11 +1075,11 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
             d. Only the ball types specified in the table below can be used in 10 and under tennis
             competition:
-          </Text>
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule164_3.png'}}/>
-          <Text style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Notes: </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Notes: </HighlightText>{'\n\n'}
             {'\n\t'}
             1 The deformation shall be the average of a single reading along each of three
             perpendicular axes. There is no limit on the difference between individual forward
@@ -1090,7 +1093,7 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>CLASSIFICATION OF COURT PACE</Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>CLASSIFICATION OF COURT PACE</HighlightText>{'\n\n'}
             The ITF test method used for determining the pace of a court surface is ITF CS 01/02
             (ITF Court Pace Rating) as described in the ITF publication entitled “ITF guide to test
             methods for tennis court surfaces”.
@@ -1114,10 +1117,10 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1: </HighlightText>
             Which ball type should be used on which court surface?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             3 different types of balls are approved for play under the
             Rules of Tennis, however:
             {'\n\n'}a. Ball Type 1 (fast speed) is intended for play on slow pace court surfaces
@@ -1126,7 +1129,7 @@ export default function Rule164({ navigation }) {
             {'\n\n'}c. Ball Type 3 (slow speed) is intended for play on fast pace court surfaces
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             In addition to the ball types specified under paragraph (b) above, the Stage 1
             (Green) ball may be used for all levels of competitive play except for world ranking
             professional tennis events, Davis Cup and Billie Jean King Cup, the Olympic and
@@ -1141,9 +1144,9 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>APPENDIX II
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX II
               {'\n\n'}THE RACKET
-            </Text>{'\n\n'}
+            </HighlightText>{'\n\n'}
             For all measurements in Appendix II, SI units shall take precedence
             {'\n\n'}a. The racket shall consist of a frame and string(s). The frame shall consist of a
             handle and head, and may also include a throat. The head is defined as that part
@@ -1179,9 +1182,9 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>APPENDIX III
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX III
               {'\n\n'}PLAYER ANALYSIS TECHNOLOGY
-            </Text>{'\n\n'}
+            </HighlightText>{'\n\n'}
             Player Analysis Technology is equipment that may perform any of the following functions
             with respect to player performace information:
             {'\n\n'}A. Recording
@@ -1194,9 +1197,9 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>APPENDIX IV
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX IV
               {'\n\n'}ADVERTISING
-            </Text>
+            </HighlightText>
             {'\n\n'}1. Advertising is permitted on the net as long as it is placed on the part of the net
             that is within 3 feet (0.914 m) from the center of the net posts and is produced in
             such a way that it does not interfere with the vision of the players or the playing
@@ -1224,13 +1227,13 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>APPENDIX V
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX V
               {'\n\n'}ALTERNATIVE PROCEDURES AND SCORING METHODS
-            </Text>
+            </HighlightText>
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>SCORE IN A GAME (Rule 5):
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>SCORE IN A GAME (Rule 5):
+            </HighlightText>
             {'\n\n'}This alternatives listed in this Appendix V may be used.
             {'\n\n'}“No-Ad” SCORING METHOD
             {'\n\n'}A “No-Ad” game is scored as follows with the server’s score being called first:
@@ -1250,19 +1253,19 @@ export default function Rule164({ navigation }) {
             deciding point.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>SCORE IN A SET (Rules 6 and 7):
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>SCORE IN A SET (Rules 6 and 7):
+            </HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>1. SHORT SETS
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>1. SHORT SETS
+            </HighlightText>{'\n\n'}
             The first player/team who wins four games wins that set, provided there is a
             margin of two games over the opponent(s). If the score reaches four games all, a
             tie-break game shall be played. Alternatively (at the discretion of the sanctioning
             body), if the score reaches three games all, a tie-break game shall be played.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>2. SHORT SET TIE-BREAK
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>2. SHORT SET TIE-BREAK
+            </HighlightText>{'\n\n'}
             When playing Short Sets only, a Short Set tie-break may be used. The first player/
             team to win five points wins the “Game” and “Set”, with a deciding point if the
             score reaches four all. The order and number of serves shall be determined by
@@ -1270,8 +1273,8 @@ export default function Rule164({ navigation }) {
             points have been played.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>3. MATCH TIE-BREAK (7 POINTS)
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>3. MATCH TIE-BREAK (7 POINTS)
+            </HighlightText>{'\n\n'}
             When the score in a match is one set all, or two sets all in best of five sets matches,
             one tie-break game shall be played to decide the match. This tie-break game
             replaces the deciding final set.
@@ -1280,8 +1283,8 @@ export default function Rule164({ navigation }) {
             match provided there is a margin of two points over the opponent(s).
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>4. MATCH TIE-BREAK (10 POINTS)
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>4. MATCH TIE-BREAK (10 POINTS)
+            </HighlightText>{'\n\n'}
             When the score in a match is one set all, or two sets all in best of five sets matches,
             one tie-break game shall be played to decide the match. This tie-break game replaces
             the deciding final set.
@@ -1289,8 +1292,8 @@ export default function Rule164({ navigation }) {
             provided there is a margin of two points over the opponent(s).
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Note:
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note:
+            </HighlightText>
             When using the match tie-break to replace the final set:
             {'\n\t'}• the original order of service continues. (Rules 5 and 14)
             {'\n\t'}• in doubles, the order of serving and receiving within the team may be altered,
@@ -1300,17 +1303,17 @@ export default function Rule164({ navigation }) {
             ball change is due.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>CHANGE OF ENDS (Rule 10):
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>CHANGE OF ENDS (Rule 10):
+            </HighlightText>
             {'\n\n'}
             During a tie-break game, players shall change ends after the first point and thereafter
             after every four points.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>THE LET DURING A SERVICE (Rule 22):
+            <HighlightText style={RuleStyles.SubHeading3}>THE LET DURING A SERVICE (Rule 22):
               {'\n\n'}
               “NO LET” RULE
-            </Text>
+            </HighlightText>
             {'\n\n'}This alternative is play without the service let in Rule 22.
             {'\n\n'}Wherby a serve that touches the net, strap or band is in play.
             {'\n\n'}At the discretion of the sanctioning body, when playing doubles using Short Sets in
@@ -1320,9 +1323,9 @@ export default function Rule164({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>APPENDIX VI
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX VI
               {'\n\n'}ROLE OF COURT OFFICIALS
-            </Text>
+            </HighlightText>
             {'\n\n'}
             The Referee is the final authority on all questions of tennis law and the Referee’s
             decision is final.
@@ -1352,101 +1355,101 @@ export default function Rule164({ navigation }) {
             coaching in respect of any Code of Conduct that is approved and in operation.
             {'\n\n'}
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 1:
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Case 1:
+            </HighlightText>
             The Chair Umpire awards the server a first service after an
             overrule, but the receiver argues that it should be a second service,
             since the server had already served a fault. Should the Referee be
             called to court to give a decision?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision:
-            </Text>Yes. The Chair Umpire makes the first decision about
+            <HighlightText style={RuleStyles.SubHeading3}>Decision:
+            </HighlightText>Yes. The Chair Umpire makes the first decision about
             questions of tennis law (issues relating to the application of specific
             facts). However, if a player appeals the Chair Umpire’s decision,
             then the Referee shall be called to make the final decision.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 2:
-            </Text> A ball is called out, but a player claims that the ball was
+            <HighlightText style={RuleStyles.SubHeading3}>Case 2:
+            </HighlightText> A ball is called out, but a player claims that the ball was
             good. May the Referee be called to court to make a decision?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision:
-            </Text> No. The Chair Umpire makes the final decision on
+            <HighlightText style={RuleStyles.SubHeading3}>Decision:
+            </HighlightText> No. The Chair Umpire makes the final decision on
             questions of fact (issues relating to what actually happened during a
             specific incident).
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 3:
-            </Text> Is a Chair Umpire allowed to overrule a Line Umpire at the
+            <HighlightText style={RuleStyles.SubHeading3}>Case 3:
+            </HighlightText> Is a Chair Umpire allowed to overrule a Line Umpire at the
             end of a point if, in the Chair Umpire’s opinion, a clear mistake was
             made earlier in the point?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision:
-            </Text> No. A Chair Umpire may only overrule a Line Umpire
+            <HighlightText style={RuleStyles.SubHeading3}>Decision:
+            </HighlightText> No. A Chair Umpire may only overrule a Line Umpire
             immediately after the clear mistake has been made.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 4:
-            </Text> A Line Umpire calls a ball “Out” and then the player argues
+            <HighlightText style={RuleStyles.SubHeading3}>Case 4:
+            </HighlightText> A Line Umpire calls a ball “Out” and then the player argues
             that the ball was good. Is the Chair Umpire allowed to overrule the
             Line Umpire?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision:
-            </Text> No. A Chair Umpire must never overrule as the result of
+            <HighlightText style={RuleStyles.SubHeading3}>Decision:
+            </HighlightText> No. A Chair Umpire must never overrule as the result of
             the protest or appeal by a player
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 5:
-            </Text> A Line Umpire calls a ball “Out”. The Chair Umpire was
+            <HighlightText style={RuleStyles.SubHeading3}>Case 5:
+            </HighlightText> A Line Umpire calls a ball “Out”. The Chair Umpire was
             unable to see clearly, but thought the ball was in. May the Chair
             Umpire overrule the Line Umpire?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision:
-            </Text> No. The Chair Umpire may only overrule when sure that
+            <HighlightText style={RuleStyles.SubHeading3}>Decision:
+            </HighlightText> No. The Chair Umpire may only overrule when sure that
             the Line Umpire made a clear mistake.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 6:
-            </Text> Is a Line Umpire allowed to change the call after the Chair
+            <HighlightText style={RuleStyles.SubHeading3}>Case 6:
+            </HighlightText> Is a Line Umpire allowed to change the call after the Chair
             Umpire has announced the score?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision:
-            </Text> Yes. If a Line Umpire realizes a mistake, a correction
+            <HighlightText style={RuleStyles.SubHeading3}>Decision:
+            </HighlightText> Yes. If a Line Umpire realizes a mistake, a correction
             should be made as soon as possible provided it is not as the result
             of a protest or appeal of a player.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 7:
-            </Text> If a Chair Umpire or Line Umpire calls “out” and then corrects the call to
+            <HighlightText style={RuleStyles.SubHeading3}>Case 7:
+            </HighlightText> If a Chair Umpire or Line Umpire calls “out” and then corrects the call to
             good, what is the correct decision?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision:
-            </Text> The Chair Umpire must decide if the original “out” call
+            <HighlightText style={RuleStyles.SubHeading3}>Decision:
+            </HighlightText> The Chair Umpire must decide if the original “out” call
             was a hindrance to either player. If it was a hindrance, the point
             shall be replayed. If it was not a hindrance, the player who hit the
             ball wins the point.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Case 8:
-            </Text> A ball is blown back over the net and the player correctly
+            <HighlightText style={RuleStyles.SubHeading3}>Case 8:
+            </HighlightText> A ball is blown back over the net and the player correctly
             reaches over the net to try to play the ball. The opponent(s) hinders
             the player from doing this. What is the correct decision?
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Decision:
-            </Text> The Chair Umpire must decide if the hindrance was deliberate or unintentional
+            <HighlightText style={RuleStyles.SubHeading3}>Decision:
+            </HighlightText> The Chair Umpire must decide if the hindrance was deliberate or unintentional
             and either awards the point to the hindered
             player or order the point to be replayed.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>BALL MARK INSPECTION PROCEDURES
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>BALL MARK INSPECTION PROCEDURES
+            </HighlightText>
             {'\n\n'}1. Ball mark inspections can only be made on clay courts.
             {'\n\n'}2. A ball mark inspection requested by a player (team) shall be allowed only if the
             Chair Umpire cannot determine the call with certainty from their chair on either a
@@ -1475,8 +1478,8 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading2}>ELECTRONIC REVIEW PROCEDURES
-            </Text> {'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>ELECTRONIC REVIEW PROCEDURES
+            </HighlightText> {'\n\n'}
             At tournaments where an Electronic Review System is used, the following procedures
             should be followed for matches on courts where it is used.
             {'\n\n'}1. A request for an Electronic Review of a line call or overrule by a player (team)
@@ -1508,13 +1511,13 @@ export default function Rule164({ navigation }) {
             {'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading2}>APPENDIX VII
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX VII
               {'\n\n'}10 AND UNDER TENNIS COMPETITION
-            </Text>
+            </HighlightText>
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Courts:
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Courts:
+            </HighlightText>{'\n\n'}
             In addition to the (full sized) court described in Rule 1, the following court dimensions
             may be used for 10 and under tennis competition:
             {'\n\t'}• A court, designated “Red” for the purposes of 10 and under tennis competition,
@@ -1527,8 +1530,8 @@ export default function Rule164({ navigation }) {
             the center.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Balls:
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Balls:
+            </HighlightText>{'\n\n'}
             Only the following ball types, which are specified in Appendix I, can be used in 10 and
             under tennis competition:
             {'\n\t'}• A Stage 3 (Red) ball, which is recommended for play on a “red” court, by players
@@ -1543,8 +1546,8 @@ export default function Rule164({ navigation }) {
             competition.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Scoring methods:
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Scoring methods:
+            </HighlightText>{'\n\n'}
             For 10 and under tennis competition using Stage 3 (Red), Stage 2 (Orange) or Stage
             1 (Green) balls, scoring methods specified in the Rules of Tennis (including those
             specified in Appendix V) can be utilised, in addition to short duration scoring methods
@@ -1552,33 +1555,33 @@ export default function Rule164({ navigation }) {
             short set or one regular set.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Timed matches:
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Timed matches:
+            </HighlightText>{'\n\n'}
             For 10 and under tennis competition the tournament committee may set a specific
             time period for matches in the event.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>APPENDIX VIII
-            </Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>PLAN OF THE COURTS
-            </Text>{'\n\n'}
-          </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX VIII
+            </HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>PLAN OF THE COURTS
+            </HighlightText>{'\n\n'}
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule164_4.png'}}/>
-          <Text style={RuleStyles.Description}>{'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>NOTE:
-            </Text>
+          <HighlightText style={RuleStyles.Description}>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>NOTE:
+            </HighlightText>
             All court measurements shall be made to the outside of the lines.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>APPENDIX IX
-            </Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>SUGGESTIONS ON HOW TO MARK OUT A COURT
-            </Text>{'\n\n'}
-          </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX IX
+            </HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>SUGGESTIONS ON HOW TO MARK OUT A COURT
+            </HighlightText>{'\n\n'}
+          </HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule164_5.png'}}/>
-          <Text style={RuleStyles.Description}>{'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>NOTE:
-            </Text>
+          <HighlightText style={RuleStyles.Description}>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>NOTE:
+            </HighlightText>
             All court measurements shall be made to the outside of the lines.
             {'\n\n'}
             The following procedure is for the usual combined doubles and singles court. (See
@@ -1619,31 +1622,31 @@ export default function Rule164({ navigation }) {
             guidelines must be followed:
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Colour:
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Colour:
+            </HighlightText>
             {'\n\t'}• Within the same colour family as the background playing surface.
             {'\n\t'}• Lighter than the background playing surface.
             {'\n\t'}• Limit on colour variation of +22 points on the L* scale
             {'\n\t'}(Add &gt;25% by volume of white paint to the background colour)
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Pace:
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Pace:
+            </HighlightText>
             {'\n\t'}• Within 5 CPR of the playing surface.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Dimensions:
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Dimensions:
+            </HighlightText>
             {'\n\t'}• 1.0-1.5 cm narrower than the standard lines.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Marking:
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Marking:
+            </HighlightText>
             {'\n\t'}• Terminate 8 cm from intersection with white playing lines.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Note:
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Note:
+            </HighlightText>{'\n\n'}
             As a guide for international competitions, the recommended minimum distance
             between the baselines and the backstops should be 21 feet (6.40 m) and between
             the sidelines and the sidestops the recommended minimum distance should be 12
@@ -1658,29 +1661,29 @@ export default function Rule164({ navigation }) {
             surface to the ceiling should be 30 feet (9.14 m)..
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>APPENDIX X
-            </Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>RULES OF BEACH TENNIS
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX X
+            </HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>RULES OF BEACH TENNIS
+            </HighlightText>{'\n\n'}
             The Rules of Beach Tennis are approved by the Rules of Tennis Committee and
             the Board of Directors and can be found on https://www.itftennis.com/en/itf-tours/
             beach-tennis-tour/
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>APPENDIX XI
-            </Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>PROCEDURES FOR REVIEW AND HEARINGS ON THE RULES OF TENNIS
-            </Text>{'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1. INTRODUCTION
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>APPENDIX XI
+            </HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>PROCEDURES FOR REVIEW AND HEARINGS ON THE RULES OF TENNIS
+            </HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>1. INTRODUCTION
+            </HighlightText>
 
             {'\n\n'} 1.1 These procedures were approved by the Board of Directors of the International
             Tennis Federation (“Board of Directors”) on 17 May 1998.
             {'\n\n'} 1.2 The Board of Directors may from time to time supplement, amend, or vary these
             procedures.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2. OBJECTIVES
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2. OBJECTIVES
+            </HighlightText>
             {'\n\n'}2.1 The International Tennis Federation is the custodian of the Rules of Tennis and
             is committed to:
             {'\n\t'}a. Preserving the traditional character and integrity of the game of tennis.
@@ -1690,8 +1693,8 @@ export default function Rule164({ navigation }) {
             {'\n\n'}2.2 To ensure fair, consistent and expeditious review and hearings in relation to the
             Rules of Tennis the procedures set out below shall apply.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3. SCOPE
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3. SCOPE
+            </HighlightText>
 
             {'\n\n'}3.1 These Procedures shall apply to Rulings under:
             {'\n\t'}a. Rule 1 – The Court.
@@ -1702,23 +1705,23 @@ export default function Rule164({ navigation }) {
             decide.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>4. STRUCTURE
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4. STRUCTURE
+            </HighlightText>
             {'\n\n'}4.1 Under these procedures Rulings shall be issued by a Ruling Board.
             {'\n\n'}4.2 Such Rulings shall be final save, for an entitlement to appeal to an Appeal
             Tribunal pursuant to these procedures.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>5. APPLICATION
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>5. APPLICATION
+            </HighlightText>
             {'\n\n'}5.1 Rulings shall be taken either:
             {'\n\t'}a. Following a motion of the Board of Directors; or
             {'\n\t'}b. Upon the receipt of an application in accordance with the procedures set out
             below.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>6. APPOINTMENT AND COMPOSITION OF RULING BOARDS
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>6. APPOINTMENT AND COMPOSITION OF RULING BOARDS
+            </HighlightText>
             {'\n\n'} 6.1 Ruling Boards shall be appointed by the President of the International Tennis
             Federation (“President”) or their designee and shall comprise of such a number,
             as the President or their designee shall determine.
@@ -1728,8 +1731,8 @@ export default function Rule164({ navigation }) {
             review and/or hearing of a Ruling Board.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>7. PROPOSED RULINGS BY THE RULING BOARD
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>7. PROPOSED RULINGS BY THE RULING BOARD
+            </HighlightText>
             {'\n\n'}7.1 The details of any proposed Ruling issued upon the motion of the Board of Directors
             may be provided to any bona fide person or any players, equipment manufacturer or national
             association or members thereof with an interest in the proposed Ruling.
@@ -1738,8 +1741,8 @@ export default function Rule164({ navigation }) {
             connection with the proposed Ruling.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>8. APPLICATION FOR RULINGS
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>8. APPLICATION FOR RULINGS
+            </HighlightText>
             {'\n\n'}8.1 An application for a Ruling may be made by any party with a bona fide interest in
             the Ruling including any player, equipment manufacturer or national association
             or member thereof.
@@ -1768,8 +1771,8 @@ export default function Rule164({ navigation }) {
             application shall be dismissed.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>9. CONVENING THE RULING BOARD
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>9. CONVENING THE RULING BOARD
+            </HighlightText>
             {'\n\n'}9.1 On receipt of a valid application or on the motion of the Board of Directors the
             President or their designee may convene a Ruling Board to deal with the application or motion.
             {'\n\n'}9.2 The Ruling Board need not hold a hearing to deal with an application or motion
@@ -1777,8 +1780,8 @@ export default function Rule164({ navigation }) {
             in a fair manner without a hearing.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>10. PROCEDURE OF THE RULING BOARD
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>10. PROCEDURE OF THE RULING BOARD
+            </HighlightText>
             {'\n\n'}10.1 The Chairperson of a Ruling Board shall determine the appropriate form, procedure
             and date of any review and/or hearing.
             {'\n\n'}10.2 The Chairperson shall provide written notice of those matters set out at 10.1
@@ -1804,8 +1807,8 @@ export default function Rule164({ navigation }) {
             shall deem appropriate.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>11. NOTIFICATION
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>11. NOTIFICATION
+            </HighlightText>
             {'\n\n'}11.1 Once a Ruling Board has reached a decision it shall provide written notice to the
             Applicant, or, any person or association who has expressed an interest in the
             proposed Ruling as soon as reasonably practicable.
@@ -1816,8 +1819,8 @@ export default function Rule164({ navigation }) {
             Rules of Tennis.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>12. APPLICATION OF CURRENT RULES OF TENNIS
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>12. APPLICATION OF CURRENT RULES OF TENNIS
+            </HighlightText>
             {'\n\n'}12.1 Subject to the power of the Ruling Board to issue interim Rulings the current
             Rules of Tennis shall continue to apply until any review and/or hearing of the
             Ruling Board is concluded and a Ruling issued by the Ruling Board.
@@ -1830,8 +1833,8 @@ export default function Rule164({ navigation }) {
             not the equipment meets the specification of the Rules of Tennis.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>13. APPOINTMENT AND COMPOSITION OF APPEAL TRIBUNALS
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>13. APPOINTMENT AND COMPOSITION OF APPEAL TRIBUNALS
+            </HighlightText>
             {'\n\n'}13.1 Appeal Tribunals shall be appointed by the President or their designee from
             [members of the Board of Directors/Technical Commission].
             {'\n\n'}13.2 No member of the Ruling Board who made the original Ruling shall be a member
@@ -1844,8 +1847,8 @@ export default function Rule164({ navigation }) {
             appeal hearing.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>14. APPLICATION TO APPEAL
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>14. APPLICATION TO APPEAL
+            </HighlightText>
             {'\n\n'}14.1 An Applicant [or a person or association who has expressed an interest and
             forwarded any comments, objections, or requests to a proposed Ruling] may appeal
             any Ruling of the Ruling Board.
@@ -1860,13 +1863,13 @@ export default function Rule164({ navigation }) {
             if the appeal is successful.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>15. CONVENING THE APPEAL TRIBUNAL
-            </Text>{'\n\n'}15.1 The President or their designee shall convene the Appeal Tribunal following payment
+            <HighlightText style={RuleStyles.SubHeading3}>15. CONVENING THE APPEAL TRIBUNAL
+            </HighlightText>{'\n\n'}15.1 The President or their designee shall convene the Appeal Tribunal following payment
             by the Appellant of any appeal fee.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>16. PROCEDURES OF APPEAL TRIBUNAL
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>16. PROCEDURES OF APPEAL TRIBUNAL
+            </HighlightText>
 
             {'\n\n'}16.1 The Appeal Tribunal and their Chairperson shall conduct procedures and hearings in
             accordance with those matters set out in sections 10, 11 and 12 above.
@@ -1875,8 +1878,8 @@ export default function Rule164({ navigation }) {
             under the Rules of Tennis.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>17. GENERAL
-            </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>17. GENERAL
+            </HighlightText>
             {'\n\n'}17.1 If a Ruling Board consists of only one member that single member shall be responsible
             for regulating the hearing as Chairperson and shall determine the procedures to be followed
             prior to and during any review and/or hearing.
@@ -1900,7 +1903,8 @@ export default function Rule164({ navigation }) {
             2020
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule163', next: 'Rule165', nav: navigation }} />

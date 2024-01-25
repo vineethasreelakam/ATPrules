@@ -4,6 +4,7 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule104({ navigation }) {
@@ -11,11 +12,11 @@ export default function Rule104({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>             
                    <ZoomText>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>7.14 Seeds Definition</Text>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>7.14 Seeds Definition</HighlightText>
                         {'\n\n'}
                         Seeds are players who are given preferential positions in the draw based on the
                         Pepperstone ATP Rankings. The selection and arrangement of seeds shall be based
@@ -29,17 +30,17 @@ export default function Rule104({ navigation }) {
                         prior to the release of the order of play for the first day of main draw, shall be filled
                         according to the procedures described under vacancies.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>Protected Ranking is for Entry, Not Seeding</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>Protected Ranking is for Entry, Not Seeding</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>May a player’s protected ranking be used for seeding purposes?
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>May a player’s protected ranking be used for seeding purposes?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>No. The protected ranking position can be used for: 1)
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>No. The protected ranking position can be used for: 1)
                         entry into the qualifying competition and main draw, or 2) special
                         exempt position. It may not be used for: 1) seeding, or 2) lucky loser
                         order
 
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
                     </ZoomText>
                 </ScrollView>
             </View >

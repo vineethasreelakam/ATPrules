@@ -3,18 +3,22 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
+
 
 export default function Rule30({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>III. FINANCIAL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>III. FINANCIAL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>3.05 Fees/Other Payments</Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>3.05 Fees/Other Payments</HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>A. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A. </HighlightText>
             All fees and monies due to ATP are to be sent by wire in USD or EUR.{'\n\n'}
             {'\t'}1) U.S. Dollar payment by wire{'\n\n'}
             {'\t\t'}Bank: Wells Fargo Bank, NA{'\n\n'}
@@ -40,12 +44,13 @@ export default function Rule30({ navigation }) {
             {'\t\t'}BBRUBEBB010{'\n\n'}
             {'\t\t'}Reference: Tournament Name & Invoice Number{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>B. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B. </HighlightText>
             Any amounts (e.g. player fines, non-member service fees, air-tickets) collected or
             owed by the tournament to ATP must be remitted to ATP.
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule29', next: 'Rule31', nav: navigation }} />

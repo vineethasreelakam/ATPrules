@@ -4,22 +4,23 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule121({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>VIII. THE CODE</Text>
+          <HighlightText style={RuleStyles.MainHeading}>VIII. THE CODE</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>8.05 Player Major Offenses/Procedures</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>8.05 Player Major Offenses/Procedures</HighlightText>{'\n\n'}
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Offenses</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Offenses</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Aggravated Behavior</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) Aggravated Behavior</HighlightText>
             {'\n\n'}
             a) No player, their coaches, Physiotherapist, therapist, physician, management
             representative, agent, family member, tournament guest, business associate
@@ -50,7 +51,7 @@ export default function Rule121({ navigation }) {
             of this Section by a Related Person may result in a maximum penalty of permanent revocation of accreditation and denial of access to all ATP Tour and
             ATP Challenger Tour Tournaments.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Conduct Contrary to the Integrity of the Game</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) Conduct Contrary to the Integrity of the Game</HighlightText>
             The favorable reputation of ATP, its tournaments and players is a valuable asset
             and creates tangible benefits for all ATP members. Accordingly, it is an obligation
             for ATP players and Related Persons, to refrain from engaging in conduct contrary to the integrity of the game of tennis.
@@ -86,7 +87,7 @@ export default function Rule121({ navigation }) {
             Person may result in a maximum penalty of permanent revocation of accreditation and denial of access to all ATP Tour and ATP Challenger Tour Tournaments.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Prohibited Promotional Fees</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) Prohibited Promotional Fees</HighlightText>
             {'\n\n'}
             a) ATP Tour 500 and 250 tournaments have the option to offer fees for promotional services. No other ATP Tour or ATP Challenger Tour tournament owner,
             operator, sponsor or agent is permitted to offer, give or pay money or anything
@@ -114,50 +115,50 @@ export default function Rule121({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Procedures</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Procedures</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Determination and Penalty</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) Determination and Penalty</HighlightText>
             {'\n\n'}
             The ATP Members Fines Committee shall conduct such investigation of an alleged player
             major offense as they, in their sole discretion, determine is appropriate and necessary. Upon completion of their investigation, the ATP Members Fines Committee shall determine whether a player major offense has occurred and, if so, shall fix a penalty
             to be imposed. A copy of the decision setting forth such penalty shall be promptly
             delivered to the player.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Payment of Fines</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) Payment of Fines</HighlightText>
             {'\n\n'}
             The player shall pay all fines levied for player major offenses to ATP by delivery
             to the ATP Members Fines Committee within twenty-one (21) days after receiving written
             notice.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Appeal</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) Appeal</HighlightText>
             {'\n\n'}
             Any player who has received a penalty for a player major offense may, after paying all monetary fines, appeal such determination by filing a written notice with the
             ATP Senior Vice President - Rules & Competition within five (5) days (excluding
             weekends) of such player’s receipt of notice of such determination. Upon receiving such notice of appeal, the ATP Senior Vice President - Rules & Competition
             or his designee shall set a date and place for the hearing.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>4) Hearing on Appeal</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>4) Hearing on Appeal</HighlightText>
             {'\n\n'}
             The ATP Senior Vice President - Rules & Competition or his designee shall conduct the hearing on appeal in accordance with the following:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>a) Burden of Proof. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>a) Burden of Proof. </HighlightText>
             The ATP Members  Fines Committee has the responsibility to prove
             the violation by a preponderance of the evidence.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>b) Rules. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>b) Rules. </HighlightText>
             The ATP Senior Vice President - Rules & Competition or his designee
             must conduct the hearing in a fair and orderly manner with opportunity for
             each side to present its evidence as to the facts involved, and the player and
             his representative, if any, and the ATP Members Fines Committee are bound to cooperate fully to this end.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>c) Statement of Position. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>c) Statement of Position. </HighlightText>
             The ATP Senior Vice President - Rules & Competition or his designee may request the ATP Members Fines Committee and the player
             to state in writing their respective positions on the facts, the provision(s) of
             the Code allegedly violated and the penalty specified and file the same with
             the ATP Senior Vice President - Rules & Competition or his designee at least
             three (3) days prior to the hearing, with a copy to each other.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>d) Presentation. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>d) Presentation. </HighlightText>
             The ATP Members Fines Committee and the player may present evidence personally or through counsel. Each party shall have the right to
             present and to cross-examine witnesses, and to offer documentary evidence
             and testimony by affidavit or deposition. Except for purposes of rebuttal,
@@ -171,7 +172,7 @@ export default function Rule121({ navigation }) {
             case of the former, a reasonable continuance may be granted for production
             of such witness.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>e) Hearing. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>e) Hearing. </HighlightText>
             The hearing shall be closed to the public. Once commenced, the
             hearing shall continue from day to day until concluded, unless the ATP Senior Vice President - Rules & Competition or his designee allows otherwise.
             Postponements, adjournments or any form of delay shall be permitted only
@@ -180,15 +181,15 @@ export default function Rule121({ navigation }) {
             postponement shall be submitted in writing to the ATP Senior Vice President
             - Rules & Competition or his designee.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>f) Record. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>f) Record. </HighlightText>
             Each party shall have the right to have the hearing recorded or transcribed at its expense.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>g) Interpreter-Legal Advisor. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>g) Interpreter-Legal Advisor. </HighlightText>
             The ATP Senior Vice President - Rules & Competition or his designee may, at his discretion, make provisions for the presence of an interpreter and/or legal advisor for the hearing. The reasonable expenses of such interpreter or legal advisor shall be assumed by ATP pending
             the final decision of the ATP Senior Vice President - Rules & Competition or
             his designee and the taxing of costs as is provided in the decision on appeal.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>5) Decision on Appeal</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>5) Decision on Appeal</HighlightText>
             {'\n\n'}
             As soon as practicable after the conclusion of the hearing on appeal, the ATP
             Senior Vice President - Rules & Competition or his designee shall render a written
@@ -206,20 +207,20 @@ export default function Rule121({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C.Suspensions and Collection of Fines</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.Suspensions and Collection of Fines</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) Suspension - Weeks/Scope</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) Suspension - Weeks/Scope</HighlightText>
             {'\n\n'}
             Whenever any suspension is involved as a penalty for a violation of the Code,
             only weeks with ATP Tour or ATP Challenger Tour tournaments shall be included
             in the suspension period.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) Stay of Suspensions Pending Appeal</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) Stay of Suspensions Pending Appeal</HighlightText>
             {'\n\n'}
             Whenever a player is suspended by ATP and an appeal either of right or discretionary review is filed, then the suspension shall be stayed pending the resolution
             of the appeal.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) Suspension for Non-Payment of Fines</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) Suspension for Non-Payment of Fines</HighlightText>
             {'\n\n'}
             If a fine is not paid in a timely fashion, ATP may suspend, pending payment, the
             party fined from further participation in any ATP Tour and ATP Challenger Tour
@@ -232,7 +233,7 @@ export default function Rule121({ navigation }) {
 
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

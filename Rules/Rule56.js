@@ -3,22 +3,25 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule56({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.05 Agents, Tier I and Tier II </Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.05 Agents, Tier I and Tier II </HighlightText>
             {'\n\n'}
             A list of Tier I and Tier II Agents will be established and revised on a yearly basis
             following the conclusion of the Nitto ATP Tour Finals. The criteria for becoming a Tier
             I or II Agent is defined below.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>A.Tier I</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A.Tier I</HighlightText>
             {'\n\n'}
             1) Minimum of five (5) years of service, beginning with the first year’s representation
             of an ATP player, and
@@ -41,7 +44,7 @@ export default function Rule56({ navigation }) {
             ranked in the top 20 shall count as ½ player towards meeting the singles
             criteria.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>B.Tier II</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.Tier II</HighlightText>
             {'\n\n'}
             Agents that do not meet the criteria to be in Tier I may apply for consideration as a
             Tier II Agent. There are no benefits associated with Tier II classification
@@ -49,7 +52,8 @@ export default function Rule56({ navigation }) {
 
             {'\n\n'}
 
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule55', next: 'Rule57', nav: navigation }} />

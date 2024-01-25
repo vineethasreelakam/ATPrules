@@ -3,62 +3,65 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule59({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>V. PERSONNEL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>V. PERSONNEL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>5.08 Line Umpire</Text>
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>5.08 Line Umpire</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}> A.Assignment and Designation Process</Text>
+            <HighlightText style={RuleStyles.SubHeading2}> A.Assignment and Designation Process</HighlightText>
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>1) ATP Masters 1000 Tournaments </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Masters 1000 Tournaments </HighlightText>
             {'\n\n'}
             Officials required to support the tournament are as follows:
             {'\n\n'}
             Unless otherwise approved by ATP, the following are required: a minimum of seven (7) Line Umpires must be provided per main draw match and qualifying match.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>2) ATP 500 and 250 Tournaments</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>2) ATP 500 and 250 Tournaments</HighlightText>
             {'\n\n'}
             Officials required to support the tournament are as follows:
             {'\n\n'}
             Unless otherwise approved by ATP, the following are required: A minimum of seven (7) Line Umpires must be provided per main draw match. A minimum of five
             (5) Line Umpires per qualifying match must be provided.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>3) ATP Challenger Tour Tournaments </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>3) ATP Challenger Tour Tournaments </HighlightText>
             {'\n\n'}
             Tournaments must hire officials as specified below:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>For Challenger 50 and 75</Text> events on clay court, a minimum of three (3) Line
+            <HighlightText style={RuleStyles.SubHeading3}>For Challenger 50 and 75</HighlightText> events on clay court, a minimum of three (3) Line
             Umpires shall be provided for every qualifying match and also every main draw
             match up until the quarterfinal. From the quarterfinals on, a minimum of five (5)
             Line Umpires shall be provided.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>For Challenger 50 and 75</Text> events on hard, grass or indoor synthetic court, a
+            <HighlightText style={RuleStyles.SubHeading3}>For Challenger 50 and 75</HighlightText> events on hard, grass or indoor synthetic court, a
             minimum of five (5) line umpires shall be provided for every qualifying and main
             draw match.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>For Challenger 100 and 125</Text> events, regardless of court surface, a minimum of
+            <HighlightText style={RuleStyles.SubHeading3}>For Challenger 100 and 125</HighlightText> events, regardless of court surface, a minimum of
             five (5) Line Umpires shall be provided for every qualifying and every main draw
             match up until the quarter-finals. From the quarter-finals on, a minimum of seven
             (7) Line Umpires shall be provided.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>For Challenger 175 </Text>events, a minimum of five (5) Line Umpires shall be provided
+            <HighlightText style={RuleStyles.SubHeading3}>For Challenger 175 </HighlightText>events, a minimum of five (5) Line Umpires shall be provided
             for every qualifying match. A minimum of seven (7) line umpires shall be provided
             for every main draw match.
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>B.General</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B.General</HighlightText>
             {'\n\n'}
             Line umpires are assigned by the Chief of Umpires and are responsible for calling
             their assigned lines according to ATP rules under the direct on-court supervision of
             the Chair Umpire
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>C.Clothing</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C.Clothing</HighlightText>
             Clothing provided by the tournament for Line Umpires shall not be solid white, yellow
             or other colors that may interfere with the vision of the players, unless otherwise approved by ATP. It is recommended that dark-colored clothing be avoided for outdoor
             tournaments played in high temperatures. Clothing should not be identical to clothing
@@ -66,7 +69,7 @@ export default function Rule59({ navigation }) {
 
             {'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>D.Responsibilities</Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D.Responsibilities</HighlightText>
             {'\n\n'}
             1) Carry out all duties in accordance with the approved procedures of ATP.
             {'\n\n'}
@@ -127,7 +130,8 @@ export default function Rule59({ navigation }) {
 
             {'\n\n'}
 
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule58', next: 'Rule60', nav: navigation }} />

@@ -3,35 +3,38 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule169({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT N - Special Exempts - ATP Challenger Tour
-            </Text>{'\n\n'}
+          <ZoomText>
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT N - Special Exempts - ATP Challenger Tour
+            </HighlightText>{'\n\n'}
 
             For the purpose of the ATP Challenger Tour special exempt rule, a geographic region
             is defined as follows:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>Region I -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>Region I -
+            </HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>Americas.
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Americas.
+            </HighlightText>{'\n\n'}
             This region includes the following countries:
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>North America -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>North America -
+            </HighlightText>{'\n\n'}
             Canada, United States (including Hawaii) and Mexico
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Central America and the Caribbean -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Central America and the Caribbean -
+            </HighlightText>{'\n\n'}
             Anguilla (UK), Antigua and Barbuda, Aruba (Neth.), Bahamas, Barbados, Belize,
             Bermuda (UK), British Virgin Islands (UK), Cayman Islands (UK), Costa Rica,
             Cuba, Dominica, Dominican Republic, El Salvador, Greenland (Den.), Grenada,
@@ -41,26 +44,26 @@ export default function Rule169({ navigation }) {
             Virgin Islands (U.S.).
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>South America -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>South America -
+            </HighlightText>{'\n\n'}
             Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, Falkland Islands (UK),
             French Guiana (Fr.), Paraguay, Peru, Suriname, Uruguay, Venezuela.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>Region II -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>Region II -
+            </HighlightText>{'\n\n'}
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>
+            <HighlightText style={RuleStyles.SubHeading3}>
               Europe, Africa, Middle East, Western part of Russia and some Western Asia
               countries.
-            </Text>{'\n\n'}
+            </HighlightText>{'\n\n'}
             This region includes the following countries:
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Europe -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Europe -
+            </HighlightText>{'\n\n'}
 
             Albania, Andorra, Austria, Belarus, Belgium, Bosnia-Herzegovina, Bulgaria,
             Channel Islands (UK), Croatia, Czech Republic, Denmark, Estonia, Finland,
@@ -70,8 +73,8 @@ export default function Rule169({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Africa -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Africa -
+            </HighlightText>{'\n\n'}
 
             Algeria, Angola, Azores (Port.), Benin, Botswana, Burkina Faso, Burundi, Cameroon, Canary Islands (Sp.), Cape Verde, Central African Republic, Chad, Comoros, Congo, Côte d ‘Ivoire, Democratic Republic of the Congo, Djibouti, Egypt,
             Equatorial Guinea, Eritrea, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guin
@@ -83,47 +86,47 @@ export default function Rule169({ navigation }) {
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Middle East -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Middle East -
+            </HighlightText>{'\n\n'}
 
             Armenia, Azerbaijan, Bahrain, Cyprus, Gaza Strip (Israeli-occupied terr.), Georgia, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Syria,
             Turkiye, United Arab Emirates, West Bank (Israeli-occupied terr.),Yemen.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Western Asia -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Western Asia -
+            </HighlightText>{'\n\n'}
 
             Afghanistan, Kazakhstan, Kyrgyzstan, Pakistan, Tajikistan, Turkmenistan and
             Uzbekistan.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Western Russia -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Western Russia -
+            </HighlightText>{'\n\n'}
 
             Includes Moscow, St. Petersburg and Togliatti.
 
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading2}>Region III -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>Region III -
+            </HighlightText>{'\n\n'}
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Eastern part of Asia and Oceania -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Eastern part of Asia and Oceania -
+            </HighlightText>{'\n\n'}
 
             This region includes the following countries:
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Eastern Asia -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Eastern Asia -
+            </HighlightText>{'\n\n'}
 
             Bangladesh, Bhutan, Brunei, Cambodia, China, Chinese Taipei, Guam (U.S.),
             India, Indonesia, Japan, Republic of Korea, Democratic People’s Republic of Korea, Laos, Malaysia, Maldives, Mongolia, Myanmar, Nepal, Northern Mariana Islands (U.S.), Palau, Philippines, Eastern Russia, Singapore, Sri Lanka, Thailand,
             Vietnam.
 
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Oceania -
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>Oceania -
+            </HighlightText>{'\n\n'}
 
             American Samoa (U.S.), Australia, Cook Islands (N.Z.), Fiji, French Polynesia
             (Fr.), Kiribati, Marshall Islands, Micronesia, Nauru, New Caledonia (Fr.), New
@@ -131,7 +134,8 @@ export default function Rule169({ navigation }) {
             Islands, Tokelau (N.Z.), Tonga, Tuvalu, Vanuatu, Wallis and Futuna (Fr.).
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
+          </ZoomText>
         </ScrollView>
       </View>
       <RuleNavigationButtons props={{ prev: 'Rule168', next: 'Rule170', nav: navigation }} />

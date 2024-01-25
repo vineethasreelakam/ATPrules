@@ -4,21 +4,22 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule178({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>X. EXHIBITS</Text>
+          <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>EXHIBIT T.2 - Live Electronic Line Calling System (LIVE ELC)</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT T.2 - Live Electronic Line Calling System (LIVE ELC)</HighlightText>{'\n\n'}
             A line calling system making automated line calls with no Line Umpires on-court.
 
-            <Text style={RuleStyles.SubHeading2}>LIVE ELC Review Official Procedures and Protocols
-            </Text>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>LIVE ELC Review Official Procedures and Protocols
+            </HighlightText>{'\n\n'}
             The players do not have any challenges when using the LIVE ELC and therefore the
             RO duties are different than when using the REVIEW ELC system.
             Review Booth Procedures
@@ -27,13 +28,13 @@ export default function Rule178({ navigation }) {
             {'\n\n'}• Communication to the CU should be limited to essential communication as live
             microphones are on court.
             {'\n\n'}• Confirm that close calls have been tested and sent to the board.
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             The RO should not do sound checks or close call checks to the board upon
             arrival in the booth other than prior to the first match. This will disturb the production of the event and could be heard on television broadcast which should be
             avoided. If any issue, it is always suggested to do an extra check if possible.
             {'\n\n'}• Confirm specifically the system is:
             {'\n\t'}o Set for the right event
-            <Text style={RuleStyles.SubHeading3}>singles/doubles. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>singles/doubles. </HighlightText>
             If singles confirm regular scoring is
             activated. If doubles confirm no-ad scoring is activated.
             {'\n\t'}o At 1 min in the warmup confirm system is armed and ready to go.
@@ -59,28 +60,28 @@ export default function Rule178({ navigation }) {
             {'\n\n'}• Close calls will be shown on the board in one of two ways depending on system
             set up. Automatically or Manually.
             {'\n\t'}
-            <Text style={RuleStyles.SubHeading3}>o Automatic System: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>o Automatic System: </HighlightText>
             Automatic replays of close calls will be shown on the video boards (if video boards are available).
             These replays will be on
-            <Text style={RuleStyles.SubHeading3}> point-ending non-service shots  </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> point-ending non-service shots  </HighlightText>
             that are in or out by 150mm or less. The replays will
             be of
-            <Text style={RuleStyles.SubHeading3}> point-ending service shots </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> point-ending service shots </HighlightText>
             that are in or out by 50mm or less.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note:  </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note:  </HighlightText>
             Close calls between first and second serves
-            <Text style={RuleStyles.SubHeading3}> that can disturb play </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> that can disturb play </HighlightText>
             should be
             cancelled from going to board by the RO using the cancel button.
             {'\n\t'}
-            <Text style={RuleStyles.SubHeading3}>o Manual System: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>o Manual System: </HighlightText>
             The system works the same as above except the close calls
             do not go automatically to the board. The RO is responsible for sending close
             calls to the board and taking them off again. Normally this is done simply with
             the press of a button.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             Close calls between first and second serves that can disturb play should
             not be sent to the board by the RO.
             {'\n\n'}• If a player wants to see a replay of a shot outside of this range (150mm & 50mm)
@@ -105,12 +106,12 @@ export default function Rule178({ navigation }) {
             The RO should communicate the explanation of the out call to the CU and the CU
             should inform the players of the decision by the system.
             {'\n\n'}
-            <Text style={RuleStyles.SubHeading3}>Note: </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             This can happen for a number of reasons, players and CU did not hear the
             audio out call, the audio out call failed, the operator has stopped the point too early
             effectively disarming the system so there is no audio call.
             {'\n\n'}• The RO has the
-            <Text style={RuleStyles.SubHeading3}> responsibility </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> responsibility </HighlightText>
             of making sure that the correct service box is
             selected by the operator at the start of every point. A view of the court should be
             visible on the ROs screen with a highlighted service box. The highlighted service
@@ -118,12 +119,12 @@ export default function Rule178({ navigation }) {
             out. On any match where the “no-ad” scoring system is being used
             when the score
             reaches “deuce” the RO should inform the operator if they will be serving to the
-            <Text style={RuleStyles.SubHeading3}> deuce or advantage </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> deuce or advantage </HighlightText>
             court.
             {'\n\t'}o If the RO sees, for any reason, that the wrong box is highlighted before the
             start of the point, they should immediately tell the operator to change to the
             correct box before the serve is hit.
-            {'\n\n'}<Text style={RuleStyles.SubHeading3}>Note: </Text>
+            {'\n\n'}<HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>
             It is very important to always keep a close eye on the service box selection
             by the operator especially if anything odd or unusual happens during the point.
             Let 1st serves, let 2nd serves, let replay the point, touch, are just a few unusual
@@ -133,7 +134,7 @@ export default function Rule178({ navigation }) {
             knows whether it is a 1st serve or 2nd serve.
             {'\n\n'}• If there is a malfunction of the LIVE ELC System and it is not functional the match
             must be
-            <Text style={RuleStyles.SubHeading3}> stopped. </Text>
+            <HighlightText style={RuleStyles.SubHeading3}> stopped. </HighlightText>
             The RO should contact the CU immediately and inform the CU
             that the system is not operational. The supervisor/referee should also be contacted
             {'\n\t'}o The RO should keep in radio contact with the CU and supervisor/referee and
@@ -146,7 +147,7 @@ export default function Rule178({ navigation }) {
             supervisor/referee will decide on another option. These could include suspending the match, moving the match to another court, using line umpires (if
             available), postponing the match or continuing the match without the system
             and the CU calling
-            <Text style={RuleStyles.SubHeading3}>ALL</Text>  the lines.
+            <HighlightText style={RuleStyles.SubHeading3}>ALL</HighlightText>  the lines.
             {'\n\t'}o The RO should note the time of the match and the score when the system
             became unavailable and also the time when the system became available
             again. The Lead RO should then be informed of this either at the end of the
@@ -160,7 +161,7 @@ export default function Rule178({ navigation }) {
 
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

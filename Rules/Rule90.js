@@ -5,6 +5,8 @@ import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import { MaterialIcons, Fontisto } from '@expo/vector-icons';
 import { SubIndex7_List } from '../screens/SubIndexList.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule90({ navigation }) {
   return (
@@ -17,12 +19,12 @@ export default function Rule90({ navigation }) {
             return (
                 <TouchableOpacity key={item.id} style={NavigationStyles.container}
                   onPress={() => navigation.navigate(item.pageName)}>
-                  <Text style={NavigationStyles.text}>  {item.name} </Text>
+                  <HighlightText style={NavigationStyles.text}>  {item.name} </HighlightText>
                   <MaterialIcons style={NavigationStyles.IconStyle} name="navigate-next" />
                 </TouchableOpacity>
             );
           })}
-        <Text>{'\n\n'}</Text>
+        <HighlightText>{'\n\n'}</HighlightText>
         </ScrollView>
 
       </View>

@@ -4,6 +4,7 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule112({ navigation }) {
@@ -11,49 +12,49 @@ export default function Rule112({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule2.png' }} />
                     <ZoomText>
-                        <Text style={RuleStyles.Description}>
-                            <Text style={RuleStyles.SubHeading1}>7.22 On-Court Procedures and Requirements</Text>
+                        <HighlightText style={RuleStyles.Description}>
+                            <HighlightText style={RuleStyles.SubHeading1}>7.22 On-Court Procedures and Requirements</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}> A.Start of Tournament</Text>
+                            <HighlightText style={RuleStyles.SubHeading2}> A.Start of Tournament</HighlightText>
                             {'\n\n'}
                             A tournament shall commence when the first serve of the first point of the first match
                             is struck.
                             {'\n\n'}
 
-                            <Text style={RuleStyles.SubHeading2}>B.Start of Match </Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>B.Start of Match </HighlightText>
                             {'\n\n'}
                             A match shall commence when the first serve of the first point is struck.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>C. Rules of Tennis</Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>C. Rules of Tennis</HighlightText>
                             {'\n\n'}
                             The Rules of Tennis shall apply to all ATP Tour and ATP Challenger Tour tournaments
                             except as amended by the ATP Official Rulebook.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>D.Appeal of Calls </Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>D.Appeal of Calls </HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>1) Questions of Fact.</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>1) Questions of Fact.</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>a) Definition.</Text> A question of fact is defined as an issue relating to what actually
+                            <HighlightText style={RuleStyles.SubHeading3}>a) Definition.</HighlightText> A question of fact is defined as an issue relating to what actually
                             occurred on court during a specific match. Only the on-court officials shall
                             determine questions of fact arising during a match and the player or the Supervisor may not change such determinations.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>b) Rule. </Text>A player may not appeal the determination made by the on-court officials on a question of fact.
+                            <HighlightText style={RuleStyles.SubHeading3}>b) Rule. </HighlightText>A player may not appeal the determination made by the on-court officials on a question of fact.
                             {'\n\n'}
 
 
-                            <Text style={RuleStyles.SubHeading3}>2) Questions of Tennis Law.</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>2) Questions of Tennis Law.</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>a) Definition. </Text>A question of tennis law is defined as an issue relating to the
+                            <HighlightText style={RuleStyles.SubHeading3}>a) Definition. </HighlightText>A question of tennis law is defined as an issue relating to the
                             construction and application of specific facts to the ATP rules and regulations
                             and the rules of tennis. During a match, the Chair Umpire shall first determine
                             questions of tennis law. If the Chair Umpire is uncertain or if a player appeals
                             the determination of the Chair Umpire, then the decision shall be made by the
                             Supervisor, which shall be final and non-appealable.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>b) Player Rights.</Text> A player shall have the right to appeal any ruling of tennis law
+                            <HighlightText style={RuleStyles.SubHeading3}>b) Player Rights.</HighlightText> A player shall have the right to appeal any ruling of tennis law
                             in accordance with the following procedures:
                             {'\n\n'}
                             i) When a player is of the opinion that a ruling by the Chair Umpire on a
@@ -70,34 +71,34 @@ export default function Rule112({ navigation }) {
                             iii) Play shall be resumed upon the statement of “Let’s Play” by the Supervisor and the players must proceed to commence play and the twenty-five
                             (25) second clock shall commence.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>E. Tennis Law - Cases</Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>E. Tennis Law - Cases</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Appeal of Judgment Calls</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Appeal of Judgment Calls</HighlightText>
                             {'\n\n'}
 
-                            <Text style={RuleStyles.SubHeading3}>Case: </Text>A first serve is hit down the middle and is called out and then
+                            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A first serve is hit down the middle and is called out and then
                             corrected to good by the center service Line Umpire. The Chair
                             Umpire awards the point to the server, but the receiver disagrees
                             saying that he had a play on the ball. The Chair Umpire agrees
                             and rules that the point be replayed. The Supervisor is called to the
                             court.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> Point to server. The Chair Umpire may not change a
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Point to server. The Chair Umpire may not change a
                             judgment decision after a player appeal.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Receiver</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Receiver</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> First point of a game, the first serve is called fault and overruled by the Chair Umpire to good. The Chair Umpire then announces 15-Love. The receiver states that the point should be re-played
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> First point of a game, the first serve is called fault and overruled by the Chair Umpire to good. The Chair Umpire then announces 15-Love. The receiver states that the point should be re-played
                             because he returned the ball into the court. The Chair Umpire realizes that the receiver did in fact return the ball and orders the point
                             to be replayed. The server claims that the Chair Umpire cannot
                             change his decision and asks for the Supervisor to be called.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point is re-played. The Chair Umpire’s initial awarding of the point to the server was incorrect based upon the facts as
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The point is re-played. The Chair Umpire’s initial awarding of the point to the server was incorrect based upon the facts as
                             described by the Chair Umpire: The receiver did return the serve.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Server</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Server</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> First point of a game, the first serve is called fault and
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> First point of a game, the first serve is called fault and
                             overruled by the Chair Umpire to good. The Chair Umpire awards
                             the point to the server based upon his judgment that the receiver
                             did not have a play on the ball. The receiver claims that he could
@@ -106,26 +107,26 @@ export default function Rule112({ navigation }) {
                             that the Chair Umpire may not change his judgment based upon an
                             appeal from the receiver and asks for the Supervisor to be called.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>Point to the server. The facts on which the Chair Umpire
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>Point to the server. The facts on which the Chair Umpire
                             based his initial decision did not change. Therefore, the Chair
                             Umpire may not change his original decision based upon a player’s
                             appeal or protest.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Umpire Blocked on Question of Fact</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Umpire Blocked on Question of Fact</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case: </Text>Player A stops play claiming that player B had played the
+                            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>Player A stops play claiming that player B had played the
                             ball after it had bounced twice. The Chair Umpire said that he was
                             “blocked” and could not make the decision.
                             {'\n\n'}
 
-                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The point stands as played. When the Chair Umpire has
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The point stands as played. When the Chair Umpire has
                             the primary responsibility for a call (nets, throughs, not-ups and
                             touches) as opposed to the secondary responsibility (line calls), an
                             immediate decision must be made. If the Chair Umpire did not see a
                             rules violation on something for which he has the primary responsibility then technically no violation can be called
                             Appealing for a Let
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> Player A serves and player B returns the ball for a winner.
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> Player A serves and player B returns the ball for a winner.
                             Player A appeals to the Chair Umpire that the service was a let. The
                             Chair Umpire says that he did not hear a let. Player A then asks
                             player B if he heard a let. Player B answers yes. Upon hearing this,
@@ -134,14 +135,14 @@ export default function Rule112({ navigation }) {
                             and that he was only confirming to player A that the Chair Umpire
                             had made a mistake.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point stands as played. The Chair Umpire cannot
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The point stands as played. The Chair Umpire cannot
                             make assumptions as to the intent of player B’s comment. The Chair Umpire should be certain that the intention of player B was to
                             play a let before making any decision.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>F. Hindrance. </Text>A hindrance may result (1) from a corrected call by an official or (2) from
+                            <HighlightText style={RuleStyles.SubHeading2}>F. Hindrance. </HighlightText>A hindrance may result (1) from a corrected call by an official or (2) from
                             an inadvertent event that occurs on-court:
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>1) Corrected Call. </Text>Whenever there is a corrected call either by overrule, correction
+                            <HighlightText style={RuleStyles.SubHeading3}>1) Corrected Call. </HighlightText>Whenever there is a corrected call either by overrule, correction
                             by a Line Umpire or otherwise, the Chair Umpire in his sole judgment must determine if either player was hindered, and if so, order a “Let” to be played.
                             {'\n\n'}
 
@@ -158,7 +159,7 @@ export default function Rule112({ navigation }) {
                             ball could have been played, then the player who would have lost the point
                             must be given the benefit of the doubt.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>2) Inadvertent or Deliberate event. </Text>A distraction occurring on-court may be ruled
+                            <HighlightText style={RuleStyles.SubHeading3}>2) Inadvertent or Deliberate event. </HighlightText>A distraction occurring on-court may be ruled
                             inadvertent (unintentional) or ruled deliberate.
                             {'\n\n'}
                             a) Inadvertent distractions may include the following (a “Let” may be called in
@@ -173,11 +174,11 @@ export default function Rule112({ navigation }) {
                             c) Care must be exercised to ensure rulings do not result in providing a player(s)
                             with two opportunities to win a point.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>G.Hindrance Cases</Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>G.Hindrance Cases</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Delaying the Server</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Delaying the Server</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case: </Text>During a match with Review ELC in use, the receiver breaks
+                            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>During a match with Review ELC in use, the receiver breaks
                             a string after returning a first serve called fault. The server challenges the fault call and the receiver changes his racket before the result
                             of the challenge is displayed on the screen. Should the server be
                             awarded a first serve if the call stands?
@@ -185,58 +186,58 @@ export default function Rule112({ navigation }) {
                             Decision: Second serve, as the receiver changing his racket did not
                             delay the server in any way.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Corrected Call</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Corrected Call</HighlightText>
                             {'\n\n'}
                             Case: A second serve is a “net” call. The service Line Umpire calls
                             “out,” then corrects it to “good.”
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> Second serve
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Second serve
                             Opponent’s Gear Falls On The Court
                             {'\n\n'}
 
 
 
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> Clothing or equipment (excluding the racquet) that is worn or
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> Clothing or equipment (excluding the racquet) that is worn or
                             carried by a player, including a ball from his pocket, falls to the court
                             during play.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire shall call a let and replay the point. He
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The Chair Umpire shall call a let and replay the point. He
                             shall also inform the player that if the Chair Umpire makes a second
                             call of let, it will result in a loss of point.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case: </Text>A player’s shoe comes off during play and is laying on the
+                            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player’s shoe comes off during play and is laying on the
                             court.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The default position of the Chair Umpire should be that
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The default position of the Chair Umpire should be that
                             the point continues, unless the Chair Umpire is convinced that the
                             opponent is hindered and in that case, a let could be called.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Opponent Makes Noise</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Opponent Makes Noise</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> During play, a player thinking he has hit a winner, shouts “vamos”, “come on”, “yes”, etc. as his opponent is in the act of hitting
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> During play, a player thinking he has hit a winner, shouts “vamos”, “come on”, “yes”, etc. as his opponent is in the act of hitting
                             the ball.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> If the Chair Umpire rules that a hindrance has occurred
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> If the Chair Umpire rules that a hindrance has occurred
                             then, as the sound or exclamation that caused the hindrance was
                             deliberate, the point shall be awarded.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Inadvertent Hindrance</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Inadvertent Hindrance</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case: </Text>As a player is in the process of hitting a volley into the net,
+                            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>As a player is in the process of hitting a volley into the net,
                             his hat falls off. He then claims a let for hindrance.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>No let. A player may not hinder himself. A let should only
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>No let. A player may not hinder himself. A let should only
                             be called when the opponent could have been hindered.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Singles Stick Falls</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Singles Stick Falls</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case: </Text>After a first serve fault, the singles stick falls to the court.
+                            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>After a first serve fault, the singles stick falls to the court.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire should award a first serve unless in
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The Chair Umpire should award a first serve unless in
                             his opinion the replacement time was such that the server was not
                             delayed in his delivery of a second serve.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Spectator Noise</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Spectator Noise</HighlightText>
                             {'\n\n'}
 
 
@@ -244,34 +245,34 @@ export default function Rule112({ navigation }) {
 
 
 
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> During play an “out” call is made by a spectator. The player
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> During play an “out” call is made by a spectator. The player
                             stops playing and claims hindrance.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision: The point stands as played. </Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision: The point stands as played. </HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Early Foot Fault Call</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Early Foot Fault Call</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case: </Text>The baseline umpire calls a foot fault on the server prior to
+                            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>The baseline umpire calls a foot fault on the server prior to
                             him hitting a first serve. The server continues with his motion and
                             hits the serve into the net.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}></Text>Decision: First serve awarded. It is not a foot fault until the ball has
+                            <HighlightText style={RuleStyles.SubHeading3}></HighlightText>Decision: First serve awarded. It is not a foot fault until the ball has
                             been struck. Therefore, the call is erroneous and the Line Umpire
                             has hindered the server.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>H.Overrule </Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>H.Overrule </HighlightText>
                             {'\n\n'}
                             1) The Chair Umpire may overrule a Line Umpire only if (1) there is a clear mistake
                             by a Line Umpire, and (2) the overrule is made promptly after the mistake. A player may never appeal a determination on questions of fact to the Supervisor.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>a) Clear Mistake.</Text> As a matter of practice the Chair Umpire must be in a position to make a determination that a call was erroneous beyond a reasonable
+                            <HighlightText style={RuleStyles.SubHeading3}>a) Clear Mistake.</HighlightText> As a matter of practice the Chair Umpire must be in a position to make a determination that a call was erroneous beyond a reasonable
                             doubt. To overrule a ball called “Good” by the Line Umpire, the Chair Umpire
                             must have been able to see a space between the ball and the line. To overrule
                             an “Out” or “Fault” call by a Line Umpire, the Chair Umpire must have seen
                             the ball hit on or inside the line. Clear foot-faults not called by the responsible
                             Line Umpire should be called by the Chair Umpire.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>b) Promptly. </Text>The Chair Umpire must overrule immediately after the Line Umpire
+                            <HighlightText style={RuleStyles.SubHeading3}>b) Promptly. </HighlightText>The Chair Umpire must overrule immediately after the Line Umpire
                             makes the “clear mistake.” The overrule “call” must be made almost simultaneously with the “clear mistake” made by the Line Umpire.
                             {'\n\n'}
                             2) A player may request that the Chair Umpire verify a call or other determination
@@ -285,15 +286,15 @@ export default function Rule112({ navigation }) {
                             twenty-five (25) seconds allowed between points. If the player prolongs the argument, the Chair Umpire should announce “Let’s Play,” and the player is subject to
                             the provisions of the Code.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>I. Correction/Verification of Call</Text>
-                            <Text style={RuleStyles.SubHeading3}>Line umpires. </Text>When a Line Umpire realizes that he/she has made an erroneous
+                            <HighlightText style={RuleStyles.SubHeading2}>I. Correction/Verification of Call</HighlightText>
+                            <HighlightText style={RuleStyles.SubHeading3}>Line umpires. </HighlightText>When a Line Umpire realizes that he/she has made an erroneous
                             call, including an inadvertent sound, he/she should immediately call “Correction”
                             so that the Chair Umpire and the players are aware of the error. The Line Umpire
                             should then make the corrected call.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>J. Ball Mark Inspection Procedures (Clay Courts)</Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>J. Ball Mark Inspection Procedures (Clay Courts)</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>1) Chair Umpire</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>1) Chair Umpire</HighlightText>
                             {'\n\n'}
                             a) A ball mark inspection requested by a player (team) shall be allowed only if
                             the Chair Umpire cannot determine the call with surety on either a point-ending shot or when a player (team) stops playing the point during the rally (Returns are permitted but then the player must immediately stop). The Chair
@@ -332,7 +333,7 @@ export default function Rule112({ navigation }) {
                             after a ball mark inspection occurs and the Chair Umpire has made a final
                             decision.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>2) Line Umpires</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>2) Line Umpires</HighlightText>
                             {'\n\n'}
                             a) If a Line Umpire has to make a close call, he must keep his eyes on the mark
                             and should not look at the Chair Umpire.
@@ -344,19 +345,19 @@ export default function Rule112({ navigation }) {
                             c) If directed by the Chair Umpire to identify a mark and the Line Umpire is not
                             sure of the mark, the Line Umpire must state immediately to the Chair Umpire, “I do not have the mark.”
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>K.Clay Court Cases</Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>K.Clay Court Cases</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Can’t Find Ball Mark</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Can’t Find Ball Mark</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> A Line Umpire calls a ball out on a clay court. The Chair
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A Line Umpire calls a ball out on a clay court. The Chair
                             Umpire asks him to show the mark. The Line Umpire cannot locate
                             the mark and neither can the Chair Umpire.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>The original (out) call must stand.
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The original (out) call must stand.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Clay Court:</Text> Doubles Ball Mark Appeal
+                            <HighlightText style={RuleStyles.SubHeading3}>Clay Court:</HighlightText> Doubles Ball Mark Appeal
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> Player B returns a serve but his partner, player A, says, “wait”
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> Player B returns a serve but his partner, player A, says, “wait”
                             as he moves to look at the mark. The Chair Umpire stops play. The
                             opponent, player C, appeals to the Supervisor, saying player B
                             returned the serve, which player C put away.
@@ -365,7 +366,7 @@ export default function Rule112({ navigation }) {
                             it is good, Team A-B loses the point; otherwise, it is a second serve.
                             Must Both Players on a Team Stop to Get Ball Mark Inspection.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case:</Text> In doubles on a clay court, the second serve is called good.
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> In doubles on a clay court, the second serve is called good.
                             The receiver returns the ball but hesitates in search of the mark. His
                             partner crosses (poaches) and hits the ball into the net. The receiver
                             then appeals the second serve, stating that he stopped play prior to
@@ -376,21 +377,21 @@ export default function Rule112({ navigation }) {
 
 
 
-                            <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point stands as played. Both players must stop
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The point stands as played. Both players must stop
                             playing or the player appealing must do so in a manner that results
                             in the Chair Umpire stopping play.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Overrule Then Inspect Ball Mark</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>Overrule Then Inspect Ball Mark</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Case: </Text>As a Chair Umpire, you overrule a ball on a clay court. The
+                            <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>As a Chair Umpire, you overrule a ball on a clay court. The
                             player disagrees and asks for a ball mark inspection. You think that
                             maybe you made a mistake on the overrule.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire should check the mark.
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The Chair Umpire should check the mark.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>L. Electronic Review / Electronic Review - Line Calling (Review ELC)</Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>L. Electronic Review / Electronic Review - Line Calling (Review ELC)</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>A. Electronic Review (Review ELC)</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>A. Electronic Review (Review ELC)</HighlightText>
                             {'\n\n'}
                             The use of an approved electronic system for reviewing line calls and/or overrules is
                             authorized for use at ATP events. The protocol for Review ELC is as follows:
@@ -464,7 +465,7 @@ export default function Rule112({ navigation }) {
 
                             12) Review Official Protocol is described in “Exhibit T.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>B. Electronic Review -</Text> Live Line Calling (Live ELC)
+                            <HighlightText style={RuleStyles.SubHeading3}>B. Electronic Review -</HighlightText> Live Line Calling (Live ELC)
                             The use of an approved Live ELC electronic line calling system is authorized for use
                             at ATP events in 2024.
                             {'\n\n'}
@@ -494,7 +495,7 @@ export default function Rule112({ navigation }) {
                             {'\n\n'}
                             6) Physical requirements for the on-site booth to be confirmed..
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>M. Continuous Play/Delay of Game </Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>M. Continuous Play/Delay of Game </HighlightText>
                             {'\n\n'}
                             Play shall be continuous, except that a maximum of twenty-five (25) seconds may
                             elapse from the moment the ball goes out of play at the end of one point to the time
@@ -502,29 +503,29 @@ export default function Rule112({ navigation }) {
                             one hundred and twenty (120) second set break. The procedures for enforcing this
                             rule are as follows:
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>1) Time Between Points. 25 Seconds/Continuous Play</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>1) Time Between Points. 25 Seconds/Continuous Play</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch.</Text> The Chair Umpire must start the stopwatch after the ball
+                            <HighlightText style={RuleStyles.SubHeading3}>a) Start Stop Watch.</HighlightText> The Chair Umpire must start the stopwatch after the ball
                             goes out of play or when the players are ordered to play.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</Text> A Time or Code Violation must be assessed if the ball is not struck for the next point within the twenty-five (25)
+                            <HighlightText style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</HighlightText> A Time or Code Violation must be assessed if the ball is not struck for the next point within the twenty-five (25)
                             seconds allowed, except if the Chair Umpire extends the time for special circumstances defined by ATP. There is no time warning prior to the expiration
                             of the twenty-five (25) seconds.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>2) 90 Seconds/Change-Over (Changing Ends)</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>2) 90 Seconds/Change-Over (Changing Ends)</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch the moment
+                            <HighlightText style={RuleStyles.SubHeading3}>a) Start Stop Watch. </HighlightText>The Chair Umpire must start the stopwatch the moment
                             the ball goes out of play.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>b) “Time.” </Text>The Chair Umpire must announce to players “Time” after one (1)
+                            <HighlightText style={RuleStyles.SubHeading3}>b) “Time.” </HighlightText>The Chair Umpire must announce to players “Time” after one (1)
                             minute has elapsed. If requested, prior to the match, by a television broadcaster, the Chair Umpire shall have the authority to delay the start of play until
                             the end of the ninety (90) second changeover period.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>c) “15 Seconds.” </Text>The Chair Umpire may announce to players “15 Seconds” if
+                            <HighlightText style={RuleStyles.SubHeading3}>c) “15 Seconds.” </HighlightText>The Chair Umpire may announce to players “15 Seconds” if
                             the players are still at their chairs and/or have not started toward their playing
                             positions.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </Text>The Chair Umpire must assess a Time
+                            <HighlightText style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </HighlightText>The Chair Umpire must assess a Time
                             Violation or, when applicable, a Code Violation (after a medical time-out or
                             treatment) if the ball is not struck for the next point within the ninety (90) seconds / one hundred twenty (120) seconds allowed, provided there has been
                             no interference which prevented the Server from serving within that time or a
@@ -535,37 +536,37 @@ export default function Rule112({ navigation }) {
 
 
 
-                            <Text style={RuleStyles.SubHeading3}>3) 120 Seconds/Set Break</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>3) 120 Seconds/Set Break</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch the moment
+                            <HighlightText style={RuleStyles.SubHeading3}>a) Start Stop Watch. </HighlightText>The Chair Umpire must start the stopwatch the moment
                             the ball goes out of play.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>b) “Time”. </Text>The Chair Umpire must announce to players “time” after 90 seconds
+                            <HighlightText style={RuleStyles.SubHeading3}>b) “Time”. </HighlightText>The Chair Umpire must announce to players “time” after 90 seconds
                             has elapsed. If requested, prior to the match, by a television broadcaster, the
                             Chair Umpire shall have the authority to delay the start of play until the end of
                             the one hundred twenty (120) second set break.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>c) “15 Seconds.” </Text>The Chair Umpire may announce to players “15 Seconds” if
+                            <HighlightText style={RuleStyles.SubHeading3}>c) “15 Seconds.” </HighlightText>The Chair Umpire may announce to players “15 Seconds” if
                             the players are still at their chairs and/or have not started toward their playing
                             positions.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </Text>The Chair Umpire must assess a Time
+                            <HighlightText style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </HighlightText>The Chair Umpire must assess a Time
                             Violation or, when applicable, a Code Violation (after a medical time-out or
                             treatment) if the ball is not struck for the next point within the one hundred
                             twenty (120) / one hundred fifty (150) seconds allowed, provided there has
                             been no interference which prevented the server from serving within that time
                             or a delay by the Chair Umpire.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>4) Not Playing to the Reasonable Pace of the Server</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>4) Not Playing to the Reasonable Pace of the Server</HighlightText>
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>a) Start Stop Watch. </Text>The Chair Umpire must start the stopwatch when the player is ordered to play or the moment the ball goes out of play.
+                            <HighlightText style={RuleStyles.SubHeading3}>a) Start Stop Watch. </HighlightText>The Chair Umpire must start the stopwatch when the player is ordered to play or the moment the ball goes out of play.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</Text> The Chair Umpire must assess a Code
+                            <HighlightText style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</HighlightText> The Chair Umpire must assess a Code
                             Violation if the receiver is employing “gamesmanship.” The Chair Umpire
                             must issue a Time Violation before the expiration of twenty-five (25) seconds
                             if the receiver’s actions delay the reasonable pace of the server.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>5) Stoppage and Postponement of a Match</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>5) Stoppage and Postponement of a Match</HighlightText>
                             {'\n\n'}
                             a) The Chair Umpire may stop a match temporarily because of or conditions
                             of the grounds or weather. Any such stoppage by a Chair Umpire must be
@@ -579,7 +580,7 @@ export default function Rule112({ navigation }) {
                             on which each player was situated and shall collect all balls in use for the
                             match.
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>6) Warm up / Re-warm up.</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>6) Warm up / Re-warm up.</HighlightText>
                             {'\n\n'}
                             There shall be a four (4) minute warm-up before a match and in the case of a
                             stopped or postponed match, the period of warm-up shall be as follows:
@@ -591,7 +592,7 @@ export default function Rule112({ navigation }) {
                             c) 30 or more minutes of delay — Four (4) minutes of warm-up [Five (5) minutes
                             at Challengers].
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading2}>N. Video Review (“VR”)</Text>
+                            <HighlightText style={RuleStyles.SubHeading2}>N. Video Review (“VR”)</HighlightText>
                             {'\n\n'}
                             The use of VR to determine specific judgment calls is approved for use at events
                             where there is Electronic Line Calling (“ELC”) and the VR system has been approved
@@ -599,7 +600,7 @@ export default function Rule112({ navigation }) {
                             {'\n\n'}
                             The protocol for use is as follows:
                             {'\n\n'}
-                            <Text style={RuleStyles.SubHeading3}>a) Reviewable calls</Text>
+                            <HighlightText style={RuleStyles.SubHeading3}>a) Reviewable calls</HighlightText>
                             {'\n\n'}
                             i) Not-up – ball bounced more than once prior to contact.
                             {'\n\n'}
@@ -622,16 +623,16 @@ export default function Rule112({ navigation }) {
                             vii) Original Call Stands – when a challenge to a line call has properly been
                             made and the line review system is unable to make a determination, the chair umpire may review the
                             call for clear evidence that confirms or overturns the call on the cour.
-                        </Text>
+                        </HighlightText>
                     </ZoomText>
-                    <Text style={RuleStyles.Description}>
+                    <HighlightText style={RuleStyles.Description}>
 
                         {'\n\n'}
                         viii) Foot-faults
                         {'\n\n'}
                         ix) Scoring error
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) Process</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>b) Process</HighlightText>
                         {'\n\n'}
                         i) When a reviewable call is challenged, the VR operator will find, through
                         the various camera angles available, the best view of the incident.
@@ -644,7 +645,7 @@ export default function Rule112({ navigation }) {
                         {'\n\n'}
                         iv) If there is no clear evidence, then the original decision stands.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>c) Limit to Challenges</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>c) Limit to Challenges</HighlightText>
                         {'\n\n'}
                         i) Each player will be limited to three (3) incorrect challenges during the set.
                         {'\n\n'}
@@ -652,34 +653,34 @@ export default function Rule112({ navigation }) {
                         {'\n\n'}
                         iii) A review under a) vii) above shall not be recorded as a won/lost challenge.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>O. Time and Equipment Cases</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>O. Time and Equipment Cases</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Crowd Movement</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Crowd Movement</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>The server is given a Time Violation for going beyond the 25
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>The server is given a Time Violation for going beyond the 25
                         seconds that is allowed between points. The server claims that he
                         should have been given additional time because there were some
                         spectators taking their seats.
                         {'\n\n'}
 
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The Time Violation stands. The continuous play procedures shall be in effect regardless of spectator movement unless
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The Time Violation stands. The continuous play procedures shall be in effect regardless of spectator movement unless
                         the Chair Umpire believes the movement is intended as a deliberate
                         attempt to distract a player(s) or occurs in the designated lowest tier
                         of seats.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Ball Person as Personal Valet</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Ball Person as Personal Valet</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player receives a time violation from the Chair Umpire while
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player receives a time violation from the Chair Umpire while
                         waiting for the ball person to retrieve a towel. The player claims the
                         ball person caused the delay.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The Time Violation stands. Toweling off between points
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The Time Violation stands. Toweling off between points
                         with or without the help of a ball person is not a valid reason for
                         delay.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Time Violation, No Play, Results in Code</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Time Violation, No Play, Results in Code</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player, upon hearing a Time Violation, comes to the Chair
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player, upon hearing a Time Violation, comes to the Chair
                         Umpire and asks “Why?” He receives an explanation followed by
                         “Let’s Play”. The player continues his discussion and is given a
                         Code Violation. The player appeals to the Supervisor saying he
@@ -688,34 +689,34 @@ export default function Rule112({ navigation }) {
                         Umpire as the player was directed to play when the Chair Umpire
                         said “Let’s Play.”
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Time Violation + 25 Seconds = Code</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Time Violation + 25 Seconds = Code</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player receives a time violation while standing at the back
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player receives a time violation while standing at the back
                         fence. He does not move to play and the Chair Umpire says, “Let’s
                         play”. After another 25 seconds elapses, what does the Chair
                         Umpire do?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> A Code Violation is announced, (and possibly an inquiry,
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> A Code Violation is announced, (and possibly an inquiry,
                         such as, “Are you OK?”) followed by “Let’s Play”.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Two Explanations are Enough</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Two Explanations are Enough</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player asks for an explanation and is given one. He then
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player asks for an explanation and is given one. He then
                         raises another point and receives another response. How long may
                         this go on?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Normally only twice since continuous play provisions are
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Normally only twice since continuous play provisions are
                         not being complied with. After two brief responses, the Chair Umpire
                         announces “Let’s Play” and subsequently issues a Code Violation if
                         the ball is not in play as a result of that player’s action.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Changing Shoes</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Changing Shoes</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>May a player receive extra time on a changeover in order to
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>May a player receive extra time on a changeover in order to
                         change his shoes and/or socks? If yes, how many times may he do
                         so during the course of the match?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Yes. The Chair Umpire may allow a reasonable extension
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Yes. The Chair Umpire may allow a reasonable extension
                         of the allotted changeover time in order for a player to change his
                         shoes and/or socks. The player should not be allowed to leave the
                         court in this instance. The player is limited to one change per match
@@ -723,75 +724,75 @@ export default function Rule112({ navigation }) {
                         of adjustment” take precedent. In that case, the Chair Umpire has
                         the authority to decide each request on its own merit.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Contact Lens</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Contact Lens</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>During a match, a player requests permission to leave the
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>During a match, a player requests permission to leave the
                         court in order to put in a contact lens.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The request to leave the court is denied. Contact lenses
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The request to leave the court is denied. Contact lenses
                         shall not be considered as equipment out of adjustment unless the
                         player is wearing them at the time of the incident.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Note </Text>- Every attempt should be made to assist the player so that he
+                        <HighlightText style={RuleStyles.SubHeading3}>Note </HighlightText>- Every attempt should be made to assist the player so that he
                         may put the contact lenses in during the changeover.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Time: </Text>Refusal to Play
+                        <HighlightText style={RuleStyles.SubHeading3}>Time: </HighlightText>Refusal to Play
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> After several close calls that go against him, a player comes
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> After several close calls that go against him, a player comes
                         to his chair on the changeover and says, “I’m not playing until the
                         Line Umpire Crew is changed”. After the Chair Umpire calls “Time”,
                         the player says“, I told you I’m not playing until the Line Umpires are
                         changed”. What should the Chair Umpire do?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The Chair Umpire should order the player to play and
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The Chair Umpire should order the player to play and
                         after 25 seconds use the Point Penalty Schedule.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Re-Gripping Racquet</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Re-Gripping Racquet</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>During a change of ends, while a player is re-taping the grip
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>During a change of ends, while a player is re-taping the grip
                         of his racquet, the Chair Umpire calls time. The player walks out to
                         the baseline still taping the grip. At the end of the 90 seconds, the
                         player has failed to commence his serve and is still working on the
                         grip.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The Chair Umpire issues a Time Violation. The racquet
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The Chair Umpire issues a Time Violation. The racquet
                         is not equipment out of adjustment and therefore the player must
                         serve within the allotted time. (Rules of Tennis, “Rule 29”.) Similarly,
                         adjusting the position of the strings or fixing string savers is not an
                         excuse for delaying play.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Replacing Shoes</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Replacing Shoes</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>During a match, a player requests permission to leave the
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>During a match, a player requests permission to leave the
                         court area to retrieve another pair of tennis shoes. He states that he
                         is slipping and wants to get a pair of shoes with a different sole from
                         his locker.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The request is denied. However, the Chair Umpire should
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The request is denied. However, the Chair Umpire should
                         use all possible means to have the shoes retrieved and brought to
                         the court. This is not considered “Equipment Out of Adjustment”.
                         The shoes could have been brought to the court with the player and
                         changed on-court; however, once he has the shoes, reasonable
                         time is allowed for the change.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Shoe Breaks</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Shoe Breaks</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player breaks his shoe and he needs to change, but his
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player breaks his shoe and he needs to change, but his
                         second pair is in the locker room.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire should stop play and allow the player
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The Chair Umpire should stop play and allow the player
                         to get shoes.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>No Play After 90 Seconds</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>No Play After 90 Seconds</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player is not ready to play after the ninety (90) second
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player is not ready to play after the ninety (90) second
                         changeover (no injury involved).
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> A Time Violation is announced. “Let’s Play” is normally
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> A Time Violation is announced. “Let’s Play” is normally
                         added. The same applies if a player is not ready to play after the
                         120-second set break.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>P. Toilet/Change of Attire Break</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>P. Toilet/Change of Attire Break</HighlightText>
                         {'\n\n'}
 
                         1) A player may be permitted to leave the court for a toilet or change of attire break.
@@ -826,45 +827,45 @@ export default function Rule112({ navigation }) {
                         break on its own merit when provisions of “equipment out of adjustment” take
                         precedent.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Toilet Visit</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Toilet Visit</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>In a best of three (3) set match, a player has used his one
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>In a best of three (3) set match, a player has used his one
                         toilet visit. The player informs the Chair Umpire that at the next
                         changeover he would like to take another toilet visit prior to his
                         serving.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The Chair Umpire may allow a player to leave the court
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The Chair Umpire may allow a player to leave the court
                         but must inform the player that any delay beyond the 90 seconds
                         will be penalized with the back-to-back Time Violations.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Toilet Visit: When Does Play Resume?</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Toilet Visit: When Does Play Resume?</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> After play has been paused for an authorized toilet visit,
-                        <Text style={RuleStyles.SubHeading3}>when does the “clock” start to resume play?</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> After play has been paused for an authorized toilet visit,
+                        <HighlightText style={RuleStyles.SubHeading3}>when does the “clock” start to resume play?</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> When the player returns to the court and has had the
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> When the player returns to the court and has had the
                         opportunity to retrieve his racquet, then the Chair Umpire should
                         announce “Time”. This announcement shall signal the players to
                         resume the match.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>Q.Medical</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>Q.Medical</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) Medical Condition</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>1) Medical Condition</HighlightText>
                         {'\n\n'}
                         A medical condition is a medical illness or a musculoskeletal injury that warrants
                         medical evaluation and/or medical treatment by the Physiotherapist during the
                         warm-up or the match.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) Treatable Medical Conditions</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>a) Treatable Medical Conditions</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}> i) Acute medical condition: </Text>the sudden development of a medical illness
+                        <HighlightText style={RuleStyles.SubHeading3}> i) Acute medical condition: </HighlightText>the sudden development of a medical illness
                         or musculoskeletal injury during the warm-up or the match that requires
                         immediate medical attention.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>ii) Non-acute medical condition:</Text> a medical illness or musculoskeletal injury that develops or is aggravated during the warm-up or the match and
+                        <HighlightText style={RuleStyles.SubHeading3}>ii) Non-acute medical condition:</HighlightText> a medical illness or musculoskeletal injury that develops or is aggravated during the warm-up or the match and
                         requires medical attention at the changeover or set break.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) Non-Treatable Medical Conditions</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>b) Non-Treatable Medical Conditions</HighlightText>
                         {'\n\n'}
                         i) Any medical condition that cannot be treated appropriately, or that will not
                         be improved by available medical treatment within the time allowed.
@@ -879,7 +880,7 @@ export default function Rule112({ navigation }) {
                         For the avoidance of any doubt, the use of supplemental oxygen is not
                         permitted at any time.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>2) Medical Evaluation</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>2) Medical Evaluation</HighlightText>
                         {'\n\n'}
                         During the warm-up or the match, the player may request through the Chair Umpire for the Physiotherapist to evaluate him during the next change over or set
                         break. Only in the case that a player develops an acute medical condition that
@@ -900,7 +901,7 @@ export default function Rule112({ navigation }) {
                         * It is recognized that national laws or governmental or other binding regulations imposed upon the event by authorities outside its control may require
                         more compulsory participation by the tournament Doctor in all decisions regarding diagnosis and treatment.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>3) Medical Time-Out</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>3) Medical Time-Out</HighlightText>
                         {'\n\n'}
                         A medical time-out is allowed by the Supervisor or Chair Umpire when the Physiotherapist has evaluated the player and has determined that additional time for
                         medical treatment is required. The medical time-out takes place during a change
@@ -925,7 +926,7 @@ export default function Rule112({ navigation }) {
                         or more treatable medical conditions during a single evaluation, and may then
                         determine that two consecutive medical time-outs are required.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>4) Muscle Cramping</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>4) Muscle Cramping</HighlightText>
                         {'\n\n'}
                         A player may receive treatment for muscle cramping only during the time allotted
                         for changeovers and/or set breaks. Players may not receive a medical time-out
@@ -935,7 +936,7 @@ export default function Rule112({ navigation }) {
                         may be a total of two (2) full change of ends treatments for muscle cramping in a
                         match, not necessarily consecutive.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Note: </Text>A player who has stopped play by claiming an acute medical condition, but
+                        <HighlightText style={RuleStyles.SubHeading3}>Note: </HighlightText>A player who has stopped play by claiming an acute medical condition, but
                         is determined by the Physiotherapist and/or tournament Doctor to have muscle
                         cramping, shall be instructed by the Chair Umpire to resume play immediately.
                         If the player cannot continue playing due to severe muscle cramping, as determined by the Physiotherapist and/or tournament Doctor, he may forfeit the
@@ -945,20 +946,20 @@ export default function Rule112({ navigation }) {
                         If it is determined by the Chair Umpire or Supervisor that gamesmanship was
                         involved, then a Code Violation for Unsportsmanlike Conduct could be issued.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>5) Medical Treatment</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>5) Medical Treatment</HighlightText>
                         {'\n\n'}
                         A player may receive on-court medical treatment and/or supplies from the Physiotherapist and/or tournament Doctor during any changeover or set break. As
                         a guideline, such medical treatment should be limited to two (2) changeovers/
                         set breaks for each treatable medical condition, before or after a medical timeout, and need not be consecutive. Players may not receive medical treatment for
                         non-treatable medical conditions.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>6) Penalty</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>6) Penalty</HighlightText>
                         {'\n\n'}
                         After completion of a medical time-out or medical treatment, any delay in resumption of play shall be penalized by Code Violations for Delay of Game.
                         Any player abuse of this medical rule will be subject to penalty in accordance with
                         the Unsportsmanlike Conduct section of the Code of Conduct.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>7) Bleeding </Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>7) Bleeding </HighlightText>
                         {'\n\n'}
                         If a player is bleeding, the Chair Umpire must stop play as soon as possible, and
                         the Physiotherapist should be called to the court for evaluation and treatment.
@@ -975,7 +976,7 @@ export default function Rule112({ navigation }) {
                         If blood has spilled onto the court or its immediate vicinity, play must not resume
                         until the blood spill has been cleaned appropriately.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>8) Vomiting</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>8) Vomiting</HighlightText>
                         {'\n\n'}
                         If a player is vomiting, the Chair Umpire must stop play if vomiting has spilled
                         onto the court, or if the player requests medical evaluation. If the player requests
@@ -986,7 +987,7 @@ export default function Rule112({ navigation }) {
                         If vomiting has spilled onto the court, play must not resume until the vomit spill
                         has been cleaned appropriately.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>9) Physical Incapacity</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>9) Physical Incapacity</HighlightText>
                         {'\n\n'}
                         During a match, if there is an emergency medical condition and the player involved is unable to make a request for a Physiotherapist, the Chair Umpire shall
                         immediately call for the Physiotherapist and tournament Doctor to assist the player.
@@ -1012,11 +1013,11 @@ export default function Rule112({ navigation }) {
                         event at the same tournament if the tournament Doctor determines that the player’s condition has improved to the extent that the player may safely physically perform at an appropriate level of play or no longer poses a significant health risk
                         to players, officials or Tournament Staff, whether the same day or on a later day.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>R.Medical Cases</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>R.Medical Cases</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Delayed Medical Time-Out</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Delayed Medical Time-Out</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player has an accidental injury and asks to have a medical
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player has an accidental injury and asks to have a medical
                         time-out during the next changeover. What procedure should be
                         used for timing the treatment if the Physiotherapist arrives?
                         {'\n\n'}
@@ -1024,191 +1025,191 @@ export default function Rule112({ navigation }) {
                         {'\n\n'}
                         B. After 60 seconds has elapsed on the changeover?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision A: </Text>The Physiotherapist has 3 1/2 minutes [but, as a
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision A: </HighlightText>The Physiotherapist has 3 1/2 minutes [but, as a
                         minimum, he has three (3) minutes to treat after completing his
                         diagnosis] to treat the player before the Chair Umpire announces
                         “Time”. The player then has 30 seconds to play, subject to the Point
                         Penalty Schedule.
                         {'\n\n'}
 
-                    </Text>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading3}>Decision B: </Text>The Chair Umpire stops the clock at 60 seconds and
+                    </HighlightText>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision B: </HighlightText>The Chair Umpire stops the clock at 60 seconds and
                         stops play until the Physiotherapist is ready to treat the player. The
                         three-minute medical time-out begins, and after the Chair Umpire
                         announces “Time”, the player has 30 seconds to play or be subject
                         to the Point Penalty Schedule.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Equipment Out of Adjustment (Knee Brace)</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Equipment Out of Adjustment (Knee Brace)</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> During play, a player’s knee brace becomes out of adjustment. The player requests time to repair his knee brace.
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> During play, a player’s knee brace becomes out of adjustment. The player requests time to repair his knee brace.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The player is allowed reasonable time to repair his knee
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The player is allowed reasonable time to repair his knee
                         brace without penalty. Any medical apparatus worn by a player
                         shall be considered as equipment in regards to “Equipment Out of
                         Adjustment”.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Exceeding 90 Seconds: Code Violation</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Exceeding 90 Seconds: Code Violation</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>If a player is receiving treatment by the Physiotherapist on a
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>If a player is receiving treatment by the Physiotherapist on a
                         90-second change-over, and the treatment goes over the allowed
                         90 seconds, what happens?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> When the Chair Umpire says “Time”, the player must put
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> When the Chair Umpire says “Time”, the player must put
                         the ball in play within 30 seconds. Any delay after that will result in a
                         Code Violation.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Medical Time-Out and Re-Warm-Up</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Medical Time-Out and Re-Warm-Up</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>If eight (8) minutes elapse before the Physiotherapist arrives
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>If eight (8) minutes elapse before the Physiotherapist arrives
                         and treatment begins two (2) minutes later (the medical time-out
                         begins) and is completed after another three (3) minutes, is a rewarm-up authorized?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> No, a re-warm-up is not authorized.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> No, a re-warm-up is not authorized.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Medical Time-Out Request Honored?</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Medical Time-Out Request Honored?</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player asks for the Physiotherapist. After examination, it is
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player asks for the Physiotherapist. After examination, it is
                         determined by the Physiotherapist that the player is suffering from
                         general fatigue that may not be improved by on-court medical treatment. What course of action should the Chair Umpire take?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire announces, “Let’s Play”, after the
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The Chair Umpire announces, “Let’s Play”, after the
                         Physiotherapist completes his diagnosis. Delays will be penalized in
                         accordance with the Point Penalty Schedule. The Chair Umpire has
                         the option to issue a Code Violation for Unsportsmanlike Conduct in
                         unusual cases.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Medical Time-Out Starts When?</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Medical Time-Out Starts When?</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case A:</Text> When does a medical time-out begin?
+                        <HighlightText style={RuleStyles.SubHeading3}>Case A:</HighlightText> When does a medical time-out begin?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision A: </Text>Medical time-out begins when the Physiotherapist
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision A: </HighlightText>Medical time-out begins when the Physiotherapist
                         arrives and is ready and able to treat the player. Thus, the Physiotherapist has completed his examination/diagnosis and the medical
                         time-out starts when the Physiotherapist begins treating the player.
                         Case B: A player asks to see the Physiotherapist during the middle
                         of a game although the Chair Umpire observed no accidental injury.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>What should the umpire do?</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>What should the umpire do?</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision B:</Text> First, tell the player that you will call the Physiotherapist
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision B:</HighlightText> First, tell the player that you will call the Physiotherapist
                         and he can see him at the changeover. If the player insists that he
                         cannot continue, then stop play and call the Physiotherapist. The
                         Physiotherapist will make the decision, upon examining the player,
                         whether a medical time-out is needed.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Only 90 Seconds to Re-Tape</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Only 90 Seconds to Re-Tape</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player turns his ankle, which is taped by the Physiotherapist, and then on the next changeover wants the ankle re-taped.
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player turns his ankle, which is taped by the Physiotherapist, and then on the next changeover wants the ankle re-taped.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire may authorize the re-taping which
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The Chair Umpire may authorize the re-taping which
                         must be completed within the 90-second changeover or the Point
                         Penalty Schedule applies.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Penalties After Medical Time-Out</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Penalties After Medical Time-Out</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> When is the player penalized for going over three minutes on
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> When is the player penalized for going over three minutes on
                         a medical time-out?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> After the Chair Umpire says “Time”; the player must put
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> After the Chair Umpire says “Time”; the player must put
                         the ball in play within 30 seconds. Any delay after that will result in a
                         Code Violation. The player is allowed the time necessary to put on
                         shoes, socks, ankle supports, etc.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player receives treatment on a changeover or receives
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player receives treatment on a changeover or receives
                         a Medical Time-Out. The player is then slow to resume play after
                         “Time” has been called. What is the appropriate penalty?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The appropriate Delay of Game Penalty (Warning, Point,
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The appropriate Delay of Game Penalty (Warning, Point,
                         Game).
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> After receiving treatment for cramping on the changeover, a
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> After receiving treatment for cramping on the changeover, a
                         player plays one or more points and then is slow to resume play. If
                         the player goes over the allowed time, what penalty does the player
                         receive?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The appropriate Time Violation (Warning, Point/Fault).
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The appropriate Time Violation (Warning, Point/Fault).
                         {'\n\n'}
                         Re-Injury
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player injures his ankle and is granted a three (3) minute
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player injures his ankle and is granted a three (3) minute
                         medical time-out by the Physiotherapist. Five (5) games later, the
                         player asks for another medical time-out claiming that he has re-injured the same ankle.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The Chair Umpire shall call for the Physiotherapist who
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The Chair Umpire shall call for the Physiotherapist who
                         shall determine upon examination whether or not a three (3) minute
                         medical time-out is authorized.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Resuming Play After a Medical Time-Out</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Resuming Play After a Medical Time-Out</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case A: </Text>After an injury and a four-minute suspension (by the Chair
+                        <HighlightText style={RuleStyles.SubHeading3}>Case A: </HighlightText>After an injury and a four-minute suspension (by the Chair
                         Umpire) for the arrival of the Physiotherapist, the Physiotherapist arrives and completes the treatment in one and 1/2 minutes. When
                         does play resume?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision A: </Text>Immediately.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision A: </HighlightText>Immediately.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case B:</Text> After a player becomes injured, the Physiotherapist treats
+                        <HighlightText style={RuleStyles.SubHeading3}>Case B:</HighlightText> After a player becomes injured, the Physiotherapist treats
                         the player in two (2) minutes. When should play resume?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision B:</Text> Immediately when the player and Physiotherapist are
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision B:</HighlightText> Immediately when the player and Physiotherapist are
                         satisfied with the treatment administered, but the treatment is not to
                         exceed three (3) minutes.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Tape Is Not “Equipment Adjustment”</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Tape Is Not “Equipment Adjustment”</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> During play, a player requests play to be suspended in order
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> During play, a player requests play to be suspended in order
                         for him to adjust the tape on his ankle.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>Play must continue. Taping is not considered as “Equipment Out of Adjustment”.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>Play must continue. Taping is not considered as “Equipment Out of Adjustment”.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Note:</Text> The Physiotherapist may be called to make adjustments
+                        <HighlightText style={RuleStyles.SubHeading3}>Note:</HighlightText> The Physiotherapist may be called to make adjustments
                         during the 90-second changeover; however, any delays shall be penalized in accordance with the Point Penalty Schedule. If the player
                         makes the adjustment without the help of the Physiotherapist and violates the continuous play rule, then the player shall be penalized in
                         accordance with the penalties set forth under “Unreasonable Delay”,
                         i.e., Time Violation.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Treatment for Fatigue</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Treatment for Fatigue</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> May a Physiotherapist put his hands on a player suffering
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> May a Physiotherapist put his hands on a player suffering
                         from what appears to be fatigue?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Yes. The Physiotherapist then makes the decision regarding a medical time-out.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Yes. The Physiotherapist then makes the decision regarding a medical time-out.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Treatment:</Text> Within 90 Seconds
+                        <HighlightText style={RuleStyles.SubHeading3}>Treatment:</HighlightText> Within 90 Seconds
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> After an even game, a player asks to see the Physiotherapist on the next changeover. The next game ends and 90 seconds
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> After an even game, a player asks to see the Physiotherapist on the next changeover. The next game ends and 90 seconds
                         elapse without the Physiotherapist arriving on-court. The player
                         asks that the changeover time be extended so that he may receive
                         treatment. His rationale is that the Physiotherapist’s arrival to the
                         court is not the player’s fault.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The Chair Umpire suspends play until the Physiotherapist
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The Chair Umpire suspends play until the Physiotherapist
                         examines the player and determines whether a medical Time-out is
                         needed.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>When to Take a Medical Time-Out?</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>When to Take a Medical Time-Out?</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> What happens if a player is injured during a match and
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> What happens if a player is injured during a match and
                         decides not to take his injury time-out right away? (Before the end of
                         the next change-over)
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> A player may call for the Physiotherapist at any time. The
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> A player may call for the Physiotherapist at any time. The
                         Physiotherapist shall determine whether the medical time-out is to
                         be authorized.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Chair Umpire Orders Medical Time-Out</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Chair Umpire Orders Medical Time-Out</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player has an accidental ankle injury and the Chair Umpire
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player has an accidental ankle injury and the Chair Umpire
                         believes that continued play will result in non-professional play. May
                         the Chair Umpire stop play (and call for the Physiotherapist)?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>Yes.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>Yes.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Singles Retirement: Still in Doubles?</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Singles Retirement: Still in Doubles?</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player retires from his singles match because of illness or
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player retires from his singles match because of illness or
                         medical reason. May he compete in the doubles competition?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> If upon examination by the tournament Doctor after the
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> If upon examination by the tournament Doctor after the
                         retirement and again before the player’s scheduled doubles match,
                         it is determined that the player’s condition has “improved” to the
                         extent that he can compete at a professional level, then the player
@@ -1216,13 +1217,13 @@ export default function Rule112({ navigation }) {
                         has not improved then he must not be allowed to compete in the
                         doubles.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>S. Miscellaneous Officiating Cases and Decisions</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>S. Miscellaneous Officiating Cases and Decisions</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Broken String:</Text> First Service Fault
+                        <HighlightText style={RuleStyles.SubHeading3}>Broken String:</HighlightText> First Service Fault
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> On a first service fault, the receiver breaks a string.
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> On a first service fault, the receiver breaks a string.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> In Singles matches If the receiver changes his racquet,
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> In Singles matches If the receiver changes his racquet,
                         then a first serve will be awarded to the server. If the receiver elects
                         not to change racquets, then the server must play a second serve.
                         In Doubles matches if the receiver changed the racquet with his
@@ -1230,81 +1231,81 @@ export default function Rule112({ navigation }) {
                         opinion the replacement time was such that the server was delayed
                         in his delivery of a serve.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Broken String: </Text>First Service Let
+                        <HighlightText style={RuleStyles.SubHeading3}>Broken String: </HighlightText>First Service Let
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>The receiver breaks a string on a first service let.
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>The receiver breaks a string on a first service let.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The receiver must change racquets. A player is allowed
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The receiver must change racquets. A player is allowed
                         to finish the point with a broken string but may not start a point with
                         a broken string.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Broken String: No Racquets</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Broken String: No Racquets</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>The player breaks a string in his last racquet.
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>The player breaks a string in his last racquet.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The player is not allowed to continue with broken strings.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The player is not allowed to continue with broken strings.
                         The player is subjected to the penalties set forth in the Point Penalty
                         System for Unreasonable Delay.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Receiver Not Ready</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Receiver Not Ready</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>The receiver is not ready but looks up as the second serve is
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>The receiver is not ready but looks up as the second serve is
                         hit, reflexes a return and says, “wait.”
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> Second serve. The server should observe that the
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Second serve. The server should observe that the
                         receiver is ready. (If the Chair Umpire believes that gamesmanship
                         is involved on the part of the receivers, then he may issue a code
                         violation for Unsportsmanlike Conduct).
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Ball Hits Net Post Signage</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Ball Hits Net Post Signage</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> The ball, while in play, hits the top of the ATP net signage and
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> The ball, while in play, hits the top of the ATP net signage and
                         goes into the proper court.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> ATP net signage will be considered permanent fixtures
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> ATP net signage will be considered permanent fixtures
                         (other than the net, posts, singles sticks, cord or metal cable, strap
                         or band) and will result in the loss of point.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Ball hits Overhead Camera Cable</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Ball hits Overhead Camera Cable</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player throws up a lob which is over the court and it hits the
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player throws up a lob which is over the court and it hits the
                         cable supporting Spider Cam which is positioned diagonally across
                         the court from the service line to baseline. Is the point awarded to
                         the opponent; is the point replayed; or does play continue?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> The cable is considered a permanent fixture and therefore, it is a loss of point.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The cable is considered a permanent fixture and therefore, it is a loss of point.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Invasion: </Text>Ball in Play
+                        <HighlightText style={RuleStyles.SubHeading3}>Invasion: </HighlightText>Ball in Play
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player’s dampening device flies out of his racquet and
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player’s dampening device flies out of his racquet and
                         touches the net or goes into his opponent’s court.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> If the ball was still in play, the player loses point. The
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> If the ball was still in play, the player loses point. The
                         dampening device shall be considered a part of the racquet.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Invasion: </Text>No Replay
+                        <HighlightText style={RuleStyles.SubHeading3}>Invasion: </HighlightText>No Replay
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> After the point has been completed, player discovers opponent’s dampening device lying in his court. The player claims a point
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> After the point has been completed, player discovers opponent’s dampening device lying in his court. The player claims a point
                         based on Rules of Tennis, rule “Rule 24”).
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point stands as played. Since the Chair Umpire did
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The point stands as played. Since the Chair Umpire did
                         not see the dampening device land in the opponent’s court, he may
                         not rule that an invasion occurred. Invasion occurs only when the
                         ball is in play. Since the Chair Umpire did not know the timing of the
                         incident, he may not assume that an invasion did occur.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Player Hits Net Pipe Support</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Player Hits Net Pipe Support</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A player touches a “pipe support” with his foot while the ball
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player touches a “pipe support” with his foot while the ball
                         is in play.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>In this case the “pipe support” is to be considered as part
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>In this case the “pipe support” is to be considered as part
                         of the net; thus if a player touches it while the ball is in play, he loses
                         the point.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Touching Net or Opponent’s Court</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Touching Net or Opponent’s Court</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> If while the ball is in play a player’s foot slides under the net
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> If while the ball is in play a player’s foot slides under the net
                         but does not touch the net, should this still be considered a “touch”
                         since the net should have extended fully to the court surface?
                         Decision: No. This cannot be considered a “touch” if the player did
@@ -1313,77 +1314,77 @@ export default function Rule112({ navigation }) {
                         did occur, then the Chair Umpire shall call an “invasion” and award
                         the point to the player’s opponent.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Ball Touches Net Pipe Support</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Ball Touches Net Pipe Support</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> The ball falls over the net and hits the “pipe support ”used on
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> The ball falls over the net and hits the “pipe support ”used on
                         indoor courts.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> In this case, the “pipe support” is to be considered as
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> In this case, the “pipe support” is to be considered as
                         part of the court; thus when the ball hit the pipe, it would be ruled as
                         a first bounce.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Player Touches Net Outside of Singles Stick</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Player Touches Net Outside of Singles Stick</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A player runs for a drop shot and returns it into the opponent’s court and then runs into net between net post and singles
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A player runs for a drop shot and returns it into the opponent’s court and then runs into net between net post and singles
                         stick. What is the ruling?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>Play continues. This part of the net is considered a permanent fixture.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>Play continues. This part of the net is considered a permanent fixture.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Ball Rolls Onto Court</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Ball Rolls Onto Court</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text>  After a first service fault, a ball comes into the court from
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText>  After a first service fault, a ball comes into the court from
                         another court.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> If the server has started his motion, then a first serve
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> If the server has started his motion, then a first serve
                         shall be awarded. In other cases, a second serve shall be played unless in the opinion of the Chair Umpire the delay was unusually
                         long and unfairly disrupted the rhythm of the server.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Umpire Unsighted</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Umpire Unsighted</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> A Line Umpire is unsighted and the Chair Umpire cannot
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A Line Umpire is unsighted and the Chair Umpire cannot
                         make the decision.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The point is replayed, except in the case where it was
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The point is replayed, except in the case where it was
                         discovered after the point had been completed that during a rally a
                         Line Umpire had been unsighted. In that case, the point would stand
                         as played.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Intimidating Line Umpire</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Intimidating Line Umpire</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>A serve is hit near the sideline and the receiver, hearing no
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>A serve is hit near the sideline and the receiver, hearing no
                         call, immediately turns around and screams at the Line Umpire. The
                         Line Umpire, who had signaled good, then calls and signals out.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The Chair Umpire rules the serve good based on the Line
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The Chair Umpire rules the serve good based on the Line
                         Umpire’s original call. The Supervisor, if called, upholds the Chair
                         Umpire’s decision based on an official not changing his call based
                         on a player appeal.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Note:</Text> The Chair Umpire may have to ask for the Line Umpire’s
+                        <HighlightText style={RuleStyles.SubHeading3}>Note:</HighlightText> The Chair Umpire may have to ask for the Line Umpire’s
                         original call if he is uncertain or disregard the Line Umpire’s call and
                         make the call himself.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Service Order</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Service Order</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case:</Text> In a doubles match, Team A serves out of order. After two
+                        <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> In a doubles match, Team A serves out of order. After two
                         points have been played, the Chair Umpire realizes the mistake.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The Chair Umpire should correct the mistake immediately.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The Chair Umpire should correct the mistake immediately.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Receiving Order</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Receiving Order</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>In a doubles match, the players on the team switched their
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>In a doubles match, the players on the team switched their
                         receiving positions during the set. When this is realized, what action
                         should the Chair Umpire take?
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision: </Text>The original receiving positions of each player on that
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The original receiving positions of each player on that
                         team must be taken after the completion of the game in progress.
                         If error occurred during a tie break, then the receiving order shall
                         remain as altered until the completion of the tie break game.
 
                         {'\n\n'}
 
-                    </Text>
+                    </HighlightText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule111', next: 'Rule113', nav: navigation }} />

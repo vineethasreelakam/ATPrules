@@ -4,19 +4,20 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule98({ navigation }) {
     return (
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
                     <ZoomText>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>7.08 The Draw</Text>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>7.08 The Draw</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A.Minimum Draw Size</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>A.Minimum Draw Size</HighlightText>
                         {'\n\n'}
                         1) The singles draw size for ATP Tour Masters 1000 tournaments shall be:
                         {'\n\n'}
@@ -40,7 +41,7 @@ export default function Rule98({ navigation }) {
                         tournament week.
                         3) Doubles draw sizes may be found under “Composition of Draws”.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}> B.Composition of Draws - ATP Tournaments</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}> B.Composition of Draws - ATP Tournaments</HighlightText>
                         {'\n\n'}
                         1) Main Draw Singles: The singles main draw shall be composed as follows:
                         {'\n\n'}
@@ -82,9 +83,9 @@ export default function Rule98({ navigation }) {
                         {'\n\n'}
                         56 45-47 4 5 0-2
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}></Text>NOTE: All ATP Tour 250 tournaments shall have a 16 draw qualifying regardless of the size of the main draw.
+                        <HighlightText style={RuleStyles.SubHeading2}></HighlightText>NOTE: All ATP Tour 250 tournaments shall have a 16 draw qualifying regardless of the size of the main draw.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}></Text>C.Composition of Draws - Challenger Tour Tournaments (unless otherwise approved by ATP)
+                        <HighlightText style={RuleStyles.SubHeading2}></HighlightText>C.Composition of Draws - Challenger Tour Tournaments (unless otherwise approved by ATP)
                         {'\n\n'}
                         1) Main Draw 32 Players
                         {'\n\n'}
@@ -123,7 +124,7 @@ export default function Rule98({ navigation }) {
                         ATP Rankings, and then the Pepperstone ATP Doubles Rankings, used for
                         seeding.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>NOTE:</Text> In order to preserve his eligibility on the Acceptance List, the player
+                        <HighlightText style={RuleStyles.SubHeading3}>NOTE:</HighlightText> In order to preserve his eligibility on the Acceptance List, the player
                         must email the ATP Supervisor directly prior to 6 PM local time on the day
                         before qualifying starts (email listed on detail sheet) and personally inform
                         the Supervisor that he wishes to preserve his position on the Acceptance
@@ -131,7 +132,7 @@ export default function Rule98({ navigation }) {
                         confirmation that the Supervisor has received the email in a timely manner. A
                         player can only preserve his eligibility on one list.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>D.Composition of Draws - Doubles:</Text> The doubles main draw shall be composed as
+                        <HighlightText style={RuleStyles.SubHeading2}>D.Composition of Draws - Doubles:</HighlightText> The doubles main draw shall be composed as
                         follows:
                         {'\n\n'}
                         1) ATP Tour 250/500 Tournaments: Direct Acceptances
@@ -170,9 +171,9 @@ export default function Rule98({ navigation }) {
                         {'\n\n'}
                         16 10 4 2
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>E. Qualifying</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>E. Qualifying</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>ATP Tour:</Text> The Alternate Sign In for ATP Tour singles qualifying shall begin no later
+                        <HighlightText style={RuleStyles.SubHeading3}>ATP Tour:</HighlightText> The Alternate Sign In for ATP Tour singles qualifying shall begin no later
                         than 4 p.m. and close at 6 p.m. local time on the night prior to the start of the qualifying competition (Friday night when qualifying commences on Saturday). There shall
                         also be an Alternate sign-in on the day of first round qualifying play, this deadline is
                         one-half hour prior to the first scheduled qualifying match. This is a new sign-in and any player who is on-site and with a Pepperstone ATP Ranking (singles or doubles)
@@ -244,7 +245,7 @@ export default function Rule98({ navigation }) {
 
 
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
                     </ZoomText>
                 </ScrollView>
             </View >

@@ -3,6 +3,8 @@ import { Text, View, Image, ScrollView } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
+import ZoomText from "../Component/ZoomText.js";
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule96({ navigation }) {
@@ -10,12 +12,13 @@ export default function Rule96({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>7.06 One Tournament Per Week and Exception</Text>
+                    <ZoomText>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>7.06 One Tournament Per Week and Exception</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}> A.Regulation:</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}> A.Regulation:</HighlightText>
                         {'\n\n'}
                         A player may only enter and compete in one Grand Slam, ATP Tour, ATP Challenger
                         Tour or special event during that tournament week. Once a player enters and is
@@ -23,13 +26,13 @@ export default function Rule96({ navigation }) {
                         committed to that tournament for the week, unless released by the Senior Vice President - Rules & Competition or Supervisor. A player who loses in the singles qualifying
                         competition may enter the doubles event of any tournament.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Case: </Text>May a team who enters and loses doubles qualifying at an
+                        <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>May a team who enters and loses doubles qualifying at an
                         ATP 500 event on Saturday enter doubles in a Challenger for the
                         same week.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Decision:</Text> No. This would violate the provisions of the One Tournament Per Week rule.
+                        <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> No. This would violate the provisions of the One Tournament Per Week rule.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>B.Exception: </Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>B.Exception: </HighlightText>
                         {'\n\n'}
                         A player who has lost in a tournament may enter the qualifying for a tournament
                         scheduled for the next week*. The Supervisor may authorize a player who is still
@@ -45,7 +48,8 @@ export default function Rule96({ navigation }) {
                         the same week.
 
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
+                    </ZoomText>
                 </ScrollView>
             </View >
             <RuleNavigationButtons props={{ prev: 'Rule95', next: 'Rule97', nav: navigation }} />

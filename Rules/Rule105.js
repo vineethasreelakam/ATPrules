@@ -4,6 +4,7 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule105({ navigation }) {
@@ -11,15 +12,15 @@ export default function Rule105({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
                     <ZoomText>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>7.15 Number of Seeds</Text>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>7.15 Number of Seeds</HighlightText>
                         {'\n\n'}
                         The number of seeds shall be as follows:
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Singles </Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Singles </HighlightText>
                         {'\n\n'}
                         4 competitors - 2 seeds (singles Q)*
                         {'\n\n'}
@@ -41,7 +42,7 @@ export default function Rule105({ navigation }) {
                         {'\n\n'}
                         96 competitors - 32 seeds
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>Doubles</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>Doubles</HighlightText>
                         {'\n\n'}
                         4 teams - 2 seeds (Qualifying)
                         {'\n\n'}
@@ -54,7 +55,7 @@ export default function Rule105({ navigation }) {
                         *ATP Challenger Tour Qualifying only
 
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
                     </ZoomText>
                 </ScrollView>
             </View >

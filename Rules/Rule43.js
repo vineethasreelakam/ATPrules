@@ -4,19 +4,20 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 export default function Rule43({ navigation }) {
   return (
     <>
       <View style={RuleStyles.Layout}>
         <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-          <Text style={RuleStyles.MainHeading}>III. FINANCIAL</Text>
+          <HighlightText style={RuleStyles.MainHeading}>III. FINANCIAL</HighlightText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
-          <Text style={RuleStyles.Description}>
-            <Text style={RuleStyles.SubHeading1}>3.19 ATP 250 Tournament Financial Information</Text>{'\n\n'}
+          <HighlightText style={RuleStyles.Description}>
+            <HighlightText style={RuleStyles.SubHeading1}>3.19 ATP 250 Tournament Financial Information</HighlightText>{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>A. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>A. </HighlightText>
             Each 250 category tournament member is required to annually provide to the 250 PM
             Committee Auditor (as defined below) a complete and accurate determination and
             calculation of its actual tournament Gross Revenues (as defined below), costs, ex-
@@ -26,10 +27,10 @@ export default function Rule43({ navigation }) {
             250 category tournament member shall provide its full cooperation to the 250 PM
             Committee Auditor, who will examine and verify the accuracy of such information.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>B. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>B. </HighlightText>
             The following terms shall have the meanings set forth below:{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>“250 Prize Money Committee (250 PM Committee)”</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“250 Prize Money Committee (250 PM Committee)”</HighlightText>
             means the committee appointed
             by the ATP Board of Directors and authorized to act in accordance with this
             rule, which shall be comprised of the ATP Chairman or his designee, an Independent
@@ -42,7 +43,7 @@ export default function Rule43({ navigation }) {
             and the tournament representative designated with the right to vote on 250 PM Com
             mittee matters shall be collectively referred to herein as the “250 Voting Members”.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>“250 PM Committee Auditor”</Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“250 PM Committee Auditor”</HighlightText>
             means an independent accounting firm appointed
             by the 250 PM Committee to (i) receive and evaluate each tournament member’s
             250 Submissions and projected tournament financials, (ii) perform agreed upon 
@@ -53,7 +54,7 @@ export default function Rule43({ navigation }) {
             accounting related matters and Gross Revenue, costs, expenses and net income
             reporting issues and questions.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>“Independent Member” </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“Independent Member” </HighlightText>
             means the independent member of the 250 PM Committee
             appointed by the ATP Board of Directors, by the aﬃrmative vote of a super majority
             of the Board, to serve on the 250 PM Committee for a 3-year term. The Independent
@@ -61,7 +62,7 @@ export default function Rule43({ navigation }) {
             vote required for appointment.{'\n\n'}
 
 
-            <Text style={RuleStyles.SubHeading3}>“250 Player Auditor” </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“250 Player Auditor” </HighlightText>
             means an independent certified public accountant and/or 
             financial advisor selected by the player member(s) of the 250 PM Committee and
             approved by the 250 PM Committee in accordance with Section C below, who meets
@@ -69,7 +70,7 @@ export default function Rule43({ navigation }) {
             Submissions. The 250 Player Auditor will act as advisor to the player member(s) of
             250 PM Committee.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading3}>“250 Submission” </Text>
+            <HighlightText style={RuleStyles.SubHeading3}>“250 Submission” </HighlightText>
             means the prescribed, mandatory annual financial information
             report required to be submitted hereunder to the 250 PM Committee Auditor by each
             250 category tournament which, for the avoidance of doubt, shall include a determination
@@ -79,7 +80,7 @@ export default function Rule43({ navigation }) {
             must be completed in full as determined by the 250 PM Committee Auditor to be
             considered in compliance with this rule.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>C. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>C. </HighlightText>
             The 250 PM Committee will administer, implement and enforce this rule, including,
             but not limited to (i) determining procedures for audits for purposes of financial 
             disclosures in accordance with the terms of this rule; (ii) determining the process of
@@ -102,7 +103,7 @@ export default function Rule43({ navigation }) {
             reasonable and adequate funding available to enable to the 250 PM Committee to
             administer, implement and enforce this rule in accordance with the terms herein.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>D. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>D. </HighlightText>
             Each 250 category tournament member is required to provide a complete and 
             accurate 250 Submission annually to the 250 PM Committee Auditor no later than 120
             days following the conclusion of its tournament for such year. Each 250 Submission
@@ -122,7 +123,7 @@ export default function Rule43({ navigation }) {
             Committee a statement of confidentiality and non-disclosure prohibiting either the
             250 PM Committee Auditor or 250 Player Auditor from making any such disclosure.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>E. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>E. </HighlightText>
             Each year, the 250 PM Committee Auditor will perform an agreed upon desk-based
             procedures audit (as directed by the 250 PM Committee) of each tournament’s Gross
             Revenues included in the 250 Submission and report to the 250 PM Committee any
@@ -152,7 +153,7 @@ export default function Rule43({ navigation }) {
             unanimously agree on such determination, then the 250 Independent Member will make
             such determination in his or her sole discretion.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>F. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>F. </HighlightText>
             Any tournament member that (i) fails to provide a 250 Submission to the 250 PM
             Committee Auditor as required under this rule (including with respect to the 
             timing, accuracy and/ or completeness thereof), (ii) submits a report or document that
@@ -175,7 +176,7 @@ export default function Rule43({ navigation }) {
             fines assessed under this rule will be contributed to player programs as determined
             by the Player Board Representatives.{'\n\n'}
 
-            <Text style={RuleStyles.SubHeading2}>G. </Text>
+            <HighlightText style={RuleStyles.SubHeading2}>G. </HighlightText>
             The following guidelines set forth fines that may be imposed for violations of this rule
             (subject to the discretion of 250 Committee as set forth in this rule):{'\n\n'}
 
@@ -190,7 +191,7 @@ export default function Rule43({ navigation }) {
 
 
             {'\n\n'}
-          </Text>
+          </HighlightText>
           </ZoomText>
         </ScrollView>
       </View>

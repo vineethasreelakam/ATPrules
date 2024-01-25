@@ -4,6 +4,7 @@ import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
 import ZoomText from '../Component/ZoomText.js';
+import { HighlightText } from "../Component/HighlightText.js";
 
 
 export default function Rule115({ navigation }) {
@@ -11,52 +12,52 @@ export default function Rule115({ navigation }) {
         <>
             <View style={RuleStyles.Layout}>
                 <ScrollView style={RuleStyles.ScrollViewStyle} minimumZoomScale={1} maximumZoomScale={10}>
-                    <Text style={RuleStyles.MainHeading}>VII. THE COMPETITION</Text>
+                    <HighlightText style={RuleStyles.MainHeading}>VII. THE COMPETITION</HighlightText>
                     <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule3.png'}}/>
                     <ZoomText>
-                    <Text style={RuleStyles.Description}>
-                        <Text style={RuleStyles.SubHeading1}>7.25 Announcing</Text>
+                    <HighlightText style={RuleStyles.Description}>
+                        <HighlightText style={RuleStyles.SubHeading1}>7.25 Announcing</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>A.Calls of On-Court Officials</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>A.Calls of On-Court Officials</HighlightText>
                         {'\n\n'}
                         The verbal calls of the on-court officials shall be made loudly and clearly in English
                         and any other appropriate language as follows:
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>1) “Fault.” </Text>If either the first or second service fails.
+                        <HighlightText style={RuleStyles.SubHeading3}>1) “Fault.” </HighlightText>If either the first or second service fails.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>2) “Out.” </Text>If a return hits the ground, a permanent fixture or another object outside
+                        <HighlightText style={RuleStyles.SubHeading3}>2) “Out.” </HighlightText>If a return hits the ground, a permanent fixture or another object outside
                         the court.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>3) “Net” </Text>If a service hits the top of the net.
+                        <HighlightText style={RuleStyles.SubHeading3}>3) “Net” </HighlightText>If a service hits the top of the net.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>4) “Footfault” </Text>If a player violates rule 7 or 8 of the Rules of Tennis.
+                        <HighlightText style={RuleStyles.SubHeading3}>4) “Footfault” </HighlightText>If a player violates rule 7 or 8 of the Rules of Tennis.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>5) “Let.” </Text>If the Chair Umpire determines that a point should be replayed.
+                        <HighlightText style={RuleStyles.SubHeading3}>5) “Let.” </HighlightText>If the Chair Umpire determines that a point should be replayed.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>6) “Not Up.” </Text>If a player fails to hit a ball in play on the first bounce.
+                        <HighlightText style={RuleStyles.SubHeading3}>6) “Not Up.” </HighlightText>If a player fails to hit a ball in play on the first bounce.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>7) “Foul Shot” or “Touch.”</Text> If a ball is intentionally struck twice, or touched before
+                        <HighlightText style={RuleStyles.SubHeading3}>7) “Foul Shot” or “Touch.”</HighlightText> If a ball is intentionally struck twice, or touched before
                         it comes over the net, or while volleying, the ball hits the court after leaving the
                         racquet before going over the net, or a player touches the net while the ball is in
                         play, or a ball in play touches a player, or anything that he wears or carries falls
                         into the opponent’s court or touches the net.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>8) “Hindrance.”</Text> If a player deliberately or involuntarily commits an act which hinders his opponent in making a stroke.
+                        <HighlightText style={RuleStyles.SubHeading3}>8) “Hindrance.”</HighlightText> If a player deliberately or involuntarily commits an act which hinders his opponent in making a stroke.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>9) “Through.”</Text> If a ball goes through the net.
+                        <HighlightText style={RuleStyles.SubHeading3}>9) “Through.”</HighlightText> If a ball goes through the net.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>10) “Wait Please.” </Text>To preclude starting play when a hazard or other circumstance
+                        <HighlightText style={RuleStyles.SubHeading3}>10) “Wait Please.” </HighlightText>To preclude starting play when a hazard or other circumstance
                         makes it appropriate to delay the beginning of a point. Do not make this call if a
                         player’s arm is in motion to strike the ball (call “Let” immediately after the serve is
                         struck).
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>11) Overrule.</Text> Make the following announcement:
+                        <HighlightText style={RuleStyles.SubHeading3}>11) Overrule.</HighlightText> Make the following announcement:
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>a) “Correction, the ball was in;” or</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>a) “Correction, the ball was in;” or</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading3}>b) “Out” or “Fault.”</Text>
+                        <HighlightText style={RuleStyles.SubHeading3}>b) “Out” or “Fault.”</HighlightText>
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>B.Code and Time Violations </Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>B.Code and Time Violations </HighlightText>
                         {'\n\n'}
                         The following are examples of Code of Conduct announcements to be used:
                         {'\n\n'}
@@ -94,13 +95,13 @@ export default function Rule115({ navigation }) {
                         {'\n\n'}
                         6) Code Violations shall be announced in English.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>C.Language - Chair Umpire</Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>C.Language - Chair Umpire</HighlightText>
                         {'\n\n'}
                         Chair umpires should announce matches in the language of the tournament and subsequently in English. Conversations between the Chair Umpire and player may be in
                         any language; however, if the language used is not English, then the Chair Umpire
                         must be prepared to advise the other player of the nature of the discussion.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>D.Medical Time-Out </Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>D.Medical Time-Out </HighlightText>
                         {'\n\n'}
                         The following are examples of announcements to be made when there is a medical
                         time-out:
@@ -133,7 +134,7 @@ export default function Rule115({ navigation }) {
                         If there is no play after an additional thirty (30) seconds, the delay is penalized in
                         accordance with the Point Penalty Schedule.
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>E. Player Introductions </Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>E. Player Introductions </HighlightText>
                         {'\n\n'}
                         The following are examples of announcing statements to be used for player introductions:
                         {'\n\n'}
@@ -145,7 +146,7 @@ export default function Rule115({ navigation }) {
                         each player’s first service game the Chair Umpire says: “______(full name) to
                         serve.” (optional - “first set “).
                         {'\n\n'}
-                        <Text style={RuleStyles.SubHeading2}>F. Score </Text>
+                        <HighlightText style={RuleStyles.SubHeading2}>F. Score </HighlightText>
                         {'\n\n'}
                         The following are examples of announcing statements to be used for scoring:
                         {'\n\n'}
@@ -208,7 +209,7 @@ export default function Rule115({ navigation }) {
                         to Server preparing to serve.
 
                         {'\n\n'}
-                    </Text>
+                    </HighlightText>
                     </ZoomText>
                 </ScrollView>
             </View >
