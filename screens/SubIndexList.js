@@ -295,7 +295,7 @@ export const SubIndex6_List = [
     { id: 84, indexId: '', name: '6.20 Physiotherapist/Treatment Room', pageName: 'Rule84' , comp:Rule84 },
     { id: 85, indexId: '', name: '6.21 Automated External Defibrillator (“AED”)', pageName: 'Rule85' , comp:Rule85 },
     { id: 86, indexId: '', name: '6.22 First Aid', pageName: 'Rule86' , comp:Rule86 },
-    { id: 86, indexId: '', name: '6.23 Emergency Action Plan', pageName: 'Rule211' , comp:Rule211 },
+    { id: 211, indexId: '', name: '6.23 Emergency Action Plan', pageName: 'Rule211' , comp:Rule211 },
     { id: 87, indexId: '', name: '6.24 Anti-Doping Facilities and On-Site Personnel Assistance', pageName: 'Rule87' , comp:Rule87 },
     { id: 88, indexId: '', name: '6.25 Media Facilities Guidelines', pageName: 'Rule88' , comp:Rule88 },
     { id: 89, indexId: '', name: '6.26 Electronic Line Calling Facilities Guidelines', pageName: 'Rule89' , comp:Rule89 },

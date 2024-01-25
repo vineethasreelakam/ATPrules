@@ -34,6 +34,8 @@
       {name:'rule120_2.png',image:require('../assets/img/rule120_2.png')},
       {name:'rule120_3.png',image:require('../assets/img/rule120_3.png')},
       {name:'rule127.png',image:require('../assets/img/rule127.png')},
+      {name:'rule127_1.png',image:require('../assets/img/rule127_1.png')},
+      {name:'rule127_2.png',image:require('../assets/img/rule127-2.png')},
       {name:'rule132.png',image:require('../assets/img/rule132.png')},
       {name:'rule133_1.png',image:require('../assets/img/rule133_1.png')},
       {name:'rule133_2.png',image:require('../assets/img/rule133_2.png')},
