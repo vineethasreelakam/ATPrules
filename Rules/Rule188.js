@@ -673,7 +673,7 @@ export default function Rule188({ navigation }) {
           </Text>
         </ScrollView>
       </View>
-      <RuleNavigationButtons props={{ prev: 'Rule187', next: 'Rule190', nav: navigation }} />
+      <RuleNavigationButtons props={{ prev: 'Rule187', next: 'Rule192', nav: navigation }} />
     </>
   );
 }
