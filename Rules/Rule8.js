@@ -112,7 +112,7 @@ export default function Rule8({ navigation }) {
 
             <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule8_1.png'}}/>
             <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule8_2.png'}}/>
-
+            {'\n\n'}
             *For the avoidance of doubt, points from the Monte Carlo Masters 1000 tournament
             will not be included in the ATP Tour 500 bonus pool point calculation.{'\n\n'}
 
@@ -120,10 +120,10 @@ export default function Rule8({ navigation }) {
             stone ATP Rankings points earned at the 500 events.{'\n\n'}
 
             Ties shall be broken as follows:{'\n\n'}
-              1. Most ATP Tour 500 events played; followed by
+              1. Most ATP Tour 500 events played; followed by{'\n\n'}
               2. Highest number of points earned from a single event, followed by 2nd highest
               and so on.{'\n\n'}
-            If players have the same points breakdowns:
+            If players have the same points breakdowns:{'\n\n'}
               3. The higher ranked player as per the Year-End Pepperstone ATP Singles
               Rankings wins the tie.{'\n\n'}
             <HighlightText style={RuleStyles.SubHeading2}>H. ATP Tour Masters 1000 & Nitto ATP Finals
@@ -139,8 +139,8 @@ export default function Rule8({ navigation }) {
               2024 Bonus Pool.</HighlightText>{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>a) Platinum Benefit Eligibility Criteria. </HighlightText>
-            Only members who are in good stand-
-            ing and meet the Platinum Benefit eligibility criteria (as defined in Section
+            Only members who are in good standing
+            and meet the Platinum Benefit eligibility criteria (as defined in Section
             1 .21 below) shall be eligible for the ATP Tour Masters 1000 and Nitto ATP
             Finals Bonus Pool.{'\n\n'}
 
