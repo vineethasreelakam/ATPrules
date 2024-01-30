@@ -129,7 +129,7 @@ export default function Rule50({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>Comment 1:</HighlightText> 1 player has 3 wins and the other 3 players have 1 win. Of 
             the 3 players with 1 win, 1 player has only played in 2 matches while the 
             other 2 players have played 3 matches. The player who has only played 2 
-            matches is eliminated and then the 2 remaining players revert to head-tohead results with the winner of their match advancing to the semi-finals.
+            matches is eliminated and then the 2 remaining players revert to head-to-head results with the winner of their match advancing to the semi-finals.
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>Comment 2:</HighlightText>: 1 player has 3 wins and the other 3 players have 1 win and 
             they all have played 3 matches. The tie-break for % of sets won has 1 

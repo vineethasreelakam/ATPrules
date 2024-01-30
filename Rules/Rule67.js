@@ -64,7 +64,7 @@ export default function Rule67({ navigation }) {
                         request. Players must return practice balls.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>3) ATP Qualifying Competition:</HighlightText> : Players listed in the Pepperstone ATP Rankings
-                        (singles/doubles) who are practicing for qualifying competition are enti- tled to six
+                        (singles/doubles) who are practicing for qualifying competition are entitled to six
                         (6) new balls per day for practice, free of charge, two (2) days prior to the start
                         of the qualifying competition until that player is eliminated. Players must return
                         practice balls.

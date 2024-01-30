@@ -19,8 +19,8 @@ export default function Rule18({ navigation }) {
             Each ATP Tour tournament shall each year promptly (within two business days) provide
             to ATP without charge existing footage of the tournament as ATP may request.
             Each ATP tournament hereby grants to ATP the non-exclusive right to broadcast, or
-            permit to be broadcast, by any means, whether presently existing or hereafter creat-
-            ed, in perpetuity worldwide, a total each year of (i) fifteen (15) minutes of footage for
+            permit to be broadcast, by any means, whether presently existing or hereafter created,
+            in perpetuity worldwide, a total each year of (i) fifteen (15) minutes of footage for
             ATP Highlight Show or any other programs, produced by or for ATP, which are primarily intended
             to promote the ATP tennis circuit and/or ATP; and (ii) three (3) minutes
             daily of footage for any local, regional, national or international news or sports news

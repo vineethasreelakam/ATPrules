@@ -28,31 +28,31 @@ export default function Rule189({ navigation }) {
             overall well-being, goodwill and success of the ATP Tour.{'\n\n'}
 
             These benefits, defined as ”Platinum Benefits," encompass a range of offerings,
-            which include retirement programs, bonus programs, financial security plans (includ-
-            ing, Baseline), the privilege to actively participate, including voting, in ATP gover-
-            nance, and such other benefits as may be determined by ATP from time to time and
+            which include retirement programs, bonus programs, financial security plans (including, 
+            Baseline), the privilege to actively participate, including voting, in ATP governance, 
+            and such other benefits as may be determined by ATP from time to time and
             are discussed in detail on the Player Zone.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>C.Eligibility for Platinum Benefits.</HighlightText>
             In addition to the Standard Benefits, a Member shall
             be entitled to receive Platinum Benefits if such player is 1) in good standing and 2) he
             does not have any relationship or affiliation with any business, corporation, company,
-            partnership, association, organization, person, or entity that is not in the best inter-
-            ests of ATP or the sport of tennis and 3) does not participate in 1 or more Qualified
+            partnership, association, organization, person, or entity that is not in the best interests 
+            of ATP or the sport of tennis and 3) does not participate in 1 or more Qualified
             Non-Covered Events (as defined below).{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>D.Criteria for Reinstating Eligibility.</HighlightText>
             In the event a player fails to meet the criteria set
-            forth above, while being in the ranking range eligible for Group 1 membership pur-
-            suant ATP By-Laws, for any of the Platinum Benefits provided by ATP due to Rule
+            forth above, while being in the ranking range eligible for Group 1 membership pursuant 
+            ATP By-Laws, for any of the Platinum Benefits provided by ATP due to Rule
             1.21.C.2 or Rule 1.21.C.3, he must successfully satisfy each of the elements for the
             2 calendar years following such failure in order to reestablish his eligibility.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>E.Amendments to Benefits.</HighlightText>
             ATP reserves the authority to continuously evaluate and
             tailor the Standard Benefits and Platinum Benefits to better serve its Members. As
-            such, ATP retains the right to amend/introduce new benefits, modify or withdraw ex-
-            isting benefits, and/or change the eligibility criteria.{'\n\n'}
+            such, ATP retains the right to amend/introduce new benefits, modify or withdraw 
+            existing benefits, and/or change the eligibility criteria.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>F.Definitions.</HighlightText>{'\n\n'}
             For purposes of this Section 1.21, the following definitions shall apply:{'\n\n'}
@@ -71,24 +71,24 @@ export default function Rule189({ navigation }) {
             a Qualified Non-Covered Event.{'\n\n'}   
 
             <HighlightText style={RuleStyles.SubHeading3}>c.</HighlightText>
-            Individual events when announced are part of a schedule or series of sched-
-            ules of events that the overall number of days exceeds 11 days or more within
+            Individual events when announced are part of a schedule or series of schedules 
+            of events that the overall number of days exceeds 11 days or more within
             a calendar year.{'\n\n'} 
 
             <HighlightText style={RuleStyles.SubHeading3}>d.</HighlightText>
             It includes 2 or more events that are connected through player qualification,
             entry, ranking system, or any other similar means.{'\n\n'} 
 
-            Notwithstanding the foregoing, a Non-Covered Event shall not be deemed a Qual-
-            ified Non-Covered Event. In addition, events that took place in 2023 shall not be
+            Notwithstanding the foregoing, a Non-Covered Event shall not be deemed a Qualified 
+            Non-Covered Event. In addition, events that took place in 2023 shall not be
             deemed a Qualified Non-Covered Event until December 31, 2026 provided that such
             events remain at or below their existing 2023 format (factors for determining format
-            include but not limited to event duration, number of participating players, and compe-
-            tition structure).{'\n\n'} 
+            include but not limited to event duration, number of participating players, and 
+            competition structure).{'\n\n'} 
 
             <HighlightText style={RuleStyles.SubHeading2}>2).</HighlightText>
-            “Non-Covered Events” are those events other than Grand Slams, ATP Tour tour-
-            naments, ATP Challenger Tour tournaments, Laver Cup, Davis Cup, Olympic
+            “Non-Covered Events” are those events other than Grand Slams, ATP Tour 
+            tournaments, ATP Challenger Tour tournaments, Laver Cup, Davis Cup, Olympic
             Games, ITF World Tennis Tour and existing regional league events at or below
             their existing format (factors for determining format include but not limited to event
             duration, number of participating players, and competition structure).

@@ -187,8 +187,8 @@ export default function Rule171({ navigation }) {
             area. Should you choose to receive treatment there, or discuss confidential information (health or otherwise), it is possible that this information may be overheard
             by individuals that have no obligation to refrain from further disclosure of such
             information. Access to these areas is not limited to ATP personnel. Players are
-            reminded of their duties and obligations arising from the ATP Rules and Anti-Co-
-            ercion Policy. The information discussed, as well as photographic images also
+            reminded of their duties and obligations arising from the ATP Rules and Anti-Coercion
+            Policy. The information discussed, as well as photographic images also
             may be intercepted by electronic surveillance devices including but not limited to
             digital and other cameras, video cameras, cellular telephones and personal data
             devices. Neither the Tournament nor ATP is responsible for the unauthorized

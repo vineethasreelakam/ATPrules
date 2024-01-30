@@ -141,8 +141,8 @@ export default function Rule186({ navigation }) {
             basis, in whole or in part, and whether on a free basis or subject to payment,
             any sound recording, video footage, motion picture, film and/or other audio-visual
             content captured by any means whatsoever inside the Tournament site (including, without limitation, the competition courts, the practice courts and inside any
-            restricted areas including locker rooms and areas reserved for players) regard-
-            less of the means of transmission or media whether now known or in the future
+            restricted areas including locker rooms and areas reserved for players) regardless 
+            of the means of transmission or media whether now known or in the future
             (all of such rights, being Broadcast Rights), other than to the extent expressly
             permitted under this Policy;
 

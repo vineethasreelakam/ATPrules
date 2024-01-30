@@ -32,11 +32,11 @@ export default function Rule21({ navigation }) {
             Standards Committee (as defined in Exhibit K) approval is required for ATP 250
             tournament hotel accommodations with ratings below 4 Stars and/or greater than
             thirty (30) minutes from the tournament site. ATP tournaments are required to
-            provide a dedicated tournament concierge and transportation desk at official tour-
-            nament hotels. At a minimum, hotel accommodations shall include complimentary
+            provide a dedicated tournament concierge and transportation desk at official
+            tournament hotels. At a minimum, hotel accommodations shall include complimentary
             breakfast with adequate breakfast options for the occupants of the player’s room
-            (as determined by ATP). ATP Tournaments are also required to provide a compli-
-            mentary gym and internet service for the players at the official hotels.{'\n\n'}
+            (as determined by ATP). ATP Tournaments are also required to provide a
+            complimentary gym and internet service for the players at the official hotels.{'\n\n'}
 
             2) Tournaments using more than one (1) hotel as the official hotel may not make
             player hotel assignments based on a player’s entry into the event as a singles or
@@ -70,8 +70,8 @@ export default function Rule21({ navigation }) {
             Rooms for singles players should be available beginning two
             days prior to the start of the qualifying competition for a minimum of ten
             (10) nights. Accommodations continue through the night that he plays his
-            last match or until his ten (10) night minimum has been provided, which-
-            ever is later.{'\n\n'}
+            last match or until his ten (10) night minimum has been provided, whichever
+            is later.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>ii) Lucky Loser: </HighlightText>
             The top four (4) lucky losers to sign in the Lucky Loser list
@@ -106,8 +106,8 @@ export default function Rule21({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>b) ATP Tour Masters 1000 Tournaments - 56 Main Draw.</HighlightText>{'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>i) Singles: </HighlightText>
             Rooms for singles players should be available beginning two
-            days prior to the start of the qualifying competition for a minimum of sev-
-            en (7) nights. Accommodations continue through the night that he plays
+            days prior to the start of the qualifying competition for a minimum of
+            seven (7) nights. Accommodations continue through the night that he plays
             his last match or until his seven (7) night minimum has been provided,
             whichever is later.{'\n\n'}
 
@@ -123,8 +123,8 @@ export default function Rule21({ navigation }) {
             (2) days prior to the start of the doubles competition. For doubles players
             who stay in individual rooms, hospitality shall be for a minimum of four (4)
             nights or through the night that the player plays his last match, whichever
-            is later. A doubles player who shares a room with another main draw dou-
-            bles player shall have a minimum of six (6) nights or through the night of
+            is later. A doubles player who shares a room with another main draw doubles
+            player shall have a minimum of six (6) nights or through the night of
             that player’s last match, whichever is later.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>iv) Doubles Alternates: </HighlightText>
@@ -146,14 +146,14 @@ export default function Rule21({ navigation }) {
 
             <HighlightText style={RuleStyles.SubHeading3}>ii) Lucky Loser: </HighlightText>
             The number one (1) lucky loser to sign in the Lucky Loser
-            list each day shall receive accommodation through each night he is eligi-
-            ble to be inserted into the draw. If the number one (1) lucky loser moves
+            list each day shall receive accommodation through each night he is eligible
+            to be inserted into the draw. If the number one (1) lucky loser moves
             in, then the next player receives hospitality for that night and each night
             thereafter when he is the number one (1) lucky loser.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>iii) Doubles: </HighlightText>
-            Rooms for doubles players shall be available beginning Satur-
-            day. For doubles players who stay in individual rooms, hospitality shall be
+            Rooms for doubles players shall be available beginning Saturday.
+            For doubles players who stay in individual rooms, hospitality shall be
             for a minimum of two (2) nights or through the night that the player plays
             his last match, whichever is later. A doubles player who shares a room
             with another main draw doubles player shall have a minimum of five (5)
@@ -224,8 +224,8 @@ export default function Rule21({ navigation }) {
 
             <HighlightText style={RuleStyles.SubHeading3}>iii) Doubles 500 Qualifying. </HighlightText>
             Rooms for doubles qualifying players shall be
-            available from the day prior to the start of the doubles qualifying competi-
-            tion and continue through the night of their last match.{'\n\n'}
+            available from the day prior to the start of the doubles qualifying competition 
+            and continue through the night of their last match.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>iv) </HighlightText>
             Successful qualifiers shall be afforded the same hotel accommodations

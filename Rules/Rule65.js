@@ -41,8 +41,8 @@ export default function Rule65({ navigation }) {
               Rules of Tennis.
             </HighlightText> */}
             ATP reserves
-            the right to restrict the color of an indoor synthetic court as well as outdoor surfac-
-            es. The lines of the court shall be white.
+            the right to restrict the color of an indoor synthetic court as well as outdoor surfaces. 
+            The lines of the court shall be white.
             {'\n\n'}
             2) Courts shall be laid out with the long axis north and south; however, geographic
             considerations may modify this orientation in order to minimize the adverse effect
@@ -63,16 +63,16 @@ export default function Rule65({ navigation }) {
             a) ATP Tour Masters 1000. Center Court, two (2) other show courts plus one (1)
             practice court.
             {'\n\n'}
-            b) ATP Tour 500. Center Court plus one (1) other show court plus one (1) prac -
-            tice court based on match schedule plan.
+            b) ATP Tour 500. Center Court plus one (1) other show court plus one (1) 
+            practice court based on match schedule plan.
             {'\n\n'}
             c) ATP Tour 250. No minimum requirement.
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading2}>2) Intensity</HighlightText>
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>a) ATP Tour Tournaments.</HighlightText> Lighting must be evenly distributed on the court
-            with a minimum recommended intensity of 100 foot-candles (1076 LUX), av -
-            eraged over 15 readings on court.
+            with a minimum recommended intensity of 100 foot-candles (1076 LUX), averaged 
+            over 15 readings on court.
             {'\n\n'}
             The recommended minimum lighting for televised events broadcasting in
             high definition is an average of 185 foot candles (approximately 2,000 lux).
@@ -171,7 +171,7 @@ export default function Rule65({ navigation }) {
             day and on the same court(s), then the electronic review must be used for all
             matches on that court(s).
             {'\n\n'}
-            5) The tournament must comply with all of the provisions specified in “Exhibits T -
+            5) The tournament must comply with all of the provisions specified in “Exhibits T 
             and U”.
             {'\n\n'}
             *If qualifying matches are played on courts where an electronic review system is

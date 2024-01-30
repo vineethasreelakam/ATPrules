@@ -343,8 +343,8 @@ export default function Rule23({ navigation }) {
 
             <HighlightText style={RuleStyles.SubHeading3}> i) Host Locality Option 1</HighlightText>{'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}> a) Clay Courts/Hard Courts:</HighlightText>{'\n\n'}
-            Host country/city/region must be written in upper case if using the pre-
-            ferred font and all versions must be in white on one or both sides of
+            Host country/city/region must be written in upper case if using the
+            preferred font and all versions must be in white on one or both sides of
             the court and is to be centered between the net post and the service
             line for clay courts or at the extension of the service line for hard/grass
             courts.{'\n\n'}
@@ -361,8 +361,8 @@ export default function Rule23({ navigation }) {
             The material used for the name, on a hard court, must be of the same
             material and texture as the court surface to ensure safe footing for the
             players.{'\n\n'}
-            If a host locality emblem/logo is used, the size and placement re-
-            strictions applicable to the on court surface commercial branding will
+            If a host locality emblem/logo is used, the size and placement 
+            restrictions applicable to the on court surface commercial branding will
             apply{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}> ii) Host Locality Option 2 (Not for use on clay)</HighlightText>{'\n\n'}

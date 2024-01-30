@@ -89,7 +89,7 @@ export default function Rule24({ navigation }) {
             event by applying the Brand Mark in the following optional applications:{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>a) Merchandise</HighlightText>{'\n\n'}
-            The Brand Mark may be used on tournament t-shirts and sweatshirts (not collared shirts).
+            The Brand Mark may be used on tournament tshirts and sweatshirts (not collared shirts).
             The Brand Mark must not exceed 100mm (3.937”) wide. Written
             approval is required from ATP if producing these items yourself. No approval
             is required if merchandise is obtained from an approved ATP licensee.{'\n\n'}

@@ -326,8 +326,8 @@ export default function Rule49({ navigation }) {
             a) The oﬃcial draw for the placement of teams 1-18 shall take place, on Monday
             23 October 2023.
             {'\n\n'}
-            b) The teams shall be positioned from 1 to 18 in accordance with the best com-
-            bined ATP/WTA Ranking (Singles) as of 23 October 2023, of the number 1
+            b) The teams shall be positioned from 1 to 18 in accordance with the best 
+            combined ATP/WTA Ranking (Singles) as of 23 October 2023, of the number 1
             players of each team accepted at the 17 October 2023 deadline. Two team
             positions 1 ATP Qualified position and 1 WTA position will be reserved. The
             final two remaining entrants to be admitted to the competition on Monday 20
@@ -415,8 +415,8 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             d) For each Tie, the highest-positioned (hereafter, number ones) singles players
             named from each team shall compete against each other. The order of
-            matches shall be as follows unless otherwise decided by the Steering Com-
-            mittee:
+            matches shall be as follows unless otherwise decided by the Steering 
+            Committee:
             {'\n\n'}
             i) Number 1 ATP/WTA Singles followed by
             {'\n\n'}

@@ -330,7 +330,7 @@ export default function Rule93({ navigation }) {
                         is specified in the Composition of Draws (7.08 D. 3)) plus any spots made
                         available through withdrawals occurring after the advance doubles entry
                         deadline. Teams who did not enter through the on-site sign-in and teams
-                        where one member of the team is eligible to re-pair following the withdrawal
+                        where one member of the team is eligible to repair following the withdrawal
                         of his partner are eligible* to sign the daily alternate sign-in and are placed
                         below those teams on the alternate list who did enter through the on-site signin method.
                         *To be eligible, alternate teams who did not enter through the on-site protocol

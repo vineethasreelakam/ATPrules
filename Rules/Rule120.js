@@ -640,8 +640,8 @@ export default function Rule120({ navigation }) {
             {'\n\n'}
             Every player shall dress and present himself for play in a professional manner.
             Clean and customarily acceptable tennis attire as approved by ATP shall be worn.
-            A player who violates this section may be ordered by the Chair Umpire or Super-
-            visor to change his attire or equipment immediately. Failure of a player to comply
+            A player who violates this section may be ordered by the Chair Umpire or Supervisor 
+            to change his attire or equipment immediately. Failure of a player to comply
             with such order may result in an immediate default.
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>a) Identification/Visible</HighlightText>
@@ -1388,8 +1388,8 @@ export default function Rule120({ navigation }) {
             {'\n\n'}
 
             Violating a provision of this Section, as server or receiver, shall be
-            penalized by a “Time Violation – Warning” and each subsequent vio-
-            ation shall be penalized as follows:
+            penalized by a “Time Violation – Warning” and each subsequent violation 
+            shall be penalized as follows:
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>• Server. </HighlightText>
             When serving the time violation shall result in a “fault”.

@@ -117,7 +117,7 @@ export default function Rule48({ navigation }) {
             iii) Highest percentage of games won. (Winning the MTB counts as one (1)
             game won); a team completing less than all three (3) matches is automatically eliminated and the team advancing to the single elimination competition is the winner of the match-up of the two (2) remaining teams; or
             {'\n\n'}
-            iv) The team positions on the 2023 Pepperstone ATP Doubles Team Rank-ings as of the Monday after the last ATP Tour tournament of the calendar
+            iv) The team positions on the 2023 Pepperstone ATP Doubles Team Rankings as of the Monday after the last ATP Tour tournament of the calendar
             yea.
             {'\n\n'}
             v) If (i), (ii), (iii) or (iv) produce one (1) superior team (first place), or one (1)

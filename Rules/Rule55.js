@@ -51,7 +51,7 @@ export default function Rule55({ navigation }) {
               {'\n\n'}
               <HighlightText style={RuleStyles.SubHeading3}>3) Massage Therapist.</HighlightText>
               It is the responsibility of each ATP Tour tournament to provide a Massage Therapist. in the following amounts: (i) 96-draw: 5, (ii) 56-draw: 4, (iii) 48-draw: 3, and
-              (iv) 32/28-draw: 2. Tournaments should provide a separate ventilated room for tournament massage therapists. In exceptional circumstances massage therapists may be located in the ATP treatment room, provided there are no other options, and the room size is suficient to accommodate the increased number of tables and therapists. Please refer to the Standards and Best Practices section on ATP Tournament Centre.
+              (iv) 32/28-draw: 2. Tournaments should provide a separate ventilated room for tournament massage therapists. In exceptional circumstances massage therapists may be located in the ATP treatment room, provided there are no other options, and the room size is suficient to accommodate the increased number of tables and therapists. Please refer to the Standards and Best Practices section on ATP Tournament Centre.
               {'\n\n'}
               <HighlightText style={RuleStyles.SubHeading2}>4) ATP Mental Health and Wellbeing</HighlightText>
               {'\n\n'}

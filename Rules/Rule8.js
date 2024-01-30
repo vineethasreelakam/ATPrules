@@ -108,8 +108,8 @@ export default function Rule8({ navigation }) {
 
             <HighlightText style={RuleStyles.SubHeading2}>F. Good Standing</HighlightText>{'\n\n'}
             A player is in good standing with ATP if he is in full compliance with all ATP Rules
-            (including the Tennis Anti-Corruption Program Rules and Tennis Anti-Doping Pro-
-            gramme), is not suspended and has paid/complied with any debts and/or obligations
+            (including the Tennis Anti-Corruption Program Rules and Tennis Anti-Doping 
+            Programme), is not suspended and has paid/complied with any debts and/or obligations
             to ATP(e.g., complete all Stars Program responsibilities, if applicable) or is otherwise
             confirmed to be in good standing by the ATP Chief Executive Officer (CEO).{'\n\n'}
             Penalties for not being in good standing with ATP result in a player:{'\n\n'}
@@ -119,9 +119,9 @@ export default function Rule8({ navigation }) {
             4) Not being eligible for the Platinum Benefits (as defined below).{'\n\n'}
 
             For the avoidance of doubt, accrued benefits that have not been paid prior to the
-            determination of a breach of the ATP Rules (including the Tennis Anti-Corruption Pro-
-            gram Rules and Tennis Anti-Doping Programme) shall remain payable unless other-
-            wise determined by ATP.
+            determination of a breach of the ATP Rules (including the Tennis Anti-Corruption 
+            Program Rules and Tennis Anti-Doping Programme) shall remain payable unless otherwise
+            determined by ATP.
 
             <HighlightText style={RuleStyles.SubHeading2}>G. ATP Tour 500 Bonus Pool</HighlightText>{'\n\n'}
             Only members who are in good standing meet the Platinum Benefit eligibility criteria
@@ -137,8 +137,8 @@ export default function Rule8({ navigation }) {
             *For the avoidance of doubt, points from the Monte Carlo Masters 1000 tournament
             will not be included in the ATP Tour 500 bonus pool point calculation.{'\n\n'}
 
-            The order of standings for the ATP 500 Bonus Pool will be based on total Pepper-
-            stone ATP Rankings points earned at the 500 events.{'\n\n'}
+            The order of standings for the ATP 500 Bonus Pool will be based on total Pepperstone
+            ATP Rankings points earned at the 500 events.{'\n\n'}
 
             Ties shall be broken as follows:{'\n\n'}
               1. Most ATP Tour 500 events played; followed by{'\n\n'}
@@ -166,13 +166,13 @@ export default function Rule8({ navigation }) {
             Finals Bonus Pool.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>b) Nitto ATP Finals. </HighlightText>
-            All players must play, if they qualify, in the Nitto ATP Fi-
-            nals.Alternates must appear and fulfill the requirements of the alternate, as
+            All players must play, if they qualify, in the Nitto ATP Finals.
+            Alternates must appear and fulfill the requirements of the alternate, as
             determined by ATP. A player who is otherwise qualified but does not play in
             the Nitto ATP Finals for a bona fide injury or other reason which constitutes
             good cause in ATP's determination may receive 80% of the bonus he earned
-            (subject to Section 1.07.H.2) by appearing at the finals event to do promo-
-            tional activities, as determined by ATP.For the avoidance of doubt, if a player
+            (subject to Section 1.07.H.2) by appearing at the finals event to do promotional
+            activities, as determined by ATP.For the avoidance of doubt, if a player
             misses the Nitto ATP Finals and does not engage in promotional activities
             as described above, such player will not be eligible to receive any bonus, unless
             approved by ATP.{'\n\n'}
@@ -211,13 +211,13 @@ export default function Rule8({ navigation }) {
             by fulfilling on-site promotional activities requirements.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>3) </HighlightText>{'\n\n'}
-            A player who, as of December 31, 2022, earned commitment and elected to main-
-            tain his earned commitment reductions pursuant to the 2022 ATP Tour Official
+            A player who, as of December 31, 2022, earned commitment and elected to maintain
+            his earned commitment reductions pursuant to the 2022 ATP Tour Official
             Rule Book shall continue to hold such commitment reductions and be bound by
-            the applicable provisions of the 2022 ATP Tour Official Rule Book relating to bo-
-            nus pool and commitment penalties (for the avoidance of doubt, such player will
-            not be able to replace zero (0) point ranking penalties for missing ATP Tour Mas-
-            ters 1000 tournaments for any reason except as permitted in Section 9.03).{'\n\n'}
+            the applicable provisions of the 2022 ATP Tour Official Rule Book relating to bonus
+            pool and commitment penalties (for the avoidance of doubt, such player will
+            not be able to replace zero (0) point ranking penalties for missing ATP Tour Masters
+            1000 tournaments for any reason except as permitted in Section 9.03).{'\n\n'}
             
             <HighlightText style={RuleStyles.SubHeading3}>4) </HighlightText>{'\n\n'}
             The order of standings for the ATP Masters 1000 Bonus Pool will be based on
