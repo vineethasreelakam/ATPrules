@@ -274,8 +274,14 @@ export default function Rule186({ navigation }) {
             Accreditation and unknown to the public in connection with the Tournament; and
             {'\n\n'}
             3.1.21. without prejudice to paragraph 3.1.20 above, he/she shall comply with the
-            terms of the Tennis Anti-Corruption Program (available for download at https://
-            www.itia.tennis/tacp/rules.
+            terms of the Tennis Anti-Corruption Program (available for download at 
+              <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.itia.tennis/tacp/rules');
+            }}>
+            https://www.itia.tennis/tacp/rules.
+          </HighlightText>
 
 
             {'\n\n'}

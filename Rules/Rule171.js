@@ -49,8 +49,14 @@ export default function Rule171({ navigation }) {
             effective for all of your records that ATP has created or maintained in the past, and for
             any of your records that ATP may create or maintain in the future. You will find this
             and any revised or amended notices posted at ATP’s offices in Ponte Vedra Beach,
-            Florida in a visible location, as well as on the PlayerZone website located at: https://
-            atp-playerzone.com.
+            Florida in a visible location, as well as on the PlayerZone website located at: 
+            <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://atp-playerzone.com');
+            }}>
+            https://atp-playerzone.com.
+          </HighlightText>https://atp-playerzone.com.
 
 
             {'\n\n'}

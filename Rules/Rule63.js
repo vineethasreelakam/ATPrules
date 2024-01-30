@@ -36,7 +36,7 @@ export default function Rule63({ navigation }) {
               Linking.openURL('https://www.itftennis.com/en/about-us/governance/rules-and-regulations/');
             }}>
             weblink.
-          </HighlightText>            
+          </HighlightText>             
             {'\n\n'}
             {'\n\n'}
           </HighlightText>

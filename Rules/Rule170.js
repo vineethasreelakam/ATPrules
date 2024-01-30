@@ -30,7 +30,14 @@ export default function Rule170({ navigation }) {
             amended from time to time.
             {'\n\n'}
             2. I am bound by and will comply with the Tennis Anti-Corruption Program (the “TACP”),
-            a copy of which can be found at the following website: https://www.itia.tennis/tacp/
+            a copy of which can be found at the following website: 
+            <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.itia.tennis/tacp/');
+            }}>
+            https://www.itia.tennis/tacp/
+          </HighlightText>
             rules. I acknowledge that I have had the opportunity to review the TACP and that I
             understand, accept and agree not to violate any of the provisions therein. I acknowledge that I have a duty to inform my Related Persons (as defined in the TACP) of the
             provisions of the TACP and to instruct them to comply with the TACP. I accept that I
@@ -53,7 +60,14 @@ export default function Rule170({ navigation }) {
             TACP contains an agreement to arbitrate disputes in accordance with the process
             described in the TACP and I am bound by the TACP until the earlier of (i) the date of
             my valid retirement in accordance with the requirements of the Tennis Anti-Doping Programme
-            (the “TADP”), a copy of which is available online at https://www.itia.tennis/tadp/rules/, or (ii) two years
+            (the “TADP”), a copy of which is available online at 
+            <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.itia.tennis/tadp/rules/');
+            }}>
+            https://www.itia.tennis/tadp/rules/
+          </HighlightText>, or (ii) two years
             after the last Event (as defined in the TACP) in which I enter or participate, unless,
             at either such time, (a) I am subject to a period of ineligibility under either the TACP
             or TADP (in which case I will cease to be bound by the TADP upon the conclusion of
@@ -94,7 +108,14 @@ export default function Rule170({ navigation }) {
             held invalid.
             {'\n\n'}
             6. I acknowledge the Notices of Privacy Practices and Consent is set forth in the ATP Rulebook and
-            is available online at https://www.atppz.com. I understand that the GDPR (General
+            is available online at 
+            <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.atppz.com');
+            }}>
+            https://www.atppz.com.
+          </HighlightText> I understand that the GDPR (General
             Data Protection Regulation) Privacy Notice is available at this same site under PlayerZone Terms & Conditions. I also acknowledge that I have reviewed these notices
             and agree to the terms and conditions contained therein.
             {'\n\n'}

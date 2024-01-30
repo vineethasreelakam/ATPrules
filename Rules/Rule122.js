@@ -17,7 +17,14 @@ export default function Rule122({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>8.06 Tennis Anti-Corruption Program (“TACP”)</HighlightText>{'\n\n'}
 
-            Complete rules of the TACP can be found at https://www.itia.tennis/tacp/rules.
+            Complete rules of the TACP can be found at 
+            <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.itia.tennis/tacp/rules');
+            }}>
+            https://www.itia.tennis/tacp/rules
+            </HighlightText>.
 
             {'\n\n'}
           </HighlightText>

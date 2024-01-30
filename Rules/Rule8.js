@@ -26,7 +26,14 @@ export default function Rule8({ navigation }) {
             amendments to ATP Rules.{'\n\n'}
             2) The International Tennis Integrity Agency (“ITIA”) may conduct anti-doping testing
             at ATP sanctioned events under the Tennis Anti-Doping Programme (the “TADP”),
-            the full text of which can be found at https://www.itia.tennis/. ATP Tour, Inc. (“ATP”)
+            the full text of which can be found at
+            <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.itia.tennis/');
+            }}>
+            https://www.itia.tennis/
+            </HighlightText>.ATP Tour, Inc. (“ATP”)
             will honor and enforce any penalties or sanctions against players resulting from
             the TADP. The TADP shall apply to and be binding upon all players and shall
             govern all ATP-sanctioned events including ATP Challenger Tour events. Players
@@ -36,7 +43,21 @@ export default function Rule8({ navigation }) {
             the TADP. Players also consent to the release to ATP of their Anti-Doping results
             obtained by the ITIA at ATP events, including missed tests and/or filing failures.{'\n\n'}
             3) To comply with and be bound by all of the provisions of the 2024 Tennis Anti-Corruption Program Rules, the full text of which can be found at:
-            https://www.itia.tennis/tacp/rules/ and Tennis Anti-Doping Programme (the "TADP"), a copy of which is available online at https://www.itia.tennis/tadp/rules/. {'\n\n'}
+            <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.itia.tennis/tacp/rules/');
+            }}>
+            https://www.itia.tennis/tacp/rules/
+            </HighlightText>
+             and Tennis Anti-Doping Programme (the "TADP"), a copy of which is available online at
+             <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.itia.tennis/tadp/rules/');
+            }}>
+            https://www.itia.tennis/tadp/rules/
+            </HighlightText> . {'\n\n'}
             4) To review and agree to the terms and conditions contained in the Notice of
             Privacy Practices set forth in “Exhibit P - Privacy Notice (“HIPAA”).{'\n\n'}
             5) Each calendar year all players shall, as a condition of entering or participating in

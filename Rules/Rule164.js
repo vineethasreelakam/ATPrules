@@ -1666,8 +1666,14 @@ export default function Rule164({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading2}>RULES OF BEACH TENNIS
             </HighlightText>{'\n\n'}
             The Rules of Beach Tennis are approved by the Rules of Tennis Committee and
-            the Board of Directors and can be found on https://www.itftennis.com/en/itf-tours/
-            beach-tennis-tour/
+            the Board of Directors and can be found on 
+            <HighlightText
+            style={RuleStyles.hyperlinkStyle}
+            onPress={() => {
+              Linking.openURL('https://www.itftennis.com/en/itf-tours/beach-tennis-tour/');
+            }}>
+            https://www.itftennis.com/en/itf-tours/beach-tennis-tour/.
+          </HighlightText> 
             {'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>APPENDIX XI
