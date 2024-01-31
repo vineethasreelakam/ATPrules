@@ -326,7 +326,7 @@ export default function Rule49({ navigation }) {
             a) The oﬃcial draw for the placement of teams 1-18 shall take place, on Monday
             23 October 2023.
             {'\n\n'}
-            b) The teams shall be positioned from 1 to 18 in accordance with the best 
+            b) The teams shall be positioned from 1 to 18 in accordance with the best
             combined ATP/WTA Ranking (Singles) as of 23 October 2023, of the number 1
             players of each team accepted at the 17 October 2023 deadline. Two team
             positions 1 ATP Qualified position and 1 WTA position will be reserved. The
@@ -415,7 +415,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             d) For each Tie, the highest-positioned (hereafter, number ones) singles players
             named from each team shall compete against each other. The order of
-            matches shall be as follows unless otherwise decided by the Steering 
+            matches shall be as follows unless otherwise decided by the Steering
             Committee:
             {'\n\n'}
             i) Number 1 ATP/WTA Singles followed by
@@ -825,27 +825,36 @@ export default function Rule49({ navigation }) {
             Total Prize Money: USD$10,000,000 (USD$5,000,000 each for ATP and WTA)
             {'\n\n'}
           </HighlightText>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_1.png'}}/>
+          <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             *If the Tie is decided following the singles matches, the doubles match may not be
             played, and the money will be split evenly amongst the members of both teams.
             {'\n\n'}
           </HighlightText>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_2.png'}}/>
+          <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             All players on the team (whether the player plays a match or not) earn the same
             amount for a team win.
             {'\n\n'}
           </HighlightText>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_3.png'}}/>
+          <ZoomText>
           <HighlightText>{'\n\n'}</HighlightText>
          {/*  <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_4.png'}}/>
           <HighlightText>{'\n\n'}</HighlightText>
  */}
+ </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_5.png'}}/>
+          <ZoomText>
           <HighlightText>{'\n\n'}</HighlightText>
-
+</ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_6.png'}}/>
+          <ZoomText>
           <HighlightText>{'\n\n'}</HighlightText>
 {/* 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_7.png'}}/>
@@ -872,8 +881,9 @@ export default function Rule49({ navigation }) {
             they compete in any of the Group state matches.
             {'\n\n'}
           </HighlightText>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_8.png'}}/>
-
+<ZoomText>
           <HighlightText>{'\n\n'}</HighlightText>
 
           <HighlightText style={RuleStyles.Description}>
@@ -898,9 +908,13 @@ export default function Rule49({ navigation }) {
 
             {'\n\n'}
           </HighlightText>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_9.png'}}/>
+          <ZoomText>
           <HighlightText>{'\n\n'}</HighlightText>
+          </ZoomText>
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_10.png'}}/>
+          <ZoomText>
           <HighlightText>{'\n\n'}</HighlightText>
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading2}>K. ATP/WTA Ranking Points</HighlightText>
@@ -908,11 +922,15 @@ export default function Rule49({ navigation }) {
               {'\n\n'}
             </HighlightText>
             </HighlightText>
+            </ZoomText>
             <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_11.png'}}/>
+            <ZoomText>
             <HighlightText>{'\n\n'}</HighlightText>
+            <HighlightText>
             WTA Only: WTA player who wins all 5 matches to receive 500 points. WTA player
             who wins 4 of 5 matches to receive a minimum of 325 points or points per the table
             above whichever is higher.
+            </HighlightText>
             <HighlightText>{'\n\n'}</HighlightText>
             <HighlightText style={RuleStyles.Description}>
               <HighlightText style={RuleStyles.SubHeading2}>L. Walkovers</HighlightText>

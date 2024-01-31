@@ -218,8 +218,8 @@ export const AllPageIndexList = [
     +"Grand Slams.Davis Cup. ITF Men’s WTT", comp:Rule2},
     { id: 3, indexId: '', name: '1.02 Tournament Week', pageName: 'Rule3', comp:Rule3, searchindex:" 1.02 Tournament Week" +
 	"            A.Main Draw" +
-	"            Each ATP Tour and ATP Challenger Tour tournament is assigned a spe-" +
-	" 			 cific tournament week on the calendar for scheduling of the main draws in singles and" +
+	"            Each ATP Tour and ATP Challenger Tour tournament is assigned a specific" +
+	" 			 tournament week on the calendar for scheduling of the main draws in singles and" +
 	" 			 doubles commencing on a Monday and concluding on a Sunday, except as approved" +
 	" 			 by ATP. ATP Challenger Tour 75 to 125 tournaments scheduled in the weeks prior to" +
 	" 			 the qualifying or first week of a Grand Slam tournament shall schedule their singles" +
@@ -362,8 +362,8 @@ export const AllPageIndexList = [
 	"            and the Court of Arbitration for Sport to determine any charges brought under" +
 	"            the TADP. Players also consent to the release to ATP of their Anti-Doping results" +
 	"            obtained by the ITIA at ATP events, including missed tests and/or filing failures." +
-	"            3) To comply with and be bound by all of the provisions of the 2024 Tennis Anti-Cor-" +
-	"			 ruption Program Rules, the full text of which can be found at: https://www.itia." +
+	"            3) To comply with and be bound by all of the provisions of the 2024 Tennis Anti-Corruption" +
+	"			 Program Rules, the full text of which can be found at: https://www.itia." +
 	"			 tennis/tacp/rules/ and Tennis Anti-Doping Programme (the "+"TADP"+"), a copy of" +
 	"			 which is available online at https://www.itia.tennis/tadp/rules/." +
 	"            4) To review and agree to the terms and conditions contained in the Notice of" +
@@ -374,8 +374,8 @@ export const AllPageIndexList = [
 	"            6) For entry into an ATP Tour or ATP Challenger Tour tournament, all players must" +
 	"            be an ATP Player Member (”Member”) or an ATP Registered Player. Wild cards" +
 	"            are exempt from this provision." +
-	"            7) All Members must, every two (2) years, submit an authorized physical examina-" +
-	"			 tion form as shown in “Exhibit Y - Mandatory Physical” to be eligible to enter and" +
+	"            7) All Members must, every two (2) years, submit an authorized physical examination" +
+	"			 form as shown in “Exhibit Y - Mandatory Physical” to be eligible to enter and" +
 	"			 compete on the ATP Tour or ATP Challenger Tour." +
 	"            a) A pre-competition medical examination is mandatory and must be submitted" +
 	"            prior to a player participating in his first event of 2024." +
@@ -418,8 +418,8 @@ export const AllPageIndexList = [
 	"            Players are in good standing with ATP if:" +
 	"			 " +
 	"            A player is in good standing with ATP if he is in full compliance with all ATP Rules" +
-	"			 (including the Tennis Anti-Corruption Program Rules and Tennis Anti-Doping Pro-" +
-	"			 gramme), is not suspended and has paid/complied with any debts and/or obligations" +
+	"			 (including the Tennis Anti-Corruption Program Rules and Tennis Anti-Doping Programme), " +
+	"			 is not suspended and has paid/complied with any debts and/or obligations" +
 	"			 to ATP (e.g., complete all Stars Program responsibilities, if applicable) or is otherwise" +
 	"			 confirmed to be in good standing by the ATP Chief Executive Officer (CEO)." +
 	"			 " +
@@ -430,9 +430,9 @@ export const AllPageIndexList = [
 	"			 4) Not being eligible for the Platinum Benefits (as defined below)."+
 	"			 " +
 	"			 For the avoidance of doubt, accrued benefits that have not been paid prior to the"+
-	"			 determination of a breach of the ATP Rules (including the Tennis Anti-Corruption Pro-"+
-	"			 gram Rules and Tennis Anti-Doping Programme) shall remain payable unless other-"+
-	"			 wise determined by ATP."+
+	"			 determination of a breach of the ATP Rules (including the Tennis Anti-Corruption Program "+
+	"			 Rules and Tennis Anti-Doping Programme) shall remain payable unless otherwise"+
+	"			 determined by ATP."+
 	
 	""+
 	"            G. ATP Tour 500 Bonus Pool" +
@@ -446,8 +446,8 @@ export const AllPageIndexList = [
 	"            *For the avoidance of doubt, points from the Monte Carlo Masters 1000 tournament" +
 	"            will not be included in the ATP Tour 500 bonus pool point calculation." +
 	""+
-	"			 The order of standings for the ATP 500 Bonus Pool will be based on total Pepper-" +
-	"			 stone ATP Rankings points earned at the 500 events."+
+	"			 The order of standings for the ATP 500 Bonus Pool will be based on total Pepperstone" +
+	"			 ATP Rankings points earned at the 500 events."+
 	"" +
 	"			 Ties shall be broken as follows:"+
 	"			 1. Most ATP Tour 500 events played; followed by"+
@@ -471,19 +471,19 @@ export const AllPageIndexList = [
 	"              2023 Bonus Pool." +
 	"" +
 	"            a) Platinum Benefit Eligibility Criteria. " +
-	"            Only members who are in good stand-" +
-	"			 ing and meet the Platinum Benefit eligibility criteria (as defined in Section" +
+	"            Only members who are in good standing" +
+	"			 and meet the Platinum Benefit eligibility criteria (as defined in Section" +
 	"			 1.21 below) shall be eligible for the ATP Tour Masters 1000 and Nitto ATP" +
 	"			 Finals Bonus Pool." +
 	"" +
 	"            b) Nitto ATP Finals. " +
-	"            All players must play, if they qualify, in the Nitto ATP Fi-" +
-	"			 nals. Alternates must appear and fulfill the requirements of the alternate, as" +
+	"            All players must play, if they qualify, in the Nitto ATP Finals." +
+	"			 Alternates must appear and fulfill the requirements of the alternate, as" +
 	"			 determined by ATP. A player who is otherwise qualified but does not play in" +
 	"			 the Nitto ATP Finals for a bona fide injury or other reason which constitutes" +
 	"			 good cause in ATP's determination may receive 80% of the bonus he earned" +
-	"			 (subject to Section 1.07.H.2) by appearing at the finals event to do promo-" +
-	"			 tional activities, as determined by ATP. For the avoidance of doubt, if a player" +
+	"			 (subject to Section 1.07.H.2) by appearing at the finals event to do promotional" +
+	"			 activities, as determined by ATP. For the avoidance of doubt, if a player" +
 	"			 misses the Nitto ATP Finals and does not engage in promotional activities as" +
 	"			 described above, such player will not be eligible to receive any bonus, unless" +
 	"			 approved by ATP." +
@@ -517,13 +517,13 @@ export const AllPageIndexList = [
 	"            by fulfilling on-site promotional activities requirements." +
 	"" +
 	"            3) " +
-	"            A player who, as of December 31, 2022, earned commitment and elected to main-"+
-	"			 tain his earned commitment reductions pursuant to the 2022 ATP Tour Official"+
+	"            A player who, as of December 31, 2022, earned commitment and elected to maintain"+
+	"			 his earned commitment reductions pursuant to the 2022 ATP Tour Official"+
 	"			 Rule Book shall continue to hold such commitment reductions and be bound by"+
-	"			 the applicable provisions of the 2022 ATP Tour Official Rule Book relating to bo-"+
-	"			 nus pool and commitment penalties (for the avoidance of doubt, such player will"+
-	"			 not be able to replace zero (0) point ranking penalties for missing ATP Tour Mas-"+
-	"			 ters 1000 tournaments for any reason except as permitted in Section 9.03)."+
+	"			 the applicable provisions of the 2022 ATP Tour Official Rule Book relating to bonus"+
+	"			 pool and commitment penalties (for the avoidance of doubt, such player will"+
+	"			 not be able to replace zero (0) point ranking penalties for missing ATP Tour Masters"+
+	"			 1000 tournaments for any reason except as permitted in Section 9.03)."+
 	"			 4)" +
 	"			 The order of standings for the ATP Masters 1000 Bonus Pool will be based on"+
 	"			 the total Pepperstone ATP Rankings points earned across the ATP Tour Masters"+
@@ -577,12 +577,12 @@ export const AllPageIndexList = [
 	"            B.All Group 1 ATP player members must attend an ATP player university within one (1)" +
 	"            year after becoming a member." +
 	"" +
-	"            C.All Group 1 and 2 ATP player members must submit an authorized physical examina-" +
-	"			 tion as specified in section 1.07.A.7)." +
+	"            C.All Group 1 and 2 ATP player members must submit an authorized physical examination" +
+	"			 as specified in section 1.07.A.7)." +
 	"" +
-	"            D.Any ATP player who is eligible for Group 1 membership and does not fulfill the obli-" +
-	"			 gations in subsection B and C above shall not be entitled to the privilege of member-" +
-	"			 ship." +
+	"            D.Any ATP player who is eligible for Group 1 membership and does not fulfill the obligations" +
+	"			 in subsection B and C above shall not be entitled to the privilege of" +
+	"			 membership." +
 	"            " +
 	"            E. All Group 1 ATP player members must complete an ATP University refresher course" +
 	"			 two years after completing the ATP University as prescribed and designed by ATP." +
@@ -770,8 +770,8 @@ export const AllPageIndexList = [
 	"            Each ATP Tour tournament shall each year promptly (within two business days) provide" +
 	"            to ATP without charge existing footage of the tournament as ATP may request." +
 	"            Each ATP tournament hereby grants to ATP the non-exclusive right to broadcast, or" +
-	"            permit to be broadcast, by any means, whether presently existing or hereafter creat-" +
-	"            ed, in perpetuity worldwide, a total each year of (i) fifteen (15) minutes of footage for" +
+	"            permit to be broadcast, by any means, whether presently existing or hereafter created," +
+	"            in perpetuity worldwide, a total each year of (i) fifteen (15) minutes of footage for" +
 	"            ATP Highlight Show or any other programs, produced by or for ATP, which are primarily intended" +
 	"            to promote the ATP tennis circuit and/or ATP; and (ii) three (3) minutes" +
 	"            daily of footage for any local, regional, national or international news or sports news" +
@@ -813,11 +813,11 @@ export const AllPageIndexList = [
 	"			 Standards Committee (as defined in Exhibit K) approval is required for ATP 250" +
 	"			 tournament hotel accommodations with ratings below 4 Stars and/or greater than" +
 	"			 thirty (30) minutes from the tournament site. ATP tournaments are required to" +
-	"			 provide a dedicated tournament concierge and transportation desk at official tour-" +
-	"			 nament hotels. At a minimum, hotel accommodations shall include complimentary" +
+	"			 provide a dedicated tournament concierge and transportation desk at official tournament" +
+	"			 hotels. At a minimum, hotel accommodations shall include complimentary" +
 	"			 breakfast with adequate breakfast options for the occupants of the player’s room" +
-	"			 (as determined by ATP). ATP Tournaments are also required to provide a compli-" +
-	"			 mentary gym and internet service for the players at the official hotels." +
+	"			 (as determined by ATP). ATP Tournaments are also required to provide a complimentary" +
+	"			 gym and internet service for the players at the official hotels." +
 	"" +
 	"            2) Tournaments using more than one (1) hotel as the official hotel may not make" +
 	"			 player hotel assignments based on a player’s entry into the event as a singles or" +
@@ -850,8 +850,8 @@ export const AllPageIndexList = [
 	"            Rooms for singles players should be available beginning two" +
 	"			 days prior to the start of the qualifying competition for a minimum of ten" +
 	"			 (10) nights. Accommodations continue through the night that he plays his" +
-	"			 last match or until his ten (10) night minimum has been provided, which-" +
-	"			 ever is later." +
+	"			 last match or until his ten (10) night minimum has been provided, whichever" +
+	"			 is later." +
 	"" +
 	"           " +
 	"			 The top four (4) lucky losers to sign in the Lucky Loser list" +
@@ -876,8 +876,8 @@ export const AllPageIndexList = [
 	"			 b) ATP Tour Masters 1000 Tournaments - 56 Main Draw."+
 	"            " +
 	"            Rooms for singles players should be available beginning two"+
-	"			 days prior to the start of the qualifying competition for a minimum of sev-"+
-	"			 en (7) nights. Accommodations continue through the night that he plays"+
+	"			 days prior to the start of the qualifying competition for a minimum of"+
+	"			 seven (7) nights. Accommodations continue through the night that he plays"+
 	"			 his last match or until his seven (7) night minimum has been provided," +
 	"			 whichever is later."+
 	""+
@@ -893,8 +893,8 @@ export const AllPageIndexList = [
 	"			 (2) days prior to the start of the doubles competition. For doubles players" +
 	"			 who stay in individual rooms, hospitality shall be for a minimum of four (4)" +
 	"			 nights or through the night that the player plays his last match, whichever" +
-	"			 is later. A doubles player who shares a room with another main draw dou-" +
-	"			 bles player shall have a minimum of six (6) nights or through the night of" +
+	"			 is later. A doubles player who shares a room with another main draw doubles" +
+	"			 player shall have a minimum of six (6) nights or through the night of" +
 	"			 that player’s last match, whichever is later." +
 	"" +
 	"            " +
@@ -979,8 +979,8 @@ export const AllPageIndexList = [
 	"            Tour 250 Qualifying:" +
 	"            i) " +
 	
-	"			 Hotel accomodations for players in the ATP Tour Masters 1000 quali-" +
-	"			 fying shall be available two (2) days prior to the start of the qualifying" +
+	"			 Hotel accomodations for players in the ATP Tour Masters 1000 qualifying" +
+	"			 shall be available two (2) days prior to the start of the qualifying" +
 	"			 competition for a minimum of five (5) nights (96 draw tournament) or for" +
 	"			 a minimum of three (3) nights (56 draw tournament). Accommodations" +
 	"			 continue through the night a player plays his last match or until his five/" +
@@ -1266,31 +1266,31 @@ export const AllPageIndexList = [
 	"			overall well-being, goodwill and success of the ATP Tour."+
 	"" +
 	"           These benefits, defined as ”Platinum Benefits," +"encompass a range of offerings," +
-	"			which include retirement programs, bonus programs, financial security plans (includ-" +
-	"			ing, Baseline), the privilege to actively participate, including voting, in ATP gover-" +
-	"			nance, and such other benefits as may be determined by ATP from time to time and" +
+	"			which include retirement programs, bonus programs, financial security plans (including," +
+	"			Baseline), the privilege to actively participate, including voting, in ATP governance," +
+	"			and such other benefits as may be determined by ATP from time to time and" +
 	"			are discussed in detail on the Player Zone." +
 	"" +
 	"			C. Eligibility for Platinum Benefits."+
 	"			In addition to the Standard Benefits, a Member shall"+
 	"			be entitled to receive Platinum Benefits if such player is 1) in good standing and 2) he"+
 	"			does not have any relationship or affiliation with any business, corporation, company,"+
-	"			partnership, association, organization, person, or entity that is not in the best inter-"+
-	"			ests of ATP or the sport of tennis and 3) does not participate in 1 or more Qualified"+
+	"			partnership, association, organization, person, or entity that is not in the best interests"+
+	"			of ATP or the sport of tennis and 3) does not participate in 1 or more Qualified"+
 	"			Non-Covered Events (as defined below)."+
 	"" +
 	"			D. Criteria for Reinstating Eligibility."+
 	"			In the event a player fails to meet the criteria set"+
-	"			forth above, while being in the ranking range eligible for Group 1 membership pur-"+
-	"			suant ATP By-Laws, for any of the Platinum Benefits provided by ATP due to Rule"+
+	"			forth above, while being in the ranking range eligible for Group 1 membership pursuant"+
+	"			ATP By-Laws, for any of the Platinum Benefits provided by ATP due to Rule"+
 	"			1.21.C.2 or Rule 1.21.C.3, he must successfully satisfy each of the elements for the"+
 	"			2 calendar years following such failure in order to reestablish his eligibility."+
 	""+
 	"			E. Amendments to Benefits."+
 	"			ATP reserves the authority to continuously evaluate and"+
 	"			tailor the Standard Benefits and Platinum Benefits to better serve its Members. As"+
-	"			such, ATP retains the right to amend/introduce new benefits, modify or withdraw ex-"+
-	"			isting benefits, and/or change the eligibility criteria."+
+	"			such, ATP retains the right to amend/introduce new benefits, modify or withdraw existing"+
+	"			benefits, and/or change the eligibility criteria."+
 	""+
 	"			F. Definitions."+
 	"			For purposes of this Section 1.21, the following definitions shall apply:"+
@@ -1309,8 +1309,8 @@ export const AllPageIndexList = [
 	"			a Qualified Non-Covered Event."+
 	"" +
 	"			c."+
-	"			Individual events when announced are part of a schedule or series of sched-"+
-	"			ules of events that the overall number of days exceeds 11 days or more within"+
+	"			Individual events when announced are part of a schedule or series of schedules"+
+	"			of events that the overall number of days exceeds 11 days or more within"+
 	"			a calendar year."+
 	"" +
 	"			d"+
@@ -1318,16 +1318,16 @@ export const AllPageIndexList = [
 	"			entry, ranking system, or any other similar means."+
 	"			{'\\n\\n'}"+
 	"" +
-	"			Notwithstanding the foregoing, a Non-Covered Event shall not be deemed a Qual-"+
-	"			ified Non-Covered Event. In addition, events that took place in 2023 shall not be"+
+	"			Notwithstanding the foregoing, a Non-Covered Event shall not be deemed a Qualified"+
+	"			Non-Covered Event. In addition, events that took place in 2023 shall not be"+
 	"			deemed a Qualified Non-Covered Event until December 31, 2026 provided that such"+
 	"			events remain at or below their existing 2023 format (factors for determining format"+
-	"			include but not limited to event duration, number of participating players, and compe-"+
-	"			tition structure)."+
+	"			include but not limited to event duration, number of participating players, and competition"+
+	"			structure)."+
 	"" +
 	"			2)"+
-	"			“Non-Covered Events” are those events other than Grand Slams, ATP Tour tour-"+
-	"			naments, ATP Challenger Tour tournaments, Laver Cup, Davis Cup, Olympic"+
+	"			“Non-Covered Events” are those events other than Grand Slams, ATP Tour tournaments,"+
+	"			ATP Challenger Tour tournaments, Laver Cup, Davis Cup, Olympic"+
 	"			Games, ITF World Tennis Tour and existing regional league events at or below"+
 	"			their existing format (factors for determining format include but not limited to event"+
 	"			duration, number of participating players, and competition structure)."+
@@ -1665,8 +1665,8 @@ export const AllPageIndexList = [
 	"" +
 	"             i) Host Locality Option 1{'\\n\\n'}" +
 	"             a) Clay Courts/Hard Courts:{'\\n\\n'}" +
-	"            Host country/city/region must be written in upper case if using the pre-" +
-	"			 ferred font and all versions must be in white on one or both sides of" +
+	"            Host country/city/region must be written in upper case if using the preferred" +
+	"			 font and all versions must be in white on one or both sides of" +
 	"			 the court and is to be centered between the net post and the service" +
 	"			 line for clay courts or at the extension of the service line for hard/grass" +
 	"			 courts.{'\\n\\n'}" +
@@ -1684,8 +1684,8 @@ export const AllPageIndexList = [
 	"            material and texture as the court surface to ensure safe footing for the" +
 	"            players.{'\\n\\n'}" +
 	""+
-	"			 If a host locality emblem/logo is used, the size and placement re-" +
-	"			 strictions applicable to the on court surface commercial branding will" +
+	"			 If a host locality emblem/logo is used, the size and placement restrictions" +
+	"			 applicable to the on court surface commercial branding will" +
 	"			 apply"+
 	"" +
 	"             ii) Host Locality Option 2 (Not for use on clay){'\\n\\n'}" +
@@ -1849,8 +1849,8 @@ export const AllPageIndexList = [
     { id: 27, indexId: '', name: '3.02 Currency', pageName: 'Rule27' , comp:Rule27, searchindex:"3.02 Currency" +
 	"            {'\\n\\n'}" +
 	"            All references to money are expressed in United States Dollars (USD) and Euros" +
-	"            (EUR), unless otherwise designated. Tournament fees, fines and other amounts pay" +
-	"            - able to ATP are payable in USD or EUR." },
+	"            (EUR), unless otherwise designated. Tournament fees, fines and other amounts payable" +
+	"            to ATP are payable in USD or EUR." },
     { id: 28, indexId: '', name: '3.03 Default of Prize Money Payments', pageName: 'Rule28' , comp:Rule28, searchindex: "3.03 Default of Prize Money Payments" +
 	"            {'\\n\\n'}" +
 	"            Any ATP Tour or ATP Challenger Tour tournament that defaults in payment of prize" +
@@ -2546,8 +2546,8 @@ export const AllPageIndexList = [
 	"			 PM Committee Auditor an independently audited tournament income statement" +
 	"			 and related footnotes, along with other information as requested by the M1000 PM" +
 	"			 Committee and the M1000 PM Committee Auditor. This income statement must be" +
-	"			 a complete and accurate determination of actual net income and net income be-" +
-	"			 fore income taxes. In connection with the foregoing, each Masters 1000 tournament" +
+	"			 a complete and accurate determination of actual net income and net income before" +
+	"			 income taxes. In connection with the foregoing, each Masters 1000 tournament" +
 	"			 member shall provide its full cooperation to the M1000 PM Committee Auditor, who" +
 	"			 will examine and verify the accuracy of such information.{'\\n\\n'}" +
 	"" +
@@ -2559,16 +2559,16 @@ export const AllPageIndexList = [
 	"            appointed by the ATP Board of Directors and authorized to act in accordance with" +
 	"			 this rule, which shall be comprised of the ATP Chairman or his designee, an M1000" +
 	"			 Independent Member (as defined below) and an equal number of tournament and" +
-	"			 player representatives, with only one (1) tournament representative and one (1) play-" +
-	"			 er representative serving on such M1000 PM Committee being designated by the" +
+	"			 player representatives, with only one (1) tournament representative and one (1) player " +
+	"			 representative serving on such M1000 PM Committee being designated by the" +
 	"			 class of ATP Board Directors that appointed such representatives with the right to" +
 	"			 vote on any M1000 PM Committee matters, regardless of the number of tournament" +
 	"			 and player representatives appointed to serve on the M1000 PM Committee. The" +
 	"			 player representative and the tournament representative designated with the right to" +
 	"			 vote on M1000 PM Committee matters shall be collectively referred to herein as the" +
 	"			 “M1000 Voting Members”. If appointed voting member is unable to attend meeting," +
-	"			 provided that proper notice has taken place for such meeting, voting member is al-" +
-	"			 lowed to grant his/her vote by proxy to another committee member.{'\\n\\n'}" +
+	"			 provided that proper notice has taken place for such meeting, voting member is allowed" +
+	"			 to grant his/her vote by proxy to another committee member.{'\\n\\n'}" +
 	"" +
 	"            “M1000 PM Committee Auditor” " +
 	"            means an independent accounting firm appointed" +
@@ -2577,12 +2577,12 @@ export const AllPageIndexList = [
 	"			 regarding financial information included in each M1000 Submission, and (iii) prepare" +
 	"			 reports to be provided to the M1000 PM Committee and to the ATP Board of Directors" +
 	"			 in accordance with this rule summarizing the M1000 Submissions. The M1000 PM" +
-	"			 Committee Auditor will also act as advisor to the M1000 PM Committee on finan-" +
-	"			 cial and accounting related matters and GAAP reporting issues and questions. The" +
+	"			 Committee Auditor will also act as advisor to the M1000 PM Committee on financial" +
+	"			 and accounting related matters and GAAP reporting issues and questions. The" +
 	"			 M1000 PM Committee Auditor will be instructed not to provide to any party, including" +
 	"			 the M1000 PM Committee, any of its members, the ATP Board of Directors, ATP or" +
-	"			 its staff, except for the M1000 Player Auditor, the ATP Chairman, CEO and CFO, in-" +
-	"			 dividual tournament information or any information that could reasonably lead to the"+
+	"			 its staff, except for the M1000 Player Auditor, the ATP Chairman, CEO and CFO, individual" +
+	"			 tournament information or any information that could reasonably lead to the"+
 	"			 calculation of individual tournament information and the matching of the information"+
 	"			 to a particular tournament. The M1000 PM Committee Auditor will be required to"+
 	"			 execute and deliver to the M1000 PM Committee a statement of confidentiality and"+
@@ -2600,8 +2600,8 @@ export const AllPageIndexList = [
 	"            means the independent member of the M1000 PM" +
 	"			 Committee appointed by the ATP Board of Directors by the aﬃrmative vote of a super" +
 	"			 majority vote of the Board to serve on the M1000 PM Committee for a 3-year term." +
-	"			 The Independent Member will serve as Chair of M1000 PM Committee. The Indepen-" +
-	"			 dent Member is subject to removal at any time by the ATP Board of Directors by the" +
+	"			 The Independent Member will serve as Chair of M1000 PM Committee. The Independent" +
+	"			 Member is subject to removal at any time by the ATP Board of Directors by the" +
 	"			 aﬃrmative vote of a super majority vote of the Board.{'\\n\\n'}" +
 	"" +
 	"            “M1000 Player Auditor” " +
@@ -2611,17 +2611,17 @@ export const AllPageIndexList = [
 	"			 meets the appropriate level of expertise and experience to evaluate the accuracy of" +
 	"			 the M1000 Submissions. The M1000 Player Auditor will act as advisor to the player" +
 	"			 member(s) of M1000 PM Committee. The M1000 Player Auditor may also review" +
-	"			 items and information related to the application of the Masters 1000 Player Compen-" +
-	"			 sation Rule to the extent requested by the player member(s) of the M1000 PM Com-" +
-	"			 mittee and shall provide comfort to such member(s) as to the accuracy of the M1000" +
+	"			 items and information related to the application of the Masters 1000 Player Compensation" +
+	"			 Rule to the extent requested by the player member(s) of the M1000 PM Committee" +
+	"			 and shall provide comfort to such member(s) as to the accuracy of the M1000" +
 	"			 Submissions to confirm the reasonableness of the M1000 PM Committee Auditor’s" +
 	"			 evaluation thereof. M1000 Player Auditor will be instructed not to provide to any party," +
 	"			 including the M1000 PM Committee, any of its members, ATP or its staff, except for" +
-	"			 the ATP Chairman, CEO and CFO, individual tournament information or any informa-" +
-	"			 tion that could reasonably lead to the calculation of individual tournament information" +
+	"			 the ATP Chairman, CEO and CFO, individual tournament information or any information" +
+	"			 that could reasonably lead to the calculation of individual tournament information" +
 	"			 and the matching of the information to a particular tournament. The M1000 Player" +
-	"			 Auditor will be required to execute and deliver to the M1000 PM Committee a state-" +
-	"			 ment of confidentiality and non-disclosure prohibiting the M1000 Player Auditor from" +
+	"			 Auditor will be required to execute and deliver to the M1000 PM Committee a statement" +
+	"			 of confidentiality and non-disclosure prohibiting the M1000 Player Auditor from" +
 	"			 making any such disclosure.{'\\n\\n'}" +
 	"" +
 	"            “Related Party” " +
@@ -2634,15 +2634,15 @@ export const AllPageIndexList = [
 	"            govern or influence the person or company’s finances and/or operations.{'\\n\\n'}" +
 	"" +
 	"            “M1000 Submission”" +
-	"            means the prescribed, mandatory annual financial informa-" +
-	"			 tion report required to be submitted to the M1000 PM Committee Auditor by each" +
+	"            means the prescribed, mandatory annual financial information" +
+	"			 report required to be submitted to the M1000 PM Committee Auditor by each" +
 	"			 Masters 1000 tournament member (or its M1000 Independent Auditor) hereunder," +
-	"			 which, for the avoidance of doubt, shall include a M1000 Tournament Income State-" +
-	"			 ment and further information reasonably requested by the M1000 PM Committee Au-" +
-	"			 ditor similar in detail to the previous Tournament Financial Review process, but also" +
+	"			 which, for the avoidance of doubt, shall include a M1000 Tournament Income Statement" +
+	"			 and further information reasonably requested by the M1000 PM Committee" +
+	"			 Auditor similar in detail to the previous Tournament Financial Review process, but also" +
 	"			 ncluding full disclosure and armslength fair valuation of related party transactions for" +
-	"			 both income and expenses and owner transactions. M1000 Submission must recon-" +
-	"			 cile (with a schedule and explanation of any reconciling differences provided) to the" +
+	"			 both income and expenses and owner transactions. M1000 Submission must reconcile" +
+	"			 (with a schedule and explanation of any reconciling differences provided) to the" +
 	"			 audited M1000 Tournament Income Statement. M1000 Submission may also include" +
 	"			 any other information reasonably requested by the M1000 PM Committee. The M1000 Submission " +
 	"			 must be completed in full as determined by the M1000 PM Committee Auditor to be considered " +
@@ -2652,17 +2652,17 @@ export const AllPageIndexList = [
 	"            means the independently audited income" +
 	"			 statement which includes all revenues, costs and expenses and provides both net" +
 	"			 income and net income before income taxes related to the tournament. Such M1000" +
-	"			 Tournament Income Statement will be reported in accordance with Generally Ac-" +
-	"			 cepted Accounting Principles in the United States (“US GAAP”), the International" +
+	"			 Tournament Income Statement will be reported in accordance with Generally Accepted" +
+	"			 Accounting Principles in the United States (“US GAAP”), the International" +
 	"			 Financial Reporting Standards (“IFRS”) for small and medium size businesses or the" +
 	"			 applicable General Accepted Accounting Principles (“local GAAP”) in the country in" +
-	"			 which the tournament operates. These reporting standards must be consistently ap-" +
-	"			 plied over a period of five years at least. Each M1000 Tournament Income Statement" +
+	"			 which the tournament operates. These reporting standards must be consistently applied" +
+	"			 over a period of five years at least. Each M1000 Tournament Income Statement" +
 	"			 shall include all revenues, costs and expenses related to the tournament’s event" +
 	"			 operations regardless of which entity affiliated with the tournament event receives," +
 	"			 or accounts for, such revenues, costs or expenses or which jurisdiction such items" +
-	"			 are reported. All such amounts shall be reported in the tournament’s domestic report-" +
-	"			 ing currency. The M1000 PM Committee has the authority to create additional rules" +
+	"			 are reported. All such amounts shall be reported in the tournament’s domestic reporting" +
+	"			 currency. The M1000 PM Committee has the authority to create additional rules" +
 	"			 for such reporting. Consistent with local GAAP, US GAAP and IFRS, tournaments" +
 	"			 will report estimated revenues, costs and expenses where final amounts are not" +
 	"			 determinable by the deadline for completing the M1000 Submission. Subsequent" +
@@ -2671,39 +2671,39 @@ export const AllPageIndexList = [
 	"			 are known.{'\\n\\n'}" +
 	"" +
 	"            C." +
-	"            The M1000 PM Committee will administer, implement and enforce this rule, includ-" +
-	"			 ing, but not limited to (i) determining procedures for audits for purposes of financial" +
+	"            The M1000 PM Committee will administer, implement and enforce this rule, including," +
+	"			 but not limited to (i) determining procedures for audits for purposes of financial" +
 	"			 disclosures in accordance with the terms of this rule; (ii) determining the process of" +
 	"			 receiving financial information from tournament members and audits with respect to" +
 	"			 such information (iii) evaluating and resolving questions and issues that may arise" +
 	"			 in respect of any audit, M1000 Submission or violation of this rule; (iv) enforcing this" +
 	"			 rule pursuant to Section G below; and (v) implementing any other aspect of this rule." +
 	"			 All actions, approvals and determinations of the M1000 PM Committee shall require" +
-	"			 a unanimous vote of the M1000 Voting Members, unless otherwise expressly provid-" +
-	"			 ed in this rule (including as set forth in Sections D, E, F and G). The ATP Chairman" +
+	"			 a unanimous vote of the M1000 Voting Members, unless otherwise expressly provided" +
+	"			 in this rule (including as set forth in Sections D, E, F and G). The ATP Chairman" +
 	"			 shall have no right to vote on M1000 PM Committee matters; provided, however, that" +
 	"			 in the event that the M1000 Voting Members are unable to unanimously agree on" +
 	"			 the appointment of the M1000 Player Auditor, the ATP Chairman acting reasonably" +
-	"			 shall have the right to vote on whether approval of the proposed M1000 Player Au-" +
-	"			 ditor should be granted. If any such vote by the ATP Chairman occurs and the ATP" +
+	"			 shall have the right to vote on whether approval of the proposed M1000 Player Auditor" +
+	"			 should be granted. If any such vote by the ATP Chairman occurs and the ATP" +
 	"			 Chairman votes against the approval of any proposed M1000 Player Auditor, then" +
-	"			 the ATP Chairman will provide a brief description of his or her reason for such deci-" +
-	"			 sion to the M1000 PM Committee. The M1000 PM Committee will meet regularly as" +
+	"			 the ATP Chairman will provide a brief description of his or her reason for such decision" +
+	"			 to the M1000 PM Committee. The M1000 PM Committee will meet regularly as" +
 	"			 deemed necessary by the M1000 PM Committee to properly administer, implement" +
 	"			 and enforce this rule. The ATP Board of Directors will make reasonable and adequate" +
 	"			 funding available to enable to the M1000 PM Committee to administer, implement" +
 	"			 and enforce this rule in accordance with the terms herein.{'\\n\\n'}" +
 	"" +
 	"            D." +
-	"            Each Masters 1000 tournament member is required to provide a complete and ac-"+
-	"			 curate M1000 Submission annually to the M1000 PM Committee Auditor no later"+
+	"            Each Masters 1000 tournament member is required to provide a complete and accurate"+
+	"			 M1000 Submission annually to the M1000 PM Committee Auditor no later"+
 	"			 than 120 days following the conclusion of tournament’s fiscal year-end. Each M1000"+
 	"			 Submission must be certified by the applicable tournament member as complete and"+
 	"			 accurate and in compliance with this rule in all material respects.{'\\n\\n'}" +
 	"  " +
 	"            E. " +
-	"            Each year, the M1000 PM Committee Auditor will perform agreed upon audit proce-" +
-	"			 dures (as directed by the M1000 PM Committee) of each tournament member M1000" +
+	"            Each year, the M1000 PM Committee Auditor will perform agreed upon audit" +
+	"			 procedures (as directed by the M1000 PM Committee) of each tournament member M1000" +
 	"			 Submission, and report to the M1000 PM Committee any issues that it may identify" +
 	"			 as a result of these procedures for which the M1000 PM Committee Auditor is unable" +
 	"			 to resolve with the respective tournament. Once this process is complete, the M1000" +
@@ -2713,8 +2713,8 @@ export const AllPageIndexList = [
 	"			 M1000 Player Auditor will undertake a review of the provided information and results." +
 	"			 After completing this review, if the M1000 Player Auditor has any outstanding issues" +
 	"			 or questions, the M1000 Player Auditor will work with the M1000 PM Committee" +
-	"			 Auditor to resolve such issues and questions. In the event that the M1000 PM Com-" +
-	"			 mittee Auditor and the M1000 Player Auditor are unable to resolve any such issues" +
+	"			 Auditor to resolve such issues and questions. In the event that the M1000 PM Committee" +
+	"			 Auditor and the M1000 Player Auditor are unable to resolve any such issues" +
 	"			 or questions, the M1000 PM Committee Auditor and the M1000 Player Auditor will" +
 	"			 inform the M1000 PM Committee and may jointly conduct an on-site audit at the" +
 	"			 offices of the relevant tournament or Related Party to review and evaluate the booksv" +
@@ -2730,27 +2730,27 @@ export const AllPageIndexList = [
 	"			 and then issue a determination as to whether the unresolved issue(s) or question(s)" +
 	"			 is due to an act or omission of a tournament member. In the event that the M1000" +
 	"			 Voting Members are unable to unanimously agree on such determination, then the" +
-	"			 M1000 Independent Member will make such determination in his or her sole discre-" +
-	"			 tion. If it is determined that the unresolved issue(s) or questions(s) are due to an act" +
+	"			 M1000 Independent Member will make such determination in his or her sole discretion." +
+	"			 If it is determined that the unresolved issue(s) or questions(s) are due to an act" +
 	"			 or omission of a tournament member, then the M1000 PM Committee will determine" +
 	"			 the implications for the purpose of the prize money formula calculation and/or that" +
 	"			 tournament may be subject to a fine pursuant to Section G below.{'\\n\\n'}" +
 	"  " +
 	"            F. " +
 	"             Any tournament member that (i) fails to provide a M1000 Submission to the M1000" +
-	"			 PM Committee Auditor as required under this rule (including with respect to the tim-" +
-	"			 ing, accuracy and/ or completeness thereof), (ii) submits a report or document that" +
+	"			 PM Committee Auditor as required under this rule (including with respect to the timing," +
+	"			 accuracy and/ or completeness thereof), (ii) submits a report or document that" +
 	"			 contains a material misstatement or omits material information, (iii) does not fully" +
-	"			 cooperate with the M1000 PM Committee Auditor and M1000 Player Auditor as re-" +
-	"			 quired hereunder, or (iv) otherwise fails to comply with this rule, may request from" +
+	"			 cooperate with the M1000 PM Committee Auditor and M1000 Player Auditor as required" +
+	"			 hereunder, or (iv) otherwise fails to comply with this rule, may request from" +
 	"			 the M1000 PM Committee a 10 day extension in order to comply with its submission" +
 	"			 failure. Following any such extension the tournament in each case, may be subject to" +
 	"			 a fine in a maximum amount of $250,000. This maximum fine amount will increase by" +
 	"			 100% for each consecutive year submission failure by a tournament. The M1000 PM" +
 	"			 Committee shall evaluate the circumstances that led to the failure of such tournament" +
 	"			 member to comply with the terms of this rule and assess an appropriate fine taking" +
-	"			 into consideration the guidelines set forth in Section G below or as otherwise provid-" +
-	"			 ed by the ATP Board of Directors from time to time. For clarity, any such guidelines" +
+	"			 into consideration the guidelines set forth in Section G below or as otherwise provided" +
+	"			 by the ATP Board of Directors from time to time. For clarity, any such guidelines" +
 	"			 will be for guidance purposes only and the M1000 PM Committee will have the right" +
 	"			 to determine an appropriate fine in its sole discretion. In the event that the M1000" +
 	"			 Voting Members are unable to unanimously agree on a fine, the M1000 Independent" +
@@ -2770,28 +2770,28 @@ export const AllPageIndexList = [
 	"" +
 	"            A. " +
 	"            Each ATP 500 tournament member is required to annually submit to the 500 PM" +
-	"			 Committee Auditor an independently audited tournament income statement and re-" +
-	"			 lated footnotes, along with other information as requested by the 500 PM Committee" +
+	"			 Committee Auditor an independently audited tournament income statement and" +
+	"			 related footnotes, along with other information as requested by the 500 PM Committee" +
 	"			 and the 500 PM Committee Auditor . This income statement must be a complete and" +
 	"			 accurate determination of actual net income and net income before income taxes." +
 	"			 In connection with the foregoing, each 500 tournament member shall provide its full" +
-	"			 cooperation to the 500 PM Committee Auditor, who will examine and verify the accu-" +
-	"			 racy of such information.{'\\n\\n'}" +
+	"			 cooperation to the 500 PM Committee Auditor, who will examine and verify the" +
+	"			 accuracy of such information.{'\\n\\n'}" +
 	"" +
 	"            B. The following terms shall have the meanings set forth below:" +
 	"" +
 	"			 “500 Prize Money Committee (500 PM Committee)”"+
-	"            means the committee ap-"+
-	"			 pointed by the ATP Board of Directors and authorized to act in accordance with this"+
-	"			 rule, which shall be comprised of the ATP Chairman or his designee, a 500 Inde-"+
-	"			 pendent Member (as defined below) and an equal number of tournament and player"+
-	"			 representatives, with only one (1) tournament representative and one (1) player rep-"+
-	"			 resentative serving on such 500 PM Committee being designated by the class of ATP"+
+	"            means the committee appointed"+
+	"			 by the ATP Board of Directors and authorized to act in accordance with this"+
+	"			 rule, which shall be comprised of the ATP Chairman or his designee, a 500 Independent"+
+	"			 Member (as defined below) and an equal number of tournament and player"+
+	"			 representatives, with only one (1) tournament representative and one (1) player"+
+	"			 representative serving on such 500 PM Committee being designated by the class of ATP"+
 	"			 Board Directors that appointed such representatives with the right to vote on any 500"+
-	"			 PM Committee matters, regardless of the number of tournament and player repre-"+
-	"			 sentatives appointed to serve on the 500 PM Committee. The player representative"+
-	"		 	 and the tournament representative designated with the right to vote on 500 PM Com-"+
-	"			 mittee matters shall be collectively referred to herein as the “500 Voting Members”."+
+	"			 PM Committee matters, regardless of the number of tournament and player representatives"+
+	"			 appointed to serve on the 500 PM Committee. The player representative"+
+	"		 	 and the tournament representative designated with the right to vote on 500 PM Committee"+
+	"			 matters shall be collectively referred to herein as the “500 Voting Members”."+
 	"			 If appointed voting member is unable to attend meeting, provided that proper notice"+
 	"			 has taken place for such meeting, voting member is allowed to grant his/her vote by"+
 	"			 proxy to another committee member.{'\\n\\n'}" +
@@ -2802,20 +2802,20 @@ export const AllPageIndexList = [
 	"			 500 Submissions and tournament financials, (ii) perform agreed upon procedures" +
 	"			 regarding financial information included in each 500 Submission, and (iii) prepare" +
 	"			 reports to be provided to the 500 PM Committee and to the ATP Board of Directors" +
-	"			 in accordance with this rule summarizing the 500 Submissions. The 500 PM Com-" +
-	"			 mittee Auditor will also act as advisor to the 500 PM Committee on financial and" +
+	"			 in accordance with this rule summarizing the 500 Submissions. The 500 PM Committee" +
+	"			 Auditor will also act as advisor to the 500 PM Committee on financial and" +
 	"			 accounting related matters and GAAP reporting issues and questions. The 500 PM" +
 	"			 Committee Auditor will be instructed not to provide to any party, including the 500 PM" +
 	"			 Committee, any of its members, the ATP Board of Directors, ATP or its staff, except" +
-	"			 for the 500 Player Auditor, the ATP Chairman, CEO and CFO (or their respective rea-" +
-	"			 sonably appointed designees), individual tournament information or any information" +
+	"			 for the 500 Player Auditor, the ATP Chairman, CEO and CFO (or their respective" +
+	"			 reasonably appointed designees), individual tournament information or any information" +
 	"			 that could reasonably lead to the calculation of individual tournament information and" +
 	"			 the matching of the information to a particular tournament. The 500 PM Committee" +
 	"			 Auditor will be required to execute and deliver to the 500 PM Committee a statement" +
 	"			 of confidentiality and non-disclosure prohibiting the 500 PM Committee Auditor from" +
 	"			 making any such disclosure. Notwithstanding the foregoing, the 500 PM Committee" +
-	"			 Auditor, the 500 Player Auditor, the ATP Chairman, CEO and CFO (or their respec-" +
-	"			 tive reasonably appointed designees) may share individual tournament information" +
+	"			 Auditor, the 500 Player Auditor, the ATP Chairman, CEO and CFO (or their respective" +
+	"			 reasonably appointed designees) may share individual tournament information" +
 	"			 or documentation across the 500 category tournament members in an anonymized" +
 	"			 fashion."+
 	""+
@@ -2823,47 +2823,47 @@ export const AllPageIndexList = [
 	"			 means a highly qualified independent certified public"+
 	"			 accounting firm selected by each 500 tournament member and approved by ATP to"+
 	"			 perform a full scope independent audit of the 500 Tournament Income Statement and"+
-	"			 perform certain other agreed upon procedures and to provide results of such proce-"+
-	"		 	 dures to the 500 PM Committee Auditor."+
+	"			 perform certain other agreed upon procedures and to provide results of such"+
+	"		 	 procedures to the 500 PM Committee Auditor."+
 	""+
 	"			 “500 Independent Member”"+
-	"			 means the independent member of the 500 PM Com-"+
-	"			 mittee appointed by the ATP Board of Directors by the aﬃrmative vote of a super"+
+	"			 means the independent member of the 500 PM Committee"+
+	"			 appointed by the ATP Board of Directors by the aﬃrmative vote of a super"+
 	"			 majority vote of the Board to serve on the 500 PM Committee for a 3-year term. The"+
 	"			 Independent Member is subject to removal at any time by the ATP Board of Directors"+
 	"			 by the aﬃrmative vote of a super majority vote of the Board."+
 	""+
 	"			 “500 Player Auditor”"+
-	"			 means an independent certified public accountant and/or fi-"+
-	"			 nancial advisor selected by the player member(s) of the 500 PM Committee and"+
+	"			 means an independent certified public accountant and/or financial"+
+	"			 advisor selected by the player member(s) of the 500 PM Committee and"+
 	"			 approved by the 500 PM Committee in accordance with Section C below, who meets"+
 	"			 the appropriate level of expertise and experience to evaluate the accuracy of the 500"+
 	"			 Submissions. The 500 Player Auditor will act as advisor to the player member(s) of"+
 	"			 500 PM Committee. The 500 Player Auditor may also review items and information"+
-	"			 related to the application of the 500 Prize Money Formula Rule to the extent request-"+
-	"			 ed by the player member(s) of the 500 PM Committee and shall provide comfort to"+
-	"			 such member(s) as to the accuracy of the 500 Submissions to confirm the reason-"+
-	"			 ableness of the 500 PM Committee Auditor’s evaluation thereof. 500 Player Auditor"+
+	"			 related to the application of the 500 Prize Money Formula Rule to the extent requested"+
+	"			 by the player member(s) of the 500 PM Committee and shall provide comfort to"+
+	"			 such member(s) as to the accuracy of the 500 Submissions to confirm the reasonableness"+
+	"			 of the 500 PM Committee Auditor’s evaluation thereof. 500 Player Auditor"+
 	"			 will be instructed not to provide to any party, including the 500 PM Committee, any"+
 	"			 of its members, ATP or its staff, except for the ATP Chairman, CEO and CFO (or"+
 	"			 their respective reasonably appointed designees), individual tournament information"+
-	"			 or any information that could reasonably lead to the calculation of individual tourna-"+
-	"			 ment information and the matching of the information to a particular tournament. The"+
+	"			 or any information that could reasonably lead to the calculation of individual tournament"+
+	"			 information and the matching of the information to a particular tournament. The"+
 	"			 500 Player Auditor will be required to execute and deliver to the 500 PM Committee"+
 	"			 a statement of confidentiality and non-disclosure prohibiting the 500 Player Auditor"+
 	"			 from making any such disclosure."+
 	""+
 	"			 “Gross Revenues”"+
-	"			 means the total amount of gross revenues related to a tourna-"+
-	"			 ment determined on the basis of local GAAP, US GAAP or the IFRS (depending on"+
+	"			 means the total amount of gross revenues related to a tournament"+
+	"			 determined on the basis of local GAAP, US GAAP or the IFRS (depending on"+
 	"			 the applicable accounting rules in the country in which the tournament operates), in"+
 	"			 each case, as in effect on such date of determination and consistently applied, which"+
 	"			 shall include all revenues related to the tournament’s operations regardless of which"+
 	"			 entity affiliated with the tournament receives, or accounts for, such revenues or in"+
 	"			 which jurisdiction such revenues are reported. All such revenues shall be reported"+
 	"		 	 in the tournament’s domestic reporting currency. For men’s and women’s combined"+
-	"		 	 tournaments, total Gross Revenues should be broken out by tournament and cate-"+
-	"			 gorized by those identifiable only to the men’s tournament, those identifiable only to"+
+	"		 	 tournaments, total Gross Revenues should be broken out by tournament and"+
+	"			 categorized by those identifiable only to the men’s tournament, those identifiable only to"+
 	"			 the women’s tournament, and all other revenues. The 500 PM Committee has the"+
 	"			 power to create additional rules for reporting Gross Revenues. Consistent with local"+
 	"			 GAAP, US GAAP and IFRS, tournaments will report estimated revenues for those"+
@@ -2880,9 +2880,9 @@ export const AllPageIndexList = [
 	"			 cars are provided as part of a car sponsor deal the value of the cars provided must"+
 	"			 be included in sponsor revenues. Another example is tickets given to a local club or"+
 	"			 charity for no consideration would not be valued or included in ticketing revenues)."+
-	"			 Barter valuations should be in accordance with local GAAP, US GAAP or IFRS appli-"+
-	"			 cable to each tournament. The 500 PM Committee will work with the 500 PM Com-"+
-	"			 mittee Auditor and include a comprehensive definition of barter transactions and their"+
+	"			 Barter valuations should be in accordance with local GAAP, US GAAP or IFRS applicable"+
+	"			 to each tournament. The 500 PM Committee will work with the 500 PM"+
+	"			 Committee Auditor and include a comprehensive definition of barter transactions and their"+
 	"			 valuation for Gross Revenue purposes and include such comprehensive definition as"+
 	"			 part of the 500 Submission."+
 	""+
@@ -2890,8 +2890,8 @@ export const AllPageIndexList = [
 	"			 (a)"+
 	"			 Media commitments for promotional time or space that are not for resale and are"+
 	"			 used solely (i) to promote the tournament, (ii) to promote the ATP or any related"+
-	"			 event or activity of the tournament that generates Gross Revenues, (iii) to pro-"+
-	"			 mote charitable or not for profit organizations or agencies that are unrelated to the"+
+	"			 event or activity of the tournament that generates Gross Revenues, (iii) to"+
+	"			 promote charitable or not for profit organizations or agencies that are unrelated to the"+
 	"			 tournament or tournament affiliates, or (iv) for public service announcements."+
 	"			 (b)"+
 	"			 Any barter transaction that is both used to satisfy tournament standards and is"+
@@ -2900,28 +2900,28 @@ export const AllPageIndexList = [
 	"			 and beverages; lounge for players; internet access for players; and gifting and"+
 	"			 on-court supplies for players."+
 	"			 (c)"+
-	"			 De Minimus barter transactions are defined as individual transactions with val-"+
-	"			 uations under $20,000 for 500 tournaments. De Minimus transactions are not"+
+	"			 De Minimus barter transactions are defined as individual transactions with valuations"+
+	"			 under $20,000 for 500 tournaments. De Minimus transactions are not"+
 	"			 required to be reported individually in the 500 Submission as long as the total"+
 	"			 of such individual transactions is 5% or less of Gross Revenues. In the event"+
 	"			 such total exceeds 5% of Gross Revenues, tournaments must individually report"+
 	"			 the highest valued barter transactions included in the total such that the total"+
-	"			 excluding those transactions is 5% or less of Gross Revenues. A summary writ-"+
-	"		 	 ten description of each De Minimus transaction is required to be included in the"+
+	"			 excluding those transactions is 5% or less of Gross Revenues. A summary written"+
+	"		 	 description of each De Minimus transaction is required to be included in the"+
 	"			 Submission."+
 	""+
 	"			 “500 Submission”"+
 	"			 means the prescribed, mandatory annual financial information"+
-	"			 re- port required to be submitted to the 500 PM Committee Auditor by each 500 tour-"+
-	"			 nament member (or its 500 Independent Auditor) hereunder, which, for the avoidance"+
+	"			 report required to be submitted to the 500 PM Committee Auditor by each 500 tournament"+
+	"			 member (or its 500 Independent Auditor) hereunder, which, for the avoidance"+
 	"			 of doubt, shall include a 500 Tournament Income Statement and further information"+
-	"			 reasonably requested by the 500 PM Committee Auditor similar in detail to the pre-"+
-	"			 vious Tournament Financial Review process, but also including full disclosure and"+
-	"			 arms- length fair valuation of related party transactions for both income and expens-"+
-	"			 es and owner transactions. 500 Submission must reconcile (with a schedule and"+
+	"			 reasonably requested by the 500 PM Committee Auditor similar in detail to the previous"+
+	"			 Tournament Financial Review process, but also including full disclosure and"+
+	"			 arms- length fair valuation of related party transactions for both income and expenses"+
+	"			 and owner transactions. 500 Submission must reconcile (with a schedule and"+
 	"			 explanation of any reconciling differences provided) to the audited 500 Tournament"+
-	"		 	 Income Statement. 500 Submission may also include any other information reason-"+
-	"			 ably requested by the 500 PM Committee. The 500 Submission must be completed in"+
+	"		 	 Income Statement. 500 Submission may also include any other information reasonably"+
+	"			 requested by the 500 PM Committee. The 500 Submission must be completed in"+
 	"			 full as determined by the 500 PM Committee Auditor to be considered in compliance"+
 	"			 with this rule."+
 	""+
@@ -2939,16 +2939,16 @@ export const AllPageIndexList = [
 	"			 has the authority to create additional rules for such reporting. Consistent with both"+
 	"			 GAAP, the IFRS for small and medium size businesses, or Local GAAP, tournaments"+
 	"			 will report estimated revenues, costs and expenses where final amounts are not"+
-	"			 determinable by the deadline for completing the 500 Submission. Subsequent ad-"+
-	"			 justments of these estimates to actual will be included in the 500 Tournament Income"+
+	"			 determinable by the deadline for completing the 500 Submission. Subsequent adjustments"+
+	"			 of these estimates to actual will be included in the 500 Tournament Income"+
 	"			 Statement in the subsequent 500 Submission when such final amounts are known."+
 	""+
 	"            C. " +
 	"            The 500 PM Committee will administer, implement and enforce this rule, Iing, but not"+
 	"			 limited to (i) determining procedures for audits for purposes of financial disclosures"+
 	"			 in accordance with the terms of this rule; (ii) determining the process of receiving"+
-	"			 financial information from tournament members and audits with respect to such infor-"+
-	"			 mation (iii) evaluating and resolving questions and issues that may arise in respect"+
+	"			 financial information from tournament members and audits with respect to such information;"+
+	"			 (iii) evaluating and resolving questions and issues that may arise in respect"+
 	"			 of any audit, 500 Submission or violation of this rule; (iv) enforcing this rule pursuant"+
 	"			 to Section G below; and (v) implementing any other aspect of this rule. All actions,"+
 	"			 approvals and determinations of the 500 PM Committee shall require a unanimous"+
@@ -2969,22 +2969,22 @@ export const AllPageIndexList = [
 	"" +
 	"            D. " +
 	"            Each 500 tournament member is required to provide a complete and accurate 500" +
-	"			 Submission annually to the 500 PM Committee Auditor no later than 120 days fol-" +
-	"			 lowing the conclusion of its tournament for such year. Independently audited financial" +
-	"			 information is to be provided no later than 120 days following the conclusion of tour-" +
-	"			 nament’s fiscal year-end. Each 500 Submission must be certified by the applicable" +
+	"			 Submission annually to the 500 PM Committee Auditor no later than 120 days following" +
+	"			 the conclusion of its tournament for such year. Independently audited financial" +
+	"			 information is to be provided no later than 120 days following the conclusion of tournament’s" +
+	"			 fiscal year-end. Each 500 Submission must be certified by the applicable" +
 	"		 	 tournament member as complete and accurate and in compliance with this rule in all" +
 	"			 material respects.{'\\n\\n'}" +
 	"" +
 	"            E." +
 	"            Each year, the 500 PM Committee Auditor will perform agreed upon audit procedures"+
-	"			 (as directed by the 500 PM Committee) of each tournament member 500 Submis-"+
-	"			 sion, and report to the 500 PM Committee any issues that it may identify as a result"+
+	"			 (as directed by the 500 PM Committee) of each tournament member 500 Submission,"+
+	"			 and report to the 500 PM Committee any issues that it may identify as a result"+
 	"			 of these procedures for which the 500 PM Committee Auditor is unable to resolve"+
-	"			 with the respective tournament. Once this process is complete, the 500 PM Commit-"+
-	"			 tee Auditor will provide the results of its procedures and the supporting audit work"+
-	"			 papers to the 500 Player Auditor. Such information will be provided to the 500 Play-"+
-	"			 er Auditor without identifying individual tournament names. The 500 Player Auditor"+
+	"			 with the respective tournament. Once this process is complete, the 500 PM Committee"+
+	"			 Auditor will provide the results of its procedures and the supporting audit work"+
+	"			 papers to the 500 Player Auditor. Such information will be provided to the 500 Player"+
+	"			 Auditor without identifying individual tournament names. The 500 Player Auditor"+
 	"			 will undertake a review of the provided information and results. After completing this"+
 	"			 review, if the 500 Player Auditor has any outstanding issues or questions, the 500"+
 	"			 Player Auditor will work with the 500 PM Committee Auditor to resolve such issues"+
@@ -2993,17 +2993,17 @@ export const AllPageIndexList = [
 	"			 Auditor and the 500 Player Auditor will inform the 500 PM Committee and may jointly"+
 	"			 conduct an on-site audit at the offices of the relevant tournament or Related Party"+
 	"			 to review and evaluate the books and records of such tournament or Related Party"+
-	"			 that are reason- ably necessary to resolve such issue or question; provided, that any"+
+	"			 that are reasonably necessary to resolve such issue or question; provided, that any"+
 	"			 such joint on-site audit must be conducted during regular business hours. If after any"+
 	"			 joint on-site audit, the 500 PM Committee Auditor and the 500 Player Auditor are still"+
-	"			 unable to resolve any such issues or questions (or in the event the 500 PM Com-"+
-	"			 mittee Auditor and the 500 Player Auditor elect not to conduct an on-site audit and"+
+	"			 unable to resolve any such issues or questions (or in the event the 500 PM"+
+	"			 Committee Auditor and the 500 Player Auditor elect not to conduct an on-site audit and"+
 	"			 such issues or questions remain), the 500 PM Committee Auditor and the 500 Player"+
 	"			 Auditor will inform the 500 PM Committee and the 500 PM Committee will evaluate"+
 	"			 the information presented and make a determination on the issue(s) or question(s),"+
 	"			 and then issue a determination as to whether the unresolved issue(s) or question(s)"+
-	"			 is due to an act or omission of a tournament member. In the event that the 500 Vot-"+
-	"			 ing Members are unable to unanimously agree on such determination, then the 500"+
+	"			 is due to an act or omission of a tournament member. In the event that the 500 Voting"+
+	"			 Members are unable to unanimously agree on such determination, then the 500"+
 	"			 Independent Member will make such determination in his or her sole discretion. If it is"+
 	"			 determined that the unresolved issue(s) or questions(s) are due to an act or omission"+
 	"			 of a tournament member, then the 500 PM Committee will determine the implications"+
@@ -3012,18 +3012,18 @@ export const AllPageIndexList = [
 	""+
 	"			 F"+				
 	"		 	 Any tournament member that (i) fails to provide a 500 Submission to the 500 PM" +
-	"			 Committee Auditor as required under this rule (including with respect to the tim-" +
-	"			 ing, accuracy and/ or completeness thereof), (ii) submits a report or document that" +
+	"			 Committee Auditor as required under this rule (including with respect to the timing," +
+	"			 accuracy and/ or completeness thereof), (ii) submits a report or document that" +
 	"			 contains a material misstatement or omits material information, (iii) does not fully" +
 	"			 cooperate with the 500 PM Committee Auditor and 500 Player Auditor as required" +
 	"			 hereunder, or (iv) otherwise fails to comply with this rule, may request from the 500" +
-	"			 PM Committee a 10 day extension in order to comply with its submission failure. Fol-" +
-	"			 lowing any such extension the tournament in each case, may be subject to a fine in a" +
+	"			 PM Committee a 10 day extension in order to comply with its submission failure. Following" +
+	"			 any such extension the tournament in each case, may be subject to a fine in a" +
 	"			 maximum amount of $250,000. This maximum fine amount will increase by 100% for" +
 	"			 each consecutive year submission failure by a tournament. The 500 PM Committee" +
 	"			 shall evaluate the circumstances that led to the failure of such tournament member" +
-	"			 to comply with the terms of this rule and assess an appropriate fine taking into con-" +
-	"			 sideration the guidelines set forth in Section G below or as otherwise provided by the" +
+	"			 to comply with the terms of this rule and assess an appropriate fine taking into consideration" +
+	"			 the guidelines set forth in Section G below or as otherwise provided by the" +
 	"			 ATP Board of Directors from time to time. For clarity, any such guidelines will be for" +
 	"			 guidance purposes only and the 500 PM Committee will have the right to determine" +
 	"			 an appropriate fine in its sole discretion. In the event that the 500 Voting Members are" +
@@ -3034,11 +3034,11 @@ export const AllPageIndexList = [
 	"			 by the Player Board Representatives.{'\\n\\n'}"+ 
 	""+
 	"			 G"+
-	"			 The following guidelines are fines that may be imposed for violations of this rule (sub-"+
-	"			 ject to the discretion of 500 PM Committee as set forth in this rule):"+
+	"			 The following guidelines are fines that may be imposed for violations of this rule (subject"+
+	"			 to the discretion of 500 PM Committee as set forth in this rule):"+
 	""+
-	"			 * Specific amounts should depend on the severity of the violation and issue(s) pre-"+
-	"			 sented."+
+	"			 * Specific amounts should depend on the severity of the violation and issue(s)"+
+	"			 presented."+
 	""},
     { id: 43, indexId: '', name: '3.19 ATP 250 Tournament Financial Information', pageName: 'Rule43' , comp:Rule43 , searchindex:"3.19 ATP 250 Tournament Financial Information{'\\n\\n'}" +
 	"" +
@@ -4145,8 +4145,8 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            d) For each Tie, the highest-positioned (hereafter, number ones) singles" +
 	"			 players named from each team shall compete against each other. The order of" +
-	"			 matches shall be as follows unless otherwise decided by the Steering Com-" +
-	"			 mittee:" +
+	"			 matches shall be as follows unless otherwise decided by the Steering" +
+	"			 Committee:" +
 	"            {'\\n\\n'}" +
 	"            i) Number 1 ATP/WTA Singles followed by" +
 	"            {'\\n\\n'}" +
@@ -5564,8 +5564,8 @@ export const AllPageIndexList = [
 	"              Rules of Tennis." +
 	"             */}" +
 	"            ATP reserves" +
-	"            the right to restrict the color of an indoor synthetic court as well as outdoor surfac-" +
-	"            es. The lines of the court shall be white." +
+	"            the right to restrict the color of an indoor synthetic court as well as outdoor surfaces." +
+	"            The lines of the court shall be white." +
 	"            {'\\n\\n'}" +
 	"            2) Courts shall be laid out with the long axis north and south; however, geographic" +
 	"            considerations may modify this orientation in order to minimize the adverse effect" +
@@ -5586,16 +5586,16 @@ export const AllPageIndexList = [
 	"            a) ATP Tour Masters 1000. Center Court, two (2) other show courts plus one (1)" +
 	"            practice court." +
 	"            {'\\n\\n'}" +
-	"            b) ATP Tour 500. Center Court plus one (1) other show court plus one (1) prac -" +
-	"            tice court based on match schedule plan." +
+	"            b) ATP Tour 500. Center Court plus one (1) other show court plus one (1) practice" +
+	"            court based on match schedule plan." +
 	"            {'\\n\\n'}" +
 	"            c) ATP Tour 250. No minimum requirement." +
 	"            {'\\n\\n'}" +
 	"            2) Intensity" +
 	"            {'\\n\\n'}" +
 	"           >a) ATP Tour Tournaments. Lighting must be evenly distributed on the court" +
-	"            with a minimum recommended intensity of 100 foot-candles (1076 LUX), av -" +
-	"            eraged over 15 readings on court." +
+	"            with a minimum recommended intensity of 100 foot-candles (1076 LUX)," +
+	"            averaged over 15 readings on court." +
 	"            {'\\n\\n'}" +
 	"            The recommended minimum lighting for televised events broadcasting in" +
 	"            high definition is an average of 185 foot candles (approximately 2,000 lux)." +
@@ -5694,7 +5694,7 @@ export const AllPageIndexList = [
 	"            day and on the same court(s), then the electronic review must be used for all" +
 	"            matches on that court(s)." +
 	"            {'\\n\\n'}" +
-	"            5) The tournament must comply with all of the provisions specified in “Exhibits T -" +
+	"            5) The tournament must comply with all of the provisions specified in “Exhibits T" +
 	"            and U”." +
 	"            {'\\n\\n'}" +
 	"            *If qualifying matches are played on courts where an electronic review system is" +
@@ -5831,7 +5831,7 @@ export const AllPageIndexList = [
 	"                        request. Players must return practice balls." +
 	"                        {'\\n\\n'}" +
 	"                        3) ATP Qualifying Competition: : Players listed in the Pepperstone ATP Rankings" +
-	"                        (singles/doubles) who are practicing for qualifying competition are enti- tled to six" +
+	"                        (singles/doubles) who are practicing for qualifying competition are entitled to six" +
 	"                        (6) new balls per day for practice, free of charge, two (2) days prior to the start" +
 	"                        of the qualifying competition until that player is eliminated. Players must return" +
 	"                        practice balls." +
@@ -12421,8 +12421,8 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            Every player shall dress and present himself for play in a professional manner." +
 	"            Clean and customarily acceptable tennis attire as approved by ATP shall be worn." +
-	"            A player who violates this section may be ordered by the Chair Umpire or Super-" +
-	"            visor to change his attire or equipment immediately. Failure of a player to comply" +
+	"            A player who violates this section may be ordered by the Chair Umpire or Supervisor" +
+	"            to change his attire or equipment immediately. Failure of a player to comply" +
 	"            with such order may result in an immediate default." +
 	"            {'\\n\\n'}" +
 	"            a) Identification/Visible" +
@@ -13165,8 +13165,8 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"" +
 	"            Violating a provision of this Section, as server or receiver, shall be" +
-	"            penalized by a “Time Violation – Warning” and each subsequent vio-" +
-	"            ation shall be penalized as follows:" +
+	"            penalized by a “Time Violation – Warning” and each subsequent violation" +
+	"            shall be penalized as follows:" +
 	"            {'\\n\\n'}" +
 	"            • Server. " +
 	"            When serving the time violation shall result in a “fault”." +
@@ -17500,8 +17500,8 @@ export const AllPageIndexList = [
 	"            area. Should you choose to receive treatment there, or discuss confidential information (health or otherwise), it is possible that this information may be overheard" +
 	"            by individuals that have no obligation to refrain from further disclosure of such" +
 	"            information. Access to these areas is not limited to ATP personnel. Players are" +
-	"            reminded of their duties and obligations arising from the ATP Rules and Anti-Co-" +
-	"            ercion Policy. The information discussed, as well as photographic images also" +
+	"            reminded of their duties and obligations arising from the ATP Rules and Anti-Coercion" +
+	"            Policy. The information discussed, as well as photographic images also" +
 	"            may be intercepted by electronic surveillance devices including but not limited to" +
 	"            digital and other cameras, video cameras, cellular telephones and personal data" +
 	"            devices. Neither the Tournament nor ATP is responsible for the unauthorized" +

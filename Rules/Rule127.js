@@ -90,7 +90,11 @@ export default function Rule127({ navigation }) {
               (Applicable for 9.03 A. and B.) Players who are out of competition for three or
               more consecutive months (13-weeks minimum) can replace zero-pointers as follows:
               {'\n\n'}
+              </HighlightText>
+              </ZoomText>
               <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule127_1.png' }} />
+              <ZoomText>
+              <HighlightText>
               {'\n\n'}
               Player can drop zero-point ranking penalties (only from mandatory Masters 1000
               events) when he competes in his next ATP 250/500 event played. When he drops the
@@ -277,7 +281,11 @@ export default function Rule127({ navigation }) {
               {'\n\n'}
               ** For details, see Section 4.03 G.
               {'\n\n'}
+              </HighlightText>
+              </ZoomText>
               <ImageViewerComponent props={{ ImageStyle: RuleStyles.VerticalImageStyle, ImageName: 'rule127_2.png' }} />
+              <ZoomText>
+            <HighlightText>  
               {'\n\n'}
               * Nitto ATP Finals 1,500 for undefeated Champion (200 for each round robin match
               win, plus 400 for a semi-final win, plus 500 for the final win)

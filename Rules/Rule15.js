@@ -79,7 +79,7 @@ export default function Rule15({ navigation }) {
 
             Case: May a player, who is not a Commitment Player after losing,
             retiring or withdrawing from the qualifying, play in a special event
-            held the following weekend?{'\n\n'}
+            held the following week-end?{'\n\n'}
 
             Decision: Yes. However, the player must still ask for and receive
             a release from the Supervisor prior to participating in such special

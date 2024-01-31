@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ATP Rules List",
-    "slug": "atptour",
+    "slug": "atp",
     "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/iconImage.png",
@@ -32,9 +32,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "5f2b1a7e-e211-42ea-9ed6-c501bbd66456"
+        "projectId": "ae35c217-bb55-45f8-868e-4687a71c9a0a"
       }
     },
-    "owner": "rekhacigroupusa"
+    "owner": "azlamvn808"
   }
 }

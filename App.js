@@ -5,6 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import DrawerNavigation from './SettingsScreens/DrawerNavigation.js';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
+import { SearchProvider } from './Component/SearchProvider.js';
 
 
 SplashScreen.preventAutoHideAsync();
@@ -53,8 +54,10 @@ export default function App() {
 
   return (
     <>
+    <SearchProvider>
       <StatusBar animated={true} styles={AppStyles.StatusBarStyles} />
       <DrawerNavigation />
+      </SearchProvider>
     </>
   );
 

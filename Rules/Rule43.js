@@ -20,9 +20,9 @@ export default function Rule43({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading2}>A. </HighlightText>
             Each 250 category tournament member is required to annually provide to the 250 PM
             Committee Auditor (as defined below) a complete and accurate determination and
-            calculation of its actual tournament Gross Revenues (as defined below), costs, 
-            expenses and net income and all other financial information and supporting 
-            documentation relating thereto, in each case, as requested by the 250 PM Committee Auditor
+            calculation of its actual tournament Gross Revenues (as defined below), costs,
+            expenses and net income and all other financial information and supporting documentation
+            relating thereto, in each case, as requested by the 250 PM Committee Auditor
             and in accordance with the terms of this rule. In connection with the foregoing, each
             250 category tournament member shall provide its full cooperation to the 250 PM
             Committee Auditor, who will examine and verify the accuracy of such information.{'\n\n'}
@@ -179,9 +179,11 @@ export default function Rule43({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading2}>G. </HighlightText>
             The following guidelines set forth fines that may be imposed for violations of this rule
             (subject to the discretion of 250 Committee as set forth in this rule):{'\n\n'}
-
-            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule43_1.png'}}/> {'\n\n'}
-
+</HighlightText>
+</ZoomText>
+            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule43_1.png'}}/>
+            <ZoomText>
+<HighlightText> {'\n\n'}
 
 
             *Specific amounts should depend on the severity of the violation and issue(s)
