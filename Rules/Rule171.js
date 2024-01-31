@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Image, ScrollView } from 'react-native';
+import { Text, View, Image, ScrollView, Linking } from 'react-native';
 import { RuleStyles } from './Styles.js';
 import RuleNavigationButtons from '../screens/RuleNavigationButtons.js';
 import ImageViewerComponent from '../screens/ImageViewerComponent.js';
@@ -56,7 +56,7 @@ export default function Rule171({ navigation }) {
               Linking.openURL('https://atp-playerzone.com');
             }}>
             https://atp-playerzone.com.
-          </HighlightText>https://atp-playerzone.com.
+          </HighlightText>.
 
 
             {'\n\n'}

@@ -9,6 +9,7 @@ import { Alert, Platform, Pressable } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const ZoomText = ({ children }) => {
+  const [lastPress, setLastPress] = React.useState(0);
   const [iszoom, setisZoom] = React.useState(false);
   const [position, setPosition] = React.useState({ x: 0, y: 0 });
 
@@ -29,14 +30,17 @@ const ZoomText = ({ children }) => {
     checkPopupStatus();
   }, []);
 
-  const handleDoubleTap = ({ nativeEvent }) => {
-    setisZoom(true);
-    if (nativeEvent.state === State.ACTIVE) {
-        const { x, y } = nativeEvent;
-        // console.log("nativeEvent.location",nativeEvent.x);
-        setisZoom(true);
-        setPosition({ x, y });
+  const handleDoubleTap = () => {
+    if (Platform.OS === 'android') {
+    const currentTime = new Date().getTime();
+    const doublePressThreshold = 300; // Set your desired threshold in milliseconds
+
+    if (currentTime - lastPress <= doublePressThreshold) {
+      setisZoom(!iszoom);
+    } else {
+      setLastPress(currentTime);
     }
+  }
   };
   return iszoom ? (
     <ReactNativeZoomableView

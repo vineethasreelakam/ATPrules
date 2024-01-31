@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Image, ScrollView } from "react-native";
+import { Text, View, Image, ScrollView, Linking, } from "react-native";
 import { RuleStyles } from "./Styles.js";
 import RuleNavigationButtons from "../screens/RuleNavigationButtons.js";
 import ImageViewerComponent from "../screens/ImageViewerComponent.js";
@@ -46,13 +46,13 @@ export default function Rule8({ navigation }) {
               2) The International Tennis Integrity Agency (“ITIA”) may conduct
               anti-doping testing at ATP sanctioned events under the Tennis
               Anti-Doping Programme (the “TADP”), the full text of which can be
-              found at 
+              found at{' '} 
               <HighlightText
               style={RuleStyles.hyperlinkStyle}
               onPress={() => {
                 Linking.openURL('https://www.itia.tennis/');
               }}>
-              https://www.itia.tennis/.
+               https://www.itia.tennis/.
               </HighlightText> ATP Tour, Inc. (“ATP”) will
               honor and enforce any penalties or sanctions against players
               resulting from the TADP. The TADP shall apply to and be binding
