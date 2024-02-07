@@ -4,6 +4,7 @@ import { useSearch } from './SearchProvider';
 
 export const HighlightText = (props) => {
   const { search } = useSearch();
+  
   const highlightText = (text) => {
     if (!search) {
       // If search is empty, return the original text
@@ -26,9 +27,7 @@ export const HighlightText = (props) => {
       );
     } else if (Array.isArray(text)) {
       // If it's an array, recursively call highlightText on each element
-      return text.map((element, index) => (
-        <React.Fragment key={index}>{highlightText(element)}</React.Fragment>
-      ));
+      return text.map((element, index) => highlightText(element));
     } else if (React.isValidElement(text)) {
       // If it's a React element, recursively call highlightText
       return React.cloneElement(text, {
@@ -39,5 +38,8 @@ export const HighlightText = (props) => {
     }
   };
 
-  return <RNText {...props}>{highlightText(props.children)}</RNText>;
+  // Flatten the array of Text components before rendering
+  const flattenedChildren = React.Children.toArray(highlightText(props.children));
+
+  return <RNText {...props}>{flattenedChildren}</RNText>;
 };
