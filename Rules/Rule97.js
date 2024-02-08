@@ -29,7 +29,7 @@ export default function Rule97({ navigation }) {
                         {'\n\n'}
                         2) Players positioned 11-50 (excluding Entry Protection ranking) in the Pepperstone
                         ATP Rankings twenty-one (21) days prior to the first Monday of the ATP Challenger Tour tournament are prohibited from entering (with the exception of Challenger
-                        175 category) but may receive an ATP-approved wild card in order to compete
+                        175 category) but may receive an ATP approved wild card in order to compete
                         in the Challenger tournament. The Challenger Supervisor will make wild card
                         determinations consistent with the limitations outlined below. Players positioned 11-50 are also prohibited from entering, accepting a wild card or competing in a
                         Challenger 75 tournament.

@@ -39,7 +39,7 @@ export default function Rule31({ navigation }) {
 
             <HighlightText style={RuleStyles.SubHeading3}>5) </HighlightText>
             The liability insurance shall include bodily injury and property damage liability,
-            personal injury, participant legal liability, hired and non-owned auto and contractual 
+            personal injury, participant legal liability, hired and non owned auto and contractual 
             liability coverage.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>6) </HighlightText>
@@ -56,10 +56,10 @@ export default function Rule31({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
             Each ATP Tour and ATP Challenger Tour tournament is responsible for determining
             whether applicable worker’s compensation statutes apply to injuries sustained by
-            volunteers, sub-contractors, on-court officials or ball persons. In the absence of a
+            volunteers, sub contractors, on court officials or ball persons. In the absence of a
             worker’s compensation coverage requirement, it is recommended that the tournament purchase 
             excess medical insurance for the event to provide medical payments
-            coverage to injured volunteers, on-court officials or ball persons involved in the event.{'\n\n'}
+            coverage to injured volunteers, on court officials or ball persons involved in the event.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
             All such insurance shall provide, not less than thirty (30) days, prior written notice to

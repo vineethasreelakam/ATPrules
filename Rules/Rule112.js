@@ -93,7 +93,7 @@ export default function Rule112({ navigation }) {
                             to be replayed. The server claims that the Chair Umpire cannot
                             change his decision and asks for the Supervisor to be called.
                             {'\n\n'}
-                            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The point is re-played. The Chair Umpire’s initial awarding of the point to the server was incorrect based upon the facts as
+                            <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>The point is re played. The Chair Umpire’s initial awarding of the point to the server was incorrect based upon the facts as
                             described by the Chair Umpire: The receiver did return the serve.
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Server</HighlightText>
@@ -103,7 +103,7 @@ export default function Rule112({ navigation }) {
                             the point to the server based upon his judgment that the receiver
                             did not have a play on the ball. The receiver claims that he could
                             have played the ball. The Chair Umpire is not sure of his original
-                            judgment and orders the point to be re-played. The server claims
+                            judgment and orders the point to be re played. The server claims
                             that the Chair Umpire may not change his judgment based upon an
                             appeal from the receiver and asks for the Supervisor to be called.
                             {'\n\n'}
@@ -269,7 +269,7 @@ export default function Rule112({ navigation }) {
                             doubt. To overrule a ball called “Good” by the Line Umpire, the Chair Umpire
                             must have been able to see a space between the ball and the line. To overrule
                             an “Out” or “Fault” call by a Line Umpire, the Chair Umpire must have seen
-                            the ball hit on or inside the line. Clear foot-faults not called by the responsible
+                            the ball hit on or inside the line. Clear foot faults not called by the responsible
                             Line Umpire should be called by the Chair Umpire.
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>b) Promptly. </HighlightText>The Chair Umpire must overrule immediately after the Line Umpire
@@ -297,7 +297,7 @@ export default function Rule112({ navigation }) {
                             <HighlightText style={RuleStyles.SubHeading3}>1) Chair Umpire</HighlightText>
                             {'\n\n'}
                             a) A ball mark inspection requested by a player (team) shall be allowed only if
-                            the Chair Umpire cannot determine the call with surety on either a point-ending shot or when a player (team) stops playing the point during the rally (Returns are permitted but then the player must immediately stop). The Chair
+                            the Chair Umpire cannot determine the call with surety on either a point ending shot or when a player (team) stops playing the point during the rally (Returns are permitted but then the player must immediately stop). The Chair
                             Umpire shall check ball marks if there is some doubt about the accuracy of
                             the call.
                             {'\n\n'}
@@ -397,7 +397,7 @@ export default function Rule112({ navigation }) {
                             authorized for use at ATP events. The protocol for Review ELC is as follows:
                             {'\n\n'}
                             1) A request for an electronic review of a line call by a player (team) shall be allowed
-                            only on either a point-ending shot or when a player (team) stops playing the point
+                            only on either a point ending shot or when a player (team) stops playing the point
                             during a rally (returns are permitted but then the player must immediately stop).
                             {'\n\n'}
                             2) In doubles the appealing player must make his appeal in such a way that either
@@ -510,9 +510,9 @@ export default function Rule112({ navigation }) {
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>b) Time Violation or Code Violation.</HighlightText> A Time or Code Violation must be assessed if the ball is not struck for the next point within the twenty-five (25)
                             seconds allowed, except if the Chair Umpire extends the time for special circumstances defined by ATP. There is no time warning prior to the expiration
-                            of the twenty-five (25) seconds.
+                            of the twenty five (25) seconds.
                             {'\n\n'}
-                            <HighlightText style={RuleStyles.SubHeading3}>2) 90 Seconds/Change-Over (Changing Ends)</HighlightText>
+                            <HighlightText style={RuleStyles.SubHeading3}>2) 90 Seconds/Change Over (Changing Ends)</HighlightText>
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>a) Start Stop Watch. </HighlightText>The Chair Umpire must start the stopwatch the moment
                             the ball goes out of play.
@@ -526,7 +526,7 @@ export default function Rule112({ navigation }) {
                             positions.
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </HighlightText>The Chair Umpire must assess a Time
-                            Violation or, when applicable, a Code Violation (after a medical time-out or
+                            Violation or, when applicable, a Code Violation (after a medical time out or
                             treatment) if the ball is not struck for the next point within the ninety (90) seconds / one hundred twenty (120) seconds allowed, provided there has been
                             no interference which prevented the Server from serving within that time or a
                             delay by the Chair Umpire.
@@ -790,7 +790,7 @@ export default function Rule112({ navigation }) {
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> A Time Violation is announced. “Let’s Play” is normally
                         added. The same applies if a player is not ready to play after the
-                        120-second set break.
+                        120 second set break.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading2}>P. Toilet/Change of Attire Break</HighlightText>
                         {'\n\n'}
@@ -894,7 +894,7 @@ export default function Rule112({ navigation }) {
                         At the discretion of the Physiotherapist, such evaluation may be performed in
                         conjunction with the tournament Doctor, and may be performed off-court. *
                         {'\n\n'}
-                        If the Physiotherapist determines that the player has a non-treatable medical condition, then the player will be advised that no medical treatment will be allowed.
+                        If the Physiotherapist determines that the player has a non treatable medical condition, then the player will be advised that no medical treatment will be allowed.
                         {'\n\n'}
 
 
@@ -1052,7 +1052,7 @@ export default function Rule112({ navigation }) {
                         <HighlightText style={RuleStyles.SubHeading3}>Exceeding 90 Seconds: Code Violation</HighlightText>
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>If a player is receiving treatment by the Physiotherapist on a
-                        90-second change-over, and the treatment goes over the allowed
+                        90-second change over, and the treatment goes over the allowed
                         90 seconds, what happens?
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> When the Chair Umpire says “Time”, the player must put
@@ -1063,7 +1063,7 @@ export default function Rule112({ navigation }) {
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>If eight (8) minutes elapse before the Physiotherapist arrives
                         and treatment begins two (2) minutes later (the medical time-out
-                        begins) and is completed after another three (3) minutes, is a rewarm-up authorized?
+                        begins) and is completed after another three (3) minutes, is a re warm up authorized?
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> No, a re-warm-up is not authorized.
                         {'\n\n'}
@@ -1141,7 +1141,7 @@ export default function Rule112({ navigation }) {
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Resuming Play After a Medical Time-Out</HighlightText>
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>Case A: </HighlightText>After an injury and a four-minute suspension (by the Chair
+                        <HighlightText style={RuleStyles.SubHeading3}>Case A: </HighlightText>After an injury and a four minute suspension (by the Chair
                         Umpire) for the arrival of the Physiotherapist, the Physiotherapist arrives and completes the treatment in one and 1/2 minutes. When
                         does play resume?
                         {'\n\n'}

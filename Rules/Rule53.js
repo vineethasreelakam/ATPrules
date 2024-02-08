@@ -23,7 +23,7 @@ export default function Rule53({ navigation }) {
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading2}>B.Responsibilities</HighlightText>
             {'\n\n'}
-            1) The Tour Manager shall be present for all sign-ins.
+            1) The Tour Manager shall be present for all sign ins.
             {'\n\n'}
             2) The Tour Manager shall be present at the making of all draws.
             {'\n\n'}

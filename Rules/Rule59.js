@@ -63,7 +63,7 @@ export default function Rule59({ navigation }) {
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading2}>C.Clothing</HighlightText>
             Clothing provided by the tournament for Line Umpires shall not be solid white, yellow
-            or other colors that may interfere with the vision of the players, unless otherwise approved by ATP. It is recommended that dark-colored clothing be avoided for outdoor
+            or other colors that may interfere with the vision of the players, unless otherwise approved by ATP. It is recommended that dark colored clothing be avoided for outdoor
             tournaments played in high temperatures. Clothing should not be identical to clothing
             provided to the ball persons.
 

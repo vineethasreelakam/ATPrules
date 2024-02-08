@@ -223,7 +223,7 @@ export default function Rule42({ navigation }) {
             Submission annually to the 500 PM Committee Auditor no later than 120 days 
             following the conclusion of its tournament for such year. Independently audited financial
             information is to be provided no later than 120 days following the conclusion of
-            tournament’s fiscal year-end. Each 500 Submission must be certified by the applicable
+            tournament’s fiscal year end. Each 500 Submission must be certified by the applicable
             tournament member as complete and accurate and in compliance with this rule in all
             material respects.{'\n\n'}
 

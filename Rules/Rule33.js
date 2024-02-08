@@ -92,7 +92,7 @@ export default function Rule33({ navigation }) {
 
             <HighlightText style={RuleStyles.SubHeading3}>3) </HighlightText>
             Prize money shall be paid only for matches played. If a final cannot be played,
-            then each finalist shall be paid runner-up prize money. For purposes of this section, a
+            then each finalist shall be paid runner up prize money. For purposes of this section, a
             match is played when it is won as a result of a retirement, default, walkover
             or no show. (See “Exhibit K - Glossary” )
             {'\n\n'}
@@ -110,7 +110,7 @@ export default function Rule33({ navigation }) {
             declared unfit to compete by the tournament doctor.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>ii) </HighlightText>
-            Each player is limited to two (2) tournaments*, non-consecutive, in a calendar year
+            Each player is limited to two (2) tournaments*, non consecutive, in a calendar year
             where he may receive prize money for the on-site withdrawal.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>* </HighlightText>
@@ -175,7 +175,7 @@ export default function Rule33({ navigation }) {
             another ATP Challenger Tour or ATP Tour tournament?{'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>
             No. Once the player has withdrawn on site and received
-            prize money at any two, non-consecutive ATP Tour or ATP Challenger Tour tournaments,
+            prize money at any two, non consecutive ATP Tour or ATP Challenger Tour tournaments,
             he has used his 2 tournament limit for the
             year and is not eligible to receive prize money for any future on-site
             withdrawal at an ATP Tour or ATP Challenger Tour tournament in
@@ -362,7 +362,7 @@ export default function Rule33({ navigation }) {
             only after they have returned to competition and competed in their first event.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>f) </HighlightText>
-            Each player is limited to two (2) tournaments*, non-consecutive, in a calendar
+            Each player is limited to two (2) tournaments*, non consecutive, in a calendar
             year where he may receive prize money for doubles on-site withdrawal.{'\n\n'}
             *There are no limits to the number of events a player may receive prize money for the
             on-site withdrawal due to Covid-19 reasons as long as the events

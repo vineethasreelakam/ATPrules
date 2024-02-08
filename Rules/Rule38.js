@@ -19,7 +19,7 @@ export default function Rule38({ navigation }) {
 
             <HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
             Each ATP Tour and ATP Challenger Tour tournament shall withhold from prize money
-            only a player’s applicable income tax deduction, non-member service fee, fines, advances 
+            only a player’s applicable income tax deduction, non member service fee, fines, advances 
             and other ATP designated expenses.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>

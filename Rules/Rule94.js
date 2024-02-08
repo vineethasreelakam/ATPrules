@@ -24,14 +24,14 @@ export default function Rule94({ navigation }) {
                         Wild Cards are exempt from this provision.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading2}>ATP Tour 250 Main Draw Singles Late Entry (LE) Spot: </HighlightText>
-                        A Late Entry spot is a reserved position (one) in each ATP 250 tournament. Only players with a ranking better than the original tournament entry list cut are allowed to enter. The entry deadline for this spot is Thursday, 10 AM Eastern Time, USA prior to the Monday of the tournament week. At this deadline, the position will be filled by the highest ranked player who entered using the Pepperstone ATP Rankings (Singles) used for tournament entries twenty-eight (28) days prior to the Monday of the tournament week. If there are no entries for the LE spot by the deadline, then the position in the main draw goes to the next eligible player on the entry list.
+                        A Late Entry spot is a reserved position (one) in each ATP 250 tournament. Only players with a ranking better than the original tournament entry list cut are allowed to enter. The entry deadline for this spot is Thursday, 10 AM Eastern Time, USA prior to the Monday of the tournament week. At this deadline, the position will be filled by the highest ranked player who entered using the Pepperstone ATP Rankings (Singles) used for tournament entries twenty eight (28) days prior to the Monday of the tournament week. If there are no entries for the LE spot by the deadline, then the position in the main draw goes to the next eligible player on the entry list.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading2}>ATP Next Gen Programme </HighlightText>
-                        Players born in 2004 or later will be eligible for the Programme in 2024. Players who begin the season aged 20&U and turn 21 in 2024 will not be considered for the Programme. Starting from 01 January 2024, playing opportunities for players aged 20 & under who break into the Top 250 & 350 of the Pepperstone ATP Rankings will be reserved as follows:
+                        Players born in 2004 or later will be eligible for the Programme in 2024. Players who begin the season aged 20&U and turn 21 in 2024 will not be considered for the Programme. Starting from 01 January 2024, playing opportunities for players aged 20 & under who break into the Top 250 & 350 of the Pepperstone ATP Rankings will be reserved as follows:
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>• Players who break into the Top 350 and are aged 20 & under will be eligible to receive up to 8 CH 100 & 125 Opportunities in a calendar year. </HighlightText>
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>• Players who break into the Top 250 and are aged 20 & under will be eligible to receive up to 1 ATP 250 Main Draw Singles & 2 ATP 250 Qualifying opportunities each week with three ATP level events on the calendar in addition to their Challenger opportunities.</HighlightText>
+                        <HighlightText style={RuleStyles.SubHeading3}>• Players who break into the Top 250 and are aged 20 & under will be eligible to receive up to 1 ATP 250 Main Draw Singles & 2 ATP 250 Qualifying opportunities each week with three ATP level events on the calendar in addition to their Challenger opportunities.</HighlightText>
                         {'\n\n'}
                         Draw spots will be reserved and will drop to the next highest-ranked player should they not be utilized
                         {'\n\n'}
@@ -62,7 +62,7 @@ export default function Rule94({ navigation }) {
                         Any Junior Accelerator Spot or Promotions from Qualifying to Main draw will be determined at the relevant Challenger Main Draw or Qualifying Entry Deadline.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading2}>College Accelerator Spots (CAS)</HighlightText>
-                        College Accelerator Spots are awarded at the Challenger level to the College players who are ranked 1-20 in the season-end Intercollegiate Tennis Association (ITA) Collegiate Tennis Rankings, as well as individual NCAA Division I Tennis Championships quarterfinalists.
+                        College Accelerator Spots are awarded at the Challenger level to the College players who are ranked 1-20 in the season end Intercollegiate Tennis Association (ITA) Collegiate Tennis Rankings, as well as individual NCAA Division I Tennis Championships quarterfinalists.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>• Challengers 50 and 75 </HighlightText>- College Accelerator Spots can be awarded to up to two (2) players in every Main Draw (eligible College players ranked 1-10 and individual NCAA DI Champion) and to up to two (2) players in every Qualifying (eligible College players ranked 11-20 and individual NCAA DI quarterfinalists) of Challenger 50 and 75 tournaments.
                         {'\n\n'}
@@ -87,7 +87,7 @@ export default function Rule94({ navigation }) {
                         last week of Challenger events in the season.
                         {'\n\n'}
                         ii) Players ranked 11-20 in the season-end singles ITA Collegiate Tennis Ranking
-                        and NCAA Division I quarter-finalists shall be eligible for up to six (6) Accelerator
+                        and NCAA Division I quarter finalists shall be eligible for up to six (6) Accelerator
                         Spots at Challenger Qualifying over six months, starting July 1, 2023, through to
                         the last week of Challenger events in December.
                         {'\n\n'}

@@ -22,7 +22,7 @@ export default function Rule47({ navigation }) {
             The tournament shall be a singles round robin format with eight (8) players. There
             shall be two (2) groups of four (4) players each with eight (8) seeds to be determined
             by the Pepperstone ATP Rankings on the Monday after the last ATP Tour tournament
-            of the calendar year. All matches shall be the best of three (3) tie-break sets, including the final. The round robin shall determine the four (4) players for the semifinals
+            of the calendar year. All matches shall be the best of three (3) tie break sets, including the final. The round robin shall determine the four (4) players for the semifinals
             with the format thereafter being a single elimination competition.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>B.Entries</HighlightText>
@@ -41,17 +41,17 @@ export default function Rule47({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>2) Direct Acceptances.</HighlightText> The top eight (8) players in the selection list shall qualify
             for the event as direct acceptances. Participation is mandatory, and all qualified
             players shall be entered. All direct acceptances must be at the tournament site
-            to attend the official pre-tournament media conference and must be available for
+            to attend the official pre tournament media conference and must be available for
             play through the completion of the round robin competition and the knock-out
             competition if eligible.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>3) Withdrawal. </HighlightText>Any withdrawal, before the official pre-tournament media conference starts, shall be replaced by the next highest positioned player on the selection list, who shall be qualified as a direct acceptance.
+            <HighlightText style={RuleStyles.SubHeading3}>3) Withdrawal. </HighlightText>Any withdrawal, before the official pre tournament media conference starts, shall be replaced by the next highest positioned player on the selection list, who shall be qualified as a direct acceptance.
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>4) Alternate(s). </HighlightText>
             {'\n\n'}
             a) The next highest positioned player on the selection list (who is not a direct
-            acceptance at the time of the official pre-tournament media conference) shall
-            be designated as the alternate and shall replace any player who subsequently withdraws. The alternate must appear at the official pre-tournament media
+            acceptance at the time of the official pre tournament media conference) shall
+            be designated as the alternate and shall replace any player who subsequently withdraws. The alternate must appear at the official pre tournament media
             conference and remain available through the start of the last scheduled round
             robin match.
             {'\n\n'}
@@ -76,7 +76,7 @@ export default function Rule47({ navigation }) {
             good standing.
             {'\n\n'}
             2) All direct acceptances and the alternate must appear at the site of the event(s) as
-            determined by ATP and participate in the pre-tournament media conference.
+            determined by ATP and participate in the pre tournament media conference.
             Failure to appear shall result in a penalty of five percent (5%) of total ATP prize
             money earned during the ATP circuit year.
             Please also see 1.07 H. 2) b).{'\n\n'}
@@ -86,7 +86,7 @@ export default function Rule47({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>Round Robin</HighlightText>
             {'\n\n'}
             1) The field shall be divided into two (2) groups of four (4) players each. The
-            top-seeded player shall be placed in Group “A” and the second-seeded player
+            top seeded player shall be placed in Group “A” and the second seeded player
             shall be placed in Group “B”. Players seeded three (3) and four (4), five (5) and six
             (6), and seven (7) and eight (8), shall then be drawn in pairs with the first drawn
             placed into Group “A.”

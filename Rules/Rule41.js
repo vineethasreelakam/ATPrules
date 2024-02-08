@@ -75,7 +75,7 @@ export default function Rule41({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>“M1000 Independent Member” </HighlightText>
             means the independent member of the M1000 PM
             Committee appointed by the ATP Board of Directors by the aﬃrmative vote of a super
-            majority vote of the Board to serve on the M1000 PM Committee for a 3-year term.
+            majority vote of the Board to serve on the M1000 PM Committee for a 3 year term.
             The Independent Member will serve as Chair of M1000 PM Committee. The Independent
             Member is subject to removal at any time by the ATP Board of Directors by the
             aﬃrmative vote of a super majority vote of the Board.{'\n\n'}
@@ -173,7 +173,7 @@ export default function Rule41({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading2}>D.</HighlightText>
             Each Masters 1000 tournament member is required to provide a complete and
             accurate M1000 Submission annually to the M1000 PM Committee Auditor no later
-            than 120 days following the conclusion of tournament’s fiscal year-end. Each M1000
+            than 120 days following the conclusion of tournament’s fiscal year end. Each M1000
             Submission must be certified by the applicable tournament member as complete and
             accurate and in compliance with this rule in all material respects.{'\n\n'}
   

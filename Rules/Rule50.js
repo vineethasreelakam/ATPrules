@@ -90,7 +90,7 @@ export default function Rule50({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>Round Robin</HighlightText> 
             {'\n\n'}
             1) The field shall be divided into two (2) groups of four (4) players each. The 
-            top-seeded player shall be placed in Group “A” and the second-seeded player 
+            top-seeded player shall be placed in Group “A” and the second seeded player 
             shall be placed in Group “B”. Players seeded three (3) and four (4), five (5) and six 
             (6), and seven (7) and eight (8), shall then be drawn in pairs with the first drawn 
             placed into Group “A.”
@@ -167,7 +167,7 @@ export default function Rule50({ navigation }) {
             player with the 3rd best % of games won is eliminated.
             {'\n\n'}
             e) In applying the tie-breaking procedures, a conduct default or retirement shall 
-            count as a straight-set win or loss. However, games won or lost in matches 
+            count as a straight set win or loss. However, games won or lost in matches 
             with the defaulting or retiring player shall not be counted in the percentage 
             of games won. A player who retires during the round robin because of illness 
             or injury may continue in the competition if it is approved by the tournament 

@@ -24,7 +24,7 @@ export default function Rule44({ navigation }) {
             with a 50/50 prize money formula similar to the Masters 1000’s Prize Money Formula Rule.
             In the event this category is materially changed during this period, the 500 PM
             Committee will determine what effect such material changes have on applying this
-            rule for the remainder of the term. The formula will be based on a 2-year Average
+            rule for the remainder of the term. The formula will be based on a 2 year Average
             Growth Percentage (“AGP”) in Defined Revenues (“DR”) for all tournaments in the
             category. The 500 PM Committee Auditor will calculate AGP and submit such calculations
             to the 500 PM Committee for review and approval. Such AGP will be applied to current
@@ -49,14 +49,14 @@ export default function Rule44({ navigation }) {
             Committee (as defined in the 500 Audit Rule).{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>Average Growth Percentage (“AGP”) - </HighlightText>
-            AGP is the 2-year average growth in the
+            AGP is the 2 year average growth in the
             most recent actual years DR as reported to and calculated by the 500 PM Committee
-            Auditor. The annual period for purposes of AGP will be the 12-month periods ending
+            Auditor. The annual period for purposes of AGP will be the 12 month periods ending
             in April each year immediately following the Barcelona tournament.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>Defined Revenues (“DR”) - </HighlightText>
             Defined revenues are the basis for the AGP calculations
-            and include the following four broad revenue categories as long as the 2-year average 
+            and include the following four broad revenue categories as long as the 2 year average 
             of these revenues exceed 92% of average gross revenues as reported to the 500 PM
             Committee Auditor:{'\n\n'}
            {'\t'}1. Sponsorships{'\n\n'}
@@ -85,7 +85,7 @@ export default function Rule44({ navigation }) {
             over the person/company, either via ownership, via agreement, or via power to
             manage/govern/influence the person/company’s finances and/or operations.
             {'\n\n'}
-            If two-year average DR are less than 92% of average gross revenues, the next largest revenue
+            If two year average DR are less than 92% of average gross revenues, the next largest revenue
              category as determined by the 500 Committee Auditor and approved by the 500
             Committee will be added to DR so that the 92% minimum is achieved.
             {'\n\n'}
@@ -101,7 +101,7 @@ export default function Rule44({ navigation }) {
             ● A 70% factor will be applied to combined tournaments revenues which are
             not directly men or women tournament revenues.{'\n\n'}
             ● Exchange rates to USD for formula calculation purposes and for equal
-            prize money allocation among tournaments will be based on a 2-year average exchange rate.{'\n\n'}
+            prize money allocation among tournaments will be based on a 2 year average exchange rate.{'\n\n'}
             ● Complimentary tickets where no value is received will not be included in
             revenues. Complimentary tickets provided to Related Parties will be valued and included in DR.{'\n\n'}
             ● Taxes and fees required to be paid on tickets sales will be excluded from

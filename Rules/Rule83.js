@@ -30,7 +30,7 @@ export default function Rule83({ navigation }) {
                         the final day of the tournament.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading1}>Combined Events and Challenger 175. </HighlightText>Each Tournament shall provide airport
-                        transportation beginning two (2) days before the Qualifying Sign-In Deadline (provided
+                        transportation beginning two (2) days before the Qualifying Sign In Deadline (provided
                         that 24-hour notice is given to the Tournament) until the morning following the final
                         day of the Tournament to:
                         {'\n\n'}

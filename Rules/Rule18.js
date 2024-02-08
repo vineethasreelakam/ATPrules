@@ -18,7 +18,7 @@ export default function Rule18({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading1}>1.17 Non-Exclusive Media Highlight Rights.</HighlightText>{'\n\n'}
             Each ATP Tour tournament shall each year promptly (within two business days) provide
             to ATP without charge existing footage of the tournament as ATP may request.
-            Each ATP tournament hereby grants to ATP the non-exclusive right to broadcast, or
+            Each ATP tournament hereby grants to ATP the non exclusive right to broadcast, or
             permit to be broadcast, by any means, whether presently existing or hereafter created,
             in perpetuity worldwide, a total each year of (i) fifteen (15) minutes of footage for
             ATP Highlight Show or any other programs, produced by or for ATP, which are primarily intended

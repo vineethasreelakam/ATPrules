@@ -27,11 +27,11 @@ export default function Rule5({ navigation }) {
             1) If any ATP Tour tournament singles final is not played, the tournament may elect
             to replace it as follows:{'\n\n'}
             a) Schedule a singles exhibition; or{'\n\n'}
-            b) Re-schedule the doubles final in its place; or{'\n\n'}
+            b) Re schedule the doubles final in its place; or{'\n\n'}
             c) In the case where the doubles final has been completed or is in progress
             when it is discovered that there will not be a singles final, the tournament may
             elect to have the doubles finalists play a one (1) hour exhibition.{'\n\n'}
-            2) The awards ceremony shall take place immediately following the singles or doubles exhibition or following the doubles final if it has been re-scheduled.
+            2) The awards ceremony shall take place immediately following the singles or doubles exhibition or following the doubles final if it has been re scheduled.
             {'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>C. Doubles.</HighlightText>{'\n\n'}

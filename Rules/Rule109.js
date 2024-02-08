@@ -29,7 +29,7 @@ export default function Rule109({ navigation }) {
                         {'\n\n'}
                         Prior to the draw being finalized (not sooner than when it is published but not later
                         than when the first ball of the doubles tournament is struck as determined by the
-                        Supervisor), use the following procedure: If one-fourth or more of the seeded teams
+                        Supervisor), use the following procedure: If one fourth or more of the seeded teams
                         withdraw, or a minimum of two (2) seeded teams in a 16-team draw withdraw, the
                         Tournament Director has the option to have the draw remade if approved by the
                         Supervisor. If the draw is remade, the original pairings may not be changed except

@@ -35,7 +35,7 @@ export default function Rule10({ navigation }) {
               limited to and mandatory for all main draw singles and doubles
               players. Player members not entered will be sent the minutes.{" "}
               {"\n\n"}
-              The penalty for non-attendance is the following:{"\n\n"}
+              The penalty for non attendance is the following:{"\n\n"}
             </HighlightText>
             <ImageViewerComponent
               props={{

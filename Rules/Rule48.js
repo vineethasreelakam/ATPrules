@@ -190,11 +190,11 @@ export default function Rule48({ navigation }) {
             {'\n\n'}
             2) The event shall be completed with a single elimination competition for the semi-finals and final.
             {'\n\n'}
-            3) There shall be no playoff for the third and fourth-place positions.
+            3) There shall be no playoff for the third and fourth place positions.
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading2}>E. Prize Money and Points</HighlightText>
             {'\n\n'}
-            Final standings at the end of the tournament shall determine the prize-money and
+            Final standings at the end of the tournament shall determine the prize money and
             Pepperstone ATP Doubles Rankings points earned.
             {'\n\n'}
 

@@ -260,11 +260,11 @@ export default function Rule110({ navigation }) {
                         do so at their own risk unless they speak directly to the Supervisor
                         or Referee.
                         {'\n\n'}
-                        3. Sign-in not allowed. The player is responsible for arriving on time.
+                        3. Sign-in not allowed. The player is responsible for arriving on time.{'\n\n'}
                         Which Lucky Loser to Insert?
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> On Monday before the last singles match has gone on court,
-                        a player whose first-round singles match is scheduled for Tuesday is
+                        a player whose first round singles match is scheduled for Tuesday is
                         forced to withdraw because of injury. No one signed the lucky loser
                         list on Monday. How is the vacancy resolved?
                         {'\n\n'}
@@ -380,7 +380,7 @@ export default function Rule110({ navigation }) {
                         <HighlightText style={RuleStyles.SubHeading3}>Remake of the Draw</HighlightText>
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> On Monday morning, two (2) of the four (4) seeded teams
-                        withdraw from a 16-draw doubles event. The doubles competition
+                        withdraw from a 16 draw doubles event. The doubles competition
                         has not yet begun. May the draw be remade?
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> Yes. However, it is the option of the tournament.

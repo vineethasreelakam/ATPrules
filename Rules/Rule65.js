@@ -71,7 +71,7 @@ export default function Rule65({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading2}>2) Intensity</HighlightText>
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>a) ATP Tour Tournaments.</HighlightText> Lighting must be evenly distributed on the court
-            with a minimum recommended intensity of 100 foot-candles (1076 LUX), averaged 
+            with a minimum recommended intensity of 100 foot candles (1076 LUX), averaged 
             over 15 readings on court.
             {'\n\n'}
             The recommended minimum lighting for televised events broadcasting in
@@ -80,7 +80,7 @@ export default function Rule65({ navigation }) {
             temperature.
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>b) ATP Challenger Tour Tournaments. </HighlightText>Lighting must be evenly distributed on
-            the court with a minimum recommended intensity of 70 foot-candles (750
+            the court with a minimum recommended intensity of 70 foot candles (750
             LUX), averaged over 15 readings on court
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading2}>3) High/low ratio.</HighlightText> A ratio of the highest to lowest readings should be no greater than

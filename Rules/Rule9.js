@@ -24,14 +24,14 @@ export default function Rule9({ navigation }) {
             fide injury or other reason which constitutes good cause, the player shall not be in
             good standing.{'\n\n'}
             2) All direct acceptances and the alternate must appear at the site of the event(s)
-            as determined by ATP and participate in the pre-tournament media conference.
+            as determined by ATP and participate in the pre tournament media conference.
             Failure to appear shall result in a penalty of five percent (5%) of total ATP prize
             money earned during the ATP Tour circuit year.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>B.Review of Penalties for Breach of Commitment</HighlightText>{'\n\n'}
             Any player found to have committed a player commitment offense may petition the
             Appeals Tribunal for discretionary review. This written petition shall detail the basis
-            for the appeal. The tribunal shall review the petition within twenty-one (21) days and,
+            for the appeal. The tribunal shall review the petition within twenty one (21) days and,
             if necessary, designate a date, time and place for a hearing. At the hearing, the player
             shall present to the tribunal his respective positions on the facts. The tribunal may
             affirm, reverse or modify the penalty initially imposed by ATP

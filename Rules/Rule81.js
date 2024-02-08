@@ -17,7 +17,7 @@ export default function Rule81({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.17 Food</HighlightText>
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>General.</HighlightText> Each tournament must provide a variety of suitable and of high-quality food
+                        <HighlightText style={RuleStyles.SubHeading3}>General.</HighlightText> Each tournament must provide a variety of suitable and of high quality food
                         for the competitors on-site or, as approved by ATP, within reasonable distance of
                         the tournament venue. Food service for ATP 250 and Challenger Tour tournaments
                         should begin no later than the day before the start of the qualifying and continue until
@@ -36,7 +36,7 @@ export default function Rule81({ navigation }) {
                         for the same number of days as the player’s hospitality through direct allocation on
                         the individual credential or allowance on the player credential. Tournaments are encouraged to provide complimentary food for additional PST members.
                         {'\n\n'}
-                        The complimentary food service shall offer fresh, high-quality hot and cold food options with a combination of made to order and buffet food, variety of proteins including
+                        The complimentary food service shall offer fresh, high quality hot and cold food options with a combination of made to order and buffet food, variety of proteins including
                         vegan protein (tofu or tempeh), carbs, salads, fruit and smoothies.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>ATP 250 Tournaments*. </HighlightText>Each tournament shall provide complimentary food service

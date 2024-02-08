@@ -22,7 +22,7 @@ export default function Rule55({ navigation }) {
               <HighlightText style={RuleStyles.SubHeading3}>1) Tournament Doctor</HighlightText>
               {'\n\n'}
               Beginning with the qualifying competition, it is the responsibility of each ATP Tour
-              tournament to provide on-site during the entire tournament an English-speaking
+              tournament to provide on-site during the entire tournament an English speaking
               Doctor who specializes in sports medicine, unless otherwise approved by ATP’s
               Medical Services Committee. Each tournament shall send the name and address
               of the tournament Doctor (or all Doctors, if more than one) to the appropriate
@@ -60,7 +60,7 @@ export default function Rule55({ navigation }) {
               <HighlightText style={RuleStyles.SubHeading2}>B.ATP Challenger Tour Tournaments</HighlightText>
               {'\n\n'}
               <HighlightText style={RuleStyles.SubHeading3}> 1) Tournament Doctor.</HighlightText> Each ATP Challenger Tour tournament is required to have
-              an English-speaking tournament Doctor at the site from one (1) hour prior to the
+              an English speaking tournament Doctor at the site from one (1) hour prior to the
               start of play through its conclusion on each day. If the ATP Challenger Tour tournament cannot provide a doctor on-site during all hours of play, a doctor shall be
               available during all hours of play on each day
               {'\n\n'}
@@ -71,16 +71,16 @@ export default function Rule55({ navigation }) {
               b) Through a schedule of daily on-site visits (minimum 1 hour during normal
               business hours or as required by the ATP Supervisor) by the tournament
               doctor established at the start of the tournament and posted in the player
-              treatment room to allow for in-person consultations with player as needed
+              treatment room to allow for in person consultations with player as needed
               throughout the tournament and within the allocated time frame for each day;
               and
               {'\n\n'}
-              c) To see a player in-practice (physician’s office) if a player, for reasons outside
+              c) To see a player in practice (physician’s office) if a player, for reasons outside
               his own control, requires a doctor’s consultation outside the daily allocated
               time frame for the doctor’s on-site visit.
               {'\n\n'}
               Each tournament shall send the name and address of the tournament Doctor to
-              ATP’s Medical Services Committee forty-two (42) days in advance of the tournament.
+              ATP’s Medical Services Committee forty two (42) days in advance of the tournament.
               {'\n\n'}
               <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> A player requests to see the doctor for an in-practice consultation outside the doctor’s scheduled on-site visit time slot for that
               day. He claims that he has an early match that day (non-urgent reason) and will likely not be on-site later in the day during the doctor’s
@@ -89,7 +89,7 @@ export default function Rule55({ navigation }) {
               <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The request is denied. The player can organize transportation to the site and consult with the doctor during the doctor’s
               on-site visit
               {'\n\n'}
-              <HighlightText style={RuleStyles.SubHeading2}> 2) Physiotherapist.</HighlightText> Each ATP Challenger Tour tournament must provide an English-speaking Physiotherapist(s) as shown below. All Physiotherapy treatments
+              <HighlightText style={RuleStyles.SubHeading2}> 2) Physiotherapist.</HighlightText> Each ATP Challenger Tour tournament must provide an English speaking Physiotherapist(s) as shown below. All Physiotherapy treatments
               are provided to players free of charge.
               {'\n\n'}
               <HighlightText style={RuleStyles.SubHeading3}> a) Challenger 125 and 175 events</HighlightText>

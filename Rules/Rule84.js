@@ -45,13 +45,13 @@ export default function Rule84({ navigation }) {
 
                         <HighlightText style={RuleStyles.SubHeading3}>C.Recovery Equipment and Facilities.</HighlightText>
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>1) ATP Masters 1000 Tournaments. </HighlightText>Each tournament shall provide: (i) high-quality
+                        <HighlightText style={RuleStyles.SubHeading3}>1) ATP Masters 1000 Tournaments. </HighlightText>Each tournament shall provide: (i) high quality
                         (selected in consultation with ATP Medical Services) recovery modalities (e.g.,
                         compression devices and ice bath).
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>2) ATP 500 Tournaments.</HighlightText> Each tournament shall provide: (i) high-quality dedicated ice bath and recovery modalities (selected in consultation with ATP Medical Services).
+                        <HighlightText style={RuleStyles.SubHeading3}>2) ATP 500 Tournaments.</HighlightText> Each tournament shall provide: (i) high quality dedicated ice bath and recovery modalities (selected in consultation with ATP Medical Services).
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>3) ATP 250 Tournaments.</HighlightText> Each tournament shall provide: (i) high-quality ice bath, selected in consultation with ATP Medical Services.
+                        <HighlightText style={RuleStyles.SubHeading3}>3) ATP 250 Tournaments.</HighlightText> Each tournament shall provide: (i) high quality ice bath, selected in consultation with ATP Medical Services.
                         {'\n\n'}
                         Please refer to the Standards and Best Practices section on ATP Tournament Centre for full recovery and equipment facilities guidelines.
                         {'\n\n'}

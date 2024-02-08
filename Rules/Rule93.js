@@ -28,7 +28,7 @@ export default function Rule93({ navigation }) {
                         other players. A player who moves in from the alternate list will be considered a
                         Direct Acceptance from Thursday, 10 AM Eastern Time, USA.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>2) ATP Tour Qualifying. </HighlightText>12 Noon, Eastern Time, USA, twenty-one (21) days prior
+                        <HighlightText style={RuleStyles.SubHeading3}>2) ATP Tour Qualifying. </HighlightText>12 Noon, Eastern Time, USA, twenty one (21) days prior
                         to the first Monday of the tournament week. A player on the Alternate List for the
                         singles qualifying may withdraw at any time prior to such time that he is moved
                         into the qualifying as a Direct Acceptance from Thursday, 10 AM Eastern Time,
@@ -47,7 +47,7 @@ export default function Rule93({ navigation }) {
                         remain on the qualifying list of the following week’s tournament if the player can
                         reasonably travel and arrive on time to compete at the qualifying event as determined by the supervisor. For the avoidance of doubt, the Supervisor should use
                         great discretion when making such determination. Unless clearly impossible to
-                        arrive on-time for the next week’s tournament, players should be given the benefit
+                        arrive on time for the next week’s tournament, players should be given the benefit
                         of the doubt. If he chooses to remain on the qualifying list and loses at the current
                         event after the qualifying draw is made (and did not withdraw himself before the
                         qualifying alternate sign in deadline) he is committed to play the qualifying and
@@ -158,7 +158,7 @@ export default function Rule93({ navigation }) {
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>Decision: Yes</HighlightText>
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>3) ATP Challenger Tour Tournaments.</HighlightText> 12 Noon, Eastern Time, USA, twenty-one
+                        <HighlightText style={RuleStyles.SubHeading3}>3) ATP Challenger Tour Tournaments.</HighlightText> 12 Noon, Eastern Time, USA, twenty one
                         (21) days prior to the Monday of the tournament week. A player on the Alternate
                         List for the singles main draw may withdraw at any time prior to such time that he
                         is moved into the main draw as a direct acceptance because of withdrawals of
@@ -285,11 +285,11 @@ export default function Rule93({ navigation }) {
                         USA, on the Friday before the event week, or if the second withdrawal occurs
                         between 9:00 AM and 10 AM, Eastern Time, USA on the Friday before the event
                         the deadline for naming a qualified substitute shall be extended by one (1) hour.
-                        During this one hour period all lists will be held awaiting a final cut-off for the
+                        During this one hour period all lists will be held awaiting a final cut off for the
                         affected event. If no substitution is made within this defined time period, then the
                         next player on the acceptance list shall be moved into the main draw.
                         {'\n\n'}
-                        b) The tournament shall pay prize money equal to that paid first-round losers
+                        b) The tournament shall pay prize money equal to that paid first round losers
                         to each player who would have been a direct acceptance if not for the late
                         substitution. This payment shall not apply in the case where the player gained
                         entry into a main draw singles, at any event, by other means.
@@ -344,7 +344,7 @@ export default function Rule93({ navigation }) {
                         {'\n\n'}
                         The size of the draw is four (4) with two (2) seeds. The composition of the doubles
                         qualifying draw will be the first three (3) teams from the entry list plus one (1) wild
-                        card team. All matches will be played as two tie-break sets, no-ad scoring with a
+                        card team. All matches will be played as two tie-break sets, no ad scoring with a
                         match tie-break at one set all. Qualifying matches are to be held on the Saturday
                         / Sunday prior to the start of main draw, as determined by the Supervisor and Tour
                         Manager. Teams shall receive hospitality. Rooms for doubles qualifying players

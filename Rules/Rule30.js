@@ -45,7 +45,7 @@ export default function Rule30({ navigation }) {
             {'\t\t'}Reference: Tournament Name & Invoice Number{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>B. </HighlightText>
-            Any amounts (e.g. player fines, non-member service fees, air-tickets) collected or
+            Any amounts (e.g. player fines, non member service fees, air tickets) collected or
             owed by the tournament to ATP must be remitted to ATP.
 
             {'\n\n'}

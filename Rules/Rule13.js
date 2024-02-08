@@ -18,8 +18,8 @@ export default function Rule13({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading1}>1.12 Waiver/Player Publicity and Promotion</HighlightText>{'\n\n'}
 
             All players agree to the following:{'\n\n'}
-            A.I grant and assign to ATP and ATP Tour tournaments and ATP Challenger Tour tour
-            naments in which I am or have been entered the right in perpetuity to record in
+            A.I grant and assign to ATP and ATP Tour tournaments and ATP Challenger Tour tournaments 
+            in which I am or have been entered the right in perpetuity to record in
             tangible form and use my name, performance, likeness, voice, and biography, in any
             and all media (including the right to produce, display and otherwise use motion pictures,
             still pictures and live, taped or filmed television and other reproductions of me),

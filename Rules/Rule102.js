@@ -28,7 +28,7 @@ export default function Rule102({ navigation }) {
                         {'\n\n'}
                         b) A wild card is no longer eligible as an alternate at that event.
                         {'\n\n'}
-                        i) A main draw wild card may not be re-classified as a direct acceptance,
+                        i) A main draw wild card may not be re classified as a direct acceptance,
                         due to withdrawals, once the acceptance list is finalized (when the first
                         chip of the main draw has been drawn).
                         {'\n\n'}
@@ -75,13 +75,13 @@ export default function Rule102({ navigation }) {
                         Tour tournaments for six (6) months because of a physical injury may petition
                         ATP for one additional wild card.
                         {'\n\n'}
-                        b) In the event that a player’s position in the Pepperstone ATP Rankings is insufficient to make him a direct acceptance on the forty-two (42) day acceptance
+                        b) In the event that a player’s position in the Pepperstone ATP Rankings is insufficient to make him a direct acceptance on the forty two (42) day acceptance
                         list, then he shall be released from his commitment to that tournament, unless
-                        offered a wild card to the contract tournament within twenty-four (24) hours of
+                        offered a wild card to the contract tournament within twenty four (24) hours of
                         the entry deadline. Such wild card accepted by a player shall not count in the
                         player’s annual limitation of five (5) wild cards in singles.
                         {'\n\n'}
-                        c) Any player who becomes thirty-five (35) years of age by December 31 of an
+                        c) Any player who becomes thirty five (35) years of age by December 31 of an
                         ATP circuit year shall be exempt from the wild card limitation if he is:
                         {'\n\n'}
                         i) A former singles Champion of a Grand Slam; or
@@ -92,7 +92,7 @@ export default function Rule102({ navigation }) {
                         iii) A former No. 1 ranked player in the ATP Rankings prior to January 2000;
                         or
                         {'\n\n'}
-                        iv) A former No. 1 player in the year-end ATP Rankings.
+                        iv) A former No. 1 player in the year end ATP Rankings.
                         {'\n\n'}
                         d) Players may petition ATP for exceptions to these limitations.
                         {'\n\n'}

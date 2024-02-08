@@ -23,7 +23,7 @@ export default function Rule103({ navigation }) {
                         <HighlightText style={RuleStyles.SubHeading3}>1) Direct Acceptances. </HighlightText>Direct acceptances are players accepted directly in the
                         draw by virtue of their position in the Pepperstone ATP Rankings or by their protected ranking position (singles). The list to be used for ATP Tour tournaments
                         shall be dated approximately forty-two (42) days prior to the Monday of the (first)
-                        tournament week and twenty-one (21) days prior to the Monday of the tournament week for ATP Challenger Tour tournaments.
+                        tournament week and twenty one (21) days prior to the Monday of the tournament week for ATP Challenger Tour tournaments.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>2) Qualifiers.</HighlightText> Qualifiers are players who are included in the main draw as a result
                         of their success in a qualifying competition. If the main draw is made prior to the
@@ -115,7 +115,7 @@ export default function Rule103({ navigation }) {
                         {'\n\n'}
                         b) There shall be an alternate sign-in list comprised of players that sign in who
                         are not selected as direct acceptances. In the event that direct acceptance
-                        players are not present for first-round qualifying matches or if players are
+                        players are not present for first round qualifying matches or if players are
                         moved into the main draw from the qualifying (before the first ball is hit), players shall be selected from the alternate sign-in list in the order described in
                         sections 1), and 2) above. Alternate sign-in deadline is 6:00 pm local time the
                         day before the start of the qualifying. Thereafter, the deadline is one half (1/2)

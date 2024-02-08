@@ -194,7 +194,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             • If still tied, coin toss
             {'\n\n'}
-            b) For spot 3 where entry is based on the best-of ATP/WTA Ranking (Singles or
+            b) For spot 3 where entry is based on the best of ATP/WTA Ranking (Singles or
             Doubles).
             {'\n\n'}
             i) If tied.
@@ -244,7 +244,7 @@ export default function Rule49({ navigation }) {
             (e.g. #2 becomes #1 and the replacement player becomes the new #2).
             {'\n\n'}
             ii) The next highest ranked singles player from that country may be added to
-            the team, unless otherwise approved by ATP/WTA. Non-entered substitute/alternate players may only be considered if the team does not have
+            the team, unless otherwise approved by ATP/WTA. Non entered substitute/alternate players may only be considered if the team does not have
             a minimum of 2 entered players meeting the criteria.
             {'\n\n'}
             b) The number 2 singles player withdraws prior to 10:00 am local time in Sydney, the
@@ -321,7 +321,7 @@ export default function Rule49({ navigation }) {
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading2}>1) Round Robin – The Groups</HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>The Draw-Teams 1-18</HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>The Draw Teams 1-18</HighlightText>
             {'\n\n'}
             a) The oﬃcial draw for the placement of teams 1-18 shall take place, on Monday
             23 October 2023.
@@ -413,7 +413,7 @@ export default function Rule49({ navigation }) {
             c) The deadline to submit the names of the competing players (singles/doubles)
             is 3:00pm local time, the day prior to the scheduled Tie.
             {'\n\n'}
-            d) For each Tie, the highest-positioned (hereafter, number ones) singles players
+            d) For each Tie, the highest positioned (hereafter, number ones) singles players
             named from each team shall compete against each other. The order of
             matches shall be as follows unless otherwise decided by the Steering
             Committee:
@@ -493,7 +493,7 @@ export default function Rule49({ navigation }) {
             as a tie won but this does not count towards total matches won, percentage
             of sets or percentage of games won.
             {'\n\n'}
-            • Any team that withdraws from any round robin tie after the first-round robin tie
+            • Any team that withdraws from any round robin tie after the first round robin tie
             shall not be eligible for the Quarterfinals.
             {'\n\n'}
             • The Match Tie-Break (doubles) counts as a set won and for games won
@@ -546,7 +546,7 @@ export default function Rule49({ navigation }) {
             as a tie won but this does not count towards total matches won, percentage
             of sets or percentage of games won.
             {'\n\n'}
-            • Any team that withdraws from any round robin tie after the first-round robin tie
+            • Any team that withdraws from any round robin tie after the first round robin tie
             shall not be eligible for the Quarterfinals.
             {'\n\n'}
             <HighlightText style={RuleStyles.SubHeading2}>6) Quarter finals  </HighlightText>
@@ -735,7 +735,7 @@ export default function Rule49({ navigation }) {
             within 10 minutes of the conclusion of the fourth singles match. The Supervisors shall notify the opposing Captain and all other relevant staff once both
             Captains have submitted their doubles teams.
             {'\n\n'}
-            e) There shall be a maximum of twenty-five (25) minutes between the end of the
+            e) There shall be a maximum of twenty five (25) minutes between the end of the
             last singles match and the start of the mixed doubles match if one or more of
             the doubles players competed in the last singles match. If none of the players
             designated for the mixed doubles has competed in the last singles match,
@@ -743,7 +743,7 @@ export default function Rule49({ navigation }) {
             determined by the Supervisor. Fifteen minutes is recommended following the
             conclusion of the last singles match, however mixed doubles players who
             competed in the last singles match can elect to start after fifteen (15) minutes
-            or after twenty-five (25) minutes.
+            or after twenty five (25) minutes.
             {'\n\n'}
             f) The Captain must name the mixed doubles team one hour before the start of
             the day’s play if his team has no singles matches on that day (rain or other
@@ -793,7 +793,7 @@ export default function Rule49({ navigation }) {
             shall wear tournament provided unbranded clothing (polo shirt / jacket/ hat) with
             the United Cup logo provided by the event whilst sat on the team bench and
             performing all captains’ duties both on and off court; for example but not limited to
-            official functions, walk-ons, ceremonies, photo opportunities, media appearances
+            official functions, walk ons, ceremonies, photo opportunities, media appearances
             etc.
             {'\n\n'}
             Captains with ongoing personal clothing sponsorship, will be permitted to wear
@@ -801,7 +801,7 @@ export default function Rule49({ navigation }) {
             colour or similar and is approved prior to the event.
             {'\n\n'}
             Captains wearing a personal shirt they will still be expected to wear the United
-            Cup unbranded jacket for official functions, walk-ons, ceremonies, photo opportunities, media appearances etc.
+            Cup unbranded jacket for official functions, walk ons, ceremonies, photo opportunities, media appearances etc.
             If captains have other ongoing personal sponsorships (patch deals etc.) and wish
             to wear a shirt complying with the above provision during the event with sponsor
             logos on the shirt, all such sponsor logos must comply with ATP/WTA tour sizing
@@ -941,7 +941,7 @@ export default function Rule49({ navigation }) {
               {'\n\n'}
               <HighlightText style={RuleStyles.SubHeading2}>M. Media / STARS Obligations</HighlightText>
               {'\n\n'}
-              1) All teams are requested to arrive in Australia on time for any pre-event media /
+              1) All teams are requested to arrive in Australia on time for any pre event media /
               STARS commitments, to be arranged.
               {'\n\n'}
               2) Normal post-match interview protocol will be followed with the exception being
@@ -956,7 +956,7 @@ export default function Rule49({ navigation }) {
               {'\n\n'}
               2) All players who enter and compete in the competition agree to be subject to the
               Rules and Regulations of the ATP/WTA, including, but not limited to, the Code
-              of Conduct, the Tennis Anti-Corruption Program and the Tennis Anti-Doping Program.
+              of Conduct, the Tennis Anti Corruption Program and the Tennis Anti-Doping Program.
               {'\n\n'}
               3) The ATP/WTA Supervisor, in consultation with the SVP, Rules & Competition and
               WTA Senior Vice President Competition & On-Site Operations, shall determine

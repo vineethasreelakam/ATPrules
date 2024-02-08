@@ -45,7 +45,7 @@ export default function Rule21({ navigation }) {
             3) Complimentary use of rooms for the tournament week is to be available for players as
             follows (accommodations begin no later than Monday).{'\n\n'}
 
-            4) Main draw players who are no longer eligible for tournament-provided hotel
+            4) Main draw players who are no longer eligible for tournament provided hotel
             rooms shall receive the published tournament room rate if they extend their stay.{'\n\n'}
 
             5) Main draw and qualifying players who have withdrawn on-site for medical reasons and
@@ -253,7 +253,7 @@ export default function Rule21({ navigation }) {
             the Friday prior to the event. Players moving into the main draw after this deadline
             must confirm arrival day/date with the tournament as soon as possible.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>3) Doubles-Only Players.</HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>3) Doubles Only Players.</HighlightText>
             Tournaments shall provide hospitality from Sunday. Players that
             wish to start their hospitality later than Sunday must make such change
             by 3:00 PM local time on the Saturday before the tournament starts. Players that
@@ -287,7 +287,7 @@ export default function Rule21({ navigation }) {
             wish to receive a player rate at a tournament hotel must make a hotel reservation
             no later than five (5) days prior to the start of qualifying with either the hotel or the
             tournament, as specified on the tournament detail sheet. Reservation changes
-            can be made up to forty-eight (48) hours prior to the start of the reservation except
+            can be made up to forty eight (48) hours prior to the start of the reservation except
             that a player still competing in either singles or doubles in the prior week’s
             tournament must confirm reservations when his travel plans are finalized.
             {'\n\n'}
@@ -320,10 +320,10 @@ export default function Rule21({ navigation }) {
             hotel accommodations shall count toward the tournament’s minimum nights entitlement.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>4) Doubles Main Draw. </HighlightText>
-            For doubles-only players who stay in individual rooms,
+            For doubles only players who stay in individual rooms,
             complimentary hotel accommodations shall be available from Sunday through
-            the night of the player’s last match. A doubles-only player who shares a room with
-            another main draw doubles-only player shall have a minimum of six (6) nights,
+            the night of the player’s last match. A doubles only player who shares a room with
+            another main draw doubles only player shall have a minimum of six (6) nights,
             Sunday through Friday, or through the night of that player’s last match, whichever
             is later.{'\n\n'}
 
@@ -355,12 +355,12 @@ export default function Rule21({ navigation }) {
             complimentary hotel accommodations and confirm reservati
             through a platform designated by ATP, as specified on the ATP Challenger Tour
             tournament’s detail sheet, to players stating the hotel name, address, telephone
-            number, the check-in date and a notice that cancellations or changes can be
+            number, the check in date and a notice that cancellations or changes can be
             made up to two (2) days prior to the reservation’s start date.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>10) </HighlightText>
             The official hotel(s) shall be instructed to take a reasonable credit card guarantee
-            from players and/or support team members at the time of check-in for any incidentals or
+            from players and/or support team members at the time of check in for any incidentals or
             room nights not covered under the ATP Challenger Tour tournament’s
             obligation. ATP shall not be responsible for managing and/or covering any unpaid
             charges.{'\n\n'}
@@ -375,7 +375,7 @@ export default function Rule21({ navigation }) {
             through the platform designated by ATP, as specified on the tournament’s detail
             sheet.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>2) Doubles-Only Players Who Gain Acceptance In The Main Draw Through Advance Entry. </HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>2) Doubles Only Players Who Gain Acceptance In The Main Draw Through Advance Entry. </HighlightText>
             Each player must make their hotel room request no later than 11:59
             p.m. (23:59) local time at the tournament on five (5) days prior to the tournament’s
             start, through the platform designated by ATP, as specified on the tournament’s

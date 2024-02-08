@@ -35,7 +35,7 @@ export default function Rule76({ navigation }) {
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>ATP Masters 1000 Family Lounge.</HighlightText> ATP Masters 1000 tournaments shall provide (i)
                         complimentary snacks and drinks for players and two (2) PST members per player,
-                        and (ii) offer high-speed internet, high-quality coffee, snacks, drinks, juice, smoothie
+                        and (ii) offer high speed internet, high quality coffee, snacks, drinks, juice, smoothie
                         stations, TVs, and games.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>ATP 500 Family Lounge.</HighlightText> ATP 500 tournaments shall provide complimentary highspeed internet, high-quality coffee, snacks, drinks, juice, and smoothie stations.

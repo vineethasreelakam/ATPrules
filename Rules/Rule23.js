@@ -337,7 +337,7 @@ export default function Rule23({ navigation }) {
             set forth below. The preferred font is FS Industrie
             CD-Bold, however, tournaments may use the official logo or font of the host
             country, city or region; all versions other than the preferred font must receive
-            the prior approval of ATP. The on-court logo must be consistent with the texture and feel
+            the prior approval of ATP. The on court logo must be consistent with the texture and feel
             of the court surface so as not to affect play or be a safety hazard,
             as further described below.{'\n\n'}
 
@@ -398,7 +398,7 @@ export default function Rule23({ navigation }) {
             The ATP Tour Official Tournament Stamp may be used in the left and right
             corners of the backdrop, facing the main camera. If a tournament decides
             to do so, the ATP Tour Official Tournament Stamp must be placed in a
-            non-obstructed position, away from ball persons, scoreboards or corner
+            non obstructed position, away from ball persons, scoreboards or corner
             camera positions. The ATP Tour Official Tournament Stamp must be 40%
             of the height of the board, and placed in the top 60% of the board.{'\n\n'}
            

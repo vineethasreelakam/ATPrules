@@ -59,7 +59,7 @@ export default function Rule95({ navigation }) {
                         3) No player may continue playing in an ATP Tour or ATP Challenger Tour tournament in singles or doubles after giving notice of withdrawal from a tournament
                         scheduled in a future week on account of injury, illness or other medical reason.
                         Players, however, may continue playing in that event if the withdrawal from the
-                        future event was for non-medical reasons.
+                        future event was for non medical reasons.
                         {'\n\n'}
                         <HighlightText style={RuleStyles.SubHeading3}>4) ATP TOUR:</HighlightText> The exception to No Play after Withdrawal is the withdrawal of a
                         team accepted into the main draw of an ATP Tour tournament through the advance entry method due to one or both team members being accepted into the

@@ -44,7 +44,7 @@ export default function Rule3({ navigation }) {
              All matches, including finals, shall be the best of three (3) tie-break sets.{'\n\n'}
              <HighlightText style={RuleStyles.SubHeading3}>{'\t'}2. Doubles. </HighlightText>
             All matches, including finals, shall be two (2) tie-break sets with a deciding Match Tie-break (10 point) at one (1) set all. Games shall be decided using
-            the No-Ad scoring method.{'\n\n'}
+            the No Ad scoring method.{'\n\n'}
            
             <HighlightText style={RuleStyles.SubHeading2}>C.Monday Finals. </HighlightText>{'\n\n'}
             No ATP Tour or ATP Challenger Tour tournament shall extend its

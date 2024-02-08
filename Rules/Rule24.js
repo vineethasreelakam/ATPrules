@@ -60,7 +60,7 @@ export default function Rule24({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>e) Court Backdrops (“Exhibit A.17”)</HighlightText>{'\n\n'}
             The Brand Mark must be displayed in the left and right corners of the court
             backdrops (back fences or back walls), it must not be used smaller than 60cm
-            (23.625”) wide. Brand Marks must be placed in a non-obstructed position.{'\n\n'}
+            (23.625”) wide. Brand Marks must be placed in a non obstructed position.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>f) Advertising</HighlightText>{'\n\n'}
             The Brand Mark must be applied to any advertising where the tournament
@@ -79,7 +79,7 @@ export default function Rule24({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>Violations.</HighlightText>{'\n\n'}
             Violation of this section shall subject a tournament to a fine up to $10,000 for each
             violation. In cases that are flagrant and particularly injurious to the success of the
-            ATP Tour, the Senior Vice-President Rules & Competition may refer the matter to
+            ATP Tour, the Senior Vice President Rules & Competition may refer the matter to
             the ATP Challenger Committee for further action which could include additional
             fines and/or loss of sanction.{'\n\n'}
 
@@ -104,7 +104,7 @@ export default function Rule24({ navigation }) {
             placed on the surface of the court, except as follows:{'\n\n'}
 
             1) “Host Locality” (See 2.01 C. 3.b. and “Exhibit A.13.1 to A.13.2 “).{'\n\n'}
-            2) On-Court Surface Commercial Branding. ATP Challenger Tour tournaments are
+            2) On Court Surface Commercial Branding. ATP Challenger Tour tournaments are
             allowed* to place a commercial branding on the court surface. The size and
             placement must be approved three (3) months in advance by ATP. (See “Exhibit
             A.13.1 to A. 13.2 “){'\n\n'}

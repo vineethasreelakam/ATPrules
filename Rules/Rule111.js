@@ -256,7 +256,7 @@ export default function Rule111({ navigation }) {
                             Mixed Doubles.
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>2) Main Draw and Qualifying. </HighlightText>Other than in exceptional circumstances, no player
-                            shall be required to play his first-round match in the singles main draw until at
+                            shall be required to play his first round match in the singles main draw until at
                             least twelve (12) hours after the completion of his final qualifying match. The
                             following should also be considered:
                             {'\n\n'}

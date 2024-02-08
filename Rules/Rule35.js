@@ -18,7 +18,7 @@ export default function Rule35({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading1}>3.11 On-Site Prize Money Adjustment</HighlightText>{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>A. Exchange Rate Adjustment Rule</HighlightText>{'\n\n'}
-            There will be no prize money adjustment for tournaments in the U.S. and tournaments in ATP’s European Group, except for those in non-euro based countries. For
+            There will be no prize money adjustment for tournaments in the U.S. and tournaments in ATP’s European Group, except for those in non euro based countries. For
             all other tournaments, the on-site prize money will be increased or decreased from
             approved prize money levels when there are significant exchange rate changes between USD or EUR / local currency. The amount of the prize money adjustment shall
             be determined as follows:{'\n\n'}
@@ -32,13 +32,13 @@ export default function Rule35({ navigation }) {
             The calculations will apply to tournaments in the following year on the dates as
             follows:{'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>a) </HighlightText>
-            March 31 calculation-tournaments that begin from January 1 through March 31{'\n\n'}
+            March 31 calculation tournaments that begin from January 1 through March 31{'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>b) </HighlightText>
-            June 30 calculation-tournaments that begin from April 1 through June 30{'\n\n'}
+            June 30 calculation tournaments that begin from April 1 through June 30{'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>c) </HighlightText>
-            September 30 calculation-tournaments that begin from July 1 through September 30{'\n\n'}
+            September 30 calculation tournaments that begin from July 1 through September 30{'\n\n'}
             <HighlightText style={RuleStyles.SubHeading3}>d) </HighlightText>
-            December 31 calculation-tournaments that begin from October 1 through December 31{'\n\n'}
+            December 31 calculation tournaments that begin from October 1 through December 31{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>2) </HighlightText>
             Pepperstone ATP Rankings points will be based on approved prize money levels

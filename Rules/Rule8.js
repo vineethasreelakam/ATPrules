@@ -40,12 +40,12 @@ export default function Rule8({ navigation }) {
               participates in any ATP Tour or ATP Challenger Tour tournament
               consents and agrees with the following:{"\n\n"}
               1) To comply with and be bound by all of the provisions of the
-              2024 ATP Official Rulebook and ATP By-Laws (the “ATP Rules”),
+              2024 ATP Official Rulebook and ATP By Laws (the “ATP Rules”),
               including, but not limited to, all amendments to ATP Rules.
               {"\n\n"}
               2) The International Tennis Integrity Agency (“ITIA”) may conduct
-              anti-doping testing at ATP sanctioned events under the Tennis
-              Anti-Doping Programme (the “TADP”), the full text of which can be
+              anti doping testing at ATP sanctioned events under the Tennis
+              Anti Doping Programme (the “TADP”), the full text of which can be
               found at{' '} 
               <HighlightText
               style={RuleStyles.hyperlinkStyle}
@@ -56,17 +56,17 @@ export default function Rule8({ navigation }) {
               </HighlightText> ATP Tour, Inc. (“ATP”) will
               honor and enforce any penalties or sanctions against players
               resulting from the TADP. The TADP shall apply to and be binding
-              upon all players and shall govern all ATP-sanctioned events
+              upon all players and shall govern all ATP sanctioned events
               including ATP Challenger Tour events. Players shall submit to the
               jurisdiction and authority of the ITIA to manage, administer and
               enforce the TADP and to the jurisdiction and authority of the
-              Anti-Doping Tribunal and the Court of Arbitration for Sport to
+              Anti Doping Tribunal and the Court of Arbitration for Sport to
               determine any charges brought under the TADP. Players also consent
-              to the release to ATP of their Anti-Doping results obtained by the
+              to the release to ATP of their Anti Doping results obtained by the
               ITIA at ATP events, including missed tests and/or filing failures.
               {"\n\n"}
               3) To comply with and be bound by all of the provisions of the
-              2024 Tennis Anti-Corruption Program Rules, the full text of which
+              2024 Tennis Anti Corruption Program Rules, the full text of which
               can be found at: 
               <HighlightText
               style={RuleStyles.hyperlinkStyle}
@@ -75,7 +75,7 @@ export default function Rule8({ navigation }) {
               }}>
               https://www.itia.tennis/tacp/rules/
               </HighlightText> and Tennis
-              Anti-Doping Programme (the "TADP"), a copy of which is available
+              Anti Doping Programme (the "TADP"), a copy of which is available
               online at 
               <HighlightText
               style={RuleStyles.hyperlinkStyle}
@@ -99,7 +99,7 @@ export default function Rule8({ navigation }) {
               physical examination form as shown in “Exhibit Y - Mandatory
               Physical” to be eligible to enter and compete on the ATP Tour or
               ATP Challenger Tour.{"\n\n"}
-              a) A pre-competition medical examination is mandatory and must be
+              a) A pre competition medical examination is mandatory and must be
               submitted prior to a player participating in his first event of
               2024.{"\n\n"}
               b) Members competing in their first ATP Tour or ATP Challenger
@@ -155,7 +155,7 @@ export default function Rule8({ navigation }) {
               </HighlightText>
               {"\n\n"}A player is in good standing with ATP if he is in full
               compliance with all ATP Rules (including the Tennis
-              Anti-Corruption Program Rules and Tennis Anti-Doping Programme),
+              Anti Corruption Program Rules and Tennis Anti Doping Programme),
               is not suspended and has paid/complied with any debts and/or
               obligations to ATP(e.g., complete all Stars Program
               responsibilities, if applicable) or is otherwise confirmed to be
@@ -212,8 +212,9 @@ export default function Rule8({ navigation }) {
               1. Most ATP Tour 500 events played; followed by 2. Highest number
               of points earned from a single event, followed by 2nd highest and
               so on.{"\n\n"}
-              If players have the same points breakdowns: 3. The higher ranked
-              player as per the Year-End Pepperstone ATP Singles Rankings wins
+              If players have the same points breakdowns:{"\n\n"}
+              3. The higher ranked
+              player as per the Year End Pepperstone ATP Singles Rankings wins
               the tie.{"\n\n"}
               <HighlightText style={RuleStyles.SubHeading2}>
                 H. ATP Tour Masters 1000 & Nitto ATP Finals (“Finals”) Bonus
@@ -329,7 +330,7 @@ export default function Rule8({ navigation }) {
               by the 2nd highest and so on.{"\n\n"}
               If players have the same points breakdowns: {"\n\n"}
               <HighlightText style={RuleStyles.SubHeading3}>3. </HighlightText>
-              The higher-ranked player, as per the Year-End Pepperstone ATP
+              The higher ranked player, as per the Year End Pepperstone ATP
               Singles Rankings, wins the tie
               {"\n\n"}
             </HighlightText>
