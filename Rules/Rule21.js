@@ -393,7 +393,7 @@ export default function Rule21({ navigation }) {
             through the platform designated by ATP, as specified on the tournament’s detail
             sheet, unless provisions for players still competing hereinafter set forth apply.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>4) Doubles-Only Players Who Gain Acceptance In The Draw Through On-Site
+            <HighlightText style={RuleStyles.SubHeading3}>4) Doubles Only Players Who Gain Acceptance In The Draw Through On-Site
               Entry.</HighlightText>
             Players must make their hotel room request and notify the tournament by
             3:00 p.m. (15:00) local time on Saturday at the tournament, through the platform

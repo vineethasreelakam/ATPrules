@@ -312,11 +312,11 @@ export const AllPageIndexList = [
 	"            1) If any ATP Tour tournament singles final is not played, the tournament may elect" +
 	"            to replace it as follows:" +
 	"            a) Schedule a singles exhibition; or" +
-	"            b) Re-schedule the doubles final in its place; or" +
+	"            b) Re schedule the doubles final in its place; or" +
 	"            c) In the case where the doubles final has been completed or is in progress" +
 	"            when it is discovered that there will not be a singles final, the tournament may" +
 	"            elect to have the doubles finalists play a one (1) hour exhibition." +
-	"            2) The awards ceremony shall take place immediately following the singles or doubles exhibition or following the doubles final if it has been re-scheduled." +
+	"            2) The awards ceremony shall take place immediately following the singles or doubles exhibition or following the doubles final if it has been re scheduled." +
 	"            " +
 	"" +
 	"            C. Doubles." +
@@ -349,22 +349,22 @@ export const AllPageIndexList = [
 	"            referred to as “Pepperstone ATP Rankings”) or the Pepperstone ATP Doubles Rankings and/or commits to enter or participates in any ATP Tour or ATP Challenger Tour" +
 	"            tournament consents and agrees with the following:" +
 	"            1) To comply with and be bound by all of the provisions of the 2024 ATP Official" +
-	"            Rulebook and ATP By-Laws (the “ATP Rules”), including, but not limited to, all" +
+	"            Rulebook and ATP By Laws (the “ATP Rules”), including, but not limited to, all" +
 	"            amendments to ATP Rules." +
-	"            2) The International Tennis Integrity Agency (“ITIA”) may conduct anti-doping testing" +
-	"            at ATP sanctioned events under the Tennis Anti-Doping Programme (the “TADP”)," +
+	"            2) The International Tennis Integrity Agency (“ITIA”) may conduct anti doping testing" +
+	"            at ATP sanctioned events under the Tennis Anti Doping Programme (the “TADP”)," +
 	"            the full text of which can be found at https://www.itia.tennis/. ATP Tour, Inc. (“ATP”)" +
 	"            will honor and enforce any penalties or sanctions against players resulting from" +
 	"            the TADP. The TADP shall apply to and be binding upon all players and shall" +
-	"            govern all ATP-sanctioned events including ATP Challenger Tour events. Players" +
+	"            govern all ATP sanctioned events including ATP Challenger Tour events. Players" +
 	"            shall submit to the jurisdiction and authority of the ITIA to manage, administer and" +
-	"            enforce the TADP and to the jurisdiction and authority of the Anti-Doping Tribunal" +
+	"            enforce the TADP and to the jurisdiction and authority of the Anti Doping Tribunal" +
 	"            and the Court of Arbitration for Sport to determine any charges brought under" +
-	"            the TADP. Players also consent to the release to ATP of their Anti-Doping results" +
+	"            the TADP. Players also consent to the release to ATP of their Anti Doping results" +
 	"            obtained by the ITIA at ATP events, including missed tests and/or filing failures." +
-	"            3) To comply with and be bound by all of the provisions of the 2024 Tennis Anti-Corruption" +
+	"            3) To comply with and be bound by all of the provisions of the 2024 Tennis Anti Corruption" +
 	"			 Program Rules, the full text of which can be found at: https://www.itia." +
-	"			 tennis/tacp/rules/ and Tennis Anti-Doping Programme (the "+"TADP"+"), a copy of" +
+	"			 tennis/tacp/rules/ and Tennis Anti Doping Programme (the "+"TADP"+"), a copy of" +
 	"			 which is available online at https://www.itia.tennis/tadp/rules/." +
 	"            4) To review and agree to the terms and conditions contained in the Notice of" +
 	"            Privacy Practices set forth in “Exhibit P - Privacy Notice (“HIPAA”)." +
@@ -377,7 +377,7 @@ export const AllPageIndexList = [
 	"            7) All Members must, every two (2) years, submit an authorized physical examination" +
 	"			 form as shown in “Exhibit Y - Mandatory Physical” to be eligible to enter and" +
 	"			 compete on the ATP Tour or ATP Challenger Tour." +
-	"            a) A pre-competition medical examination is mandatory and must be submitted" +
+	"            a) A pre competition medical examination is mandatory and must be submitted" +
 	"            prior to a player participating in his first event of 2024." +
 	"            b) Members competing in their first ATP Tour or ATP Challenger Tour event after" +
 	"            1 January 2024 shall have thirty (30) days after the Member’s first match" +
@@ -418,7 +418,7 @@ export const AllPageIndexList = [
 	"            Players are in good standing with ATP if:" +
 	"			 " +
 	"            A player is in good standing with ATP if he is in full compliance with all ATP Rules" +
-	"			 (including the Tennis Anti-Corruption Program Rules and Tennis Anti-Doping Programme), " +
+	"			 (including the Tennis Anti Corruption Program Rules and Tennis Anti Doping Programme), " +
 	"			 is not suspended and has paid/complied with any debts and/or obligations" +
 	"			 to ATP (e.g., complete all Stars Program responsibilities, if applicable) or is otherwise" +
 	"			 confirmed to be in good standing by the ATP Chief Executive Officer (CEO)." +
@@ -455,7 +455,7 @@ export const AllPageIndexList = [
 	"			 and so on."+
 	"			 If players have the same points breakdowns:"+
 	"			 " +
-	"			 3. The higher ranked player as per the Year-End Pepperstone ATP Singles"+
+	"			 3. The higher ranked player as per the Year End Pepperstone ATP Singles"+
 	"			 Rankings wins the tie."+
 	""+
 	"            H. ATP Tour Masters 1000 & Nitto ATP Finals" +
@@ -534,10 +534,9 @@ export const AllPageIndexList = [
 	"			 highest and so on."+
 	"			 "+
 	"			 If players have the same points breakdowns:"+
-	"			 3. The higher-ranked player, as per the Year-End Pepperstone ATP Singles"+
+	"			 3. The higher ranked player, as per the Year End Pepperstone ATP Singles"+
 	"			 Rankings, wins the tie."},
-    { id: 9, indexId: '', name: '1.08 Unsatisfied Player Commitment Penalties', pageName: 'Rule9' , comp:Rule9, searchindex:''},
-    { id: 10, indexId: '', name: '1.09 Mandatory Player Meeting', pageName: 'Rule10' , comp:Rule10, searchindex:"1.08 Unsatisfied Player Commitment Penalties" +
+    { id: 9, indexId: '', name: '1.08 Unsatisfied Player Commitment Penalties', pageName: 'Rule9' , comp:Rule9, searchindex:"1.08 Unsatisfied Player Commitment Penalties" +
 	"" +
 	"            <Text style={RuleStyles.SubHeading2}>A.Failure To Participate in the Nitto ATP Finals" +
 	"            " +
@@ -546,31 +545,39 @@ export const AllPageIndexList = [
 	"            fide injury or other reason which constitutes good cause, the player shall not be in" +
 	"            good standing." +
 	"            2) All direct acceptances and the alternate must appear at the site of the event(s)" +
-	"            as determined by ATP and participate in the pre-tournament media conference." +
+	"            as determined by ATP and participate in the pre tournament media conference." +
 	"            Failure to appear shall result in a penalty of five percent (5%) of total ATP prize" +
 	"            money earned during the ATP Tour circuit year." +
 	"" +
 	"            <Text style={RuleStyles.SubHeading2}>B.Review of Penalties for Breach of Commitment" +
 	"            Any player found to have committed a player commitment offense may petition the" +
 	"            Appeals Tribunal for discretionary review. This written petition shall detail the basis" +
-	"            for the appeal. The tribunal shall review the petition within twenty-one (21) days and," +
+	"            for the appeal. The tribunal shall review the petition within twenty one (21) days and," +
 	"            if necessary, designate a date, time and place for a hearing. At the hearing, the player" +
 	"            shall present to the tribunal his respective positions on the facts. The tribunal may" +
 	"            affirm, reverse or modify the penalty initially imposed by ATP"},
+    { id: 10, indexId: '', name: '1.09 Mandatory Player Meeting', pageName: 'Rule10' , comp:Rule10, searchindex:"1.09 Mandatory Player Meeting" +
+	"" +
+	"			Mandatory player meetings may be scheduled throughout the year as" +
+	"			determined and announced in advance by ATP. These meetings are" +
+	"			limited to and mandatory for all main draw singles and doubles" +
+	"			players. Player members not entered will be sent the minutes."+
+	"" +
+	"			The penalty for non attendance is the following:"},
     { id: 11, indexId: '', name: '1.10 Player Eligibility/Player University/Physical Exam', pageName: 'Rule11' , comp:Rule11, searchindex:"1.10 Player Eligibility/Player University/Physical " +
 	"            Exam" +
 	"" +
 	"            A.Pursuant to ATP Bylaws, a player shall be entitled to become an active ATP player" +
 	"            member as follows:" +
 	"            1) Group 1 player membership in ATP shall be open to any individual who: (i) as of" +
-	"			 the 2023 official year-end Pepperstone ATP Rankings or at any point during 2024" +
+	"			 the 2023 official year end Pepperstone ATP Rankings or at any point during 2024" +
 	"			 (in each case, including pursuant to protected ranking) shall be positioned among" +
 	"			 the top 250 players in the Pepperstone ATP Singles Rankings or among the top" +
 	"			 50 players in the Pepperstone ATP Doubles Rankings, (ii) pays ATP dues and (iii)" +
 	"			 satisfies criteria established from ATP from time to time." +
 	"			 2) Group 2 player membership in ATP shall be open to any individual who does not" +
 	"			 qualify for Group 1 membership and who shall had at least one (1) ranking point" +
-	"			 as of the 2023 official year-end Pepperstone ATP Rankings or at any point during" +
+	"			 as of the 2023 official year end Pepperstone ATP Rankings or at any point during" +
 	"			 2024, (ii) pays ATP dues and (iii) satisfies criteria established from ATP from time" +
 	"			 to time."+
 	"" +
@@ -740,7 +747,7 @@ export const AllPageIndexList = [
 	"" +
 	"            Case: May a player, who is not a Commitment Player after losing," +
 	"            retiring or withdrawing from the qualifying, play in a special event" +
-	"            held the following week-end?" +
+	"            held the following week end?" +
 	"" +
 	"            Decision: Yes. However, the player must still ask for and receive" +
 	"            a release from the Supervisor prior to participating in such special" +
@@ -769,7 +776,7 @@ export const AllPageIndexList = [
     { id: 18, indexId: '', name: '1.17 Non-Exclusive Media Highlight Rights', pageName: 'Rule18' , comp:Rule18 , searchindex:"1.17 Non-Exclusive Media Highlight Rights." +
 	"            Each ATP Tour tournament shall each year promptly (within two business days) provide" +
 	"            to ATP without charge existing footage of the tournament as ATP may request." +
-	"            Each ATP tournament hereby grants to ATP the non-exclusive right to broadcast, or" +
+	"            Each ATP tournament hereby grants to ATP the non exclusive right to broadcast, or" +
 	"            permit to be broadcast, by any means, whether presently existing or hereafter created," +
 	"            in perpetuity worldwide, a total each year of (i) fifteen (15) minutes of footage for" +
 	"            ATP Highlight Show or any other programs, produced by or for ATP, which are primarily intended" +
@@ -826,7 +833,7 @@ export const AllPageIndexList = [
 	"            3) Complimentary use of rooms for the tournament week is to be available for players as" +
 	"            follows (accommodations begin no later than Monday)." +
 	"" +
-	"            4) Main draw players who are no longer eligible for tournament-provided hotel" +
+	"            4) Main draw players who are no longer eligible for tournament provided hotel" +
 	"            rooms shall receive the published tournament room rate if they extend their stay." +
 	"" +
 	"            5) Main draw and qualifying players who have withdrawn on-site for medical reasons and" +
@@ -1023,7 +1030,7 @@ export const AllPageIndexList = [
 	"            the Friday prior to the event. Players moving into the main draw after this deadline" +
 	"            must confirm arrival day/date with the tournament as soon as possible." +
 	"" +
-	"            3) Doubles-Only Players." +
+	"            3) Doubles Only Players." +
 	"            Tournaments shall provide hospitality from Sunday. Players that" +
 	"            wish to start their hospitality later than Sunday must make such change" +
 	"            by 3:00 PM local time on the Saturday before the tournament starts. Players that" +
@@ -1057,7 +1064,7 @@ export const AllPageIndexList = [
 	"            wish to receive a player rate at a tournament hotel must make a hotel reservation" +
 	"            no later than five (5) days prior to the start of qualifying with either the hotel or the" +
 	"            tournament, as specified on the tournament detail sheet. Reservation changes" +
-	"            can be made up to forty-eight (48) hours prior to the start of the reservation except" +
+	"            can be made up to forty eight (48) hours prior to the start of the reservation except" +
 	"            that a player still competing in either singles or doubles in the prior week’s" +
 	"            tournament must confirm reservations when his travel plans are finalized." +
 	"            " +
@@ -1090,10 +1097,10 @@ export const AllPageIndexList = [
 	"            hotel accommodations shall count toward the tournament’s minimum nights entitlement." +
 	"" +
 	"            4) Doubles Main Draw. " +
-	"            For doubles-only players who stay in individual rooms," +
+	"            For doubles only players who stay in individual rooms," +
 	"            complimentary hotel accommodations shall be available from Sunday through" +
-	"            the night of the player’s last match. A doubles-only player who shares a room with" +
-	"            another main draw doubles-only player shall have a minimum of six (6) nights," +
+	"            the night of the player’s last match. A doubles only player who shares a room with" +
+	"            another main draw doubles only player shall have a minimum of six (6) nights," +
 	"            Sunday through Friday, or through the night of that player’s last match, whichever" +
 	"            is later." +
 	"" +
@@ -1125,12 +1132,12 @@ export const AllPageIndexList = [
 	"            complimentary hotel accommodations and confirm reservati" +
 	"            through a platform designated by ATP, as specified on the ATP Challenger Tour" +
 	"            tournament’s detail sheet, to players stating the hotel name, address, telephone" +
-	"            number, the check-in date and a notice that cancellations or changes can be" +
+	"            number, the check in date and a notice that cancellations or changes can be" +
 	"            made up to two (2) days prior to the reservation’s start date." +
 	"" +
 	"            " +
-	"            The official hotel(s) shall be instructed to take a reasonable credit card guarantee" +
-	"            from players and/or support team members at the time of check-in for any incidentals or" +
+	"            10) The official hotel(s) shall be instructed to take a reasonable credit card guarantee" +
+	"            from players and/or support team members at the time of check in for any incidentals or" +
 	"            room nights not covered under the ATP Challenger Tour tournament’s" +
 	"            obligation. ATP shall not be responsible for managing and/or covering any unpaid" +
 	"            charges." +
@@ -1145,7 +1152,7 @@ export const AllPageIndexList = [
 	"            through the platform designated by ATP, as specified on the tournament’s detail" +
 	"            sheet." +
 	"" +
-	"            2) Doubles-Only Players Who Gain Acceptance In The Main Draw Through Advance Entry. " +
+	"            2) Doubles Only Players Who Gain Acceptance In The Main Draw Through Advance Entry. " +
 	"            Each player must make their hotel room request no later than 11:59" +
 	"            p.m. (23:59) local time at the tournament on five (5) days prior to the tournament’s" +
 	"            start, through the platform designated by ATP, as specified on the tournament’s" +
@@ -1163,7 +1170,7 @@ export const AllPageIndexList = [
 	"            through the platform designated by ATP, as specified on the tournament’s detail" +
 	"            sheet, unless provisions for players still competing hereinafter set forth apply." +
 	"" +
-	"            4) Doubles-Only Players Who Gain Acceptance In The Draw Through On-Site" +
+	"            4) Doubles Only Players Who Gain Acceptance In The Draw Through On-Site" +
 	"              Entry." +
 	"            Players must make their hotel room request and notify the tournament by" +
 	"            3:00 p.m. (15:00) local time on Saturday at the tournament, through the platform" +
@@ -1263,7 +1270,7 @@ export const AllPageIndexList = [
 	"			ATP recognizes and values the significance of offering its loyal"+
 	"			and dedicated Members various additional benefits. These advantages are meant"+
 	"			to recognize their contributions to serving ATP's fans and stakeholders and to the"+
-	"			overall well-being, goodwill and success of the ATP Tour."+
+	"			overall well being, goodwill and success of the ATP Tour."+
 	"" +
 	"           These benefits, defined as ”Platinum Benefits," +"encompass a range of offerings," +
 	"			which include retirement programs, bonus programs, financial security plans (including," +
@@ -1277,12 +1284,12 @@ export const AllPageIndexList = [
 	"			does not have any relationship or affiliation with any business, corporation, company,"+
 	"			partnership, association, organization, person, or entity that is not in the best interests"+
 	"			of ATP or the sport of tennis and 3) does not participate in 1 or more Qualified"+
-	"			Non-Covered Events (as defined below)."+
+	"			Non Covered Events (as defined below)."+
 	"" +
 	"			D. Criteria for Reinstating Eligibility."+
 	"			In the event a player fails to meet the criteria set"+
 	"			forth above, while being in the ranking range eligible for Group 1 membership pursuant"+
-	"			ATP By-Laws, for any of the Platinum Benefits provided by ATP due to Rule"+
+	"			ATP By Laws, for any of the Platinum Benefits provided by ATP due to Rule"+
 	"			1.21.C.2 or Rule 1.21.C.3, he must successfully satisfy each of the elements for the"+
 	"			2 calendar years following such failure in order to reestablish his eligibility."+
 	""+
@@ -1296,17 +1303,17 @@ export const AllPageIndexList = [
 	"			For purposes of this Section 1.21, the following definitions shall apply:"+
 	"           {'\\n\\n'}" +
 	"			1)"+
-	"			“Qualified Non-Covered Event” is an event that includes a Top 100 Pepperstone"+
+	"			“Qualified Non Covered Event” is an event that includes a Top 100 Pepperstone"+
 	"			ATP Singles Ranked player and meets one of the following criteria:"+
 	"" +
 	"			a."+
-	"			Its duration is 3 or more consecutive days within a 7-day period."+
+	"			Its duration is 3 or more consecutive days within a 7 day period."+
 	"" +
 	"			b."+
 	"			Events operated by a single person or group of affiliated persons that contain"+
 	"			in the aggregate 11 or more days within a calendar year. Solely with respect"+
 	"			to 1.21.F.1.b, the events that occur before the 11th day shall not be deemed"+
-	"			a Qualified Non-Covered Event."+
+	"			a Qualified Non Covered Event."+
 	"" +
 	"			c."+
 	"			Individual events when announced are part of a schedule or series of schedules"+
@@ -1318,15 +1325,15 @@ export const AllPageIndexList = [
 	"			entry, ranking system, or any other similar means."+
 	"			{'\\n\\n'}"+
 	"" +
-	"			Notwithstanding the foregoing, a Non-Covered Event shall not be deemed a Qualified"+
-	"			Non-Covered Event. In addition, events that took place in 2023 shall not be"+
-	"			deemed a Qualified Non-Covered Event until December 31, 2026 provided that such"+
+	"			Notwithstanding the foregoing, a Non Covered Event shall not be deemed a Qualified"+
+	"			Non Covered Event. In addition, events that took place in 2023 shall not be"+
+	"			deemed a Qualified Non Covered Event until December 31, 2026 provided that such"+
 	"			events remain at or below their existing 2023 format (factors for determining format"+
 	"			include but not limited to event duration, number of participating players, and competition"+
 	"			structure)."+
 	"" +
 	"			2)"+
-	"			“Non-Covered Events” are those events other than Grand Slams, ATP Tour tournaments,"+
+	"			“Non Covered Events” are those events other than Grand Slams, ATP Tour tournaments,"+
 	"			ATP Challenger Tour tournaments, Laver Cup, Davis Cup, Olympic"+
 	"			Games, ITF World Tennis Tour and existing regional league events at or below"+
 	"			their existing format (factors for determining format include but not limited to event"+
@@ -1659,7 +1666,7 @@ export const AllPageIndexList = [
 	"            set forth below. The preferred font is FS Industrie" +
 	"            CD-Bold, however, tournaments may use the official logo or font of the host" +
 	"            country, city or region; all versions other than the preferred font must receive" +
-	"            the prior approval of ATP. The on-court logo must be consistent with the texture and feel" +
+	"            the prior approval of ATP. The on court logo must be consistent with the texture and feel" +
 	"            of the court surface so as not to affect play or be a safety hazard," +
 	"            as further described below.{'\\n\\n'}" +
 	"" +
@@ -1786,7 +1793,7 @@ export const AllPageIndexList = [
 	"            e) Court Backdrops (“Exhibit A.17”){'\\n\\n'}" +
 	"            The Brand Mark must be displayed in the left and right corners of the court" +
 	"            backdrops (back fences or back walls), it must not be used smaller than 60cm" +
-	"            (23.625”) wide. Brand Marks must be placed in a non-obstructed position.{'\\n\\n'}" +
+	"            (23.625”) wide. Brand Marks must be placed in a non obstructed position.{'\\n\\n'}" +
 	"" +
 	"            f) Advertising{'\\n\\n'}" +
 	"            The Brand Mark must be applied to any advertising where the tournament" +
@@ -1805,7 +1812,7 @@ export const AllPageIndexList = [
 	"            Violations.{'\\n\\n'}" +
 	"            Violation of this section shall subject a tournament to a fine up to $10,000 for each" +
 	"            violation. In cases that are flagrant and particularly injurious to the success of the" +
-	"            ATP Tour, the Senior Vice-President Rules & Competition may refer the matter to" +
+	"            ATP Tour, the Senior Vice President Rules & Competition may refer the matter to" +
 	"            the ATP Challenger Committee for further action which could include additional" +
 	"            fines and/or loss of sanction.{'\\n\\n'}" +
 	"" +
@@ -1815,7 +1822,7 @@ export const AllPageIndexList = [
 	"            event by applying the Brand Mark in the following optional applications:{'\\n\\n'}" +
 	"" +
 	"            a) Merchandise{'\\n\\n'}" +
-	"            The Brand Mark may be used on tournament t-shirts and sweatshirts (not collared shirts)." +
+	"            The Brand Mark may be used on tournament tshirts and sweatshirts (not collared shirts)." +
 	"            The Brand Mark must not exceed 100mm (3.937”) wide. Written" +
 	"            approval is required from ATP if producing these items yourself. No approval" +
 	"            is required if merchandise is obtained from an approved ATP licensee.{'\\n\\n'}" +
@@ -1924,7 +1931,7 @@ export const AllPageIndexList = [
 	"            {'\\t\\t'}Reference: Tournament Name & Invoice Number{'\\n\\n'}" +
 	"" +
 	"            B. " +
-	"            Any amounts (e.g. player fines, non-member service fees, air-tickets) collected or" +
+	"            Any amounts (e.g. player fines, non member service fees, air tickets) collected or" +
 	"            owed by the tournament to ATP must be remitted to ATP."},
     { id: 31, indexId: '', name: '3.06 Insurance', pageName: 'Rule31' , comp:Rule31 , searchindex:"3.06 Insurance{'\\n\\n'}" +
 	"" +
@@ -1950,7 +1957,7 @@ export const AllPageIndexList = [
 	"" +
 	"            5) " +
 	"            The liability insurance shall include bodily injury and property damage liability," +
-	"            personal injury, participant legal liability, hired and non-owned auto and contractual " +
+	"            personal injury, participant legal liability, hired and non owned auto and contractual " +
 	"            liability coverage.{'\\n\\n'}" +
 	"" +
 	"            6) " +
@@ -1967,10 +1974,10 @@ export const AllPageIndexList = [
 	"            B." +
 	"            Each ATP Tour and ATP Challenger Tour tournament is responsible for determining" +
 	"            whether applicable worker’s compensation statutes apply to injuries sustained by" +
-	"            volunteers, sub-contractors, on-court officials or ball persons. In the absence of a" +
+	"            volunteers, sub contractors, on court officials or ball persons. In the absence of a" +
 	"            worker’s compensation coverage requirement, it is recommended that the tournament purchase " +
 	"            excess medical insurance for the event to provide medical payments" +
-	"            coverage to injured volunteers, on-court officials or ball persons involved in the event.{'\\n\\n'}" +
+	"            coverage to injured volunteers, on court officials or ball persons involved in the event.{'\\n\\n'}" +
 	"" +
 	"            C." +
 	"            All such insurance shall provide, not less than thirty (30) days, prior written notice to" +
@@ -2065,7 +2072,7 @@ export const AllPageIndexList = [
 	"" +
 	"            3) " +
 	"            Prize money shall be paid only for matches played. If a final cannot be played," +
-	"            then each finalist shall be paid runner-up prize money. For purposes of this section, a" +
+	"            then each finalist shall be paid runner up prize money. For purposes of this section, a" +
 	"            match is played when it is won as a result of a retirement, default, walkover" +
 	"            or no show. (See “Exhibit K - Glossary” )" +
 	"            {'\\n\\n'}" +
@@ -2083,7 +2090,7 @@ export const AllPageIndexList = [
 	"            declared unfit to compete by the tournament doctor.{'\\n\\n'}" +
 	"" +
 	"            ii) " +
-	"            Each player is limited to two (2) tournaments*, non-consecutive, in a calendar year" +
+	"            Each player is limited to two (2) tournaments*, non consecutive, in a calendar year" +
 	"            where he may receive prize money for the on-site withdrawal.{'\\n\\n'}" +
 	"" +
 	"            * " +
@@ -2148,7 +2155,7 @@ export const AllPageIndexList = [
 	"            another ATP Challenger Tour or ATP Tour tournament?{'\\n\\n'}" +
 	"            Decision: " +
 	"            No. Once the player has withdrawn on site and received" +
-	"            prize money at any two, non-consecutive ATP Tour or ATP Challenger Tour tournaments," +
+	"            prize money at any two, non consecutive ATP Tour or ATP Challenger Tour tournaments," +
 	"            he has used his 2 tournament limit for the" +
 	"            year and is not eligible to receive prize money for any future on-site" +
 	"            withdrawal at an ATP Tour or ATP Challenger Tour tournament in" +
@@ -2335,7 +2342,7 @@ export const AllPageIndexList = [
 	"            only after they have returned to competition and competed in their first event.{'\\n\\n'}" +
 	"" +
 	"            f) " +
-	"            Each player is limited to two (2) tournaments*, non-consecutive, in a calendar" +
+	"            Each player is limited to two (2) tournaments*, non consecutive, in a calendar" +
 	"            year where he may receive prize money for doubles on-site withdrawal.{'\\n\\n'}" +
 	"            *There are no limits to the number of events a player may receive prize money for the" +
 	"            on-site withdrawal due to Covid-19 reasons as long as the events" +
@@ -2462,13 +2469,13 @@ export const AllPageIndexList = [
 	"            The calculations will apply to tournaments in the following year on the dates as" +
 	"            follows:{'\\n\\n'}" +
 	"            a) " +
-	"            March 31 calculation-tournaments that begin from January 1 through March 31{'\\n\\n'}" +
+	"            March 31 calculation tournaments that begin from January 1 through March 31{'\\n\\n'}" +
 	"            b) " +
-	"            June 30 calculation-tournaments that begin from April 1 through June 30{'\\n\\n'}" +
+	"            June 30 calculation tournaments that begin from April 1 through June 30{'\\n\\n'}" +
 	"            c) " +
-	"            September 30 calculation-tournaments that begin from July 1 through September 30{'\\n\\n'}" +
+	"            September 30 calculation tournaments that begin from July 1 through September 30{'\\n\\n'}" +
 	"            d) " +
-	"            December 31 calculation-tournaments that begin from October 1 through December 31{'\\n\\n'}" +
+	"            December 31 calculation tournaments that begin from October 1 through December 31{'\\n\\n'}" +
 	"" +
 	"            2) " +
 	"            Pepperstone ATP Rankings points will be based on approved prize money levels" +
@@ -2496,7 +2503,7 @@ export const AllPageIndexList = [
 	"" +
 	"           A." +
 	"            Each ATP Tour and ATP Challenger Tour tournament shall withhold from prize money" +
-	"            only a player’s applicable income tax deduction, non-member service fee, fines, advances " +
+	"            only a player’s applicable income tax deduction, non member service fee, fines, advances " +
 	"            and other ATP designated expenses.{'\\n\\n'}" +
 	"" +
 	"           B." +
@@ -2512,19 +2519,19 @@ export const AllPageIndexList = [
     { id: 39, indexId: '', name: '3.15 Prizes and Non-Cash Awards', pageName: 'Rule39' , comp:Rule39 , searchindex:"3.15 Prizes and Non-Cash Awards{'\\n\\n'}" +
 	"" +
 	"            A." +
-	"            In addition to on-site prize money, each ATP Tour tournament may give to each singles and doubles winner during the on-site awards presentation one (1) non-cash" +
-	"            award or prize plus a trophy. Non-cash awards or prizes valued over $5,000 must be" +
+	"            In addition to on-site prize money, each ATP Tour tournament may give to each singles and doubles winner during the on-site awards presentation one (1) non cash" +
+	"            award or prize plus a trophy. Non cash awards or prizes valued over $5,000 must be" +
 	"            approved by the ATP CEO no later than forty-two (42) days prior to the tournament" +
 	"            and can be offered for results in that tournament only.{'\\n\\n'}" +
 	"" +
 	"            B." +
-	"            All non-cash awards or prizes must be the product of, or service provided by, a principal " +
+	"            All non cash awards or prizes must be the product of, or service provided by, a principal " +
 	"            tournament sponsor.{'\\n\\n'}" +
 	"" +
 	"            C." +
-	"            Pre-existing tournament sponsorship agreements made before 1993 for non-cash" +
+	"            Pre-existing tournament sponsorship agreements made before 1993 for non cash" +
 	"            awards or prizes are exempt until the expiration of such agreements. The tournament" +
-	"            must notify the appropriate ATP Regional Office of such non-cash awards or prizes" +
+	"            must notify the appropriate ATP Regional Office of such non cash awards or prizes" +
 	"            forty-two (42) days prior to the tournament.{'\\n\\n'}" +
 	"" +
 	"            D." +
@@ -2599,7 +2606,7 @@ export const AllPageIndexList = [
 	"            “M1000 Independent Member” " +
 	"            means the independent member of the M1000 PM" +
 	"			 Committee appointed by the ATP Board of Directors by the aﬃrmative vote of a super" +
-	"			 majority vote of the Board to serve on the M1000 PM Committee for a 3-year term." +
+	"			 majority vote of the Board to serve on the M1000 PM Committee for a 3 year term." +
 	"			 The Independent Member will serve as Chair of M1000 PM Committee. The Independent" +
 	"			 Member is subject to removal at any time by the ATP Board of Directors by the" +
 	"			 aﬃrmative vote of a super majority vote of the Board.{'\\n\\n'}" +
@@ -2697,7 +2704,7 @@ export const AllPageIndexList = [
 	"            D." +
 	"            Each Masters 1000 tournament member is required to provide a complete and accurate"+
 	"			 M1000 Submission annually to the M1000 PM Committee Auditor no later"+
-	"			 than 120 days following the conclusion of tournament’s fiscal year-end. Each M1000"+
+	"			 than 120 days following the conclusion of tournament’s fiscal year end. Each M1000"+
 	"			 Submission must be certified by the applicable tournament member as complete and"+
 	"			 accurate and in compliance with this rule in all material respects.{'\\n\\n'}" +
 	"  " +
@@ -2972,7 +2979,7 @@ export const AllPageIndexList = [
 	"			 Submission annually to the 500 PM Committee Auditor no later than 120 days following" +
 	"			 the conclusion of its tournament for such year. Independently audited financial" +
 	"			 information is to be provided no later than 120 days following the conclusion of tournament’s" +
-	"			 fiscal year-end. Each 500 Submission must be certified by the applicable" +
+	"			 fiscal year end. Each 500 Submission must be certified by the applicable" +
 	"		 	 tournament member as complete and accurate and in compliance with this rule in all" +
 	"			 material respects.{'\\n\\n'}" +
 	"" +
@@ -3149,7 +3156,7 @@ export const AllPageIndexList = [
 	"			 250 PM Committee Auditor or 250 Player Auditor from making any such disclosure.{'\\n\\n'}" +
 	"" +
 	"            E. " +
-	"            Each year, the 250 PM Committee Auditor will perform an agreed upon desk-based" +
+	"            Each year, the 250 PM Committee Auditor will perform an agreed upon desk based" +
 	"			 procedures audit (as directed by the 250 PM Committee) of each tournament’s Gross" +
 	"			 Revenues included in the 250 Submission and report to the 250 PM Committee any" +
 	"			 issues that it may identify as a result of these procedures for which the 250 PM " +
@@ -3271,7 +3278,7 @@ export const AllPageIndexList = [
 	"			with a 50/50 prize money formula similar to the Masters 1000’s Prize Money Formula Rule."+
 	"			In the event this category is materially changed during this period, the 500 PM"+
 	"			Committee will determine what effect such material changes have on applying this"+
-	"			rule for the remainder of the term. The formula will be based on a 2-year Average"+
+	"			rule for the remainder of the term. The formula will be based on a 2 year Average"+
 	"			Growth Percentage (“AGP”) in Defined Revenues (“DR”) for all tournaments in the"+
 	"			category. The 500 PM Committee Auditor will calculate AGP and submit such calculations"+
 	"			to the 500 PM Committee for review and approval. Such AGP will be applied to current"+
@@ -3296,14 +3303,14 @@ export const AllPageIndexList = [
 	"			Committee (as defined in the 500 Audit Rule)."+
 	""+
 	"			Average Growth Percentage (“AGP”) - "+
-	"			AGP is the 2-year average growth in the"+
+	"			AGP is the 2 year average growth in the"+
 	"			most recent actual years DR as reported to and calculated by the 500 PM Committee"+
-	"			Auditor. The annual period for purposes of AGP will be the 12-month periods ending"+
+	"			Auditor. The annual period for purposes of AGP will be the 12 month periods ending"+
 	"			in April each year immediately following the Barcelona tournament."+
 	""+
 	"            Defined Revenues (“DR”) - " +
 	"            Defined revenues are the basis for the AGP calculations" +
-	"            and include the following four broad revenue categories as long as the 2-year average " +
+	"            and include the following four broad revenue categories as long as the 2 year average " +
 	"            of these revenues exceed 92% of average gross revenues as reported to the 500 PM" +
 	"           Committee Auditor:{'\\n\\n'}" +
 	"           {'\\t'}1. Sponsorships{'\\n\\n'}" +
@@ -3332,7 +3339,7 @@ export const AllPageIndexList = [
 	"            over the person/company, either via ownership, via agreement, or via power to" +
 	"            manage/govern/influence the person/company’s finances and/or operations." +
 	"            {'\\n\\n'}" +
-	"            If two-year average DR are less than 92% of average gross revenues, the next largest revenue" +
+	"            If two year average DR are less than 92% of average gross revenues, the next largest revenue" +
 	"             category as determined by the 500 Committee Auditor and approved by the 500" +
 	"            Committee will be added to DR so that the 92% minimum is achieved." +
 	"            {'\\n\\n'}" +
@@ -3348,7 +3355,7 @@ export const AllPageIndexList = [
 	"            ● A 70% factor will be applied to combined tournaments revenues which are" +
 	"            not directly men or women tournament revenues.{'\\n\\n'}" +
 	"            ● Exchange rates to USD for formula calculation purposes and for equal" +
-	"            prize money allocation among tournaments will be based on a 2-year average exchange rate.{'\\n\\n'}" +
+	"            prize money allocation among tournaments will be based on a 2 year average exchange rate.{'\\n\\n'}" +
 	"            ● Complimentary tickets where no value is received will not be included in" +
 	"            revenues. Complimentary tickets provided to Related Parties will be valued and included in DR.{'\\n\\n'}" +
 	"            ● Taxes and fees required to be paid on tickets sales will be excluded from" +
@@ -3384,7 +3391,7 @@ export const AllPageIndexList = [
 	"            The tournament shall be a singles round robin format with eight (8) players. There" +
 	"            shall be two (2) groups of four (4) players each with eight (8) seeds to be determined" +
 	"            by the Pepperstone ATP Rankings on the Monday after the last ATP Tour tournament" +
-	"            of the calendar year. All matches shall be the best of three (3) tie-break sets, including the final. The round robin shall determine the four (4) players for the semifinals" +
+	"            of the calendar year. All matches shall be the best of three (3) tie break sets, including the final. The round robin shall determine the four (4) players for the semifinals" +
 	"            with the format thereafter being a single elimination competition.{'\\n\\n'}" +
 	"" +
 	"            B.Entries" +
@@ -3403,17 +3410,17 @@ export const AllPageIndexList = [
 	"            <2) Direct Acceptances. The top eight (8) players in the selection list shall qualify" +
 	"            for the event as direct acceptances. Participation is mandatory, and all qualified" +
 	"            players shall be entered. All direct acceptances must be at the tournament site" +
-	"            to attend the official pre-tournament media conference and must be available for" +
+	"            to attend the official pre tournament media conference and must be available for" +
 	"            play through the completion of the round robin competition and the knock-out" +
 	"            competition if eligible." +
 	"            {'\\n\\n'}" +
-	"            <3) Withdrawal. Any withdrawal, before the official pre-tournament media conference starts, shall be replaced by the next highest positioned player on the selection list, who shall be qualified as a direct acceptance." +
+	"            <3) Withdrawal. Any withdrawal, before the official pre tournament media conference starts, shall be replaced by the next highest positioned player on the selection list, who shall be qualified as a direct acceptance." +
 	"            {'\\n\\n'}" +
 	"            <4) Alternate(s). " +
 	"            {'\\n\\n'}" +
 	"            a) The next highest positioned player on the selection list (who is not a direct" +
-	"            acceptance at the time of the official pre-tournament media conference) shall" +
-	"            be designated as the alternate and shall replace any player who subsequently withdraws. The alternate must appear at the official pre-tournament media" +
+	"            acceptance at the time of the official pre tournament media conference) shall" +
+	"            be designated as the alternate and shall replace any player who subsequently withdraws. The alternate must appear at the official pre tournament media" +
 	"            conference and remain available through the start of the last scheduled round" +
 	"            robin match." +
 	"            {'\\n\\n'}" +
@@ -3438,7 +3445,7 @@ export const AllPageIndexList = [
 	"            good standing." +
 	"            {'\\n\\n'}" +
 	"            2) All direct acceptances and the alternate must appear at the site of the event(s) as" +
-	"            determined by ATP and participate in the pre-tournament media conference." +
+	"            determined by ATP and participate in the pre tournament media conference." +
 	"            Failure to appear shall result in a penalty of five percent (5%) of total ATP prize" +
 	"            money earned during the ATP circuit year." +
 	"            Please also see 1.07 H. 2) b).{'\\n\\n'}" +
@@ -3448,7 +3455,7 @@ export const AllPageIndexList = [
 	"            <Round Robin" +
 	"            {'\\n\\n'}" +
 	"            1) The field shall be divided into two (2) groups of four (4) players each. The" +
-	"            top-seeded player shall be placed in Group “A” and the second-seeded player" +
+	"            top seeded player shall be placed in Group “A” and the second seeded player" +
 	"            shall be placed in Group “B”. Players seeded three (3) and four (4), five (5) and six" +
 	"            (6), and seven (7) and eight (8), shall then be drawn in pairs with the first drawn" +
 	"            placed into Group “A.”" +
@@ -3740,7 +3747,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            2) The event shall be completed with a single elimination competition for the semi-finals and final." +
 	"            {'\\n\\n'}" +
-	"            3) There shall be no playoff for the third and fourth-place positions." +
+	"            3) There shall be no playoff for the third and fourth place positions." +
 	"            {'\\n\\n'}" +
 	"            E. Prize Money and Points" +
 	"            {'\\n\\n'}" +
@@ -3924,7 +3931,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            • If still tied, coin toss" +
 	"            {'\\n\\n'}" +
-	"            b) For spot 3 where entry is based on the best-of ATP/WTA Ranking (Singles or" +
+	"            b) For spot 3 where entry is based on the best of ATP/WTA Ranking (Singles or" +
 	"            Doubles)." +
 	"            {'\\n\\n'}" +
 	"            i) If tied." +
@@ -3974,7 +3981,7 @@ export const AllPageIndexList = [
 	"			 (e.g. #2 becomes #1 and the replacement player becomes the new #2)."+
 	"            {'\\n\\n'}" +
 	"            ii) The next highest ranked singles player from that country may be added to" +
-	"            the team, unless otherwise approved by ATP/WTA. Non-entered substitute/alternate players may only be considered if the team does not have" +
+	"            the team, unless otherwise approved by ATP/WTA. Non entered substitute/alternate players may only be considered if the team does not have" +
 	"            a minimum of 2 entered players meeting the criteria." +
 	"            {'\\n\\n'}" +
 	"            b) The number 2 singles player withdraws prior to 10:00 am local time in Sydney, the" +
@@ -4051,7 +4058,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            1) Round Robin – The Groups" +
 	"            {'\\n\\n'}" +
-	"            The Draw-Teams 1-18" +
+	"            The Draw Teams 1-18" +
 	"            {'\\n\\n'}" +
 	"            a) The oﬃcial draw for the placement of teams 1-18 shall take place, on Monday" +
 	"			 23 October 2023." +
@@ -4143,7 +4150,7 @@ export const AllPageIndexList = [
 	"            c) The deadline to submit the names of the competing players (singles/doubles)" +
 	"            is 3:00pm local time, the day prior to the scheduled Tie." +
 	"            {'\\n\\n'}" +
-	"            d) For each Tie, the highest-positioned (hereafter, number ones) singles" +
+	"            d) For each Tie, the highest positioned (hereafter, number ones) singles" +
 	"			 players named from each team shall compete against each other. The order of" +
 	"			 matches shall be as follows unless otherwise decided by the Steering" +
 	"			 Committee:" +
@@ -4223,7 +4230,7 @@ export const AllPageIndexList = [
 	"            as a tie won but this does not count towards total matches won, percentage" +
 	"            of sets or percentage of games won." +
 	"            {'\\n\\n'}" +
-	"            • Any team that withdraws from any round robin tie after the first-round robin tie" +
+	"            • Any team that withdraws from any round robin tie after the first round robin tie" +
 	"            shall not be eligible for the Quarterfinals." +
 	"            {'\\n\\n'}" +
 	"            • The Match Tie-Break (doubles) counts as a set won and for games won" +
@@ -4276,7 +4283,7 @@ export const AllPageIndexList = [
 	"            as a tie won but this does not count towards total matches won, percentage" +
 	"            of sets or percentage of games won." +
 	"            {'\\n\\n'}" +
-	"            • Any team that withdraws from any round robin tie after the first-round robin tie" +
+	"            • Any team that withdraws from any round robin tie after the first round robin tie" +
 	"			 shall not be eligible for the Quarterfinals." +
 	"            {'\\n\\n'}" +
 	"            6) Quarter finals  " +
@@ -4466,7 +4473,7 @@ export const AllPageIndexList = [
 	"            within 10 minutes of the conclusion of the fourth singles match. The Supervisors shall notify the opposing Captain and all other relevant staff once both" +
 	"            Captains have submitted their doubles teams." +
 	"            {'\\n\\n'}" +
-	"            e) There shall be a maximum of twenty-five (25) minutes between the end of the" +
+	"            e) There shall be a maximum of twenty five (25) minutes between the end of the" +
 	"            last singles match and the start of the mixed doubles match if one or more of" +
 	"            the doubles players competed in the last singles match. If none of the players" +
 	"            designated for the mixed doubles has competed in the last singles match," +
@@ -4474,7 +4481,7 @@ export const AllPageIndexList = [
 	"            determined by the Supervisor. Fifteen minutes is recommended following the" +
 	"            conclusion of the last singles match, however mixed doubles players who" +
 	"            competed in the last singles match can elect to start after fifteen (15) minutes" +
-	"            or after twenty-five (25) minutes." +
+	"            or after twenty five (25) minutes." +
 	"            {'\\n\\n'}" +
 	"            f) The Captain must name the mixed doubles team one hour before the start of" +
 	"            the day’s play if his team has no singles matches on that day (rain or other" +
@@ -4524,7 +4531,7 @@ export const AllPageIndexList = [
 	"            shall wear tournament provided unbranded clothing (polo shirt / jacket/ hat) with" +
 	"            the United Cup logo provided by the event whilst sat on the team bench and" +
 	"            performing all captains’ duties both on and off court; for example but not limited to" +
-	"            official functions, walk-ons, ceremonies, photo opportunities, media appearances" +
+	"            official functions, walk ons, ceremonies, photo opportunities, media appearances" +
 	"            etc." +
 	"            {'\\n\\n'}" +
 	"            Captains with ongoing personal clothing sponsorship, will be permitted to wear" +
@@ -4532,7 +4539,8 @@ export const AllPageIndexList = [
 	"            colour or similar and is approved prior to the event." +
 	"            {'\\n\\n'}" +
 	"            Captains wearing a personal shirt they will still be expected to wear the United" +
-	"            Cup unbranded jacket for official functions, walk-ons, ceremonies, photo opportunities, media appearances etc." +
+	"            Cup unbranded jacket for official functions, walk ons, ceremonies, photo opportunities, media appearances etc." +
+	""+
 	"            If captains have other ongoing personal sponsorships (patch deals etc.) and wish" +
 	"            to wear a shirt complying with the above provision during the event with sponsor" +
 	"            logos on the shirt, all such sponsor logos must comply with ATP/WTA tour sizing" +
@@ -4624,7 +4632,44 @@ export const AllPageIndexList = [
 	"            doubles in a Tie will receive the Promotional fee plus 30 % per the singles match. A" +
 	"            #1 Player only playing 2 mixed doubles during the group stage will receive 40 %" +
 	"            Promotional + 15 % total for both mixed doubles matches (55 % overall). Examples" +
-	"            in the table below." },
+	"            in the table below."+
+	""+
+	"			 K. ATP/WTA Ranking Points"+
+	""+
+	"			 Singles"+
+	""+
+	""+
+	"			  WTA Only: WTA player who wins all 5 matches to receive 500 points. WTA player"+
+	"			 who wins 4 of 5 matches to receive a minimum of 325 points or points per the table"+
+	"			 above whichever is higher."+
+	""+
+	" 			 L. Walkovers"+
+	""+
+	"			 1) No points are awarded if no matches of the tie are played"+
+	"			 2) An individual match in the tie is won by a Walkover, points are awarded based"+
+	"			 upon the lowest ranking category (251+)."+
+	""+
+	"			 M. Media / STARS Obligations"+
+	""+
+	"			 1) All teams are requested to arrive in Australia on time for any pre event media /"+
+	"			 STARS commitments, to be arranged."+
+	"			 2) Normal post-match interview protocol will be followed with the exception being"+
+	"			 a player competing in the 4th singles match who is also competing in the mixed"+
+	"			 doubles may postpone his media commitment until after the mixed doubles"+
+	"			 match. However, the ATP/WTA PR Manager may approach the player following"+
+	"			 he singles match to obtain a few quotes to give to media, if requested.N."+
+	"			 Jurisdiction Governing the competition"+
+	""+
+	"			 N. Jurisdiction Governing the competition"+
+	""+
+	"			 1) The Competition is sanctioned and recognized by ATP Tour, Inc. and WTA Tour."+
+	"			 2) All players who enter and compete in the competition agree to be subject to the"+
+	"			 Rules and Regulations of the ATP/WTA, including, but not limited to, the Code"+
+	"			 of Conduct, the Tennis Anti Corruption Program and the Tennis Anti Doping Program."+
+	"			 3) The ATP/WTA Supervisor, in consultation with the SVP, Rules & Competition and"+
+	"			 WTA Senior Vice President Competition & On-Site Operations, shall determine"+
+	"			 and resolve all questions not considered in these Rules and Regulations."+
+	"" },
     { id: 50, indexId: '', name: '4.04 Next Gen ATP Finals', pageName: 'Rule50' , comp:Rule50 , searchindex:"4.04 Next Gen ATP Finals" +
 	"            {'\\n\\n'}" +
 	"            A.Competition Format" +
@@ -4700,7 +4745,7 @@ export const AllPageIndexList = [
 	"            Round Robin " +
 	"            {'\\n\\n'}" +
 	"            1) The field shall be divided into two (2) groups of four (4) players each. The " +
-	"            top-seeded player shall be placed in Group “A” and the second-seeded player " +
+	"            top-seeded player shall be placed in Group “A” and the second seeded player " +
 	"            shall be placed in Group “B”. Players seeded three (3) and four (4), five (5) and six " +
 	"            (6), and seven (7) and eight (8), shall then be drawn in pairs with the first drawn " +
 	"            placed into Group “A.”" +
@@ -4777,7 +4822,7 @@ export const AllPageIndexList = [
 	"            player with the 3rd best % of games won is eliminated." +
 	"            {'\\n\\n'}" +
 	"            e) In applying the tie-breaking procedures, a conduct default or retirement shall " +
-	"            count as a straight-set win or loss. However, games won or lost in matches " +
+	"            count as a straight set win or loss. However, games won or lost in matches " +
 	"            with the defaulting or retiring player shall not be counted in the percentage " +
 	"            of games won. A player who retires during the round robin because of illness " +
 	"            or injury may continue in the competition if it is approved by the tournament " +
@@ -4841,7 +4886,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            B.Responsibilities" +
 	"            {'\\n\\n'}" +
-	"            1) The Tour Manager shall be present for all sign-ins." +
+	"            1) The Tour Manager shall be present for all sign ins." +
 	"            {'\\n\\n'}" +
 	"            2) The Tour Manager shall be present at the making of all draws." +
 	"            {'\\n\\n'}" +
@@ -4875,7 +4920,7 @@ export const AllPageIndexList = [
 	"            1) Tournament Doctor" +
 	"            {'\\n\\n'}" +
 	"            Beginning with the qualifying competition, it is the responsibility of each ATP Tour" +
-	"            tournament to provide on-site during the entire tournament an English-speaking" +
+	"            tournament to provide on-site during the entire tournament an English speaking" +
 	"            Doctor who specializes in sports medicine, unless otherwise approved by ATP’s" +
 	"            Medical Services Committee. Each tournament shall send the name and address" +
 	"            of the tournament Doctor (or all Doctors, if more than one) to the appropriate" +
@@ -4911,7 +4956,7 @@ export const AllPageIndexList = [
 	"            B.ATP Challenger Tour Tournaments" +
 	"            {'\\n\\n'}" +
 	"             1) Tournament Doctor. Each ATP Challenger Tour tournament is required to have" +
-	"            an English-speaking tournament Doctor at the site from one (1) hour prior to the" +
+	"            an English speaking tournament Doctor at the site from one (1) hour prior to the" +
 	"            start of play through its conclusion on each day. If the ATP Challenger Tour tournament cannot provide a doctor on-site during all hours of play, a doctor shall be" +
 	"            available during all hours of play on each day" +
 	"            {'\\n\\n'}" +
@@ -4922,16 +4967,16 @@ export const AllPageIndexList = [
 	"            b) Through a schedule of daily on-site visits (minimum 1 hour during normal" +
 	"            business hours or as required by the ATP Supervisor) by the tournament" +
 	"            doctor established at the start of the tournament and posted in the player" +
-	"            treatment room to allow for in-person consultations with player as needed" +
+	"            treatment room to allow for in person consultations with player as needed" +
 	"            throughout the tournament and within the allocated time frame for each day;" +
 	"            and" +
 	"            {'\\n\\n'}" +
-	"            c) To see a player in-practice (physician’s office) if a player, for reasons outside" +
+	"            c) To see a player in practice (physician’s office) if a player, for reasons outside" +
 	"            his own control, requires a doctor’s consultation outside the daily allocated" +
 	"            time frame for the doctor’s on-site visit." +
 	"            {'\\n\\n'}" +
 	"            Each tournament shall send the name and address of the tournament Doctor to" +
-	"            ATP’s Medical Services Committee forty-two (42) days in advance of the tournament." +
+	"            ATP’s Medical Services Committee forty two (42) days in advance of the tournament." +
 	"            {'\\n\\n'}" +
 	"            Case: A player requests to see the doctor for an in-practice consultation outside the doctor’s scheduled on-site visit time slot for that" +
 	"            day. He claims that he has an early match that day (non-urgent reason) and will likely not be on-site later in the day during the doctor’s" +
@@ -4940,7 +4985,7 @@ export const AllPageIndexList = [
 	"            Decision: The request is denied. The player can organize transportation to the site and consult with the doctor during the doctor’s" +
 	"            on-site visit" +
 	"            {'\\n\\n'}" +
-	"             2) Physiotherapist. Each ATP Challenger Tour tournament must provide an English-speaking Physiotherapist(s) as shown below. All Physiotherapy treatments" +
+	"             2) Physiotherapist. Each ATP Challenger Tour tournament must provide an English speaking Physiotherapist(s) as shown below. All Physiotherapy treatments" +
 	"            are provided to players free of charge." +
 	"            {'\\n\\n'}" +
 	"             a) Challenger 125 and 175 events" +
@@ -5315,7 +5360,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            C.Clothing" +
 	"            Clothing provided by the tournament for Line Umpires shall not be solid white, yellow" +
-	"            or other colors that may interfere with the vision of the players, unless otherwise approved by ATP. It is recommended that dark-colored clothing be avoided for outdoor" +
+	"            or other colors that may interfere with the vision of the players, unless otherwise approved by ATP. It is recommended that dark colored clothing be avoided for outdoor" +
 	"            tournaments played in high temperatures. Clothing should not be identical to clothing" +
 	"            provided to the ball persons." +
 	"" +
@@ -5519,7 +5564,7 @@ export const AllPageIndexList = [
 	"            B.Clothing" +
 	"            {'\\n\\n'}" +
 	"            Clothing provided by the tournament for ball persons shall not be solid white, yellow" +
-	"            or other colors that may interfere with the vision of the players, unless otherwise approved by ATP. It is recommended that dark-colored clothing be avoided for outdoor" +
+	"            or other colors that may interfere with the vision of the players, unless otherwise approved by ATP. It is recommended that dark colored clothing be avoided for outdoor" +
 	"            tournaments played in high temperatures. Clothing should not be identical to clothing" +
 	"            provided to the Line Umpires." },
     { id: 63, indexId: '', name: '5.12 ATP/GRAND SLAMS/ITF/WTA Code of Conduct for Officials', pageName: 'Rule63' , comp:Rule63 , searchindex:"5.12 ATP/GRAND SLAMS/ITF/WTA Code of Conduct for Officials" +
@@ -5594,7 +5639,7 @@ export const AllPageIndexList = [
 	"            2) Intensity" +
 	"            {'\\n\\n'}" +
 	"           >a) ATP Tour Tournaments. Lighting must be evenly distributed on the court" +
-	"            with a minimum recommended intensity of 100 foot-candles (1076 LUX)," +
+	"            with a minimum recommended intensity of 100 foot candles (1076 LUX)," +
 	"            averaged over 15 readings on court." +
 	"            {'\\n\\n'}" +
 	"            The recommended minimum lighting for televised events broadcasting in" +
@@ -5603,7 +5648,7 @@ export const AllPageIndexList = [
 	"            temperature." +
 	"            {'\\n\\n'}" +
 	"           >b) ATP Challenger Tour Tournaments. Lighting must be evenly distributed on" +
-	"            the court with a minimum recommended intensity of 70 foot-candles (750" +
+	"            the court with a minimum recommended intensity of 70 foot candles (750" +
 	"            LUX), averaged over 15 readings on court" +
 	"            {'\\n\\n'}" +
 	"            3) High/low ratio. A ratio of the highest to lowest readings should be no greater than" +
@@ -6260,7 +6305,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        ATP Masters 1000 Family Lounge. ATP Masters 1000 tournaments shall provide (i)" +
 	"                        complimentary snacks and drinks for players and two (2) PST members per player," +
-	"                        and (ii) offer high-speed internet, high-quality coffee, snacks, drinks, juice, smoothie" +
+	"                        and (ii) offer high speed internet, high quality coffee, snacks, drinks, juice, smoothie" +
 	"                        stations, TVs, and games." +
 	"                        {'\\n\\n'}" +
 	"                        ATP 500 Family Lounge. ATP 500 tournaments shall provide complimentary highspeed internet, high-quality coffee, snacks, drinks, juice, and smoothie stations." +
@@ -6367,7 +6412,7 @@ export const AllPageIndexList = [
 	"                        player." },
     { id: 81, indexId: '', name: '6.17 Food', pageName: 'Rule81' , comp:Rule81 , searchindex:"6.17 Food" +
 	"                        {'\\n\\n'}" +
-	"                        General. Each tournament must provide a variety of suitable and of high-quality food" +
+	"                        General. Each tournament must provide a variety of suitable and of high quality food" +
 	"                        for the competitors on-site or, as approved by ATP, within reasonable distance of" +
 	"                        the tournament venue. Food service for ATP 250 and Challenger Tour tournaments" +
 	"                        should begin no later than the day before the start of the qualifying and continue until" +
@@ -6385,7 +6430,7 @@ export const AllPageIndexList = [
 	"                        for the same number of days as the player’s hospitality through direct allocation on" +
 	"                        the individual credential or allowance on the player credential. Tournaments are encouraged to provide complimentary food for additional PST members." +
 	"                        {'\\n\\n'}" +
-	"                        The complimentary food service shall offer fresh, high-quality hot and cold food options with a combination of made to order and buffet food, variety of proteins including" +
+	"                        The complimentary food service shall offer fresh, high quality hot and cold food options with a combination of made to order and buffet food, variety of proteins including" +
 	"                        vegan protein (tofu or tempeh), carbs, salads, fruit and smoothies." +
 	"                        {'\\n\\n'}" +
 	"                        ATP 250 Tournaments*. Each tournament shall provide complimentary food service" +
@@ -6439,7 +6484,7 @@ export const AllPageIndexList = [
 	"                        the final day of the tournament." +
 	"                        {'\\n\\n'}" +
 	"                        <Combined Events and Challenger 175. Each Tournament shall provide airport" +
-	"                        transportation beginning two (2) days before the Qualifying Sign-In Deadline (provided" +
+	"                        transportation beginning two (2) days before the Qualifying Sign In Deadline (provided" +
 	"                        that 24-hour notice is given to the Tournament) until the morning following the final" +
 	"                        day of the Tournament to:" +
 	"                        {'\\n\\n'}" +
@@ -6478,13 +6523,13 @@ export const AllPageIndexList = [
 	"" +
 	"                        C.Recovery Equipment and Facilities." +
 	"                        {'\\n\\n'}" +
-	"                        1) ATP Masters 1000 Tournaments. Each tournament shall provide: (i) high-quality" +
+	"                        1) ATP Masters 1000 Tournaments. Each tournament shall provide: (i) high quality" +
 	"                        (selected in consultation with ATP Medical Services) recovery modalities (e.g.," +
 	"                        compression devices and ice bath). " +
 	"                        {'\\n\\n'}" +
-	"                        2) ATP 500 Tournaments. Each tournament shall provide: (i) high-quality dedicated ice bath and recovery modalities (selected in consultation with ATP Medical Services)." +
+	"                        2) ATP 500 Tournaments. Each tournament shall provide: (i) high quality dedicated ice bath and recovery modalities (selected in consultation with ATP Medical Services)." +
 	"                        {'\\n\\n'}" +
-	"                        3) ATP 250 Tournaments. Each tournament shall provide: (i) high-quality ice bath, selected in consultation with ATP Medical Services."+
+	"                        3) ATP 250 Tournaments. Each tournament shall provide: (i) high quality ice bath, selected in consultation with ATP Medical Services."+
     "                        {'\\n\\n'}" +
 	"                        Please refer to the Standards and Best Practices section on ATP Tournament Centre for full recovery and equipment facilities guidelines."+
 	"                        {'\n\n'}" +
@@ -6681,7 +6726,7 @@ export const AllPageIndexList = [
 	"                        other players. A player who moves in from the alternate list will be considered a" +
 	"                        Direct Acceptance from Thursday, 10 AM Eastern Time, USA." +
 	"                        {'\\n\\n'}" +
-	"                        2) ATP Tour Qualifying. 12 Noon, Eastern Time, USA, twenty-one (21) days prior" +
+	"                        2) ATP Tour Qualifying. 12 Noon, Eastern Time, USA, twenty one (21) days prior" +
 	"                        to the first Monday of the tournament week. A player on the Alternate List for the" +
 	"                        singles qualifying may withdraw at any time prior to such time that he is moved" +
 	"                        into the qualifying as a Direct Acceptance from Thursday, 10 AM Eastern Time," +
@@ -6700,7 +6745,7 @@ export const AllPageIndexList = [
 	"                        remain on the qualifying list of the following week’s tournament if the player can" +
     "                        reasonably travel and arrive on time to compete at the qualifying event as determined by the supervisor. For the avoidance of doubt, the Supervisor should use" +
     "                        great discretion when making such determination. Unless clearly impossible to" +
-    "                        arrive on-time for the next week’s tournament, players should be given the benefit" +
+    "                        arrive on time for the next week’s tournament, players should be given the benefit" +
     "                        of the doubt. If he chooses to remain on the qualifying list and loses at the current" +
 	"                        event after the qualifying draw is made (and did not withdraw himself before the" +
 	"                        qualifying alternate sign in deadline) he is committed to play the qualifying and" +
@@ -6936,11 +6981,11 @@ export const AllPageIndexList = [
 	"                        USA, on the Friday before the event week, or if the second withdrawal occurs" +
 	"                        between 9:00 AM and 10 AM, Eastern Time, USA on the Friday before the event" +
 	"                        the deadline for naming a qualified substitute shall be extended by one (1) hour." +
-	"                        During this one hour period all lists will be held awaiting a final cut-off for the" +
+	"                        During this one hour period all lists will be held awaiting a final cut off for the" +
 	"                        affected event. If no substitution is made within this defined time period, then the" +
 	"                        next player on the acceptance list shall be moved into the main draw." +
 	"                        {'\\n\\n'}" +
-	"                        b) The tournament shall pay prize money equal to that paid first-round losers" +
+	"                        b) The tournament shall pay prize money equal to that paid first round losers" +
 	"                        to each player who would have been a direct acceptance if not for the late" +
 	"                        substitution. This payment shall not apply in the case where the player gained" +
 	"                        entry into a main draw singles, at any event, by other means." +
@@ -6995,7 +7040,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        The size of the draw is four (4) with two (2) seeds. The composition of the doubles" +
 	"                        qualifying draw will be the first three (3) teams from the entry list plus one (1) wild" +
-	"                        card team. All matches will be played as two tie-break sets, no-ad scoring with a" +
+	"                        card team. All matches will be played as two tie-break sets, no ad scoring with a" +
 	"                        match tie-break at one set all. Qualifying matches are to be held on the Saturday" +
 	"                        / Sunday prior to the start of main draw, as determined by the Supervisor and Tour" +
 	"                        Manager. Teams shall receive hospitality. Rooms for doubles qualifying players" +
@@ -7024,7 +7069,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        ATP Tour 250 Main Draw Singles Late Entry (LE) Spot:"+
 	"                        {'\\n\\n'}" +
-	"                        A Late Entry spot is a reserved position (one) in each ATP 250 tournament. Only players with a ranking better than the original tournament entry list cut are allowed to enter. The entry deadline for this spot is Thursday, 10 AM Eastern Time, USA prior to the Monday of the tournament week. At this deadline, the position will be filled by the highest ranked player who entered using the Pepperstone ATP Rankings (Singles) used for tournament entries twenty-eight (28) days prior to the Monday of the tournament week. If there are no entries for the LE spot by the deadline, then the position in the main draw goes to the next eligible player on the entry list."+
+	"                        A Late Entry spot is a reserved position (one) in each ATP 250 tournament. Only players with a ranking better than the original tournament entry list cut are allowed to enter. The entry deadline for this spot is Thursday, 10 AM Eastern Time, USA prior to the Monday of the tournament week. At this deadline, the position will be filled by the highest ranked player who entered using the Pepperstone ATP Rankings (Singles) used for tournament entries twenty eight (28) days prior to the Monday of the tournament week. If there are no entries for the LE spot by the deadline, then the position in the main draw goes to the next eligible player on the entry list."+
 	"                        {'\\n\\n'}" +
 	"                        ATP Next Gen Programme" +
 	"                        {'\\n\\n'}" +
@@ -7065,7 +7110,7 @@ export const AllPageIndexList = [
 	"                        College Accelerator Spots (CAS)"+
 	"                        {'\\n\\n'}" +
 	"                        College Accelerator Spots are awarded at the Challenger level to the College players" +
-	"                        who are ranked 1-20 in the season-end Intercollegiate Tennis Association (ITA) Collegiate Tennis Rankings, as well as individual NCAA Division I Tennis Championships" +
+	"                        who are ranked 1-20 in the season end Intercollegiate Tennis Association (ITA) Collegiate Tennis Rankings, as well as individual NCAA Division I Tennis Championships" +
 	"                        quarterfinalists." +
 	"                        {'\\n\\n'}" +
 	"                        • Challengers 50 and 75 - College Accelerator Spots can be awarded to up to two" +
@@ -7083,7 +7128,7 @@ export const AllPageIndexList = [
 	"                        uses per six (6) months, starting July 1, 2023." +
 	"                        {'\\n\\n'}" +
 	"                        ii) Players ranked 11-20 in the season-end singles ITA Collegiate Tennis Ranking" +
-	"                        and NCAA Division I quarter-finalists shall be eligible for up to eight (8) Accelerator Spots over twelve (12) months at Challenger Tour Qualifying, with a maximum" +
+	"                        and NCAA Division I quarter finalists shall be eligible for up to eight (8) Accelerator Spots over twelve (12) months at Challenger Tour Qualifying, with a maximum" +
 	"                        of four (4) uses per six (6) months, starting July 1, 2023." +
 	"                        {'\\n\\n'}" +
 	"                        Players who remain in College education – defined as any player who is scheduled" +
@@ -7299,7 +7344,7 @@ export const AllPageIndexList = [
 	"                        3) No player may continue playing in an ATP Tour or ATP Challenger Tour tournament in singles or doubles after giving notice of withdrawal from a tournament" +
 	"                        scheduled in a future week on account of injury, illness or other medical reason." +
 	"                        Players, however, may continue playing in that event if the withdrawal from the" +
-	"                        future event was for non-medical reasons." +
+	"                        future event was for non medical reasons." +
 	"                        {'\\n\\n'}" +
 	"                        4) ATP TOUR: The exception to No Play after Withdrawal is the withdrawal of a" +
 	"                        team accepted into the main draw of an ATP Tour tournament through the advance entry method due to one or both team members being accepted into the" +
@@ -7459,7 +7504,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        2) Players positioned 11-50 (excluding Entry Protection ranking) in the Pepperstone" +
 	"                        ATP Rankings twenty-one (21) days prior to the first Monday of the ATP Challenger Tour tournament are prohibited from entering (with the exception of Challenger" +
-	"                        175 category) but may receive an ATP-approved wild card in order to compete" +
+	"                        175 category) but may receive an ATP approved wild card in order to compete" +
 	"                        in the Challenger tournament. The Challenger Supervisor will make wild card" +
 	"                        determinations consistent with the limitations outlined below. Players positioned 11-50 are also prohibited from entering, accepting a wild card or competing in a" +
 	"                        Challenger 75 tournament." +
@@ -8163,7 +8208,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        b) A wild card is no longer eligible as an alternate at that event." +
 	"                        {'\\n\\n'}" +
-	"                        i) A main draw wild card may not be re-classified as a direct acceptance," +
+	"                        i) A main draw wild card may not be re classified as a direct acceptance," +
 	"                        due to withdrawals, once the acceptance list is finalized (when the first" +
 	"                        chip of the main draw has been drawn)." +
 	"                        {'\\n\\n'}" +
@@ -8210,13 +8255,13 @@ export const AllPageIndexList = [
 	"                        Tour tournaments for six (6) months because of a physical injury may petition" +
 	"                        ATP for one additional wild card." +
 	"                        {'\\n\\n'}" +
-	"                        b) In the event that a player’s position in the Pepperstone ATP Rankings is insufficient to make him a direct acceptance on the forty-two (42) day acceptance" +
+	"                        b) In the event that a player’s position in the Pepperstone ATP Rankings is insufficient to make him a direct acceptance on the forty two (42) day acceptance" +
 	"                        list, then he shall be released from his commitment to that tournament, unless" +
-	"                        offered a wild card to the contract tournament within twenty-four (24) hours of" +
+	"                        offered a wild card to the contract tournament within twenty four (24) hours of" +
 	"                        the entry deadline. Such wild card accepted by a player shall not count in the" +
 	"                        player’s annual limitation of five (5) wild cards in singles." +
 	"                        {'\\n\\n'}" +
-	"                        c) Any player who becomes thirty-five (35) years of age by December 31 of an" +
+	"                        c) Any player who becomes thirty five (35) years of age by December 31 of an" +
 	"                        ATP circuit year shall be exempt from the wild card limitation if he is:" +
 	"                        {'\\n\\n'}" +
 	"                        i) A former singles Champion of a Grand Slam; or" +
@@ -8227,7 +8272,7 @@ export const AllPageIndexList = [
 	"                        iii) A former No. 1 ranked player in the ATP Rankings prior to January 2000;" +
 	"                        or" +
 	"                        {'\\n\\n'}" +
-	"                        iv) A former No. 1 player in the year-end ATP Rankings." +
+	"                        iv) A former No. 1 player in the year end ATP Rankings." +
 	"                        {'\\n\\n'}" +
 	"                        d) Players may petition ATP for exceptions to these limitations." +
 	"                        {'\\n\\n'}" +
@@ -8364,7 +8409,7 @@ export const AllPageIndexList = [
 	"        B.Singles Qualifying " +
 	"        " +
 	"        1) Direct acceptances – ATP Tour. Direct acceptances are players accepted directly in the draw by virtue of their position in the Pepperstone ATP Rankings or" +
-	"        by their protected ranking position (singles). The list to be used for ATP Tour tournaments shall be dated approximately twenty-one (21) days prior to the Monday" +
+	"        by their protected ranking position (singles). The list to be used for ATP Tour tournaments shall be dated approximately twenty one (21) days prior to the Monday" +
 	"        of the tournament week." +
 	"        " +
 	"        a) If there are still places available for direct acceptances in the qualifying draw," +
@@ -8373,7 +8418,7 @@ export const AllPageIndexList = [
 	"        " +
 	"        b) There shall be an alternate sign-in list comprised of players that sign in who" +
 	"        are not selected as direct acceptances. In the event that direct acceptance" +
-	"        players are not present for first-round qualifying matches or if players are" +
+	"        players are not present for first round qualifying matches or if players are" +
 	"        moved into the main draw from the qualifying (before the first ball is hit), players shall be selected from the alternate sign-in list in the order described in" +
 	"        sections 1), and 2) above. Alternate sign-in deadline is 6:00 pm local time the" +
 	"        day before the start of the qualifying. Thereafter, the deadline is one half (1/2)" +
@@ -8674,7 +8719,7 @@ export const AllPageIndexList = [
 	"" +
 	"                        {'\\n\\n'}" +
 	"                         B.Doubles" +
-	"                        Two teams shall be seeded in a four-draw event with the seeds being placed on" +
+	"                        Two teams shall be seeded in a four draw event with the seeds being placed on" +
 	"                        lines 1 and 4." },
     { id: 108, indexId: '', name: '7.18 Byes - Assignment and Placement', pageName: 'Rule108' , comp:Rule108 , searchindex:"VII. THE COMPETITION" +
 	"                    " +
@@ -8721,7 +8766,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        A.Singles" +
 	"                        {'\\n\\n'}" +
-	"                        If two (2) or more of the top eight (8) seeds withdraw more than twenty-four (24)" +
+	"                        If two (2) or more of the top eight (8) seeds withdraw more than twenty four (24)" +
 	"                        hours before the start of the singles tournament, the tournament may choose either to remake the draw or let the draw stand. If a wild card withdraws after the original" +
 	"                        draw and the draw is to be remade, the vacancy created may be filled at the tournament’s option by a substitute wild card. If the tournament elects not to use a substitute" +
 	"                        wild card, the vacancy shall be treated as any other vacancy." +
@@ -8730,8 +8775,8 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        Prior to the draw being finalized (not sooner than when it is published but not later" +
 	"                        than when the first ball of the doubles tournament is struck as determined by the" +
-	"                        Supervisor), use the following procedure: If one-fourth or more of the seeded teams" +
-	"                        withdraw, or a minimum of two (2) seeded teams in a 16-team draw withdraw, the" +
+	"                        Supervisor), use the following procedure: If one fourth or more of the seeded teams" +
+	"                        withdraw, or a minimum of two (2) seeded teams in a 16 team draw withdraw, the" +
 	"                        Tournament Director has the option to have the draw remade if approved by the" +
 	"                        Supervisor. If the draw is remade, the original pairings may not be changed except" +
 	"                        where vacancies occur." +
@@ -9025,7 +9070,7 @@ export const AllPageIndexList = [
 	"                        Which Lucky Loser to Insert?" +
 	"                        {'\\n\\n'}" +
 	"                        Case: On Monday before the last singles match has gone on court," +
-	"                        a player whose first-round singles match is scheduled for Tuesday is" +
+	"                        a player whose first round singles match is scheduled for Tuesday is" +
 	"                        forced to withdraw because of injury. No one signed the lucky loser" +
 	"                        list on Monday. How is the vacancy resolved?" +
 	"                        {'\\n\\n'}" +
@@ -9141,7 +9186,7 @@ export const AllPageIndexList = [
 	"                        Remake of the Draw" +
 	"                        {'\\n\\n'}" +
 	"                        Case: On Monday morning, two (2) of the four (4) seeded teams" +
-	"                        withdraw from a 16-draw doubles event. The doubles competition" +
+	"                        withdraw from a 16 draw doubles event. The doubles competition" +
 	"                        has not yet begun. May the draw be remade?" +
 	"                        {'\\n\\n'}" +
 	"                        Decision: Yes. However, it is the option of the tournament." +
@@ -9514,7 +9559,7 @@ export const AllPageIndexList = [
 	"                        Mixed Doubles." +
 	"                        {'\\n\\n'}" +
 	"                        2) Main Draw and Qualifying. Other than in exceptional circumstances, no player" +
-	"                        shall be required to play his first-round match in the singles main draw until at" +
+	"                        shall be required to play his first round match in the singles main draw until at" +
 	"                        least twelve (12) hours after the completion of his final qualifying match. The" +
 	"                        following should also be considered:" +
 	"                        {'\\n\\n'}" +
@@ -9543,7 +9588,7 @@ export const AllPageIndexList = [
 	"                        doubles matches shall be scheduled no earlier than three (3) hours after the" +
 	"                        final qualifying match. If the main draw doubles match should be scheduled" +
 	"                        earlier, then it is understood that if a doubles lucky loser is required, the match" +
-	"                        shall be re-scheduled with that lucky loser inserted." +
+	"                        shall be re scheduled with that lucky loser inserted." +
 	"                        {'\\n\\n'}" +
 	"                        g) Any player who becomes a lucky loser may be scheduled to play on Monday" +
 	"                        regardless of the number of matches that he has competed in on Sunday. Except, however, a player who played in three (3) matches on Sunday may only" +
@@ -9602,7 +9647,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        4) Between Singles Semi-final and Singles Final" +
 	"                        {'\\n\\n'}" +
-	"                        a) When the two (2) semi-final matches are not to be played consecutively, then" +
+	"                        a) When the two (2) semi final matches are not to be played consecutively, then" +
 	"                        the scheduled start time of the final shall be no earlier than eighteen (18)" +
 	"                        hours from the scheduled start time of the second semi-final match. In the" +
 	"                        case where the two (2) semi-final matches are to be played consecutively" +
@@ -9666,7 +9711,7 @@ export const AllPageIndexList = [
 	"                        Rain Delayed Semi-final, When to Play Final?" +
 	"                        {'\\n\\n'}" +
 	"                        Case: Rain on Saturday prevents both semi-final singles from being" +
-	"                        played. The second semi-final is played on Sunday morning, with" +
+	"                        played. The second semi final is played on Sunday morning, with" +
 	"                        the winner due to play the final that afternoon. Can the winner of the" +
 	"                        second semi-final insist on a Monday final?" +
 	"                        {'\\n\\n'}" +
@@ -9718,7 +9763,7 @@ export const AllPageIndexList = [
 	"                        occurred on court during a specific match. Only the on-court officials shall" +
 	"                        determine questions of fact arising during a match and the player or the Supervisor may not change such determinations." +
 	"                        {'\\n\\n'}" +
-	"                        b) Rule. A player may not appeal the determination made by the on-court officials on a question of fact." +
+	"                        b) Rule. A player may not appeal the determination made by the on court officials on a question of fact." +
 	"                        {'\\n\\n'}" +
 	"" +
 	"" +
@@ -9765,12 +9810,12 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        Appeal of the “Facts”: Receiver" +
 	"                        {'\\n\\n'}" +
-	"                        Case: First point of a game, the first serve is called fault and overruled by the Chair Umpire to good. The Chair Umpire then announces 15-Love. The receiver states that the point should be re-played" +
+	"                        Case: First point of a game, the first serve is called fault and overruled by the Chair Umpire to good. The Chair Umpire then announces 15-Love. The receiver states that the point should be re played" +
 	"                        because he returned the ball into the court. The Chair Umpire realizes that the receiver did in fact return the ball and orders the point" +
 	"                        to be replayed. The server claims that the Chair Umpire cannot" +
 	"                        change his decision and asks for the Supervisor to be called." +
 	"                        {'\\n\\n'}" +
-	"                        Decision: The point is re-played. The Chair Umpire’s initial awarding of the point to the server was incorrect based upon the facts as" +
+	"                        Decision: The point is re played. The Chair Umpire’s initial awarding of the point to the server was incorrect based upon the facts as" +
 	"                        described by the Chair Umpire: The receiver did return the serve." +
 	"                        {'\\n\\n'}" +
 	"                        Appeal of the “Facts”: Server" +
@@ -9780,7 +9825,7 @@ export const AllPageIndexList = [
 	"                        the point to the server based upon his judgment that the receiver" +
 	"                        did not have a play on the ball. The receiver claims that he could" +
 	"                        have played the ball. The Chair Umpire is not sure of his original" +
-	"                        judgment and orders the point to be re-played. The server claims" +
+	"                        judgment and orders the point to be re played. The server claims" +
 	"                        that the Chair Umpire may not change his judgment based upon an" +
 	"                        appeal from the receiver and asks for the Supervisor to be called." +
 	"                        {'\\n\\n'}" +
@@ -9797,7 +9842,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"" +
 	" Decision: The point stands as played. When the Chair Umpire has" +
-	"                        the primary responsibility for a call (nets, throughs, not-ups and" +
+	"                        the primary responsibility for a call (nets, throughs, not ups and" +
 	"                        touches) as opposed to the secondary responsibility (line calls), an" +
 	"                        immediate decision must be made. If the Chair Umpire did not see a" +
 	"                        rules violation on something for which he has the primary responsibility then technically no violation can be called" +
@@ -9946,7 +9991,7 @@ export const AllPageIndexList = [
 	"                        doubt. To overrule a ball called “Good” by the Line Umpire, the Chair Umpire" +
 	"                        must have been able to see a space between the ball and the line. To overrule" +
 	"                        an “Out” or “Fault” call by a Line Umpire, the Chair Umpire must have seen" +
-	"                        the ball hit on or inside the line. Clear foot-faults not called by the responsible" +
+	"                        the ball hit on or inside the line. Clear foot faults not called by the responsible" +
 	"                        Line Umpire should be called by the Chair Umpire." +
 	"                        {'\\n\\n'}" +
 	"                        b) Promptly. The Chair Umpire must overrule immediately after the Line Umpire" +
@@ -9974,7 +10019,7 @@ export const AllPageIndexList = [
 	"                        1) Chair Umpire" +
 	"                        {'\\n\\n'}" +
 	"                        a) A ball mark inspection requested by a player (team) shall be allowed only if" +
-	"                        the Chair Umpire cannot determine the call with surety on either a point-ending shot or when a player (team) stops playing the point during the rally (Returns are permitted but then the player must immediately stop). The Chair" +
+	"                        the Chair Umpire cannot determine the call with surety on either a point ending shot or when a player (team) stops playing the point during the rally (Returns are permitted but then the player must immediately stop). The Chair" +
 	"                        Umpire shall check ball marks if there is some doubt about the accuracy of" +
 	"                        the call." +
 	"                        {'\\n\\n'}" +
@@ -10074,7 +10119,7 @@ export const AllPageIndexList = [
 	"                        authorized for use at ATP events. The protocol for Review ELC is as follows:" +
 	"                        {'\\n\\n'}" +
 	"                        1) A request for an electronic review of a line call by a player (team) shall be allowed" +
-	"                        only on either a point-ending shot or when a player (team) stops playing the point" +
+	"                        only on either a point ending shot or when a player (team) stops playing the point" +
 	"                        during a rally (returns are permitted but then the player must immediately stop)." +
 	"                        {'\\n\\n'}" +
 	"                        2) In doubles the appealing player must make his appeal in such a way that either" +
@@ -10185,11 +10230,11 @@ export const AllPageIndexList = [
 	"                        a) Start Stop Watch. The Chair Umpire must start the stopwatch after the ball" +
 	"                        goes out of play or when the players are ordered to play." +
 	"                        {'\\n\\n'}" +
-	"                        b) Time Violation or Code Violation. A Time or Code Violation must be assessed if the ball is not struck for the next point within the twenty-five (25)" +
+	"                        b) Time Violation or Code Violation. A Time or Code Violation must be assessed if the ball is not struck for the next point within the twenty five (25)" +
 	"                        seconds allowed, except if the Chair Umpire extends the time for special circumstances defined by ATP. There is no time warning prior to the expiration" +
 	"                        of the twenty-five (25) seconds." +
 	"                        {'\\n\\n'}" +
-	"                        2) 90 Seconds/Change-Over (Changing Ends)" +
+	"                        2) 90 Seconds/Change Over (Changing Ends)" +
 	"                        {'\\n\\n'}" +
 	"                        a) Start Stop Watch. The Chair Umpire must start the stopwatch the moment" +
 	"                        the ball goes out of play." +
@@ -10203,7 +10248,7 @@ export const AllPageIndexList = [
 	"                        positions." +
 	"                        {'\\n\\n'}" +
 	"                        d) Time Violation or Code Violation. The Chair Umpire must assess a Time" +
-	"                        Violation or, when applicable, a Code Violation (after a medical time-out or" +
+	"                        Violation or, when applicable, a Code Violation (after a medical time out or" +
 	"                        treatment) if the ball is not struck for the next point within the ninety (90) seconds / one hundred twenty (120) seconds allowed, provided there has been" +
 	"                        no interference which prevented the Server from serving within that time or a" +
 	"                        delay by the Chair Umpire." +
@@ -10228,7 +10273,7 @@ export const AllPageIndexList = [
 	"                        positions." +
 	"                        {'\\n\\n'}" +
 	"                        d) Time Violation or Code Violation. The Chair Umpire must assess a Time" +
-	"                        Violation or, when applicable, a Code Violation (after a medical time-out or" +
+	"                        Violation or, when applicable, a Code Violation (after a medical time out or" +
 	"                        treatment) if the ball is not struck for the next point within the one hundred" +
 	"                        twenty (120) / one hundred fifty (150) seconds allowed, provided there has" +
 	"                        been no interference which prevented the server from serving within that time" +
@@ -10257,12 +10302,12 @@ export const AllPageIndexList = [
 	"                        on which each player was situated and shall collect all balls in use for the" +
 	"                        match." +
 	"                        {'\\n\\n'}" +
-	"                        6) Warm up / Re-warm up." +
+	"                        6) Warm up / Re-warmup." +
 	"                        {'\\n\\n'}" +
 	"                        There shall be a four (4) minute warm-up before a match and in the case of a" +
 	"                        stopped or postponed match, the period of warm-up shall be as follows:" +
 	"                        {'\\n\\n'}" +
-	"                        a) 0-15 minutes delay — No warm--up;" +
+	"                        a) 0-15 minutes delay — No warmup;" +
 	"                        {'\\n\\n'}" +
 	"                        b) more than 15 minutes but less than 30 minutes —Three (3) minutes of warmup; and" +
 	"                        {'\\n\\n'}" +
@@ -10279,7 +10324,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        a) Reviewable calls" +
 	"                        {'\\n\\n'}" +
-	"                        i) Not-up – ball bounced more than once prior to contact." +
+	"                        i) Not up – ball bounced more than once prior to contact." +
 	"                        {'\\n\\n'}" +
 	"                        ii) Foul shot – player carries the ball on the racquet, player contacts the ball" +
 	"                        before it crosses the net, player’s racquet touches the ball while not under" +
@@ -10466,7 +10511,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        Decision: A Time Violation is announced. “Let’s Play” is normally" +
 	"                        added. The same applies if a player is not ready to play after the" +
-	"                        120-second set break." +
+	"                        120 second set break." +
 	"                        {'\\n\\n'}" +
 	"                        P. Toilet/Change of Attire Break" +
 	"                        {'\\n\\n'}" +
@@ -10570,7 +10615,7 @@ export const AllPageIndexList = [
 	"                        At the discretion of the Physiotherapist, such evaluation may be performed in" +
 	"                        conjunction with the tournament Doctor, and may be performed off-court. *" +
 	"                        {'\\n\\n'}" +
-	"                        If the Physiotherapist determines that the player has a non-treatable medical condition, then the player will be advised that no medical treatment will be allowed." +
+	"                        If the Physiotherapist determines that the player has a non treatable medical condition, then the player will be advised that no medical treatment will be allowed." +
 	"                        {'\\n\\n'}" +
 	"" +
 	"                        " +
@@ -10728,7 +10773,7 @@ export const AllPageIndexList = [
 	"                        Exceeding 90 Seconds: Code Violation" +
 	"                        {'\\n\\n'}" +
 	"                        Case: If a player is receiving treatment by the Physiotherapist on a" +
-	"                        90-second change-over, and the treatment goes over the allowed" +
+	"                        90-second change over, and the treatment goes over the allowed" +
 	"                        90 seconds, what happens?" +
 	"                        {'\\n\\n'}" +
 	"                        Decision: When the Chair Umpire says “Time”, the player must put" +
@@ -10817,7 +10862,7 @@ export const AllPageIndexList = [
 	"                        {'\\n\\n'}" +
 	"                        Resuming Play After a Medical Time-Out" +
 	"                        {'\\n\\n'}" +
-	"                        Case A: After an injury and a four-minute suspension (by the Chair" +
+	"                        Case A: After an injury and a four minute suspension (by the Chair" +
 	"                        Umpire) for the arrival of the Physiotherapist, the Physiotherapist arrives and completes the treatment in one and 1/2 minutes. When" +
 	"                        does play resume?" +
 	"                        {'\\n\\n'}" +
@@ -11730,7 +11775,7 @@ export const AllPageIndexList = [
 	"            the ATP Members Fine Committee up to $10,000 or the ATP Standards Committee for fines over $10,000 and the applicable ATP Regional EVP or SVP." +           
 	"            {'\\n\\n'}" +
 	"            3) All fines shall be paid by the tournament by delivery to the Senior Vice President" +
-	"            - Rules & Competition within twenty-one (21) days after receipt of written notice." +
+	"            - Rules & Competition within twenty one (21) days after receipt of written notice." +
 	"            {'\\n\\n'}" +
 	"            4) Any tournament found to have violated an ATP rule, regulation or condition of" +
 	"            approval that results in a fine, may, after paying all fines, petition the ATP CEO" +
@@ -11738,7 +11783,7 @@ export const AllPageIndexList = [
 	"            Fines Committee for fines up to $10,000 or the ATP Standards Committee for" +
 	"            fines over $10,000. This petition shall be in writing and must be filed with the" +
 	"            ATP CEO, Senior Vice President - Rules & Competition, or the ATP Members" +
-	"            Fine Committee/ATP Standards Committee (as applicable) within twenty-one (21)" +
+	"            Fine Committee/ATP Standards Committee (as applicable) within twenty one (21)" +
 	"            days after notice of the determination and penalty is received by the tournament." +
 	"            (The Senior Vice President - Rules & Competition/ATP Members Fines Committee, where applicable, shall forward the review petition promptly to the ATP CEO" +
 	"            or ATP Members FInes Commiteee/ATP Standards Committee (as applicable))." +
@@ -11770,7 +11815,7 @@ export const AllPageIndexList = [
 	"            {'\\n\\n'}" +
 	"            5) If the penalty imposed on the tournament includes a recommendation for loss" +
 	"            or change in tournament membership status, that recommendation shall be reviewed by the ATP Board, which may implement, modify or reject the recommendation of the Senior Vice President - Rules & Competition/ATP Members Fines Committee or ATP Standards" +
-	"            Committee. The imposition of any non-fine penalty by the ATP Board shall be" +
+	"            Committee. The imposition of any non fine penalty by the ATP Board shall be" +
 	"            made in accordance with the By-laws." +
 	"            {'\\n\\n'}" +
 	"            6) Service of any document on a tournament as is required by this section shall be" +
@@ -11810,7 +11855,7 @@ export const AllPageIndexList = [
 	"            Entry Obligations. " +
 	"            No player or team entered into the main draw or moved into" +
 	"            the main draw as a direct acceptance of a tournament may withdraw after the" +
-	"            entry and withdrawal deadline or not appear for first-round match(es) without penalty as described below. The Senior Vice President, Rules & Competition shall" +
+	"            entry and withdrawal deadline or not appear for first round match(es) without penalty as described below. The Senior Vice President, Rules & Competition shall" +
 	"            make such investigation as is reasonable to determine the facts regarding any" +
 	"            such entry offense and, upon determining that a violation has occurred, shall" +
 	"            specify the fine." +

@@ -8,7 +8,7 @@ export const RuleStyles = StyleSheet.create({
       paddingTop:100
     },
     MainHeading: {
-      fontFamily: 'sans-serif',
+      // fontFamily: 'sans-serif',
       color: '#00004D',
       fontSize: 25,
       fontWeight: 'bold',
@@ -32,45 +32,45 @@ export const RuleStyles = StyleSheet.create({
     //marginBottom:50
     },
     SubHeading1: {
-      fontFamily: 'sans-serif',
+      // fontFamily: 'sans-serif',
       color: '#00004D',
       fontSize: 26,
       padding: 20,
       fontWeight: 'bold',
     },
     SubHeading2: {
-      fontFamily: 'sans-serif',
+      // fontFamily: 'sans-serif',
       color: '#00004D',
       fontSize: 24,
       fontWeight: 'bold',
     },
     SubHeading3: {
-      fontFamily: 'sans-serif',
+      // fontFamily: 'sans-serif',
       color: '#00004D',
       fontSize: 20,
       fontWeight: 'bold',
     },
     SubHeading3Red: {
-      fontFamily: 'sans-serif',
+      // fontFamily: 'sans-serif',
       color: '#FF0000',
       fontSize: 20,
       fontWeight: 'bold',
     },
     SubHeading3Green: {
-      fontFamily: 'sans-serif',
+      // fontFamily: 'sans-serif',
       color: '#008000',
       fontSize: 20,
       fontWeight: 'bold',
     },
 
     Description: {
-      fontFamily: 'sans-serif',
+      // fontFamily: 'sans-serif',
       color: '#000',
       padding:10,
       fontSize: 15,
     },
     DescriptionSize10: {
-      fontFamily: 'sans-serif',
+      // fontFamily: 'sans-serif',
       color: '#000',
       padding:10,
       fontSize: 13,
@@ -132,13 +132,13 @@ marginRight: 0
       //  color:'#ff0000', //'#e91e63', // PINK
   },
   number: {
-     fontFamily: 'sans-serif',
+    //  fontFamily: 'sans-serif',
      color:'#00004D',
      fontSize: 25,
      fontWeight: 'normal',
   },
   text: {
-     fontFamily: 'sans-serif',
+    //  fontFamily: 'sans-serif',
      color: '#000',
      fontSize: 20,
      fontWeight: 'normal',

@@ -38,7 +38,7 @@ export default function Rule112({ navigation }) {
                             <HighlightText style={RuleStyles.SubHeading3}>1) Questions of Fact.</HighlightText>
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>a) Definition.</HighlightText> A question of fact is defined as an issue relating to what actually
-                            occurred on court during a specific match. Only the on-court officials shall
+                            occurred on court during a specific match. Only the on court officials shall
                             determine questions of fact arising during a match and the player or the Supervisor may not change such determinations.
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>b) Rule. </HighlightText>A player may not appeal the determination made by the on-court officials on a question of fact.
@@ -88,7 +88,7 @@ export default function Rule112({ navigation }) {
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>Appeal of the “Facts”: Receiver</HighlightText>
                             {'\n\n'}
-                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> First point of a game, the first serve is called fault and overruled by the Chair Umpire to good. The Chair Umpire then announces 15-Love. The receiver states that the point should be re-played
+                            <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> First point of a game, the first serve is called fault and overruled by the Chair Umpire to good. The Chair Umpire then announces 15-Love. The receiver states that the point should be re played
                             because he returned the ball into the court. The Chair Umpire realizes that the receiver did in fact return the ball and orders the point
                             to be replayed. The server claims that the Chair Umpire cannot
                             change his decision and asks for the Supervisor to be called.
@@ -120,7 +120,7 @@ export default function Rule112({ navigation }) {
                             {'\n\n'}
 
                             <HighlightText style={RuleStyles.SubHeading3}>Decision:</HighlightText> The point stands as played. When the Chair Umpire has
-                            the primary responsibility for a call (nets, throughs, not-ups and
+                            the primary responsibility for a call (nets, throughs, not ups and
                             touches) as opposed to the secondary responsibility (line calls), an
                             immediate decision must be made. If the Chair Umpire did not see a
                             rules violation on something for which he has the primary responsibility then technically no violation can be called
@@ -551,7 +551,7 @@ export default function Rule112({ navigation }) {
                             positions.
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>d) Time Violation or Code Violation. </HighlightText>The Chair Umpire must assess a Time
-                            Violation or, when applicable, a Code Violation (after a medical time-out or
+                            Violation or, when applicable, a Code Violation (after a medical time out or
                             treatment) if the ball is not struck for the next point within the one hundred
                             twenty (120) / one hundred fifty (150) seconds allowed, provided there has
                             been no interference which prevented the server from serving within that time
@@ -585,7 +585,7 @@ export default function Rule112({ navigation }) {
                             There shall be a four (4) minute warm-up before a match and in the case of a
                             stopped or postponed match, the period of warm-up shall be as follows:
                             {'\n\n'}
-                            a) 0-15 minutes delay — No warm--up;
+                            a) 0-15 minutes delay — No warm up;
                             {'\n\n'}
                             b) more than 15 minutes but less than 30 minutes —Three (3) minutes of warmup; and
                             {'\n\n'}
@@ -602,7 +602,7 @@ export default function Rule112({ navigation }) {
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>a) Reviewable calls</HighlightText>
                             {'\n\n'}
-                            i) Not-up – ball bounced more than once prior to contact.
+                            i) Not up – ball bounced more than once prior to contact.
                             {'\n\n'}
                             ii) Foul shot – player carries the ball on the racquet, player contacts the ball
                             before it crosses the net, player’s racquet touches the ball while not under

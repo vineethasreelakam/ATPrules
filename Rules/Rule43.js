@@ -124,7 +124,7 @@ export default function Rule43({ navigation }) {
             250 PM Committee Auditor or 250 Player Auditor from making any such disclosure.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>E. </HighlightText>
-            Each year, the 250 PM Committee Auditor will perform an agreed upon desk-based
+            Each year, the 250 PM Committee Auditor will perform an agreed upon desk based
             procedures audit (as directed by the 250 PM Committee) of each tournament’s Gross
             Revenues included in the 250 Submission and report to the 250 PM Committee any
             issues that it may identify as a result of these procedures for which the 250 PM 

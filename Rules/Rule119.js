@@ -129,7 +129,7 @@ export default function Rule119({ navigation }) {
 
               {'\n\n'}
               3) All fines shall be paid by the tournament by delivery to the Senior Vice President
-              - Rules & Competition within twenty-one (21) days after receipt of written notice.
+              - Rules & Competition within twenty one (21) days after receipt of written notice.
               {'\n\n'}
               4) Any tournament found to have violated an ATP rule, regulation or condition of
               approval that results in a fine, may, after paying all fines, petition the ATP CEO
@@ -137,7 +137,7 @@ export default function Rule119({ navigation }) {
               Fines Committee for fines up to $10,000 or the ATP Standards Committee for
               fines over $10,000. This petition shall be in writing and must be filed with the
               ATP CEO, Senior Vice President - Rules & Competition, or the ATP Members
-              Fine Committee/ATP Standards Committee (as applicable) within twenty-one (21)
+              Fine Committee/ATP Standards Committee (as applicable) within twenty one (21)
               days after notice of the determination and penalty is received by the tournament.
               (The Senior Vice President - Rules & Competition/ATP Members Fines Committee, where applicable, shall forward the review petition promptly to the ATP CEO
               or ATP Members FInes Commiteee/ATP Standards Committee (as applicable)).
@@ -169,7 +169,7 @@ export default function Rule119({ navigation }) {
               {'\n\n'}
               5) If the penalty imposed on the tournament includes a recommendation for loss
               or change in tournament membership status, that recommendation shall be reviewed by the ATP Board, which may implement, modify or reject the recommendation of the Senior Vice President - Rules & Competition/ATP Members Fines
-              Committee or ATP Standards Committee. The imposition of any non-fine penalty
+              Committee or ATP Standards Committee. The imposition of any non fine penalty
               by the ATP Board shall be made in accordance with the By-laws.
               {'\n\n'}
               6) Service of any document on a tournament as is required by this section shall be

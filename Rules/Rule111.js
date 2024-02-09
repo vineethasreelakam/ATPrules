@@ -344,7 +344,7 @@ export default function Rule111({ navigation }) {
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>4) Between Singles Semi-final and Singles Final</HighlightText>
                             {'\n\n'}
-                            a) When the two (2) semi-final matches are not to be played consecutively, then
+                            a) When the two (2) semi final matches are not to be played consecutively, then
                             the scheduled start time of the final shall be no earlier than eighteen (18)
                             hours from the scheduled start time of the second semi-final match. In the
                             case where the two (2) semi-final matches are to be played consecutively
@@ -408,7 +408,7 @@ export default function Rule111({ navigation }) {
                             <HighlightText style={RuleStyles.SubHeading3}>Rain Delayed Semi-final, When to Play Final?</HighlightText>
                             {'\n\n'}
                             <HighlightText style={RuleStyles.SubHeading3}>Case:</HighlightText> Rain on Saturday prevents both semi-final singles from being
-                            played. The second semi-final is played on Sunday morning, with
+                            played. The second semi final is played on Sunday morning, with
                             the winner due to play the final that afternoon. Can the winner of the
                             second semi-final insist on a Monday final?
                             {'\n\n'}

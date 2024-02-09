@@ -23,7 +23,7 @@ export default function Rule120({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading3}>Entry Obligations. </HighlightText>
             No player or team entered into the main draw or moved into
             the main draw as a direct acceptance of a tournament may withdraw after the
-            entry and withdrawal deadline or not appear for first-round match(es) without penalty as described below. The Senior Vice President, Rules & Competition shall
+            entry and withdrawal deadline or not appear for first round match(es) without penalty as described below. The Senior Vice President, Rules & Competition shall
             make such investigation as is reasonable to determine the facts regarding any
             such entry offense and, upon determining that a violation has occurred, shall
             specify the fine.
