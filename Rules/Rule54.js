@@ -17,25 +17,25 @@ export default function Rule54({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>5.03 Public Relations (“PR”)</HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>A.Appointment</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.Appointment</HighlightText>
             {'\n\n'}
-            1) ATP will provide a PR representative for each ATP Tour tournament to coordinate
+            {'\t\t'}1) ATP will provide a PR representative for each ATP Tour tournament to coordinate
             advance publicity, help organize facilities and provide media assistance on-site.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>B.Responsibilities </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.Responsibilities </HighlightText>
             {'\n\n'}
-            1) The PR representative shall liaise with journalists, players and sponsors.
+            {'\t\t'}1) The PR representative shall liaise with journalists, players and sponsors.
             {'\n\n'}
-            2) The PR representative shall organize and supervise post-match press conferences.
+            {'\t\t'}2) The PR representative shall organize and supervise post-match press conferences.
             {'\n\n'}
-            3) The PR representative shall coordinate exclusive interviews.
+            {'\t\t'}3) The PR representative shall coordinate exclusive interviews.
             {'\n\n'}
-            4) The PR representative shall provide statistical and biographical information to
+            {'\t\t'}4) The PR representative shall provide statistical and biographical information to
             journalists.
             {'\n\n'}
-            5) The PR representative shall disseminate information to international journalists.
+            {'\t\t'}5) The PR representative shall disseminate information to international journalists.
             {'\n\n'}
-            6) The PR representative shall suggest story lines to journalists.
+            {'\t\t'}6) The PR representative shall suggest story lines to journalists.
 
             {'\n\n'}
             {'\n\n'}

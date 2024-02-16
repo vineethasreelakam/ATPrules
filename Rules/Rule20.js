@@ -36,8 +36,8 @@ export default function Rule20({ navigation }) {
 
 
             B.The recommended attendance criteria for each ATP Tour tournament is as follows:{'\n\n'}
-            1) Minimum attendance for the week.{'\n\n'}
-            2) Average minimum attendance per session during the final weekend (Friday
+            {'\t'}1) Minimum attendance for the week.{'\n\n'}
+            {'\t'}2) Average minimum attendance per session during the final weekend (Friday
             through Sunday) of play in excess of 75% capacity for the Center court.
             Specific recommendations and methods are specified in “Exhibit D”.
 

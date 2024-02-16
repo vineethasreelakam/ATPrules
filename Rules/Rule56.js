@@ -21,32 +21,32 @@ export default function Rule56({ navigation }) {
             following the conclusion of the Nitto ATP Tour Finals. The criteria for becoming a Tier
             I or II Agent is defined below.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>A.Tier I</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.Tier I</HighlightText>
             {'\n\n'}
-            1) Minimum of five (5) years of service, beginning with the first year’s representation
+            {'\t\t'}1) Minimum of five (5) years of service, beginning with the first year’s representation
             of an ATP player, and
             {'\n\n'}
-            2) Agent’s Player must be active, and
+            {'\t\t'}2) Agent’s Player must be active, and
             {'\n\n'}
-            3) Number of Singles Players representing
+            {'\t\t'}3) Number of Singles Players representing
             {'\n\n'}
-            a) Ranking 1-10 = 1 player, or
+            {'\t\t\t'}a) Ranking 1-10 = 1 player, or
             {'\n\n'}
-            b) Ranking 11-50 = 2 players, or
+            {'\t\t\t'}b) Ranking 11-50 = 2 players, or
             {'\n\n'}
-            c) Ranking 11-100 = 4 players, or
+            {'\t\t\t'}c) Ranking 11-100 = 4 players, or
             {'\n\n'}
-            4) Number of Doubles Players representing
+            {'\t\t'}4) Number of Doubles Players representing
             {'\n\n'}
-            a) Ranking 1-20 = 4
+            {'\t\t\t'}a) Ranking 1-20 = 4
             {'\n\n'}
-            b) If agent does not represent four (4) doubles players, each doubles player
+            {'\t\t\t'}b) If agent does not represent four (4) doubles players, each doubles player
             ranked in the top 20 shall count as ½ player towards meeting the singles
             criteria.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>B.Tier II</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.Tier II</HighlightText>
             {'\n\n'}
-            Agents that do not meet the criteria to be in Tier I may apply for consideration as a
+            {'\t\t'}Agents that do not meet the criteria to be in Tier I may apply for consideration as a
             Tier II Agent. There are no benefits associated with Tier II classification
             {'\n\n'}
 

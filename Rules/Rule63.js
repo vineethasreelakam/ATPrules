@@ -18,7 +18,7 @@ export default function Rule63({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>5.12 ATP/GRAND SLAMS/ITF/WTA Code of Conduct for Officials</HighlightText>
             {'\n\n'}
-            A.The ATP, the Grand Slam Tournaments, the ITF and the WTA as members of the Joint
+            {'\t'}A.The ATP, the Grand Slam Tournaments, the ITF and the WTA as members of the Joint
             Certification Programme require a high standard of professionalism from all Certified
             Officials (National, Green, White, Bronze, Silver and Gold) and all other Officials,
             (together, “Officials”) working at ATP, Grand Slam, ITF and WTA events. All Officials
@@ -28,14 +28,14 @@ export default function Rule63({ navigation }) {
             place prior to his/her retirement.
             {'\n\n'}
 
-            The full text of the Code of Conduct for Officials can be found at the following website:
+            {'\t'}The full text of the Code of Conduct for Officials can be found at the following website:
             {'\n\n'}
             <HighlightText
             style={RuleStyles.hyperlinkStyle}
             onPress={() => {
               Linking.openURL('https://www.itftennis.com/en/about-us/governance/rules-and-regulations/');
             }}>
-            weblink.
+            {'\t'}weblink.
           </HighlightText>             
             {'\n\n'}
             {'\n\n'}

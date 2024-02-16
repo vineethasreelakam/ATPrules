@@ -17,83 +17,83 @@ export default function Rule66({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.02 Match and Practice Courts</HighlightText>
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
                         Each tournament must provide match and practice courts as follows:
                         {'\n\n'}
-                        ATP Tour Masters 1000
+                        {'\t\t\t'}ATP Tour Masters 1000
                         96-draw (Combined)
                         9 match courts
                         8 practice courts (on-site)
                         {'\n\n'}
-                        ATP Tour Masters 1000
+                        {'\t\t\t'}ATP Tour Masters 1000
                         96-draw (Outdoors)
                         6 match courts
                         4 practice courts (on-site)
                         {'\n\n'}
-                        ATP Tour Masters 1000
+                        {'\t\t\t'}ATP Tour Masters 1000
                         56-draw
                         (Outdoors and Combined)
                         8 match courts
                         8 practice courts (on-site)
                         {'\n\n'}
-                        (Outdoors and Combined)
+                        {'\t\t'}(Outdoors and Combined)
                         {'\n\n'}
-                        ATP Tour Masters 1000
+                        {'\t\t\t'}ATP Tour Masters 1000
                         56-draw (Indoors)
                         3 match courts
                         4 practice courts (minimum 1 on-site)
                         {'\n\n'}
-                        ATP Tour 500
+                        {'\t\t\t'}ATP Tour 500
                         (Outdoors and Combined)
                         5 match courts
                         4 practice courts (minimum 3 on-site)
                         {'\n\n'}
-                        ATP Tour 500 (Outdoors) 3 match courts
+                        {'\t\t\t'}ATP Tour 500 (Outdoors) 3 match courts
                         4 practice courts (minimum 3 on-site)
                         {'\n\n'}
-                        ATP Tour 500 (Indoors) 2 match courts
+                        {'\t\t\t'}ATP Tour 500 (Indoors) 2 match courts
                         4 practice courts (minimum 1 on-site)
                         {'\n\n'}
-                        ATP Tour 250 (Outdoors) 3 match courts
+                        {'\t\t\t'}ATP Tour 250 (Outdoors) 3 match courts
                         1 practice court for every 16 players in
                         singles draw (minimum 2)
                         {'\n\n'}
-                        ATP Tour 250 (Indoors) 2 match courts
+                        {'\t\t\t'}ATP Tour 250 (Indoors) 2 match courts
                         1 practice court for every 16 players in
                         singles draw (minimum 2)
                         {'\n\n'}
-                        ATP Challenger Tour
+                        {'\t\t\t'}ATP Challenger Tour
                         (Outdoors)*
                         3 match courts
                         1 practice court for every 16 players in
                         singles draw (minimum 2)
                         {'\n\n'}
-                        ATP Challenger Tour (Indoors) 2 match courts
+                        {'\t\t\t'}ATP Challenger Tour (Indoors) 2 match courts
                         1 practice court for every 16 players in
                         singles draw (minimum 2**)
                         {'\n\n'}
 
-                        All courts must be the same surface, color, speed and conditions.
+                        {'\t\t\t'}All courts must be the same surface, color, speed and conditions.
                         {'\n\n'}
-                        For combined events, the minimum number of match/practice courts must be
+                        {'\t\t\t'}For combined events, the minimum number of match/practice courts must be
                         available exclusively to ATP.
                         {'\n\n'}
-                        * Minimum number of match/practice courts will be reviewed and approved on a
+                        {'\t\t'}* Minimum number of match/practice courts will be reviewed and approved on a
                         case by case basis. Factors considered when determining minimum number of
                         courts include, but are not limited to, daylight hours, night sessions, number of
                         lighted courts meeting or exceeding minimum requirement.
                         {'\n\n'}
-                        ** Existing indoor events where meeting the minimum requirement is not possible
+                        {'\t\t'}** Existing indoor events where meeting the minimum requirement is not possible
                         may appeal for a waiver.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>All match and practice courts must be the same surface, speed and conditions as the
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>All match and practice courts must be the same surface, speed and conditions as the
                         main draw and must be available for practice from 9:00 A.M. on Friday prior to the
                         start of the tournament until the conclusion of the tournament. For outdoor tournaments the practice courts must be available for practice at a minimum of two (2) complete days prior to the start of the tournament.
                         {'\n\n'}
-                        For ATP Challenger Tour tournaments, practice courts to be available from 12:00
+                        {'\t\t'}For ATP Challenger Tour tournaments, practice courts to be available from 12:00
                         Noon on the Saturday preceding the start of the tournament (Friday, in case of Sunday to Saturday schedule).
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>Courts must be set up to provide normal support, including a practice desk, balls,
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>Courts must be set up to provide normal support, including a practice desk, balls,
                         drinks (bottled water), fruit, sawdust and towels.
                         {'\n\n'}
 

@@ -19,10 +19,10 @@ export default function Rule69({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.05 Security at Tournaments</HighlightText>
                         {'\n\n'}
-                        A.Each tournament has the responsibility to provide adequate security at the tournament site. Players have the responsibility to report any threat or unusual occurrence
+                        {'\t'}A.Each tournament has the responsibility to provide adequate security at the tournament site. Players have the responsibility to report any threat or unusual occurrence
                         to the Tournament Director, Supervisor or Senior Vice President - Rules & Competition when at a tournament.
                         {'\n\n'}
-                        B.The continual use of laptop computers or other handheld electronic devices within the confines (spectator area) of the tournament match courts shall be prohibited
+                        {'\t'}B.The continual use of laptop computers or other handheld electronic devices within the confines (spectator area) of the tournament match courts shall be prohibited
                         and each tournament shall take reasonable steps to enforce such prohibition. The
                         exception to this provision is properly credentialed media, tournament vendors and
                         tournament staff when used in the performance of their duties
