@@ -18,32 +18,32 @@ export default function Rule171({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT P - Privacy Notice (“HIPAA”)</HighlightText>{'\n\n'}
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>NOTICE OF PRIVACY PRACTICES AND CONSENT
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>NOTICE OF PRIVACY PRACTICES AND CONSENT
             </HighlightText>{'\n\n'}
-            This notice is being provided in connection with the Health Insurance Portability and
+            {'\t'}This notice is being provided in connection with the Health Insurance Portability and
             Accountability Act of 1996 (“HIPAA”). Although ATP is not bound to comply with all
             aspects of HIPAA, ATP is committed to making sure that players are aware of the
             manner in which personal health information will be used, maintained and released.
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>THIS NOTICE DESCRIBES HOW THE ATP TOUR (the “ATP”; FOR THE PURPOSES OF THIS EXHIBIT, INCLUDED IN THE DEFINITION OF “ATP” SHALL BE
+            {'\t'}<HighlightText style={RuleStyles.SubHeading3}>THIS NOTICE DESCRIBES HOW THE ATP TOUR (the “ATP”; FOR THE PURPOSES OF THIS EXHIBIT, INCLUDED IN THE DEFINITION OF “ATP” SHALL BE
               NON-ATP EMPLOYED STAFF AT CHALLENGER TOURNAMENTS WHO PROVIDE MEDICAL ASSISTANCE) MAY USE AND DISCLOSE YOUR MEDICAL INFORMATION, AND HOW YOU CAN GAIN ACCESS TO YOUR PERSONAL AND
               PROTECTED HEALTH INFORMATION (“PHI”); PLEASE REVIEW CAREFULLY.
             </HighlightText>
             {'\n\n'}
-            ATP is committed to maintaining the confidentiality of your PHI, in accordance with
+            {'\t'}ATP is committed to maintaining the confidentiality of your PHI, in accordance with
             applicable federal and applicable state privacy laws, as well as our own company
             privacy policies. This notice describes how we may use and disclose your PHI and
             explains your legal rights regarding PHI. This notice also describes certain risks associated with Players and others utilizing a Physiotherapist Treatment Room or other
             facility.
             {'\n\n'}
-            When we use the term “PHI”, we mean information about you, including any health
+            {'\t'}When we use the term “PHI”, we mean information about you, including any health
             care payment, medical or demographic information that can reasonably be used to
             identify you and relates to your medical history. This includes, but is not limited to,
             injuries, illnesses, sickness, diseases, health care providers and laboratory and other
             test results.
             {'\n\n'}
-            This notice is effective on January 1, 2010. The terms of this notice apply to all
+            {'\t'}This notice is effective on January 1, 2010. The terms of this notice apply to all
             records containing your PHI that are created or retained by ATP. We reserve the
             right to revise or amend this notice. Any revision or amendment to this notice will be
             effective for all of your records that ATP has created or maintained in the past, and for
@@ -60,26 +60,26 @@ export default function Rule171({ navigation }) {
 
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>HOW ATP MAY USE AND DISCLOSE YOUR PHI
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>HOW ATP MAY USE AND DISCLOSE YOUR PHI
             </HighlightText>{'\n\n'}
-            In order to provide you with certain health and other services, we may create or
+            {'\t'}In order to provide you with certain health and other services, we may create or
             receive PHI relating to you. In coordinating and administering services, we may use
             and disclose your PHI in various ways, including:
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>1) Treatment.
+            {'\t'}<HighlightText style={RuleStyles.SubHeading3}>1) Treatment.
             </HighlightText>
             ATP may use your PHI to assist in your treatment by providers. For
             example, a Physiotherapist or the medical director of a tournament may access
             your PHI to understand and better treat your condition.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>2) Health Care Operations.
+            {'\t'}<HighlightText style={RuleStyles.SubHeading3}>2) Health Care Operations.
             </HighlightText>
             We may use and disclose PHI during the course of
             managing our business. For example, we may use your PHI to internally evaluate the quality of care that you received, to conduct internal company audits, for
             data information systems management, to conduct company cost management
             assessments, for evaluations and for general business planning purposes.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>3) Payment.
+            {'\t'}<HighlightText style={RuleStyles.SubHeading3}>3) Payment.
             </HighlightText>
             Your PHI may be requested by a third party for billing purposes, with
             regard to services provided to you, to conduct utilization and medical necessity
@@ -87,7 +87,7 @@ export default function Rule171({ navigation }) {
             calculate cost sharing amounts, and to respond to audits or reviews by federal or
             state government agencies, insurance companies or carriers.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>4) Qualified Service Organizations and Business Associates.
+            {'\t'}<HighlightText style={RuleStyles.SubHeading3}>4) Qualified Service Organizations and Business Associates.
             </HighlightText>
             We may share
             your PHI with qualified service organizations, national federations or business
@@ -96,12 +96,12 @@ export default function Rule171({ navigation }) {
             share the minimum PHI necessary for these entities to carry out their duties to
             ATP.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>5) Patient Information Purposes.
+            {'\t'}<HighlightText style={RuleStyles.SubHeading3}>5) Patient Information Purposes.
             </HighlightText>
             We may use your PHI to inform you about potential treatment alternatives or options, and to notify you of other health related
             benefits and services that may be of interest to you.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>6) Disclosures in Accordance with Florida Law, Required by Law and Governing Law.
+            {'\t'}<HighlightText style={RuleStyles.SubHeading3}>6) Disclosures in Accordance with Florida Law, Required by Law and Governing Law.
             </HighlightText> {'\n\n'}
             By signing the Player’s Consent and Agreement to the ATP Official Rulebook, you
             are agreeing that, for purposes of medical consent and release of records, the
@@ -117,7 +117,7 @@ export default function Rule171({ navigation }) {
             of adverse drug reactions, notifications for recalled products or devices, required
             reports for certain diseases).
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>7) Serious Threats to Health or Safety.
+            {'\t'}<HighlightText style={RuleStyles.SubHeading3}>7) Serious Threats to Health or Safety.
             </HighlightText>
             We may disclose your PHI as necessary
             to reduce or prevent a serious threat to your health and safety, or the health and
@@ -140,49 +140,49 @@ export default function Rule171({ navigation }) {
 
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>YOUR LEGAL RIGHTS REGARDING PHI
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>YOUR LEGAL RIGHTS REGARDING PHI
             </HighlightText>{'\n\n'}
-            HIPAA gives you certain rights with respect to your PHI. You have the right to:
-            {'\n\n'}• Ask us to communicate with you in a certain way or at a certain location. We
+            {'\t'}HIPAA gives you certain rights with respect to your PHI. You have the right to:
+            {'\n\n\t'}• Ask us to communicate with you in a certain way or at a certain location. We
             will accommodate reasonable requests.
-            {'\n\n'}• Request that we restrict the way we use or disclose your PHI in connection
+            {'\n\n\t'}• Request that we restrict the way we use or disclose your PHI in connection
             with health care operations, payment and treatment. We will consider, but
             may not agree to, such requests. You also have the right to ask us to restrict
             disclosures to persons involved in your health care.
-            {'\n\n'}• Obtain a copy of certain portions of your PHI, subject to applicable federal,
+            {'\n\n\t'}• Obtain a copy of certain portions of your PHI, subject to applicable federal,
             state and local laws, rules and regulations. We may ask you to make your
             request in writing, may charge a reasonable fee for producing and mailing the
             copies, and in certain cases may deny the request.
-            {'\n\n'}• Amend PHI that you believe to be incorrect. Your request must be in writing
+            {'\n\n\t'}• Amend PHI that you believe to be incorrect. Your request must be in writing
             and must include the reason for the request. If we deny the request, you may
             file a written statement of disagreement.
-            {'\n\n'}• Have us provide you with a list of certain disclosures of PHI we have made
+            {'\n\n\t'}• Have us provide you with a list of certain disclosures of PHI we have made
             about you. Your request must be in writing. If you request such an accounting more than once in a twelve month period, we may charge a reasonable
             fee.
-            {'\n\n'}• File a complaint if you think your privacy rights have been violated. You will
+            {'\n\n\t'}• File a complaint if you think your privacy rights have been violated. You will
             not be penalized or retaliated against for filing a complaint. To file a complaint, you must contact the United States Department of Health and Human
             Services, Office of Civil Rights. For more information about how to file a
             complaint, please visit www.hhs.gov/ocr/hipaa.
-            {'\n\n'}
+            {'\n\n\t'}
             By signing the Player’s Consent and Agreement to the ATP Official Rulebook, you
             acknowledge that any health information that is disclosed in accordance with this
             authorization form might be redisclosed by the recipient of that information and
             may no longer be protected by federal health care privacy laws and rules.
-            {'\n\n'}
+            {'\n\n\t'}
             If you have questions regarding your PHI, confidentiality of your PHI, or this Notice, please contact:
             {'\n\n'}
-            {'\n\n'}ATP Tour, Inc.
-            {'\n\n'}Attn: <HighlightText style={RuleStyles.SubHeading3}>Player Relations Department</HighlightText>
-            {'\n\n'}201 ATP Tour Blvd
-            {'\n\n'}Ponte Vedra Beach, Florida 32082
+            {'\n\n\t'}ATP Tour, Inc.
+            {'\n\n\t'}Attn: <HighlightText style={RuleStyles.SubHeading3}>Player Relations Department</HighlightText>
+            {'\n\n\t'}201 ATP Tour Blvd
+            {'\n\n\t'}Ponte Vedra Beach, Florida 32082
 
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>GENERAL PRIVACY CONSIDERATIONS RELATING TO PHYSIOTHERAPIST
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>GENERAL PRIVACY CONSIDERATIONS RELATING TO PHYSIOTHERAPIST
               ROOMS AND TREATMENT ROOMS
             </HighlightText>
             {'\n\n'}
-            This notice also is intended to remind you that the ATP Physiotherapist and/or
+            {'\t'}This notice also is intended to remind you that the ATP Physiotherapist and/or
             Treatment Rooms provided at the Tournaments are not designated as a private
             area. Should you choose to receive treatment there, or discuss confidential information (health or otherwise), it is possible that this information may be overheard
             by individuals that have no obligation to refrain from further disclosure of such
@@ -195,7 +195,7 @@ export default function Rule171({ navigation }) {
             capturing of any PHI or other personal/confidential information or the subsequent
             disclosure of the same.
             {'\n\n'}
-            Should you wish to ensure the confidential nature of health or other information,
+            {'\t'}Should you wish to ensure the confidential nature of health or other information,
             we encourage you to receive treatment in a secure environment of your choosing.
 
 

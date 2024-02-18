@@ -17,24 +17,24 @@ export default function Rule92({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>7.02 Entries</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>A.Gender / Age Limitation</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         ATP will use the age of a player on the first (1st) day of the qualifying competition.
                         Male players age sixteen (16) or older are not limited in the number of tournaments
                         they may enter. Players under the age of sixteen (16) are subject to the following
                         entry restrictions in ATP Tour or ATP Challenger Tour tournaments (includes entry as
                         a wildcard):
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         1) Male players under the age of fourteen (14) shall not be eligible for entry into any
                         ATP Tour or ATP Challenger Tour tournament.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         2) Male players aged fourteen (14) shall be eligible for entry into a maximum of
                         eight (8) ATP Tour or ATP Challenger Tour tournaments.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         3) Male players aged fifteen (15) shall be eligible for entry into a maximum of twelve
                         (12) ATP Tour and ATP Challenger Tour tournaments.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>4) Transgender Athlete Participation. </HighlightText>A trans male (FTM) athlete who has received a medical exception for treatment with testosterone* for diagnosed Gender Identity Disorder or gender dysphoria and/or Transsexualism, for purposes
                         of competition may compete on the ATP Tour or ATP Challenger Tour. A trans
                         male (FTM) athlete who is not taking testosterone related to gender transition

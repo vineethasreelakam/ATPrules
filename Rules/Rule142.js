@@ -22,7 +22,7 @@ export default function Rule142({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule142_1.png'}}/>
           
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n\t'}
             place the ATP Tour Official
             Tournament Stamp alongside sponsor
             logos or add it to sponsor logo strips.
@@ -31,7 +31,7 @@ export default function Rule142({ navigation }) {
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule142_2.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n\t'}
             make the WTA Logo visually larger
             than the ATP Tour Official Tournament
             Stamp. DO NOT place sponsor logos
@@ -42,7 +42,7 @@ export default function Rule142({ navigation }) {
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule142_3.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n\t'}
             break the exclusion area for sponsor logos.
             {'\n\n'}
           </HighlightText>
@@ -50,7 +50,7 @@ export default function Rule142({ navigation }) {
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule142_4.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n\t'}
             make the size of the ATP Tour Official
             Tournament Stamp smaller than 30% of
             the surface area of the tournament logo

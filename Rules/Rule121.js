@@ -17,30 +17,30 @@ export default function Rule121({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>8.05 Player Major Offenses/Procedures</HighlightText>{'\n\n'}
 
-            {'\n\n'}
+            {'\n\n\t'}
             <HighlightText style={RuleStyles.SubHeading2}>A.Offenses</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>1) Aggravated Behavior</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             a) No player, their coaches, Physiotherapist, therapist, physician, management
             representative, agent, family member, tournament guest, business associate
             or other affiliate or associate of any player (“Related Persons”), or any other
             person who receives accreditation at an Event at the request of the player or
             any other Related Person, at any ATP Tour or ATP Challenger Tour tournament shall engage in aggravated behavior which is defined as follows:
-            {'\n\n'}
+            {'\n\n\t\t\t\t'}
             i) One or more incidents of behavior designated in this Code as constituting
             aggravated behavior.
-            {'\n\n'}
+            {'\n\n\t\t\t\t'}
             ii) One incident of behavior that is flagrant and particularly injurious to the
             success of a tournament, or is singularly egregious, including the sale of
             credentials.
-            {'\n\n'}
+            {'\n\n\t\t\t\t'}
             iii) A series of two (2) or more violations of this Code within a twelve (12)
             month period which singularly do not constitute aggravated behavior, but
             when viewed together establish a pattern of conduct that is collectively
             egregious and is detrimental or injurious to ATP Tour or ATP Challenger
             Tour tournaments.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             b) Violation of this section shall subject a player to a fine up to $100,000 or the
             amount of prize money won at the tournament, whichever is greater, and/or
             suspension from play in ATP Tour and ATP Challenger Tour tournaments or
@@ -50,12 +50,12 @@ export default function Rule121({ navigation }) {
             appeal, commencing on the Monday after a final decision on appeal. Violation
             of this Section by a Related Person may result in a maximum penalty of permanent revocation of accreditation and denial of access to all ATP Tour and
             ATP Challenger Tour Tournaments.
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>2) Conduct Contrary to the Integrity of the Game</HighlightText>
             The favorable reputation of ATP, its tournaments and players is a valuable asset
             and creates tangible benefits for all ATP members. Accordingly, it is an obligation
             for ATP players and Related Persons, to refrain from engaging in conduct contrary to the integrity of the game of tennis.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             a) Conduct contrary to the integrity of the game shall include, but not be limited
             to, publicized comments that unreasonably attack or disparage any person or
             group of people, a tournament, sponsor, player, official or ATP. Responsible
@@ -64,38 +64,38 @@ export default function Rule121({ navigation }) {
             should reasonably know, will harm the reputation or financial best interests of
             a tournament, player, sponsor, official or ATP are expressly covered by this
             section.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             b) A player, or related person, that has at any time behaved in a manner severely damaging to the reputation of the sport, including submitting a falsified
             Covid-19 vaccination record, may be deemed by virtue of such behavior to
             have engaged in conduct contrary to the integrity of the Game of Tennis and
             be in violation of this Section.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             c) A player, or related person, convicted of a violation of a criminal or civil law of
             any jurisdiction may be deemed by virtue of such conviction to have engaged
             in conduct contrary to the integrity of the Game of Tennis.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             d) A player, or related person, charged with a violation of a criminal or civil law
             of any jurisdiction may be deemed by virtue of such charge to have engaged
             in conduct contrary to the integrity of the Game of Tennis and the ATP Members Fines
             Committee may provisionally suspend such player, or related person, from
             further participation in ATP tournaments pending a final determination of the
             criminal or civil proceeding.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             e) Violation of this section shall subject the player to a fine of up to $250,000
             and/or suspension from play in ATP Tour or ATP Challenger Tour tournaments
             for a period of up to three (3) years. Violation of this Section by a Related
             Person may result in a maximum penalty of permanent revocation of accreditation and denial of access to all ATP Tour and ATP Challenger Tour Tournaments.
 
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>3) Prohibited Promotional Fees</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             a) ATP Tour 500 and 250 tournaments have the option to offer fees for promotional services. No other ATP Tour or ATP Challenger Tour tournament owner,
             operator, sponsor or agent is permitted to offer, give or pay money or anything
             of value, nor shall the tournament permit any other person or entity to offer,
             give or pay money or anything of value to a player, directly or indirectly, to
             influence or assure a player’s competing in a tournament, other than prize
             money, unless authorized to do so by ATP.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             b) Violation of this section shall subject the player to a fine up to $20,000 for
             ATP Challenger Tour tournaments, $30,000 for ATP Tour 250 tournaments,
             $40,000 for ATP Tour 500 tournaments, $60,000 for ATP Tour Masters 1000
@@ -106,7 +106,7 @@ export default function Rule121({ navigation }) {
             case of appeal, commencing on the Monday after a final decision on appeal.
             The maximum fine will increase by one hundred percent (100%) for each
             consecutive violation during the same calendar year.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             c) If the ATP Members Fines Committee believes that a player may be violating this section, then upon demand, the player or his agent, must furnish or provide access to the ATP Members Fines Committee copies of all records relating to their participation in or, in the absence of such records, an affidavit setting forth the
             facts with respect to any transaction in question. In the event a player fails to
             provide the records or affidavit, the ATP Members Fines Committee may suspend him
@@ -114,50 +114,50 @@ export default function Rule121({ navigation }) {
             compliance with such demand.
 
 
-            {'\n\n'}
+            {'\n\n\t'}
             <HighlightText style={RuleStyles.SubHeading2}>B.Procedures</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>1) Determination and Penalty</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             The ATP Members Fines Committee shall conduct such investigation of an alleged player
             major offense as they, in their sole discretion, determine is appropriate and necessary. Upon completion of their investigation, the ATP Members Fines Committee shall determine whether a player major offense has occurred and, if so, shall fix a penalty
             to be imposed. A copy of the decision setting forth such penalty shall be promptly
             delivered to the player.
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>2) Payment of Fines</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             The player shall pay all fines levied for player major offenses to ATP by delivery
             to the ATP Members Fines Committee within twenty-one (21) days after receiving written
             notice.
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>3) Appeal</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             Any player who has received a penalty for a player major offense may, after paying all monetary fines, appeal such determination by filing a written notice with the
             ATP Senior Vice President - Rules & Competition within five (5) days (excluding
             weekends) of such player’s receipt of notice of such determination. Upon receiving such notice of appeal, the ATP Senior Vice President - Rules & Competition
             or his designee shall set a date and place for the hearing.
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>4) Hearing on Appeal</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             The ATP Senior Vice President - Rules & Competition or his designee shall conduct the hearing on appeal in accordance with the following:
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>a) Burden of Proof. </HighlightText>
             The ATP Members  Fines Committee has the responsibility to prove
             the violation by a preponderance of the evidence.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>b) Rules. </HighlightText>
             The ATP Senior Vice President - Rules & Competition or his designee
             must conduct the hearing in a fair and orderly manner with opportunity for
             each side to present its evidence as to the facts involved, and the player and
             his representative, if any, and the ATP Members Fines Committee are bound to cooperate fully to this end.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>c) Statement of Position. </HighlightText>
             The ATP Senior Vice President - Rules & Competition or his designee may request the ATP Members Fines Committee and the player
             to state in writing their respective positions on the facts, the provision(s) of
             the Code allegedly violated and the penalty specified and file the same with
             the ATP Senior Vice President - Rules & Competition or his designee at least
             three (3) days prior to the hearing, with a copy to each other.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>d) Presentation. </HighlightText>
             The ATP Members Fines Committee and the player may present evidence personally or through counsel. Each party shall have the right to
             present and to cross-examine witnesses, and to offer documentary evidence
@@ -171,7 +171,7 @@ export default function Rule121({ navigation }) {
             to testify at the hearing, or alternatively, that such affidavit be excluded. In the
             case of the former, a reasonable continuance may be granted for production
             of such witness.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>e) Hearing. </HighlightText>
             The hearing shall be closed to the public. Once commenced, the
             hearing shall continue from day to day until concluded, unless the ATP Senior Vice President - Rules & Competition or his designee allows otherwise.
@@ -180,17 +180,17 @@ export default function Rule121({ navigation }) {
             Senior Vice President - Rules & Competition or his designee. Requests for
             postponement shall be submitted in writing to the ATP Senior Vice President
             - Rules & Competition or his designee.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>f) Record. </HighlightText>
             Each party shall have the right to have the hearing recorded or transcribed at its expense.
-            {'\n\n'}
+            {'\n\n\t\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>g) Interpreter-Legal Advisor. </HighlightText>
             The ATP Senior Vice President - Rules & Competition or his designee may, at his discretion, make provisions for the presence of an interpreter and/or legal advisor for the hearing. The reasonable expenses of such interpreter or legal advisor shall be assumed by ATP pending
             the final decision of the ATP Senior Vice President - Rules & Competition or
             his designee and the taxing of costs as is provided in the decision on appeal.
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>5) Decision on Appeal</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             As soon as practicable after the conclusion of the hearing on appeal, the ATP
             Senior Vice President - Rules & Competition or his designee shall render a written
             decision, which decision shall constitute the full, final and complete disposition of
@@ -206,22 +206,22 @@ export default function Rule121({ navigation }) {
             Senior Vice President - Rules & Competition or his designee.
 
 
-            {'\n\n'}
+            {'\n\n\t'}
             <HighlightText style={RuleStyles.SubHeading2}>C.Suspensions and Collection of Fines</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>1) Suspension - Weeks/Scope</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             Whenever any suspension is involved as a penalty for a violation of the Code,
             only weeks with ATP Tour or ATP Challenger Tour tournaments shall be included
             in the suspension period.
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>2) Stay of Suspensions Pending Appeal</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             Whenever a player is suspended by ATP and an appeal either of right or discretionary review is filed, then the suspension shall be stayed pending the resolution
             of the appeal.
-            {'\n\n'}
+            {'\n\n\t\t'}
             <HighlightText style={RuleStyles.SubHeading3}>3) Suspension for Non-Payment of Fines</HighlightText>
-            {'\n\n'}
+            {'\n\n\t\t'}
             If a fine is not paid in a timely fashion, ATP may suspend, pending payment, the
             party fined from further participation in any ATP Tour and ATP Challenger Tour
             tournament. In addition, ATP is authorized to collect all overdue fines along with

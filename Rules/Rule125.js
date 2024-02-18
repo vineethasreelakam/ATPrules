@@ -15,32 +15,32 @@ export default function Rule125({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading1}>9.01 Definitions</HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading1}>9.01 Definitions</HighlightText>{'\n\n\t'}
 
             A.The 2024 Pepperstone ATP Doubles Team Rankings is the mathematical method of
             ranking men’s doubles pairs on a calendar-year basis.
-            {'\n\n'}
+            {'\n\n\t'}
             B.The Pepperstone ATP Rankings and the Pepperstone ATP Doubles Rankings are
             the objective merit-based method used for determining qualification for entry and
             seeding in all tournaments for both singles and doubles.
-            {'\n\n'}
+            {'\n\n\t'}
             C.The Pepperstone ATP Rankings and Pepperstone ATP Doubles Rankings are run
             approximately 45 times per year.
-            {'\n\n'}
+            {'\n\n\t'}
             D.Every player who has earned Pepperstone ATP Rankings points or Pepperstone
             ATP Doubles Rankings points in an eligible professional tournament during the entry
             ranking period is included in the Pepperrstone ATP Rankings or Pepperstone ATP
             Doubles Rankings.
-            {'\n\n'}
+            {'\n\n\t'}
             E. The Pepperstone ATP Rankings or Pepperstone ATP Doubles Rankings period is the
             immediate past 52 weeks, except for:
-            {'\n\n'}
+            {'\n\n\t\t'}
             * Nitto ATP Finals, singles and doubles, which is dropped on the Monday following
             the last ATP Tour event of the following year.
-            {'\n\n'}
+            {'\n\n\t\t'}
             * ITF tournaments that are only entered into the system on the second Monday
             following the tournament’s week.
-            {'\n\n'}
+            {'\n\n\t\t'}
             Once entered, all tournaments, except for the Nitto ATP Finals, remain in the
             system for 52 consecutive weeks.
 

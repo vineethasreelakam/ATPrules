@@ -15,9 +15,9 @@ export default function Rule165({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
-          <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT J - Prize Money</HighlightText>{'\n\n'}
-          <HighlightText style={RuleStyles.SubHeading2}>ATP Tour and ATP Challenger Tour</HighlightText>{'\n\n'}
-Please refer to Detail Sheet for approved prize money breakdowns.
+          <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT J - Prize Money</HighlightText>{'\n\n\t'}
+          <HighlightText style={RuleStyles.SubHeading2}>ATP Tour and ATP Challenger Tour</HighlightText>{'\n\n\t'}
+           Please refer to Detail Sheet for approved prize money breakdowns.
 	   
             
 	  {'\n\n'}

@@ -17,194 +17,194 @@ export default function Rule115({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>7.25 Announcing</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>A.Calls of On-Court Officials</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         The verbal calls of the on-court officials shall be made loudly and clearly in English
                         and any other appropriate language as follows:
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>1) “Fault.” </HighlightText>If either the first or second service fails.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>2) “Out.” </HighlightText>If a return hits the ground, a permanent fixture or another object outside
                         the court.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>3) “Net” </HighlightText>If a service hits the top of the net.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>4) “Footfault” </HighlightText>If a player violates rule 7 or 8 of the Rules of Tennis.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>5) “Let.” </HighlightText>If the Chair Umpire determines that a point should be replayed.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>6) “Not Up.” </HighlightText>If a player fails to hit a ball in play on the first bounce.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>7) “Foul Shot” or “Touch.”</HighlightText> If a ball is intentionally struck twice, or touched before
                         it comes over the net, or while volleying, the ball hits the court after leaving the
                         racquet before going over the net, or a player touches the net while the ball is in
                         play, or a ball in play touches a player, or anything that he wears or carries falls
                         into the opponent’s court or touches the net.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>8) “Hindrance.”</HighlightText> If a player deliberately or involuntarily commits an act which hinders his opponent in making a stroke.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>9) “Through.”</HighlightText> If a ball goes through the net.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>10) “Wait Please.” </HighlightText>To preclude starting play when a hazard or other circumstance
                         makes it appropriate to delay the beginning of a point. Do not make this call if a
                         player’s arm is in motion to strike the ball (call “Let” immediately after the serve is
                         struck).
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>11) Overrule.</HighlightText> Make the following announcement:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>a) “Correction, the ball was in;” or</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>b) “Out” or “Fault.”</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>B.Code and Time Violations </HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         The following are examples of Code of Conduct announcements to be used:
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         1) Point Penalties assessed for violation of the Code should be announced in accordance with the following examples:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Code Violation, Delay of Game, Warning, Mr..___(last name).”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Code Violation, Verbal Abuse, Point Penalty, Mr..___(last name).” “Let’s
                         play” (“Let’s Play” is optional).
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Code Violation, Verbal Abuse, Game Penalty, Mr..___(last name).”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         If instructed by the Supervisor, the announcement for a default shall be, for example:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Code Violation, Unsportsmanlike Conduct, Default, Mr..___(last name).”
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         2) Time Violations resulting from non-compliance with the Unreasonable Delay provisions of the Code shall be announced in accordance with the following examples:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Time Violation, Warning, Mr..___(last name).” (“Let’s Play” is optional.)
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         Subsequent Delays by the Server:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Time Violation, 2nd Service” (“Let’s Play” is optional.)
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         Subsequent Delays by the Receiver:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Time Violation, Point Penalty, Mr..___(last name).”(“Let’s Play” is optional.)
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         3) After a point or game penalty, the new score is announced.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         4) If a Chair Umpire wants the Supervisor to assess an immediate default, he is to
                         announce “Code Violation, Supervisor to the court.”
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         5) A player cannot appeal to the Chair Umpire for the withdrawal of a “Time Violation” or “Code Violation” given to his opponent.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         6) Code Violations shall be announced in English.
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>C.Language - Chair Umpire</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         Chair umpires should announce matches in the language of the tournament and subsequently in English. Conversations between the Chair Umpire and player may be in
                         any language; however, if the language used is not English, then the Chair Umpire
                         must be prepared to advise the other player of the nature of the discussion.
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>D.Medical Time-Out </HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         The following are examples of announcements to be made when there is a medical
                         time-out:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         When the Chair Umpire decides to call for the Physiotherapist, the Chair Umpire
                         shall announce:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “The Physiotherapist has been called to the court.”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         After a three (3) minute time-out is authorized, the Chair Umpire should make the
                         public announcement of:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Mr..________________is now receiving a medical time-out.”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         The following announcements are to be made privately to the Physiotherapist and
                         both players/teams:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Two (2) minutes remaining”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “One (1) minute remaining”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Thirty (30) seconds remaining”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Treatment complete”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Time” (public)
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         Once the “Treatment complete” notice has been given to the Physiotherapist and
                         both players/teams, then if needed, the player should be given the time necessary to put on socks and shoes before “Time” is called.
                         If there is no play after an additional thirty (30) seconds, the delay is penalized in
                         accordance with the Point Penalty Schedule.
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>E. Player Introductions </HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         The following are examples of announcing statements to be used for player introductions:
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         1) If the introduction of players is to be made from the chair, then during the warmup, the Chair Umpire says: “This is a ___round singles/doubles match, best of
                         three (3) tie-break sets. To the right of the chair _____(full name) and to the left of
                         the chair _____(full name).____(full name)won the toss and elected to _____.”
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         2) If the introduction of players is made by a tournament announcer, then before
                         each player’s first service game the Chair Umpire says: “______(full name) to
                         serve.” (optional - “first set “).
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>F. Score </HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         The following are examples of announcing statements to be used for scoring:
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         1) The Server’s score is always called first, except in the Tie-break.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         2) The score is announced: Fifteen-Love, Love-Fifteen, Thirty-Love, Love-Thirty,
                         Forty-Love, Love-Forty, Fifteen-All, Fifteen-Thirty, Thirty-Fifteen, Fifteen-Forty,
                         Forty-Fifteen, Thirty-All, Thirty-Forty, Forty-Thirty, Deuce (never Forty-All), Advantage ____(last name), Game _____(last name). For No-Ad scoring, when the
                         score reaches deuce, the chair should announce: “Deuce, Deciding Point, Receiver’s Choice.”
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         3) The score must be announced loudly and distinctly when a point is finished for the
                         players and the crowd. The Chair Umpire has the option to make the announcement either before or after the applause, whichever guarantees the announcement can be heard by the players. “Timing” for the next point begins when the
                         point ends, not when the announcement is made.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         4) At the end of a game or set the Chair Umpire, in addition to announcing “Game
                         _____(last name),” should announce the score in games in conformity with the
                         following example:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Game Smith, Jones/Smith lead 4 games to 2 (or 4-2)” or Game Smith, 3
                         games all.”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Game and third set, Smith, 7 games to 5. Jones leads 2 sets to 1.”
                         If there is a scoreboard visible to the spectators, then the set number need not be
                         mentioned. In such case only the score in games should be announced: “Game
                         Smith, first game.”
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         5) When a set reaches the Tie-break, the Chair Umpire announces:
                         “Game Smith, 6 games all. Tie-break.”
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         6) During the Tie-break, the score is announced by first giving the score and then the
                         name of the player(s) leading, e.g.:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “1-0, Jones” or “1-0, Jones/Smith” (Use “Zero” rather than “Love” in the Tiebreak.)
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “1 All”
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “2-1,Smith”
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         At the conclusion of the Tie-break, the Chair Umpire announces:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Game and _____set,_____(last name), 7 games to 6 (or 7-6).”
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         7) At the conclusion of the match, the Chair Umpire announces the winner in conformity with the following example:
                         “Game, set and match Smith (optional -3 sets to 2); 3-6, 5-7, 7-5, 6-1, 6-3.”
                         In each set, call first the number of games won by the winner of the match.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         8) During the warm-up, the following examples of announcing statements should be
                         used at the appropriate times:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Three (3) minutes - 3 minutes until warm-up ends.
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Two (2) minutes” - 2 minutes until warm-up ends.
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “One (1) minute” - 1 minute until warm-up ends.
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “Time” (optional - “prepare to play”)- end of warm-up; direct balls to Server’s
                         end of court.
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         “______” (full name), (optional - “first set”), to Serve, Play” - immediately prior
                         to Server preparing to serve.
 

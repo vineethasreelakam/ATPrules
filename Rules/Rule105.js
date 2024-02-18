@@ -17,41 +17,41 @@ export default function Rule105({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>7.15 Number of Seeds</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         The number of seeds shall be as follows:
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>Singles </HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         4 competitors - 2 seeds (singles Q)*
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         16 competitors - 8 seeds (singles Q)
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         24 competitors - 12 seeds (singles Q)
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         28 competitors - 14 seeds (singles (Q)
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         48 competitors - 24 seeds (singles Q)
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         32 compeitiors - 8 Seeds
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         28 competitors - 8 seeds
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         48 competitors - 16 seeds
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         56 competitors - 16 seeds
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         96 competitors - 32 seeds
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>Doubles</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         4 teams - 2 seeds (Qualifying)
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         16 teams - 4 seeds
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         24 teams - 8 seeds
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         32 teams - 8 seeds
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         *ATP Challenger Tour Qualifying only
 
                         {'\n\n'}

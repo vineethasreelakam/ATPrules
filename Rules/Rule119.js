@@ -15,7 +15,7 @@ export default function Rule119({ navigation }) {
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule2.png' }} />
           <ZoomText>
             <HighlightText style={RuleStyles.Description}>
-              <HighlightText style={RuleStyles.SubHeading1}>8.03 Tournament Major Offenses</HighlightText>{'\n\n'}
+              <HighlightText style={RuleStyles.SubHeading1}>8.03 Tournament Major Offenses</HighlightText>{'\n\n\t'}
 
               No ATP Tour or ATP Challenger Tour tournament shall violate any provision of ATP’s
               rules and regulations contained below under the Tournament Major Offense section of the current ATP Official Rule Book. Unless otherwise specified, violation of
@@ -25,9 +25,9 @@ export default function Rule119({ navigation }) {
               in membership status, and/or forfeiture of all sums, if any, previously paid to ATP.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>A.Conduct Contrary to the Integrity of the Game</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               The favorable reputation of ATP, its tournaments and players is a valuable asset and
               creates tangible benefits for all ATP members. Accordingly, it is an obligation for ATP
@@ -36,40 +36,40 @@ export default function Rule119({ navigation }) {
               be limited to, comments to the news media publicized comments that unreasonably
               attack or disparage any person or group of people, a tournament, sponsor, player,
               official or ATP.
-              {'\n\n'}
+              {'\n\n\t\t'}
               Responsible expressions of legitimate disagreement with ATP policies are not prohibited. However, public comments that one of the stated persons above knows,
               or should reasonably know, will harm the reputation or financial best interests of a
               tournament, player, sponsor, official or ATP are expressly covered by this section.
 
 
-              {'\n\n'}
-              <HighlightText style={RuleStyles.SubHeading2}> B.Aggravated Behavior</HighlightText>
-              {'\n\n'}
+              {'\n\n\t'}
+              <HighlightText style={RuleStyles.SubHeading2}>B.Aggravated Behavior</HighlightText>
+              {'\n\n\t\t'}
 
               1) No ATP Tour or ATP Challenger Tour tournament, or any person who directly or
               indirectly has a controlling ownership interest therein or who is the Designated
               Representative (as defined in the ATP By-Laws) or Tournament Director or other
               employee or agent of an ATP Tour or ATP Challenger Tour tournament shall engage in aggravated behavior which is defined as follows:
-              {'\n\n'}
+              {'\n\n\t\t\t'}
               a) One incident of behavior that is flagrant and particularly injurious to the success of the ATP or its members or is singularly egregious.
 
-              {'\n\n'}
+              {'\n\n\t\t\t'}
               b) A series of two (2) or more violations of this Code in consecutive years which
               singularly do not constitute aggravated behavior, but when viewed together
               establish a pattern of conduct that is collectively egregious and is detrimental
               or injurious to ATP and/or its members.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>C.Promotional Fees</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               1) ATP Tour 500 and ATP Tour 250 tournaments have the option to offer fees for promotional services. No other ATP Tour or ATP Challenger Tour tournament owner,
               operator, sponsor or agent is permitted to offer, give or pay money or anything of
               value, nor shall the tournament permit any other person or entity to offer, give or
               pay money or anything of value to a player, directly or indirectly, to influence or
               assure or entice a player’s competing in a tournament or event within the tournament, other than prize money, unless authorized to do so by ATP.
-              {'\n\n'}
+              {'\n\n\t\t'}
               2) In the event the ATP CEO or Senior Vice President - Rules & Competition believes that a tournament may be violating this section, then upon demand, the
               tournament must furnish to the Senior Vice President - Rules & Competition or his
               agent access to and copies of all records to which it has access relating to such
@@ -78,15 +78,15 @@ export default function Rule119({ navigation }) {
               the Senior Vice President - Rules & Competition. In the event a tournament fails
               to provide such records or affidavit for such audit, it may be subject to a fine up
               to $100,000 and termination of membership, pending compliance with such demand.
-              {'\n\n'}
+              {'\n\n\t\t'}
               3) Violation of this section shall subject the tournament to a fine up to $100,000 plus
               the amount or value of any such compensation, and termination of membership,
               and/or forfeiture of all sums, if any, previously paid to ATP.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>D.Wagers and On-Site Tennis Betting</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               No ATP Tour or ATP Challenger Tour tournament, ATP member or any person w h o
               directly or indirectly has a controlling ownership interest therein or who is the Designated Representative (as defined in the ATP By-Laws) or Tournament Director or
@@ -95,9 +95,9 @@ export default function Rule119({ navigation }) {
               with any ATP Tour or ATP Challenger Tour tournament.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>E. Wild Cards</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               No ATP Tour or ATP Challenger Tour tournament, or any person who directly or indirectly has a controlling ownership interest therein or who is the Designated Representative (as defined in the ATP By-Laws) or Tournament Director or other employee
               or agent of an ATP Tour or ATP Challenger Tour tournament shall directly or indirectly,
@@ -105,9 +105,9 @@ export default function Rule119({ navigation }) {
 
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>F. Investigation, Determination, Imposition and Review</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               1) The Senior Vice President - Rules & Competition/ATP Members Fines Committee, as applicable, shall investigate all facts concerning any alleged tournament
               violation of an ATP rule or regulation and shall provide written notice of such
@@ -117,7 +117,7 @@ export default function Rule119({ navigation }) {
               evidence as the tournament deems to be relevant to the investigation. The Senior Vice President - Rules & Competition/ATP Members Fine Committee shall
               conduct the investigation in consultation with the applicable ATP Regional EVP or
               SVP.
-              {'\n\n'}
+              {'\n\n\t\t'}
               2) Upon the completion of the investigation, the Senior Vice President - Rules &
               Competition/ATP Members Fine Committee, as applicable, shall determine the
               innocence or guilt of the tournament involved and, in the latter case, shall state in
@@ -127,10 +127,10 @@ export default function Rule119({ navigation }) {
               tournament with copies to the ATP CEO, or in the case of Standards Violations,
               the ATP Members Fine Committee up to $10,000 or the ATP Standards Committee for fines over $10,000 and the applicable ATP Regional EVP or SVP.
 
-              {'\n\n'}
+              {'\n\n\t\t'}
               3) All fines shall be paid by the tournament by delivery to the Senior Vice President
               - Rules & Competition within twenty one (21) days after receipt of written notice.
-              {'\n\n'}
+              {'\n\n\t\t'}
               4) Any tournament found to have violated an ATP rule, regulation or condition of
               approval that results in a fine, may, after paying all fines, petition the ATP CEO
               for discretionary review, or in the case of Standards Violations, the ATP Members
@@ -166,36 +166,36 @@ export default function Rule119({ navigation }) {
               Committee (as applicable) shall charge to the tournament the reasonable costs
               of the appeal, which shall include, but not be limited to, the reasonable travel and
               living expenses incurred by all witnesses.
-              {'\n\n'}
+              {'\n\n\t\t'}
               5) If the penalty imposed on the tournament includes a recommendation for loss
               or change in tournament membership status, that recommendation shall be reviewed by the ATP Board, which may implement, modify or reject the recommendation of the Senior Vice President - Rules & Competition/ATP Members Fines
               Committee or ATP Standards Committee. The imposition of any non fine penalty
               by the ATP Board shall be made in accordance with the By-laws.
-              {'\n\n'}
+              {'\n\n\t\t'}
               6) Service of any document on a tournament as is required by this section shall be
               deemed completed if mailed to the Tournament Director at the address indicated in the tournament application or as subsequently revised by the tournament
               member. Any written communication to be sent to the ATP CEO or Senior Vice
               President - Rules & Competition, or in the case of Standards Violations, the ATP
               Members Fines Committee/ATP Standards Committee (as applicable) should be
               addressed as follows, unless notice of change is subsequently published.
-              {'\n\n'}
-              {'\n\n'}ATP CEO
-              {'\n\n'}22 Worple Road
-              {'\n\n'}Wimbledon
-              {'\n\n'}SW14 4DD
-              {'\n\n'}Telephone: +44 207 381 7890
-              {'\n\n'}Facsimile: +44 207 381 7895
-              {'\n\n'}
+              {'\n\n\t\t\t\t'}
+              {'\n\n\t\t\t\t\t'}ATP CEO
+              {'\n\n\t\t\t\t\t'}22 Worple Road
+              {'\n\n\t\t\t\t\t'}Wimbledon
+              {'\n\n\t\t\t\t\t'}SW14 4DD
+              {'\n\n\t\t\t\t\t'}Telephone: +44 207 381 7890
+              {'\n\n\t\t\t\t\t'}Facsimile: +44 207 381 7895
+              {'\n\n\t\t\t\t\t'}
               OR
-              {'\n\n'}
-              {'\n\n'}SVP - Rules & Competition or ATP Fines/Standards Committees
-              {'\n\n'}ATP
-              {'\n\n'}201 ATP Tour Blvd.
-              {'\n\n'}Ponte Vedra Beach, FL 32082, USA
-              {'\n\n'}Telephone: +1 904 285 8000
-              {'\n\n'}Facsimile: +1 904 779 3300
+              {'\n\n\t\t\t\t\t'}
+              {'\n\n\t\t\t\t\t'}SVP - Rules & Competition or ATP Fines/Standards Committees
+              {'\n\n\t\t\t\t\t'}ATP
+              {'\n\n\t\t\t\t\t'}201 ATP Tour Blvd.
+              {'\n\n\t\t\t\t\t'}Ponte Vedra Beach, FL 32082, USA
+              {'\n\n\t\t\t\t\t'}Telephone: +1 904 285 8000
+              {'\n\n\t\t\t\t\t'}Facsimile: +1 904 779 3300
 
-              {'\n\n'}
+              {'\n\n\t\t'}
               7) ATP is authorized to obtain collection of all overdue fines along with costs, if any,
               by all reasonable means, including legal proceedings as may be deemed necessary and appropriate.
 

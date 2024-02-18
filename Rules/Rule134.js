@@ -20,26 +20,26 @@ export default function Rule134({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule134_1.png'}}/>
           
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
+           {'\t'}<HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
             WTA Logo{'\n\n'}
-            MUST be the same visual size (cover the same surface area)
+            {'\t'}MUST be the same visual size (cover the same surface area)
             {'\n\n'}
           </HighlightText>
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule134_2.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
             Tournament Logo{'\n\n'}
-            MUST be at a minimum, equal size to the WTA Logo or 30% of the surface area
+            {'\t'}MUST be at a minimum, equal size to the WTA Logo or 30% of the surface area
             of the tournament logo, whichever is greater.
             {'\n\n'}
           </HighlightText>
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule134_3.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
             Tournament Title{'\n\n'}
-            MUST be at a minimum, equal size to the WTA Logo or 30% of the surface area
+            {'\t'}MUST be at a minimum, equal size to the WTA Logo or 30% of the surface area
             of the tournament title, whichever is greater.
             {'\n\n'}
           </HighlightText>

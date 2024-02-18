@@ -16,18 +16,18 @@ export default function Rule129({ navigation }) {
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>9.05 2024 Pepperstone ATP Doubles Team Rankings</HighlightText>{'\n\n'}
-            {'\n\n'}
+            {'\n\n\t'}
             <HighlightText style={RuleStyles.SubHeading3}>A. </HighlightText>
             Each team is ranked according to its total points from its best 19 results from all eligible tournaments (Grand Slam, ATP Tour, including the Nitto ATP Finals, ATP Challenger Tour, ITF Men’s WTT) played in the calendar year.
-            {'\n\n'}
+            {'\n\n\t'}
             <HighlightText style={RuleStyles.SubHeading3}>B.</HighlightText>
             Loser points for the rounds achieved are awarded to players in any tournament not
             completed.
-            {'\n\n'}
+            {'\n\n\t'}
             <HighlightText style={RuleStyles.SubHeading3}>C.Ties. </HighlightText>
             Ties between two or more teams having the same total number of points shall
             be broken using the same methods as for breaking ties between players in the Pepperstone ATP Doubles Rankings.
-            {'\n\n'}
+            {'\n\n\t'}
             <HighlightText style={RuleStyles.SubHeading3}>D.Points. </HighlightText>
             The provisions set forth under 7.08 E., including a), b) and c), apply as well
             when calculating the 2024 Pepperstone ATP Doubles Team Rankings.

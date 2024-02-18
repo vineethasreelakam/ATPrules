@@ -16,23 +16,23 @@ export default function Rule179({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT U - Anti-Doping Testing Facilities Guidelines</HighlightText>{'\n\n'}
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>Doping Control Station
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>Doping Control Station
             </HighlightText>
             The Doping Control Station must be a dedicated facility for the exclusive use of
             the Doping Control team for the duration of the event.
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>Location:
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>Location:
             </HighlightText>
             near the locker room (but not with direct access).
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>Accommodation:
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>Accommodation:
             </HighlightText>
             a minimum of two (and preferably three) connected areas or
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>rooms:
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>rooms:
             </HighlightText>
             a Sample Collection Room and a Waiting Room at a minimum, plus an
             Administration Room if possible, all of which should be air-conditioned or well
@@ -40,7 +40,7 @@ export default function Rule179({ navigation }) {
             (for the sole use of Doping Control).
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>Security:
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>Security:
             </HighlightText>
             If free-standing, a security guard should be posted to restrict admission
             to those with appropriate credentials. It must be lockable, with access restricted
@@ -48,7 +48,7 @@ export default function Rule179({ navigation }) {
             all keys to all rooms for the duration of testing.
 
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>Hygiene:
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>Hygiene:
             </HighlightText>
             The Doping Control Station should be cleaned every day at a time
             agreed with the Doping Control Officer.
@@ -59,7 +59,7 @@ export default function Rule179({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule179_1.png'}}/>
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
-            A suggested layout for a doping control station is shown in the following diagram:
+          {'\t'}A suggested layout for a doping control station is shown in the following diagram:
             {'\n\n'}
           </HighlightText>
           </ZoomText>
