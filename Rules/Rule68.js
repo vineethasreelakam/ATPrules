@@ -18,17 +18,17 @@ export default function Rule68({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.04 Crowd Movement / Spectator Seating</HighlightText>
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>A.Regulation </HighlightText>
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.Regulation </HighlightText>
                         {'\n\n'}
-                        Each ATP Tour tournament shall allow spectators seated above the lowest tier of
+                        {'\t\t'}Each ATP Tour tournament shall allow spectators seated above the lowest tier of
                         seats that surround the playing area of the courts to move to and from their seats at
                         any time during play.
                         {'\n\n'}
 
-                        1) The Tournament Director and the Supervisor will make the designation of the
+                        {'\t\t'}1) The Tournament Director and the Supervisor will make the designation of the
                         lowest tier at each tournament.
                         {'\n\n'}
-                        2) In cases where there is no clear break in the seating configuration, the Tournament Director and the Supervisor shall determine the most logical designation.
+                        {'\t\t'}2) In cases where there is no clear break in the seating configuration, the Tournament Director and the Supervisor shall determine the most logical designation.
                         {'\n\n'}
 
                         {'\n\n'}

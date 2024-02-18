@@ -17,88 +17,88 @@ export default function Rule60({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>5.09 Referee </HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}> A.Assignment and Designation Process</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}> A.Assignment and Designation Process</HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments </HighlightText>
             {'\n\n'}
-            Each tournament is required to hire a certified Referee approved by ATP.
+            {'\t\t\t'}Each tournament is required to hire a certified Referee approved by ATP.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>2) ATP Challenger Tour Tournaments</HighlightText>
             {'\n\n'}
-            Each tournament is required to hire a certified Referee approved by ATP.
+            {'\t\t\t'}Each tournament is required to hire a certified Referee approved by ATP.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>B.Waiver of Obligation – Referee </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.Waiver of Obligation – Referee </HighlightText>
             {'\n\n'}
-            A tournament may petition ATP to waive the Referee requirement. Waivers shall not
+            {'\t\t'}A tournament may petition ATP to waive the Referee requirement. Waivers shall not
             be granted to:
             {'\n\n'}
-            1) Challenger 125 and 175 events
+            {'\t\t'}1) Challenger 125 and 175 events
             {'\n\n'}
-            2) Any new Challenger tournament
+            {'\t\t'}2) Any new Challenger tournament
             {'\n\n'}
-            3) Tournaments played on two (2) separate sites, including qualifying
+            {'\t\t'}3) Tournaments played on two (2) separate sites, including qualifying
             {'\n\n'}
-            4) Back-to-back tournaments (for a minimum of the overlapping week-end)
+            {'\t\t'}4) Back-to-back tournaments (for a minimum of the overlapping week-end)
             {'\n\n'}
-            Furthermore, the following elements shall be used to determine whether or not a
+            {'\t\t'}Furthermore, the following elements shall be used to determine whether or not a
             waiver will be considered:
             {'\n\n'}
-            1) 2-court event
+            {'\t\t'}1) 2-court event
             {'\n\n'}
-            2) Venue size
+            {'\t\t'}2) Venue size
             {'\n\n'}
-            3) Recommendation of the supervisor from previous year that a waiver, if approved,
+            {'\t\t'}3) Recommendation of the supervisor from previous year that a waiver, if approved,
             will not jeopardize the quality of the service.
             {'\n\n'}
-            Where a waiver is granted, tournament shall provide a suitable assistant to the supervisor.
+            {'\t\t'}Where a waiver is granted, tournament shall provide a suitable assistant to the supervisor.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>C.Fees and Expenses</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C.Fees and Expenses</HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour and ATP Challenger Tour Tournaments</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour and ATP Challenger Tour Tournaments</HighlightText>
             {'\n\n'}
-            Each tournament must provide each Referee with single room hotel accommodations, meals and laundry. Complimentary rooms shall be in the player hotel or
+            {'\t\t\t'}Each tournament must provide each Referee with single room hotel accommodations, meals and laundry. Complimentary rooms shall be in the player hotel or
             another hotel approved by ATP or the Supervisor.
             {'\n\n'}
-            Each tournament shall pay a fair and reasonable fee and travel expense to each
+            {'\t\t\t'}Each tournament shall pay a fair and reasonable fee and travel expense to each
             designated and approved Referee hired by the tournament.
             {'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>D.General</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>D.General</HighlightText>
             {'\n\n'}
-            The Referee is hired by the tournament to advise in planning the event and shall
+            {'\t\t'}The Referee is hired by the tournament to advise in planning the event and shall
             assist the Supervisor while being available to serve on the scheduling committee.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>E. Responsibilities </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>E. Responsibilities </HighlightText>
             {'\n\n'}
-            Advise, assist and cooperate with the Supervisor as appropriate and necessary when
+            {'\t\t'}Advise, assist and cooperate with the Supervisor as appropriate and necessary when
             carrying out any assigned duties or responsibilities. Assigned duties may include;
             {'\n\n'}
-            1) Organizing the facilities, equipment and staff, to support play beginning with the
+            {'\t\t'}1) Organizing the facilities, equipment and staff, to support play beginning with the
             qualifying competition.
             {'\n\n'}
-            2) Confirming the conditions of play, (i.e.), make and number of tennis balls, types of
+            {'\t\t'}2) Confirming the conditions of play, (i.e.), make and number of tennis balls, types of
             beverages including electrolyte, how matches are to be called, etc.
             {'\n\n'}
-            3) Ensure that each court is equipped as follows:
+            {'\t\t'}3) Ensure that each court is equipped as follows:
             {'\n\n'}
-            a) Umpire’s chair.
+            {'\t\t\t'}a) Umpire’s chair.
             {'\n\n'}
-            b) Line umpire chairs.
+            {'\t\t\t'}b) Line umpire chairs.
             {'\n\n'}
-            c) Player’s chairs.
+            {'\t\t\t'}c) Player’s chairs.
             {'\n\n'}
-            d) On-court beverages.
+            {'\t\t\t'}d) On-court beverages.
             {'\n\n'}
-            f) Writing Tables and electrical outlet for the Electronic Scoring Device.
+            {'\t\t\t'}f) Writing Tables and electrical outlet for the Electronic Scoring Device.
             {'\n\n'}
-            g) Microphones (if applicable)
+            {'\t\t\t'}g) Microphones (if applicable)
             {'\n\n'}
-            4) Designate a highly visible place in the general player’s area as the “Official Bulletin Board” and notify all players of its designation and location.
+            {'\t\t'}4) Designate a highly visible place in the general player’s area as the “Official Bulletin Board” and notify all players of its designation and location.
             {'\n\n'}
-            5) Make appropriate arrangements for the safe escorting of players to and from the
+            {'\t\t'}5) Make appropriate arrangements for the safe escorting of players to and from the
             court before and after the match.
             {'\n\n'}
-            6) Be on-site at all times during the playing of matches in the tournament. The Referee may not be a Chair Umpire or Chief of Umpires.
+            {'\t\t'}6) Be on-site at all times during the playing of matches in the tournament. The Referee may not be a Chair Umpire or Chief of Umpires.
             {'\n\n'}
             {'\n\n'}
 

@@ -19,11 +19,11 @@ export default function Rule9({ navigation }) {
 
             <HighlightText style={RuleStyles.SubHeading2}>A.Failure To Participate in the Nitto ATP Finals</HighlightText>
             {'\n\n'}
-            1) If a player qualified for the Nitto ATP Finals as a direct acceptance or was designated as
+            {'\t'}1) If a player qualified for the Nitto ATP Finals as a direct acceptance or was designated as
              the alternate, fails or refuses to participate in this event, except for bona
             fide injury or other reason which constitutes good cause, the player shall not be in
             good standing.{'\n\n'}
-            2) All direct acceptances and the alternate must appear at the site of the event(s)
+            {'\t'}2) All direct acceptances and the alternate must appear at the site of the event(s)
             as determined by ATP and participate in the pre tournament media conference.
             Failure to appear shall result in a penalty of five percent (5%) of total ATP prize
             money earned during the ATP Tour circuit year.{'\n\n'}

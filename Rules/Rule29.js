@@ -20,36 +20,36 @@ export default function Rule29({ navigation }) {
             ATP Tour and ATP Challenger Tour tournaments must pay to ATP as part of their total
             financial commitment the following fees based on prize money level and tournament
             classification, unless otherwise determined by ATP:{'\n\n'}
-            ATP Tour Masters 1000{'\n\n'}
+            {'\t'}ATP Tour Masters 1000{'\n\n'}
             {'\t\t'}• Service Fee{'\n\n'}
             {'\t\t'}• Category Protection Fee{'\n\n'}
             {'\t\t'}• Extra Week Fee{'\n\n'}
-            ATP Tour 500{'\n\n'}
+            {'\t'}ATP Tour 500{'\n\n'}
             {'\t\t'}• Service Fee{'\n\n'}
             {'\t\t'}• Category Protection Fee{'\n\n'}
-            ATP Tour 250{'\n\n'}
+            {'\t'}ATP Tour 250{'\n\n'}
             {'\t\t'}• Service Fee{'\n\n'}
-            ATP Challenger Tour{'\n\n'}
+            {'\t'}ATP Challenger Tour{'\n\n'}
             {'\t\t'}• Tournament fees shall be 5% of total prize money.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading2}>B. </HighlightText>
             All fees shall be due and payable as follows:{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>1) ATP Masters 1000 and ATP 500 Tournaments:</HighlightText>{'\n\n'}
-            a) Six (6) months prior to the first day of the tournament, the Advance Fee is
+            <HighlightText style={RuleStyles.SubHeading2}>{'\t'}1) ATP Masters 1000 and ATP 500 Tournaments:</HighlightText>{'\n\n'}
+            {'\t\t'}a) Six (6) months prior to the first day of the tournament, the Advance Fee is
             due:{'\n\n'}
-            {'\t\t'}ATP Tour Masters 1000 {'\t\t'} $60,000/€51,000{'\n\n'}
-            {'\t\t'}ATP Tour 500 {'\t\t'} $50,000/€42,500{'\n\n'}
-            b) On the first day of the tournament, the balance of unpaid fees is due and
+            {'\t\t\t'}ATP Tour Masters 1000 {'\t\t'} $60,000/€51,000{'\n\n'}
+            {'\t\t\t'}ATP Tour 500 {'\t\t'} $50,000/€42,500{'\n\n'}
+            {'\t\t'}b) On the first day of the tournament, the balance of unpaid fees is due and
             payable.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>2) ATP 250 Tournaments:</HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading2}>{'\t'}2) ATP 250 Tournaments:</HighlightText>{'\n\n'}
             On the first day of the tournament, the total fee is due and payable.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>3) ATP Challenger Tour Tournaments.</HighlightText>
+            <HighlightText style={RuleStyles.SubHeading2}>{'\t'}3) ATP Challenger Tour Tournaments.</HighlightText>
             The full fee is due with the tournament
             application.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>4) Late Payments.</HighlightText>
+            <HighlightText style={RuleStyles.SubHeading2}>{'\t'}4) Late Payments.</HighlightText>
             Fee payments not received by due dates are subject to an initial
             2% late fee, followed by a subsequent 2% late fee every 30 days.
 

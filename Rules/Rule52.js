@@ -17,26 +17,26 @@ export default function Rule52({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>5.01 Tournament Director</HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>A.Appointment</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.Appointment</HighlightText>
             {'\n\n'}
-            1) A tournament may change the Tournament Director named in the tournament
+            {'\t\t'}1) A tournament may change the Tournament Director named in the tournament
             application by submitting the proposed change to the ATP Board for approval.
             {'\n\n'}
-            2) The ATP Board may require a tournament to change the Tournament Director
+            {'\t\t'}2) The ATP Board may require a tournament to change the Tournament Director
             upon a finding that such Tournament Director has failed to or refused to comply
             with any provision of ATP’s rules and regulations.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>B.Responsibilities</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.Responsibilities</HighlightText>
             {'\n\n'}
             Each Tournament Director shall:
             {'\n\n'}
-            1) Act in cooperation with ATP staff on-site.
+            {'\t\t'}1) Act in cooperation with ATP staff on-site.
             {'\n\n'}
-            2) Be responsible for tournament compliance with all rules and regulations.
+            {'\t\t'}2) Be responsible for tournament compliance with all rules and regulations.
             {'\n\n'}
-            3) Not go on court during a match (including warm-up) or otherwise become involved in any Code of Conduct matter.
+            {'\t\t'}3) Not go on court during a match (including warm-up) or otherwise become involved in any Code of Conduct matter.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>NOTE:</HighlightText> Tournament Directors are prohibited from playing in their own event (Tour
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading2}>NOTE:</HighlightText> Tournament Directors are prohibited from playing in their own event (Tour
             Policy)
             {'\n\n'}
 

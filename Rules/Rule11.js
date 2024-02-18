@@ -20,14 +20,14 @@ export default function Rule11({ navigation }) {
 
             A.Pursuant to ATP Bylaws, a player shall be entitled to become an active ATP player
             member as follows:{'\n\n'}
-            1) Group 1 player membership in ATP shall be open to any individual who:(i) as of
+            {'\t'}1) Group 1 player membership in ATP shall be open to any individual who:(i) as of
             the 2023 oficial year end Pepperstone ATP Rankings or at any point during 2024
             (in each case, including pursuant to protected ranking) shall be positioned among
             the top 250 players in the Pepperstone ATP Singles Rankings or among the top
             50 players in the Pepperstone ATP Doubles Rankings,(ii) pays ATP dues  and (iii)
             satisfies criteria established from ATP from time to time.{'\n\n'}
 
-            2) Group 2 player membership in ATP shall be open to any individual who does
+            {'\t'}2) Group 2 player membership in ATP shall be open to any individual who does
             not qualify for Group 1 membership and who, shall had at least one (1) ranking point
             as of the 2023 oficial year end. Pepperstone ATP Rankings or at any point during
             2024, (ii) pays ATP dues and (iii) satisfies criteria established from ATP from time

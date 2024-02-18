@@ -39,11 +39,11 @@ export default function Rule8({ navigation }) {
               the Pepperstone ATP Doubles Rankings and/or commits to enter or
               participates in any ATP Tour or ATP Challenger Tour tournament
               consents and agrees with the following:{"\n\n"}
-              1) To comply with and be bound by all of the provisions of the
+              {'\t'}1) To comply with and be bound by all of the provisions of the
               2024 ATP Official Rulebook and ATP By Laws (the “ATP Rules”),
               including, but not limited to, all amendments to ATP Rules.
               {"\n\n"}
-              2) The International Tennis Integrity Agency (“ITIA”) may conduct
+              {'\t'}2) The International Tennis Integrity Agency (“ITIA”) may conduct
               anti doping testing at ATP sanctioned events under the Tennis
               Anti Doping Programme (the “TADP”), the full text of which can be
               found at{' '} 
@@ -65,7 +65,7 @@ export default function Rule8({ navigation }) {
               to the release to ATP of their Anti Doping results obtained by the
               ITIA at ATP events, including missed tests and/or filing failures.
               {"\n\n"}
-              3) To comply with and be bound by all of the provisions of the
+              {'\t'}3) To comply with and be bound by all of the provisions of the
               2024 Tennis Anti Corruption Program Rules, the full text of which
               can be found at: 
               <HighlightText
@@ -84,32 +84,32 @@ export default function Rule8({ navigation }) {
               }}>
               https://www.itia.tennis/tadp/rules/. 
               </HighlightText>{"\n\n"}
-              4) To review and agree to the terms and conditions contained in
+              {'\t'}4) To review and agree to the terms and conditions contained in
               the Notice of Privacy Practices set forth in “Exhibit P - Privacy
               Notice (“HIPAA”).{"\n\n"}
-              5) Each calendar year all players shall, as a condition of
+              {'\t'}5) Each calendar year all players shall, as a condition of
               entering or participating in any event organized or sanctioned by
               ATP, deliver to ATP a signed Consent and Agreement in the form set
               out in “Exhibit O - Consent and Agreement Form”.{"\n\n"}
-              6) For entry into an ATP Tour or ATP Challenger Tour tournament,
+              {'\t'}6) For entry into an ATP Tour or ATP Challenger Tour tournament,
               all players must be an ATP Player Member (”Member”) or an ATP
               Registered Player. Wild cards are exempt from this provision.
               {"\n\n"}
-              7) All Members must, every two (2) years, submit an authorized
+              {'\t'}7) All Members must, every two (2) years, submit an authorized
               physical examination form as shown in “Exhibit Y - Mandatory
               Physical” to be eligible to enter and compete on the ATP Tour or
               ATP Challenger Tour.{"\n\n"}
-              a) A pre competition medical examination is mandatory and must be
+              {'\t\t'}a) A pre competition medical examination is mandatory and must be
               submitted prior to a player participating in his first event of
               2024.{"\n\n"}
-              b) Members competing in their first ATP Tour or ATP Challenger
+              {'\t\t'}b) Members competing in their first ATP Tour or ATP Challenger
               Tour event after 1 January 2024 shall have thirty (30) days after
               the Member’s first match to complete and submit the medical
               examination forms. After the thirty (30) day period has ended the
               member will not be allowed to enter or compete in any ATP Tour or
               ATP Challenger Tour event until such time that the medical
               examination form has been submitted and accepted.{"\n\n"}
-              c) Members submitting a medical examination form which indicates
+              {'\t\t'}c) Members submitting a medical examination form which indicates
               they are “unfit to play” will be required to sign a release/waiver
               form before they will be allowed to compete in any ATP Tour or ATP
               Challenger Tour event. This form will be provided by ATP upon
@@ -162,12 +162,12 @@ export default function Rule8({ navigation }) {
               in good standing by the ATP Chief Executive Officer (CEO).{"\n\n"}
               Penalties for not being in good standing with ATP result in a
               player:{"\n\n"}
-              1) Not being eligible to participate in the bonus program;{"\n\n"}
-              2) Not being eligible to participate as a main draw entry in the
+              {'\t'}1) Not being eligible to participate in the bonus program;{"\n\n"}
+              {'\t'}2) Not being eligible to participate as a main draw entry in the
               following ATP Year;{"\n\n"}
-              3) Not being eligible to earn a year of credit toward ATP
+              {'\t'} 3) Not being eligible to earn a year of credit toward ATP
               retirement program.{"\n\n"}
-              4) Not being eligible for the Platinum Benefits (as defined
+              {'\t'}4) Not being eligible for the Platinum Benefits (as defined
               below).{"\n\n"}
               For the avoidance of doubt, accrued benefits that have not been
               paid prior to the determination of a breach of the ATP Rules
@@ -209,11 +209,12 @@ export default function Rule8({ navigation }) {
               total Pepperstone ATP Rankings points earned at the 500 events.
               {"\n\n"}
               Ties shall be broken as follows:{"\n\n"}
-              1. Most ATP Tour 500 events played; followed by 2. Highest number
+              {'\t'}1. Most ATP Tour 500 events played; followed by{"\n\n"} 
+              {'\t'}2. Highest number
               of points earned from a single event, followed by 2nd highest and
               so on.{"\n\n"}
               If players have the same points breakdowns:{"\n\n"}
-              3. The higher ranked
+              {'\t'}3. The higher ranked
               player as per the Year End Pepperstone ATP Singles Rankings wins
               the tie.{"\n\n"}
               <HighlightText style={RuleStyles.SubHeading2}>
@@ -233,19 +234,19 @@ export default function Rule8({ navigation }) {
               The bonus pool distribution payment to players will be made by the
               end of January 2025.{"\n\n"}
               <HighlightText style={RuleStyles.SubHeading3}>
-                1) Conditions of Eligibility for ATP Tour Masters 1000 and Nitto
+              {'\t'}1) Conditions of Eligibility for ATP Tour Masters 1000 and Nitto
                 ATP Finals 2024 Bonus Pool.
               </HighlightText>
               {"\n\n"}
               <HighlightText style={RuleStyles.SubHeading3}>
-                a) Platinum Benefit Eligibility Criteria.{" "}
+              {'\t\t'}a) Platinum Benefit Eligibility Criteria.{" "}
               </HighlightText>
               Only members who are in good standing and meet the Platinum
               Benefit eligibility criteria (as defined in Section 1 .21 below)
               shall be eligible for the ATP Tour Masters 1000 and Nitto ATP
               Finals Bonus Pool.{"\n\n"}
               <HighlightText style={RuleStyles.SubHeading3}>
-                b) Nitto ATP Finals.{" "}
+              {'\t\t'}b) Nitto ATP Finals.{" "}
               </HighlightText>
               All players must play, if they qualify, in the Nitto ATP
               Finals.Alternates must appear and fulfill the requirements of the
@@ -259,28 +260,28 @@ export default function Rule8({ navigation }) {
               in promotional activities as described above, such player will not
               be eligible to receive any bonus, unless approved by ATP.{"\n\n"}
               <HighlightText style={RuleStyles.SubHeading3}>
-                c) Suspended player.{" "}
+              {'\t\t'}c) Suspended player.{" "}
               </HighlightText>
               A player who is suspended from an event shall have the suspension
               count as a missed event for the bonus year in which the event is
               held.{"\n\n"}
               <HighlightText style={RuleStyles.SubHeading3}>
-                d) Not direct acceptance.{" "}
+              {'\t\t'}d) Not direct acceptance.{" "}
               </HighlightText>
               Any player who is not a direct acceptance to a mandatory ATP Tour
               Masters 1000 event shall not have that event count as a missed
               event.{"\n\n"}
               <HighlightText style={RuleStyles.SubHeading3}>
-                e) Promotional work.
+              {'\t\t'}e) Promotional work.
               </HighlightText>
-              i) On-site promotional activities for withdrawn players are
+              {'\t\t\t'}i) On-site promotional activities for withdrawn players are
               applicable for relief of fines, bonus pool reduction recoupment
               pursuant to Section 1.07.H.2, and/or suspensions but shall not
               provide relief for the ranking penalty and shall count as a missed
               event.{"\n\n"}
-              ii) On-site promotional activities are not applicable to players
+              {'\t\t\t'}ii) On-site promotional activities are not applicable to players
               missing the event due to being suspended.{"\n\n"}
-              <HighlightText style={RuleStyles.SubHeading3}>2) </HighlightText>
+              <HighlightText style={RuleStyles.SubHeading3}>{'\t'}2) </HighlightText>
               {"\n\n"}
               Subject to the limitations and eligibility criteria herein,
               players shall be eligible for the bonus pool in this section based
@@ -307,7 +308,7 @@ export default function Rule8({ navigation }) {
               In no event shall a player be able to recoup an amount greater
               than USD $200,000 by fulfilling on-site promotional activities
               requirements.{"\n\n"}
-              <HighlightText style={RuleStyles.SubHeading3}>3) </HighlightText>
+              <HighlightText style={RuleStyles.SubHeading3}>{'\t'}3) </HighlightText>
               {"\n\n"}A player who, as of December 31, 2022, earned commitment
               and elected to maintain his earned commitment reductions
               pursuant to the 2022 ATP Tour Official Rule Book shall continue to
@@ -317,19 +318,19 @@ export default function Rule8({ navigation }) {
               such player will not be able to replace zero (0) point ranking
               penalties for missing ATP Tour Masters 1000 tournaments for any
               reason except as permitted in Section 9.03).{"\n\n"}
-              <HighlightText style={RuleStyles.SubHeading3}>4) </HighlightText>
+              <HighlightText style={RuleStyles.SubHeading3}>{'\t'}4) </HighlightText>
               {"\n\n"}
               The order of standings for the ATP Masters 1000 Bonus Pool will be
               based on the total Pepperstone ATP Rankings points earned across
               the ATP Tour Masters 1000 category and Nitto ATP Finals. {"\n\n"}
               Ties shall be broken as follows:{"\n\n"}
-              <HighlightText style={RuleStyles.SubHeading3}>1. </HighlightText>
+              <HighlightText style={RuleStyles.SubHeading3}>{'\t\t'}1. </HighlightText>
               Most ATP Tour 1000 events played; followed by{"\n\n"}
-              <HighlightText style={RuleStyles.SubHeading3}>1. </HighlightText>
+              <HighlightText style={RuleStyles.SubHeading3}>{'\t\t'}2. </HighlightText>
               The highest number of points earned from a single event, followed
               by the 2nd highest and so on.{"\n\n"}
               If players have the same points breakdowns: {"\n\n"}
-              <HighlightText style={RuleStyles.SubHeading3}>3. </HighlightText>
+              <HighlightText style={RuleStyles.SubHeading3}>{'\t\t'}3. </HighlightText>
               The higher ranked player, as per the Year End Pepperstone ATP
               Singles Rankings, wins the tie
               {"\n\n"}

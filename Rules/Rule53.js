@@ -17,17 +17,17 @@ export default function Rule53({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>5.02 Tour Manager</HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>A.Appointment</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.Appointment</HighlightText>
             {'\n\n'}
-            ATP shall provide a Tour Manager for each ATP Tour tournament.
+            {'\t\t'}ATP shall provide a Tour Manager for each ATP Tour tournament.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>B.Responsibilities</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.Responsibilities</HighlightText>
             {'\n\n'}
-            1) The Tour Manager shall be present for all sign ins.
+            {'\t\t'}1) The Tour Manager shall be present for all sign ins.
             {'\n\n'}
-            2) The Tour Manager shall be present at the making of all draws.
+            {'\t\t'}2) The Tour Manager shall be present at the making of all draws.
             {'\n\n'}
-            3) The Tour Manager shall act as the player representative for all aspects of the
+            {'\t\t'}3) The Tour Manager shall act as the player representative for all aspects of the
             tournament, including as a member of the scheduling committee.
             {'\n\n'}
             {'\n\n'}

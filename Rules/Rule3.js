@@ -54,33 +54,33 @@ export default function Rule3({ navigation }) {
             A tournament may petition, forty-two (42) days prior to the event, for expansion of
             draw size as long as there is no change in the number of direct acceptances. {'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour. </HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}1) ATP Tour. </HighlightText>
              One (1) round per day except when weather or other
             unavoidable circumstances require two (2) rounds to be played on the same
             day.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>2) ATP Challenger Tour. </HighlightText>{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>a) ATP Challenger 50-125. </HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}2) ATP Challenger Tour. </HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading3}>{'\t\t'}a) ATP Challenger 50-125. </HighlightText>
             One (1) round per day except when weather or other unavoidable circumstances 
             require two (2) rounds to be played on the same day. {'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>3) General. </HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}3) General. </HighlightText>
             All tournaments must have a singles qualifying competition (unless
             there are sufficient places available in the main draw). The singles qualifying
             competition shall be a single elimination tournament.{'\n\n'}
 
-            a) All ATP Tour 250 events shall have a 16 draw qualifying.{'\n\n'}
-            b) ATP Tour Masters 1000 and ATP Tour 500 qualifying will be one half (1/2) the
+            {'\t\t\t'}a) All ATP Tour 250 events shall have a 16 draw qualifying.{'\n\n'}
+            {'\t\t\t'}b) ATP Tour Masters 1000 and ATP Tour 500 qualifying will be one half (1/2) the
             size of the main draw; i.e. a 56 main draw would have a 28 qualifying draw for
             the 7 qualifying positions.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>4) Location. </HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}4) Location. </HighlightText>
             If the qualifying competition is not held at the same site as the main
             draw, the alternate site must have similar facilities, courts, staff, service and
             equipment. The qualifying competition may not be held at a site outside the metropolitan
              area of the main draw without prior written approval of ATP.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>5) Surface. </HighlightText>
+            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}5) Surface. </HighlightText>
             The qualifying competition shall be played on the same surface as the
             main draw. In situations beyond the control of the tournament, the Supervisor
             may approve the use of courts with a different surface.

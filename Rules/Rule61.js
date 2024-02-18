@@ -17,43 +17,43 @@ export default function Rule61({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>5.10 Chief of Umpires</HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>A.Assignment and Designation Process</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.Assignment and Designation Process</HighlightText>
             {'\n\n'}
-            ATP Tour and ATP Challenger Tour tournaments are required to hire a certified Chief
-            of Umpires approved by ATP, unless otherwise determined by ATP.
-            <HighlightText style={RuleStyles.SubHeading2}>B.Fees and Expenses</HighlightText>
+            {'\t\t'}ATP Tour and ATP Challenger Tour tournaments are required to hire a certified Chief
+            of Umpires approved by ATP, unless otherwise determined by ATP.{'\n\n'}
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.Fees and Expenses</HighlightText>
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour and ATP Challenger Tour Tournaments</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour and ATP Challenger Tour Tournaments</HighlightText>
             {'\n\n'}
-            Each tournament must provide each Chief of Umpires with single room hotel accommodations, meals and laundry. Complimentary rooms shall be in the player
+            {'\t\t\t'}Each tournament must provide each Chief of Umpires with single room hotel accommodations, meals and laundry. Complimentary rooms shall be in the player
             hotel or another hotel approved by ATP or the Supervisor.
             {'\n\n'}
-            Each tournament shall pay a fair and reasonable fee and travel expense to the Chief
-            of Umpires hired by the tournament.
+            {'\t\t\t'}Each tournament shall pay a fair and reasonable fee and travel expense to the Chief
+            of Umpires hired by the tournament.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>C.General </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C.General </HighlightText>
             {'\n\n'}
-            The Chief of Umpires is approved by ATP, hired by the tournament and is responsible
+            {'\t\t'}The Chief of Umpires is approved by ATP, hired by the tournament and is responsible
             for having sufficient quality Line Umpires assigned to each match.
             {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>D. Responsibilities </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>D. Responsibilities </HighlightText>
             {'\n\n'}
-            1) Recruit a sufficient number of competent officials for the tournament. Be prepared
+            {'\t\t'}1) Recruit a sufficient number of competent officials for the tournament. Be prepared
             to respond to or make recommendations to the Fulltime Official who is coordinating assignments and designations of all necessary and required Chair Umpires.
             {'\n\n'}
-            2) Conduct the necessary pre-tournament training of officials including review of all
+            {'\t\t'}2) Conduct the necessary pre-tournament training of officials including review of all
             appropriate ATP Rules and Regulations.
             {'\n\n'}
-            3) Prepare a list of officials, which shall include the mailing address and national
+            {'\t\t'}3) Prepare a list of officials, which shall include the mailing address and national
             or local certifications, if any, of all officials used during the tournament. A copy of
             such list shall be delivered to the Referee and to the Supervisor.
             {'\n\n'}
-            4) Be on-site at all times during play. The Chief of Umpires may not be a chair or Line
+            {'\t\t'}4) Be on-site at all times during play. The Chief of Umpires may not be a chair or Line
             Umpire unless authorized by the Supervisor.
             {'\n\n'}
-            5) Schedule the on-court assignments of Line Umpires for each day of the tournament, subject to the approval of the Supervisor. Line umpires for the quarterfinals,
+            {'\t\t'}5) Schedule the on-court assignments of Line Umpires for each day of the tournament, subject to the approval of the Supervisor. Line umpires for the quarterfinals,
             semi-finals and finals must have worked a minimum of two (2) days prior to the
-            quar     terfinals and have the Supervisor’s specific approval.
+            quarterfinals and have the Supervisor’s specific approval.
             {'\n\n'}
 
           </HighlightText>
