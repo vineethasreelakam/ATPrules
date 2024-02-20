@@ -16,10 +16,10 @@ export default function Rule89({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.26 Electronic Line Calling Facilities Guidelines</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         The use of an approved electronic system for reviewing line calls and/or overrules is
                         authorized for use at ATP events.
-                        {'\n\n'}
+                        {'\n\n\t'}
                         See “Exhibit T - Electronic Line Calling Facilities Guidelines” and “Exhibit T1 - ELC
                         Review Official Protocol” for full Electronic Line Calling Facilities Guidelines and Protocol.
                         {'\n\n'}

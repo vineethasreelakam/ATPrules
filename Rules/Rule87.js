@@ -16,27 +16,27 @@ export default function Rule87({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.24 Anti-Doping Facilities and On-Site Personnel Assistance</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>A.On-Site Testing Facility</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         1) Each ATP Tour and ATP Challenger Tour tournament, when requested, is obligated to provide at its own cost the following facilities:
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         a) A lockable private room with bathroom and an adjacent waiting room; or, at
                         the discretion of the Anti-Doping Personnel,
-                        {'\n\n'}
+                        {'\n\n\t\t\t'}
                         b) An alternative on-site location with a suitable trailer.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         2) In addition, the tournament is required to provide at its own cost appropriate furniture, bottled water, fruit and television or court monitoring systems for the testing
                         facility as well as staff assistance for site set-up and facility maintenance during
                         the tournament.
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>B.Volunteer Observers Provided by Tournament. </HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         Each tournament must provide at its own cost male staff members and/or volunteers
                         who can assist the Official Anti-Doping Personnel and Supervisor with the observation of players selected for testing. The Official Anti-Doping Personnel shall notify a
                         tournament of the number of personnel required no later than three (3) weeks prior to
                         the start of an event.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         See “Exhibit U” for full Anti-Doping Facilities Guidelines.
 
                         {'\n\n'}

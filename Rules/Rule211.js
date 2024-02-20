@@ -16,7 +16,7 @@ export default function Rule86({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.23 Emergency Action Plan</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                          Each ATP Tour Tournament shall submit an emergency action plan to the ATP Medical Services for review at least sixty (60) days prior to the start of the tournament.
                         {'\n\n'}
                     </HighlightText>

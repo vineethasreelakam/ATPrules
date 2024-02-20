@@ -16,7 +16,7 @@ export default function Rule86({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.22 First Aid</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         Each tournament must provide a First Aid Team present at all times on the tournament site for public emergencies. The First Aid Team must be separate from the
                         medical team responsible for the care and treatment of the players.
 

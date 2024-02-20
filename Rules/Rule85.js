@@ -17,7 +17,7 @@ export default function Rule85({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.21 Automated External Defibrillator (“AED”)</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         An Automated External Defibrillator (“AED”) must be provided in the Physiotherapist/
                         treatment room. In addition, AEDs must be located around the site so that an AED is
                         within 2-3 minutes from all areas of play.

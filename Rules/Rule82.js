@@ -17,7 +17,7 @@ export default function Rule82({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.18 On-Site Access / Limits to On-Site Access</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         The ATP CEO, or his designee, may, in his sole discretion, instruct any ATP Tour or
                         ATP Challenger Tour tournament to prohibit any person from obtaining access to any
                         areas at a tournament site that are not generally open or available to all members of
