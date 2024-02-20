@@ -17,7 +17,7 @@ export default function Rule45({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
           <HighlightText style={RuleStyles.SubHeading1}>3.23 Challenger Tournament Prize Money</HighlightText>{'\n\n'}
 
-            On site prize money for the Challenger Tour tournaments will increase annually by
+            {'\t'}On site prize money for the Challenger Tour tournaments will increase annually by
             2.5% per each tournament category.{'\n\n'}
 
             {'\n\n'}

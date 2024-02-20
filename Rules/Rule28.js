@@ -17,7 +17,7 @@ export default function Rule28({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
              <HighlightText style={RuleStyles.SubHeading1}>3.03 Default of Prize Money Payments </HighlightText>
             {'\n\n'}
-            Any ATP Tour or ATP Challenger Tour tournament that defaults in payment of prize
+            {'\t'}Any ATP Tour or ATP Challenger Tour tournament that defaults in payment of prize
             money, tournament fee or any other payments due to ATP may have its membership
             status (sanction status if ATP Challenger Tour tournament) changed subject to ATP
             Bylaws

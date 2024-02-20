@@ -17,7 +17,7 @@ export default function Rule37({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.13 Taxes-Notice of Withholdings</HighlightText>{'\n\n'}
 
-            Each ATP Tour and ATP Challenger Tour tournament is required to give at least ninety
+            {'\t'}Each ATP Tour and ATP Challenger Tour tournament is required to give at least ninety
             (90) days notice to ATP of the percentage of the applicable player income tax deduction. No other tax deduction(s) will be permitted from the on-site prize money paid
             to a player. Tournaments are responsible for any additional taxes imposed. Each
             tournament is responsible for withholding required income taxes from each player’s

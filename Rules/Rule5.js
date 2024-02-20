@@ -16,30 +16,30 @@ export default function Rule5({ navigation }) {
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.04 Finals Options</HighlightText>{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>A. General</HighlightText>{'\n\n'}
-            {'\t'}1) When the singles and doubles finals are to be played on the same day, the doubles final shall be scheduled prior to the singles final, unless otherwise approved
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A. General</HighlightText>{'\n\n'}
+            {'\t\t'}1) When the singles and doubles finals are to be played on the same day, the doubles final shall be scheduled prior to the singles final, unless otherwise approved
             by ATP or due to player conflict.{'\n\n'}
-            {'\t'}2) When possible, there should be one Awards Ceremony that follows the completion of the singles final. It is mandatory that both singles and doubles finalist
+            {'\t\t'}2) When possible, there should be one Awards Ceremony that follows the completion of the singles final. It is mandatory that both singles and doubles finalist
             players participate in the awards ceremony, whether ceremonies are separate or
             combined.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>B. Singles</HighlightText>{'\n\n'}
-            {'\t'}1) If any ATP Tour tournament singles final is not played, the tournament may elect
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B. Singles</HighlightText>{'\n\n'}
+            {'\t\t'}1) If any ATP Tour tournament singles final is not played, the tournament may elect
             to replace it as follows:{'\n\n'}
-            {'\t\t'}a) Schedule a singles exhibition; or{'\n\n'}
-            {'\t\t'}b) Re schedule the doubles final in its place; or{'\n\n'}
-            {'\t\t'}c) In the case where the doubles final has been completed or is in progress
+            {'\t\t\t'}a) Schedule a singles exhibition; or{'\n\n'}
+            {'\t\t\t'}b) Re schedule the doubles final in its place; or{'\n\n'}
+            {'\t\t\t'}c) In the case where the doubles final has been completed or is in progress
             when it is discovered that there will not be a singles final, the tournament may
             elect to have the doubles finalists play a one (1) hour exhibition.{'\n\n'}
-            {'\t'}2) The awards ceremony shall take place immediately following the singles or doubles exhibition or following the doubles final if it has been re scheduled.
+            {'\t\t'}2) The awards ceremony shall take place immediately following the singles or doubles exhibition or following the doubles final if it has been re scheduled.
             {'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>C. Doubles.</HighlightText>{'\n\n'}
-            The doubles final should be scheduled approximately two (2) hours prior to the published start time of the singles final, 
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C. Doubles.</HighlightText>{'\n\n'}
+            {'\t\t'}The doubles final should be scheduled approximately two (2) hours prior to the published start time of the singles final, 
             unless otherwise approved by ATP.{'\n\n'}
-            {'\t'} 1) Exceptions shall be when one (1) or both of the singles finalists are also involved
+            {'\t\t\t'} 1) Exceptions shall be when one (1) or both of the singles finalists are also involved
             in the doubles final.{'\n\n'}
-            {'\t'}2) Tournaments may petition ATP Senior Vice President - Rules & Competition for
+            {'\t\t\t'}2) Tournaments may petition ATP Senior Vice President - Rules & Competition for
             an exemption to this provision; however, it is the responsibility of the tournament
             to show that there are valid reasons for justifying the exemption.
 

@@ -17,9 +17,9 @@ export default function Rule45({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.22 ATP 250 Tournament Prize Money</HighlightText>{'\n\n'}
 
-            On-site prize money for 2023 was the amount approved by the ATP Board for each
+            {'\t'}On-site prize money for 2023 was the amount approved by the ATP Board for each
             tournament.{'\n\n'}
-            On site prize money for the 250 category tournaments increases annually by 2.5%
+            {'\t'}On site prize money for the 250 category tournaments increases annually by 2.5%
             for the period 2023 through 2030. Such 2.5% annual increases in on site prize money
             will be calculated using the total of on-site prize money for all 250 tournaments and
             then divided equally among the tournaments.{'\n\n'}

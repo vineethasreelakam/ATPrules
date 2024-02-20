@@ -17,10 +17,10 @@ export default function Rule7({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.06 Commitment to Rules/ATP Official Rulebook</HighlightText>{'\n\n'}
 
-            All ATP Tour and ATP Challenger Tour tournaments are subject to the jurisdiction of
+            {'\t'}All ATP Tour and ATP Challenger Tour tournaments are subject to the jurisdiction of
             ATP and shall comply with, be bound by and conduct the tournament in accordance
             with ATP rules and regulations.{'\n\n'}
-            The online ATP Official Rulebook is the official version of the rules.
+            {'\t'}The online ATP Official Rulebook is the official version of the rules.
 
             {'\n\n'}
           </HighlightText>

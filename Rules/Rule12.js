@@ -16,7 +16,7 @@ export default function Rule12({ navigation }) {
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.11 Waiver of Claims</HighlightText>{'\n\n'}
-            All players entering ATP Tour and ATP Challenger Tour tournaments agree, as a
+            {'\t'}All players entering ATP Tour and ATP Challenger Tour tournaments agree, as a
             condition of their entry, that for themselves, their executors, administrators, heirs and
             personal representatives, all claims of any kind, nature and description are waived,
             including past, present or future claims and injuries, if any, sustained in traveling to

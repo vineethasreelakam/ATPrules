@@ -17,17 +17,17 @@ export default function Rule38({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.14 Withholding From Prize Money</HighlightText>{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
             Each ATP Tour and ATP Challenger Tour tournament shall withhold from prize money
             only a player’s applicable income tax deduction, non member service fee, fines, advances 
             and other ATP designated expenses.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
             Each ATP Tour and ATP Challenger Tour tournament shall document the player income tax
              deduction, if any, and provide players on-site with a withholding income tax
             receipt.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
             When a fine is deducted from a player’s prize money paid in a currency other than
             the assessed currency, the exchange rate used (on the day the fine is deducted) by
             ATP Tour and ATP Challenger Tour tournament for the payment of prize money shall

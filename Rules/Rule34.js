@@ -16,29 +16,29 @@ export default function Rule34({ navigation }) {
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.09 On-Site Prize Money</HighlightText>{'\n\n'}
-            Each ATP Tour and ATP Challenger Tour tournament is required to offer and pay as
+            {'\t'}Each ATP Tour and ATP Challenger Tour tournament is required to offer and pay as
             part of its financial commitment the on-site prize money shown in “Exhibit J” plus
             hotel accommodations, unless otherwise determined by ATP. The minimum prize
             money for ATP Challenger Tour Tournaments is $41,000/€36,900.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>A.ATP Tour Tournaments</HighlightText>{'\n\n'}
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.ATP Tour Tournaments</HighlightText>{'\n\n'}
             Prize money and fee payments by all ATP Tour level tournaments shall be determined as follows:{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}1) U.S. Tournaments: </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>1) U.S. Tournaments: </HighlightText>
             All prize money, fees etc. must be paid in USD.{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}2) European Region Tournaments: </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>2) European Region Tournaments: </HighlightText>
             All prize money, fees etc. must be paid in EUR.{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}3) All Other Tournaments: </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>3) All Other Tournaments: </HighlightText>
             All prize money, fees etc. must be paid in USD. Any
             change from USD payment must be approved by the ATP Board.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>B.ATP Challenger Tour Tournaments</HighlightText>{'\n\n'}
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.ATP Challenger Tour Tournaments</HighlightText>{'\n\n'}
             Prize money and fee payments by all ATP Challenger Tour tournaments shall be
             determined as follows:{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}1) U.S. Challengers: </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>1) U.S. Challengers: </HighlightText>
             All prize money and fees must be paid in USD.{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}2) European Region Challengers: </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>2) European Region Challengers: </HighlightText>
             All prize money and fees must be paid in EUR.{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>{'\t'}3) All Other ATP Challenger Tour Events: </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>3) All Other ATP Challenger Tour Events: </HighlightText>
             Prize money and fees must be paid in USD.{'\n\n'}
 
             {'\n\n'}

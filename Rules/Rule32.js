@@ -17,7 +17,7 @@ export default function Rule32({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.07 Letter of Credit - New/Conditional Tournaments</HighlightText>{'\n\n'}
 
-            Unless otherwise determined by ATP, each ATP Tour tournament with conditional
+            {'\t'}Unless otherwise determined by ATP, each ATP Tour tournament with conditional
             membership status must submit to ATP within the time period required, an approved
             irrevocable Letter of Credit, in form and substance, satisfactory to ATP, from an ATP
             approved bank in the amount of the on-site prize money. Such Letter of Credit must

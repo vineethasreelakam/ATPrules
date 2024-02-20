@@ -18,11 +18,11 @@ export default function Rule4({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading1}>1.03 Match Schedule Plan{'\n\n'}</HighlightText>
 
 
-            Each tournament shall provide ATP, at least one hundred and eighty (180) days prior
+            {'\t'}Each tournament shall provide ATP, at least one hundred and eighty (180) days prior
             to the start of the tournament, a typed schedule that includes proposed daily starting
             times and number of courts to be used.
             {'\n\n'}
-            ATP Challenger Tour tournaments should submit their match schedule plan at least
+            {'\t'}ATP Challenger Tour tournaments should submit their match schedule plan at least
             ninety (90) days prior to the start of the tournament.
             {'\n\n'}
           </HighlightText>

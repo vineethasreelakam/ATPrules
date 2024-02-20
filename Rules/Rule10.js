@@ -30,14 +30,14 @@ export default function Rule10({ navigation }) {
                 1.09 Mandatory Player Meeting
               </HighlightText>
               {"\n\n"}
-              Mandatory player meetings may be scheduled throughout the year as
+              {'\t'}Mandatory player meetings may be scheduled throughout the year as
               determined and announced in advance by ATP. These meetings are
               limited to and mandatory for all main draw singles and doubles
               players. Player members not entered will be sent the minutes.{" "}
               {"\n\n"}
-              The penalty for non attendance is the following:{"\n\n"}
+              {'\t'}The penalty for non attendance is the following:{"\n\n"}
             </HighlightText>
-            <ImageViewerComponent
+            {'\t'}<ImageViewerComponent
               props={{
                 ImageStyle: RuleStyles.ImageStyle,
                 ImageName: "rule10_1.png",

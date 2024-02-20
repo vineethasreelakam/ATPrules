@@ -17,7 +17,7 @@ export default function Rule36({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.12 Late Payment</HighlightText>{'\n\n'}
 
-            Prize money payments not received by the due dates specified herein are subject to
+            {'\t'}Prize money payments not received by the due dates specified herein are subject to
             an initial 2% late fee, followed by a subsequent 2% late fee every 30 days.{'\n\n'}
 
             {'\n\n'}

@@ -16,7 +16,7 @@ export default function Rule18({ navigation }) {
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.17 Non-Exclusive Media Highlight Rights.</HighlightText>{'\n\n'}
-            Each ATP Tour tournament shall each year promptly (within two business days) provide
+            {'\t'}Each ATP Tour tournament shall each year promptly (within two business days) provide
             to ATP without charge existing footage of the tournament as ATP may request.
             Each ATP tournament hereby grants to ATP the non exclusive right to broadcast, or
             permit to be broadcast, by any means, whether presently existing or hereafter created,

@@ -17,7 +17,7 @@ export default function Rule6({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.05 Change of Tournament Site</HighlightText>{'\n\n'}
 
-            There shall be no change of a tournament site unless approved by ATP. A request
+            {'\t'}There shall be no change of a tournament site unless approved by ATP. A request
             to change a tournament site must be submitted in writing by the tournament and
             received by the appropriate ATP regional office no later than six (6) months prior
             to the first Monday of the event. Requests submitted after the deadline will only be

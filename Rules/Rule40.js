@@ -17,10 +17,10 @@ export default function Rule40({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.16 Release from Financial Commitment</HighlightText>{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
             Each ATP Tour tournament is required to pay its financial commitment for each calendar
             year tournament.{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
             No refund shall be made for any sums paid whether or not the event is actually held,
             unless ATP in its sole discretion determines that extraordinary circumstances exist
             justifying such action.{'\n\n'}

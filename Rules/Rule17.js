@@ -17,7 +17,7 @@ export default function Rule17({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.16 Virtual Insertion</HighlightText>{'\n\n'}
 
-            Each ATP Tour tournament shall comply with the rules established for virtual insertion.
+            {'\t'}Each ATP Tour tournament shall comply with the rules established for virtual insertion.
             (“Exhibit E - Virtual Insertion”)
 
             {'\n\n'}

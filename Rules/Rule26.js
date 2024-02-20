@@ -17,7 +17,7 @@ export default function Rule26({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.01 Composition of Commitment</HighlightText>
             {'\n\n'}
-            Each tournament’s financial commitment is composed of on-site prize money and
+            {'\t'}Each tournament’s financial commitment is composed of on-site prize money and
             tournament fee obligations unless otherwise approved by ATP.{'\n\n'}
 
             

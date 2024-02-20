@@ -17,8 +17,8 @@ export default function Rule13({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.12 Waiver/Player Publicity and Promotion</HighlightText>{'\n\n'}
 
-            All players agree to the following:{'\n\n'}
-            A.I grant and assign to ATP and ATP Tour tournaments and ATP Challenger Tour tournaments 
+            {'\t'}All players agree to the following:{'\n\n'}
+            {'\t'}A.I grant and assign to ATP and ATP Tour tournaments and ATP Challenger Tour tournaments 
             in which I am or have been entered the right in perpetuity to record in
             tangible form and use my name, performance, likeness, voice, and biography, in any
             and all media (including the right to produce, display and otherwise use motion pictures,
@@ -32,13 +32,13 @@ export default function Rule13({ navigation }) {
             likeness, voice or biography on any product, service or clothing, or in any manner that
             constitutes an endorsement of any product, service or company.{'\n\n'}
 
-            B.I agree to cooperate with the news media and to participate upon request in reasonable
+            {'\t'}B.I agree to cooperate with the news media and to participate upon request in reasonable
             promotional activities of ATP and ATP Tour tournaments and events in which I
             am entered, subject to my reasonable availability to participate therein. My participation
             in any such promotional activities or other events shall not be represented to third
             parties as an endorsement by me of any product or company.{'\n\n'}
             
-            C.Any use of my name, likeness, signature, photograph, depiction or video (my “Likeness”)
+            {'\t'}C.Any use of my name, likeness, signature, photograph, depiction or video (my “Likeness”)
             on official ATP or ATP Tour branded merchandise (the “ATP Merchandise”)
             shall be subject to my prior written approval. I agree that my response to any request
             for my approval will not be unreasonably delayed. With my prior written approval

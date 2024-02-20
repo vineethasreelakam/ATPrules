@@ -18,13 +18,13 @@ export default function Rule44({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading1}>3.20 ATP Masters 1000 Player Compensation & ATP Variable
 Bonus Pool</HighlightText>{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
             On-site prize money for 2023 was the amount approved by the ATP Board for each
             tournament. The yearly aggregated on-site prize money for all Masters 1000 tournaments
             (Base Prize Money or “BPM”) increases by 2.5% annually beginning in 2023.
             The 2.5% annual increase in BPM will be divided as determined by the tournaments.{'\n\n'}
             
-            <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
             VBP (as defined below) is an additional annual amount that will vary with the calculation
             for each year and the amounts are not cumulative (don’t carry over year to year).
             VBP is calculated using current year ANI, as defined below, compared to the BPM of
@@ -39,10 +39,10 @@ Bonus Pool</HighlightText>{'\n\n'}
             Pool. Allocation to players of both ATP Fixed Bonus Pool and Variable Bonus Pool as
             determined by the ATP Board.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
             The following terms used in this Rule shall have the meanings set forth below:{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>Tournament Financial Information Rule for Masters 1000 Tournaments (“1000s
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>Tournament Financial Information Rule for Masters 1000 Tournaments (“1000s
             Audit Rule”) – </HighlightText>
             The ATP rule which, among other provisions, specifies the required
             revannual independently audited reporting by each Masters 1000 tournament of its 
@@ -52,7 +52,7 @@ Bonus Pool</HighlightText>{'\n\n'}
             Implementation of this Masters 1000 Player Compensation Rule will be the responsibility
             of the M1000 PM Committee (as defined in the 1000s Audit Rule).{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>Aggregated Net Income (“ANI’) -</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>Aggregated Net Income (“ANI’) -</HighlightText>
             Total of annual audited net income before income
             taxes for each of the Masters 1000 tournaments as calculated by M1000 PM 
             Committee Auditor and approved by the M1000 PM Committee. Level 1 data revenues
@@ -64,7 +64,7 @@ Bonus Pool</HighlightText>{'\n\n'}
             be allocated equally. The resulting men’s net income before income taxes will be
             included in ANI.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>VBP -</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>VBP -</HighlightText>
             50% of the excess of current year ANI over current year BPM.{'\n\n'}
 
            

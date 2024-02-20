@@ -16,28 +16,28 @@ export default function Rule20({ navigation }) {
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.19 Seating and Attendance</HighlightText>{'\n\n'}
-            A.ATP Tour tournaments shall have the following minimum Center court seating capacities,
+            {'\t'}A.ATP Tour tournaments shall have the following minimum Center court seating capacities,
             except as approved by ATP.{'\n\n'}
 
             <HighlightText style={RuleStyles.SubHeading3}>
-                       {'\t\t\t\t\t'}Center {'\t'}Show    {'\t'}Show    {'\t'}Show   {'\n\n'}
-            Tournament Category {'\t'}Court {'\t'}Court 1 {'\t'}Court 2 {'\t'}Court 3{'\n\n'}
+                       {'\t\t\t\t\t\t'}Center {'\t'}Show    {'\t'}Show    {'\t'}Show   {'\n\n'}
+            {'\t'}Tournament Category {'\t'}Court {'\t'}Court 1 {'\t'}Court 2 {'\t'}Court 3{'\n\n'}
             </HighlightText>
             <HighlightText style={RuleStyles.DescriptionSize10}>
-            ATP Tour Masters 1000 (Combined){'\t'} 12,000{'\t'} 5,000{'\t'} 2,000{'\t'} 1,000{'\n\n'}
-            ATP Tour Masters 1000 (Outdoors){'\t'} 10,000{'\t'} 3,000{'\t'} 1,000{'\n\n'}
-            ATP Tour Masters 1000 (Indoors){'\t\t'} 10,000{'\t'} 1,000{'\t'} 400{'\n\n'}
-            ATP Tour 500 (Outdoors){'\t\t\t'} 7,000{'\t'} 1,000{'\n\n'}
-            ATP Tour 500 (Indoors){'\t\t\t\t'} 6,000{'\t'} 500{'\n\n'}
-            ATP Tour 250 (Outdoors){'\t\t\t'} 3,500{'\n\n'}
-            ATP Tour 250 (Indoors){'\t\t\t\t'} 2,500{'\n\n'}
+            {'\t'}ATP Tour Masters 1000 (Combined){'\t'} 12,000{'\t'} 5,000{'\t'} 2,000{'\t'} 1,000{'\n\n'}
+            {'\t'}ATP Tour Masters 1000 (Outdoors){'\t'} 10,000{'\t'} 3,000{'\t'} 1,000{'\n\n'}
+            {'\t'}ATP Tour Masters 1000 (Indoors){'\t\t'} 10,000{'\t'} 1,000{'\t'} 400{'\n\n'}
+            {'\t'}ATP Tour 500 (Outdoors){'\t\t\t'} 7,000{'\t'} 1,000{'\n\n'}
+            {'\t'}ATP Tour 500 (Indoors){'\t\t\t\t'} 6,000{'\t'} 500{'\n\n'}
+            {'\t'}ATP Tour 250 (Outdoors){'\t\t\t'} 3,500{'\n\n'}
+            {'\t'}ATP Tour 250 (Indoors){'\t\t\t\t'} 2,500{'\n\n'}
             </HighlightText>
 
 
 
-            B.The recommended attendance criteria for each ATP Tour tournament is as follows:{'\n\n'}
-            {'\t'}1) Minimum attendance for the week.{'\n\n'}
-            {'\t'}2) Average minimum attendance per session during the final weekend (Friday
+            {'\t'}B.The recommended attendance criteria for each ATP Tour tournament is as follows:{'\n\n'}
+            {'\t\t'}1) Minimum attendance for the week.{'\n\n'}
+            {'\t\t'}2) Average minimum attendance per session during the final weekend (Friday
             through Sunday) of play in excess of 75% capacity for the Center court.
             Specific recommendations and methods are specified in “Exhibit D”.
 

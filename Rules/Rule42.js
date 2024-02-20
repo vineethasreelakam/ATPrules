@@ -17,7 +17,7 @@ export default function Rule42({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.18 ATP Tournament 500 Financial Information</HighlightText>{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>A. </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A. </HighlightText>
             Each ATP 500 tournament member is required to annually submit to the 500 PM
             Committee Auditor an independently audited tournament income statement and
             related footnotes, along with other information as requested by the 500 PM Committee
@@ -27,8 +27,8 @@ export default function Rule42({ navigation }) {
             cooperation to the 500 PM Committee Auditor, who will examine and verify the accuracy
             of such information.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>The following terms shall have the meanings set forth below: {'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>“500 Prize Money Committee (500 PM Committee)”</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>The following terms shall have the meanings set forth below: {'\n\n'}
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“500 Prize Money Committee (500 PM Committee)”</HighlightText>
             means the committee appointed
             by the ATP Board of Directors and authorized to act in accordance with this
             rule, which shall be comprised of the ATP Chairman or his designee, a 500
@@ -44,7 +44,7 @@ export default function Rule42({ navigation }) {
             has taken place for such meeting, voting member is allowed to grant his/her vote by
             proxy to another committee member.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“500 PM Committee Auditor” </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“500 PM Committee Auditor” </HighlightText>
             means an independent accounting firm appointed
             by the 500 PM Committee to (i) receive and evaluate each tournament member’s
             500 Submissions and tournament financials, (ii) perform agreed upon procedures
@@ -67,21 +67,21 @@ export default function Rule42({ navigation }) {
             or documentation across the 500 category tournament members in an anonymized
             fashion.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“500 Independent Auditor”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“500 Independent Auditor”</HighlightText>
             means a highly qualified independent certified public
             accounting firm selected by each 500 tournament member and approved by ATP to
             perform a full scope independent audit of the 500 Tournament Income Statement and
             perform certain other agreed upon procedures and to provide results of such
             procedures to the 500 PM Committee Auditor. {'\n\n'}  
 
-            <HighlightText style={RuleStyles.SubHeading3}>“500 Independent Member”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“500 Independent Member”</HighlightText>
             means the independent member of the 500 PM Committee
             appointed by the ATP Board of Directors by the aﬃrmative vote of a super
             majority vote of the Board to serve on the 500 PM Committee for a 3-year term. The
             Independent Member is subject to removal at any time by the ATP Board of Directors
             by the aﬃrmative vote of a super majority vote of the Board.  {'\n\n'}  
    
-            <HighlightText style={RuleStyles.SubHeading3}>“500 Player Auditor”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“500 Player Auditor”</HighlightText>
 
             means an independent certified public accountant and/or financial
             advisor selected by the player member(s) of the 500 PM Committee and
@@ -102,7 +102,7 @@ export default function Rule42({ navigation }) {
             a statement of confidentiality and non-disclosure prohibiting the 500 Player Auditor
             from making any such disclosure.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“Gross Revenues”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“Gross Revenues”</HighlightText>
             means the total amount of gross revenues related to a tournament
             determined on the basis of local GAAP, US GAAP or the IFRS (depending on
             the applicable accounting rules in the country in which the tournament operates), in
@@ -121,7 +121,7 @@ export default function Rule42({ navigation }) {
             actual will be included in Gross Revenues in the subsequent 500 Submission when
             such final revenue amounts are known.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“Barter”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“Barter”</HighlightText>
             a description of each Barter transaction must be included as part of each
             500 Submission. Barter transactions as defined below for each revenue category
             are required to be included in Gross Revenues. Barter for this purpose is non-cash
@@ -135,22 +135,22 @@ export default function Rule42({ navigation }) {
             valuation for Gross Revenue purposes and include such comprehensive definition as
             part of the 500 Submission.{'\n\n'}
 
-            The following Barter transactions are excluded from Gross Revenues:{'\n\n'}
-            <HighlightText style={RuleStyles.SubHeading3}>(a)</HighlightText>
+            {'\t\t'}The following Barter transactions are excluded from Gross Revenues:{'\n\n'}
+            {'\t\t\t'}<HighlightText style={RuleStyles.SubHeading3}>(a)</HighlightText>
             Media commitments for promotional time or space that are not for resale and are
             used solely (i) to promote the tournament, (ii) to promote the ATP or any related
             event or activity of the tournament that generates Gross Revenues, (iii) to promote
             charitable or not for profit organizations or agencies that are unrelated to the
             tournament or tournament affiliates, or (iv) for public service announcements.{'\n\n'}
            
-            <HighlightText style={RuleStyles.SubHeading3}>(b)</HighlightText>
+            {'\t\t\t'}<HighlightText style={RuleStyles.SubHeading3}>(b)</HighlightText>
             Any barter transaction that is both used to satisfy tournament standards and is
             for the direct benefit of the players. Such direct player benefits include, but are
             not limited to, hotel accommodations; player transportation, player food, meals
             and beverages; lounge for players; internet access for players; and gifting and
             on-court supplies for players.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>(c)</HighlightText>
+            {'\t\t\t'}<HighlightText style={RuleStyles.SubHeading3}>(c)</HighlightText>
             De Minimus barter transactions are defined as individual transactions with valuations
             under $20,000 for 500 tournaments. De Minimus transactions are not
             required to be reported individually in the 500 Submission as long as the total
@@ -161,7 +161,7 @@ export default function Rule42({ navigation }) {
             written description of each De Minimus transaction is required to be included in the
             Submission.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>“500 Submission”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading2}>“500 Submission”</HighlightText>
             means the prescribed, mandatory annual financial information
             report required to be submitted to the 500 PM Committee Auditor by each 500
             tournament member (or its 500 Independent Auditor) hereunder, which, for the avoidance
@@ -176,7 +176,7 @@ export default function Rule42({ navigation }) {
             full as determined by the 500 PM Committee Auditor to be considered in compliance
             with this rule.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>“500 Tournament Income Statement”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading2}>“500 Tournament Income Statement”</HighlightText>
             means the independently audited income
             statement which includes all revenues, costs and expenses and provides both net
             income and net income before income taxes related to the tournament. Such 500
@@ -194,7 +194,7 @@ export default function Rule42({ navigation }) {
             of these estimates to actual will be included in the 500 Tournament Income
             Statement in the subsequent 500 Submission when such final amounts are known.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>C. </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C. </HighlightText>
             The 500 PM Committee will administer, implement and enforce this rule, Iing, but not
             limited to (i) determining procedures for audits for purposes of financial disclosures
             in accordance with the terms of this rule; (ii) determining the process of receiving
@@ -218,7 +218,7 @@ export default function Rule42({ navigation }) {
             PM Committee to administer, implement and enforce this rule in accordance with the
             terms herein.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>D. </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>D. </HighlightText>
             Each 500 tournament member is required to provide a complete and accurate 500
             Submission annually to the 500 PM Committee Auditor no later than 120 days 
             following the conclusion of its tournament for such year. Independently audited financial
@@ -227,7 +227,7 @@ export default function Rule42({ navigation }) {
             tournament member as complete and accurate and in compliance with this rule in all
             material respects.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>E. </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>E. </HighlightText>
             Each year, the 500 PM Committee Auditor will perform agreed upon audit procedures
             (as directed by the 500 PM Committee) of each tournament member 500 Submission,
             and report to the 500 PM Committee any issues that it may identify as a result
@@ -261,7 +261,7 @@ export default function Rule42({ navigation }) {
             for the purpose of the prize money formula calculation and/or that tournament may
             be subject to a fine pursuant to Section G below.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>F.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>F.</HighlightText>
             Any tournament member that (i) fails to provide a 500 Submission to the 500 PM
             Committee Auditor as required under this rule (including with respect to the
             timing, accuracy and/ or completeness thereof), (ii) submits a report or document that
@@ -284,15 +284,15 @@ export default function Rule42({ navigation }) {
             fines assessed under this rule will be contributed to player programs as determined
             by the Player Board Representatives.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>G. </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>G. </HighlightText>
             The following guidelines are fines that may be imposed for violations of this rule (subject
             to the discretion of 500 PM Committee as set forth in this rule):{'\n\n'}
             </HighlightText>
             </ZoomText>
-            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule42_1.png'}}/>
+            {'\t\t'}<ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule42_1.png'}}/>
             <ZoomText>
             <HighlightText> {'\n\n'}
-            * Specific amounts should depend on the severity of the violation and issue(s)
+            {'\t\t\t'}* Specific amounts should depend on the severity of the violation and issue(s)
             presented.
             {'\n\n'}
           </HighlightText>

@@ -17,7 +17,7 @@ export default function Rule41({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.17 ATP Masters 1000 Tournament Financial Information</HighlightText>{'\n\n'}
             
-            <HighlightText style={RuleStyles.SubHeading2}>A. </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A. </HighlightText>
             Each Masters 1000 tournament member is required to annually submit to the M1000
             PM Committee Auditor an independently audited tournament income statement
             and related footnotes, along with other information as requested by the M1000 PM
@@ -27,10 +27,10 @@ export default function Rule41({ navigation }) {
             member shall provide its full cooperation to the M1000 PM Committee Auditor, who
             will examine and verify the accuracy of such information.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
             The following terms shall have the meanings set forth below:{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“M1000 Prize Money Committee (M1000 PM Committee)”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“M1000 Prize Money Committee (M1000 PM Committee)”</HighlightText>
             means the committee
             appointed by the ATP Board of Directors and authorized to act in accordance with
             this rule, which shall be comprised of the ATP Chairman or his designee, an M1000
@@ -46,7 +46,7 @@ export default function Rule41({ navigation }) {
             provided that proper notice has taken place for such meeting, voting member is
             allowed to grant his/her vote by proxy to another committee member.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“M1000 PM Committee Auditor” </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“M1000 PM Committee Auditor” </HighlightText>
             means an independent accounting firm appointed
             by the M1000 PM Committee to (i) receive and evaluate each tournament member’s
             M1000 Submissions and tournament financials, (ii) perform agreed upon procedures
@@ -65,14 +65,14 @@ export default function Rule41({ navigation }) {
             non-disclosure prohibiting the M1000 PM Committee Auditor from making any such
             disclosure.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“M1000 Independent Auditor” </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“M1000 Independent Auditor” </HighlightText>
             means a highly qualified independent certified public
             accounting firm selected by each 1000 tournament member and approved by ATP to
             perform a full scope independent audit of the M1000 Tournament Income Statement
             and perform certain other agreed upon procedures and to provide results of such
             procedures to the M1000 PM Committee Auditor.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“M1000 Independent Member” </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“M1000 Independent Member” </HighlightText>
             means the independent member of the M1000 PM
             Committee appointed by the ATP Board of Directors by the aﬃrmative vote of a super
             majority vote of the Board to serve on the M1000 PM Committee for a 3 year term.
@@ -80,7 +80,7 @@ export default function Rule41({ navigation }) {
             Member is subject to removal at any time by the ATP Board of Directors by the
             aﬃrmative vote of a super majority vote of the Board.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“M1000 Player Auditor” </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“M1000 Player Auditor” </HighlightText>
             means an independent certified public accountant and/or
             financial advisor selected by the player member(s) of the M1000 PM Committee and
             approved by the M1000 PM Committee in accordance with Section C below, who
@@ -100,7 +100,7 @@ export default function Rule41({ navigation }) {
             of confidentiality and non-disclosure prohibiting the M1000 Player Auditor from
             making any such disclosure.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“Related Party” </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“Related Party” </HighlightText>
             means a person or company that has control, joint control or significant
             influence over the tournament or a tournament entity, either by ownership, by
             agreement, or by power to manage, govern or influence the tournament’s finances
@@ -109,7 +109,7 @@ export default function Rule41({ navigation }) {
             the person or company, either by ownership, by agreement, or by power to manage,
             govern or influence the person or company’s finances and/or operations.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“M1000 Submission”</HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“M1000 Submission”</HighlightText>
             means the prescribed, mandatory annual financial information
             report required to be submitted to the M1000 PM Committee Auditor by each
             Masters 1000 tournament member (or its M1000 Independent Auditor) hereunder,
@@ -124,7 +124,7 @@ export default function Rule41({ navigation }) {
             must be completed in full as determined by the M1000 PM Committee Auditor to be considered 
             in compliance with this rule.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading3}>“M1000 Tournament Income Statement” </HighlightText>
+            {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>“M1000 Tournament Income Statement” </HighlightText>
             means the independently audited income
             statement which includes all revenues, costs and expenses and provides both net
             income and net income before income taxes related to the tournament. Such M1000
@@ -146,7 +146,7 @@ export default function Rule41({ navigation }) {
             Income Statement in the subsequent M1000 Submission when such final amounts
             are known.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
             The M1000 PM Committee will administer, implement and enforce this rule, including,
             but not limited to (i) determining procedures for audits for purposes of financial
             disclosures in accordance with the terms of this rule; (ii) determining the process of
@@ -170,14 +170,14 @@ export default function Rule41({ navigation }) {
             funding available to enable to the M1000 PM Committee to administer, implement
             and enforce this rule in accordance with the terms herein.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>D.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>D.</HighlightText>
             Each Masters 1000 tournament member is required to provide a complete and
             accurate M1000 Submission annually to the M1000 PM Committee Auditor no later
             than 120 days following the conclusion of tournament’s fiscal year end. Each M1000
             Submission must be certified by the applicable tournament member as complete and
             accurate and in compliance with this rule in all material respects.{'\n\n'}
   
-            <HighlightText style={RuleStyles.SubHeading2}>E. </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>E. </HighlightText>
             Each year, the M1000 PM Committee Auditor will perform agreed upon audit
             procedures (as directed by the M1000 PM Committee) of each tournament member M1000
             Submission, and report to the M1000 PM Committee any issues that it may identify
@@ -212,7 +212,7 @@ export default function Rule41({ navigation }) {
             the implications for the purpose of the prize money formula calculation and/or that
             tournament may be subject to a fine pursuant to Section G below.{'\n\n'}
   
-            <HighlightText style={RuleStyles.SubHeading2}>F. </HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>F. </HighlightText>
             Any tournament member that (i) fails to provide a M1000 Submission to the M1000
             PM Committee Auditor as required under this rule (including with respect to the timing,
             accuracy and/ or completeness thereof), (ii) submits a report or document that
@@ -235,15 +235,15 @@ export default function Rule41({ navigation }) {
             the terms of this rule. All fines assessed under this rule will be contributed to player
             programs as determined by the Player Board Representatives.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>G.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>G.</HighlightText>
             The following guidelines are fines that may be imposed for violations of this rule
             (subject to the discretion of M1000 PM Committee as set forth in this rule):{'\n\n'}
 </HighlightText>
 </ZoomText>
-            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule41_1.png'}}/>  
+{'\t'}<ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule41_1.png'}}/>  
 <ZoomText>
   <HighlightText>{'\n\n'}
-            * Specific amounts should depend on the severity of the violation and issue(s) presented.{'\n\n'}
+            {'\t'}* Specific amounts should depend on the severity of the violation and issue(s) presented.{'\n\n'}
 
             {'\n\n'}
           </HighlightText>

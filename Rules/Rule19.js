@@ -17,7 +17,7 @@ export default function Rule19({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>1.18 Quality/Broadcast </HighlightText>{'\n\n'}
 
-            Each ATP Tour tournament shall comply with the Broadcast Quality Standards and
+            {'\t'}Each ATP Tour tournament shall comply with the Broadcast Quality Standards and
             regulation regarding Same Day Exclusivity, as per “Exhibit C”.
 
             {'\n\n'}

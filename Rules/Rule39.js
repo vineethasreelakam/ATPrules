@@ -17,23 +17,23 @@ export default function Rule39({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.15 Prizes and Non-Cash Awards</HighlightText>{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.</HighlightText>
             In addition to on-site prize money, each ATP Tour tournament may give to each singles and doubles winner during the on-site awards presentation one (1) non cash
             award or prize plus a trophy. Non cash awards or prizes valued over $5,000 must be
             approved by the ATP CEO no later than forty two (42) days prior to the tournament
             and can be offered for results in that tournament only.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B.</HighlightText>
             All non cash awards or prizes must be the product of, or service provided by, a principal 
             tournament sponsor.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C.</HighlightText>
             Pre-existing tournament sponsorship agreements made before 1993 for non cash
             awards or prizes are exempt until the expiration of such agreements. The tournament
             must notify the appropriate ATP Regional Office of such non cash awards or prizes
             forty two (42) days prior to the tournament.{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>D.</HighlightText>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>D.</HighlightText>
             Tournaments may not pay travel expenses without special written permission from
             ATP.{'\n\n'}
 

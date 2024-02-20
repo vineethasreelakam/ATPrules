@@ -17,7 +17,7 @@ export default function Rule27({ navigation }) {
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>3.02 Currency</HighlightText>
             {'\n\n'}
-            All references to money are expressed in United States Dollars (USD) and Euros
+            {'\t'}All references to money are expressed in United States Dollars (USD) and Euros
             (EUR), unless otherwise designated. Tournament fees, fines and other amounts payable
             to ATP are payable in USD or EUR.{'\n\n'}
 
