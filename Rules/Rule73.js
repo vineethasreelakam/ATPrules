@@ -19,31 +19,31 @@ export default function Rule73({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.09 Communication Devices</HighlightText>
                         {'\n\n'}
-                        Each tournament must provide communication devices to the Referee, Chief of Umpires, and Physiotherapist(s) except if otherwise approved by ATP. In addition, the
+                        {'\t\t'}Each tournament must provide communication devices to the Referee, Chief of Umpires, and Physiotherapist(s) except if otherwise approved by ATP. In addition, the
                         following equipment is required to be on-site:
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>A.Copy machine</HighlightText>
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A.Copy machine</HighlightText>
                         {'\n\n'}
-                        A copy machine should be provided in, or near, the Supervisor’s office. Copy machine should be available on the morning prior to the start of the qualifying competition.
+                        {'\t\t'}A copy machine should be provided in, or near, the Supervisor’s office. Copy machine should be available on the morning prior to the start of the qualifying competition.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>B. Printer</HighlightText>
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B. Printer</HighlightText>
                         {'\n\n'}
-                        A printer shall be provided in the office of the Supervisor. Printer should be available
+                        {'\t\t'}A printer shall be provided in the office of the Supervisor. Printer should be available
                         on the morning prior to the start of the qualifying competition and be available through
                         the last match of the tournament.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>C.Internet</HighlightText>
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C.Internet</HighlightText>
                         {'\n\n'}
-                        Always-on high speed Internet connection is to be provided in the offices of the ATP
+                        {'\t\t'}Always-on high speed Internet connection is to be provided in the offices of the ATP
                         Supervisor, ATP Tour Manager, ATP Physiotherapist, ATP scoring system specialist
                         and ATP PR unless otherwise approved by ATP. The required minimum upload and
                         download speeds allocated to ATP staff are 0.6 megabits per second (Mbs) for uploads and 5 Mbs for downloads.
                         Tournaments are recommended to use web filtering technology to restrict access to
                         internet gambling sites in all areas where tournament provided access is provided.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>D. Live Scoring</HighlightText>
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>D. Live Scoring</HighlightText>
                         {'\n\n'}
-                        Each Tournament shall be responsible for the set up and maintenance of a network
+                        {'\t\t'}Each Tournament shall be responsible for the set up and maintenance of a network
                         based on specifications provided by ATP, to support live scoring services for each
                         match* of the event and subject to 6.09 E, will assist ATP in its efforts to produce
                         and host the live score data generated from each match. Each tournament hereby
@@ -64,9 +64,9 @@ export default function Rule73({ navigation }) {
                         to support live scoring. Tournaments are not required to provide live scoring support
                         for qualifying matches played at an alternate venue.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>E. Live Streaming</HighlightText>
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>E. Live Streaming</HighlightText>
                         {'\n\n'}
-                        Each Challenger tournament shall be responsible for providing and bearing the cost
+                        {'\t\t'}Each Challenger tournament shall be responsible for providing and bearing the cost
                         of a secure adequate office space within reasonable distance of the streamed competition courts. In addition, power, including but not limited to an uninterruptible power
                         supply (UPS), shall be made available at no cost to the streaming production partner
                         both in the office space and by the camera positions.

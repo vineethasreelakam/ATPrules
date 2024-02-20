@@ -19,65 +19,65 @@ export default function Rule74({ navigation }) {
                         {'\n\n'}
 
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>A. ATP Membership Card.</HighlightText> A 2024 ATP Membership Card shall be honored at all ATP
-                        Tour and ATP Challenger Tour events and will permit the holder entry to the tournament office (or such other location as directed by a Tournament or ATP) in order to
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>A. ATP Membership Card.</HighlightText> A 2024 ATP Membership Card shall be honored at all ATP
+                        {'\t\t'}Tour and ATP Challenger Tour events and will permit the holder entry to the tournament office (or such other location as directed by a Tournament or ATP) in order to
                         receive the appropriate credential.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>B. General.</HighlightText> The following general rules apply with respect to credentialing:
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>B. General.</HighlightText> The following general rules apply with respect to credentialing:
                         {'\n\n'}
-                        1) Players must be accepted into the event to be eligible for a credential.
+                        {'\t\t'}1) Players must be accepted into the event to be eligible for a credential.
                         {'\n\n'}
-                        2) Issued player credential badges shall not distinguish between qualifying players
+                        {'\t\t'}2) Issued player credential badges shall not distinguish between qualifying players
                         and main draw players (for example: qualifying players should not be issued a “Q”
                         badge while main draw players are issued a “P” badge; all players must be issued
                         the same category/type of badge).
                         {'\n\n'}
-                        3) Policies regarding access to practice facilities and locker room for players after
+                        {'\t\t'}3) Policies regarding access to practice facilities and locker room for players after
                         they have been eliminated from the event shall be applied equally to both qualifying and main draw players.
                         {'\n\n'}
-                        4) Policies regarding access to amenities (food, transportation, etc.) for players after
+                        {'\t\t'}4) Policies regarding access to amenities (food, transportation, etc.) for players after
                         they have been eliminated from the event shall be applied equally to both qualifying and main draw players.
                         {'\n\n'}
-                        5) In all cases, priority shall be given to players still competing in the event with respect to access to facilities and amenities.
+                        {'\t\t'}5) In all cases, priority shall be given to players still competing in the event with respect to access to facilities and amenities.
                         {'\n\n'}
-                        6) Player Support Team members must be in the company of a player who is accepted into the event.
+                        {'\t\t'}6) Player Support Team members must be in the company of a player who is accepted into the event.
                         {'\n\n'}
-                        7) ATP staff members and ATP Media staff members working on-site at an event
+                        {'\t\t'}7) ATP staff members and ATP Media staff members working on-site at an event
                         shall be provided with a credential with appropriate access upon proper application.
                         {'\n\n'}
-                        8) All others must have applied in advance and been approved for a credential by
+                        {'\t\t'}8) All others must have applied in advance and been approved for a credential by
                         the tournament.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>9) Special provisions for Combined Events.</HighlightText>
+                        {'\t\t'}<HighlightText style={RuleStyles.SubHeading3}>9) Special provisions for Combined Events.</HighlightText>
                         {'\n\n'}
-                        a) Tour Guests. One credential for each “official” guest of ATP, provided that
+                        {'\t\t\t'}a) Tour Guests. One credential for each “official” guest of ATP, provided that
                         such requests are reasonable, and access is limited as appropriate for security.
                         {'\n\n'}
-                        b) Tour Sponsor. One (1) credential for a “Tour” sponsor.
+                        {'\t\t\t'}b) Tour Sponsor. One (1) credential for a “Tour” sponsor.
                         {'\n\n'}
-                        c) Alumni. Tournaments may provide alumni players credentials at their discretion.
+                        {'\t\t\t'}c) Alumni. Tournaments may provide alumni players credentials at their discretion.
                         {'\n\n'}
-                        d) Tournament Members. Each tournament shall provide ATP Tournament Directors with on-site access
+                        {'\t\t\t'}d) Tournament Members. Each tournament shall provide ATP Tournament Directors with on-site access
                         {'\n\n'}
 
-                        <HighlightText style={RuleStyles.SubHeading2}>C. Applicability.</HighlightText> Tournaments must ensure that they have one single accreditation system and policy in place to cover all third party credentials (including, without limitation, credentials for players, player support team members, ATP staff members, suppliers, contractors, media representatives (e.g. photographers, TV crew members,
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>C. Applicability.</HighlightText> Tournaments must ensure that they have one single accreditation system and policy in place to cover all third party credentials (including, without limitation, credentials for players, player support team members, ATP staff members, suppliers, contractors, media representatives (e.g. photographers, TV crew members,
                         journalists and commentators), Tournament employees and spectators provided with
                         accreditation).
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>D. Accreditation Policy.</HighlightText> Tournaments must base their accreditation policy on the standard “ATP Accreditation Policy” as specified in “Exhibit AC” to create their “Tournament Accreditation Policy”.
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>D. Accreditation Policy.</HighlightText> Tournaments must base their accreditation policy on the standard “ATP Accreditation Policy” as specified in “Exhibit AC” to create their “Tournament Accreditation Policy”.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>E. Application.</HighlightText> All persons applying for credentials must have applied in advance and
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading3}>E. Application.</HighlightText> All persons applying for credentials must have applied in advance and
                         been approved by the Tournament for a credential for the relevant Tournament. Once
                         approved, all persons must sign an “Accreditation Acceptance Form” as provided by
                         the tournament. Tournaments must ensure that the Accreditation Acceptance Form
                         is available in hard copy at the Tournament site, as well as online for those persons
                         applying for credentials through an online system.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>F. Proof of Identity.</HighlightText> As part of the accreditation process, Tournaments must require
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>F. Proof of Identity.</HighlightText> As part of the accreditation process, Tournaments must require
                         proof of identity for all persons prior to issuing credentials; this must be through photo
                         identification such as passport, national ID card or driving license and may be provided in hard copy at the Tournament site or via upload when completing the Accreditation Acceptance Form online.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>G. Tournament Credentials.</HighlightText> All persons who have successfully applied for accreditation and have signed the Accreditation Acceptance Form shall be issued with a
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>G. Tournament Credentials.</HighlightText> All persons who have successfully applied for accreditation and have signed the Accreditation Acceptance Form shall be issued with a
                         physical credential pass by the Tournament. Tournaments must ensure that such
                         pass must include, without limitation: (i) photo identification (as per Section F above);
                         (ii) the name of the accreditee; (iii) a summary of the material points contained in
@@ -95,7 +95,7 @@ export default function Rule74({ navigation }) {
                         web address where the Tournament Accreditation Policy can be found; (v) an Standardized Accreditation Policy Proposal acknowledgement agreeing to abide by the
                         rules of the Tennis Anti-Corruption Program and for players, the Tennis Anti-Doping Program (as amended from time to time); and (vi) an acknowledgement that the accreditation may be revoked at any time.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>H. Ticketing.</HighlightText> Tournaments must take reasonable steps to enforce the material points
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>H. Ticketing.</HighlightText> Tournaments must take reasonable steps to enforce the material points
                         of the ATP Accreditation Policy as would apply to ticket holders. Tournaments must
                         ensure that appropriate wording is contained on all tickets provided to ticket holders
                         including, without limitation: (i) a summary, or clear notice directing to a webpage,
@@ -113,7 +113,7 @@ export default function Rule74({ navigation }) {
                         continual use of laptop computers or other handheld electronic devices within the
                         spectator area of the Tournament match courts shall be prohibited.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>I. Laptops and Communication Devices.</HighlightText>The continual use of laptop computers or
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>I. Laptops and Communication Devices.</HighlightText>The continual use of laptop computers or
                         other handheld electronic devices within the confines (spectator area) of the tournament match courts shall be prohibited and each tournament shall take reasonable
                         steps to enforce such prohibition. The exception to this provision is properly credentialed media, tournament vendors and tournament staff when used in the performance of their duties.
 

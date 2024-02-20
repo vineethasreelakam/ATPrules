@@ -18,7 +18,7 @@ export default function Rule71({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.07 Temperature and Ventilation For Indoor Facilities</HighlightText>
                         {'\n\n'}
-                        Indoor facilities must provide normal and standard heating, cooling and ventilation.
+                        {'\t'}Indoor facilities must provide normal and standard heating, cooling and ventilation.
                         The Supervisor may suspend play if, in his judgment, the conditions of play are unacceptable for professional tennis.
 
                         {'\n\n'}

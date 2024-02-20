@@ -18,7 +18,7 @@ export default function Rule75({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.11 Player Benefits - Guest Passes/Credentials/Tickets</HighlightText>
                         {'\n\n'}
-                        A player entered in ATP Tour and ATP Challenger Tour tournaments shall be issued
+                        {'\t\t'}A player entered in ATP Tour and ATP Challenger Tour tournaments shall be issued
                         a reasonable number (a minimum of two) guest passes/credentials for his use while
                         competing in the event. Guest passes / credentials shall be issued only after the player guest has provided proof of identity (photo I.D.) and has completed and signed the
                         player guest form. These guest passes/credentials include access to the site, seating
@@ -28,22 +28,22 @@ export default function Rule75({ navigation }) {
                         room. All other access is at the sole discretion of the tournament. Passes/credentials
                         can be revoked at any time based on recommendation of the Supervisor to the Tournament Director.
                         {'\n\n'}
-                        Credentials provided to the player may not be exchanged, directly or indirectly, for
+                        {'\t\t'}Credentials provided to the player may not be exchanged, directly or indirectly, for
                         money, benefit or anything of value. Violation of this section shall subject the player
                         to the penalties set forth under the Player Major Offense – Aggravated Behavior.
                         {'\n\n'}
-                        Receipt by any person of guest passes/credentials or any other benefits or special
+                        {'\t\t'}Receipt by any person of guest passes/credentials or any other benefits or special
                         accommodations are expressly subject to the “Limits to On-Site Access” set forth in
                         the Rulebook.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}>Combined Events.</HighlightText>
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading2}>Combined Events.</HighlightText>
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>A.Players.</HighlightText> Players shall receive two (2) tickets per day while they are still competing.
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading3}>A.Players.</HighlightText> Players shall receive two (2) tickets per day while they are still competing.
                         For ticketed matches, a player box with a minimum of six (6) seats shall be provided
                         for that players’ match only. The boxes should be equally located at opposite ends of
                         the court.
                         {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading3}>B.Staff.</HighlightText> Each Tournament must provide the ATP and WTA each three (3) seats close to
+                        {'\t'}<HighlightText style={RuleStyles.SubHeading3}>B.Staff.</HighlightText> Each Tournament must provide the ATP and WTA each three (3) seats close to
                         the entrance of and with easy access to the court during all matches for the following
                         ATP/WTA staff members: (i) Supervisor; (ii) Physiotherapist / PHCP; and (iii) Tour
                         Manager / PR representative.

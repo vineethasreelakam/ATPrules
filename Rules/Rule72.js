@@ -18,7 +18,7 @@ export default function Rule72({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>6.08 Offices</HighlightText>
                         {'\n\n'}
-                        Each tournament shall provide suitable workspace/office for ATP staff and officials.
+                        {'\t'}Each tournament shall provide suitable workspace/office for ATP staff and officials.
 
                         {'\n\n'}
 
