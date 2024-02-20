@@ -17,35 +17,35 @@ export default function Rule91({ navigation }) {
                     <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>7.01 ATP Fees</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>A.Entry Fees</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>1) ATP Tour Tournaments.</HighlightText> There are no entry fees.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading4}>2) ATP Challenger Tour Tournaments.</HighlightText> There are no entry fees.
-                        {'\n\n'}
-                        <HighlightText style={RuleStyles.SubHeading2}> B.Service Fee</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
+                        <HighlightText style={RuleStyles.SubHeading2}>B.Service Fee</HighlightText>
+                        {'\n\n\t\t'}
                         1) Players who are included in the main draw or qualifying (singles or doubles) of
                         any ATP Tour tournament and who are not members in good standing with ATP
                         must pay the following service fee to ATP:
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         ATP Tour Masters 1000 Main Draw $400/€400 event Qualifying $100/€100
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         United Cup $350
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         ATP Tour 500 Main Draw $300/€300 event Qualifying $100/€100
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         ATP Tour 250 Main Draw $200/€200 event Qualifying $100/€100
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         2) The Tour Manager will identify players who must pay a service fee that will be
                         withheld from on-site prize money. Players who by virtue of their ranking position
                         are not eligible for an ATP player membership may use these payments as a
                         credit toward future membership fees. Service fees paid to ATP may only be
                         applied against membership dues in the calendar year in which they were paid.
-                        {'\n\n'}
+                        {'\n\n\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>C.Membership Fees </HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         Membership fees are defined in the ATP By-Laws
                         {'\n\n'}
                     </HighlightText>

@@ -21,7 +21,7 @@ export default function Rule137({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule137_1.png'}}/>
           
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Green}>DO </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Green}>DO </HighlightText>{'\n\n\t'}
             place the ATP Tour Official Tournament
             Stamp closest to the tournament logo.
             Ensure it is at least 60% of the surface area
@@ -34,7 +34,7 @@ export default function Rule137({ navigation }) {
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule137_2.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Green}>DO </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Green}>DO </HighlightText>{'\n\n\t'}
             place the ATP Tour Official Tournament
             Stamp closest to the tournament title when it
             is used larger than, or in place of the

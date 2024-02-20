@@ -15,58 +15,58 @@ export default function Rule118({ navigation }) {
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule2.png' }} />
           <ZoomText>
             <HighlightText style={RuleStyles.Description}>
-              <HighlightText style={RuleStyles.SubHeading1}>8.02 Tournament Standards Violations</HighlightText>{'\n\n'}
+              <HighlightText style={RuleStyles.SubHeading1}>8.02 Tournament Standards Violations</HighlightText>{'\n\n\t'}
 
               No ATP Tour or ATP Challenger Tour tournament shall violate any provision of ATP’s
               rules, regulations, or conditions of approval. Unless otherwise specified, a violation of
               this section shall subject the tournament to a fine specified in the table below (“Tournament Standards Violations Fines Table”).
-              {'\n\n'}
+              {'\n\n\t'}
             </HighlightText>
           </ZoomText>
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule118_1.png' }} />
           <ImageViewerComponent props={{ ImageStyle: RuleStyles.ImageStyle, ImageName: 'rule118_2.png' }} />
           <ZoomText>
             <HighlightText style={RuleStyles.Description}>
-              *Tour Tournament Standards Violation Fines Table under review.
+              {'\t'}*Tour Tournament Standards Violation Fines Table under review.
 
-              {'\n\n'}
+              {'\n\n\t'}
               **Specific amounts are on a per violation basis and should depend and may vary on
               the severity of the violation and issue(s) presented. This maximum fine amount will
               increase by one-hundred percent (100%) for each consecutive year violation of the
               same standard by a tournament.
 
-              {'\n\n'}
+              {'\n\n\t'}
               ***Change in category and/or membership status is subject to a decision by the ATP
               Board.
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>A.On-Site</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               On-site violations may include, but are not limited to, tournament obligations specified in the current ATP Official Rulebook under sections titled ATP Circuit Regulations, Branding, Financial, Personnel and Facilities & On-Site Conditions.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>B.Security at Tournaments</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               Each tournament has the responsibility to provide security at the tournament site.
               Tournaments must submit their security plan sixty (60) days in advance to the ATP
               Security Director.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>C.Tournament Report</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               Each ATP Tour and ATP Challenger Tour tournament shall submit to ATP a report of
               the tournament and its affairs as requested by ATP.
 
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>D.ATP Fantasy Sport and Sponsorship</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               ATP Tour tournaments may enter sponsorship agreements with a company that offers wagering on tennis (a “Tennis Betting Operator”) subject to the terms and conditions stated in Exhibit AD. The agreements may not extend beyond December 31,
               2026. ATP Challenger 125 and 175 tournaments may enter sponsorship agreements
@@ -75,7 +75,7 @@ export default function Rule118({ navigation }) {
               follow the rules applicable to ATP Tour events. The agreements for ATP Challenger
               125 and 175 tournaments may not extend beyond December 31, 2026. ATP will assess any negative effects of such sponsorship agreements in determining whether to
               extend these periods.
-              {'\n\n'}
+              {'\n\n\t\t'}
               ATP Tour tournaments may accept sponsorship from a fantasy sport branded company promoting only the fantasy sport brand. If the company does not offer, and is not
               affiliated with a company that offers, wagering on tennis, or if a betting, casino, lottery
               or fantasy sport-branded company is not a Tennis Betting Operator and the proposed
@@ -91,9 +91,9 @@ export default function Rule118({ navigation }) {
               Operator. Such agreements may not extend beyond December 31, 2026.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>E. On-Site Tennis Betting</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               No ATP Tour or ATP Challenger Tour tournament shall, directly or indirectly, solicit or
               facilitate any person to wager on tennis matches while at the tournament site. Allowing betting companies, directly or through a third party, to accept any tennis wagers
@@ -101,9 +101,9 @@ export default function Rule118({ navigation }) {
               prohibited.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>F. Determination of Violation and Penalty</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               The SVP – Rules & Competition shall make a reasonable investigation to determine
               the facts regarding all tournament on-site offenses. Upon determining that a violation
@@ -115,32 +115,32 @@ export default function Rule118({ navigation }) {
               the ATP Standards Commitee for violations over $10,000, consistent with the procedures outlined in the Code.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>G.Payment of Fines</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               Fines levied by the SVP – Rules & Competition for tournament on-site offenses shall
               be paid in accordance with the following:
-              {'\n\n'}
+              {'\n\n\t\t\t'}
               1) ATP Tour and ATP Challenger Tour Tournaments. Each tournament shall promptly
               pay the fine to ATP.
-              {'\n\n'}
+              {'\n\n\t\t\t'}
               2) The tournament may authorize ATP to withhold the amount of the fine from any
               monies owed the tournament by ATP.
-              {'\n\n'}
+              {'\n\n\t\t\t'}
               3) If the monies owed to the tournament are insufficient to pay the fine, the tournament shall pay the balance within twenty-one (21) days after receiving written
               notice of the fine.
 
 
-              {'\n\n'}
+              {'\n\n\t'}
               <HighlightText style={RuleStyles.SubHeading2}>H.Procedures for Appeal</HighlightText>
-              {'\n\n'}
+              {'\n\n\t\t'}
 
               1) Any tournament in violation of a tournament on-site offense may, after paying all
               fines, appeal to the ATP Members Fine Committee for violations up to $10,000
               or to the ATP Standards Commitee for violations over $10,000 for review of a
               determination of guilt and the penalty assessed.
-              {'\n\n'}
+              {'\n\n\t\t'}
               2) Such appeal shall be in accordance with the procedure specified in Section 8.03
               F. 4.
 

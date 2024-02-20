@@ -22,17 +22,17 @@ export default function Rule133({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule133_1.png'}}/>
           
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
             Tournament Logo{'\n\n'}
-            MUST be a minimum of 60% of the surfaced area of the tournament logo
+            {'\t'}MUST be a minimum of 60% of the surfaced area of the tournament logo
             {'\n\n'}
           </HighlightText>
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule133_2.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3}>Size Relationship: </HighlightText>
             Tournament Title{'\n\n'}
-            MUST be a minimum of 60% of the surface area of the tournament title
+            {'\t'}MUST be a minimum of 60% of the surface area of the tournament title
             {'\n\n'}
           </HighlightText>
           </ZoomText>

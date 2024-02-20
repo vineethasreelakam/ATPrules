@@ -17,7 +17,7 @@ export default function Rule104({ navigation }) {
                    <ZoomText>
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>7.14 Seeds Definition</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         Seeds are players who are given preferential positions in the draw based on the
                         Pepperstone ATP Rankings. The selection and arrangement of seeds shall be based
                         upon the most recent Pepperstone ATP Rankings list (the protected ranking is not
@@ -25,15 +25,15 @@ export default function Rule104({ navigation }) {
                         seeding list. Seeding shall not be official until the final draw is made. For doubles,
                         seeded teams will be determined by using the combined Pepperstone ATP Doubles
                         Rankings of the two players (entry protection not included).
-                        {'\n\n'}
+                        {'\n\n\t'}
                         Any vacancy created by the withdrawal of a seed, after the draw has been made but
                         prior to the release of the order of play for the first day of main draw, shall be filled
                         according to the procedures described under vacancies.
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading2}>Protected Ranking is for Entry, Not Seeding</HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>Case: </HighlightText>May a player’s protected ranking be used for seeding purposes?
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         <HighlightText style={RuleStyles.SubHeading3}>Decision: </HighlightText>No. The protected ranking position can be used for: 1)
                         entry into the qualifying competition and main draw, or 2) special
                         exempt position. It may not be used for: 1) seeding, or 2) lucky loser

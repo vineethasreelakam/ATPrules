@@ -21,7 +21,7 @@ export default function Rule138({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule138_1.png'}}/>
           
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n\t'}
             apply rules to the smallest tournament logo
             or tournament title on this page.
             {'\n\n'}
@@ -30,7 +30,7 @@ export default function Rule138({ navigation }) {
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule138_2.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n\t'}
             make the ATP Tour Official Tournament
             Stamp smaller than 60% of the
             tournament logo or tournament title.
@@ -41,7 +41,7 @@ export default function Rule138({ navigation }) {
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule138_3.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n\t'}
             omit the ATP Tour official Tournament
             Stamp when using a tournament title in
             place of a tournament logo.
@@ -51,7 +51,7 @@ export default function Rule138({ navigation }) {
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.VerticalImageStyle, ImageName: 'rule138_4.png'}}/>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n'}
+          {'\t'}<HighlightText style={RuleStyles.SubHeading3Red}>DO NOT </HighlightText>{'\n\n\t'}
             Apply rules to the smallest tournament
             logo or tournament title when both are
             used on a page. The 60% applies to the

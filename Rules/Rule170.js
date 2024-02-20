@@ -18,18 +18,18 @@ export default function Rule170({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT O - Consent and Agreement Form
             </HighlightText>{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>
             PLAYER’S CONSENT AND AGREEMENT TO THE ATP OFFICIAL RULEBOOK,
             INCLUDING THE TENNIS ANTI-CORRUPTION PROGRAM & TENNIS ANTI-DOPING PROGRAMME
             </HighlightText>{'\n\n'}
 
-            I, the undersigned player, acknowledge, consent and agree as follows:
-            {'\n\n'}1. I will comply with and be bound by all of the provisions of the 2023 ATP OFFICIAL
+            {'\t'}I, the undersigned player, acknowledge, consent and agree as follows:
+            {'\n\n\t'}1. I will comply with and be bound by all of the provisions of the 2023 ATP OFFICIAL
             RULEBOOK, ATP Tour, Inc.’s (“ATP”) By-Lawss, resolutions and regulations  (the “ATP Rules”), including,
             but not limited to, all amendments to the ATP Rules. I have received and had an opportunity to review the ATP Rules and any and all Covid-19 policies and protocols, as
             amended from time to time.
             {'\n\n'}
-            2. I am bound by and will comply with the Tennis Anti-Corruption Program (the “TACP”),
+            {'\t'}2. I am bound by and will comply with the Tennis Anti-Corruption Program (the “TACP”),
             a copy of which can be found at the following website: 
             <HighlightText
             style={RuleStyles.hyperlinkStyle}
@@ -76,7 +76,7 @@ export default function Rule170({ navigation }) {
             when such investigation is closed, or after 10 years, whichever is earlier). Nothing in
             this paragraph 2 shall modify or limit the full text of the TACP.
             {'\n\n'}
-            3. The ITIA may conduct anti-doping testing at ATP sanctioned events under the “TADP”. 
+            {'\t'}3. The ITIA may conduct anti-doping testing at ATP sanctioned events under the “TADP”. 
             ATP will honor and enforce any penalties or sanctions
             against me resulting from the TADP. The TADP shall apply to and be binding upon me
             and shall govern participation in the events specified at Article B of the TADP, which
@@ -91,13 +91,13 @@ export default function Rule170({ navigation }) {
             me under the TADP and (ii) keeping ATP informed thereafter of the progress of such
             alleged Whereabouts Failures/charges in accordance with the TADP.
             {'\n\n'}
-            4. Any dispute arising out of any decision made by the Anti-Doping Tribunal, or any dispute arising under or in connection with the TADP, after exhaustion of the TADP’s Anti-Doping Tribunal process and any other proceedings expressly provided for in the
+            {'\t'}4. Any dispute arising out of any decision made by the Anti-Doping Tribunal, or any dispute arising under or in connection with the TADP, after exhaustion of the TADP’s Anti-Doping Tribunal process and any other proceedings expressly provided for in the
             TADP, shall be submitted exclusively to the Appeals Arbitration Division of the CAS
             for final and binding arbitration in accordance with Article O of the TADP and CAS’s
             Code of Sports-Related Arbitration. The decisions of CAS shall be final, non-reviewable, non-appealable and enforceable. I agree that I will not bring any claim, arbitration, lawsuit or litigation in any other court or tribunal. The time limit for any submission to CAS shall be 21 days after the decision of the Anti-Doping Tribunal has been
             communicated to me.
             {'\n\n'}
-            5. Any dispute between or among the ATP and me arising out of the application of any
+            {'\t'}5. Any dispute between or among the ATP and me arising out of the application of any
             provision of the 2024 ATP Official Rulebook which is not finally resolved by applicable provisions of such Rulebook shall be submitted exclusively to CAS for final and
             binding arbitration in accordance with CAS’s Code of Sports-Related Arbitration. The
             decision of CAS in that arbitration shall be final, non-reviewable and enforceable. No
@@ -107,7 +107,7 @@ export default function Rule170({ navigation }) {
             provision of this clause is determined invalid or unenforceable, the remaining provisions shall not be affected. This clause shall not fail because any part of the rule is
             held invalid.
             {'\n\n'}
-            6. I acknowledge the Notices of Privacy Practices and Consent is set forth in the ATP Rulebook and
+            {'\t'}6. I acknowledge the Notices of Privacy Practices and Consent is set forth in the ATP Rulebook and
             is available online at 
             <HighlightText
             style={RuleStyles.hyperlinkStyle}
@@ -119,7 +119,7 @@ export default function Rule170({ navigation }) {
             Data Protection Regulation) Privacy Notice is available at this same site under PlayerZone Terms & Conditions. I also acknowledge that I have reviewed these notices
             and agree to the terms and conditions contained therein.
             {'\n\n'}
-            7. For ATP Division I and Division II player members: I acknowledge that at least every
+            {'\t'}7. For ATP Division I and Division II player members: I acknowledge that at least every
             two years a completed Competition Clearance form signed by a physician licensed to
             practice medicine in the jurisdiction where such physician practices medicine, must
             be submitted before players are permitted to participate in ATP activities. I also acknowledge that should my physician not deem me fit to participate, and I choose to
@@ -128,28 +128,28 @@ export default function Rule170({ navigation }) {
             at any ATP tournament that I participate in, which may be required for treatment
             purposes.
             {'\n\n'}
-            8. I have read and understand the foregoing Player’s Consent and Agreement.
+            {'\t'}8. I have read and understand the foregoing Player’s Consent and Agreement.
             {'\n\n\n'}
-            _____{'\n\n'}
-            Date 
+            {'\t'}_____{'\n\n'}
+            {'\t'}Date 
             {'\n\n\n'}
-            ___________________________________________{'\n\n'}
-            Print Player’s Name (Last Name, First Name)
+            {'\t'}___________________________________________{'\n\n'}
+            {'\t'}Print Player’s Name (Last Name, First Name)
             {'\n\n\n'}
-            ______________________________________{'\n\n'}
-            Player’s Date of Birth(Day/Month/year)
+            {'\t'}______________________________________{'\n\n'}
+            {'\t'}Player’s Date of Birth(Day/Month/year)
             {'\n\n\n'}
-            ______________________{'\n\n'}
-            Player’s Signature and
+            {'\t'}______________________{'\n\n'}
+            {'\t'}Player’s Signature and
             {'\n\n\n'}
-            ______________{'\n\n'}
-            Place of Birth 
+            {'\t'}______________{'\n\n'}
+            {'\t'}Place of Birth 
             {'\n\n\n'}
-            ________________________________________________________{'\n\n'}
-            If player is a minor, signature of player’s parent or guardian
+            {'\t'}________________________________________________________{'\n\n'}
+            {'\t'}If player is a minor, signature of player’s parent or guardian
             {'\n\n\n'}
-            ____________________{'\n\n'}
-            Player’s Nationality
+            {'\t'}____________________{'\n\n'}
+            {'\t'}Player’s Nationality
 
 
             {'\n\n'}

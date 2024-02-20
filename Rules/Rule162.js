@@ -18,24 +18,24 @@ export default function Rule162({ navigation }) {
             <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT G - ATP Challenger Tour Logo 
             (Print & Promotional Materials)</HighlightText>{'\n\n'}
 
-            <HighlightText style={RuleStyles.SubHeading2}>Basic Guidelines:</HighlightText>{'\n\n'}
-            1) The brand mark may not be modified in any way or redrawn. The two fixed elements
+            {'\t'}<HighlightText style={RuleStyles.SubHeading2}>Basic Guidelines:</HighlightText>{'\n\n'}
+            {'\t'}1) The brand mark may not be modified in any way or redrawn. The two fixed elements
              (the ATP Challenger Tour logo type; the official ATP Challenger Tour logo)
             may not be separated from each other.{'\n\n'}
 
-            2) The ATP Challenger Tour brand mark may only be reproduced in its provided
+            {'\t'}2) The ATP Challenger Tour brand mark may only be reproduced in its provided
             format.{'\n\n'}
 
-            3) The ATP Challenger Tour brand mark may not be used on a background that may
+            {'\t'}3) The ATP Challenger Tour brand mark may not be used on a background that may
             make it appear indistinct. It shall always appear on an uncluttered background to
             ensure clarity.{'\n\n'}
 
-            4) The ATP Challenger Tour brand mark shall be positioned in its own clear space,
+            {'\t'}4) The ATP Challenger Tour brand mark shall be positioned in its own clear space,
             standing apart from other images and/or brand marks. In order to achieve this, an
             area of clear space equal to the width of the stem of the T must always be on all
             sides of the brand mark.{'\n\n'}
             
-            5) The ATP Challenger Tour brand mark may not be positioned like a sponsor. It
+            {'\t'}5) The ATP Challenger Tour brand mark may not be positioned like a sponsor. It
             should be separated from sponsor logos in order to stand out as an endorsement
             of the quality and authenticity of the tournament.
 

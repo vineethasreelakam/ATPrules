@@ -16,12 +16,12 @@ export default function Rule106({ navigation }) {
                     <HighlightText style={RuleStyles.Description}>
                         <HighlightText style={RuleStyles.SubHeading1}>7.16 Placement of Seeds - Main Draw
                         </HighlightText>
-                        {'\n\n'}
+                        {'\n\n\t'}
                         The procedures for placing seeds in the main draw are as follows:
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         A.Place seed 1 on line 1 and seed 2 on line 32 (32 draw), line 64 (64 draw) or line 128
                         (96 draw); and
-                        {'\n\n'}
+                        {'\n\n\t\t'}
                         B.To determine the location of the remaining seeds, draw in groups according to the
                         following chart:
                         {'\n\n'}

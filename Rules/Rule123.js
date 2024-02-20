@@ -17,7 +17,7 @@ export default function Rule123({ navigation }) {
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
             <HighlightText style={RuleStyles.SubHeading1}>8.07 Final Dispute Resolution</HighlightText>{'\n\n'}
-            {'\n\n'}
+            {'\n\n\t'}
             A.Any dispute between or among ATP, its Tournaments or its players (with the exception of any dispute relating to or arising out of a change in tournament class membership status) arising out of the application of any provision of this Rulebook which
             is not finally resolved by applicable provisions of the Rulebook shall be submitted
             exclusively to the Court of Arbitration for Sport (“CAS”) for final and binding arbitration
@@ -26,7 +26,7 @@ export default function Rule123({ navigation }) {
             claim, arbitration, lawsuit or litigation concerning the dispute shall be brought in any
             other court or tribunal. Any request for CAS arbitration shall be filed with CAS within
             21 days of any action by ATP which is the subject of the dispute.
-            {'\n\n'}
+            {'\n\n\t'}
             B.In the event any provision of this rule is determined invalid or unenforceable, the
             remaining provisions shall not be affected. This rule shall not fail because any part of
             the rule is held invalid.

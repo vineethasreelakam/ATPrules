@@ -15,7 +15,7 @@ export default function Rule122({ navigation }) {
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule2.png'}}/>
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
-            <HighlightText style={RuleStyles.SubHeading1}>8.06 Tennis Anti-Corruption Program (“TACP”)</HighlightText>{'\n\n'}
+            <HighlightText style={RuleStyles.SubHeading1}>8.06 Tennis Anti-Corruption Program (“TACP”)</HighlightText>{'\n\n\t'}
 
             Complete rules of the TACP can be found at 
             <HighlightText

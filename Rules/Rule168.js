@@ -14,7 +14,7 @@ export default function Rule168({ navigation }) {
           <HighlightText style={RuleStyles.MainHeading}>X. EXHIBITS</HighlightText>
           <ZoomText>
           <HighlightText style={RuleStyles.Description}>
-          <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT M - Special Exempts - ATP 250 to ATP 500 Events</HighlightText>{'\n\n'}
+          <HighlightText style={RuleStyles.SubHeading1}>EXHIBIT M - Special Exempts - ATP 250 to ATP 500 Events</HighlightText>{'\n\n\t'}
           Special Exempt from ATP Tour 250 – list of events.
           {'\n\n'}
           </HighlightText>
