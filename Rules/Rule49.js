@@ -923,7 +923,7 @@ export default function Rule49({ navigation }) {
             </HighlightText>
             </HighlightText>
             </ZoomText>
-            {'\t\t'}<ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_11.png'}}/>
+            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule49_11.png'}}/>
             <ZoomText>
             <HighlightText>{'\n\n'}</HighlightText>
             <HighlightText>

@@ -188,13 +188,13 @@ export default function Rule8({ navigation }) {
               follow:{"\n\n"}
             </HighlightText>
           </ZoomText>
-         {'\t'} <ImageViewerComponent
+         <ImageViewerComponent
             props={{
               ImageStyle: RuleStyles.ImageStyle,
               ImageName: "rule8_1.png",
             }}
           />
-          {'\t'}<ImageViewerComponent
+          <ImageViewerComponent
             props={{
               ImageStyle: RuleStyles.ImageStyle,
               ImageName: "rule8_2.png",
@@ -295,7 +295,7 @@ export default function Rule8({ navigation }) {
               shall have their bonus pool amount reduced as follows:{"\n"}
             </HighlightText>
           </ZoomText>
-          {'\t\t\t'}<ImageViewerComponent
+         <ImageViewerComponent
             props={{
               ImageStyle: RuleStyles.ImageStyle,
               ImageName: "rule8_3.png",

@@ -289,7 +289,7 @@ export default function Rule42({ navigation }) {
             to the discretion of 500 PM Committee as set forth in this rule):{'\n\n'}
             </HighlightText>
             </ZoomText>
-            {'\t\t'}<ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule42_1.png'}}/>
+            <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule42_1.png'}}/>
             <ZoomText>
             <HighlightText> {'\n\n'}
             {'\t\t\t'}* Specific amounts should depend on the severity of the violation and issue(s)

@@ -37,7 +37,7 @@ export default function Rule10({ navigation }) {
               {"\n\n"}
               {'\t'}The penalty for non attendance is the following:{"\n\n"}
             </HighlightText>
-            {'\t'}<ImageViewerComponent
+            <ImageViewerComponent
               props={{
                 ImageStyle: RuleStyles.ImageStyle,
                 ImageName: "rule10_1.png",

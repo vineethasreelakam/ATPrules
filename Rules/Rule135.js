@@ -19,14 +19,14 @@ export default function Rule135({ navigation }) {
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule135_1.png'}}/>
           
-          {'\t\t'}<HighlightText style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
             MUST be placed closest to the tournament logo of tournament title, away from sponsor logos.
              NEVER add to sponsor logo strips
             {'\n\n'}
           </HighlightText>
 
           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule135_2.png'}}/>
-          {'\t\t'}<HighlightText style={RuleStyles.Description}>
+          <HighlightText style={RuleStyles.Description}>
           MUST be placed closest to the tournament logo of tournament title, away from sponsor logos. 
           NEVER add to sponsor logo strips
             {'\n\n'}

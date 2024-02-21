@@ -181,7 +181,7 @@ export default function Rule43({ navigation }) {
             (subject to the discretion of 250 Committee as set forth in this rule):{'\n\n'}
 </HighlightText>
 </ZoomText>
-            {'\t\t'}<ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule43_1.png'}}/>
+           <ImageViewerComponent props={{ImageStyle:RuleStyles.ImageStyle, ImageName: 'rule43_1.png'}}/>
             <ZoomText>
 <HighlightText> {'\n\n'}
 
